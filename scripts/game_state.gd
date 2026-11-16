@@ -2,7 +2,7 @@ class_name MysteryState
 extends RefCounted
 ## Data-driven case progress. Invalid actions and failed loads never mutate it.
 
-const SAVE_VERSION := 4
+const SAVE_VERSION := 5
 const DetectiveRules = preload("res://scripts/detective_rules.gd")
 const SearchDefinition = preload("res://scripts/hidden_object_state.gd")
 const GAME_ID := "the-quiet-meridian"
@@ -157,7 +157,7 @@ func try_solve(id: String, answer: Variant) -> Dictionary:
 			inventory.append(item)
 	_resolve_completed_search_tasks()
 	last_error = ""
-	var insight_awarded: int = detective.reward_puzzle(id) if puzzle.type != "hidden" else 0
+	var insight_awarded: int = detective.reward_puzzle(id, str(puzzle.type)) if puzzle.type != "hidden" else 0
 	return {"ok": true, "text": puzzle.success, "puzzle": id, "insight_awarded":insight_awarded}
 
 
@@ -195,7 +195,7 @@ func save_game(path: String = "user://autosave.json") -> bool:
 	# invalid primary over a valid recovery copy.
 	if FileAccess.file_exists(path):
 		var previous: Variant = _parse_json(FileAccess.get_file_as_string(path))
-		if previous is Dictionary and _validate_save(previous).is_empty():
+		if previous is Dictionary and _validate_save(_upgrade_record(previous)).is_empty():
 			if DirAccess.copy_absolute(path, path + ".bak") != OK:
 				DirAccess.remove_absolute(temporary)
 				return _error("Could not preserve the previous save. No progress file was replaced.")
@@ -216,6 +216,7 @@ func load_game(path: String = "user://autosave.json") -> bool:
 	file.close()
 	if not parsed is Dictionary:
 		return _error("This save is damaged and could not be opened. No saved files have been changed.")
+	parsed = _upgrade_record(parsed)
 	var validation := _validate_save(parsed)
 	if not validation.is_empty():
 		return _error("This save could not be loaded: " + validation)
@@ -241,10 +242,12 @@ func load_game(path: String = "user://autosave.json") -> bool:
 				for item in searches[location].items: search_progress[location].append(item.id)
 				_award_search_evidence(location)
 		_resolve_completed_search_tasks()
-	if int(parsed.version) < SAVE_VERSION:
+	if int(parsed.version) < 4:
 		# Existing work is claimed with zero payout. Untimed partial searches receive
 		# a full first Detective attempt without losing any already-found objects.
-		detective.migrate(searches, search_progress, _puzzles, solved)
+		var durations := {}
+		for location in searches: durations[location] = _search_duration(location)
+		detective.migrate(searches, search_progress, _puzzles, solved, durations)
 	else:
 		detective.restore(parsed.detective)
 	# Version 1 predates the audiovisual mix controls. Validate its original
@@ -269,9 +272,21 @@ func _record() -> Dictionary:
 		"detective": detective.record(), "elapsed_seconds": elapsed_seconds}
 
 
+## Version 4 saves carry a Detective record under the old fixed tuning. Rewrite
+## it into the v5 shape (own clock, cumulative spend, starting balance) so it
+## validates and restores without losing any attempt, purchase or reward.
+func _upgrade_record(record: Dictionary) -> Dictionary:
+	var version: Variant = record.get("version")
+	if not (version is int or version is float) or float(version) != 4.0: return record
+	var upgraded := record.duplicate(true)
+	upgraded.detective = DetectiveRules.upgrade_v4(upgraded.get("detective"), searches)
+	upgraded.version = SAVE_VERSION
+	return upgraded
+
+
 func _validate_save(record: Dictionary) -> String:
 	var version: Variant = record.get("version")
-	if not (version is int or version is float) or float(version) not in [1.0, 2.0, 3.0, float(SAVE_VERSION)] or record.get("game") != GAME_ID:
+	if not (version is int or version is float) or float(version) not in [1.0, 2.0, 3.0, 4.0, float(SAVE_VERSION)] or record.get("game") != GAME_ID:
 		return "This save belongs to another game or an unsupported save version."
 	if not record.get("location") is String or not _locations.has(record.location):
 		return "The saved location is unknown."
@@ -355,6 +370,7 @@ func _validate_save(record: Dictionary) -> String:
 	var seconds: Variant = record.get("elapsed_seconds")
 	if not (seconds is int or seconds is float) or not is_finite(float(seconds)) or float(seconds) < 0.0:
 		return "The saved play duration is invalid."
+	if int(version) == 4: return "This version-4 save must be upgraded before validation."
 	if int(version) == SAVE_VERSION:
 		var detective_error := DetectiveRules.validate(record.get("detective"), searches, record.search_progress, _puzzles, record.solved)
 		if not detective_error.is_empty(): return detective_error
@@ -657,8 +673,15 @@ func _resolve_completed_search_tasks() -> void:
 func insight_balance() -> int:
 	return detective.insight
 
+## Clock budget for a fresh attempt. An existing attempt keeps its own recorded budget.
 func _search_duration(location: String) -> float:
-	return DetectiveRules.duration_for(searches[location].items.size())
+	return DetectiveRules.duration_for(searches[location].items.size(), _chapter_index(get_location(location).get("chapter", "")))
+
+func _chapter_index(id: String) -> int:
+	var chapters: Array = data.get("chapters", [])
+	for i in range(chapters.size()):
+		if chapters[i].id == id: return i
+	return 0
 
 func _current_search_available(location: String) -> bool:
 	return location == location_id and searches.has(location) and chapter_unlocked(get_location(location).chapter) and not search_complete(location)
@@ -667,12 +690,12 @@ func search_status(location: String = "") -> Dictionary:
 	if location.is_empty(): location = location_id
 	if not searches.has(location): return {}
 	var result: Dictionary = detective.search_snapshot(location,_search_duration(location))
-	result.duration = _search_duration(location)
 	result.complete = search_complete(location)
 	result.expired = not result.complete and float(result.remaining) <= 0
 	result.hint_cost = 0 if int(result.hints_used) == 0 else 1
 	result.hints_left = 3 - int(result.hints_used)
 	result.extensions_left = 2 - int(result.extensions)
+	result.clean = DetectiveRules.clean_search(result)
 	result.can_hint = _current_search_available(location) and not result.expired and result.hints_left > 0 and float(result.hint_cooldown) <= 0 and detective.insight >= int(result.hint_cost)
 	result.can_extend = _current_search_available(location) and result.extensions_left > 0 and detective.insight >= 1
 	return result
@@ -690,14 +713,17 @@ func register_search_miss(location: String = "") -> Dictionary:
 	if float(search_status(location).remaining) <= 0: return _failure("Time is up. Add time or restart this search.")
 	return detective.search_miss(location,_search_duration(location))
 
-func request_search_hint(location: String = "") -> Dictionary:
+## A hint highlights the chosen unfound object, or the first unfound one when none is chosen.
+func request_search_hint(location: String = "", target: String = "") -> Dictionary:
 	if location.is_empty(): location = location_id
 	if not _current_search_available(location): return _failure("This search is not available.")
 	if float(search_status(location).remaining) <= 0: return _failure("Time is up. Add time or restart this search.")
 	var result: Dictionary = detective.use_search_hint(location,_search_duration(location))
 	if not result.ok: return _failure(str(result.text))
+	var found: Array = search_progress.get(location,[])
+	var chosen := target if _search_item_exists(location, target) and target not in found else ""
 	for item in searches[location].items:
-		if item.id not in search_progress.get(location,[]):
+		if item.id not in found and (chosen.is_empty() or item.id == chosen):
 			result.id = item.id
 			result.text = "Look for the " + str(item.name).to_lower() + "."
 			last_error = ""
@@ -715,8 +741,9 @@ func retry_search(location: String = "") -> Dictionary:
 	if location.is_empty(): location = location_id
 	if not _current_search_available(location): return _failure("Only an unfinished current search can be restarted.")
 	if not search_status(location).expired: return _failure("Only an expired search can be restarted.")
-	var result: Dictionary = detective.restart_search(location,_search_duration(location))
-	search_progress.erase(location)
+	var total: int = searches[location].items.size()
+	var remaining_targets: int = total - search_progress.get(location, []).size()
+	var result: Dictionary = detective.restart_search(location, _search_duration(location), remaining_targets, total)
 	last_error = ""
 	return result
 

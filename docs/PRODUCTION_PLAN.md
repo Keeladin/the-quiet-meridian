@@ -1,6 +1,7 @@
 # Production plan and acceptance gates
 
-Status (15 November 2026): the full six-chapter hidden-object campaign is
+Status (16 November 2026): balance, puzzle and search-list revision applied;
+see the final section. Status (15 November 2026): the full six-chapter hidden-object campaign is
 implemented on `feature/classic-hidden-object`, with 36 searches, 507 finds,
 room rewards, chapter gates and 36 licensed room atmospheres. This is a new
 playable development build, not final release acceptance. Earlier alpha and
@@ -283,3 +284,53 @@ but are not active music selections. Exact source provenance, attribution and
 licence evidence are recorded separately in `LICENSES.md` and the asset records.
 This routing change does not establish subjective mix or listening acceptance;
 those production checks remain open.
+
+## Balance, puzzle and search-list revision — 16 November 2026
+
+Follows an external design review of Campaign v4. The review found no scarcity
+in Insight (about 160 earnable against a small useful spend), a generous and
+uniform clock, a restart that wiped all finds, deductions whose wrong answers
+were throwaways, instructions that stated their own answers, the correct
+deduction answer listed third in 11 of 14 puzzles, heavy repetition of search
+targets (Plume in 26 of 36 rooms) and later searches with larger targets than
+chapters two to four.
+
+Economy (save version 5): four starting Insight; a first search clear pays 1, plus
+1 for a clean clear (no rapid-click penalty, no paid hint, no restart; the free
+hint and bought time are allowed); a deduction pays 1 only without a paid hint;
+assembly pays nothing. Hint cooldown is 30 seconds. Standard search clocks are
+8:00, 7:00, 6:30, 6:00, 5:30 and 5:00 by chapter; the 17-object opening keeps
+ten minutes. Restarting an expired search keeps its finds, starts a clock for
+the remaining objects (minimum 90 s), refunds nothing and keeps hint use.
+
+Saves now record each attempt's own clock budget, restart count and cumulative
+spend, and the case's starting balance. Validation checks the ledger's internal
+consistency instead of the current tuning constants, so later rebalancing does
+not invalidate saves. Version-4 saves are upgraded in place on load with their
+balance, purchases and rewards unchanged, and remain valid as backups.
+
+Search interaction: choosing a name in the list aims the next hint at it, and
+a click within seven screen pixels of an outline counts, with unfound objects
+taking priority over found ones. From chapter three the most repeated objects
+are listed by rotating riddle clues (per room: 4, 6, 9 and 11 of 14 in
+chapters three to six); finding the object or hinting it reveals its name.
+
+Puzzles: every deduction and choice option is now a reading a character or
+record supports, refutable from a specific clue. Answer positions are spread
+across all four slots. Instructions that restated a solution or its method
+(p07, p19, p22, p23, p37, p38, p45, p47, p57, p59) now point to the evidence,
+and six clue sentences that stated a deduction's conclusion were removed.
+Assembly instructions describe the need rather than naming the two items; the
+third hint still names them. Solutions and dependency edges are unchanged, and
+the 17 independent puzzle oracles still derive the authored answers.
+
+Code: the packaged smoke check moved from `main.gd` to `scripts/smoke_test.gd`
+(the `--smoke-test` flag remains for package verification). Player archives
+now carry only the guide and licence documents; development reports stay in
+the repository and source archive. `main.gd` is otherwise not yet split: UI
+tests address its internals directly, so the split needs its own pass.
+
+None of these values have been measured with blind first-time players. The
+riddle wording, clock lengths and Insight prices are the first things to check
+in playtesting. Assembly steps remain lightweight two-item combinations; a
+deeper redesign is still open.

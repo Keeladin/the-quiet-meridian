@@ -279,7 +279,7 @@ func _test_av_save_migration() -> void:
 	state.settings.subtitles = false
 	_expect(state.save_game(path), "migrated progress saves with Detective state")
 	var saved: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(path))
-	_expect(saved.version == State.SAVE_VERSION and saved.version == 4, "migrated save has explicit current version")
+	_expect(saved.version == State.SAVE_VERSION and saved.version == 5, "migrated save has explicit current version")
 	var migrated := _snapshot(state)
 	_expect(state.load_game(path) and _snapshot(state) == migrated, "all four AV preferences roundtrip")
 	_expect(state.load_backup(path), "valid original alpha checkpoint retained as backup")

@@ -100,7 +100,8 @@ func _ready() -> void:
 	audio.voice_finished.connect(_on_voice_finished)
 	_apply_audio()
 	if "--smoke-test" in OS.get_cmdline_user_args():
-		await _smoke()
+		# The packaging check runs this against exported builds; it lives outside gameplay code.
+		await load("res://scripts/smoke_test.gd").new().run(self)
 		return
 	_show_title()
 	for argument in OS.get_cmdline_user_args():
@@ -1101,7 +1102,7 @@ func _settings() -> void:
 			if setting[0] == "reduced_motion" and is_instance_valid(environment_stage): environment_stage.set_reduced_motion(value)
 			_save_preferences()
 			if setting[0] == "fullscreen": DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN if value else DisplayServer.WINDOW_MODE_WINDOWED))
-	_label(box, "Detective searches are timed. Five rapid misses in three seconds cost ten seconds. Each search or deduction allows three hints: the first is free, the next two cost one Insight each, with a 45-second cooldown. One Insight buys 30 seconds, at most twice per search. Searches pause while covered by a panel or when the game loses focus. Three wrong deduction answers within a minute impose a ten-second submission cooldown. Tab moves focus and Enter activates. J or C opens the Casebook; M opens the map; I opens inventory; F1 requests a search hint; F11 toggles fullscreen. Scroll or +/− zooms, right-drag pans. Focus the picture and use arrows and Enter to search by keyboard. Larger text applies when a panel is reopened.", 22, MUTED)
+	_label(box, "Detective searches are timed, and the clock tightens in later chapters. Five rapid misses in three seconds cost ten seconds. A first clear earns 1 Insight, plus 1 for a clean clear: no rapid-click penalty, no paid hint and no restart. A deduction solved without a paid hint earns 1 Insight. Each search or deduction allows three hints: the first is free, the next two cost one Insight each, with a 30-second cooldown. Choose a name in the search list to aim your next hint at it. One Insight buys 30 seconds, at most twice per clock. Restarting an expired search keeps your finds and starts a shorter clock. Searches pause while covered by a panel or when the game loses focus. Three wrong deduction answers within a minute impose a ten-second submission cooldown. Tab moves focus and Enter activates. J or C opens the Casebook; M opens the map; I opens inventory; F1 requests a search hint; F11 toggles fullscreen. Scroll or +/− zooms, right-drag pans. Focus the picture and use arrows and Enter to search by keyboard. Larger text applies when a panel is reopened.", 22, MUTED)
 	_button(box, "Apply and return", func():
 		if playing: _show_location()
 		else: _show_title())
@@ -1165,79 +1166,6 @@ func _fatal(value: String) -> void:
 	if "--smoke-test" in OS.get_cmdline_user_args():
 		push_error(value)
 		get_tree().quit(1)
-
-func _smoke() -> void:
-	# Exercises real presentation paths without using or overwriting player saves.
-	var probe: String = "user://package-smoke-probe.json"
-	if not state.save_game(probe) or not state.save_game(probe) or not state.load_game(probe) or not state.load_game(probe + ".bak"):
-		push_error("Packaged save roundtrip failed: " + state.last_error)
-		get_tree().quit(1)
-		return
-	DirAccess.remove_absolute(probe)
-	DirAccess.remove_absolute(probe + ".bak")
-	for path in ["res://assets/art/portraits/cast.png", "res://assets/art/inventory-atlas.png", "res://assets/art/evidence-atlas.png"]:
-		if _texture(path) == null:
-			push_error("Missing packaged atlas: " + path)
-			get_tree().quit(1)
-			return
-	for category in ["music", "ambience", "sfx"]:
-		if audio_catalog.get(category, {}).is_empty():
-			push_error("Missing audio catalog category: " + category)
-			get_tree().quit(1)
-			return
-		for cue in audio_catalog[category].values():
-			var path: String = str(cue.path)
-			if not ResourceLoader.exists(path) or not load(path) is AudioStream:
-				push_error("Missing packaged audio: " + path)
-				get_tree().quit(1)
-				return
-	for id in ["iona", "mara", "rowan", "nadi", "sera", "elian", "ada"]:
-		if _texture("res://assets/art/characters/" + id + "-expressions.png") == null:
-			push_error("Missing packaged expression atlas: " + id)
-			get_tree().quit(1)
-			return
-	var packaged_voices := 0
-	for id in voice_catalog.get("lines", {}):
-		var entry: Dictionary = voice_catalog.lines[id]
-		var voice_path := str(entry.get("path", ""))
-		if voice_path.is_empty(): continue
-		var stream := load(voice_path) as AudioStream
-		if stream == null or not audio.has_voice(str(id)) or stream.get_length() <= 0.0 or absf(stream.get_length() - float(entry.duration)) > 0.1:
-			push_error("Missing or invalid packaged voice: " + str(id))
-			get_tree().quit(1)
-			return
-		packaged_voices += 1
-	for location in state.data.locations:
-		var art := _texture(str(location.art))
-		if art == null or art.get_width() < 1:
-			push_error("Missing packaged illustration: " + str(location.art))
-			get_tree().quit(1)
-			return
-	for definition in state.searches.values():
-		if not ResourceLoader.exists(str(definition.art)) or _texture(str(definition.art)) == null:
-			push_error("Missing packaged search painting: " + str(definition.art))
-			get_tree().quit(1)
-			return
-	_show_title()
-	await get_tree().process_frame
-	playing = true
-	_show_location()
-	await get_tree().process_frame
-	_map()
-	await get_tree().process_frame
-	_casebook()
-	await get_tree().process_frame
-	_casebook("story")
-	await get_tree().process_frame
-	_journal()
-	await get_tree().process_frame
-	_inventory()
-	await get_tree().process_frame
-	_settings()
-	await get_tree().process_frame
-	_close_modal()
-	print("QUIET_MERIDIAN_SMOKE_OK: 36 hidden-object rooms, authored target lists and room audio, expression atlases, save roundtrip, title, map, casebook, inventory and settings; %d packaged voices decoded" % packaged_voices)
-	await _quit_game()
 
 func _atlas(path: String, index: int, columns: int, rows: int) -> AtlasTexture:
 	var texture := _texture(path)
@@ -1395,8 +1323,8 @@ func _search_expired() -> void:
 	_label(box, "This search is paused. Your earlier discoveries and completed rooms are safe.", 25, PAPER, true)
 	_label(box, "Insight available: %d · Time extensions used: %d / 2" % [state.insight_balance(), int(status.extensions)], 22, GOLD)
 	if status.can_extend: _button(box, "Add 30 seconds · 1 Insight", _extend_search)
-	_button(box, "Restart this search", _restart_search)
-	_label(box, "Restarting clears this room’s finds, restores its full clock and refunds the Insight spent on this attempt.", 21, MUTED)
+	_button(box, "Restart the clock", _restart_search)
+	_label(box, "Restarting keeps every object you have found and starts a shorter clock for the ones that remain. Insight already spent is not refunded, and the room no longer earns its clean-search bonus.", 21, MUTED)
 	_button(box, "Choose another location", _map)
 	_button(box, "Save and return to title", _save_and_return_to_title)
 

@@ -2,6 +2,7 @@ class_name HiddenObjectCanvas
 extends Control
 signal object_selected(id: String)
 signal empty_selected
+const CLICK_TOLERANCE_PIXELS := 7.0
 var search: HiddenObjectState
 var painting: Texture2D
 var zoom := 1.0
@@ -55,7 +56,9 @@ func _clamp_centre() -> void:
 func select_point(point: Vector2) -> void:
 	if not picture_rect().has_point(point) or search == null: return
 	var normalized := to_image(point)
-	var id := search.hit_at(normalized)
+	# Forgive near-misses of a few screen pixels, independent of zoom and window size.
+	var tolerance := Vector2(CLICK_TOLERANCE_PIXELS, CLICK_TOLERANCE_PIXELS) / (picture_rect().size * zoom)
+	var id := search.hit_at(normalized, tolerance)
 	if id.is_empty():
 		empty_selected.emit()
 		return

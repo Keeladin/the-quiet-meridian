@@ -12,6 +12,8 @@ func configure(value: Dictionary) -> bool:
 	for item in value.items:
 		if not item is Dictionary or not item.get("id") is String or not item.get("name") is String or ids.has(item.id):
 			return _error("Search objects need unique names and identifiers.")
+		if item.has("clue") and (not item.clue is String or str(item.clue).strip_edges().is_empty()):
+			return _error("A riddle clue must be non-empty text.")
 		var alternatives: Variant = item.get("alternatives", [])
 		if not alternatives is Array: return _error("Alternative matches must be a list of shapes.")
 		var regions: Array = [item.get("polygon")]
@@ -39,15 +41,53 @@ func object_by_id(id: String) -> Dictionary:
 		if item.id == id: return item
 	return {}
 
-func hit_at(point: Vector2) -> String:
+## Exact hits win. Otherwise a click within `tolerance` (normalized image units
+## per axis, so screen pixels convert correctly on non-square pictures) of an
+## outline counts, nearest outline first. Unfound objects take priority over
+## found ones so a crossed-off object can never shadow a remaining target.
+func hit_at(point: Vector2, tolerance := Vector2.ZERO) -> String:
+	var ordered: Array = []
 	for item in definition.get("items", []):
-		var regions: Array = [item.polygon]
-		regions.append_array(item.get("alternatives", []))
-		for region in regions:
-			var polygon := PackedVector2Array()
-			for vertex in region: polygon.append(Vector2(vertex[0], vertex[1]))
+		if str(item.id) not in found: ordered.append(item)
+	for item in definition.get("items", []):
+		if str(item.id) in found: ordered.append(item)
+	for item in ordered:
+		for polygon in _regions(item):
 			if Geometry2D.is_point_in_polygon(point, polygon): return str(item.id)
-	return ""
+	if tolerance.x <= 0.0 or tolerance.y <= 0.0: return ""
+	var near := _nearest_within(point, tolerance, ordered.filter(func(item): return str(item.id) not in found))
+	if near.is_empty(): near = _nearest_within(point, tolerance, ordered.filter(func(item): return str(item.id) in found))
+	return near
+
+## Nearest outline within the tolerance ellipse, measured where it is a unit circle.
+func _nearest_within(point: Vector2, tolerance: Vector2, items: Array) -> String:
+	var scaled := point / tolerance
+	var best := ""
+	var best_distance := 1.0
+	for item in items:
+		for polygon in _regions(item):
+			for i in range(polygon.size()):
+				var a: Vector2 = polygon[i] / tolerance
+				var b: Vector2 = polygon[(i + 1) % polygon.size()] / tolerance
+				var distance := scaled.distance_to(Geometry2D.get_closest_point_to_segment(scaled, a, b))
+				if distance <= best_distance:
+					best_distance = distance
+					best = str(item.id)
+	return best
+
+func _regions(item: Dictionary) -> Array[PackedVector2Array]:
+	var regions: Array[PackedVector2Array] = []
+	var sources: Array = [item.polygon]
+	sources.append_array(item.get("alternatives", []))
+	for region in sources:
+		var polygon := PackedVector2Array()
+		for vertex in region: polygon.append(Vector2(vertex[0], vertex[1]))
+		regions.append(polygon)
+	return regions
+
+## Text shown in the search list: a riddle while hidden (later chapters), the plain name once found.
+func list_text(item: Dictionary) -> String:
+	return str(item.name) if str(item.id) in found or not item.has("clue") else str(item.clue)
 
 func complete() -> bool:
 	return not definition.is_empty() and found.size() == definition.items.size()

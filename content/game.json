@@ -404,7 +404,7 @@
           "label": "Cook’s lunch tin",
           "x": 0.77,
           "y": 0.61,
-          "text": "Inside the lunch tin, the cook’s separate note says Ada’s messenger arrived before the bell apprentice. Elian’s runner came after Rowan but before the post carrier. The runner asked whether the houses were clear; the council courier later answered yes without producing a household list. The note records a claim, not a verified evacuation."
+          "text": "Inside the lunch tin, the cook’s separate note says Ada’s messenger arrived before the bell apprentice. Elian’s runner came after Rowan but before the post carrier. The runner asked whether the houses were clear; the council courier later answered yes without producing a household list."
         }
       ]
     },
@@ -436,7 +436,7 @@
           "label": "Rowan’s closure order",
           "x": 0.77,
           "y": 0.61,
-          "text": "The closure order bears the magistrate’s office stamp. It says EAST REACH EVACUATED — CLOSE PUBLIC FOOTWAY. It does not instruct Rowan to inspect the houses. His signed receipt establishes obedience, not the truth of the claim."
+          "text": "The closure order bears the magistrate’s office stamp. It says EAST REACH EVACUATED — CLOSE PUBLIC FOOTWAY. It does not instruct Rowan to inspect the houses."
         }
       ]
     },
@@ -643,7 +643,7 @@
           "label": "Bearing rose",
           "x": 0.5,
           "y": 0.42,
-          "text": "The roof’s compass rose names NORTH, EAST, SOUTH and WEST clockwise. From NORTH, a clockwise quarter-turn reaches EAST; a further half-turn reaches the opposite point. The old clinic stands on that final bearing. Ada’s relay requirement is written beside the rose: choose the route with the lowest TOTAL signal loss, not the fewest rooftops. All listed links are operational tonight."
+          "text": "The roof’s compass rose names NORTH, EAST, SOUTH and WEST clockwise. The old clinic stands on that final bearing. Ada’s relay requirement is written beside the rose: choose the route with the lowest TOTAL signal loss, not the fewest rooftops. All listed links are operational tonight."
         },
         {
           "id": "ch3_l6_c",
@@ -766,7 +766,7 @@
           "label": "Evacuation plan",
           "x": 0.5,
           "y": 0.42,
-          "text": "The real plan required house-by-house marks, a ferryperson’s count and clinic confirmation. The return the council filed contains only the number of empty beds in the west barracks. Empty beds are capacity, not evidence of evacuated people."
+          "text": "The real plan required house-by-house marks, a ferryperson’s count and clinic confirmation. The return the council filed contains only the number of empty beds in the west barracks."
         },
         {
           "id": "ch4_l4_c",
@@ -981,7 +981,7 @@
           "label": "Trust payment",
           "x": 0.5,
           "y": 0.42,
-          "text": "The trust ledger describes the remaining gain as “clear title premium.” The payment date is the day after the records store flooded. The trust beneficiary is Dorian Rusk. This establishes material benefit; the signed instruction establishes intent."
+          "text": "The trust ledger describes the remaining gain as “clear title premium.” The payment date is the day after the records store flooded. The trust beneficiary is Dorian Rusk."
         },
         {
           "id": "ch5_l5_c",
@@ -1018,7 +1018,7 @@
           "label": "Late assurance",
           "x": 0.77,
           "y": 0.61,
-          "text": "The dispatch log records the evacuation return at 00:22. Its attached instruction says “Use the west barracks capacity; do not delay for household checks,” in Rusk’s signed hand. His earlier petition receipt acknowledges occupied houses. The two documents remove the possibility that he merely trusted a completed evacuation."
+          "text": "The dispatch log records the evacuation return at 00:22. Its attached instruction says “Use the west barracks capacity; do not delay for household checks,” in Rusk’s signed hand. His earlier petition receipt acknowledges occupied houses."
         }
       ]
     },
@@ -1265,7 +1265,7 @@
       "title": "The displaced catalogue",
       "type": "choice",
       "prompt": "Which shelf ticket names the folio Mara was seeking?",
-      "details": "Use the catalogue hierarchy and the exact district, year and type. The replacement label is not necessarily reliable.",
+      "details": "Use the catalogue hierarchy and the exact district, year and type.",
       "solution": "C — East / 17 / works order",
       "clues": [
         "ch1_l3_a",
@@ -1275,8 +1275,8 @@
       "options": [
         "B — East / 17 / tide return",
         "D — North / 17 / works order",
-        "C — East / 17 / works order",
-        "A — East / 17 / petition"
+        "A — East / 17 / petition",
+        "C — East / 17 / works order"
       ],
       "hints": [
         "Read all three parts of the catalogue reference.",
@@ -1295,7 +1295,7 @@
       "title": "A repair that can be undone",
       "type": "assembly",
       "prompt": "Prepare a reversible support for the damaged folio.",
-      "details": "Combine repair tissue and wheat paste in the inventory. Then apply the resulting repair kit here.",
+      "details": "The torn folio needs a support that can be removed later without damage. Prepare it from your satchel, then apply it here.",
       "solution": "assembled",
       "clues": [
         "ch1_l3_c",
@@ -1398,7 +1398,7 @@
       "title": "The tide shutter",
       "type": "sequence",
       "prompt": "Operate the shutter’s maintenance interlock.",
-      "details": "Select the engraved button sequence. Buttons may be used more than once. Do not omit the repeated rising-water step.",
+      "details": "Select the engraved button sequence. A button may be pressed more than once.",
       "solution": [
         "SHORE",
         "CHANNEL",
@@ -1433,7 +1433,7 @@
       "title": "The small bell",
       "type": "assembly",
       "prompt": "Restore the practice bell’s pull without touching the harbour alarm.",
-      "details": "Combine the flax bell cord with the brass bell hook in inventory, then fit the repaired pull.",
+      "details": "The practice bell needs a working pull that does not touch the harbour alarm. Make one from what you have gathered, then fit it.",
       "solution": "assembled",
       "clues": [
         "ch1_l5_c",
@@ -1495,7 +1495,7 @@
       "title": "The borrowed bell",
       "type": "deduction",
       "prompt": "Which account best fits the independent records?",
-      "details": "Your conclusion must explain the paid passage, the returned key, the repaired folio and the witnessed departure.",
+      "details": "Your account must fit every timed record and every signature.",
       "solution": "Mara left deliberately, carrying evidence toward the works",
       "clues": [
         "ch1_l1_b",
@@ -1516,10 +1516,10 @@
         "p09"
       ],
       "options": [
-        "Mara fell into the harbour before 17:10",
-        "Mara was seized in the boarding house",
+        "Mara missed the 18:40 boat and fell into the harbour",
         "Mara left deliberately, carrying evidence toward the works",
-        "Mara never collected the archive parcel"
+        "Mara was taken from the boarding house after returning the key",
+        "Someone else collected the parcel and paid the fare in Mara’s name"
       ],
       "hints": [
         "Test each claim against the timed records.",
@@ -1647,7 +1647,7 @@
       "title": "The square drive",
       "type": "assembly",
       "prompt": "Prepare the safe bypass test tool.",
-      "details": "Combine the coupling from the gallery with the insulated crank from the machine-room drawer, then use it in the disconnected socket.",
+      "details": "The disconnected socket takes a square drive, and the test must be made safely. Build the tool from your satchel, then use it here.",
       "solution": "assembled",
       "clues": [
         "ch2_l2_b",
@@ -1677,7 +1677,7 @@
       "title": "A pressure without a tide",
       "type": "deduction",
       "prompt": "Which source explains the recorder and the test socket?",
-      "details": "Choose the explanation consistent with an unchanged main gate, rising bypass pressure and a tide that turns later.",
+      "details": "Account for the sediment, the order of the pressure readings and the socket’s positions.",
       "solution": "Upper reservoir water entered through the council bypass",
       "clues": [
         "ch2_l1_a",
@@ -1688,10 +1688,10 @@
         "p14"
       ],
       "options": [
-        "The harbour tide forced open Tomas’s gate",
-        "Rain alone filled every street at once",
         "Upper reservoir water entered through the council bypass",
-        "The recorder ran backwards"
+        "An unusually high harbour tide overtopped Tomas’s gate",
+        "Heavy rain raised the Reach before the bypass was touched",
+        "Reservoir water leaked through Tomas’s residential gate"
       ],
       "hints": [
         "The main gate trace does not move.",
@@ -1751,7 +1751,7 @@
       "title": "What Rowan can actually prove",
       "type": "deduction",
       "prompt": "Which statement is supported by Rowan’s account and the cook’s note?",
-      "details": "Distinguish a witnessed order from an unverified claim inside that order.",
+      "details": "Separate what each witness saw from what they were told.",
       "solution": "Rowan closed the footway after receiving an unverified evacuation claim",
       "clues": [
         "ch2_l4_b",
@@ -1762,10 +1762,10 @@
         "p16"
       ],
       "options": [
-        "Rowan personally inspected every house",
-        "The cook witnessed Rusk opening the bypass",
-        "Rowan closed the footway after receiving an unverified evacuation claim",
-        "Every resident had already reached the ferry"
+        "Rowan checked the houses before locking the footway",
+        "The council courier’s answer confirmed that the Reach was empty",
+        "Rowan locked the footway on his own authority",
+        "Rowan closed the footway after receiving an unverified evacuation claim"
       ],
       "hints": [
         "A message can be delivered honestly and still be false.",
@@ -1784,7 +1784,7 @@
       "title": "The key that could not fit",
       "type": "assembly",
       "prompt": "Mount the two key profiles for comparison.",
-      "details": "Combine Tomas’s gate-key tracing with the bypass lock profile. Their shoulders must be aligned, not their tips.",
+      "details": "Compare Tomas’s key with the bypass lock. Their shoulders must be aligned, not their tips.",
       "solution": "assembled",
       "clues": [
         "ch2_l5_a",
@@ -1813,7 +1813,7 @@
       "title": "The path of the surge",
       "type": "order",
       "prompt": "Put the water’s physical route in order.",
-      "details": "Use all four stages. Begin at the source identified by the red grit and pressure roll.",
+      "details": "Use all four stages, starting at the source of the red grit.",
       "solution": [
         "RESERVOIR",
         "BYPASS",
@@ -1851,7 +1851,7 @@
       "title": "The gate above the gate",
       "type": "deduction",
       "prompt": "Which finding is now defensible?",
-      "details": "Identify what the machinery proves. Do not yet accuse a particular person of turning the bypass; physical access is not individual identity.",
+      "details": "State only what the machinery proves.",
       "solution": "The flood was a deliberate reservoir diversion through the council bypass",
       "clues": [
         "ch2_l3_b",
@@ -1873,10 +1873,10 @@
         "p10"
       ],
       "options": [
-        "Tomas opened his own sluice to the harbour",
         "The flood was a deliberate reservoir diversion through the council bypass",
-        "Rowan alone must have turned the bypass",
-        "The tide table proves nobody touched a gate"
+        "Tomas’s gate failed under a surge from the harbour",
+        "Rowan must have turned the bypass, since he held the footway keys",
+        "The bypass slipped open on its own under reservoir pressure"
       ],
       "hints": [
         "The route and interlock establish an operation, but not the operator’s name.",
@@ -1923,7 +1923,7 @@
       "title": "Four minutes fast",
       "type": "code",
       "prompt": "Convert the works reading to meridian time.",
-      "details": "The works clock reads 00:18 and runs four minutes fast. Enter the corrected time as four digits, without punctuation.",
+      "details": "Enter the corrected meridian time as four digits, without punctuation.",
       "solution": "0014",
       "clues": [
         "ch3_l1_b",
@@ -1950,7 +1950,7 @@
       "title": "Six exposures",
       "type": "order",
       "prompt": "Put the observatory events in time order.",
-      "details": "Arrange six events in actual meridian-time order. Convert each envelope’s reading using the clock named on it. A slow clock needs time added; a fast clock needs time subtracted. Every event is used once.",
+      "details": "Arrange six events in actual meridian-time order. Each envelope’s reading belongs to the clock named on it. Every event is used once.",
       "solution": [
         "Reservoir steady",
         "Bypass opens",
@@ -1992,7 +1992,7 @@
       "title": "Light through glass",
       "type": "assembly",
       "prompt": "Assemble a viewer for the fragile original plate.",
-      "details": "Combine the viewing lens and brass viewer frame. Use diffuse light, preserving the plate surface.",
+      "details": "The original plate is too fragile to handle. Assemble something that lets you study it in diffuse light.",
       "solution": "assembled",
       "clues": [
         "ch3_l1_a",
@@ -2101,7 +2101,7 @@
       "title": "A clock is not a witness",
       "type": "assembly",
       "prompt": "Build Ada’s demonstration of the stopped-clock fault.",
-      "details": "Combine the spare spring and detached spindle. Leave the preserved original instrument untouched.",
+      "details": "Ada wants to show how a stopped clock lies without touching the preserved original. Build her a working demonstration.",
       "solution": "assembled",
       "clues": [
         "ch3_l5_a",
@@ -2159,7 +2159,7 @@
       "title": "The clinic bearing",
       "type": "choice",
       "prompt": "Which direction does Mara’s bearing instruction indicate?",
-      "details": "Start NORTH, turn one quarter-turn clockwise, then a half-turn. Use the roof’s labelled compass rose.",
+      "details": "Follow Mara’s bearing instruction on the roof’s compass rose.",
       "solution": "WEST",
       "clues": [
         "ch3_l4_c",
@@ -2170,8 +2170,8 @@
       ],
       "options": [
         "NORTH",
-        "SOUTH",
         "WEST",
+        "SOUTH",
         "EAST"
       ],
       "hints": [
@@ -2191,7 +2191,7 @@
       "title": "The unstruck hour",
       "type": "deduction",
       "prompt": "What does the corrected timeline establish?",
-      "details": "Choose the narrow conclusion supported by both machinery and independent optical records.",
+      "details": "Use only timestamps that survive correction.",
       "solution": "The bypass was open about eight minutes before the evacuation return was dispatched",
       "clues": [
         "ch3_l3_a",
@@ -2213,10 +2213,10 @@
         "p20"
       ],
       "options": [
-        "The evacuation was independently verified at 00:05",
+        "The evacuation return arrived at 00:05, before the bypass opened",
+        "The bypass opened at 00:18, only four minutes before the return was dispatched",
         "The bypass was open about eight minutes before the evacuation return was dispatched",
-        "The plate proves every council member knew the houses were occupied",
-        "The clocks disagree too much to establish any order"
+        "The warning flare at 00:16 went up before the bypass opened"
       ],
       "hints": [
         "The two valid times are 00:14 and 00:22.",
@@ -2346,7 +2346,7 @@
       "title": "The page and its absence",
       "type": "assembly",
       "prompt": "Rejoin the clinic leaf to its surviving binding evidence.",
-      "details": "Combine the loose register leaf and binding stub. Preserve the tear as evidence of their original connection.",
+      "details": "Prove the loose clinic leaf belongs to this register. Preserve the tear as evidence of their original connection.",
       "solution": "assembled",
       "clues": [
         "ch4_l2_b",
@@ -2444,7 +2444,7 @@
       "title": "The unaddressed names",
       "type": "code",
       "prompt": "How many people would the city omit by counting only patients and named family members?",
-      "details": "The monument’s total includes everyone. Subtract the register’s patient and family groups to recover the omitted lodger category; check the result against the names on the garden stones. Use the transcribed names, not the number of weathered stones.",
+      "details": "Enter the number of people the city omits when it counts only patients and named family members.",
       "solution": "6",
       "clues": [
         "ch4_l2_b",
@@ -2474,7 +2474,7 @@
       "title": "A friend at the door",
       "type": "sequence",
       "prompt": "Give the refuge’s complete visitor signal.",
-      "details": "Use KNOCK and PAUSE, including both separating pauses. Do not insert a pause between the two middle knocks.",
+      "details": "Reproduce the refuge’s complete visitor signal, pauses included.",
       "solution": [
         "KNOCK",
         "PAUSE",
@@ -2510,7 +2510,7 @@
       "title": "Keep the original",
       "type": "assembly",
       "prompt": "Protect Mara’s tracing for the return journey.",
-      "details": "Combine the original tracing with archival backing. The missing authorisation flap remains a gap in the evidence; do not fill it by assumption.",
+      "details": "Mara’s tracing must survive the journey back. The missing authorisation flap remains a gap; do not fill it by assumption.",
       "solution": "assembled",
       "clues": [
         "ch4_l3_c",
@@ -2540,7 +2540,7 @@
       "title": "People, not capacity",
       "type": "deduction",
       "prompt": "Why does the council’s evacuation return fail?",
-      "details": "Compare the actual evacuation plan, the filed return, the clinic register and the ferry record.",
+      "details": "Compare what the plan required with what the council actually filed.",
       "solution": "It counted empty beds instead of verifying that residents had left",
       "clues": [
         "ch4_l1_c",
@@ -2562,10 +2562,10 @@
         "p30"
       ],
       "options": [
-        "It used the wrong colour of ink",
-        "It counted empty beds instead of verifying that residents had left",
-        "It listed twenty-four victims instead of twenty-three",
-        "Mara’s disappearance alone proves it false"
+        "It relied on the ferryperson’s count, which missed unnamed passengers",
+        "It was accurate: the houses were empty when the warning flare went up",
+        "It left out the clinic’s patients but was otherwise a household count",
+        "It counted empty beds instead of verifying that residents had left"
       ],
       "hints": [
         "The plan required people to be checked at several stages.",
@@ -2612,7 +2612,7 @@
       "title": "Who could order the water?",
       "type": "deduction",
       "prompt": "Which office held authority to authorise the diversion?",
-      "details": "Separate authorising, operating, transmitting and maintaining. Use the authority ledger rather than a character’s social status.",
+      "details": "Separate authorising, operating, transmitting and maintaining.",
       "solution": "The magistrate authorised; the engineer operated",
       "clues": [
         "ch5_l2_a",
@@ -2622,10 +2622,10 @@
         "p41"
       ],
       "options": [
-        "The lockkeeper authorised every water movement",
-        "The clerk could authorise a diversion by sealing it",
         "The magistrate authorised; the engineer operated",
-        "The engineer’s operation proves he alone authorised it"
+        "The engineer authorised the diversion by operating it",
+        "The clerk authorised it by sealing and transmitting the order",
+        "The lockkeeper authorised it, since he controlled the gates"
       ],
       "hints": [
         "A machine operator and an authorising officer need not be the same person.",
@@ -2686,7 +2686,7 @@
       "title": "A seal and its limits",
       "type": "assembly",
       "prompt": "Authenticate the office seal on the original counterfoil.",
-      "details": "Combine the wax impression and seal-register rubbing. This proves the office seal; retain the separate signature evidence for personal attribution.",
+      "details": "Authenticate the office seal on the counterfoil. This proves the office, not the person; keep the signature evidence separate.",
       "solution": "assembled",
       "clues": [
         "ch5_l3_b",
@@ -2716,7 +2716,7 @@
       "title": "A case a reader can follow",
       "type": "order",
       "prompt": "Arrange Sera’s five account blocks.",
-      "details": "Use the public sitting’s causal order: event, time, authority, purpose, consequence. Every block is used once.",
+      "details": "Arrange Sera’s blocks in the order the publication rules require. Every block is used once.",
       "solution": [
         "ACT",
         "TIME",
@@ -2756,7 +2756,7 @@
       "title": "Print only what you can prove",
       "type": "assembly",
       "prompt": "Prepare the publication proof with its citations.",
-      "details": "Combine the corrected type forme and proofing sheet. The original records remain separate from this distributable copy.",
+      "details": "Sera needs a proof that carries its citations. The original records stay separate from this distributable copy.",
       "solution": "assembled",
       "clues": [
         "ch5_l4_a",
@@ -2786,7 +2786,7 @@
       "title": "The clear-title premium",
       "type": "code",
       "prompt": "Calculate the private gain shown by the acquisition account.",
-      "details": "Subtract the option cost and legitimate survey fee from the transfer payout. Enter the remaining number of crowns.",
+      "details": "Enter the private gain, in crowns, shown by the acquisition account.",
       "solution": "150",
       "clues": [
         "ch5_l5_a",
@@ -2813,7 +2813,7 @@
       "title": "Relief for whom?",
       "type": "deduction",
       "prompt": "What does the premium establish?",
-      "details": "Use the trust ledger and accountant’s note. Do not confuse financial benefit with independent proof of the signed order.",
+      "details": "Say exactly what the money proves, and no more.",
       "solution": "Rusk personally benefited from the land transfer",
       "clues": [
         "ch5_l5_a",
@@ -2824,10 +2824,10 @@
         "p47"
       ],
       "options": [
-        "Every foundry worker profited equally",
-        "The payment was distributed to displaced households",
+        "The premium was flood relief paid through a trust",
         "Rusk personally benefited from the land transfer",
-        "The payment alone proves every detail of the flood"
+        "The premium shows only that the foundry profited",
+        "The premium proves that Rusk ordered the flood"
       ],
       "hints": [
         "The beneficiary is named and the relief classification was rejected.",
@@ -2888,7 +2888,7 @@
       "title": "The price of silence",
       "type": "deduction",
       "prompt": "Which account of intent survives all the evidence?",
-      "details": "Join Rusk’s occupancy acknowledgement, the signed destructive instruction, the false-return direction and his private gain.",
+      "details": "Choose the account that leaves no record you hold unexplained.",
       "solution": "Rusk knowingly ordered diversion to destroy claims and secure the transfer",
       "clues": [
         "ch5_l1_b",
@@ -2911,10 +2911,10 @@
         "p40"
       ],
       "options": [
-        "Rusk believed an independently completed evacuation had been verified",
-        "Elian forged every record without Rusk’s knowledge",
+        "Rusk trusted a capacity sheet and believed the houses were clear",
+        "Elian diverted the water himself, and Rusk signed afterwards to cover it",
         "Rusk knowingly ordered diversion to destroy claims and secure the transfer",
-        "The flood was an unrelated accident followed by an ordinary sale"
+        "Rusk ordered the diversion to protect the city; the land sale was a coincidence"
       ],
       "hints": [
         "Rusk acknowledged occupied houses and then forbade household checks.",
@@ -2933,7 +2933,7 @@
       "title": "More than one copy",
       "type": "assembly",
       "prompt": "Prepare the independent public copies for distribution.",
-      "details": "Combine the verified copy bundle and waterproof dispatch wrap. Keep the originals separate for deposition.",
+      "details": "The public copies must survive the crossing to the island. Keep the originals separate for deposition.",
       "solution": "assembled",
       "clues": [
         "ch6_l1_a",
@@ -3068,7 +3068,7 @@
       "title": "A witnessed safe state",
       "type": "assembly",
       "prompt": "Pair the bypass isolation hardware with its signed record.",
-      "details": "Combine the gate isolation pin and witnessed isolation tag. This records the already-secured real gate and supports the procedural reconstruction.",
+      "details": "Record the real gate’s secured state in a form a court can rely on: a physical restraint and an accountable record.",
       "solution": "assembled",
       "clues": [
         "ch6_l4_a",
@@ -3097,7 +3097,7 @@
       "title": "The limit of this hearing",
       "type": "choice",
       "prompt": "What action can the council properly take under the emergency charter?",
-      "details": "Choose the response within the charter’s authority. A referral preserves the distinction between administrative removal and a criminal trial.",
+      "details": "Choose the response the charter actually permits.",
       "solution": "Withdraw emergency authority, preserve evidence and refer the case",
       "clues": [
         "ch6_l4_c",
@@ -3107,10 +3107,10 @@
         "p55"
       ],
       "options": [
-        "Erase all records mentioning the flood",
-        "Pronounce a criminal sentence without an outside trial",
-        "Withdraw emergency authority, preserve evidence and refer the case",
-        "Keep Rusk’s authority until every original has been destroyed"
+        "Remove Rusk from office and sentence him at this sitting",
+        "Refer the case but leave Rusk’s emergency authority in place meanwhile",
+        "Seal the originals until the outside court asks for them",
+        "Withdraw emergency authority, preserve evidence and refer the case"
       ],
       "hints": [
         "The charter allows withdrawal of delegated powers.",
@@ -3129,7 +3129,7 @@
       "title": "The five parts of the case",
       "type": "order",
       "prompt": "Present the evidence board as a causal argument.",
-      "details": "Arrange all five claims. Use the public sitting’s established order, with consequences following the act, timing, authority and purpose.",
+      "details": "Arrange all five claims as the public sitting will hear them.",
       "solution": [
         "Bypass diversion",
         "00:14 meridian",
@@ -3169,7 +3169,7 @@
       "title": "The tide defence",
       "type": "deduction",
       "prompt": "Why does Rusk’s exceptional-tide explanation fail?",
-      "details": "Choose the rebuttal supported by the physical route, independent time and original instruction.",
+      "details": "Choose the rebuttal the evidence board actually supports.",
       "solution": "Upstream diversion preceded the tide and followed a signed destructive order",
       "clues": [
         "ch6_l5_a",
@@ -3179,10 +3179,10 @@
         "p57"
       ],
       "options": [
-        "Every unusual tide is impossible",
-        "Rusk’s manner proves he is lying",
+        "The tide tables show no exceptional tide that night",
         "Upstream diversion preceded the tide and followed a signed destructive order",
-        "The victims’ number alone identifies the operator"
+        "Rusk’s composure shows the defence was rehearsed",
+        "Twenty-three deaths are too many for any tide to explain"
       ],
       "hints": [
         "A natural tide cannot explain an upstream pressure rise before its own turn.",
@@ -3201,7 +3201,7 @@
       "title": "A correction that can be read",
       "type": "order",
       "prompt": "Correct Tomas’s entry without hiding the original institutional failure.",
-      "details": "Follow the archive correction rule, using every step once. Preserve the old writing beneath a single readable cancellation.",
+      "details": "Follow the archive’s correction rule. Every step is used once.",
       "solution": [
         "Retain original",
         "Rule through false claim",
@@ -3238,7 +3238,7 @@
       "title": "The public record",
       "type": "deduction",
       "prompt": "What does the finished record owe the city?",
-      "details": "Choose the conclusion that preserves the evidence, names the people harmed and leaves responsibility open to a proper hearing.",
+      "details": "Follow the archive’s own correction rule, and leave judgement to a proper hearing.",
       "solution": "Keep the originals, publish the sources and name every person lost",
       "clues": [
         "ch6_l6_a",
@@ -3258,10 +3258,10 @@
         "p50"
       ],
       "options": [
-        "Replace the old story with an unsupported heroic legend",
-        "Destroy the false entry so nobody remembers the failure",
         "Keep the originals, publish the sources and name every person lost",
-        "Preserve only the evidence that clears Iona’s father"
+        "Publish the corrected story and retire the damaged originals",
+        "Rewrite Tomas’s entry so the old accusation no longer appears",
+        "Record Rusk’s guilt in the register now that the evidence is clear"
       ],
       "hints": [
         "The investigation began with one name and uncovered twenty-three.",
@@ -3622,6 +3622,6 @@
       "text": "The signed tag is secured to the isolation pin. A mechanism and a witnessed record now describe the same safe state."
     }
   ],
-  "content_revision": "2026-11-14-deduction-pass-2",
+  "content_revision": "2026-11-16-puzzle-sharpening",
   "search_catalog": "res://content/hidden-object-scenes.json"
 }

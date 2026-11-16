@@ -9073,7 +9073,8 @@
               0.865234
             ]
           ]
-        ]
+        ],
+        "clue": "Always finds north"
       },
       {
         "id": "plume",
@@ -9115,7 +9116,8 @@
             0.908854,
             0.170898
           ]
-        ]
+        ],
+        "clue": "A writer’s feather"
       },
       {
         "id": "glove",
@@ -9197,7 +9199,8 @@
             0.072917,
             0.695312
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "key",
@@ -9271,7 +9274,8 @@
             0.514323,
             0.167969
           ]
-        ]
+        ],
+        "clue": "Opens what is locked"
       },
       {
         "id": "moth",
@@ -9849,7 +9853,8 @@
             0.380859,
             0.511719
           ]
-        ]
+        ],
+        "clue": "Two lenses, one bridge"
       },
       {
         "id": "stopper",
@@ -10241,7 +10246,8 @@
             0.8125,
             0.025391
           ]
-        ]
+        ],
+        "clue": "Time poured in sand"
       },
       {
         "id": "plume",
@@ -10287,7 +10293,8 @@
             0.227214,
             0.584961
           ]
-        ]
+        ],
+        "clue": "Lost by a bird"
       },
       {
         "id": "button",
@@ -10325,7 +10332,8 @@
             0.898438,
             0.806641
           ]
-        ]
+        ],
+        "clue": "Holds a coat closed"
       },
       {
         "id": "prism",
@@ -10740,7 +10748,8 @@
             0.303385,
             0.84082
           ]
-        ]
+        ],
+        "clue": "Help for tired eyes"
       },
       {
         "id": "tape",
@@ -10849,7 +10858,8 @@
             0.158203
           ]
         ],
-        "found_note": " — the stopper carries a moon"
+        "found_note": " — the stopper carries a moon",
+        "clue": "A thin slice of moon"
       },
       {
         "id": "shell",
@@ -10887,7 +10897,8 @@
             0.346354,
             0.683594
           ]
-        ]
+        ],
+        "clue": "The sea’s spiral house"
       },
       {
         "id": "ring",
@@ -10984,7 +10995,8 @@
             0.450195
           ]
         ],
-        "found_note": " — cut from paper"
+        "found_note": " — cut from paper",
+        "clue": "Five points of night"
       },
       {
         "id": "brush",
@@ -11304,7 +11316,8 @@
             0.464193,
             0.108398
           ]
-        ]
+        ],
+        "clue": "A shrill call by breath"
       },
       {
         "id": "thimble",
@@ -11350,7 +11363,8 @@
             0.109375,
             0.780273
           ]
-        ]
+        ],
+        "clue": "Armour for a fingertip"
       },
       {
         "id": "anchor",
@@ -11514,7 +11528,8 @@
             0.117188
           ]
         ],
-        "found_note": " — punched through an iron bracket"
+        "found_note": " — punched through an iron bracket",
+        "clue": "Night’s pointed light"
       },
       {
         "id": "cog",
@@ -11833,7 +11848,8 @@
             0.278646,
             0.158203
           ]
-        ]
+        ],
+        "clue": "Ink’s old partner"
       }
     ],
     "area": "Signal route",
@@ -12107,7 +12123,8 @@
             0.782552,
             0.162109
           ]
-        ]
+        ],
+        "clue": "Sand counting minutes"
       },
       {
         "id": "magnifier",
@@ -12298,7 +12315,8 @@
             0.095703
           ]
         ],
-        "found_note": " — cut into the clock hand"
+        "found_note": " — cut into the clock hand",
+        "clue": "Love’s simple shape"
       },
       {
         "id": "pebble",
@@ -12410,7 +12428,8 @@
             0.638021,
             0.089844
           ]
-        ]
+        ],
+        "clue": "A monarch’s circlet"
       },
       {
         "id": "butterfly",
@@ -12599,7 +12618,8 @@
             0.255208,
             0.700195
           ]
-        ]
+        ],
+        "clue": "Small disc with holes"
       }
     ],
     "area": "Evidence rooms",
@@ -12797,7 +12817,8 @@
             0.423828,
             0.489258
           ]
-        ]
+        ],
+        "clue": "A needle pointing home"
       },
       {
         "id": "glove",
@@ -12867,7 +12888,8 @@
             0.198568,
             0.794922
           ]
-        ]
+        ],
+        "clue": "Five empty fingers"
       },
       {
         "id": "saturn",
@@ -13352,7 +13374,8 @@
             0.602214,
             0.645508
           ]
-        ]
+        ],
+        "clue": "Two lenses, one bridge"
       },
       {
         "id": "shell",
@@ -13407,7 +13430,8 @@
             0.652344
           ]
         ],
-        "found_note": " — a shell-shaped handle"
+        "found_note": " — a shell-shaped handle",
+        "clue": "Washed up by the tide"
       }
     ],
     "area": "Signal route",
@@ -13603,7 +13627,8 @@
             0.46875,
             0.667969
           ]
-        ]
+        ],
+        "clue": "The sea’s spiral house"
       },
       {
         "id": "dragonfly",
@@ -13719,7 +13744,8 @@
             0.138672,
             0.548828
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "whistle",
@@ -13885,7 +13911,8 @@
               0.865234
             ]
           ]
-        ]
+        ],
+        "clue": "Toothed brass turner"
       },
       {
         "id": "compass",
@@ -13927,7 +13954,8 @@
             0.199219,
             0.482422
           ]
-        ]
+        ],
+        "clue": "Always finds north"
       },
       {
         "id": "thimble",
@@ -13957,7 +13985,8 @@
             0.465495,
             0.913086
           ]
-        ]
+        ],
+        "clue": "A sewer’s tiny cap"
       },
       {
         "id": "boat",
@@ -14158,7 +14187,8 @@
             0.934245,
             0.28418
           ]
-        ]
+        ],
+        "clue": "Time poured in sand"
       }
     ],
     "area": "Marsh crossing",
@@ -14398,7 +14428,8 @@
             0.22526,
             0.620117
           ]
-        ]
+        ],
+        "clue": "Five empty fingers"
       },
       {
         "id": "fork",
@@ -14572,7 +14603,8 @@
             0.448568,
             0.798828
           ]
-        ]
+        ],
+        "clue": "Opens what is locked"
       },
       {
         "id": "diamond",
@@ -14629,7 +14661,8 @@
             0.671875,
             0.553711
           ]
-        ]
+        ],
+        "clue": "Lost by a bird"
       },
       {
         "id": "thimble",
@@ -14659,7 +14692,8 @@
             0.052734,
             0.378906
           ]
-        ]
+        ],
+        "clue": "Armour for a fingertip"
       },
       {
         "id": "bell",
@@ -14697,7 +14731,8 @@
             0.48112,
             0.489258
           ]
-        ]
+        ],
+        "clue": "Rings when it swings"
       },
       {
         "id": "acorn",
@@ -14731,7 +14766,8 @@
             0.632161,
             0.828125
           ]
-        ]
+        ],
+        "clue": "An oak’s small seed"
       },
       {
         "id": "crescent",
@@ -15027,7 +15063,8 @@
             0.057943,
             0.19043
           ]
-        ]
+        ],
+        "clue": "A writer’s feather"
       },
       {
         "id": "butterfly",
@@ -15238,7 +15275,8 @@
             0.063151,
             0.325195
           ]
-        ]
+        ],
+        "clue": "A lock’s companion"
       },
       {
         "id": "spectacles",
@@ -15312,7 +15350,8 @@
             0.358073,
             0.726562
           ]
-        ]
+        ],
+        "clue": "Help for tired eyes"
       },
       {
         "id": "acorn",
@@ -15404,7 +15443,8 @@
             0.214844,
             0.307617
           ]
-        ]
+        ],
+        "clue": "Sand counting minutes"
       },
       {
         "id": "heart",
@@ -15595,7 +15635,8 @@
             0.076823,
             0.074219
           ]
-        ]
+        ],
+        "clue": "Washed up by the tide"
       },
       {
         "id": "button",
@@ -15633,7 +15674,8 @@
             0.923177,
             0.913086
           ]
-        ]
+        ],
+        "clue": "Holds a coat closed"
       }
     ],
     "area": "Old settlement",
@@ -15776,7 +15818,8 @@
               0.842773
             ]
           ]
-        ]
+        ],
+        "clue": "A needle pointing home"
       },
       {
         "id": "arrow",
@@ -15990,7 +16033,8 @@
             0.011719,
             0.663086
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "pinecone",
@@ -16074,7 +16118,8 @@
             0.671224,
             0.157227
           ]
-        ]
+        ],
+        "clue": "Ink’s old partner"
       },
       {
         "id": "whistle",
@@ -16223,7 +16268,8 @@
             0.865234,
             0.505859
           ]
-        ]
+        ],
+        "clue": "The sea’s spiral house"
       },
       {
         "id": "button",
@@ -16257,7 +16303,8 @@
             0.071615,
             0.891602
           ]
-        ]
+        ],
+        "clue": "Small disc with holes"
       },
       {
         "id": "key",
@@ -16311,7 +16358,8 @@
             0.744141,
             0.296875
           ]
-        ]
+        ],
+        "clue": "Toothed brass turner"
       },
       {
         "id": "knife",
@@ -16539,7 +16587,8 @@
             0.878255,
             0.314453
           ]
-        ]
+        ],
+        "clue": "A cup on a tall stem"
       },
       {
         "id": "snail",
@@ -16701,7 +16750,8 @@
             0.087891,
             0.404297
           ]
-        ]
+        ],
+        "clue": "Five empty fingers"
       },
       {
         "id": "key",
@@ -16763,7 +16813,8 @@
             0.352214,
             0.884766
           ]
-        ]
+        ],
+        "clue": "A lock’s companion"
       },
       {
         "id": "moth",
@@ -16902,7 +16953,8 @@
             0.299479,
             0.316406
           ]
-        ]
+        ],
+        "clue": "A writer’s feather"
       },
       {
         "id": "horseshoe",
@@ -17076,7 +17128,8 @@
             0.93099,
             0.484375
           ]
-        ]
+        ],
+        "clue": "A squirrel’s store"
       },
       {
         "id": "scissors",
@@ -17138,7 +17191,8 @@
             0.442708,
             0.448242
           ]
-        ]
+        ],
+        "clue": "Two blades, one pin"
       }
     ],
     "area": "Refuge shore",
@@ -17277,7 +17331,8 @@
             0.395833,
             0.734375
           ]
-        ]
+        ],
+        "clue": "Two lenses, one bridge"
       },
       {
         "id": "needle",
@@ -17365,7 +17420,8 @@
             0.91276,
             0.628906
           ]
-        ]
+        ],
+        "clue": "Opens what is locked"
       },
       {
         "id": "plume",
@@ -17403,7 +17459,8 @@
             0.082031,
             0.148438
           ]
-        ]
+        ],
+        "clue": "Lost by a bird"
       },
       {
         "id": "fish",
@@ -17600,7 +17657,8 @@
             0.53125,
             0.111328
           ]
-        ]
+        ],
+        "clue": "A tongue in a brass cup"
       },
       {
         "id": "chalice",
@@ -17658,7 +17716,8 @@
             0.664714,
             0.365234
           ]
-        ]
+        ],
+        "clue": "Stemmed drinking cup"
       },
       {
         "id": "button",
@@ -17696,7 +17755,8 @@
             0.036458,
             0.944336
           ]
-        ]
+        ],
+        "clue": "Holds a coat closed"
       },
       {
         "id": "moth",
@@ -17933,7 +17993,8 @@
             0.068398
           ]
         ],
-        "found_note": " — scratched into the kiosk stone"
+        "found_note": " — scratched into the kiosk stone",
+        "clue": "A monarch’s circlet"
       },
       {
         "id": "plume",
@@ -18007,7 +18068,8 @@
               0.372656
             ]
           ]
-        ]
+        ],
+        "clue": "Ink’s old partner"
       },
       {
         "id": "padlock",
@@ -18159,7 +18221,8 @@
             0.57487,
             0.562383
           ]
-        ]
+        ],
+        "clue": "Toothed brass turner"
       },
       {
         "id": "fish",
@@ -18198,7 +18261,8 @@
             0.054805
           ]
         ],
-        "found_note": " — the ironwork holds a fish"
+        "found_note": " — the ironwork holds a fish",
+        "clue": "Scales and fins"
       },
       {
         "id": "glove",
@@ -18236,7 +18300,8 @@
             0.50651,
             0.742617
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "bell",
@@ -18274,7 +18339,8 @@
             0.963542,
             0.214805
           ]
-        ]
+        ],
+        "clue": "Rings when it swings"
       },
       {
         "id": "goblet",
@@ -18312,7 +18378,8 @@
             0.085286,
             0.397852
           ]
-        ]
+        ],
+        "clue": "A cup on a tall stem"
       },
       {
         "id": "snail",
@@ -18426,7 +18493,8 @@
             0.789714,
             0.493281
           ]
-        ]
+        ],
+        "clue": "Help for tired eyes"
       },
       {
         "id": "arrow",
@@ -18465,7 +18533,8 @@
             0.423789
           ]
         ],
-        "found_note": " — carved into the bench"
+        "found_note": " — carved into the bench",
+        "clue": "Flies from a bow"
       }
     ],
     "area": "Public offices",
@@ -18599,7 +18668,8 @@
             0.373698,
             0.568789
           ]
-        ]
+        ],
+        "clue": "A writer’s feather"
       },
       {
         "id": "winding_key",
@@ -18752,7 +18822,8 @@
             0.251953,
             0.612344
           ]
-        ]
+        ],
+        "clue": "Two lenses, one bridge"
       },
       {
         "id": "goblet",
@@ -18790,7 +18861,8 @@
             0.953776,
             0.242148
           ]
-        ]
+        ],
+        "clue": "Stemmed drinking cup"
       },
       {
         "id": "glove",
@@ -18828,7 +18900,8 @@
             0.072917,
             0.472187
           ]
-        ]
+        ],
+        "clue": "Five empty fingers"
       },
       {
         "id": "bell",
@@ -18866,7 +18939,8 @@
             0.335286,
             0.221211
           ]
-        ]
+        ],
+        "clue": "A tongue in a brass cup"
       },
       {
         "id": "compass",
@@ -18904,7 +18978,8 @@
             0.701172,
             0.568633
           ]
-        ]
+        ],
+        "clue": "Always finds north"
       },
       {
         "id": "acorn",
@@ -18942,7 +19017,8 @@
             0.08138,
             0.880195
           ]
-        ]
+        ],
+        "clue": "An oak’s small seed"
       },
       {
         "id": "moth",
@@ -18980,7 +19056,8 @@
             0.460286,
             0.056563
           ]
-        ]
+        ],
+        "clue": "Drawn to the lamp"
       },
       {
         "id": "heart",
@@ -19019,7 +19096,8 @@
             0.718281
           ]
         ],
-        "found_note": " — a heart cut into the clasp"
+        "found_note": " — a heart cut into the clasp",
+        "clue": "A sweetheart’s symbol"
       }
     ],
     "area": "Public offices",
@@ -19076,7 +19154,8 @@
             0.049479,
             0.092578
           ]
-        ]
+        ],
+        "clue": "A lock’s companion"
       },
       {
         "id": "crown",
@@ -19153,7 +19232,8 @@
             0.092448,
             0.701484
           ]
-        ]
+        ],
+        "clue": "A sewer’s tiny cap"
       },
       {
         "id": "plume",
@@ -19191,7 +19271,8 @@
             0.783203,
             0.412187
           ]
-        ]
+        ],
+        "clue": "Lost by a bird"
       },
       {
         "id": "compass",
@@ -19229,7 +19310,8 @@
             0.822266,
             0.744219
           ]
-        ]
+        ],
+        "clue": "A needle pointing home"
       },
       {
         "id": "scissors",
@@ -19267,7 +19349,8 @@
             0.042969,
             0.276523
           ]
-        ]
+        ],
+        "clue": "Cuts along a hinge"
       },
       {
         "id": "hourglass",
@@ -19305,7 +19388,8 @@
             0.474609,
             0.122578
           ]
-        ]
+        ],
+        "clue": "Time poured in sand"
       },
       {
         "id": "shell",
@@ -19344,7 +19428,8 @@
             0.310352
           ]
         ],
-        "found_note": " — a shell-shaped bookend"
+        "found_note": " — a shell-shaped bookend",
+        "clue": "Washed up by the tide"
       },
       {
         "id": "padlock",
@@ -19459,7 +19544,8 @@
             0.740234,
             0.826758
           ]
-        ]
+        ],
+        "clue": "Help for tired eyes"
       },
       {
         "id": "glove",
@@ -19497,7 +19583,8 @@
             0.016276,
             0.512227
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "rook",
@@ -19670,7 +19757,8 @@
             0.490469
           ]
         ],
-        "found_note": " — a type slug"
+        "found_note": " — a type slug",
+        "clue": "Five points of night"
       },
       {
         "id": "plume",
@@ -19708,7 +19796,8 @@
             0.080729,
             0.799063
           ]
-        ]
+        ],
+        "clue": "Ink’s old partner"
       },
       {
         "id": "scissors",
@@ -19746,7 +19835,8 @@
             0.86849,
             0.479766
           ]
-        ]
+        ],
+        "clue": "Two blades, one pin"
       },
       {
         "id": "thimble",
@@ -19784,7 +19874,8 @@
             0.245443,
             0.440586
           ]
-        ]
+        ],
+        "clue": "Armour for a fingertip"
       },
       {
         "id": "bird",
@@ -19860,7 +19951,8 @@
             0.922526,
             0.83293
           ]
-        ]
+        ],
+        "clue": "Small disc with holes"
       },
       {
         "id": "winding_key",
@@ -19936,7 +20028,8 @@
             0.366536,
             0.132344
           ]
-        ]
+        ],
+        "clue": "Two lenses, one bridge"
       },
       {
         "id": "spoon",
@@ -20013,7 +20106,8 @@
             0.751563
           ]
         ],
-        "found_note": " — etched into a copper plate"
+        "found_note": " — etched into a copper plate",
+        "clue": "The moon, mostly hidden"
       },
       {
         "id": "glove",
@@ -20051,7 +20145,8 @@
             0.0,
             0.39043
           ]
-        ]
+        ],
+        "clue": "Five empty fingers"
       },
       {
         "id": "walnut",
@@ -20127,7 +20222,8 @@
             0.621745,
             0.091641
           ]
-        ]
+        ],
+        "clue": "Rings when it swings"
       }
     ],
     "area": "Publication route",
@@ -20261,7 +20357,8 @@
             0.820312,
             0.303203
           ]
-        ]
+        ],
+        "clue": "Opens what is locked"
       },
       {
         "id": "compass",
@@ -20299,7 +20396,8 @@
             0.908203,
             0.575391
           ]
-        ]
+        ],
+        "clue": "Always finds north"
       },
       {
         "id": "plume",
@@ -20337,7 +20435,8 @@
             0.155599,
             0.440859
           ]
-        ]
+        ],
+        "clue": "A writer’s feather"
       },
       {
         "id": "thimble",
@@ -20375,7 +20474,8 @@
             0.38737,
             0.691016
           ]
-        ]
+        ],
+        "clue": "A sewer’s tiny cap"
       },
       {
         "id": "spectacles",
@@ -20413,7 +20513,8 @@
             0.660156,
             0.347227
           ]
-        ]
+        ],
+        "clue": "Help for tired eyes"
       },
       {
         "id": "lion",
@@ -20490,7 +20591,8 @@
             0.440755,
             0.083906
           ]
-        ]
+        ],
+        "clue": "A cup on a tall stem"
       },
       {
         "id": "whistle",
@@ -20566,7 +20668,8 @@
             0.142578,
             0.594414
           ]
-        ]
+        ],
+        "clue": "Holds a coat closed"
       },
       {
         "id": "hourglass",
@@ -20604,7 +20707,8 @@
             0.88737,
             0.046445
           ]
-        ]
+        ],
+        "clue": "Sand counting minutes"
       },
       {
         "id": "scissors",
@@ -20642,7 +20746,8 @@
             0.013672,
             0.811445
           ]
-        ]
+        ],
+        "clue": "Cuts along a hinge"
       },
       {
         "id": "heart",
@@ -20777,7 +20882,8 @@
             0.045573,
             0.681289
           ]
-        ]
+        ],
+        "clue": "Lost by a bird"
       },
       {
         "id": "key",
@@ -20815,7 +20921,8 @@
             0.754557,
             0.071172
           ]
-        ]
+        ],
+        "clue": "Toothed brass turner"
       },
       {
         "id": "bell",
@@ -20853,7 +20960,8 @@
             0.478516,
             0.305547
           ]
-        ]
+        ],
+        "clue": "A tongue in a brass cup"
       },
       {
         "id": "glove",
@@ -20891,7 +20999,8 @@
             0.690755,
             0.632383
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "boat",
@@ -20967,7 +21076,8 @@
             0.377604,
             0.619219
           ]
-        ]
+        ],
+        "clue": "A needle pointing home"
       },
       {
         "id": "thimble",
@@ -21005,7 +21115,8 @@
             0.083333,
             0.773984
           ]
-        ]
+        ],
+        "clue": "Armour for a fingertip"
       },
       {
         "id": "crown",
@@ -21082,7 +21193,8 @@
             0.697266,
             0.533828
           ]
-        ]
+        ],
+        "clue": "Two blades, one pin"
       },
       {
         "id": "shell",
@@ -21158,7 +21270,8 @@
             0.364583,
             0.790352
           ]
-        ]
+        ],
+        "clue": "Small disc with holes"
       },
       {
         "id": "spectacles",
@@ -21196,7 +21309,8 @@
             0.078776,
             0.371914
           ]
-        ]
+        ],
+        "clue": "Two lenses, one bridge"
       },
       {
         "id": "diamond",
@@ -21293,7 +21407,8 @@
             0.054844
           ]
         ],
-        "found_note": " — painted on a crate"
+        "found_note": " — painted on a crate",
+        "clue": "Holds a ship still"
       },
       {
         "id": "crab",
@@ -21331,7 +21446,8 @@
             0.102865,
             0.871445
           ]
-        ]
+        ],
+        "clue": "Walks sideways"
       },
       {
         "id": "cork",
@@ -21407,7 +21523,8 @@
             0.438802,
             0.590156
           ]
-        ]
+        ],
+        "clue": "A lock’s companion"
       },
       {
         "id": "fish",
@@ -21446,7 +21563,8 @@
             0.37543
           ]
         ],
-        "found_note": " — on the mooring bollard"
+        "found_note": " — on the mooring bollard",
+        "clue": "Breathes under water"
       },
       {
         "id": "whistle",
@@ -21484,7 +21602,8 @@
             0.064453,
             0.39668
           ]
-        ]
+        ],
+        "clue": "Blow it to be heard"
       },
       {
         "id": "plume",
@@ -21592,7 +21711,8 @@
               0.682578
             ]
           ]
-        ]
+        ],
+        "clue": "Ink’s old partner"
       },
       {
         "id": "starfish",
@@ -21668,7 +21788,8 @@
             0.228516,
             0.36
           ]
-        ]
+        ],
+        "clue": "Five empty fingers"
       },
       {
         "id": "horse",
@@ -21744,7 +21865,8 @@
             0.748698,
             0.52082
           ]
-        ]
+        ],
+        "clue": "The sea’s spiral house"
       },
       {
         "id": "arrow",
@@ -21783,7 +21905,8 @@
             0.186914
           ]
         ],
-        "found_note": " — cut into the boarding plank"
+        "found_note": " — cut into the boarding plank",
+        "clue": "Feathered and pointed"
       },
       {
         "id": "thimble",
@@ -21821,7 +21944,8 @@
             0.835286,
             0.887969
           ]
-        ]
+        ],
+        "clue": "A sewer’s tiny cap"
       },
       {
         "id": "fan",
@@ -21859,7 +21983,8 @@
             0.059245,
             0.585195
           ]
-        ]
+        ],
+        "clue": "Folds to cool a face"
       }
     ],
     "area": "Witness passage",
@@ -21916,7 +22041,8 @@
             0.465495,
             0.58293
           ]
-        ]
+        ],
+        "clue": "Help for tired eyes"
       },
       {
         "id": "bee",
@@ -22031,7 +22157,8 @@
             0.729818,
             0.314805
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "key",
@@ -22069,7 +22196,8 @@
             0.903646,
             0.746406
           ]
-        ]
+        ],
+        "clue": "Opens what is locked"
       },
       {
         "id": "fan",
@@ -22107,7 +22235,8 @@
             0.582031,
             0.456758
           ]
-        ]
+        ],
+        "clue": "Folds to cool a face"
       },
       {
         "id": "ribbon",
@@ -22145,7 +22274,8 @@
             0.694661,
             0.124688
           ]
-        ]
+        ],
+        "clue": "Tied in a bow"
       },
       {
         "id": "fox",
@@ -22184,7 +22314,8 @@
             0.339141
           ]
         ],
-        "found_note": " — carved into the chair"
+        "found_note": " — carved into the chair",
+        "clue": "Red coat, bushy tail"
       },
       {
         "id": "thimble",
@@ -22222,7 +22353,8 @@
             0.530599,
             0.480781
           ]
-        ]
+        ],
+        "clue": "Armour for a fingertip"
       },
       {
         "id": "plume",
@@ -22260,7 +22392,8 @@
             0.207031,
             0.602656
           ]
-        ]
+        ],
+        "clue": "A writer’s feather"
       },
       {
         "id": "button",
@@ -22298,7 +22431,8 @@
             0.03125,
             0.799609
           ]
-        ]
+        ],
+        "clue": "Holds a coat closed"
       },
       {
         "id": "heart",
@@ -22337,7 +22471,8 @@
             0.130938
           ]
         ],
-        "found_note": " — a pendant on the peg"
+        "found_note": " — a pendant on the peg",
+        "clue": "Love’s simple shape"
       },
       {
         "id": "spoon",
@@ -22414,7 +22549,8 @@
             0.795156
           ]
         ],
-        "found_note": " — carved into the chair rung"
+        "found_note": " — carved into the chair rung",
+        "clue": "A thin slice of moon"
       }
     ],
     "area": "Witness passage",
@@ -22510,7 +22646,8 @@
             0.815104,
             0.745469
           ]
-        ]
+        ],
+        "clue": "Wakes a clockwork toy"
       },
       {
         "id": "compass",
@@ -22548,7 +22685,8 @@
             0.120443,
             0.901992
           ]
-        ]
+        ],
+        "clue": "Always finds north"
       },
       {
         "id": "plume",
@@ -22586,7 +22724,8 @@
             0.813802,
             0.021875
           ]
-        ]
+        ],
+        "clue": "Lost by a bird"
       },
       {
         "id": "spade",
@@ -22663,7 +22802,8 @@
             0.066406,
             0.204609
           ]
-        ]
+        ],
+        "clue": "Five empty fingers"
       },
       {
         "id": "whistle",
@@ -22701,7 +22841,8 @@
             0.445312,
             0.840859
           ]
-        ]
+        ],
+        "clue": "A shrill call by breath"
       },
       {
         "id": "moth",
@@ -22739,7 +22880,8 @@
             0.423177,
             0.112109
           ]
-        ]
+        ],
+        "clue": "Dusty night wings"
       },
       {
         "id": "shell",
@@ -22777,7 +22919,8 @@
             0.619141,
             0.457148
           ]
-        ]
+        ],
+        "clue": "Washed up by the tide"
       },
       {
         "id": "star",
@@ -22816,7 +22959,8 @@
             0.850625
           ]
         ],
-        "found_note": " — a shaped metal washer"
+        "found_note": " — a shaped metal washer",
+        "clue": "Night’s pointed light"
       },
       {
         "id": "scissors",
@@ -22854,7 +22998,8 @@
             0.279297,
             0.5675
           ]
-        ]
+        ],
+        "clue": "Cuts along a hinge"
       },
       {
         "id": "button",
@@ -22892,7 +23037,8 @@
             0.160807,
             0.065391
           ]
-        ]
+        ],
+        "clue": "Small disc with holes"
       },
       {
         "id": "hourglass",
@@ -22930,7 +23076,8 @@
             0.938802,
             0.163047
           ]
-        ]
+        ],
+        "clue": "Time poured in sand"
       },
       {
         "id": "rook",
@@ -23026,7 +23173,8 @@
             0.254336
           ]
         ],
-        "found_note": " — engraved on the lever support"
+        "found_note": " — engraved on the lever support",
+        "clue": "A monarch’s circlet"
       },
       {
         "id": "spanner",
@@ -23102,7 +23250,8 @@
             0.809896,
             0.210391
           ]
-        ]
+        ],
+        "clue": "A hand’s winter coat"
       },
       {
         "id": "key",
@@ -23140,7 +23289,8 @@
             0.832031,
             0.881406
           ]
-        ]
+        ],
+        "clue": "Toothed brass turner"
       },
       {
         "id": "acorn",
@@ -23178,7 +23328,8 @@
             0.261719,
             0.502734
           ]
-        ]
+        ],
+        "clue": "A squirrel’s store"
       },
       {
         "id": "plume",
@@ -23216,7 +23367,8 @@
             0.39974,
             0.181602
           ]
-        ]
+        ],
+        "clue": "Ink’s old partner"
       },
       {
         "id": "fish",
@@ -23255,7 +23407,8 @@
             0.38375
           ]
         ],
-        "found_note": " — on the mechanism nameplate"
+        "found_note": " — on the mechanism nameplate",
+        "clue": "Scales and fins"
       },
       {
         "id": "whistle",
@@ -23293,7 +23446,8 @@
             0.38151,
             0.6425
           ]
-        ]
+        ],
+        "clue": "Blow it to be heard"
       },
       {
         "id": "compass",
@@ -23331,7 +23485,8 @@
             0.384115,
             0.866992
           ]
-        ]
+        ],
+        "clue": "A needle pointing home"
       },
       {
         "id": "diamond",
@@ -23370,7 +23525,8 @@
             0.447617
           ]
         ],
-        "found_note": " — a square washer turned on its corner"
+        "found_note": " — a square washer turned on its corner",
+        "clue": "Four points, a gem’s cut"
       },
       {
         "id": "bell",
@@ -23408,7 +23564,8 @@
             0.848958,
             0.06375
           ]
-        ]
+        ],
+        "clue": "Rings when it swings"
       },
       {
         "id": "shell",
@@ -23485,7 +23642,8 @@
             0.569414
           ]
         ],
-        "found_note": " — etched into the service plate"
+        "found_note": " — etched into the service plate",
+        "clue": "Flies from a bow"
       },
       {
         "id": "knife",
@@ -23619,7 +23777,8 @@
             0.339193,
             0.711758
           ]
-        ]
+        ],
+        "clue": "Two lenses, one bridge"
       },
       {
         "id": "plume",
@@ -23657,7 +23816,8 @@
             0.699219,
             0.403242
           ]
-        ]
+        ],
+        "clue": "A writer’s feather"
       },
       {
         "id": "key",
@@ -23695,7 +23855,8 @@
             0.951172,
             0.075938
           ]
-        ]
+        ],
+        "clue": "A lock’s companion"
       },
       {
         "id": "club",
@@ -23734,7 +23895,8 @@
             0.475938
           ]
         ],
-        "found_note": " — a playing-card pip"
+        "found_note": " — a playing-card pip",
+        "clue": "Three-leaf card suit"
       },
       {
         "id": "goblet",
@@ -23772,7 +23934,8 @@
             0.266927,
             0.387969
           ]
-        ]
+        ],
+        "clue": "Stemmed drinking cup"
       },
       {
         "id": "acorn",
@@ -23810,7 +23973,8 @@
             0.904297,
             0.892539
           ]
-        ]
+        ],
+        "clue": "An oak’s small seed"
       },
       {
         "id": "bell",
@@ -23848,7 +24012,8 @@
             0.48763,
             0.050977
           ]
-        ]
+        ],
+        "clue": "A tongue in a brass cup"
       },
       {
         "id": "heart",
@@ -23887,7 +24052,8 @@
             0.700117
           ]
         ],
-        "found_note": " — a heart-shaped lock"
+        "found_note": " — a heart-shaped lock",
+        "clue": "A sweetheart’s symbol"
       },
       {
         "id": "ribbon",
@@ -23963,7 +24129,8 @@
             0.444661,
             0.646523
           ]
-        ]
+        ],
+        "clue": "Two blades, one pin"
       },
       {
         "id": "button",
@@ -24001,7 +24168,8 @@
             0.097656,
             0.802891
           ]
-        ]
+        ],
+        "clue": "Holds a coat closed"
       },
       {
         "id": "bishop",
@@ -24077,7 +24245,8 @@
             0.783203,
             0.078594
           ]
-        ]
+        ],
+        "clue": "Drawn to the lamp"
       }
     ],
     "area": "Public reckoning",
@@ -24211,7 +24380,8 @@
             0.163411,
             0.794727
           ]
-        ]
+        ],
+        "clue": "Help for tired eyes"
       },
       {
         "id": "plume",
@@ -24249,7 +24419,8 @@
             0.876953,
             0.044297
           ]
-        ]
+        ],
+        "clue": "Lost by a bird"
       },
       {
         "id": "key",
@@ -24287,7 +24458,8 @@
             0.501953,
             0.608984
           ]
-        ]
+        ],
+        "clue": "Opens what is locked"
       },
       {
         "id": "shell",
@@ -24325,7 +24497,8 @@
             0.048828,
             0.292187
           ]
-        ]
+        ],
+        "clue": "The sea’s spiral house"
       },
       {
         "id": "butterfly",
@@ -24363,7 +24536,8 @@
             0.367839,
             0.090859
           ]
-        ]
+        ],
+        "clue": "Painted wings"
       },
       {
         "id": "thimble",
@@ -24401,7 +24575,8 @@
             0.389974,
             0.798906
           ]
-        ]
+        ],
+        "clue": "A sewer’s tiny cap"
       },
       {
         "id": "goblet",
@@ -24439,7 +24614,8 @@
             0.873698,
             0.458281
           ]
-        ]
+        ],
+        "clue": "A cup on a tall stem"
       },
       {
         "id": "acorn",
@@ -24477,7 +24653,8 @@
             0.082031,
             0.79043
           ]
-        ]
+        ],
+        "clue": "A squirrel’s store"
       },
       {
         "id": "crescent",
@@ -24516,7 +24693,8 @@
             0.538516
           ]
         ],
-        "found_note": " — a moon on the keepsake tin"
+        "found_note": " — a moon on the keepsake tin",
+        "clue": "The moon, mostly hidden"
       },
       {
         "id": "boat",
@@ -24593,7 +24771,8 @@
             0.366484
           ]
         ],
-        "found_note": " — a pendant among the ribbons"
+        "found_note": " — a pendant among the ribbons",
+        "clue": "Love’s simple shape"
       },
       {
         "id": "button",
@@ -24631,7 +24810,8 @@
             0.934896,
             0.673398
           ]
-        ]
+        ],
+        "clue": "Small disc with holes"
       }
     ],
     "area": "Public reckoning",

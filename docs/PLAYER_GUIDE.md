@@ -28,9 +28,15 @@ picture. A clue may use an alternative name, such as Plume for a feather.
 Credible alternative matches count once. Found names are crossed off; permanent
 circles and pointer changes do not give away the remaining objects.
 
-Detective mode is the only mode. A standard 14-object search begins with eight
-minutes; the 17-object opening begins with ten. These are initial balancing
-values, subject to first-time-player review. Scroll or use +/− to zoom, right-drag
+From chapter three, some objects are listed by a riddle in italics instead of a
+name, such as *A writer's feather*. The share of riddles grows each chapter.
+Finding the object, or using a hint on it, reveals its name. A click a few
+pixels outside an object's outline still counts.
+
+Detective mode is the only mode. The clock tightens as the case goes on. A
+standard 14-object search allows 8:00 in chapter one, then 7:00, 6:30, 6:00,
+5:30 and 5:00 in chapter six. The 17-object opening allows ten minutes. These
+are initial balancing values, subject to first-time-player review. Scroll or use +/− to zoom, right-drag
 to pan, and use Fit to see the entire painting.
 
 The clock runs while you can actively search the picture. It pauses while
@@ -45,33 +51,39 @@ object are not search misses.
 
 Clear the list to recover the room's story evidence and useful objects. All six
 room searches contribute to the chapter's conclusion. If the clock reaches zero,
-finds stop counting. Spend an available time extension or restart that search.
-A restart resets only its unfinished checklist, clock and attempt allowances;
-completed rooms and story progress remain intact.
+finds stop counting. Spend an available time extension or restart the clock.
+A restart keeps every object you have found and starts a shorter clock for the
+ones that remain (at least 90 seconds). It refunds nothing, keeps the room's
+hint use, reopens the two time extensions, and gives up that room's clean-search
+bonus. Completed rooms and story progress are never affected.
 
 ## Hints and Insight
 
-A new case begins with **six Insight**. You earn:
+Insight is scarce: spend it where you are truly stuck. A new case begins with
+**four Insight**. You earn:
 
 | Achievement | Reward |
 | --- | --- |
-| First completion of a search | 2 Insight |
-| That completion without a rapid-click penalty | 1 additional Insight |
-| First successful deduction puzzle | 1 Insight |
+| First completion of a search | 1 Insight |
+| A clean completion: no rapid-click penalty, no paid hint and no restart | 1 additional Insight |
+| A deduction solved without a paid hint | 1 Insight |
+| An assembly step | nothing |
 
-Replaying completed content gives no further Insight. Existing completed content
-from an older save is not rewarded again when the save is migrated.
+The free first hint and bought time do not spoil a clean completion. Replaying
+completed content gives no further Insight. Existing completed content from an
+older save is not rewarded again when the save is migrated. A save from the
+previous build keeps its balance, purchases and rewards exactly.
 
 Every search attempt has a maximum of **three hints**. The first is free; the
-next two cost one Insight each. Each use begins a **45-second cooldown** during
-active play. F1 or the lightbulb requests the next available hint. Buying a hint
-cannot bypass the cooldown or three-use limit.
+next two cost one Insight each. Each use begins a **30-second cooldown** during
+active play. F1 or the lightbulb requests a hint. By default it points to the
+first object still hidden; select a name in the list (click it, or Tab to it and
+press Enter) to aim the next hint at that object instead. Choosing is free.
+Buying a hint cannot bypass the cooldown or three-use limit.
 
 One Insight buys **30 additional search seconds**. You can buy at most two
-extensions per attempt, including an emergency extension after reaching zero.
-The maximum added time is therefore one minute. Restarting a failed search
-refunds exactly the Insight spent on that attempt's hints and extensions. A
-restart itself earns nothing.
+extensions per clock, including an emergency extension after reaching zero.
+Restarting refunds nothing and earns nothing.
 
 Timer, hint uses, cooldowns, purchases and rewards are saved with the case.
 Closing and reopening the game does not refill an attempt or its hint allowance.
@@ -96,7 +108,7 @@ cause a ten-second submission cooldown; you can still read evidence and revise
 an answer. Editing an answer and trying an inventory combination are free.
 
 Each deduction has up to **three escalating hints**, with the same first-free,
-next-two-for-one-Insight arrangement and 45-second active-play cooldown. Leaving
+next-two-for-one-Insight arrangement and 30-second active-play cooldown. Leaving
 and reopening the puzzle preserves its used hints. The chapter's final
 conclusion unlocks the next chapter.
 
@@ -163,7 +175,7 @@ rollback point. Do not edit save JSON to repair progress.
 If the game does not start, confirm the whole archive was extracted and the
 `.pck` remains beside its executable. Licence notices are provided in
 `LICENSES.md`, `GODOT_NOTICES.txt` and the accompanying licence files. Build
-verification and remaining production work are documented with the distribution;
+verification and remaining production work are documented in the source repository;
 the title and pause menus do not display development-status screens.
 
 When reporting a problem, include the location, investigation, last action,
@@ -181,5 +193,4 @@ and menus; the music slider and automatic lowering during dialogue remain
 available. Purchased-library room atmospheres and interaction effects remain
 separate. The nine original score cues are retained in source and project
 history, but are not active in play. See `LICENSES.md` for attribution and licence
-details, and `AV_POLISH_REPORT.md` for earlier production and listening-review
-records.
+details. Production and listening-review records are kept with the source.

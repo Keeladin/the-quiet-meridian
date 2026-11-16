@@ -84,12 +84,10 @@ def package(platform, preset, executable):
         path = folder / filename
         if not path.is_file() or path.stat().st_size == 0:
             raise RuntimeError("Missing export file: " + str(path))
-    for source in ("PLAYER_GUIDE.md", "LICENSES.md", "GODOT_NOTICES.txt", "QA_REPORT.md", "DEVELOPMENT_REPORT.md", "PACING_REVIEW.md",
-                   "AV_POLISH_REPORT.md", "SCORE_DESIGN.md", "ENVIRONMENT_POLISH.md", "VOICE_PRODUCTION.md",
-                   "VOICE_SAMPLE_REVIEW.md", "VOICE_ASR_PROVENANCE.md", "VOICE_AUDITION_RESULTS.json",
-                   "VOICE_BATCH_REPORT.md", "VOICE_REVIEW_SUMMARY.json",
-                   "VOICE_NATURAL_DIRECTION.md", "VOICE_NATURAL_RESULT.json",
-                   "ENVIRONMENT_FULL_REVIEW.md", "SFX_POLISH_REPORT.md", "CAMPAIGN_SEARCH_REPORT.md", "INTERFACE_STORY_REVISION.md", "DETECTIVE_UPDATE.md", "MUSIC_LICENSE.txt", "RESTORE_LICENSED_AUDIO.md"):
+    # Players get the guide and every licence. Development reports stay in the
+    # repository and the source archive, where they cannot go stale in a build.
+    for source in ("PLAYER_GUIDE.md", "LICENSES.md", "GODOT_NOTICES.txt", "MUSIC_LICENSE.txt",
+                   "VOICE_ASR_PROVENANCE.md", "RESTORE_LICENSED_AUDIO.md"):  # cited by LICENSES.md
         shutil.copy2(ROOT / "docs" / source, folder / source)
     shutil.copy2(ROOT / "assets/fonts/LICENSE.txt", folder / "FONT_LICENSE.txt")
     shutil.copy2(ROOT / "assets/audio/foley/LICENSES.txt", folder / "FOLEY_LICENSES.txt")

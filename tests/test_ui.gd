@@ -123,13 +123,18 @@ func _run() -> void:
 			main._submit(_wrong_answer(puzzle))
 			_expect(_progress() == previous, "realistic wrong answer preserves progression: " + puzzle.id)
 			_expect(not main.puzzle_feedback.text.is_empty(), "wrong answer gets visible feedback: " + puzzle.id)
+			# This traversal exercises every hint level, which a scarce economy cannot fund
+			# for 55 puzzles. Fund it consistently: the saved ledger stays valid.
+			if main.state.insight_balance() < 2:
+				main.state.detective.starting_insight += 2
+				main.state.detective.insight += 2
 			for hint_index in range(3):
-				if hint_index > 0: main.state.advance_puzzle(str(puzzle.id), 45.0)
+				if hint_index > 0: main.state.advance_puzzle(str(puzzle.id), 30.0)
 				main._hint(str(puzzle.id))
 			_expect(main.hint_levels[puzzle.id] == 3, "three earned and purchased hint levels are recorded: " + puzzle.id)
 			_expect(main.puzzle_feedback.text.contains(str(puzzle.hints[2])), "final hint displays: " + puzzle.id)
 			var hint_balance: int = main.state.insight_balance()
-			main.state.advance_puzzle(str(puzzle.id), 45.0)
+			main.state.advance_puzzle(str(puzzle.id), 30.0)
 			main._hint(str(puzzle.id))
 			_expect(main.state.puzzle_status(str(puzzle.id)).hints_used == 3 and main.state.insight_balance() == hint_balance, "fourth puzzle hint is blocked without a charge: " + puzzle.id)
 			if not captured.has("puzzle-" + str(puzzle.type)):

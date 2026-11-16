@@ -18,6 +18,8 @@ var time_label: Label
 var time_button: Button
 var hint_button: Button
 var item_labels := {}
+## Unfound object the next hint should point at; empty means the first unfound one.
+var hint_target := ""
 var message: Label
 var objective_label: Label
 var navigation_buttons := {}
@@ -88,10 +90,16 @@ func _ready() -> void:
 		label.bbcode_enabled = true
 		label.fit_content = true
 		label.scroll_active = false
-		label.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		# Choosing a name aims the next hint at that object. Choosing costs nothing.
+		label.mouse_filter = Control.MOUSE_FILTER_STOP
+		label.focus_mode = Control.FOCUS_ALL
+		label.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+		label.tooltip_text = "Choose this object for your next hint"
+		label.gui_input.connect(_on_item_input.bind(str(item.id)))
 		label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		label.custom_minimum_size.y = 25 if not campaign.settings.large_text else 28
 		label.add_theme_font_size_override("normal_font_size", 21 if not campaign.settings.large_text else 24)
+		label.add_theme_font_size_override("italics_font_size", 20 if not campaign.settings.large_text else 23)
 		items.add_child(label)
 		item_labels[item.id] = label
 	var space := Control.new()
@@ -142,8 +150,15 @@ func sync_progress() -> void:
 	search.found.assign(campaign.search_progress.get(location_id, []))
 	for item in search.definition.items:
 		var found: bool = item.id in search.found
-		item_labels[item.id].text = ("[color=#829e91]✓ [s]" + str(item.name) + "[/s][/color]") if found else "·  " + str(item.name)
-		item_labels[item.id].accessibility_name = str(item.name) + (", found" if found else ", still hidden")
+		var chosen: bool = item.id == hint_target and not found
+		var shown := search.list_text(item).replace("[", "[lb]")
+		var riddle: bool = item.has("clue") and not found
+		if found: item_labels[item.id].text = "[color=#829e91]✓ [s]" + shown + "[/s][/color]"
+		elif chosen: item_labels[item.id].text = "[color=#d8b574]▸ " + ("[i]" + shown + "[/i]" if riddle else shown) + "[/color]"
+		elif riddle: item_labels[item.id].text = "·  [i]" + shown + "[/i]"
+		else: item_labels[item.id].text = "·  " + shown
+		item_labels[item.id].accessibility_name = (("Riddle: " if riddle else "") + search.list_text(item)) + (", found" if found else (", chosen for the next hint" if chosen else ", still hidden; press Enter to choose it for the next hint"))
+	if hint_target in search.found: hint_target = ""
 	if search.complete(): message.text = "Evidence recovered. Open the Casebook to follow it."
 	_refresh_hint()
 	canvas.queue_redraw()
@@ -155,8 +170,19 @@ func _miss() -> void:
 	progress_changed.emit()
 	if result.get("expired", false): time_expired.emit()
 
+func _on_item_input(event: InputEvent, id: String) -> void:
+	var pressed: bool = (event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT) or event.is_action_pressed("ui_accept")
+	if not pressed or id in search.found: return
+	hint_target = "" if hint_target == id else id
+	var item := search.object_by_id(id)
+	# Choosing is free, so it must not solve a riddle: name the riddle, not its answer.
+	var label := ("“" + str(item.clue) + "”") if item.has("clue") else "the " + str(item.name).to_lower()
+	message.text = ("Your next hint will point to " + label + ".") if not hint_target.is_empty() else "Your next hint will point to the first object still hidden."
+	sync_progress()
+	item_labels[id].accept_event()
+
 func request_hint() -> void:
-	var result: Dictionary = campaign.request_search_hint(location_id)
+	var result: Dictionary = campaign.request_search_hint(location_id, hint_target)
 	if not result.ok:
 		message.text = str(result.text)
 		return
