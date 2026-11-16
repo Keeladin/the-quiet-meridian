@@ -1,0 +1,727 @@
+{
+  "version": 1,
+  "selection_owner": "Codex for routine choices; Jaco retains creative direction and overrides",
+  "policy": "Routine sound selection and mixing are delegated to Codex. Preserve explicit owner choices, document source and selector, use scene context and audio analysis, and refine through overall gameplay feedback. No per-recording approval requirement or fixed creative sound cap.",
+  "requests": [
+    {
+      "id": "harbour_water",
+      "batch": "Opening dispatch office",
+      "cue": "Harbour water",
+      "where_and_when": "Outside the office window and beside the landing",
+      "represents": "Water lapping against stone and a moored boat; a working tidal harbour",
+      "playback_and_variation": "A flowing background loop; several alternatives welcome",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/beach_waves_ocean_calm_loop_02.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "rain_on_the_office",
+      "batch": "Opening dispatch office",
+      "cue": "Rain on the office",
+      "where_and_when": "Throughout the rainy opening",
+      "represents": "Rain hitting the roof and window, heard from inside the room",
+      "playback_and_variation": "Background loop; separate roof/window layers can be combined",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/rain_light_hard_surface_loop_01.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "moored_boat_and_ropes",
+      "batch": "Opening dispatch office",
+      "cue": "Moored boat and ropes",
+      "where_and_when": "Outside, as the boat shifts against its moorings",
+      "represents": "Timber flexing, rope strain and a lightly moving hull",
+      "playback_and_variation": "Several occasional creaks, plus a movement loop if useful",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_01.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "office_room_tone",
+      "batch": "Opening dispatch office",
+      "cue": "Office room tone",
+      "where_and_when": "Inside the dispatch office",
+      "represents": "Air in an old wooden room, with the outside world softened by the walls",
+      "playback_and_variation": "Background loop with a different character from outdoors",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Backgrounds/background_quiet_urban_park_loop_02.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "office_clock",
+      "batch": "Opening dispatch office",
+      "cue": "Office clock",
+      "where_and_when": "Near a visible clock or its mechanism",
+      "represents": "An old mechanical clock ticking with a recognisable personality",
+      "playback_and_variation": "Ticking loop; choose a distinct clock for this room",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Clock/clock_tick_03.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "building_movement",
+      "batch": "Opening dispatch office",
+      "cue": "Building movement",
+      "where_and_when": "Occasionally inside the old office",
+      "represents": "A settling beam, window-frame rattle or floorboard movement",
+      "playback_and_variation": "Several individual details spaced naturally",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_05.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "object_found",
+      "batch": "Opening dispatch office",
+      "cue": "Object found",
+      "where_and_when": "Each successful hidden-object discovery",
+      "represents": "Recognition and small progress; a rewarding sound that remains enjoyable over repeated finds",
+      "playback_and_variation": "A short family of confirmations; 3–6 favourites is a useful starting point",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Film Camera Movie Projector Small/movie_camera_vintage_lever_05.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "symbol_understood",
+      "batch": "Opening dispatch office",
+      "cue": "Symbol understood",
+      "where_and_when": "Finding a clue represented by a symbol, pattern or alternate meaning",
+      "represents": "The satisfaction of spotting the connection, including Club or Knight",
+      "playback_and_variation": "A related discovery variant; may share the Object found family if preferred",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_slow_deep_02.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "receipt_recovered",
+      "batch": "Opening dispatch office",
+      "cue": "Receipt recovered",
+      "where_and_when": "The completed search reveals the receipt",
+      "represents": "Handling and unfolding a small piece of aged paper that matters to the investigation",
+      "playback_and_variation": "A paper movement or short sequence of movements",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Wood/wood_tree_branch_move_13.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "search_completed",
+      "batch": "Opening dispatch office",
+      "cue": "Search completed",
+      "where_and_when": "The final clue is found and the room reward appears",
+      "represents": "A satisfying payoff, anticipation and forward movement in the mystery",
+      "playback_and_variation": "A fuller completion cue; alternatives can suit different rooms",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Collectibles_Items_Powerup/collect_item_05.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "hint_revealed",
+      "batch": "Opening dispatch office",
+      "cue": "Hint revealed",
+      "where_and_when": "A requested hint draws attention to one clue",
+      "represents": "Helpful guidance and a small moment of discovery",
+      "playback_and_variation": "One short cue or several related variants",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_weapon_spin_02.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "menu_interaction",
+      "batch": "Opening dispatch office",
+      "cue": "Menu interaction",
+      "where_and_when": "Selecting a menu, opening the map or confirming a control",
+      "represents": "A tactile interface consistent with paper, wood and brass",
+      "playback_and_variation": "A small family for select, confirm and close",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/User_Interface_Menu/ui_button_simple_click_05.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "journal_updated",
+      "batch": "Opening dispatch office",
+      "cue": "Journal updated",
+      "where_and_when": "Evidence or a chapter conclusion enters the casebook",
+      "represents": "Opening a notebook, turning a page or writing a new observation",
+      "playback_and_variation": "Page/writing details; separate open, record and close choices are welcome",
+      "selected_files": [
+        "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Pencil/pencil_sketch_draw_write_squibble_03_long_07.wav"
+      ],
+      "selection_notes": "Selected in Opening-sound-choices.txt, 14 November 2026. Use this exact recording; its original library category does not restrict its intended role. Prepared and wired in the isolated v3 opening preview; main campaign conversion remains pending.",
+      "selected_by": "Jaco",
+      "status": "integrated_in_opening_preview_awaiting_listening"
+    },
+    {
+      "id": "book_handling",
+      "batch": "Hands and movement",
+      "cue": "Book handling",
+      "where_and_when": "Opening or examining archive books and ledgers",
+      "represents": "A substantial cover, pages and contact with a desk",
+      "playback_and_variation": "Several open, page-turn and close performances",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "cloth_handling",
+      "batch": "Hands and movement",
+      "cue": "Cloth handling",
+      "where_and_when": "Moving a cloth, opening a bag or collecting a textile",
+      "represents": "Fabric weight and texture appropriate to the visible object",
+      "playback_and_variation": "Several light and heavier movements",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "rope_pulling",
+      "batch": "Hands and movement",
+      "cue": "Rope pulling",
+      "where_and_when": "Drawing a rope, tightening a line or repairing a bell pull",
+      "represents": "Fibres rubbing and taking tension",
+      "playback_and_variation": "Pull, tension and release details; multiple variations",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "small_metal_handling",
+      "batch": "Hands and movement",
+      "cue": "Small metal handling",
+      "where_and_when": "Manipulating fittings, instruments or loose parts",
+      "represents": "Brass or iron pieces contacting one another",
+      "playback_and_variation": "Several small contacts, slides or rattles",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "keys_handled",
+      "batch": "Hands and movement",
+      "cue": "Keys handled",
+      "where_and_when": "Taking a key, carrying a small keyring or inserting a key",
+      "represents": "A recognisable small key sound with weight and detail",
+      "playback_and_variation": "Single key and keyring options; insertion can be separate",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "coins_and_small_valuables",
+      "batch": "Hands and movement",
+      "cue": "Coins and small valuables",
+      "where_and_when": "Handling coins, tokens or a small bag of valuables",
+      "represents": "Small pieces shifting and touching a surface",
+      "playback_and_variation": "Several contacts, drops or bag movements",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "glass_or_ceramic_handling",
+      "batch": "Hands and movement",
+      "cue": "Glass or ceramic handling",
+      "where_and_when": "Picking up or setting down a bottle, goblet or cup",
+      "represents": "An intact vessel touching a surface or another vessel",
+      "playback_and_variation": "Choose suitable gentle contacts; a breaking sound has a different purpose",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "wooden_object_handling",
+      "batch": "Hands and movement",
+      "cue": "Wooden object handling",
+      "where_and_when": "Moving a box, toy, drawer contents or wooden fitting",
+      "represents": "Solid wood with the appropriate size and weight",
+      "playback_and_variation": "Several slides, contacts and rattles",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "stone_footsteps",
+      "batch": "Hands and movement",
+      "cue": "Stone footsteps",
+      "where_and_when": "Moving through dry civic rooms or stone passages",
+      "represents": "Shoes crossing hard stone, with the room's space audible",
+      "playback_and_variation": "A varied set of individual steps",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "wooden_footsteps",
+      "batch": "Hands and movement",
+      "cue": "Wooden footsteps",
+      "where_and_when": "Moving through the office, boarding house or wooden walkways",
+      "represents": "Boards responding to the character's weight",
+      "playback_and_variation": "Several steps and occasional board creaks",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "wet_footsteps",
+      "batch": "Hands and movement",
+      "cue": "Wet footsteps",
+      "where_and_when": "Crossing the harbour in rain or walking near the works",
+      "represents": "Shoes on wet stone, shallow puddles or damp boards",
+      "playback_and_variation": "Distinct wet-surface sets where useful",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "gravel_and_earth_footsteps",
+      "batch": "Hands and movement",
+      "cue": "Gravel and earth footsteps",
+      "where_and_when": "Island paths and garden approaches",
+      "represents": "Footfalls on earth, gravel and uneven outdoor surfaces",
+      "playback_and_variation": "Several variations for each chosen surface",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "brass_lock",
+      "batch": "Moving mechanisms",
+      "cue": "Brass lock",
+      "where_and_when": "Unlocking a cupboard, dispatch box or archive lock",
+      "represents": "A key turns, the internal parts shift and the catch releases",
+      "playback_and_variation": "Key turn, release and locked resistance; one combined recording is also usable",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "wooden_door",
+      "batch": "Moving mechanisms",
+      "cue": "Wooden door",
+      "where_and_when": "Entering old offices, lodging rooms and archive spaces",
+      "represents": "Handle movement, hinges, panel weight and closing contact",
+      "playback_and_variation": "Open, movement/creak and close options",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "heavy_metal_gate",
+      "batch": "Moving mechanisms",
+      "cue": "Heavy metal gate",
+      "where_and_when": "Opening or securing a works gate",
+      "represents": "A heavy catch, metal movement and a decisive stop",
+      "playback_and_variation": "Release, movement and stop; weight should match the gate",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "desk_drawer",
+      "batch": "Moving mechanisms",
+      "cue": "Desk drawer",
+      "where_and_when": "Revealing or closing a drawer or compartment",
+      "represents": "Wood sliding on runners, contents moving and the end stop",
+      "playback_and_variation": "Open and close, with variations",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "harbour_winch",
+      "batch": "Moving mechanisms",
+      "cue": "Harbour winch",
+      "where_and_when": "A winch or line moves a load along the harbour",
+      "represents": "Turning gears, ratchet, rope/chain tension and a held load",
+      "playback_and_variation": "Engagement, sustained movement and stop/hold",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "tide_shutter",
+      "batch": "Moving mechanisms",
+      "cue": "Tide shutter",
+      "where_and_when": "Operating the shutter during the harbour investigation",
+      "represents": "An interlock releases and a weathered shutter moves into position",
+      "playback_and_variation": "Release, movement and final latch",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "water_pump",
+      "batch": "Moving mechanisms",
+      "cue": "Water pump",
+      "where_and_when": "Operating or passing the pumping machinery",
+      "represents": "A large working mechanism pushing water with a physical rhythm",
+      "playback_and_variation": "Start, running loop and stop; distinct states if available",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "valve",
+      "batch": "Moving mechanisms",
+      "cue": "Valve",
+      "where_and_when": "Turning and setting a valve in the works",
+      "represents": "Handwheel/shaft movement followed by changing pressure or flow",
+      "playback_and_variation": "Turn, set and the associated water/pressure change",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "clockwork",
+      "batch": "Moving mechanisms",
+      "cue": "Clockwork",
+      "where_and_when": "Repairing or setting an observatory mechanism",
+      "represents": "Winding, gears engaging, an escapement and a mechanism settling",
+      "playback_and_variation": "Winding, running and stop/release choices",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "small_signal_bell",
+      "batch": "Moving mechanisms",
+      "cue": "Small signal bell",
+      "where_and_when": "Using the bell that communicates a meaningful pattern",
+      "represents": "A clearly recognisable physical bell with a usable ring and decay",
+      "playback_and_variation": "Individual strikes with variations; cadence will follow the puzzle",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "observatory_shutter",
+      "batch": "Moving mechanisms",
+      "cue": "Observatory shutter",
+      "where_and_when": "Moving the optical or signal shutters",
+      "represents": "Sliding or pivoting mechanical panels, with distinct stops",
+      "playback_and_variation": "Open, close and movement options",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "printing_press",
+      "batch": "Moving mechanisms",
+      "cue": "Printing press",
+      "where_and_when": "Preparing and operating Sera's press",
+      "represents": "Levers, rollers, mechanical weight, paper and the completed impression",
+      "playback_and_variation": "Start, working cycle and stop; components may be layered",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "pneumatic_dispatch",
+      "batch": "Moving mechanisms",
+      "cue": "Pneumatic dispatch",
+      "where_and_when": "Sending a message through the city's dispatch system",
+      "represents": "A capsule, latch, air movement and arrival",
+      "playback_and_variation": "Load/close, launch and arrival sounds",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "pumping_works_interior",
+      "batch": "District atmospheres",
+      "cue": "Pumping works interior",
+      "where_and_when": "Inside the machine and sluice spaces",
+      "represents": "Heavy machinery heard through a large enclosed industrial space",
+      "playback_and_variation": "Background loop; several operating states are useful",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "works_water",
+      "batch": "District atmospheres",
+      "cue": "Works water",
+      "where_and_when": "Near channels, outlets and the spillway",
+      "represents": "Moving water at the visible scale and pressure",
+      "playback_and_variation": "Separate low flow, strong flow and changing-flow recordings",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "observatory_rooftop_wind",
+      "batch": "District atmospheres",
+      "cue": "Observatory rooftop wind",
+      "where_and_when": "On the roof and exposed approaches",
+      "represents": "Wind around stone, metalwork and a high exposed structure",
+      "playback_and_variation": "Wind background plus occasional local movement",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "observatory_interior",
+      "batch": "District atmospheres",
+      "cue": "Observatory interior",
+      "where_and_when": "Inside the transit hall and clock workshop",
+      "represents": "A quiet large room inhabited by clocks and precision mechanisms",
+      "playback_and_variation": "Room tone and ticking/gear details as separate choices",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "marsh_water",
+      "batch": "District atmospheres",
+      "cue": "Marsh water",
+      "where_and_when": "Beside the reed jetty and island approaches",
+      "represents": "Shallow water against reeds, mud and a small boat",
+      "playback_and_variation": "Background loop and occasional close water detail",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "reeds_in_wind",
+      "batch": "District atmospheres",
+      "cue": "Reeds in wind",
+      "where_and_when": "On the island paths and shore",
+      "represents": "Dry and damp vegetation moving in the breeze",
+      "playback_and_variation": "Several rustles or a natural loop",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "island_wildlife",
+      "batch": "District atmospheres",
+      "cue": "Island wildlife",
+      "where_and_when": "Across the marsh and garden",
+      "represents": "Suitable birds and insects, creating a distinct living place",
+      "playback_and_variation": "Several distant calls and optional continuous insect ambience",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "civic_interiors",
+      "batch": "District atmospheres",
+      "cue": "Civic interiors",
+      "where_and_when": "Council rooms, archives and the deed vault",
+      "represents": "The scale and occupancy of institutional rooms",
+      "playback_and_variation": "Room tone, distant movement and occasional paper/door detail",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "civic_square",
+      "batch": "District atmospheres",
+      "cue": "Civic square",
+      "where_and_when": "Around the public offices and gathering places",
+      "represents": "People and city activity appropriate to the scene",
+      "playback_and_variation": "Crowd/background loop with several individual distant details",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "print_room",
+      "batch": "District atmospheres",
+      "cue": "Print room",
+      "where_and_when": "Inside the print shop",
+      "represents": "Paper, workshop space and a press ready to work",
+      "playback_and_variation": "Room background plus intermittent workshop details",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "dawn_harbour",
+      "batch": "District atmospheres",
+      "cue": "Dawn harbour",
+      "where_and_when": "The final chapter's morning arrival",
+      "represents": "Water, early birds and a harbour waking into a changed mood",
+      "playback_and_variation": "Morning atmosphere and a distinct set of occasional details",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "public_hearing",
+      "batch": "District atmospheres",
+      "cue": "Public hearing",
+      "where_and_when": "The gathering and the story's public confrontation",
+      "represents": "A listening crowd and believable responses to events",
+      "playback_and_variation": "Waiting murmur, settling/silence transition and authored reactions",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "components_fit",
+      "batch": "Story and puzzle payoffs",
+      "cue": "Components fit",
+      "where_and_when": "The player assembles a useful tool or repairs something",
+      "represents": "Pieces physically fitting and a clear sense of completion",
+      "playback_and_variation": "Material-specific fitting sounds plus an optional completion accent",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "puzzle_resolved",
+      "batch": "Story and puzzle payoffs",
+      "cue": "Puzzle resolved",
+      "where_and_when": "A room problem is solved",
+      "represents": "Understanding followed by a tangible result",
+      "playback_and_variation": "Several payoff choices, with the actual mechanism carrying its own sound",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "important_evidence_revealed",
+      "batch": "Story and puzzle payoffs",
+      "cue": "Important evidence revealed",
+      "where_and_when": "A discovery changes the interpretation of the case",
+      "represents": "Intrigue, significance and a reason to look more closely",
+      "playback_and_variation": "Several reveal accents suited to different levels of importance",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "new_route_opened",
+      "batch": "Story and puzzle payoffs",
+      "cue": "New route opened",
+      "where_and_when": "A newly usable area or passage becomes available",
+      "represents": "The world opening up and an invitation to explore",
+      "playback_and_variation": "A transition accent supported by the actual gate/door/environment change",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "chapter_resolved",
+      "batch": "Story and puzzle payoffs",
+      "cue": "Chapter resolved",
+      "where_and_when": "A chapter's smaller story reaches its conclusion",
+      "represents": "An earned, memorable resolution with momentum into the next chapter",
+      "playback_and_variation": "Distinct chapter payoffs where the story benefits from them",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "tension_rises",
+      "batch": "Story and puzzle payoffs",
+      "cue": "Tension rises",
+      "where_and_when": "A scripted threat, contradiction or reversal changes the mood",
+      "represents": "Anticipation and uncertainty appropriate to a grounded mystery",
+      "playback_and_variation": "Several atmosphere shifts or accents, timed to authored moments",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    },
+    {
+      "id": "final_resolution",
+      "batch": "Story and puzzle payoffs",
+      "cue": "Final resolution",
+      "where_and_when": "The overall mystery is resolved and the epilogue begins",
+      "represents": "Emotional release, consequence and a sense of completion",
+      "playback_and_variation": "A distinctive final payoff that can work with the score",
+      "selected_files": [],
+      "selection_notes": "",
+      "selected_by": null,
+      "status": "available_for_codex_selection"
+    }
+  ],
+  "campaign_integration": {
+    "status": "36 room atmospheres, search feedback and selected travel/mechanism effects integrated",
+    "selected_by": "Codex, owner-delegated routine selection",
+    "plan": "docs/audio-selection/campaign-plan.json",
+    "provenance": "docs/audio-selection/campaign-provenance.json",
+    "source_recordings": 33,
+    "owner_selected_opening_recordings_preserved": 13,
+    "room_mixes": 36,
+    "hearing": "No claim of subjective listening approval; source descriptions, signal analysis and runtime checks used."
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "assets": [
+    {
+      "id": "ch4_l1",
+      "path": "assets/art/locations/ch4_l1.png",
+      "purpose": "Original environment background: Reed Jetty",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l1.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-56d840b5-db66-4209-90c7-7da954575d14.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "a7ec3880d209c23ff962deb0f013935a7cec0fe1a2b0842a56bb66b5f6a93448"
+    },
+    {
+      "id": "ch4_l2",
+      "path": "assets/art/locations/ch4_l2.png",
+      "purpose": "Original environment background: Abandoned Clinic",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l2.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-ddbd4939-2017-417c-9f7e-5f383af40ede.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "3fa2b4232a0f4866b30c3088866b8da6504bc7c2b3392a72aeba8a1f1ced8ee2"
+    },
+    {
+      "id": "ch4_l3",
+      "path": "assets/art/locations/ch4_l3.png",
+      "purpose": "Original environment background: Glasshouse",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l3.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-94ae167a-0ed5-472a-8312-511142f779df.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "186c54989a149e6f0fcb874a253cab50132da55769fb32cfc2556842a20211b9"
+    },
+    {
+      "id": "ch4_l4",
+      "path": "assets/art/locations/ch4_l4.png",
+      "purpose": "Original environment background: Survey Hut",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l4.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-a39490fa-303a-4b41-a917-31057f13cfea.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "fac3b94c51cd827d14996f3914bd46ced12272c721a9879c02a406f03daab325"
+    },
+    {
+      "id": "ch4_l5",
+      "path": "assets/art/locations/ch4_l5.png",
+      "purpose": "Original environment background: Memorial Garden",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l5.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-a41a2561-7e0f-4f09-be28-83b2e0179d06.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "df450ad86113a9900a3ffdf1963cf1305da803f93763690e206c8d46b1b282be"
+    },
+    {
+      "id": "ch4_l6",
+      "path": "assets/art/locations/ch4_l6.png",
+      "purpose": "Original environment background: Island Refuge",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l6.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-93c30bef-60c4-4c44-95a2-d2a582691f8b.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "3383190494a88be529ed9a9b9a592ac8a929974f203b35dc1d0e7bfb32344af2"
+    },
+    {
+      "id": "ch5_l1",
+      "path": "assets/art/locations/ch5_l1.png",
+      "purpose": "Original environment background: Civic Square",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l1.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-f10e36e8-cc73-4690-84c0-58fa94755682.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "fac41e2a12eabd9f02a14e1e1ee45dab2b45575499d1315c478840fb569b4cc7"
+    },
+    {
+      "id": "ch5_l2",
+      "path": "assets/art/locations/ch5_l2.png",
+      "purpose": "Original environment background: Council Chamber",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l2.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-f7b98aff-5b9a-4094-ab60-22fe2c497555.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "d3e143b51f4866d13f239495c39a5c10bd6606665517153a57a0aea2c31df3c3"
+    },
+    {
+      "id": "ch5_l3",
+      "path": "assets/art/locations/ch5_l3.png",
+      "purpose": "Original environment background: Deed Vault",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l3.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-7d58cd4a-0ed8-4d8b-acdd-972d152e645a.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "c5506eb1fc4ace2040961ace1dc6b79547bfd7a94caccbeb70a30aeca2f28c2a"
+    },
+    {
+      "id": "ch5_l4",
+      "path": "assets/art/locations/ch5_l4.png",
+      "purpose": "Original environment background: Print Shop",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l4.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-57df4293-33f2-4536-a1c6-4704f423db23.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "68cbde5eec74d73f8efd89c041574e574bcea8b4214031b66a3aae99e7fa2b4a"
+    },
+    {
+      "id": "ch5_l5",
+      "path": "assets/art/locations/ch5_l5.png",
+      "purpose": "Original environment background: Counting Room",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l5.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-925a192c-5108-45dd-a390-67fe3c7d1173.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "ed1ba3505d391f64908a60f83de1ce8c962b7bc8e78c004efaa4b0d8c8107d59"
+    },
+    {
+      "id": "ch5_l6",
+      "path": "assets/art/locations/ch5_l6.png",
+      "purpose": "Original environment background: Dispatch Station",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l6.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-011d8bef-e5d9-45e1-8bfb-fc3f65490eb0.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "7403514b1d82d39a1d10ebc961ea099ee1853c621dad73bfd4bd88bc49ecc577"
+    },
+    {
+      "id": "ch6_l1",
+      "path": "assets/art/locations/ch6_l1.png",
+      "purpose": "Original environment background: Dawn Quay",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l1.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-8a8037ec-e3e5-4c65-aa17-d884c2e5e940.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "945fb6703578435d9865a34c4e20463f7b44bf062865ab1e8f1b52bcee1012e7"
+    },
+    {
+      "id": "ch6_l2",
+      "path": "assets/art/locations/ch6_l2.png",
+      "purpose": "Original environment background: Witness Room",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l2.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-7c8e7ced-4263-4d59-bf66-e6fd89ea4d1c.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "24fcfabef0a39ce5374cf03ecfd18026c7e9aae1c7c0c14765347d6250aa1954"
+    },
+    {
+      "id": "ch6_l3",
+      "path": "assets/art/locations/ch6_l3.png",
+      "purpose": "Original environment background: Relay House",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l3.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-69c49780-a0ac-4ae3-991f-167c5fc4fc59.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "47ea2e31a365a3f09722f1a39e828684c315da9bf231cef4d2d03be214682d1d"
+    },
+    {
+      "id": "ch6_l4",
+      "path": "assets/art/locations/ch6_l4.png",
+      "purpose": "Original environment background: Gate Crown",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l4.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-bb1038fb-891b-4285-83ba-84b29c0da2de.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "32643db4081ff3f5620e464152471fe4c45aed2d3de3e145dcfd9116e802e113"
+    },
+    {
+      "id": "ch6_l5",
+      "path": "assets/art/locations/ch6_l5.png",
+      "purpose": "Original environment background: Public Forum",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l5.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-3a5ffd20-81cb-4f5d-93a8-a6e8258a9983.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "4187d40b52ccacfee64edcbfccf5257e1d839a3fad1b2b4ffdf5dfb1b1303791"
+    },
+    {
+      "id": "ch6_l6",
+      "path": "assets/art/locations/ch6_l6.png",
+      "purpose": "Original environment background: Memory Room",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l6.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-136c395f-717a-4119-b19b-9096c29412f0.png",
+      "external_references": [],
+      "review_status": "Original PNG preserved and visually reviewed in three chapter contact sheets on 2026-11-14: coherent palette, distinct room compositions, no people/UI/watermarks. Precise evidence-object placement still requires in-game review.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6a484e95b29b47012cc10496513b4f686b4671e2a168b70bb2e9f20414096eb3"
+    }
+  ]
+}

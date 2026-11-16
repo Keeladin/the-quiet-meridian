@@ -1,0 +1,213 @@
+{
+  "line_id": "sera_proof_q2",
+  "clip_id": "80573e32303844afbef20621b5073c52",
+  "source_text_sha256": "0380d1bde59940d64e2800ce7a084f30432e4a093f5dcb174a6fa5318f4cbc6f",
+  "master": "work/gateway-voice/masters/80573e32303844afbef20621b5073c52.wav",
+  "wav_sha256": "5914882f695596c2d41d60b21499070a561bf2ca948ae3cf14767dac6b5e59ed",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 107520,
+    "sample_count": 53760,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.24,
+    "peak": 0.1875,
+    "peak_dbfs": -14.539974558725246,
+    "rms": 0.03130284477254873,
+    "rms_dbfs": -30.08832384787016,
+    "dc_offset": 3.1637010120210194e-05,
+    "silence_fraction": 0.4258556547619048,
+    "leading_silence_seconds": 0.3944166666666667,
+    "tail_silence_seconds": 0.3535,
+    "active_span_seconds": 1.4920833333333334,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 241.27338732197708,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "would",
+      "your",
+      "mother",
+      "have",
+      "thought"
+    ],
+    "observed_tokens": [
+      "what",
+      "would",
+      "your",
+      "mother",
+      "have",
+      "thought"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "what",
+          "would",
+          "your",
+          "mother",
+          "have",
+          "thought"
+        ],
+        "observed": [
+          "what",
+          "would",
+          "your",
+          "mother",
+          "have",
+          "thought"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "What would your mother have thought?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.66,
+      "text": " What would your mother have thought?",
+      "words": [
+        {
+          "word": " What",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.8730144500732422
+        },
+        {
+          "word": " would",
+          "start": 0.5,
+          "end": 0.62,
+          "probability": 0.9912529587745667
+        },
+        {
+          "word": " your",
+          "start": 0.62,
+          "end": 0.8,
+          "probability": 0.99225252866745
+        },
+        {
+          "word": " mother",
+          "start": 0.8,
+          "end": 1.08,
+          "probability": 0.9933114051818848
+        },
+        {
+          "word": " have",
+          "start": 1.08,
+          "end": 1.34,
+          "probability": 0.9713359475135803
+        },
+        {
+          "word": " thought?",
+          "start": 1.34,
+          "end": 1.66,
+          "probability": 0.9959873557090759
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "would",
+      "your",
+      "mother",
+      "have",
+      "thought"
+    ],
+    "observed_tokens": [
+      "what",
+      "would",
+      "your",
+      "mother",
+      "have",
+      "thought"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "what",
+          "would",
+          "your",
+          "mother",
+          "have",
+          "thought"
+        ],
+        "observed": [
+          "what",
+          "would",
+          "your",
+          "mother",
+          "have",
+          "thought"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

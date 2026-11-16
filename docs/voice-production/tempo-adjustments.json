@@ -1,0 +1,10 @@
+{
+  "clips": {
+    "f497db9aa5394514af0fa1d4c4ee3ac6": {
+      "line_id": "nadi_arrival_q0",
+      "factor": 1.08,
+      "source_sha256": "50eb020ae2e65d5107928c7e118f018fbf21a8ffdf049552f184a2494fa5c875",
+      "reason": "Owner heard the diction retake and said sounds better just a bit slow. Apply a modest 8 percent tempo increase without changing pitch. No new generation or word edits."
+    }
+  }
+}

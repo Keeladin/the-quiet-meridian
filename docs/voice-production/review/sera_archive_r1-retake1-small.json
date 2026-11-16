@@ -1,0 +1,1073 @@
+{
+  "line_id": "sera_archive_r1",
+  "clip_id": "d1bca62637e04acfad1091ff43413cde",
+  "source_text_sha256": "20bf199219c0f860ce6ee14f152e1edca12864e3d853bb39ff4852f4e9df8c06",
+  "master": "work/gateway-voice/masters/d1bca62637e04acfad1091ff43413cde.wav",
+  "wav_sha256": "718f72307b3c84889a5404335b3bdd8fc9caad9b3ec3d4ffbab8711c352ce44a",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1171200,
+    "sample_count": 585600,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 24.4,
+    "peak": 0.578125,
+    "peak_dbfs": -4.759564998337843,
+    "rms": 0.07330805496028425,
+    "rms_dbfs": -22.696966064447025,
+    "dc_offset": 9.11473446205014e-05,
+    "silence_fraction": 0.1760228825136612,
+    "leading_silence_seconds": 0.4031666666666667,
+    "tail_silence_seconds": 0.003,
+    "active_span_seconds": 23.993833333333335,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 60,
+    "source_words_per_active_minute": 150.03855157227898,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "i",
+      "was",
+      "a",
+      "child",
+      "in",
+      "the",
+      "north",
+      "ward",
+      "my",
+      "mother",
+      "spent",
+      "that",
+      "night",
+      "carrying",
+      "blankets",
+      "and",
+      "the",
+      "following",
+      "years",
+      "asking",
+      "where",
+      "the",
+      "tenants",
+      "petition",
+      "had",
+      "gone",
+      "she",
+      "taught",
+      "me",
+      "to",
+      "set",
+      "type",
+      "because",
+      "she",
+      "was",
+      "tired",
+      "of",
+      "begging",
+      "someone",
+      "else",
+      "to",
+      "print",
+      "a",
+      "question",
+      "i",
+      "have",
+      "inherited",
+      "the",
+      "press",
+      "i",
+      "would",
+      "prefer",
+      "not",
+      "to",
+      "inherit",
+      "the",
+      "same",
+      "unanswered",
+      "question",
+      "forever"
+    ],
+    "observed_tokens": [
+      "i",
+      "was",
+      "a",
+      "child",
+      "in",
+      "the",
+      "north",
+      "ward",
+      "my",
+      "mother",
+      "spent",
+      "that",
+      "night",
+      "carrying",
+      "blankets",
+      "and",
+      "the",
+      "following",
+      "years",
+      "asking",
+      "where",
+      "the",
+      "tenants",
+      "petition",
+      "had",
+      "gone",
+      "she",
+      "taught",
+      "me",
+      "to",
+      "set",
+      "type",
+      "because",
+      "she",
+      "was",
+      "tired",
+      "of",
+      "begging",
+      "someone",
+      "else",
+      "to",
+      "print",
+      "a",
+      "question",
+      "i've",
+      "inherited",
+      "the",
+      "press",
+      "i",
+      "would",
+      "prefer",
+      "not",
+      "to",
+      "inherit",
+      "the",
+      "same",
+      "unanswered",
+      "question",
+      "forever"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 44,
+        "observed_start": 0,
+        "observed_end": 44,
+        "expected": [
+          "i",
+          "was",
+          "a",
+          "child",
+          "in",
+          "the",
+          "north",
+          "ward",
+          "my",
+          "mother",
+          "spent",
+          "that",
+          "night",
+          "carrying",
+          "blankets",
+          "and",
+          "the",
+          "following",
+          "years",
+          "asking",
+          "where",
+          "the",
+          "tenants",
+          "petition",
+          "had",
+          "gone",
+          "she",
+          "taught",
+          "me",
+          "to",
+          "set",
+          "type",
+          "because",
+          "she",
+          "was",
+          "tired",
+          "of",
+          "begging",
+          "someone",
+          "else",
+          "to",
+          "print",
+          "a",
+          "question"
+        ],
+        "observed": [
+          "i",
+          "was",
+          "a",
+          "child",
+          "in",
+          "the",
+          "north",
+          "ward",
+          "my",
+          "mother",
+          "spent",
+          "that",
+          "night",
+          "carrying",
+          "blankets",
+          "and",
+          "the",
+          "following",
+          "years",
+          "asking",
+          "where",
+          "the",
+          "tenants",
+          "petition",
+          "had",
+          "gone",
+          "she",
+          "taught",
+          "me",
+          "to",
+          "set",
+          "type",
+          "because",
+          "she",
+          "was",
+          "tired",
+          "of",
+          "begging",
+          "someone",
+          "else",
+          "to",
+          "print",
+          "a",
+          "question"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 44,
+        "expected_end": 46,
+        "observed_start": 44,
+        "observed_end": 45,
+        "expected": [
+          "i",
+          "have"
+        ],
+        "observed": [
+          "i've"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 46,
+        "expected_end": 60,
+        "observed_start": 45,
+        "observed_end": 59,
+        "expected": [
+          "inherited",
+          "the",
+          "press",
+          "i",
+          "would",
+          "prefer",
+          "not",
+          "to",
+          "inherit",
+          "the",
+          "same",
+          "unanswered",
+          "question",
+          "forever"
+        ],
+        "observed": [
+          "inherited",
+          "the",
+          "press",
+          "i",
+          "would",
+          "prefer",
+          "not",
+          "to",
+          "inherit",
+          "the",
+          "same",
+          "unanswered",
+          "question",
+          "forever"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "i",
+          "have"
+        ],
+        "observed": [
+          "i've"
+        ],
+        "expected_start": 44,
+        "observed_start": 44
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 44:46."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "I was a child in the North Ward. My mother spent that night carrying blankets, and the following years asking where the tenant's petition had gone. She taught me to set type because she was tired of begging someone else to print a question. I've inherited the press. I would prefer not to inherit the same unanswered question forever.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 10.54,
+      "text": " I was a child in the North Ward. My mother spent that night carrying blankets, and the following years asking where the tenant's petition had gone.",
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8084614872932434
+        },
+        {
+          "word": " was",
+          "start": 0.54,
+          "end": 0.76,
+          "probability": 0.9832398295402527
+        },
+        {
+          "word": " a",
+          "start": 0.76,
+          "end": 1.22,
+          "probability": 0.989803671836853
+        },
+        {
+          "word": " child",
+          "start": 1.22,
+          "end": 1.54,
+          "probability": 0.9884076714515686
+        },
+        {
+          "word": " in",
+          "start": 1.54,
+          "end": 1.98,
+          "probability": 0.972997784614563
+        },
+        {
+          "word": " the",
+          "start": 1.98,
+          "end": 2.1,
+          "probability": 0.988616406917572
+        },
+        {
+          "word": " North",
+          "start": 2.1,
+          "end": 2.3,
+          "probability": 0.8759928941726685
+        },
+        {
+          "word": " Ward.",
+          "start": 2.3,
+          "end": 2.7,
+          "probability": 0.9153655767440796
+        },
+        {
+          "word": " My",
+          "start": 3.42,
+          "end": 3.56,
+          "probability": 0.9952934384346008
+        },
+        {
+          "word": " mother",
+          "start": 3.56,
+          "end": 3.88,
+          "probability": 0.9959333539009094
+        },
+        {
+          "word": " spent",
+          "start": 3.88,
+          "end": 4.22,
+          "probability": 0.9964354038238525
+        },
+        {
+          "word": " that",
+          "start": 4.22,
+          "end": 4.52,
+          "probability": 0.9899019002914429
+        },
+        {
+          "word": " night",
+          "start": 4.52,
+          "end": 4.76,
+          "probability": 0.9990780353546143
+        },
+        {
+          "word": " carrying",
+          "start": 4.76,
+          "end": 5.3,
+          "probability": 0.9975576400756836
+        },
+        {
+          "word": " blankets,",
+          "start": 5.3,
+          "end": 5.92,
+          "probability": 0.9991194605827332
+        },
+        {
+          "word": " and",
+          "start": 6.2,
+          "end": 6.52,
+          "probability": 0.9823914170265198
+        },
+        {
+          "word": " the",
+          "start": 6.52,
+          "end": 6.64,
+          "probability": 0.9906884431838989
+        },
+        {
+          "word": " following",
+          "start": 6.64,
+          "end": 6.94,
+          "probability": 0.9994077682495117
+        },
+        {
+          "word": " years",
+          "start": 6.94,
+          "end": 7.32,
+          "probability": 0.48845764994621277
+        },
+        {
+          "word": " asking",
+          "start": 7.32,
+          "end": 7.88,
+          "probability": 0.815398097038269
+        },
+        {
+          "word": " where",
+          "start": 7.88,
+          "end": 8.32,
+          "probability": 0.9935391545295715
+        },
+        {
+          "word": " the",
+          "start": 8.32,
+          "end": 8.7,
+          "probability": 0.9940482378005981
+        },
+        {
+          "word": " tenant's",
+          "start": 8.7,
+          "end": 9.56,
+          "probability": 0.7270886898040771
+        },
+        {
+          "word": " petition",
+          "start": 9.56,
+          "end": 9.84,
+          "probability": 0.9990203380584717
+        },
+        {
+          "word": " had",
+          "start": 9.84,
+          "end": 10.18,
+          "probability": 0.9967344403266907
+        },
+        {
+          "word": " gone.",
+          "start": 10.18,
+          "end": 10.54,
+          "probability": 0.998426079750061
+        }
+      ]
+    },
+    {
+      "start": 11.18,
+      "end": 23.68,
+      "text": " She taught me to set type because she was tired of begging someone else to print a question. I've inherited the press. I would prefer not to inherit the same unanswered question forever.",
+      "words": [
+        {
+          "word": " She",
+          "start": 11.18,
+          "end": 11.48,
+          "probability": 0.9958985447883606
+        },
+        {
+          "word": " taught",
+          "start": 11.48,
+          "end": 11.72,
+          "probability": 0.9972487092018127
+        },
+        {
+          "word": " me",
+          "start": 11.72,
+          "end": 11.96,
+          "probability": 0.9990479350090027
+        },
+        {
+          "word": " to",
+          "start": 11.96,
+          "end": 12.16,
+          "probability": 0.9885894060134888
+        },
+        {
+          "word": " set",
+          "start": 12.16,
+          "end": 12.5,
+          "probability": 0.9472127556800842
+        },
+        {
+          "word": " type",
+          "start": 12.5,
+          "end": 12.94,
+          "probability": 0.7786751389503479
+        },
+        {
+          "word": " because",
+          "start": 12.94,
+          "end": 13.54,
+          "probability": 0.6388993859291077
+        },
+        {
+          "word": " she",
+          "start": 13.54,
+          "end": 13.74,
+          "probability": 0.9984153509140015
+        },
+        {
+          "word": " was",
+          "start": 13.74,
+          "end": 13.9,
+          "probability": 0.9979934692382812
+        },
+        {
+          "word": " tired",
+          "start": 13.9,
+          "end": 14.24,
+          "probability": 0.9993183612823486
+        },
+        {
+          "word": " of",
+          "start": 14.24,
+          "end": 14.48,
+          "probability": 0.9987157583236694
+        },
+        {
+          "word": " begging",
+          "start": 14.48,
+          "end": 14.76,
+          "probability": 0.9839299321174622
+        },
+        {
+          "word": " someone",
+          "start": 14.76,
+          "end": 15.24,
+          "probability": 0.9963680505752563
+        },
+        {
+          "word": " else",
+          "start": 15.24,
+          "end": 15.48,
+          "probability": 0.993340790271759
+        },
+        {
+          "word": " to",
+          "start": 15.48,
+          "end": 15.78,
+          "probability": 0.9977445602416992
+        },
+        {
+          "word": " print",
+          "start": 15.78,
+          "end": 16.12,
+          "probability": 0.947162926197052
+        },
+        {
+          "word": " a",
+          "start": 16.12,
+          "end": 16.28,
+          "probability": 0.9966860413551331
+        },
+        {
+          "word": " question.",
+          "start": 16.28,
+          "end": 16.7,
+          "probability": 0.9987075328826904
+        },
+        {
+          "word": " I've",
+          "start": 17.48,
+          "end": 17.76,
+          "probability": 0.9750814139842987
+        },
+        {
+          "word": " inherited",
+          "start": 17.76,
+          "end": 18.18,
+          "probability": 0.9994581341743469
+        },
+        {
+          "word": " the",
+          "start": 18.18,
+          "end": 18.46,
+          "probability": 0.9988104104995728
+        },
+        {
+          "word": " press.",
+          "start": 18.46,
+          "end": 18.74,
+          "probability": 0.9947841763496399
+        },
+        {
+          "word": " I",
+          "start": 19.4,
+          "end": 19.58,
+          "probability": 0.9986340403556824
+        },
+        {
+          "word": " would",
+          "start": 19.58,
+          "end": 19.76,
+          "probability": 0.994128942489624
+        },
+        {
+          "word": " prefer",
+          "start": 19.76,
+          "end": 20.04,
+          "probability": 0.998813271522522
+        },
+        {
+          "word": " not",
+          "start": 20.04,
+          "end": 20.34,
+          "probability": 0.9894192218780518
+        },
+        {
+          "word": " to",
+          "start": 20.34,
+          "end": 20.54,
+          "probability": 0.9945101737976074
+        },
+        {
+          "word": " inherit",
+          "start": 20.54,
+          "end": 20.98,
+          "probability": 0.9986236095428467
+        },
+        {
+          "word": " the",
+          "start": 20.98,
+          "end": 21.24,
+          "probability": 0.9972400665283203
+        },
+        {
+          "word": " same",
+          "start": 21.24,
+          "end": 21.54,
+          "probability": 0.9997102618217468
+        },
+        {
+          "word": " unanswered",
+          "start": 21.54,
+          "end": 22.12,
+          "probability": 0.9954889416694641
+        },
+        {
+          "word": " question",
+          "start": 22.12,
+          "end": 22.86,
+          "probability": 0.9916236996650696
+        },
+        {
+          "word": " forever.",
+          "start": 22.86,
+          "end": 23.68,
+          "probability": 0.9751567840576172
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "i",
+      "was",
+      "a",
+      "child",
+      "in",
+      "the",
+      "north",
+      "ward",
+      "my",
+      "mother",
+      "spent",
+      "that",
+      "night",
+      "carrying",
+      "blankets",
+      "and",
+      "the",
+      "following",
+      "years",
+      "asking",
+      "where",
+      "the",
+      "tenants",
+      "petition",
+      "had",
+      "gone",
+      "she",
+      "taught",
+      "me",
+      "to",
+      "set",
+      "type",
+      "because",
+      "she",
+      "was",
+      "tired",
+      "of",
+      "begging",
+      "someone",
+      "else",
+      "to",
+      "print",
+      "a",
+      "question",
+      "i",
+      "have",
+      "inherited",
+      "the",
+      "press",
+      "i",
+      "would",
+      "prefer",
+      "not",
+      "to",
+      "inherit",
+      "the",
+      "same",
+      "unanswered",
+      "question",
+      "forever"
+    ],
+    "observed_tokens": [
+      "i",
+      "was",
+      "a",
+      "child",
+      "in",
+      "the",
+      "north",
+      "ward",
+      "my",
+      "mother",
+      "spent",
+      "that",
+      "night",
+      "carrying",
+      "blankets",
+      "and",
+      "the",
+      "following",
+      "years",
+      "asking",
+      "where",
+      "the",
+      "tenant's",
+      "petition",
+      "had",
+      "gone",
+      "she",
+      "taught",
+      "me",
+      "to",
+      "set",
+      "type",
+      "because",
+      "she",
+      "was",
+      "tired",
+      "of",
+      "begging",
+      "someone",
+      "else",
+      "to",
+      "print",
+      "a",
+      "question",
+      "i've",
+      "inherited",
+      "the",
+      "press",
+      "i",
+      "would",
+      "prefer",
+      "not",
+      "to",
+      "inherit",
+      "the",
+      "same",
+      "unanswered",
+      "question",
+      "forever"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 22,
+        "observed_start": 0,
+        "observed_end": 22,
+        "expected": [
+          "i",
+          "was",
+          "a",
+          "child",
+          "in",
+          "the",
+          "north",
+          "ward",
+          "my",
+          "mother",
+          "spent",
+          "that",
+          "night",
+          "carrying",
+          "blankets",
+          "and",
+          "the",
+          "following",
+          "years",
+          "asking",
+          "where",
+          "the"
+        ],
+        "observed": [
+          "i",
+          "was",
+          "a",
+          "child",
+          "in",
+          "the",
+          "north",
+          "ward",
+          "my",
+          "mother",
+          "spent",
+          "that",
+          "night",
+          "carrying",
+          "blankets",
+          "and",
+          "the",
+          "following",
+          "years",
+          "asking",
+          "where",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 22,
+        "expected_end": 23,
+        "observed_start": 22,
+        "observed_end": 23,
+        "expected": [
+          "tenants"
+        ],
+        "observed": [
+          "tenant's"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 23,
+        "expected_end": 44,
+        "observed_start": 23,
+        "observed_end": 44,
+        "expected": [
+          "petition",
+          "had",
+          "gone",
+          "she",
+          "taught",
+          "me",
+          "to",
+          "set",
+          "type",
+          "because",
+          "she",
+          "was",
+          "tired",
+          "of",
+          "begging",
+          "someone",
+          "else",
+          "to",
+          "print",
+          "a",
+          "question"
+        ],
+        "observed": [
+          "petition",
+          "had",
+          "gone",
+          "she",
+          "taught",
+          "me",
+          "to",
+          "set",
+          "type",
+          "because",
+          "she",
+          "was",
+          "tired",
+          "of",
+          "begging",
+          "someone",
+          "else",
+          "to",
+          "print",
+          "a",
+          "question"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 44,
+        "expected_end": 46,
+        "observed_start": 44,
+        "observed_end": 45,
+        "expected": [
+          "i",
+          "have"
+        ],
+        "observed": [
+          "i've"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 46,
+        "expected_end": 60,
+        "observed_start": 45,
+        "observed_end": 59,
+        "expected": [
+          "inherited",
+          "the",
+          "press",
+          "i",
+          "would",
+          "prefer",
+          "not",
+          "to",
+          "inherit",
+          "the",
+          "same",
+          "unanswered",
+          "question",
+          "forever"
+        ],
+        "observed": [
+          "inherited",
+          "the",
+          "press",
+          "i",
+          "would",
+          "prefer",
+          "not",
+          "to",
+          "inherit",
+          "the",
+          "same",
+          "unanswered",
+          "question",
+          "forever"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "tenants"
+        ],
+        "observed": [
+          "tenant's"
+        ],
+        "expected_start": 22,
+        "observed_start": 22
+      },
+      {
+        "expected": [
+          "i",
+          "have"
+        ],
+        "observed": [
+          "i've"
+        ],
+        "expected_start": 44,
+        "observed_start": 44
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 22:23.",
+      "Changed source words at expected tokens 44:46."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

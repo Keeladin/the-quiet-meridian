@@ -1,0 +1,227 @@
+{
+  "line_id": "elian_council_q2",
+  "clip_id": "bc8d400a37c741b6bff80b4316265408",
+  "source_text_sha256": "1f2c88518a674439475b99c5b7b84025e5b224f3e0b5009ebf6988a47d84206b",
+  "master": "work/gateway-voice/masters/bc8d400a37c741b6bff80b4316265408.wav",
+  "wav_sha256": "a510b4abc269a1b55e480e062d0aa2005bf5c3f9ad8a0a60d87af2ea1ccdba43",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 91200,
+    "sample_count": 45600,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 1.9,
+    "peak": 0.53515625,
+    "peak_dbfs": -5.430387963108856,
+    "rms": 0.06503699384207319,
+    "rms_dbfs": -23.736790820595818,
+    "dc_offset": 0.00015328658254523027,
+    "silence_fraction": 0.4359429824561403,
+    "leading_silence_seconds": 0.21004166666666665,
+    "tail_silence_seconds": 0.30375,
+    "active_span_seconds": 1.3862083333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 302.9847605879347,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "are",
+      "you",
+      "asking",
+      "from",
+      "me",
+      "now"
+    ],
+    "observed_tokens": [
+      "what",
+      "are",
+      "you",
+      "asking",
+      "from",
+      "me",
+      "now"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "what",
+          "are",
+          "you",
+          "asking",
+          "from",
+          "me",
+          "now"
+        ],
+        "observed": [
+          "what",
+          "are",
+          "you",
+          "asking",
+          "from",
+          "me",
+          "now"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "What are you asking from me now?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.48,
+      "text": " What are you asking from me now?",
+      "words": [
+        {
+          "word": " What",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.5579529404640198
+        },
+        {
+          "word": " are",
+          "start": 0.52,
+          "end": 0.62,
+          "probability": 0.9894871711730957
+        },
+        {
+          "word": " you",
+          "start": 0.62,
+          "end": 0.7,
+          "probability": 0.9992160797119141
+        },
+        {
+          "word": " asking",
+          "start": 0.7,
+          "end": 0.98,
+          "probability": 0.9947761297225952
+        },
+        {
+          "word": " from",
+          "start": 0.98,
+          "end": 1.16,
+          "probability": 0.48117104172706604
+        },
+        {
+          "word": " me",
+          "start": 1.16,
+          "end": 1.28,
+          "probability": 0.9994285702705383
+        },
+        {
+          "word": " now?",
+          "start": 1.28,
+          "end": 1.48,
+          "probability": 0.9655815958976746
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "are",
+      "you",
+      "asking",
+      "from",
+      "me",
+      "now"
+    ],
+    "observed_tokens": [
+      "what",
+      "are",
+      "you",
+      "asking",
+      "from",
+      "me",
+      "now"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "what",
+          "are",
+          "you",
+          "asking",
+          "from",
+          "me",
+          "now"
+        ],
+        "observed": [
+          "what",
+          "are",
+          "you",
+          "asking",
+          "from",
+          "me",
+          "now"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

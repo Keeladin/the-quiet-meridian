@@ -1,0 +1,706 @@
+{
+  "line_id": "ch3_intro",
+  "clip_id": "553a50fe5c7f4173bca48d33befc1a7c",
+  "source_text_sha256": "fb395c9f97c6cf0a84197b6bc279c0cb92791ae7e56a34048065e08d9ecbaf9d",
+  "master": "work/gateway-voice/masters/553a50fe5c7f4173bca48d33befc1a7c.wav",
+  "wav_sha256": "674870679b9ed448d561480f29a4455356c8456ab03cbdacee228f734eb9d71a",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 806400,
+    "sample_count": 403200,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 16.8,
+    "peak": 0.65625,
+    "peak_dbfs": -3.658613671719734,
+    "rms": 0.0638696214572,
+    "rms_dbfs": -23.894113156262996,
+    "dc_offset": 0.00011726810818626767,
+    "silence_fraction": 0.2412251984126984,
+    "leading_silence_seconds": 0.30570833333333336,
+    "tail_silence_seconds": 0.38295833333333335,
+    "active_span_seconds": 16.111333333333334,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 39,
+    "source_words_per_active_minute": 145.23937600860677,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "ada",
+      "flint",
+      "opens",
+      "the",
+      "observatory",
+      "before",
+      "you",
+      "knock",
+      "mara",
+      "told",
+      "me",
+      "you",
+      "might",
+      "come",
+      "she",
+      "asked",
+      "for",
+      "a",
+      "time",
+      "not",
+      "an",
+      "alibi",
+      "the",
+      "great",
+      "clock",
+      "has",
+      "not",
+      "rung",
+      "since",
+      "the",
+      "flood",
+      "its",
+      "silence",
+      "preserved",
+      "a",
+      "disagreement",
+      "nobody",
+      "wanted",
+      "measured"
+    ],
+    "observed_tokens": [
+      "ada",
+      "flint",
+      "opens",
+      "the",
+      "observatory",
+      "before",
+      "you",
+      "knock",
+      "mara",
+      "told",
+      "me",
+      "you",
+      "might",
+      "come",
+      "she",
+      "asked",
+      "for",
+      "a",
+      "time",
+      "not",
+      "an",
+      "alibi",
+      "the",
+      "great",
+      "clock",
+      "has",
+      "not",
+      "rung",
+      "since",
+      "the",
+      "flood",
+      "its",
+      "silence",
+      "preserved",
+      "a",
+      "disagreement",
+      "nobody",
+      "wanted",
+      "measured"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 39,
+        "observed_start": 0,
+        "observed_end": 39,
+        "expected": [
+          "ada",
+          "flint",
+          "opens",
+          "the",
+          "observatory",
+          "before",
+          "you",
+          "knock",
+          "mara",
+          "told",
+          "me",
+          "you",
+          "might",
+          "come",
+          "she",
+          "asked",
+          "for",
+          "a",
+          "time",
+          "not",
+          "an",
+          "alibi",
+          "the",
+          "great",
+          "clock",
+          "has",
+          "not",
+          "rung",
+          "since",
+          "the",
+          "flood",
+          "its",
+          "silence",
+          "preserved",
+          "a",
+          "disagreement",
+          "nobody",
+          "wanted",
+          "measured"
+        ],
+        "observed": [
+          "ada",
+          "flint",
+          "opens",
+          "the",
+          "observatory",
+          "before",
+          "you",
+          "knock",
+          "mara",
+          "told",
+          "me",
+          "you",
+          "might",
+          "come",
+          "she",
+          "asked",
+          "for",
+          "a",
+          "time",
+          "not",
+          "an",
+          "alibi",
+          "the",
+          "great",
+          "clock",
+          "has",
+          "not",
+          "rung",
+          "since",
+          "the",
+          "flood",
+          "its",
+          "silence",
+          "preserved",
+          "a",
+          "disagreement",
+          "nobody",
+          "wanted",
+          "measured"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Ataflint opens the observatory before you knock. Mara told me you might come. She asked for a time, not an alibi. The great clock has not rung since the flood. Its silence preserved a disagreement nobody wanted measured.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.64,
+      "text": " Ataflint opens the observatory before you knock. Mara told me you might come. She asked",
+      "words": [
+        {
+          "word": " Ataflint",
+          "start": 0.0,
+          "end": 1.1,
+          "probability": 0.6500454768538475
+        },
+        {
+          "word": " opens",
+          "start": 1.1,
+          "end": 1.68,
+          "probability": 0.9732836484909058
+        },
+        {
+          "word": " the",
+          "start": 1.68,
+          "end": 1.92,
+          "probability": 0.9927020072937012
+        },
+        {
+          "word": " observatory",
+          "start": 1.92,
+          "end": 2.54,
+          "probability": 0.9910214245319366
+        },
+        {
+          "word": " before",
+          "start": 2.54,
+          "end": 2.9,
+          "probability": 0.9917982816696167
+        },
+        {
+          "word": " you",
+          "start": 2.9,
+          "end": 3.14,
+          "probability": 0.9710958003997803
+        },
+        {
+          "word": " knock.",
+          "start": 3.14,
+          "end": 3.46,
+          "probability": 0.9901873469352722
+        },
+        {
+          "word": " Mara",
+          "start": 4.16,
+          "end": 4.36,
+          "probability": 0.9466946125030518
+        },
+        {
+          "word": " told",
+          "start": 4.36,
+          "end": 4.64,
+          "probability": 0.993843674659729
+        },
+        {
+          "word": " me",
+          "start": 4.64,
+          "end": 4.9,
+          "probability": 0.9971575736999512
+        },
+        {
+          "word": " you",
+          "start": 4.9,
+          "end": 5.08,
+          "probability": 0.9924280047416687
+        },
+        {
+          "word": " might",
+          "start": 5.08,
+          "end": 5.3,
+          "probability": 0.9980854988098145
+        },
+        {
+          "word": " come.",
+          "start": 5.3,
+          "end": 5.68,
+          "probability": 0.998879611492157
+        },
+        {
+          "word": " She",
+          "start": 6.24,
+          "end": 6.46,
+          "probability": 0.994227409362793
+        },
+        {
+          "word": " asked",
+          "start": 6.46,
+          "end": 6.64,
+          "probability": 0.7081338167190552
+        }
+      ]
+    },
+    {
+      "start": 6.64,
+      "end": 13.28,
+      "text": " for a time, not an alibi. The great clock has not rung since the flood. Its silence",
+      "words": [
+        {
+          "word": " for",
+          "start": 6.64,
+          "end": 6.82,
+          "probability": 0.9987965822219849
+        },
+        {
+          "word": " a",
+          "start": 6.82,
+          "end": 7.04,
+          "probability": 0.9943655729293823
+        },
+        {
+          "word": " time,",
+          "start": 7.04,
+          "end": 7.3,
+          "probability": 0.9965924620628357
+        },
+        {
+          "word": " not",
+          "start": 7.62,
+          "end": 7.8,
+          "probability": 0.9930121302604675
+        },
+        {
+          "word": " an",
+          "start": 7.8,
+          "end": 8.08,
+          "probability": 0.993213415145874
+        },
+        {
+          "word": " alibi.",
+          "start": 8.08,
+          "end": 8.46,
+          "probability": 0.9930173456668854
+        },
+        {
+          "word": " The",
+          "start": 9.18,
+          "end": 9.36,
+          "probability": 0.9904806017875671
+        },
+        {
+          "word": " great",
+          "start": 9.36,
+          "end": 9.66,
+          "probability": 0.8660678863525391
+        },
+        {
+          "word": " clock",
+          "start": 9.66,
+          "end": 10.02,
+          "probability": 0.9855908155441284
+        },
+        {
+          "word": " has",
+          "start": 10.02,
+          "end": 10.24,
+          "probability": 0.9970627427101135
+        },
+        {
+          "word": " not",
+          "start": 10.24,
+          "end": 10.46,
+          "probability": 0.9990074038505554
+        },
+        {
+          "word": " rung",
+          "start": 10.46,
+          "end": 10.94,
+          "probability": 0.995788186788559
+        },
+        {
+          "word": " since",
+          "start": 10.94,
+          "end": 11.2,
+          "probability": 0.9942615032196045
+        },
+        {
+          "word": " the",
+          "start": 11.2,
+          "end": 11.46,
+          "probability": 0.9959841966629028
+        },
+        {
+          "word": " flood.",
+          "start": 11.46,
+          "end": 11.74,
+          "probability": 0.7926632165908813
+        },
+        {
+          "word": " Its",
+          "start": 12.64,
+          "end": 12.78,
+          "probability": 0.8784191608428955
+        },
+        {
+          "word": " silence",
+          "start": 12.78,
+          "end": 13.28,
+          "probability": 0.9982840418815613
+        }
+      ]
+    },
+    {
+      "start": 13.28,
+      "end": 16.3,
+      "text": " preserved a disagreement nobody wanted measured.",
+      "words": [
+        {
+          "word": " preserved",
+          "start": 13.28,
+          "end": 13.94,
+          "probability": 0.980932354927063
+        },
+        {
+          "word": " a",
+          "start": 13.94,
+          "end": 14.18,
+          "probability": 0.9939940571784973
+        },
+        {
+          "word": " disagreement",
+          "start": 14.18,
+          "end": 14.72,
+          "probability": 0.9984606504440308
+        },
+        {
+          "word": " nobody",
+          "start": 14.72,
+          "end": 15.36,
+          "probability": 0.9883687496185303
+        },
+        {
+          "word": " wanted",
+          "start": 15.36,
+          "end": 15.9,
+          "probability": 0.9990931749343872
+        },
+        {
+          "word": " measured.",
+          "start": 15.9,
+          "end": 16.3,
+          "probability": 0.9973219037055969
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "ada",
+      "flint",
+      "opens",
+      "the",
+      "observatory",
+      "before",
+      "you",
+      "knock",
+      "mara",
+      "told",
+      "me",
+      "you",
+      "might",
+      "come",
+      "she",
+      "asked",
+      "for",
+      "a",
+      "time",
+      "not",
+      "an",
+      "alibi",
+      "the",
+      "great",
+      "clock",
+      "has",
+      "not",
+      "rung",
+      "since",
+      "the",
+      "flood",
+      "its",
+      "silence",
+      "preserved",
+      "a",
+      "disagreement",
+      "nobody",
+      "wanted",
+      "measured"
+    ],
+    "observed_tokens": [
+      "ataflint",
+      "opens",
+      "the",
+      "observatory",
+      "before",
+      "you",
+      "knock",
+      "mara",
+      "told",
+      "me",
+      "you",
+      "might",
+      "come",
+      "she",
+      "asked",
+      "for",
+      "a",
+      "time",
+      "not",
+      "an",
+      "alibi",
+      "the",
+      "great",
+      "clock",
+      "has",
+      "not",
+      "rung",
+      "since",
+      "the",
+      "flood",
+      "its",
+      "silence",
+      "preserved",
+      "a",
+      "disagreement",
+      "nobody",
+      "wanted",
+      "measured"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 2,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "ada",
+          "flint"
+        ],
+        "observed": [
+          "ataflint"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 2,
+        "expected_end": 39,
+        "observed_start": 1,
+        "observed_end": 38,
+        "expected": [
+          "opens",
+          "the",
+          "observatory",
+          "before",
+          "you",
+          "knock",
+          "mara",
+          "told",
+          "me",
+          "you",
+          "might",
+          "come",
+          "she",
+          "asked",
+          "for",
+          "a",
+          "time",
+          "not",
+          "an",
+          "alibi",
+          "the",
+          "great",
+          "clock",
+          "has",
+          "not",
+          "rung",
+          "since",
+          "the",
+          "flood",
+          "its",
+          "silence",
+          "preserved",
+          "a",
+          "disagreement",
+          "nobody",
+          "wanted",
+          "measured"
+        ],
+        "observed": [
+          "opens",
+          "the",
+          "observatory",
+          "before",
+          "you",
+          "knock",
+          "mara",
+          "told",
+          "me",
+          "you",
+          "might",
+          "come",
+          "she",
+          "asked",
+          "for",
+          "a",
+          "time",
+          "not",
+          "an",
+          "alibi",
+          "the",
+          "great",
+          "clock",
+          "has",
+          "not",
+          "rung",
+          "since",
+          "the",
+          "flood",
+          "its",
+          "silence",
+          "preserved",
+          "a",
+          "disagreement",
+          "nobody",
+          "wanted",
+          "measured"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "ada",
+          "flint"
+        ],
+        "observed": [
+          "ataflint"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:2."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

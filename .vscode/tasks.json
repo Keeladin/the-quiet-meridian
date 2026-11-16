@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Game: verify and export",
+      "type": "process",
+      "command": "${workspaceFolder}/tools/game.sh",
+      "args": [
+        "verify"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Game: run",
+      "type": "process",
+      "command": "${workspaceFolder}/tools/game.sh",
+      "args": [
+        "run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Game: open Godot",
+      "type": "process",
+      "command": "${workspaceFolder}/tools/game.sh",
+      "args": [
+        "editor"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Game: export packages",
+      "type": "process",
+      "command": "${workspaceFolder}/tools/game.sh",
+      "args": [
+        "export"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

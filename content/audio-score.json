@@ -1,0 +1,764 @@
+{
+  "version": 1,
+  "music": {
+    "title": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "ch1": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "ch2": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "ch3": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "ch4": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "ch5": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "ch6": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "tension": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    },
+    "resolution": {
+      "path": "res://assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "duration_seconds": 189.25346875,
+      "gain_db": -9.0,
+      "loop": true,
+      "playback_id": "sonder"
+    }
+  },
+  "ambience": {
+    "harbor": {
+      "path": "res://assets/audio/ambience/harbor.ogg",
+      "gain_db": -8.0,
+      "loop": true
+    },
+    "interior": {
+      "path": "res://assets/audio/ambience/interior.ogg",
+      "gain_db": -8.0,
+      "loop": true
+    },
+    "machinery": {
+      "path": "res://assets/audio/ambience/machinery.ogg",
+      "gain_db": -8.0,
+      "loop": true
+    },
+    "marsh": {
+      "path": "res://assets/audio/ambience/marsh.ogg",
+      "gain_db": -8.0,
+      "loop": true
+    },
+    "wind": {
+      "path": "res://assets/audio/ambience/wind.ogg",
+      "gain_db": -8.0,
+      "loop": true
+    },
+    "rain": {
+      "path": "res://assets/audio/ambience/rain.ogg",
+      "gain_db": -8.0,
+      "loop": true
+    },
+    "room_ch1_l1": {
+      "path": "res://assets/audio/licensed-campaign/room_ch1_l1.ogg",
+      "gain_db": 0,
+      "description": "Dispatch office: audible rain, quieter harbour, clock and gentle timber movement"
+    },
+    "room_ch1_l2": {
+      "path": "res://assets/audio/licensed-campaign/room_ch1_l2.ogg",
+      "gain_db": 0,
+      "description": "Tide Office: rain on the window, clock, sheltered canal"
+    },
+    "room_ch1_l3": {
+      "path": "res://assets/audio/licensed-campaign/room_ch1_l3.ogg",
+      "gain_db": 0,
+      "description": "Archive Vestibule: sheltered air and occasional old timber"
+    },
+    "room_ch1_l4": {
+      "path": "res://assets/audio/licensed-campaign/room_ch1_l4.ogg",
+      "gain_db": 0,
+      "description": "Restoration Room: close quiet workspace, distant rainfall"
+    },
+    "room_ch1_l5": {
+      "path": "res://assets/audio/licensed-campaign/room_ch1_l5.ogg",
+      "gain_db": 0,
+      "description": "Boarding House: small hearth, rain and inhabited timber"
+    },
+    "room_ch1_l6": {
+      "path": "res://assets/audio/licensed-campaign/room_ch1_l6.ogg",
+      "gain_db": 0,
+      "description": "Bell Tower: open high wind, faint harbour and clockwork"
+    },
+    "room_ch2_l1": {
+      "path": "res://assets/audio/licensed-campaign/room_ch2_l1.ogg",
+      "gain_db": 0,
+      "description": "Pump Court: running water with distant steam machinery"
+    },
+    "room_ch2_l2": {
+      "path": "res://assets/audio/licensed-campaign/room_ch2_l2.ogg",
+      "gain_db": 0,
+      "description": "Sluice Gallery: close trickles beneath distant moving water"
+    },
+    "room_ch2_l3": {
+      "path": "res://assets/audio/licensed-campaign/room_ch2_l3.ogg",
+      "gain_db": 0,
+      "description": "Machine Room: restrained steam bed and sparse gear turns"
+    },
+    "room_ch2_l4": {
+      "path": "res://assets/audio/licensed-campaign/room_ch2_l4.ogg",
+      "gain_db": 0,
+      "description": "Workers’ Kitchen: hearth and muffled waterworks outside"
+    },
+    "room_ch2_l5": {
+      "path": "res://assets/audio/licensed-campaign/room_ch2_l5.ogg",
+      "gain_db": 0,
+      "description": "Lockkeeper’s Cabin: sheltered water, quiet clock and timber"
+    },
+    "room_ch2_l6": {
+      "path": "res://assets/audio/licensed-campaign/room_ch2_l6.ogg",
+      "gain_db": 0,
+      "description": "Spillway Overlook: broad moving water and exposed wind"
+    },
+    "room_ch3_l1": {
+      "path": "res://assets/audio/licensed-campaign/room_ch3_l1.ogg",
+      "gain_db": 0,
+      "description": "Observatory Steps: open hill wind with a distant city"
+    },
+    "room_ch3_l2": {
+      "path": "res://assets/audio/licensed-campaign/room_ch3_l2.ogg",
+      "gain_db": 0,
+      "description": "Transit Hall: sheltered high wind and a delicate clock"
+    },
+    "room_ch3_l3": {
+      "path": "res://assets/audio/licensed-campaign/room_ch3_l3.ogg",
+      "gain_db": 0,
+      "description": "Plate Darkroom: damp hush, faint drips and old timber"
+    },
+    "room_ch3_l4": {
+      "path": "res://assets/audio/licensed-campaign/room_ch3_l4.ogg",
+      "gain_db": 0,
+      "description": "Signal Loft: air through slats, intermittent mechanism"
+    },
+    "room_ch3_l5": {
+      "path": "res://assets/audio/licensed-campaign/room_ch3_l5.ogg",
+      "gain_db": 0,
+      "description": "Clock Workshop: close restrained ticks and occasional gear work"
+    },
+    "room_ch3_l6": {
+      "path": "res://assets/audio/licensed-campaign/room_ch3_l6.ogg",
+      "gain_db": 0,
+      "description": "Meridian Roof: exposed gusts with distant water below"
+    },
+    "room_ch4_l1": {
+      "path": "res://assets/audio/licensed-campaign/room_ch4_l1.ogg",
+      "gain_db": 0,
+      "description": "Reed Jetty: wetland birds, gentle water and landing timber"
+    },
+    "room_ch4_l2": {
+      "path": "res://assets/audio/licensed-campaign/room_ch4_l2.ogg",
+      "gain_db": 0,
+      "description": "Abandoned Clinic: sparse wind through shelter, fading rain"
+    },
+    "room_ch4_l3": {
+      "path": "res://assets/audio/licensed-campaign/room_ch4_l3.ogg",
+      "gain_db": 0,
+      "description": "Glasshouse: birds outside the panes, drips among leaves"
+    },
+    "room_ch4_l4": {
+      "path": "res://assets/audio/licensed-campaign/room_ch4_l4.ogg",
+      "gain_db": 0,
+      "description": "Survey Hut: marsh outside and a sheltered wooden frame"
+    },
+    "room_ch4_l5": {
+      "path": "res://assets/audio/licensed-campaign/room_ch4_l5.ogg",
+      "gain_db": 0,
+      "description": "Memorial Garden: soft air and unhurried garden birds"
+    },
+    "room_ch4_l6": {
+      "path": "res://assets/audio/licensed-campaign/room_ch4_l6.ogg",
+      "gain_db": 0,
+      "description": "Island Refuge: warm hearth, quiet rain and distant reeds"
+    },
+    "room_ch5_l1": {
+      "path": "res://assets/audio/licensed-campaign/room_ch5_l1.ogg",
+      "gain_db": 0,
+      "description": "Civic Square: open civic air, birds and distant canal"
+    },
+    "room_ch5_l2": {
+      "path": "res://assets/audio/licensed-campaign/room_ch5_l2.ogg",
+      "gain_db": 0,
+      "description": "Council Chamber: hushed hall, faint clock and timber"
+    },
+    "room_ch5_l3": {
+      "path": "res://assets/audio/licensed-campaign/room_ch5_l3.ogg",
+      "gain_db": 0,
+      "description": "Deed Vault: still sheltered air, occasional structural creak"
+    },
+    "room_ch5_l4": {
+      "path": "res://assets/audio/licensed-campaign/room_ch5_l4.ogg",
+      "gain_db": 0,
+      "description": "Print Shop: low workshop activity with intermittent gears"
+    },
+    "room_ch5_l5": {
+      "path": "res://assets/audio/licensed-campaign/room_ch5_l5.ogg",
+      "gain_db": 0,
+      "description": "Counting Room: controlled hush, measured clock, distant rain"
+    },
+    "room_ch5_l6": {
+      "path": "res://assets/audio/licensed-campaign/room_ch5_l6.ogg",
+      "gain_db": 0,
+      "description": "Dispatch Station: low machinery, sheltered canal, pipe movement"
+    },
+    "room_ch6_l1": {
+      "path": "res://assets/audio/licensed-campaign/room_ch6_l1.ogg",
+      "gain_db": 0,
+      "description": "Dawn Quay: calm harbour and birds; the rain has stopped"
+    },
+    "room_ch6_l2": {
+      "path": "res://assets/audio/licensed-campaign/room_ch6_l2.ogg",
+      "gain_db": 0,
+      "description": "Witness Room: quiet room and morning birds through glass"
+    },
+    "room_ch6_l3": {
+      "path": "res://assets/audio/licensed-campaign/room_ch6_l3.ogg",
+      "gain_db": 0,
+      "description": "Relay House: quiet working mechanism, clear morning air"
+    },
+    "room_ch6_l4": {
+      "path": "res://assets/audio/licensed-campaign/room_ch6_l4.ogg",
+      "gain_db": 0,
+      "description": "Gate Crown: high air, water below, resting metal structure"
+    },
+    "room_ch6_l5": {
+      "path": "res://assets/audio/licensed-campaign/room_ch6_l5.ogg",
+      "gain_db": 0,
+      "description": "Public Forum: morning civic air and distant birds"
+    },
+    "room_ch6_l6": {
+      "path": "res://assets/audio/licensed-campaign/room_ch6_l6.ogg",
+      "gain_db": 0,
+      "description": "Memory Room: open-window birds and a calm archive"
+    }
+  },
+  "sfx": {
+    "ui": {
+      "path": "res://assets/audio/foley/ui_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/ui_01.ogg",
+        "res://assets/audio/foley/ui_02.ogg"
+      ],
+      "gain_db": -10,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "cooldown_seconds": 0.12,
+      "description": "Quiet tactile switches for interface confirmations."
+    },
+    "paper": {
+      "path": "res://assets/audio/foley/paper_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/paper_01.ogg",
+        "res://assets/audio/foley/paper_02.ogg",
+        "res://assets/audio/foley/paper_03.ogg"
+      ],
+      "gain_db": -3,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Individual pages handled close to the listener."
+    },
+    "collect": {
+      "path": "res://assets/audio/foley/collect_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/collect_01.ogg",
+        "res://assets/audio/foley/collect_02.ogg",
+        "res://assets/audio/foley/collect_03.ogg"
+      ],
+      "gain_db": -3,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A small object is tucked into a soft bag."
+    },
+    "combine": {
+      "path": "res://assets/audio/foley/combine_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/combine_01.ogg",
+        "res://assets/audio/foley/combine_02.ogg",
+        "res://assets/audio/foley/combine_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Handling, contact and a final fitting together."
+    },
+    "success": {
+      "path": "res://assets/audio/sfx/success.ogg",
+      "gain_db": -1.0
+    },
+    "error": {
+      "path": "res://assets/audio/sfx/error.ogg",
+      "gain_db": -1.0
+    },
+    "travel": {
+      "path": "res://assets/audio/sfx/travel.ogg",
+      "gain_db": -1.0
+    },
+    "door": {
+      "path": "res://assets/audio/foley/door_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/door_01.ogg",
+        "res://assets/audio/foley/door_02.ogg"
+      ],
+      "gain_db": -6,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A latch releases before a door opens."
+    },
+    "mechanism": {
+      "path": "res://assets/audio/foley/mechanism_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/mechanism_01.ogg",
+        "res://assets/audio/foley/mechanism_02.ogg"
+      ],
+      "gain_db": -7,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A control engages, machinery moves briefly, and a catch settles."
+    },
+    "stamp": {
+      "path": "res://assets/audio/foley/stamp_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/stamp_01.ogg",
+        "res://assets/audio/foley/stamp_02.ogg",
+        "res://assets/audio/foley/stamp_03.ogg"
+      ],
+      "gain_db": -6,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A paper-backed wooden stamp or firm tabletop contact."
+    },
+    "chapter": {
+      "path": "res://assets/audio/sfx/chapter.ogg",
+      "gain_db": -1.0
+    },
+    "voice_skip": {
+      "path": "res://assets/audio/foley/voice_skip_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/voice_skip_01.ogg",
+        "res://assets/audio/foley/voice_skip_02.ogg"
+      ],
+      "gain_db": -12,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "cooldown_seconds": 0.12,
+      "description": "A very soft fabric motion without a distracting musical tone."
+    },
+    "book": {
+      "path": "res://assets/audio/foley/book_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/book_01.ogg",
+        "res://assets/audio/foley/book_02.ogg",
+        "res://assets/audio/foley/book_03.ogg"
+      ],
+      "gain_db": -4,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A page or cover movement followed by a restrained book contact."
+    },
+    "cloth": {
+      "path": "res://assets/audio/foley/cloth_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/cloth_01.ogg",
+        "res://assets/audio/foley/cloth_02.ogg",
+        "res://assets/audio/foley/cloth_03.ogg"
+      ],
+      "gain_db": -3,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Soft fabric handling for bags, aprons and textiles."
+    },
+    "rope": {
+      "path": "res://assets/audio/foley/rope_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/rope_01.ogg",
+        "res://assets/audio/foley/rope_02.ogg",
+        "res://assets/audio/foley/rope_03.ogg"
+      ],
+      "gain_db": -4,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Fibres pulled taut with a quiet strain underneath."
+    },
+    "metal": {
+      "path": "res://assets/audio/foley/metal_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/metal_01.ogg",
+        "res://assets/audio/foley/metal_02.ogg",
+        "res://assets/audio/foley/metal_03.ogg"
+      ],
+      "gain_db": -6,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Small metal fittings handled, with a faint coin rattle in the third variation."
+    },
+    "lock": {
+      "path": "res://assets/audio/foley/lock_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/lock_01.ogg",
+        "res://assets/audio/foley/lock_02.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A lock turns and its catch settles."
+    },
+    "glass": {
+      "path": "res://assets/audio/foley/glass_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/glass_01.ogg",
+        "res://assets/audio/foley/glass_02.ogg",
+        "res://assets/audio/foley/glass_03.ogg"
+      ],
+      "gain_db": -7,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Short glass contacts for fragile instruments and vessels."
+    },
+    "wood": {
+      "path": "res://assets/audio/foley/wood_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/wood_01.ogg",
+        "res://assets/audio/foley/wood_02.ogg",
+        "res://assets/audio/foley/wood_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Dry wooden fittings and surfaces handled."
+    },
+    "water": {
+      "path": "res://assets/audio/foley/water_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/water_01.ogg",
+        "res://assets/audio/foley/water_02.ogg",
+        "res://assets/audio/foley/water_03.ogg"
+      ],
+      "gain_db": -7,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Brief flowing-water detail, faded into the existing location ambience."
+    },
+    "footsteps_wet": {
+      "path": "res://assets/audio/foley/footsteps_wet_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/footsteps_wet_01.ogg",
+        "res://assets/audio/foley/footsteps_wet_02.ogg",
+        "res://assets/audio/foley/footsteps_wet_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Two measured steps across wet ground."
+    },
+    "footsteps_wood": {
+      "path": "res://assets/audio/foley/footsteps_wood_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/footsteps_wood_01.ogg",
+        "res://assets/audio/foley/footsteps_wood_02.ogg",
+        "res://assets/audio/foley/footsteps_wood_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Two measured steps on wooden flooring."
+    },
+    "search_found": {
+      "path": "res://assets/audio/licensed-opening/object_found.ogg",
+      "gain_db": -6.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected object found"
+    },
+    "search_symbol": {
+      "path": "res://assets/audio/licensed-opening/symbol_understood.ogg",
+      "gain_db": -12.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected symbol understood"
+    },
+    "search_hint": {
+      "path": "res://assets/audio/licensed-opening/hint_revealed.ogg",
+      "gain_db": -13.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected hint revealed"
+    },
+    "search_complete": {
+      "path": "res://assets/audio/licensed-opening/search_completed.ogg",
+      "gain_db": -10.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected search completed"
+    },
+    "search_receipt": {
+      "path": "res://assets/audio/licensed-opening/receipt_recovered.ogg",
+      "gain_db": -7.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected receipt recovered"
+    },
+    "search_journal": {
+      "path": "res://assets/audio/licensed-opening/journal_updated.ogg",
+      "gain_db": -15.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected journal updated"
+    },
+    "search_menu": {
+      "path": "res://assets/audio/licensed-opening/menu_interaction.ogg",
+      "gain_db": -17.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected menu interaction"
+    },
+    "campaign_mechanism": {
+      "path": "res://assets/audio/licensed-campaign/campaign_mechanism_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_mechanism_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_mechanism_2.ogg",
+        "res://assets/audio/licensed-campaign/campaign_mechanism_3.ogg"
+      ],
+      "gain_db": -15,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Physical mechanism engagement"
+    },
+    "campaign_door": {
+      "path": "res://assets/audio/licensed-campaign/campaign_door_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_door_1.ogg"
+      ],
+      "gain_db": -18,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Entry latch opening"
+    },
+    "campaign_steps_stone": {
+      "path": "res://assets/audio/licensed-campaign/campaign_steps_stone_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_steps_stone_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_steps_stone_2.ogg"
+      ],
+      "gain_db": -18,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Arrival on stone"
+    },
+    "campaign_steps_wood": {
+      "path": "res://assets/audio/licensed-campaign/campaign_steps_wood_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_steps_wood_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_steps_wood_2.ogg"
+      ],
+      "gain_db": -18,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Arrival on boards"
+    },
+    "campaign_steps_wet": {
+      "path": "res://assets/audio/licensed-campaign/campaign_steps_wet_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_steps_wet_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_steps_wet_2.ogg"
+      ],
+      "gain_db": -20,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Arrival on wet quay"
+    }
+  },
+  "location_ambience": {
+    "ch1_l1": "room_ch1_l1",
+    "ch1_l2": "room_ch1_l2",
+    "ch1_l3": "room_ch1_l3",
+    "ch1_l4": "room_ch1_l4",
+    "ch1_l5": "room_ch1_l5",
+    "ch1_l6": "room_ch1_l6",
+    "ch2_l1": "room_ch2_l1",
+    "ch2_l2": "room_ch2_l2",
+    "ch2_l3": "room_ch2_l3",
+    "ch2_l4": "room_ch2_l4",
+    "ch2_l5": "room_ch2_l5",
+    "ch2_l6": "room_ch2_l6",
+    "ch3_l1": "room_ch3_l1",
+    "ch3_l2": "room_ch3_l2",
+    "ch3_l3": "room_ch3_l3",
+    "ch3_l4": "room_ch3_l4",
+    "ch3_l5": "room_ch3_l5",
+    "ch3_l6": "room_ch3_l6",
+    "ch4_l1": "room_ch4_l1",
+    "ch4_l2": "room_ch4_l2",
+    "ch4_l3": "room_ch4_l3",
+    "ch4_l4": "room_ch4_l4",
+    "ch4_l5": "room_ch4_l5",
+    "ch4_l6": "room_ch4_l6",
+    "ch5_l1": "room_ch5_l1",
+    "ch5_l2": "room_ch5_l2",
+    "ch5_l3": "room_ch5_l3",
+    "ch5_l4": "room_ch5_l4",
+    "ch5_l5": "room_ch5_l5",
+    "ch5_l6": "room_ch5_l6",
+    "ch6_l1": "room_ch6_l1",
+    "ch6_l2": "room_ch6_l2",
+    "ch6_l3": "room_ch6_l3",
+    "ch6_l4": "room_ch6_l4",
+    "ch6_l5": "room_ch6_l5",
+    "ch6_l6": "room_ch6_l6"
+  },
+  "manifest": "res://assets/audio/score/manifest.json",
+  "authored_source": "tools/compose_score.py",
+  "foley_manifest": "res://assets/audio/foley/manifest.json",
+  "campaign_audio_manifest": "res://docs/audio-selection/campaign-provenance.json",
+  "selected_music_manifest": "res://docs/audio-selection/selected-music-provenance.json"
+}

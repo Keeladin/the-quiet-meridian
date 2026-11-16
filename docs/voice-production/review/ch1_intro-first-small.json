@@ -1,0 +1,812 @@
+{
+  "line_id": "ch1_intro",
+  "clip_id": "a05e2dd779694fe8a8b1aed76eaffd6f",
+  "source_text_sha256": "621ee781300fda96e95fe6ec3a68bb8ab45321d812164fac1a7008ae95ac5f38",
+  "master": "work/gateway-voice/masters/a05e2dd779694fe8a8b1aed76eaffd6f.wav",
+  "wav_sha256": "4af57a0311dd61c3d5d87e2205be8d8abba3dd294da692aa9f54fb7027102860",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1015680,
+    "sample_count": 507840,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 21.16,
+    "peak": 0.5625,
+    "peak_dbfs": -4.997549464331997,
+    "rms": 0.054431010945532904,
+    "rms_dbfs": -25.283071989392788,
+    "dc_offset": 0.00014579559018496228,
+    "silence_fraction": 0.3351094833018273,
+    "leading_silence_seconds": 0.3973333333333333,
+    "tail_silence_seconds": 0.23095833333333332,
+    "active_span_seconds": 20.531708333333334,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 42,
+    "source_words_per_active_minute": 122.73698608453185,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "archive",
+      "door",
+      "is",
+      "shut",
+      "though",
+      "its",
+      "lamps",
+      "are",
+      "burning",
+      "mara",
+      "missed",
+      "her",
+      "last",
+      "ferry",
+      "according",
+      "to",
+      "the",
+      "notice",
+      "in",
+      "the",
+      "tide",
+      "office",
+      "nadi",
+      "remembers",
+      "something",
+      "different",
+      "begin",
+      "at",
+      "the",
+      "landing",
+      "a",
+      "returned",
+      "dispatch",
+      "box",
+      "has",
+      "been",
+      "left",
+      "among",
+      "the",
+      "lost",
+      "property"
+    ],
+    "observed_tokens": [
+      "the",
+      "archive",
+      "door",
+      "is",
+      "shut",
+      "though",
+      "its",
+      "lamps",
+      "are",
+      "burning",
+      "mah",
+      "ruh",
+      "missed",
+      "her",
+      "last",
+      "ferry",
+      "according",
+      "to",
+      "the",
+      "notice",
+      "in",
+      "the",
+      "tide",
+      "office",
+      "nah",
+      "dee",
+      "remembers",
+      "something",
+      "different",
+      "begin",
+      "at",
+      "the",
+      "landing",
+      "a",
+      "returned",
+      "dispatch",
+      "box",
+      "has",
+      "been",
+      "left",
+      "among",
+      "the",
+      "lost",
+      "property"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 10,
+        "observed_start": 0,
+        "observed_end": 10,
+        "expected": [
+          "the",
+          "archive",
+          "door",
+          "is",
+          "shut",
+          "though",
+          "its",
+          "lamps",
+          "are",
+          "burning"
+        ],
+        "observed": [
+          "the",
+          "archive",
+          "door",
+          "is",
+          "shut",
+          "though",
+          "its",
+          "lamps",
+          "are",
+          "burning"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 10,
+        "expected_end": 11,
+        "observed_start": 10,
+        "observed_end": 12,
+        "expected": [
+          "mara"
+        ],
+        "observed": [
+          "mah",
+          "ruh"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 11,
+        "expected_end": 23,
+        "observed_start": 12,
+        "observed_end": 24,
+        "expected": [
+          "missed",
+          "her",
+          "last",
+          "ferry",
+          "according",
+          "to",
+          "the",
+          "notice",
+          "in",
+          "the",
+          "tide",
+          "office"
+        ],
+        "observed": [
+          "missed",
+          "her",
+          "last",
+          "ferry",
+          "according",
+          "to",
+          "the",
+          "notice",
+          "in",
+          "the",
+          "tide",
+          "office"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 23,
+        "expected_end": 24,
+        "observed_start": 24,
+        "observed_end": 26,
+        "expected": [
+          "nadi"
+        ],
+        "observed": [
+          "nah",
+          "dee"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 24,
+        "expected_end": 42,
+        "observed_start": 26,
+        "observed_end": 44,
+        "expected": [
+          "remembers",
+          "something",
+          "different",
+          "begin",
+          "at",
+          "the",
+          "landing",
+          "a",
+          "returned",
+          "dispatch",
+          "box",
+          "has",
+          "been",
+          "left",
+          "among",
+          "the",
+          "lost",
+          "property"
+        ],
+        "observed": [
+          "remembers",
+          "something",
+          "different",
+          "begin",
+          "at",
+          "the",
+          "landing",
+          "a",
+          "returned",
+          "dispatch",
+          "box",
+          "has",
+          "been",
+          "left",
+          "among",
+          "the",
+          "lost",
+          "property"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "mara"
+        ],
+        "observed": [
+          "mah",
+          "ruh"
+        ],
+        "expected_start": 10,
+        "observed_start": 10
+      },
+      {
+        "expected": [
+          "nadi"
+        ],
+        "observed": [
+          "nah",
+          "dee"
+        ],
+        "expected_start": 23,
+        "observed_start": 24
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 10:11.",
+      "Changed source words at expected tokens 23:24."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The archive door is shut, though its lamps are burning. Mara missed her last ferry according to the notice in the tide office. Nadi remembers something different. Begin at the landing. A returned dispatch box has been left among the lost property.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.06,
+      "text": " The archive door is shut, though its lamps are burning.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.8241782188415527
+        },
+        {
+          "word": " archive",
+          "start": 0.52,
+          "end": 0.98,
+          "probability": 0.866233229637146
+        },
+        {
+          "word": " door",
+          "start": 0.98,
+          "end": 1.32,
+          "probability": 0.9781062602996826
+        },
+        {
+          "word": " is",
+          "start": 1.32,
+          "end": 1.5,
+          "probability": 0.9562390446662903
+        },
+        {
+          "word": " shut,",
+          "start": 1.5,
+          "end": 1.88,
+          "probability": 0.9958735108375549
+        },
+        {
+          "word": " though",
+          "start": 2.52,
+          "end": 2.8,
+          "probability": 0.9917970895767212
+        },
+        {
+          "word": " its",
+          "start": 2.8,
+          "end": 3.0,
+          "probability": 0.9563078284263611
+        },
+        {
+          "word": " lamps",
+          "start": 3.0,
+          "end": 3.34,
+          "probability": 0.9969590902328491
+        },
+        {
+          "word": " are",
+          "start": 3.34,
+          "end": 3.6,
+          "probability": 0.991828441619873
+        },
+        {
+          "word": " burning.",
+          "start": 3.6,
+          "end": 4.06,
+          "probability": 0.9984569549560547
+        }
+      ]
+    },
+    {
+      "start": 5.38,
+      "end": 9.78,
+      "text": " Mara missed her last ferry according to the notice in the tide office.",
+      "words": [
+        {
+          "word": " Mara",
+          "start": 5.38,
+          "end": 5.44,
+          "probability": 0.9423916935920715
+        },
+        {
+          "word": " missed",
+          "start": 5.44,
+          "end": 6.28,
+          "probability": 0.9851461052894592
+        },
+        {
+          "word": " her",
+          "start": 6.28,
+          "end": 6.54,
+          "probability": 0.9990209341049194
+        },
+        {
+          "word": " last",
+          "start": 6.54,
+          "end": 7.0,
+          "probability": 0.9952882528305054
+        },
+        {
+          "word": " ferry",
+          "start": 7.0,
+          "end": 7.46,
+          "probability": 0.4847796559333801
+        },
+        {
+          "word": " according",
+          "start": 7.46,
+          "end": 7.98,
+          "probability": 0.687260091304779
+        },
+        {
+          "word": " to",
+          "start": 7.98,
+          "end": 8.26,
+          "probability": 0.9982427358627319
+        },
+        {
+          "word": " the",
+          "start": 8.26,
+          "end": 8.38,
+          "probability": 0.9894350171089172
+        },
+        {
+          "word": " notice",
+          "start": 8.38,
+          "end": 8.66,
+          "probability": 0.9792025685310364
+        },
+        {
+          "word": " in",
+          "start": 8.66,
+          "end": 8.92,
+          "probability": 0.9826852083206177
+        },
+        {
+          "word": " the",
+          "start": 8.92,
+          "end": 9.04,
+          "probability": 0.9967935681343079
+        },
+        {
+          "word": " tide",
+          "start": 9.04,
+          "end": 9.3,
+          "probability": 0.7864326238632202
+        },
+        {
+          "word": " office.",
+          "start": 9.3,
+          "end": 9.78,
+          "probability": 0.9890701770782471
+        }
+      ]
+    },
+    {
+      "start": 10.86,
+      "end": 12.52,
+      "text": " Nadi remembers something different.",
+      "words": [
+        {
+          "word": " Nadi",
+          "start": 10.86,
+          "end": 11.0,
+          "probability": 0.6855537295341492
+        },
+        {
+          "word": " remembers",
+          "start": 11.0,
+          "end": 11.54,
+          "probability": 0.9975143671035767
+        },
+        {
+          "word": " something",
+          "start": 11.54,
+          "end": 11.94,
+          "probability": 0.9989871382713318
+        },
+        {
+          "word": " different.",
+          "start": 11.94,
+          "end": 12.52,
+          "probability": 0.9991248250007629
+        }
+      ]
+    },
+    {
+      "start": 13.5,
+      "end": 20.64,
+      "text": " Begin at the landing. A returned dispatch box has been left among the lost property.",
+      "words": [
+        {
+          "word": " Begin",
+          "start": 13.5,
+          "end": 14.12,
+          "probability": 0.7762618064880371
+        },
+        {
+          "word": " at",
+          "start": 14.12,
+          "end": 14.32,
+          "probability": 0.9848740100860596
+        },
+        {
+          "word": " the",
+          "start": 14.32,
+          "end": 14.46,
+          "probability": 0.9915777444839478
+        },
+        {
+          "word": " landing.",
+          "start": 14.46,
+          "end": 14.92,
+          "probability": 0.9930510520935059
+        },
+        {
+          "word": " A",
+          "start": 15.92,
+          "end": 16.0,
+          "probability": 0.9862744212150574
+        },
+        {
+          "word": " returned",
+          "start": 16.0,
+          "end": 16.42,
+          "probability": 0.9237657785415649
+        },
+        {
+          "word": " dispatch",
+          "start": 16.42,
+          "end": 16.98,
+          "probability": 0.9782803058624268
+        },
+        {
+          "word": " box",
+          "start": 16.98,
+          "end": 17.6,
+          "probability": 0.9924226403236389
+        },
+        {
+          "word": " has",
+          "start": 17.6,
+          "end": 17.96,
+          "probability": 0.9953202605247498
+        },
+        {
+          "word": " been",
+          "start": 17.96,
+          "end": 18.14,
+          "probability": 0.9987872242927551
+        },
+        {
+          "word": " left",
+          "start": 18.14,
+          "end": 18.52,
+          "probability": 0.999168872833252
+        },
+        {
+          "word": " among",
+          "start": 18.52,
+          "end": 19.5,
+          "probability": 0.9540174603462219
+        },
+        {
+          "word": " the",
+          "start": 19.5,
+          "end": 19.7,
+          "probability": 0.9973710775375366
+        },
+        {
+          "word": " lost",
+          "start": 19.7,
+          "end": 20.04,
+          "probability": 0.9881125092506409
+        },
+        {
+          "word": " property.",
+          "start": 20.04,
+          "end": 20.64,
+          "probability": 0.9802574515342712
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "archive",
+      "door",
+      "is",
+      "shut",
+      "though",
+      "its",
+      "lamps",
+      "are",
+      "burning",
+      "mara",
+      "missed",
+      "her",
+      "last",
+      "ferry",
+      "according",
+      "to",
+      "the",
+      "notice",
+      "in",
+      "the",
+      "tide",
+      "office",
+      "nadi",
+      "remembers",
+      "something",
+      "different",
+      "begin",
+      "at",
+      "the",
+      "landing",
+      "a",
+      "returned",
+      "dispatch",
+      "box",
+      "has",
+      "been",
+      "left",
+      "among",
+      "the",
+      "lost",
+      "property"
+    ],
+    "observed_tokens": [
+      "the",
+      "archive",
+      "door",
+      "is",
+      "shut",
+      "though",
+      "its",
+      "lamps",
+      "are",
+      "burning",
+      "mara",
+      "missed",
+      "her",
+      "last",
+      "ferry",
+      "according",
+      "to",
+      "the",
+      "notice",
+      "in",
+      "the",
+      "tide",
+      "office",
+      "nadi",
+      "remembers",
+      "something",
+      "different",
+      "begin",
+      "at",
+      "the",
+      "landing",
+      "a",
+      "returned",
+      "dispatch",
+      "box",
+      "has",
+      "been",
+      "left",
+      "among",
+      "the",
+      "lost",
+      "property"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 42,
+        "observed_start": 0,
+        "observed_end": 42,
+        "expected": [
+          "the",
+          "archive",
+          "door",
+          "is",
+          "shut",
+          "though",
+          "its",
+          "lamps",
+          "are",
+          "burning",
+          "mara",
+          "missed",
+          "her",
+          "last",
+          "ferry",
+          "according",
+          "to",
+          "the",
+          "notice",
+          "in",
+          "the",
+          "tide",
+          "office",
+          "nadi",
+          "remembers",
+          "something",
+          "different",
+          "begin",
+          "at",
+          "the",
+          "landing",
+          "a",
+          "returned",
+          "dispatch",
+          "box",
+          "has",
+          "been",
+          "left",
+          "among",
+          "the",
+          "lost",
+          "property"
+        ],
+        "observed": [
+          "the",
+          "archive",
+          "door",
+          "is",
+          "shut",
+          "though",
+          "its",
+          "lamps",
+          "are",
+          "burning",
+          "mara",
+          "missed",
+          "her",
+          "last",
+          "ferry",
+          "according",
+          "to",
+          "the",
+          "notice",
+          "in",
+          "the",
+          "tide",
+          "office",
+          "nadi",
+          "remembers",
+          "something",
+          "different",
+          "begin",
+          "at",
+          "the",
+          "landing",
+          "a",
+          "returned",
+          "dispatch",
+          "box",
+          "has",
+          "been",
+          "left",
+          "among",
+          "the",
+          "lost",
+          "property"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

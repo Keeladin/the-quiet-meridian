@@ -1,0 +1,17 @@
+{
+  "approved": true,
+  "scope": "three_sample_auditions_only",
+  "manifest_sha256": "c3802e45e77b8ab0806c3e1ff1c27830d053b10d397905604bed57a2972bb969",
+  "cap_usd": 0.25,
+  "additional_cap_usd": 0.05,
+  "allowed_line_ids": [
+    "mara_refuge_r0"
+  ],
+  "max_attempts_total": 1,
+  "max_attempts_per_line": 1,
+  "approved_by": "user in this conversation",
+  "approval_text": "Approve one natural Mara retake",
+  "recorded_utc": "2026-11-14T11:47:22.469495+00:00",
+  "remaining_95_authorized": false,
+  "further_retakes_authorized": false
+}

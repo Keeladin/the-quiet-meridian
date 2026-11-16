@@ -1,0 +1,2010 @@
+{
+  "line_id": "narration_opening",
+  "clip_id": "b26f74db860846a39fc4646eaf4619bf",
+  "source_text_sha256": "befc54b3019479f98e86b4de514766f6dbb6b11630528a15472ffbc0eef14532",
+  "master": "work/gateway-voice/masters/b26f74db860846a39fc4646eaf4619bf.wav",
+  "wav_sha256": "013b4606932e5b5aa321308c7aee333d5c4b3a856200f3e9ef83b4e52b532bd4",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 2241600,
+    "sample_count": 1120800,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 46.7,
+    "peak": 0.75390625,
+    "peak_dbfs": -2.453653126081516,
+    "rms": 0.058683175318217866,
+    "rms_dbfs": -24.62972789457425,
+    "dc_offset": 0.0001616612882974912,
+    "silence_fraction": 0.2729014989293362,
+    "leading_silence_seconds": 0.4043333333333333,
+    "tail_silence_seconds": 0.32083333333333336,
+    "active_span_seconds": 45.974833333333336,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 120,
+    "source_words_per_active_minute": 156.6074192764882,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "letter",
+      "reaches",
+      "you",
+      "wrapped",
+      "in",
+      "sailcloth",
+      "iona",
+      "they",
+      "have",
+      "repaired",
+      "the",
+      "catalogue",
+      "but",
+      "not",
+      "the",
+      "truth",
+      "come",
+      "before",
+      "the",
+      "winter",
+      "register",
+      "is",
+      "pulped",
+      "ask",
+      "why",
+      "the",
+      "midnight",
+      "bell",
+      "was",
+      "silent",
+      "mara",
+      "seventeen",
+      "years",
+      "ago",
+      "the",
+      "east",
+      "reach",
+      "flood",
+      "killed",
+      "twenty",
+      "three",
+      "people",
+      "your",
+      "father",
+      "lockkeeper",
+      "tomas",
+      "vale",
+      "was",
+      "named",
+      "responsible",
+      "you",
+      "left",
+      "leth",
+      "to",
+      "learn",
+      "how",
+      "to",
+      "repair",
+      "paper",
+      "now",
+      "its",
+      "archivist",
+      "has",
+      "vanished",
+      "and",
+      "the",
+      "city",
+      "wants",
+      "to",
+      "burn",
+      "its",
+      "damaged",
+      "records",
+      "the",
+      "ferry",
+      "brings",
+      "you",
+      "home",
+      "under",
+      "a",
+      "sky",
+      "the",
+      "colour",
+      "of",
+      "old",
+      "pewter",
+      "nadi",
+      "bell",
+      "ties",
+      "the",
+      "boat",
+      "with",
+      "the",
+      "same",
+      "knot",
+      "she",
+      "used",
+      "when",
+      "you",
+      "were",
+      "a",
+      "child",
+      "nobody",
+      "disappears",
+      "from",
+      "a",
+      "city",
+      "this",
+      "small",
+      "she",
+      "says",
+      "but",
+      "a",
+      "city",
+      "can",
+      "agree",
+      "not",
+      "to",
+      "look"
+    ],
+    "observed_tokens": [
+      "the",
+      "letter",
+      "reaches",
+      "you",
+      "wrapped",
+      "in",
+      "sailcloth",
+      "iona",
+      "they",
+      "have",
+      "repaired",
+      "the",
+      "catalogue",
+      "but",
+      "not",
+      "the",
+      "truth",
+      "come",
+      "before",
+      "the",
+      "winter",
+      "register",
+      "is",
+      "pulped",
+      "ask",
+      "why",
+      "the",
+      "midnight",
+      "bell",
+      "was",
+      "silent",
+      "mara",
+      "seventeen",
+      "years",
+      "ago",
+      "the",
+      "east",
+      "reach",
+      "flood",
+      "killed",
+      "twenty",
+      "three",
+      "people",
+      "your",
+      "father",
+      "lockkeeper",
+      "tomas",
+      "vale",
+      "was",
+      "named",
+      "responsible",
+      "you",
+      "left",
+      "leth",
+      "to",
+      "learn",
+      "how",
+      "to",
+      "repair",
+      "paper",
+      "now",
+      "its",
+      "archivist",
+      "has",
+      "vanished",
+      "and",
+      "the",
+      "city",
+      "wants",
+      "to",
+      "burn",
+      "its",
+      "damaged",
+      "records",
+      "the",
+      "ferry",
+      "brings",
+      "you",
+      "home",
+      "under",
+      "a",
+      "sky",
+      "the",
+      "color",
+      "of",
+      "old",
+      "pewter",
+      "nadi",
+      "bell",
+      "ties",
+      "the",
+      "boat",
+      "with",
+      "the",
+      "same",
+      "knot",
+      "she",
+      "used",
+      "when",
+      "you",
+      "were",
+      "a",
+      "child",
+      "nobody",
+      "disappears",
+      "from",
+      "a",
+      "city",
+      "this",
+      "small",
+      "she",
+      "says",
+      "but",
+      "a",
+      "city",
+      "can",
+      "agree",
+      "not",
+      "to",
+      "look"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 83,
+        "observed_start": 0,
+        "observed_end": 83,
+        "expected": [
+          "the",
+          "letter",
+          "reaches",
+          "you",
+          "wrapped",
+          "in",
+          "sailcloth",
+          "iona",
+          "they",
+          "have",
+          "repaired",
+          "the",
+          "catalogue",
+          "but",
+          "not",
+          "the",
+          "truth",
+          "come",
+          "before",
+          "the",
+          "winter",
+          "register",
+          "is",
+          "pulped",
+          "ask",
+          "why",
+          "the",
+          "midnight",
+          "bell",
+          "was",
+          "silent",
+          "mara",
+          "seventeen",
+          "years",
+          "ago",
+          "the",
+          "east",
+          "reach",
+          "flood",
+          "killed",
+          "twenty",
+          "three",
+          "people",
+          "your",
+          "father",
+          "lockkeeper",
+          "tomas",
+          "vale",
+          "was",
+          "named",
+          "responsible",
+          "you",
+          "left",
+          "leth",
+          "to",
+          "learn",
+          "how",
+          "to",
+          "repair",
+          "paper",
+          "now",
+          "its",
+          "archivist",
+          "has",
+          "vanished",
+          "and",
+          "the",
+          "city",
+          "wants",
+          "to",
+          "burn",
+          "its",
+          "damaged",
+          "records",
+          "the",
+          "ferry",
+          "brings",
+          "you",
+          "home",
+          "under",
+          "a",
+          "sky",
+          "the"
+        ],
+        "observed": [
+          "the",
+          "letter",
+          "reaches",
+          "you",
+          "wrapped",
+          "in",
+          "sailcloth",
+          "iona",
+          "they",
+          "have",
+          "repaired",
+          "the",
+          "catalogue",
+          "but",
+          "not",
+          "the",
+          "truth",
+          "come",
+          "before",
+          "the",
+          "winter",
+          "register",
+          "is",
+          "pulped",
+          "ask",
+          "why",
+          "the",
+          "midnight",
+          "bell",
+          "was",
+          "silent",
+          "mara",
+          "seventeen",
+          "years",
+          "ago",
+          "the",
+          "east",
+          "reach",
+          "flood",
+          "killed",
+          "twenty",
+          "three",
+          "people",
+          "your",
+          "father",
+          "lockkeeper",
+          "tomas",
+          "vale",
+          "was",
+          "named",
+          "responsible",
+          "you",
+          "left",
+          "leth",
+          "to",
+          "learn",
+          "how",
+          "to",
+          "repair",
+          "paper",
+          "now",
+          "its",
+          "archivist",
+          "has",
+          "vanished",
+          "and",
+          "the",
+          "city",
+          "wants",
+          "to",
+          "burn",
+          "its",
+          "damaged",
+          "records",
+          "the",
+          "ferry",
+          "brings",
+          "you",
+          "home",
+          "under",
+          "a",
+          "sky",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 83,
+        "expected_end": 84,
+        "observed_start": 83,
+        "observed_end": 84,
+        "expected": [
+          "colour"
+        ],
+        "observed": [
+          "color"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 84,
+        "expected_end": 120,
+        "observed_start": 84,
+        "observed_end": 120,
+        "expected": [
+          "of",
+          "old",
+          "pewter",
+          "nadi",
+          "bell",
+          "ties",
+          "the",
+          "boat",
+          "with",
+          "the",
+          "same",
+          "knot",
+          "she",
+          "used",
+          "when",
+          "you",
+          "were",
+          "a",
+          "child",
+          "nobody",
+          "disappears",
+          "from",
+          "a",
+          "city",
+          "this",
+          "small",
+          "she",
+          "says",
+          "but",
+          "a",
+          "city",
+          "can",
+          "agree",
+          "not",
+          "to",
+          "look"
+        ],
+        "observed": [
+          "of",
+          "old",
+          "pewter",
+          "nadi",
+          "bell",
+          "ties",
+          "the",
+          "boat",
+          "with",
+          "the",
+          "same",
+          "knot",
+          "she",
+          "used",
+          "when",
+          "you",
+          "were",
+          "a",
+          "child",
+          "nobody",
+          "disappears",
+          "from",
+          "a",
+          "city",
+          "this",
+          "small",
+          "she",
+          "says",
+          "but",
+          "a",
+          "city",
+          "can",
+          "agree",
+          "not",
+          "to",
+          "look"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "colour"
+        ],
+        "observed": [
+          "color"
+        ],
+        "expected_start": 83,
+        "observed_start": 83
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 83:84."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The letter reaches you, wrapped in sailcloth. Iona, they have repaired the catalogue, but not the truth. Come before the winter register is pulped. Ask why the midnight bell was silent. Mara. Seventeen years ago, the Eastreach flood killed twenty-three people. Your father, lockkeeper Tomas Vale, was named responsible. You left Leth to learn how to repair paper. Now its archivist has vanished and the city wants to burn its damaged records. The ferry brings you home under a sky the color of old shooter. Nattie Bell ties the boat with the same knot she used when you were a child. Nobody disappears from a city this small, she says, but a city can agree not to look.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.66,
+      "text": " The letter reaches you, wrapped in sailcloth.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.3837679922580719
+        },
+        {
+          "word": " letter",
+          "start": 0.5,
+          "end": 0.74,
+          "probability": 0.9553045034408569
+        },
+        {
+          "word": " reaches",
+          "start": 0.74,
+          "end": 1.08,
+          "probability": 0.994038462638855
+        },
+        {
+          "word": " you,",
+          "start": 1.08,
+          "end": 1.44,
+          "probability": 0.9961321353912354
+        },
+        {
+          "word": " wrapped",
+          "start": 1.7,
+          "end": 1.82,
+          "probability": 0.9869192242622375
+        },
+        {
+          "word": " in",
+          "start": 1.82,
+          "end": 2.14,
+          "probability": 0.9970724582672119
+        },
+        {
+          "word": " sailcloth.",
+          "start": 2.14,
+          "end": 2.66,
+          "probability": 0.8807906806468964
+        }
+      ]
+    },
+    {
+      "start": 3.5,
+      "end": 6.96,
+      "text": " Iona, they have repaired the catalogue, but not the truth.",
+      "words": [
+        {
+          "word": " Iona,",
+          "start": 3.5,
+          "end": 3.84,
+          "probability": 0.9007141888141632
+        },
+        {
+          "word": " they",
+          "start": 4.24,
+          "end": 4.34,
+          "probability": 0.9753495454788208
+        },
+        {
+          "word": " have",
+          "start": 4.34,
+          "end": 4.62,
+          "probability": 0.9957654476165771
+        },
+        {
+          "word": " repaired",
+          "start": 4.62,
+          "end": 5.02,
+          "probability": 0.667612612247467
+        },
+        {
+          "word": " the",
+          "start": 5.02,
+          "end": 5.28,
+          "probability": 0.9944243431091309
+        },
+        {
+          "word": " catalogue,",
+          "start": 5.28,
+          "end": 5.66,
+          "probability": 0.7087042331695557
+        },
+        {
+          "word": " but",
+          "start": 6.16,
+          "end": 6.3,
+          "probability": 0.9886018633842468
+        },
+        {
+          "word": " not",
+          "start": 6.3,
+          "end": 6.46,
+          "probability": 0.9978773593902588
+        },
+        {
+          "word": " the",
+          "start": 6.46,
+          "end": 6.7,
+          "probability": 0.9915056824684143
+        },
+        {
+          "word": " truth.",
+          "start": 6.7,
+          "end": 6.96,
+          "probability": 0.9843147397041321
+        }
+      ]
+    },
+    {
+      "start": 7.62,
+      "end": 11.98,
+      "text": " Come before the winter register is pulped. Ask why the midnight bell was silent.",
+      "words": [
+        {
+          "word": " Come",
+          "start": 7.62,
+          "end": 7.8,
+          "probability": 0.9284590482711792
+        },
+        {
+          "word": " before",
+          "start": 7.8,
+          "end": 8.1,
+          "probability": 0.9953486323356628
+        },
+        {
+          "word": " the",
+          "start": 8.1,
+          "end": 8.32,
+          "probability": 0.9892944097518921
+        },
+        {
+          "word": " winter",
+          "start": 8.32,
+          "end": 8.58,
+          "probability": 0.589105486869812
+        },
+        {
+          "word": " register",
+          "start": 8.58,
+          "end": 9.02,
+          "probability": 0.9968982934951782
+        },
+        {
+          "word": " is",
+          "start": 9.02,
+          "end": 9.22,
+          "probability": 0.9510878324508667
+        },
+        {
+          "word": " pulped.",
+          "start": 9.22,
+          "end": 9.72,
+          "probability": 0.9890473186969757
+        },
+        {
+          "word": " Ask",
+          "start": 10.24,
+          "end": 10.46,
+          "probability": 0.9958552718162537
+        },
+        {
+          "word": " why",
+          "start": 10.46,
+          "end": 10.68,
+          "probability": 0.9970991611480713
+        },
+        {
+          "word": " the",
+          "start": 10.68,
+          "end": 10.84,
+          "probability": 0.993691086769104
+        },
+        {
+          "word": " midnight",
+          "start": 10.84,
+          "end": 11.06,
+          "probability": 0.7293522357940674
+        },
+        {
+          "word": " bell",
+          "start": 11.06,
+          "end": 11.36,
+          "probability": 0.9955613613128662
+        },
+        {
+          "word": " was",
+          "start": 11.36,
+          "end": 11.56,
+          "probability": 0.9880188703536987
+        },
+        {
+          "word": " silent.",
+          "start": 11.56,
+          "end": 11.98,
+          "probability": 0.9989575147628784
+        }
+      ]
+    },
+    {
+      "start": 12.82,
+      "end": 13.06,
+      "text": " Mara.",
+      "words": [
+        {
+          "word": " Mara.",
+          "start": 12.82,
+          "end": 13.06,
+          "probability": 0.9751265645027161
+        }
+      ]
+    },
+    {
+      "start": 14.44,
+      "end": 18.26,
+      "text": " Seventeen years ago, the Eastreach flood killed twenty-three people.",
+      "words": [
+        {
+          "word": " Seventeen",
+          "start": 14.44,
+          "end": 14.88,
+          "probability": 0.824880450963974
+        },
+        {
+          "word": " years",
+          "start": 14.88,
+          "end": 15.1,
+          "probability": 0.9950599074363708
+        },
+        {
+          "word": " ago,",
+          "start": 15.1,
+          "end": 15.42,
+          "probability": 0.9991971850395203
+        },
+        {
+          "word": " the",
+          "start": 16.02,
+          "end": 16.12,
+          "probability": 0.9895768165588379
+        },
+        {
+          "word": " Eastreach",
+          "start": 16.12,
+          "end": 16.5,
+          "probability": 0.9224502742290497
+        },
+        {
+          "word": " flood",
+          "start": 16.5,
+          "end": 16.82,
+          "probability": 0.9182136654853821
+        },
+        {
+          "word": " killed",
+          "start": 16.82,
+          "end": 17.24,
+          "probability": 0.9987071752548218
+        },
+        {
+          "word": " twenty",
+          "start": 17.24,
+          "end": 17.62,
+          "probability": 0.6227126121520996
+        },
+        {
+          "word": "-three",
+          "start": 17.62,
+          "end": 17.86,
+          "probability": 0.8758984506130219
+        },
+        {
+          "word": " people.",
+          "start": 17.86,
+          "end": 18.26,
+          "probability": 0.9981607794761658
+        }
+      ]
+    },
+    {
+      "start": 18.66,
+      "end": 22.22,
+      "text": " Your father, lockkeeper Tomas Vale, was named responsible.",
+      "words": [
+        {
+          "word": " Your",
+          "start": 18.66,
+          "end": 18.84,
+          "probability": 0.9923862218856812
+        },
+        {
+          "word": " father,",
+          "start": 18.84,
+          "end": 19.2,
+          "probability": 0.991976797580719
+        },
+        {
+          "word": " lockkeeper",
+          "start": 19.68,
+          "end": 19.9,
+          "probability": 0.5169536471366882
+        },
+        {
+          "word": " Tomas",
+          "start": 19.9,
+          "end": 20.34,
+          "probability": 0.33653494715690613
+        },
+        {
+          "word": " Vale,",
+          "start": 20.34,
+          "end": 20.7,
+          "probability": 0.40775007009506226
+        },
+        {
+          "word": " was",
+          "start": 21.24,
+          "end": 21.36,
+          "probability": 0.9969802498817444
+        },
+        {
+          "word": " named",
+          "start": 21.36,
+          "end": 21.58,
+          "probability": 0.9964138865470886
+        },
+        {
+          "word": " responsible.",
+          "start": 21.58,
+          "end": 22.22,
+          "probability": 0.9886167645454407
+        }
+      ]
+    },
+    {
+      "start": 22.96,
+      "end": 25.66,
+      "text": " You left Leth to learn how to repair paper.",
+      "words": [
+        {
+          "word": " You",
+          "start": 22.96,
+          "end": 23.14,
+          "probability": 0.9951016306877136
+        },
+        {
+          "word": " left",
+          "start": 23.14,
+          "end": 23.44,
+          "probability": 0.9964331388473511
+        },
+        {
+          "word": " Leth",
+          "start": 23.44,
+          "end": 23.76,
+          "probability": 0.580427348613739
+        },
+        {
+          "word": " to",
+          "start": 23.76,
+          "end": 24.14,
+          "probability": 0.940258264541626
+        },
+        {
+          "word": " learn",
+          "start": 24.14,
+          "end": 24.42,
+          "probability": 0.9970947504043579
+        },
+        {
+          "word": " how",
+          "start": 24.42,
+          "end": 24.66,
+          "probability": 0.9943181872367859
+        },
+        {
+          "word": " to",
+          "start": 24.66,
+          "end": 24.84,
+          "probability": 0.998689591884613
+        },
+        {
+          "word": " repair",
+          "start": 24.84,
+          "end": 25.2,
+          "probability": 0.9913727045059204
+        },
+        {
+          "word": " paper.",
+          "start": 25.2,
+          "end": 25.66,
+          "probability": 0.9964742064476013
+        }
+      ]
+    },
+    {
+      "start": 25.66,
+      "end": 30.96,
+      "text": " Now its archivist has vanished and the city wants to burn its damaged records.",
+      "words": [
+        {
+          "word": " Now",
+          "start": 25.66,
+          "end": 26.7,
+          "probability": 0.7601243853569031
+        },
+        {
+          "word": " its",
+          "start": 26.7,
+          "end": 26.9,
+          "probability": 0.799156904220581
+        },
+        {
+          "word": " archivist",
+          "start": 26.9,
+          "end": 27.44,
+          "probability": 0.9616788923740387
+        },
+        {
+          "word": " has",
+          "start": 27.44,
+          "end": 27.72,
+          "probability": 0.9954032897949219
+        },
+        {
+          "word": " vanished",
+          "start": 27.72,
+          "end": 28.14,
+          "probability": 0.9987963438034058
+        },
+        {
+          "word": " and",
+          "start": 28.14,
+          "end": 28.8,
+          "probability": 0.6610864996910095
+        },
+        {
+          "word": " the",
+          "start": 28.8,
+          "end": 28.94,
+          "probability": 0.9969995617866516
+        },
+        {
+          "word": " city",
+          "start": 28.94,
+          "end": 29.08,
+          "probability": 0.9811952114105225
+        },
+        {
+          "word": " wants",
+          "start": 29.08,
+          "end": 29.38,
+          "probability": 0.995326042175293
+        },
+        {
+          "word": " to",
+          "start": 29.38,
+          "end": 29.58,
+          "probability": 0.998906135559082
+        },
+        {
+          "word": " burn",
+          "start": 29.58,
+          "end": 29.86,
+          "probability": 0.9986761212348938
+        },
+        {
+          "word": " its",
+          "start": 29.86,
+          "end": 30.1,
+          "probability": 0.9647138118743896
+        },
+        {
+          "word": " damaged",
+          "start": 30.1,
+          "end": 30.48,
+          "probability": 0.995578944683075
+        },
+        {
+          "word": " records.",
+          "start": 30.48,
+          "end": 30.96,
+          "probability": 0.9950066804885864
+        }
+      ]
+    },
+    {
+      "start": 31.56,
+      "end": 35.06,
+      "text": " The ferry brings you home under a sky the color of old shooter.",
+      "words": [
+        {
+          "word": " The",
+          "start": 31.56,
+          "end": 31.66,
+          "probability": 0.9806786179542542
+        },
+        {
+          "word": " ferry",
+          "start": 31.66,
+          "end": 31.86,
+          "probability": 0.6532730460166931
+        },
+        {
+          "word": " brings",
+          "start": 31.86,
+          "end": 32.18,
+          "probability": 0.999117910861969
+        },
+        {
+          "word": " you",
+          "start": 32.18,
+          "end": 32.36,
+          "probability": 0.999226450920105
+        },
+        {
+          "word": " home",
+          "start": 32.36,
+          "end": 32.64,
+          "probability": 0.9990130662918091
+        },
+        {
+          "word": " under",
+          "start": 32.64,
+          "end": 32.96,
+          "probability": 0.8887864947319031
+        },
+        {
+          "word": " a",
+          "start": 32.96,
+          "end": 33.16,
+          "probability": 0.9668554663658142
+        },
+        {
+          "word": " sky",
+          "start": 33.16,
+          "end": 33.44,
+          "probability": 0.9983298182487488
+        },
+        {
+          "word": " the",
+          "start": 33.44,
+          "end": 33.64,
+          "probability": 0.9833205342292786
+        },
+        {
+          "word": " color",
+          "start": 33.64,
+          "end": 33.9,
+          "probability": 0.6257809400558472
+        },
+        {
+          "word": " of",
+          "start": 33.9,
+          "end": 34.16,
+          "probability": 0.9987308382987976
+        },
+        {
+          "word": " old",
+          "start": 34.16,
+          "end": 34.56,
+          "probability": 0.8446133732795715
+        },
+        {
+          "word": " shooter.",
+          "start": 34.56,
+          "end": 35.06,
+          "probability": 0.26573416590690613
+        }
+      ]
+    },
+    {
+      "start": 35.98,
+      "end": 39.5,
+      "text": " Nattie Bell ties the boat with the same knot she used when you were a child.",
+      "words": [
+        {
+          "word": " Nattie",
+          "start": 35.98,
+          "end": 36.26,
+          "probability": 0.6220863858858744
+        },
+        {
+          "word": " Bell",
+          "start": 36.26,
+          "end": 36.4,
+          "probability": 0.5650140643119812
+        },
+        {
+          "word": " ties",
+          "start": 36.4,
+          "end": 36.78,
+          "probability": 0.995020866394043
+        },
+        {
+          "word": " the",
+          "start": 36.78,
+          "end": 36.98,
+          "probability": 0.9929859042167664
+        },
+        {
+          "word": " boat",
+          "start": 36.98,
+          "end": 37.14,
+          "probability": 0.9984662532806396
+        },
+        {
+          "word": " with",
+          "start": 37.14,
+          "end": 37.34,
+          "probability": 0.9983356595039368
+        },
+        {
+          "word": " the",
+          "start": 37.34,
+          "end": 37.48,
+          "probability": 0.9951837658882141
+        },
+        {
+          "word": " same",
+          "start": 37.48,
+          "end": 37.74,
+          "probability": 0.9991410970687866
+        },
+        {
+          "word": " knot",
+          "start": 37.74,
+          "end": 37.96,
+          "probability": 0.9194148778915405
+        },
+        {
+          "word": " she",
+          "start": 37.96,
+          "end": 38.24,
+          "probability": 0.9924627542495728
+        },
+        {
+          "word": " used",
+          "start": 38.24,
+          "end": 38.5,
+          "probability": 0.9980288147926331
+        },
+        {
+          "word": " when",
+          "start": 38.5,
+          "end": 38.7,
+          "probability": 0.985660195350647
+        },
+        {
+          "word": " you",
+          "start": 38.7,
+          "end": 38.84,
+          "probability": 0.9988023042678833
+        },
+        {
+          "word": " were",
+          "start": 38.84,
+          "end": 38.98,
+          "probability": 0.9889317750930786
+        },
+        {
+          "word": " a",
+          "start": 38.98,
+          "end": 39.14,
+          "probability": 0.9870831966400146
+        },
+        {
+          "word": " child.",
+          "start": 39.14,
+          "end": 39.5,
+          "probability": 0.999559223651886
+        }
+      ]
+    },
+    {
+      "start": 40.5,
+      "end": 46.24,
+      "text": " Nobody disappears from a city this small, she says, but a city can agree not to look.",
+      "words": [
+        {
+          "word": " Nobody",
+          "start": 40.5,
+          "end": 40.8,
+          "probability": 0.5183749794960022
+        },
+        {
+          "word": " disappears",
+          "start": 40.8,
+          "end": 41.36,
+          "probability": 0.9945317506790161
+        },
+        {
+          "word": " from",
+          "start": 41.36,
+          "end": 41.7,
+          "probability": 0.9990160465240479
+        },
+        {
+          "word": " a",
+          "start": 41.7,
+          "end": 41.84,
+          "probability": 0.9971518516540527
+        },
+        {
+          "word": " city",
+          "start": 41.84,
+          "end": 42.04,
+          "probability": 0.99868243932724
+        },
+        {
+          "word": " this",
+          "start": 42.04,
+          "end": 42.24,
+          "probability": 0.984439492225647
+        },
+        {
+          "word": " small,",
+          "start": 42.24,
+          "end": 42.72,
+          "probability": 0.9968011379241943
+        },
+        {
+          "word": " she",
+          "start": 43.18,
+          "end": 43.4,
+          "probability": 0.9958523511886597
+        },
+        {
+          "word": " says,",
+          "start": 43.4,
+          "end": 43.76,
+          "probability": 0.9985610842704773
+        },
+        {
+          "word": " but",
+          "start": 44.18,
+          "end": 44.36,
+          "probability": 0.993641197681427
+        },
+        {
+          "word": " a",
+          "start": 44.36,
+          "end": 44.48,
+          "probability": 0.9908174276351929
+        },
+        {
+          "word": " city",
+          "start": 44.48,
+          "end": 44.72,
+          "probability": 0.9983171224594116
+        },
+        {
+          "word": " can",
+          "start": 44.72,
+          "end": 44.96,
+          "probability": 0.9971848130226135
+        },
+        {
+          "word": " agree",
+          "start": 44.96,
+          "end": 45.26,
+          "probability": 0.982286274433136
+        },
+        {
+          "word": " not",
+          "start": 45.26,
+          "end": 45.76,
+          "probability": 0.9904916882514954
+        },
+        {
+          "word": " to",
+          "start": 45.76,
+          "end": 46.02,
+          "probability": 0.9984851479530334
+        },
+        {
+          "word": " look.",
+          "start": 46.02,
+          "end": 46.24,
+          "probability": 0.9994192123413086
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "letter",
+      "reaches",
+      "you",
+      "wrapped",
+      "in",
+      "sailcloth",
+      "iona",
+      "they",
+      "have",
+      "repaired",
+      "the",
+      "catalogue",
+      "but",
+      "not",
+      "the",
+      "truth",
+      "come",
+      "before",
+      "the",
+      "winter",
+      "register",
+      "is",
+      "pulped",
+      "ask",
+      "why",
+      "the",
+      "midnight",
+      "bell",
+      "was",
+      "silent",
+      "mara",
+      "seventeen",
+      "years",
+      "ago",
+      "the",
+      "east",
+      "reach",
+      "flood",
+      "killed",
+      "twenty",
+      "three",
+      "people",
+      "your",
+      "father",
+      "lockkeeper",
+      "tomas",
+      "vale",
+      "was",
+      "named",
+      "responsible",
+      "you",
+      "left",
+      "leth",
+      "to",
+      "learn",
+      "how",
+      "to",
+      "repair",
+      "paper",
+      "now",
+      "its",
+      "archivist",
+      "has",
+      "vanished",
+      "and",
+      "the",
+      "city",
+      "wants",
+      "to",
+      "burn",
+      "its",
+      "damaged",
+      "records",
+      "the",
+      "ferry",
+      "brings",
+      "you",
+      "home",
+      "under",
+      "a",
+      "sky",
+      "the",
+      "colour",
+      "of",
+      "old",
+      "pewter",
+      "nadi",
+      "bell",
+      "ties",
+      "the",
+      "boat",
+      "with",
+      "the",
+      "same",
+      "knot",
+      "she",
+      "used",
+      "when",
+      "you",
+      "were",
+      "a",
+      "child",
+      "nobody",
+      "disappears",
+      "from",
+      "a",
+      "city",
+      "this",
+      "small",
+      "she",
+      "says",
+      "but",
+      "a",
+      "city",
+      "can",
+      "agree",
+      "not",
+      "to",
+      "look"
+    ],
+    "observed_tokens": [
+      "the",
+      "letter",
+      "reaches",
+      "you",
+      "wrapped",
+      "in",
+      "sailcloth",
+      "iona",
+      "they",
+      "have",
+      "repaired",
+      "the",
+      "catalogue",
+      "but",
+      "not",
+      "the",
+      "truth",
+      "come",
+      "before",
+      "the",
+      "winter",
+      "register",
+      "is",
+      "pulped",
+      "ask",
+      "why",
+      "the",
+      "midnight",
+      "bell",
+      "was",
+      "silent",
+      "mara",
+      "seventeen",
+      "years",
+      "ago",
+      "the",
+      "eastreach",
+      "flood",
+      "killed",
+      "twenty",
+      "three",
+      "people",
+      "your",
+      "father",
+      "lockkeeper",
+      "tomas",
+      "vale",
+      "was",
+      "named",
+      "responsible",
+      "you",
+      "left",
+      "leth",
+      "to",
+      "learn",
+      "how",
+      "to",
+      "repair",
+      "paper",
+      "now",
+      "its",
+      "archivist",
+      "has",
+      "vanished",
+      "and",
+      "the",
+      "city",
+      "wants",
+      "to",
+      "burn",
+      "its",
+      "damaged",
+      "records",
+      "the",
+      "ferry",
+      "brings",
+      "you",
+      "home",
+      "under",
+      "a",
+      "sky",
+      "the",
+      "color",
+      "of",
+      "old",
+      "shooter",
+      "nattie",
+      "bell",
+      "ties",
+      "the",
+      "boat",
+      "with",
+      "the",
+      "same",
+      "knot",
+      "she",
+      "used",
+      "when",
+      "you",
+      "were",
+      "a",
+      "child",
+      "nobody",
+      "disappears",
+      "from",
+      "a",
+      "city",
+      "this",
+      "small",
+      "she",
+      "says",
+      "but",
+      "a",
+      "city",
+      "can",
+      "agree",
+      "not",
+      "to",
+      "look"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 36,
+        "observed_start": 0,
+        "observed_end": 36,
+        "expected": [
+          "the",
+          "letter",
+          "reaches",
+          "you",
+          "wrapped",
+          "in",
+          "sailcloth",
+          "iona",
+          "they",
+          "have",
+          "repaired",
+          "the",
+          "catalogue",
+          "but",
+          "not",
+          "the",
+          "truth",
+          "come",
+          "before",
+          "the",
+          "winter",
+          "register",
+          "is",
+          "pulped",
+          "ask",
+          "why",
+          "the",
+          "midnight",
+          "bell",
+          "was",
+          "silent",
+          "mara",
+          "seventeen",
+          "years",
+          "ago",
+          "the"
+        ],
+        "observed": [
+          "the",
+          "letter",
+          "reaches",
+          "you",
+          "wrapped",
+          "in",
+          "sailcloth",
+          "iona",
+          "they",
+          "have",
+          "repaired",
+          "the",
+          "catalogue",
+          "but",
+          "not",
+          "the",
+          "truth",
+          "come",
+          "before",
+          "the",
+          "winter",
+          "register",
+          "is",
+          "pulped",
+          "ask",
+          "why",
+          "the",
+          "midnight",
+          "bell",
+          "was",
+          "silent",
+          "mara",
+          "seventeen",
+          "years",
+          "ago",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 36,
+        "expected_end": 38,
+        "observed_start": 36,
+        "observed_end": 37,
+        "expected": [
+          "east",
+          "reach"
+        ],
+        "observed": [
+          "eastreach"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 38,
+        "expected_end": 83,
+        "observed_start": 37,
+        "observed_end": 82,
+        "expected": [
+          "flood",
+          "killed",
+          "twenty",
+          "three",
+          "people",
+          "your",
+          "father",
+          "lockkeeper",
+          "tomas",
+          "vale",
+          "was",
+          "named",
+          "responsible",
+          "you",
+          "left",
+          "leth",
+          "to",
+          "learn",
+          "how",
+          "to",
+          "repair",
+          "paper",
+          "now",
+          "its",
+          "archivist",
+          "has",
+          "vanished",
+          "and",
+          "the",
+          "city",
+          "wants",
+          "to",
+          "burn",
+          "its",
+          "damaged",
+          "records",
+          "the",
+          "ferry",
+          "brings",
+          "you",
+          "home",
+          "under",
+          "a",
+          "sky",
+          "the"
+        ],
+        "observed": [
+          "flood",
+          "killed",
+          "twenty",
+          "three",
+          "people",
+          "your",
+          "father",
+          "lockkeeper",
+          "tomas",
+          "vale",
+          "was",
+          "named",
+          "responsible",
+          "you",
+          "left",
+          "leth",
+          "to",
+          "learn",
+          "how",
+          "to",
+          "repair",
+          "paper",
+          "now",
+          "its",
+          "archivist",
+          "has",
+          "vanished",
+          "and",
+          "the",
+          "city",
+          "wants",
+          "to",
+          "burn",
+          "its",
+          "damaged",
+          "records",
+          "the",
+          "ferry",
+          "brings",
+          "you",
+          "home",
+          "under",
+          "a",
+          "sky",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 83,
+        "expected_end": 84,
+        "observed_start": 82,
+        "observed_end": 83,
+        "expected": [
+          "colour"
+        ],
+        "observed": [
+          "color"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 84,
+        "expected_end": 86,
+        "observed_start": 83,
+        "observed_end": 85,
+        "expected": [
+          "of",
+          "old"
+        ],
+        "observed": [
+          "of",
+          "old"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 86,
+        "expected_end": 88,
+        "observed_start": 85,
+        "observed_end": 87,
+        "expected": [
+          "pewter",
+          "nadi"
+        ],
+        "observed": [
+          "shooter",
+          "nattie"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 88,
+        "expected_end": 120,
+        "observed_start": 87,
+        "observed_end": 119,
+        "expected": [
+          "bell",
+          "ties",
+          "the",
+          "boat",
+          "with",
+          "the",
+          "same",
+          "knot",
+          "she",
+          "used",
+          "when",
+          "you",
+          "were",
+          "a",
+          "child",
+          "nobody",
+          "disappears",
+          "from",
+          "a",
+          "city",
+          "this",
+          "small",
+          "she",
+          "says",
+          "but",
+          "a",
+          "city",
+          "can",
+          "agree",
+          "not",
+          "to",
+          "look"
+        ],
+        "observed": [
+          "bell",
+          "ties",
+          "the",
+          "boat",
+          "with",
+          "the",
+          "same",
+          "knot",
+          "she",
+          "used",
+          "when",
+          "you",
+          "were",
+          "a",
+          "child",
+          "nobody",
+          "disappears",
+          "from",
+          "a",
+          "city",
+          "this",
+          "small",
+          "she",
+          "says",
+          "but",
+          "a",
+          "city",
+          "can",
+          "agree",
+          "not",
+          "to",
+          "look"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "east",
+          "reach"
+        ],
+        "observed": [
+          "eastreach"
+        ],
+        "expected_start": 36,
+        "observed_start": 36
+      },
+      {
+        "expected": [
+          "colour"
+        ],
+        "observed": [
+          "color"
+        ],
+        "expected_start": 83,
+        "observed_start": 82
+      },
+      {
+        "expected": [
+          "pewter",
+          "nadi"
+        ],
+        "observed": [
+          "shooter",
+          "nattie"
+        ],
+        "expected_start": 86,
+        "observed_start": 85
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 36:38.",
+      "Changed source words at expected tokens 83:84.",
+      "Changed source words at expected tokens 86:88."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,1062 @@
+{
+  "line_id": "elian_council_r2",
+  "clip_id": "7b539c9bbae34c22bef1575a92e93e0d",
+  "source_text_sha256": "402f676897222ccbf2c7c5c233d6d054a2e24ae9200923184756b465b317f2ff",
+  "master": "work/gateway-voice/masters/7b539c9bbae34c22bef1575a92e93e0d.wav",
+  "wav_sha256": "27b9a4cb893fae5eee73d572a3b2c3500be2d00028875b0160738044b5908b21",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1041600,
+    "sample_count": 520800,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 21.7,
+    "peak": 0.56640625,
+    "peak_dbfs": -4.937439261537493,
+    "rms": 0.04979691076935526,
+    "rms_dbfs": -26.05595197108546,
+    "dc_offset": 0.00014962109918784802,
+    "silence_fraction": 0.20412826420890937,
+    "leading_silence_seconds": 0.39075,
+    "tail_silence_seconds": 0.006875,
+    "active_span_seconds": 21.302375,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 62,
+    "source_words_per_active_minute": 174.628415845651,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "chance",
+      "to",
+      "give",
+      "the",
+      "statement",
+      "before",
+      "someone",
+      "gives",
+      "it",
+      "for",
+      "me",
+      "not",
+      "a",
+      "promise",
+      "about",
+      "what",
+      "follows",
+      "i",
+      "am",
+      "afraid",
+      "of",
+      "the",
+      "inquiry",
+      "i",
+      "am",
+      "more",
+      "afraid",
+      "of",
+      "discovering",
+      "i",
+      "can",
+      "still",
+      "make",
+      "fear",
+      "sound",
+      "like",
+      "an",
+      "instruction",
+      "i",
+      "was",
+      "obliged",
+      "to",
+      "obey",
+      "if",
+      "i",
+      "change",
+      "a",
+      "sentence",
+      "to",
+      "make",
+      "myself",
+      "smaller",
+      "in",
+      "the",
+      "event",
+      "bring",
+      "me",
+      "back",
+      "to",
+      "the",
+      "source"
+    ],
+    "observed_tokens": [
+      "a",
+      "chance",
+      "to",
+      "give",
+      "the",
+      "statement",
+      "before",
+      "someone",
+      "gives",
+      "it",
+      "for",
+      "me",
+      "not",
+      "a",
+      "promise",
+      "about",
+      "what",
+      "follows",
+      "i",
+      "am",
+      "afraid",
+      "of",
+      "the",
+      "inquiry",
+      "i",
+      "am",
+      "more",
+      "afraid",
+      "of",
+      "discovering",
+      "i",
+      "can",
+      "still",
+      "make",
+      "fear",
+      "sound",
+      "like",
+      "an",
+      "instruction",
+      "i",
+      "was",
+      "obliged",
+      "to",
+      "obey",
+      "if",
+      "i",
+      "change",
+      "a",
+      "sentence",
+      "to",
+      "make",
+      "myself",
+      "smaller",
+      "in",
+      "the",
+      "event",
+      "bring",
+      "me",
+      "back",
+      "to",
+      "the",
+      "source"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 62,
+        "observed_start": 0,
+        "observed_end": 62,
+        "expected": [
+          "a",
+          "chance",
+          "to",
+          "give",
+          "the",
+          "statement",
+          "before",
+          "someone",
+          "gives",
+          "it",
+          "for",
+          "me",
+          "not",
+          "a",
+          "promise",
+          "about",
+          "what",
+          "follows",
+          "i",
+          "am",
+          "afraid",
+          "of",
+          "the",
+          "inquiry",
+          "i",
+          "am",
+          "more",
+          "afraid",
+          "of",
+          "discovering",
+          "i",
+          "can",
+          "still",
+          "make",
+          "fear",
+          "sound",
+          "like",
+          "an",
+          "instruction",
+          "i",
+          "was",
+          "obliged",
+          "to",
+          "obey",
+          "if",
+          "i",
+          "change",
+          "a",
+          "sentence",
+          "to",
+          "make",
+          "myself",
+          "smaller",
+          "in",
+          "the",
+          "event",
+          "bring",
+          "me",
+          "back",
+          "to",
+          "the",
+          "source"
+        ],
+        "observed": [
+          "a",
+          "chance",
+          "to",
+          "give",
+          "the",
+          "statement",
+          "before",
+          "someone",
+          "gives",
+          "it",
+          "for",
+          "me",
+          "not",
+          "a",
+          "promise",
+          "about",
+          "what",
+          "follows",
+          "i",
+          "am",
+          "afraid",
+          "of",
+          "the",
+          "inquiry",
+          "i",
+          "am",
+          "more",
+          "afraid",
+          "of",
+          "discovering",
+          "i",
+          "can",
+          "still",
+          "make",
+          "fear",
+          "sound",
+          "like",
+          "an",
+          "instruction",
+          "i",
+          "was",
+          "obliged",
+          "to",
+          "obey",
+          "if",
+          "i",
+          "change",
+          "a",
+          "sentence",
+          "to",
+          "make",
+          "myself",
+          "smaller",
+          "in",
+          "the",
+          "event",
+          "bring",
+          "me",
+          "back",
+          "to",
+          "the",
+          "source"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "A chance to give this statement before someone gives it for me. Not a promise about what follows. I am afraid of the inquiry. I am more afraid of discovering I can still make fear sound like an instruction I was obliged to obey. If I change a sentence to make myself smaller in the event, bring me back to the source.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.88,
+      "text": " A chance to give this statement before someone gives it for me.",
+      "words": [
+        {
+          "word": " A",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.617121160030365
+        },
+        {
+          "word": " chance",
+          "start": 0.52,
+          "end": 0.78,
+          "probability": 0.9935089349746704
+        },
+        {
+          "word": " to",
+          "start": 0.78,
+          "end": 1.1,
+          "probability": 0.9984104633331299
+        },
+        {
+          "word": " give",
+          "start": 1.1,
+          "end": 1.28,
+          "probability": 0.996580183506012
+        },
+        {
+          "word": " this",
+          "start": 1.28,
+          "end": 1.48,
+          "probability": 0.5622444748878479
+        },
+        {
+          "word": " statement",
+          "start": 1.48,
+          "end": 1.88,
+          "probability": 0.9957233667373657
+        },
+        {
+          "word": " before",
+          "start": 1.88,
+          "end": 2.4,
+          "probability": 0.9314671754837036
+        },
+        {
+          "word": " someone",
+          "start": 2.4,
+          "end": 2.78,
+          "probability": 0.9920783638954163
+        },
+        {
+          "word": " gives",
+          "start": 2.78,
+          "end": 3.04,
+          "probability": 0.9933502078056335
+        },
+        {
+          "word": " it",
+          "start": 3.04,
+          "end": 3.26,
+          "probability": 0.9958296418190002
+        },
+        {
+          "word": " for",
+          "start": 3.26,
+          "end": 3.5,
+          "probability": 0.9538405537605286
+        },
+        {
+          "word": " me.",
+          "start": 3.5,
+          "end": 3.88,
+          "probability": 0.9995228052139282
+        }
+      ]
+    },
+    {
+      "start": 4.42,
+      "end": 6.1,
+      "text": " Not a promise about what follows.",
+      "words": [
+        {
+          "word": " Not",
+          "start": 4.42,
+          "end": 4.56,
+          "probability": 0.9833971858024597
+        },
+        {
+          "word": " a",
+          "start": 4.56,
+          "end": 4.74,
+          "probability": 0.9989142417907715
+        },
+        {
+          "word": " promise",
+          "start": 4.74,
+          "end": 5.04,
+          "probability": 0.9990635514259338
+        },
+        {
+          "word": " about",
+          "start": 5.04,
+          "end": 5.5,
+          "probability": 0.9899132251739502
+        },
+        {
+          "word": " what",
+          "start": 5.5,
+          "end": 5.72,
+          "probability": 0.9990098476409912
+        },
+        {
+          "word": " follows.",
+          "start": 5.72,
+          "end": 6.1,
+          "probability": 0.9957045912742615
+        }
+      ]
+    },
+    {
+      "start": 6.82,
+      "end": 8.88,
+      "text": " I am afraid of the inquiry.",
+      "words": [
+        {
+          "word": " I",
+          "start": 6.82,
+          "end": 7.0,
+          "probability": 0.976416289806366
+        },
+        {
+          "word": " am",
+          "start": 7.0,
+          "end": 7.16,
+          "probability": 0.9880703687667847
+        },
+        {
+          "word": " afraid",
+          "start": 7.16,
+          "end": 7.74,
+          "probability": 0.9545233249664307
+        },
+        {
+          "word": " of",
+          "start": 7.74,
+          "end": 8.22,
+          "probability": 0.9982220530509949
+        },
+        {
+          "word": " the",
+          "start": 8.22,
+          "end": 8.42,
+          "probability": 0.9967010617256165
+        },
+        {
+          "word": " inquiry.",
+          "start": 8.42,
+          "end": 8.88,
+          "probability": 0.873817503452301
+        }
+      ]
+    },
+    {
+      "start": 9.72,
+      "end": 15.38,
+      "text": " I am more afraid of discovering I can still make fear sound like an instruction I was obliged to obey.",
+      "words": [
+        {
+          "word": " I",
+          "start": 9.72,
+          "end": 9.88,
+          "probability": 0.9970556497573853
+        },
+        {
+          "word": " am",
+          "start": 9.88,
+          "end": 10.02,
+          "probability": 0.9881104230880737
+        },
+        {
+          "word": " more",
+          "start": 10.02,
+          "end": 10.34,
+          "probability": 0.9973917007446289
+        },
+        {
+          "word": " afraid",
+          "start": 10.34,
+          "end": 10.74,
+          "probability": 0.9990031123161316
+        },
+        {
+          "word": " of",
+          "start": 10.74,
+          "end": 10.96,
+          "probability": 0.9960722923278809
+        },
+        {
+          "word": " discovering",
+          "start": 10.96,
+          "end": 11.42,
+          "probability": 0.9978106617927551
+        },
+        {
+          "word": " I",
+          "start": 11.42,
+          "end": 11.66,
+          "probability": 0.9615379571914673
+        },
+        {
+          "word": " can",
+          "start": 11.66,
+          "end": 11.8,
+          "probability": 0.9967161417007446
+        },
+        {
+          "word": " still",
+          "start": 11.8,
+          "end": 12.12,
+          "probability": 0.9919120073318481
+        },
+        {
+          "word": " make",
+          "start": 12.12,
+          "end": 12.38,
+          "probability": 0.9976834058761597
+        },
+        {
+          "word": " fear",
+          "start": 12.38,
+          "end": 12.76,
+          "probability": 0.9327224493026733
+        },
+        {
+          "word": " sound",
+          "start": 12.76,
+          "end": 13.1,
+          "probability": 0.9962098598480225
+        },
+        {
+          "word": " like",
+          "start": 13.1,
+          "end": 13.34,
+          "probability": 0.9971092343330383
+        },
+        {
+          "word": " an",
+          "start": 13.34,
+          "end": 13.52,
+          "probability": 0.9939310550689697
+        },
+        {
+          "word": " instruction",
+          "start": 13.52,
+          "end": 13.96,
+          "probability": 0.9982337951660156
+        },
+        {
+          "word": " I",
+          "start": 13.96,
+          "end": 14.28,
+          "probability": 0.9816194772720337
+        },
+        {
+          "word": " was",
+          "start": 14.28,
+          "end": 14.38,
+          "probability": 0.9990572333335876
+        },
+        {
+          "word": " obliged",
+          "start": 14.38,
+          "end": 14.74,
+          "probability": 0.9980378746986389
+        },
+        {
+          "word": " to",
+          "start": 14.74,
+          "end": 15.04,
+          "probability": 0.9989538192749023
+        },
+        {
+          "word": " obey.",
+          "start": 15.04,
+          "end": 15.38,
+          "probability": 0.9977573752403259
+        }
+      ]
+    },
+    {
+      "start": 16.22,
+      "end": 21.12,
+      "text": " If I change a sentence to make myself smaller in the event, bring me back to the source.",
+      "words": [
+        {
+          "word": " If",
+          "start": 16.22,
+          "end": 16.54,
+          "probability": 0.9897081851959229
+        },
+        {
+          "word": " I",
+          "start": 16.54,
+          "end": 16.7,
+          "probability": 0.9904446005821228
+        },
+        {
+          "word": " change",
+          "start": 16.7,
+          "end": 16.94,
+          "probability": 0.9983413219451904
+        },
+        {
+          "word": " a",
+          "start": 16.94,
+          "end": 17.1,
+          "probability": 0.9141069054603577
+        },
+        {
+          "word": " sentence",
+          "start": 17.1,
+          "end": 17.34,
+          "probability": 0.9988995790481567
+        },
+        {
+          "word": " to",
+          "start": 17.34,
+          "end": 17.66,
+          "probability": 0.9968710541725159
+        },
+        {
+          "word": " make",
+          "start": 17.66,
+          "end": 17.8,
+          "probability": 0.9989649057388306
+        },
+        {
+          "word": " myself",
+          "start": 17.8,
+          "end": 18.1,
+          "probability": 0.998185932636261
+        },
+        {
+          "word": " smaller",
+          "start": 18.1,
+          "end": 18.54,
+          "probability": 0.9986143112182617
+        },
+        {
+          "word": " in",
+          "start": 18.54,
+          "end": 18.78,
+          "probability": 0.9974946975708008
+        },
+        {
+          "word": " the",
+          "start": 18.78,
+          "end": 18.88,
+          "probability": 0.995612621307373
+        },
+        {
+          "word": " event,",
+          "start": 18.88,
+          "end": 19.22,
+          "probability": 0.9992175102233887
+        },
+        {
+          "word": " bring",
+          "start": 20.04,
+          "end": 20.16,
+          "probability": 0.9784755706787109
+        },
+        {
+          "word": " me",
+          "start": 20.16,
+          "end": 20.32,
+          "probability": 0.9985962510108948
+        },
+        {
+          "word": " back",
+          "start": 20.32,
+          "end": 20.52,
+          "probability": 0.9994962215423584
+        },
+        {
+          "word": " to",
+          "start": 20.52,
+          "end": 20.7,
+          "probability": 0.9983751773834229
+        },
+        {
+          "word": " the",
+          "start": 20.7,
+          "end": 20.84,
+          "probability": 0.9961916208267212
+        },
+        {
+          "word": " source.",
+          "start": 20.84,
+          "end": 21.12,
+          "probability": 0.9012920260429382
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "chance",
+      "to",
+      "give",
+      "the",
+      "statement",
+      "before",
+      "someone",
+      "gives",
+      "it",
+      "for",
+      "me",
+      "not",
+      "a",
+      "promise",
+      "about",
+      "what",
+      "follows",
+      "i",
+      "am",
+      "afraid",
+      "of",
+      "the",
+      "inquiry",
+      "i",
+      "am",
+      "more",
+      "afraid",
+      "of",
+      "discovering",
+      "i",
+      "can",
+      "still",
+      "make",
+      "fear",
+      "sound",
+      "like",
+      "an",
+      "instruction",
+      "i",
+      "was",
+      "obliged",
+      "to",
+      "obey",
+      "if",
+      "i",
+      "change",
+      "a",
+      "sentence",
+      "to",
+      "make",
+      "myself",
+      "smaller",
+      "in",
+      "the",
+      "event",
+      "bring",
+      "me",
+      "back",
+      "to",
+      "the",
+      "source"
+    ],
+    "observed_tokens": [
+      "a",
+      "chance",
+      "to",
+      "give",
+      "this",
+      "statement",
+      "before",
+      "someone",
+      "gives",
+      "it",
+      "for",
+      "me",
+      "not",
+      "a",
+      "promise",
+      "about",
+      "what",
+      "follows",
+      "i",
+      "am",
+      "afraid",
+      "of",
+      "the",
+      "inquiry",
+      "i",
+      "am",
+      "more",
+      "afraid",
+      "of",
+      "discovering",
+      "i",
+      "can",
+      "still",
+      "make",
+      "fear",
+      "sound",
+      "like",
+      "an",
+      "instruction",
+      "i",
+      "was",
+      "obliged",
+      "to",
+      "obey",
+      "if",
+      "i",
+      "change",
+      "a",
+      "sentence",
+      "to",
+      "make",
+      "myself",
+      "smaller",
+      "in",
+      "the",
+      "event",
+      "bring",
+      "me",
+      "back",
+      "to",
+      "the",
+      "source"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 4,
+        "observed_start": 0,
+        "observed_end": 4,
+        "expected": [
+          "a",
+          "chance",
+          "to",
+          "give"
+        ],
+        "observed": [
+          "a",
+          "chance",
+          "to",
+          "give"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 4,
+        "expected_end": 5,
+        "observed_start": 4,
+        "observed_end": 5,
+        "expected": [
+          "the"
+        ],
+        "observed": [
+          "this"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 5,
+        "expected_end": 62,
+        "observed_start": 5,
+        "observed_end": 62,
+        "expected": [
+          "statement",
+          "before",
+          "someone",
+          "gives",
+          "it",
+          "for",
+          "me",
+          "not",
+          "a",
+          "promise",
+          "about",
+          "what",
+          "follows",
+          "i",
+          "am",
+          "afraid",
+          "of",
+          "the",
+          "inquiry",
+          "i",
+          "am",
+          "more",
+          "afraid",
+          "of",
+          "discovering",
+          "i",
+          "can",
+          "still",
+          "make",
+          "fear",
+          "sound",
+          "like",
+          "an",
+          "instruction",
+          "i",
+          "was",
+          "obliged",
+          "to",
+          "obey",
+          "if",
+          "i",
+          "change",
+          "a",
+          "sentence",
+          "to",
+          "make",
+          "myself",
+          "smaller",
+          "in",
+          "the",
+          "event",
+          "bring",
+          "me",
+          "back",
+          "to",
+          "the",
+          "source"
+        ],
+        "observed": [
+          "statement",
+          "before",
+          "someone",
+          "gives",
+          "it",
+          "for",
+          "me",
+          "not",
+          "a",
+          "promise",
+          "about",
+          "what",
+          "follows",
+          "i",
+          "am",
+          "afraid",
+          "of",
+          "the",
+          "inquiry",
+          "i",
+          "am",
+          "more",
+          "afraid",
+          "of",
+          "discovering",
+          "i",
+          "can",
+          "still",
+          "make",
+          "fear",
+          "sound",
+          "like",
+          "an",
+          "instruction",
+          "i",
+          "was",
+          "obliged",
+          "to",
+          "obey",
+          "if",
+          "i",
+          "change",
+          "a",
+          "sentence",
+          "to",
+          "make",
+          "myself",
+          "smaller",
+          "in",
+          "the",
+          "event",
+          "bring",
+          "me",
+          "back",
+          "to",
+          "the",
+          "source"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "the"
+        ],
+        "observed": [
+          "this"
+        ],
+        "expected_start": 4,
+        "observed_start": 4
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 4:5."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

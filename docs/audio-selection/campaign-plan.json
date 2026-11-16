@@ -1,0 +1,1197 @@
+{
+  "schema_version": 1,
+  "selection_policy": "Owner-delegated routine selection. Retain all thirteen owner-selected opening masters. Choose by scene, source descriptions and objective analysis; listening refinement remains separate.",
+  "sources": {
+    "harbour_water": {
+      "prepared": "assets/audio/licensed-opening/harbour_water.ogg",
+      "role": "Preserve owner-selected opening recording: harbour water",
+      "kind": "bed"
+    },
+    "rain_on_the_office": {
+      "prepared": "assets/audio/licensed-opening/rain_on_the_office.ogg",
+      "role": "Preserve owner-selected opening recording: rain on the office",
+      "kind": "bed"
+    },
+    "moored_boat_and_ropes": {
+      "prepared": "assets/audio/licensed-opening/moored_boat_and_ropes.ogg",
+      "role": "Preserve owner-selected opening recording: moored boat and ropes",
+      "kind": "event"
+    },
+    "office_room_tone": {
+      "prepared": "assets/audio/licensed-opening/office_room_tone.ogg",
+      "role": "Preserve owner-selected opening recording: office room tone",
+      "kind": "bed"
+    },
+    "office_clock": {
+      "prepared": "assets/audio/licensed-opening/office_clock.ogg",
+      "role": "Preserve owner-selected opening recording: office clock",
+      "kind": "event"
+    },
+    "building_movement": {
+      "prepared": "assets/audio/licensed-opening/building_movement.ogg",
+      "role": "Preserve owner-selected opening recording: building movement",
+      "kind": "event"
+    },
+    "object_found": {
+      "prepared": "assets/audio/licensed-opening/object_found.ogg",
+      "role": "Preserve owner-selected opening recording: object found",
+      "kind": "event"
+    },
+    "symbol_understood": {
+      "prepared": "assets/audio/licensed-opening/symbol_understood.ogg",
+      "role": "Preserve owner-selected opening recording: symbol understood",
+      "kind": "event"
+    },
+    "receipt_recovered": {
+      "prepared": "assets/audio/licensed-opening/receipt_recovered.ogg",
+      "role": "Preserve owner-selected opening recording: receipt recovered",
+      "kind": "event"
+    },
+    "search_completed": {
+      "prepared": "assets/audio/licensed-opening/search_completed.ogg",
+      "role": "Preserve owner-selected opening recording: search completed",
+      "kind": "event"
+    },
+    "hint_revealed": {
+      "prepared": "assets/audio/licensed-opening/hint_revealed.ogg",
+      "role": "Preserve owner-selected opening recording: hint revealed",
+      "kind": "event"
+    },
+    "menu_interaction": {
+      "prepared": "assets/audio/licensed-opening/menu_interaction.ogg",
+      "role": "Preserve owner-selected opening recording: menu interaction",
+      "kind": "event"
+    },
+    "journal_updated": {
+      "prepared": "assets/audio/licensed-opening/journal_updated.ogg",
+      "role": "Preserve owner-selected opening recording: journal updated",
+      "kind": "event"
+    },
+    "wind_soft": {
+      "file": "wind_general_soft_low_loop_03.wav",
+      "kind": "bed",
+      "role": "Soft air across open stone and roof spaces"
+    },
+    "wind_high": {
+      "file": "wind_general_gusty_low_loop_02.wav",
+      "kind": "bed",
+      "role": "Exposed tower and roof wind, restrained in the mix"
+    },
+    "river": {
+      "file": "river_stream_flowing_water_loop_03_long_version.wav",
+      "kind": "bed",
+      "role": "Canal flow and sluice water"
+    },
+    "drips": {
+      "file": "water_dripping_running_01_loop.wav",
+      "kind": "bed",
+      "role": "Damp gallery trickles and pipes"
+    },
+    "marsh": {
+      "file": "ducks_birds_lake_ambience_low_wind_loop_01.wav",
+      "kind": "bed",
+      "role": "Distant wetland birds and reeds"
+    },
+    "birds": {
+      "file": "birds_small_calling_chirping_loop_02.wav",
+      "kind": "bed",
+      "role": "Small garden birds after the rain"
+    },
+    "fire": {
+      "file": "fire_burning_flames_crackle_loop_02.wav",
+      "kind": "bed",
+      "role": "Small hearth in occupied rooms"
+    },
+    "boiler": {
+      "file": "background_steam_boiler_room_machine_loop_01.wav",
+      "kind": "bed",
+      "role": "Distant steam machinery in the waterworks"
+    },
+    "factory": {
+      "file": "background_construction_factory_warehouse_machine_loop_01.wav",
+      "kind": "bed",
+      "role": "Low distant industrial background in the print shop and relay house"
+    },
+    "metal_creak": {
+      "file": "metal_low_creaking_ship_structure_03.wav",
+      "kind": "event",
+      "role": "Intermittent structural metal movement"
+    },
+    "gear_a": {
+      "file": "metal_small_gear_lever_winding_02.wav",
+      "kind": "event",
+      "role": "Clockwork and small mechanism movement"
+    },
+    "gear_b": {
+      "file": "metal_small_gear_lever_winding_03.wav",
+      "kind": "event",
+      "role": "A second small mechanical turn"
+    },
+    "lever": {
+      "file": "lever_turn_push_crank_handle_small_03.wav",
+      "kind": "event",
+      "role": "Manual control moving"
+    },
+    "lock_open": {
+      "file": "door_lock_open_01.wav",
+      "kind": "event",
+      "role": "An entry latch releasing"
+    },
+    "step_stone_a": {
+      "file": "footstep_concrete_walk_12.wav",
+      "kind": "event",
+      "role": "Step on civic or observatory stone"
+    },
+    "step_stone_b": {
+      "file": "footstep_concrete_walk_16.wav",
+      "kind": "event",
+      "role": "Alternative stone step"
+    },
+    "step_wood_a": {
+      "file": "footstep_wood_walk_01.wav",
+      "kind": "event",
+      "role": "Step on wooden boards"
+    },
+    "step_wood_b": {
+      "file": "footstep_wood_walk_02.wav",
+      "kind": "event",
+      "role": "Alternative wooden step"
+    },
+    "step_wet_a": {
+      "file": "footstep_water_walk_01.wav",
+      "kind": "event",
+      "role": "Wet quay arrival"
+    },
+    "step_wet_b": {
+      "file": "footstep_water_walk_02.wav",
+      "kind": "event",
+      "role": "Alternative wet arrival"
+    }
+  },
+  "rooms": {
+    "ch1_l1": {
+      "description": "Dispatch office: audible rain, quieter harbour, clock and gentle timber movement",
+      "beds": [
+        {
+          "source": "harbour_water",
+          "gain_db": -5.603999999999999
+        },
+        {
+          "source": "rain_on_the_office",
+          "gain_db": 8.396
+        },
+        {
+          "source": "office_room_tone",
+          "gain_db": -10.604
+        }
+      ],
+      "events": [
+        {
+          "source": "office_clock",
+          "peak_dbfs": -19.6,
+          "interval": [
+            1,
+            1
+          ],
+          "start": 1
+        },
+        {
+          "source": "moored_boat_and_ropes",
+          "peak_dbfs": -14.6,
+          "interval": [
+            13,
+            23
+          ]
+        },
+        {
+          "source": "building_movement",
+          "peak_dbfs": -18.6,
+          "interval": [
+            22,
+            39
+          ]
+        }
+      ]
+    },
+    "ch1_l2": {
+      "description": "Tide Office: rain on the window, clock, sheltered canal",
+      "beds": [
+        {
+          "source": "rain_on_the_office",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "harbour_water",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "office_clock",
+          "peak_dbfs": -25.0,
+          "interval": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "source": "building_movement",
+          "peak_dbfs": -29.0,
+          "interval": [
+            27.0,
+            42.0
+          ]
+        }
+      ]
+    },
+    "ch1_l3": {
+      "description": "Archive Vestibule: sheltered air and occasional old timber",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -34.0
+        },
+        {
+          "source": "rain_on_the_office",
+          "rms_dbfs": -38.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -30.0,
+          "interval": [
+            22.0,
+            38.0
+          ]
+        }
+      ]
+    },
+    "ch1_l4": {
+      "description": "Restoration Room: close quiet workspace, distant rainfall",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "rain_on_the_office",
+          "rms_dbfs": -34.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -33.0,
+          "interval": [
+            31.0,
+            47.0
+          ]
+        }
+      ]
+    },
+    "ch1_l5": {
+      "description": "Boarding House: small hearth, rain and inhabited timber",
+      "beds": [
+        {
+          "source": "fire",
+          "rms_dbfs": -30.0
+        },
+        {
+          "source": "rain_on_the_office",
+          "rms_dbfs": -31.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -38.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -29.0,
+          "interval": [
+            25.0,
+            40.0
+          ]
+        }
+      ]
+    },
+    "ch1_l6": {
+      "description": "Bell Tower: open high wind, faint harbour and clockwork",
+      "beds": [
+        {
+          "source": "wind_high",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "harbour_water",
+          "rms_dbfs": -37.0
+        }
+      ],
+      "events": [
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -29.0,
+          "interval": [
+            20.0,
+            34.0
+          ]
+        },
+        {
+          "source": "office_clock",
+          "peak_dbfs": -27.0,
+          "interval": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "ch2_l1": {
+      "description": "Pump Court: running water with distant steam machinery",
+      "beds": [
+        {
+          "source": "river",
+          "rms_dbfs": -27.0
+        },
+        {
+          "source": "boiler",
+          "rms_dbfs": -32.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -35.0
+        }
+      ],
+      "events": [
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -29.0,
+          "interval": [
+            22.0,
+            36.0
+          ]
+        }
+      ]
+    },
+    "ch2_l2": {
+      "description": "Sluice Gallery: close trickles beneath distant moving water",
+      "beds": [
+        {
+          "source": "drips",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "river",
+          "rms_dbfs": -32.0
+        },
+        {
+          "source": "boiler",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -31.0,
+          "interval": [
+            25.0,
+            43.0
+          ]
+        }
+      ]
+    },
+    "ch2_l3": {
+      "description": "Machine Room: restrained steam bed and sparse gear turns",
+      "beds": [
+        {
+          "source": "boiler",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "drips",
+          "rms_dbfs": -35.0
+        }
+      ],
+      "events": [
+        {
+          "source": "gear_a",
+          "peak_dbfs": -24.0,
+          "interval": [
+            18.0,
+            28.0
+          ]
+        },
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -28.0,
+          "interval": [
+            23.0,
+            38.0
+          ]
+        }
+      ]
+    },
+    "ch2_l4": {
+      "description": "Workers’ Kitchen: hearth and muffled waterworks outside",
+      "beds": [
+        {
+          "source": "fire",
+          "rms_dbfs": -29.0
+        },
+        {
+          "source": "boiler",
+          "rms_dbfs": -38.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -30.0,
+          "interval": [
+            28.0,
+            44.0
+          ]
+        }
+      ]
+    },
+    "ch2_l5": {
+      "description": "Lockkeeper’s Cabin: sheltered water, quiet clock and timber",
+      "beds": [
+        {
+          "source": "river",
+          "rms_dbfs": -33.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -35.0
+        }
+      ],
+      "events": [
+        {
+          "source": "office_clock",
+          "peak_dbfs": -28.0,
+          "interval": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "source": "building_movement",
+          "peak_dbfs": -30.0,
+          "interval": [
+            24.0,
+            41.0
+          ]
+        }
+      ]
+    },
+    "ch2_l6": {
+      "description": "Spillway Overlook: broad moving water and exposed wind",
+      "beds": [
+        {
+          "source": "river",
+          "rms_dbfs": -25.0
+        },
+        {
+          "source": "wind_high",
+          "rms_dbfs": -31.0
+        }
+      ],
+      "events": [
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -31.0,
+          "interval": [
+            27.0,
+            44.0
+          ]
+        }
+      ]
+    },
+    "ch3_l1": {
+      "description": "Observatory Steps: open hill wind with a distant city",
+      "beds": [
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -37.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -35.0,
+          "interval": [
+            33.0,
+            48.0
+          ]
+        }
+      ]
+    },
+    "ch3_l2": {
+      "description": "Transit Hall: sheltered high wind and a delicate clock",
+      "beds": [
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -35.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "office_clock",
+          "peak_dbfs": -29.0,
+          "interval": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -33.0,
+          "interval": [
+            31.0,
+            45.0
+          ]
+        }
+      ]
+    },
+    "ch3_l3": {
+      "description": "Plate Darkroom: damp hush, faint drips and old timber",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -38.0
+        },
+        {
+          "source": "drips",
+          "rms_dbfs": -34.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -33.0,
+          "interval": [
+            29.0,
+            46.0
+          ]
+        }
+      ]
+    },
+    "ch3_l4": {
+      "description": "Signal Loft: air through slats, intermittent mechanism",
+      "beds": [
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -31.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -39.0
+        }
+      ],
+      "events": [
+        {
+          "source": "gear_b",
+          "peak_dbfs": -28.0,
+          "interval": [
+            24.0,
+            38.0
+          ]
+        },
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -30.0,
+          "interval": [
+            29.0,
+            43.0
+          ]
+        }
+      ]
+    },
+    "ch3_l5": {
+      "description": "Clock Workshop: close restrained ticks and occasional gear work",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -37.0
+        }
+      ],
+      "events": [
+        {
+          "source": "office_clock",
+          "peak_dbfs": -23.0,
+          "interval": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "source": "gear_a",
+          "peak_dbfs": -28.0,
+          "interval": [
+            21.0,
+            33.0
+          ]
+        }
+      ]
+    },
+    "ch3_l6": {
+      "description": "Meridian Roof: exposed gusts with distant water below",
+      "beds": [
+        {
+          "source": "wind_high",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "harbour_water",
+          "rms_dbfs": -38.0
+        }
+      ],
+      "events": [
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -30.0,
+          "interval": [
+            26.0,
+            40.0
+          ]
+        }
+      ]
+    },
+    "ch4_l1": {
+      "description": "Reed Jetty: wetland birds, gentle water and landing timber",
+      "beds": [
+        {
+          "source": "marsh",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "harbour_water",
+          "rms_dbfs": -34.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -38.0
+        }
+      ],
+      "events": [
+        {
+          "source": "moored_boat_and_ropes",
+          "peak_dbfs": -27.0,
+          "interval": [
+            17.0,
+            29.0
+          ]
+        }
+      ]
+    },
+    "ch4_l2": {
+      "description": "Abandoned Clinic: sparse wind through shelter, fading rain",
+      "beds": [
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -35.0
+        },
+        {
+          "source": "rain_on_the_office",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -40.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -31.0,
+          "interval": [
+            30.0,
+            47.0
+          ]
+        }
+      ]
+    },
+    "ch4_l3": {
+      "description": "Glasshouse: birds outside the panes, drips among leaves",
+      "beds": [
+        {
+          "source": "birds",
+          "rms_dbfs": -33.0
+        },
+        {
+          "source": "drips",
+          "rms_dbfs": -31.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -37.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -33.0,
+          "interval": [
+            29.0,
+            46.0
+          ]
+        }
+      ]
+    },
+    "ch4_l4": {
+      "description": "Survey Hut: marsh outside and a sheltered wooden frame",
+      "beds": [
+        {
+          "source": "marsh",
+          "rms_dbfs": -34.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -29.0,
+          "interval": [
+            22.0,
+            39.0
+          ]
+        }
+      ]
+    },
+    "ch4_l5": {
+      "description": "Memorial Garden: soft air and unhurried garden birds",
+      "beds": [
+        {
+          "source": "birds",
+          "rms_dbfs": -30.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -33.0
+        }
+      ],
+      "events": []
+    },
+    "ch4_l6": {
+      "description": "Island Refuge: warm hearth, quiet rain and distant reeds",
+      "beds": [
+        {
+          "source": "fire",
+          "rms_dbfs": -30.0
+        },
+        {
+          "source": "rain_on_the_office",
+          "rms_dbfs": -34.0
+        },
+        {
+          "source": "marsh",
+          "rms_dbfs": -40.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -30.0,
+          "interval": [
+            29.0,
+            44.0
+          ]
+        }
+      ]
+    },
+    "ch5_l1": {
+      "description": "Civic Square: open civic air, birds and distant canal",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -30.0
+        },
+        {
+          "source": "birds",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "harbour_water",
+          "rms_dbfs": -38.0
+        }
+      ],
+      "events": []
+    },
+    "ch5_l2": {
+      "description": "Council Chamber: hushed hall, faint clock and timber",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -39.0
+        }
+      ],
+      "events": [
+        {
+          "source": "office_clock",
+          "peak_dbfs": -31.0,
+          "interval": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "source": "building_movement",
+          "peak_dbfs": -33.0,
+          "interval": [
+            31.0,
+            49.0
+          ]
+        }
+      ]
+    },
+    "ch5_l3": {
+      "description": "Deed Vault: still sheltered air, occasional structural creak",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -39.0
+        }
+      ],
+      "events": [
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -32.0,
+          "interval": [
+            31.0,
+            48.0
+          ]
+        }
+      ]
+    },
+    "ch5_l4": {
+      "description": "Print Shop: low workshop activity with intermittent gears",
+      "beds": [
+        {
+          "source": "factory",
+          "rms_dbfs": -35.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "gear_a",
+          "peak_dbfs": -27.0,
+          "interval": [
+            24.0,
+            39.0
+          ]
+        },
+        {
+          "source": "building_movement",
+          "peak_dbfs": -31.0,
+          "interval": [
+            27.0,
+            43.0
+          ]
+        }
+      ]
+    },
+    "ch5_l5": {
+      "description": "Counting Room: controlled hush, measured clock, distant rain",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -37.0
+        },
+        {
+          "source": "rain_on_the_office",
+          "rms_dbfs": -39.0
+        }
+      ],
+      "events": [
+        {
+          "source": "office_clock",
+          "peak_dbfs": -27.0,
+          "interval": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "ch5_l6": {
+      "description": "Dispatch Station: low machinery, sheltered canal, pipe movement",
+      "beds": [
+        {
+          "source": "factory",
+          "rms_dbfs": -37.0
+        },
+        {
+          "source": "harbour_water",
+          "rms_dbfs": -37.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "gear_b",
+          "peak_dbfs": -29.0,
+          "interval": [
+            22.0,
+            35.0
+          ]
+        },
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -32.0,
+          "interval": [
+            31.0,
+            44.0
+          ]
+        }
+      ]
+    },
+    "ch6_l1": {
+      "description": "Dawn Quay: calm harbour and birds; the rain has stopped",
+      "beds": [
+        {
+          "source": "harbour_water",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "birds",
+          "rms_dbfs": -34.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -36.0
+        }
+      ],
+      "events": [
+        {
+          "source": "moored_boat_and_ropes",
+          "peak_dbfs": -30.0,
+          "interval": [
+            24.0,
+            39.0
+          ]
+        }
+      ]
+    },
+    "ch6_l2": {
+      "description": "Witness Room: quiet room and morning birds through glass",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "birds",
+          "rms_dbfs": -38.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -33.0,
+          "interval": [
+            29.0,
+            47.0
+          ]
+        }
+      ]
+    },
+    "ch6_l3": {
+      "description": "Relay House: quiet working mechanism, clear morning air",
+      "beds": [
+        {
+          "source": "factory",
+          "rms_dbfs": -39.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -38.0
+        }
+      ],
+      "events": [
+        {
+          "source": "gear_b",
+          "peak_dbfs": -29.0,
+          "interval": [
+            27.0,
+            40.0
+          ]
+        }
+      ]
+    },
+    "ch6_l4": {
+      "description": "Gate Crown: high air, water below, resting metal structure",
+      "beds": [
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -28.0
+        },
+        {
+          "source": "river",
+          "rms_dbfs": -32.0
+        }
+      ],
+      "events": [
+        {
+          "source": "metal_creak",
+          "peak_dbfs": -28.0,
+          "interval": [
+            22.0,
+            37.0
+          ]
+        }
+      ]
+    },
+    "ch6_l5": {
+      "description": "Public Forum: morning civic air and distant birds",
+      "beds": [
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -32.0
+        },
+        {
+          "source": "birds",
+          "rms_dbfs": -37.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -39.0
+        }
+      ],
+      "events": []
+    },
+    "ch6_l6": {
+      "description": "Memory Room: open-window birds and a calm archive",
+      "beds": [
+        {
+          "source": "birds",
+          "rms_dbfs": -34.0
+        },
+        {
+          "source": "office_room_tone",
+          "rms_dbfs": -36.0
+        },
+        {
+          "source": "wind_soft",
+          "rms_dbfs": -40.0
+        }
+      ],
+      "events": [
+        {
+          "source": "building_movement",
+          "peak_dbfs": -34.0,
+          "interval": [
+            33.0,
+            49.0
+          ]
+        }
+      ]
+    }
+  },
+  "effects": {
+    "search_found": {
+      "opening": "object_found",
+      "description": "Owner-selected object found"
+    },
+    "search_symbol": {
+      "opening": "symbol_understood",
+      "description": "Owner-selected symbol understood"
+    },
+    "search_hint": {
+      "opening": "hint_revealed",
+      "description": "Owner-selected hint revealed"
+    },
+    "search_complete": {
+      "opening": "search_completed",
+      "description": "Owner-selected search completed"
+    },
+    "search_receipt": {
+      "opening": "receipt_recovered",
+      "description": "Owner-selected receipt recovered"
+    },
+    "search_journal": {
+      "opening": "journal_updated",
+      "description": "Owner-selected journal updated"
+    },
+    "search_menu": {
+      "opening": "menu_interaction",
+      "description": "Owner-selected menu interaction"
+    },
+    "campaign_mechanism": {
+      "sources": [
+        "gear_a",
+        "gear_b",
+        "lever"
+      ],
+      "gain_db": -15,
+      "description": "Physical mechanism engagement"
+    },
+    "campaign_door": {
+      "sources": [
+        "lock_open"
+      ],
+      "gain_db": -18,
+      "description": "Entry latch opening"
+    },
+    "campaign_steps_stone": {
+      "sources": [
+        "step_stone_a",
+        "step_stone_b"
+      ],
+      "gain_db": -18,
+      "description": "Arrival on stone"
+    },
+    "campaign_steps_wood": {
+      "sources": [
+        "step_wood_a",
+        "step_wood_b"
+      ],
+      "gain_db": -18,
+      "description": "Arrival on boards"
+    },
+    "campaign_steps_wet": {
+      "sources": [
+        "step_wet_a",
+        "step_wet_b"
+      ],
+      "gain_db": -20,
+      "description": "Arrival on wet quay"
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "line_id": "elian_council_q1",
+  "clip_id": "44eac7f2972a4ba3bb92fa53858e8e78",
+  "source_text_sha256": "bd8022a023e717d2b55aa972fdaabffa517d6fe76c19f0cdb00cf6c6e679eb2c",
+  "master": "work/gateway-voice/masters/44eac7f2972a4ba3bb92fa53858e8e78.wav",
+  "wav_sha256": "069ff9b2d7f84b6641724d79795de735013c300c6215e571313170b1fa59515a",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 187200,
+    "sample_count": 93600,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.9,
+    "peak": 0.390625,
+    "peak_dbfs": -8.164799306236992,
+    "rms": 0.06305330322006975,
+    "rms_dbfs": -24.005843135768444,
+    "dc_offset": 0.00012860616048177083,
+    "silence_fraction": 0.32677350427350427,
+    "leading_silence_seconds": 0.416125,
+    "tail_silence_seconds": 0.007666666666666666,
+    "active_span_seconds": 3.476208333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 8,
+    "source_words_per_active_minute": 138.08148245813805,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "not",
+      "speak",
+      "when",
+      "ada",
+      "challenged",
+      "the",
+      "time"
+    ],
+    "observed_tokens": [
+      "why",
+      "not",
+      "speak",
+      "when",
+      "ada",
+      "challenged",
+      "the",
+      "time"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "not",
+          "speak",
+          "when",
+          "ada",
+          "challenged",
+          "the",
+          "time"
+        ],
+        "observed": [
+          "why",
+          "not",
+          "speak",
+          "when",
+          "ada",
+          "challenged",
+          "the",
+          "time"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why not speak when Ada challenged the time?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.3,
+      "text": " Why not speak when Ada challenged the time?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.774820864200592
+        },
+        {
+          "word": " not",
+          "start": 0.58,
+          "end": 0.8,
+          "probability": 0.9836711883544922
+        },
+        {
+          "word": " speak",
+          "start": 0.8,
+          "end": 1.12,
+          "probability": 0.9936339855194092
+        },
+        {
+          "word": " when",
+          "start": 1.12,
+          "end": 1.56,
+          "probability": 0.8693643808364868
+        },
+        {
+          "word": " Ada",
+          "start": 1.56,
+          "end": 1.9,
+          "probability": 0.39282137155532837
+        },
+        {
+          "word": " challenged",
+          "start": 1.9,
+          "end": 2.66,
+          "probability": 0.9380912184715271
+        },
+        {
+          "word": " the",
+          "start": 2.66,
+          "end": 2.94,
+          "probability": 0.9959659576416016
+        },
+        {
+          "word": " time?",
+          "start": 2.94,
+          "end": 3.3,
+          "probability": 0.993160605430603
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "not",
+      "speak",
+      "when",
+      "ada",
+      "challenged",
+      "the",
+      "time"
+    ],
+    "observed_tokens": [
+      "why",
+      "not",
+      "speak",
+      "when",
+      "ada",
+      "challenged",
+      "the",
+      "time"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "not",
+          "speak",
+          "when",
+          "ada",
+          "challenged",
+          "the",
+          "time"
+        ],
+        "observed": [
+          "why",
+          "not",
+          "speak",
+          "when",
+          "ada",
+          "challenged",
+          "the",
+          "time"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

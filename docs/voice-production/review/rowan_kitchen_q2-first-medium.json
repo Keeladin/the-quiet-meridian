@@ -1,0 +1,295 @@
+{
+  "line_id": "rowan_kitchen_q2",
+  "clip_id": "d80ab4c25da345e092c065f27ec7e96e",
+  "source_text_sha256": "aa40cb53bca9ccdfd72fb79990ab5049b4cae97de7ffb5f167cd3c80ed8aeebd",
+  "master": "work/gateway-voice/masters/d80ab4c25da345e092c065f27ec7e96e.wav",
+  "wav_sha256": "15ac0a1b13ae14145a91dee25f65dfda561bf4dc5a1efd8ff218e0483a7d3c4a",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Source length versus active signal span is unusual; review pacing and completeness, without inferring a transcript from duration."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 115200,
+    "sample_count": 57600,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.4,
+    "peak": 0.1943359375,
+    "peak_dbfs": -14.228937604602105,
+    "rms": 0.035350070594264156,
+    "rms_dbfs": -29.032194291560156,
+    "dc_offset": 2.8122795952690972e-06,
+    "silence_fraction": 0.3796527777777778,
+    "leading_silence_seconds": 0.39908333333333335,
+    "tail_silence_seconds": 0.3115,
+    "active_span_seconds": 1.6894166666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 10,
+    "source_words_per_active_minute": 355.1521728407241,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "do",
+      "you",
+      "want",
+      "the",
+      "record",
+      "to",
+      "say",
+      "about",
+      "you"
+    ],
+    "observed_tokens": [
+      "what",
+      "do",
+      "you",
+      "want",
+      "the",
+      "record",
+      "to",
+      "say",
+      "about",
+      "you"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 10,
+        "observed_start": 0,
+        "observed_end": 10,
+        "expected": [
+          "what",
+          "do",
+          "you",
+          "want",
+          "the",
+          "record",
+          "to",
+          "say",
+          "about",
+          "you"
+        ],
+        "observed": [
+          "what",
+          "do",
+          "you",
+          "want",
+          "the",
+          "record",
+          "to",
+          "say",
+          "about",
+          "you"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "How do you want the record to say about you?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.92,
+      "text": " How do you want the record to say about you?",
+      "words": [
+        {
+          "word": " How",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.4654679298400879
+        },
+        {
+          "word": " do",
+          "start": 0.46,
+          "end": 0.56,
+          "probability": 0.9958339929580688
+        },
+        {
+          "word": " you",
+          "start": 0.56,
+          "end": 0.62,
+          "probability": 0.9963281750679016
+        },
+        {
+          "word": " want",
+          "start": 0.62,
+          "end": 0.78,
+          "probability": 0.997820258140564
+        },
+        {
+          "word": " the",
+          "start": 0.78,
+          "end": 0.9,
+          "probability": 0.9905065894126892
+        },
+        {
+          "word": " record",
+          "start": 0.9,
+          "end": 1.1,
+          "probability": 0.9972398281097412
+        },
+        {
+          "word": " to",
+          "start": 1.1,
+          "end": 1.28,
+          "probability": 0.9977770447731018
+        },
+        {
+          "word": " say",
+          "start": 1.28,
+          "end": 1.46,
+          "probability": 0.9902442693710327
+        },
+        {
+          "word": " about",
+          "start": 1.46,
+          "end": 1.66,
+          "probability": 0.9928624033927917
+        },
+        {
+          "word": " you?",
+          "start": 1.66,
+          "end": 1.92,
+          "probability": 0.9932520985603333
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "do",
+      "you",
+      "want",
+      "the",
+      "record",
+      "to",
+      "say",
+      "about",
+      "you"
+    ],
+    "observed_tokens": [
+      "how",
+      "do",
+      "you",
+      "want",
+      "the",
+      "record",
+      "to",
+      "say",
+      "about",
+      "you"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 1,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "what"
+        ],
+        "observed": [
+          "how"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 1,
+        "expected_end": 10,
+        "observed_start": 1,
+        "observed_end": 10,
+        "expected": [
+          "do",
+          "you",
+          "want",
+          "the",
+          "record",
+          "to",
+          "say",
+          "about",
+          "you"
+        ],
+        "observed": [
+          "do",
+          "you",
+          "want",
+          "the",
+          "record",
+          "to",
+          "say",
+          "about",
+          "you"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "what"
+        ],
+        "observed": [
+          "how"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:1."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

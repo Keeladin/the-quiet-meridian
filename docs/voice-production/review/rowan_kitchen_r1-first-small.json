@@ -1,0 +1,1168 @@
+{
+  "line_id": "rowan_kitchen_r1",
+  "clip_id": "46f6538778eb4c2a9530b93ea7c55b23",
+  "source_text_sha256": "49c4f0f6a07ad43d27118480a592060b60c872f202028dea40f46dd438a3c5b7",
+  "master": "work/gateway-voice/masters/46f6538778eb4c2a9530b93ea7c55b23.wav",
+  "wav_sha256": "c45fe53b3cdfd42e7cb0eb501b5fb3c004c554aaef89d682a872ce9969517ff2",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1081920,
+    "sample_count": 540960,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 22.54,
+    "peak": 0.60546875,
+    "peak_dbfs": -4.358165342831161,
+    "rms": 0.061407360961442684,
+    "rms_dbfs": -24.235591328536543,
+    "dc_offset": 0.0002679448549439307,
+    "silence_fraction": 0.259838065661047,
+    "leading_silence_seconds": 0.4055,
+    "tail_silence_seconds": 0.025791666666666668,
+    "active_span_seconds": 22.108708333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 67,
+    "source_words_per_active_minute": 181.8288042607645,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "it",
+      "meant",
+      "someone",
+      "above",
+      "me",
+      "had",
+      "taken",
+      "responsibility",
+      "that",
+      "is",
+      "the",
+      "comfortable",
+      "meaning",
+      "of",
+      "a",
+      "signature",
+      "when",
+      "you",
+      "are",
+      "tired",
+      "and",
+      "frightened",
+      "the",
+      "order",
+      "said",
+      "the",
+      "reach",
+      "was",
+      "empty",
+      "i",
+      "did",
+      "not",
+      "know",
+      "that",
+      "it",
+      "was",
+      "empty",
+      "i",
+      "treated",
+      "the",
+      "first",
+      "sentence",
+      "as",
+      "though",
+      "it",
+      "supplied",
+      "the",
+      "second",
+      "your",
+      "father",
+      "rang",
+      "the",
+      "little",
+      "bell",
+      "and",
+      "i",
+      "still",
+      "looked",
+      "at",
+      "the",
+      "seal",
+      "before",
+      "i",
+      "looked",
+      "at",
+      "the",
+      "stair"
+    ],
+    "observed_tokens": [
+      "it",
+      "meant",
+      "someone",
+      "above",
+      "me",
+      "had",
+      "taken",
+      "responsibility",
+      "that",
+      "is",
+      "the",
+      "comfortable",
+      "meaning",
+      "of",
+      "a",
+      "signature",
+      "when",
+      "you",
+      "are",
+      "tired",
+      "and",
+      "frightened",
+      "the",
+      "order",
+      "said",
+      "the",
+      "reach",
+      "was",
+      "empty",
+      "i",
+      "did",
+      "not",
+      "know",
+      "that",
+      "it",
+      "was",
+      "empty",
+      "i",
+      "treated",
+      "the",
+      "first",
+      "sentence",
+      "as",
+      "though",
+      "it",
+      "supplied",
+      "the",
+      "second",
+      "your",
+      "father",
+      "rang",
+      "the",
+      "little",
+      "bell",
+      "and",
+      "i",
+      "still",
+      "looked",
+      "at",
+      "the",
+      "seal",
+      "before",
+      "i",
+      "looked",
+      "at",
+      "the",
+      "stair"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 67,
+        "observed_start": 0,
+        "observed_end": 67,
+        "expected": [
+          "it",
+          "meant",
+          "someone",
+          "above",
+          "me",
+          "had",
+          "taken",
+          "responsibility",
+          "that",
+          "is",
+          "the",
+          "comfortable",
+          "meaning",
+          "of",
+          "a",
+          "signature",
+          "when",
+          "you",
+          "are",
+          "tired",
+          "and",
+          "frightened",
+          "the",
+          "order",
+          "said",
+          "the",
+          "reach",
+          "was",
+          "empty",
+          "i",
+          "did",
+          "not",
+          "know",
+          "that",
+          "it",
+          "was",
+          "empty",
+          "i",
+          "treated",
+          "the",
+          "first",
+          "sentence",
+          "as",
+          "though",
+          "it",
+          "supplied",
+          "the",
+          "second",
+          "your",
+          "father",
+          "rang",
+          "the",
+          "little",
+          "bell",
+          "and",
+          "i",
+          "still",
+          "looked",
+          "at",
+          "the",
+          "seal",
+          "before",
+          "i",
+          "looked",
+          "at",
+          "the",
+          "stair"
+        ],
+        "observed": [
+          "it",
+          "meant",
+          "someone",
+          "above",
+          "me",
+          "had",
+          "taken",
+          "responsibility",
+          "that",
+          "is",
+          "the",
+          "comfortable",
+          "meaning",
+          "of",
+          "a",
+          "signature",
+          "when",
+          "you",
+          "are",
+          "tired",
+          "and",
+          "frightened",
+          "the",
+          "order",
+          "said",
+          "the",
+          "reach",
+          "was",
+          "empty",
+          "i",
+          "did",
+          "not",
+          "know",
+          "that",
+          "it",
+          "was",
+          "empty",
+          "i",
+          "treated",
+          "the",
+          "first",
+          "sentence",
+          "as",
+          "though",
+          "it",
+          "supplied",
+          "the",
+          "second",
+          "your",
+          "father",
+          "rang",
+          "the",
+          "little",
+          "bell",
+          "and",
+          "i",
+          "still",
+          "looked",
+          "at",
+          "the",
+          "seal",
+          "before",
+          "i",
+          "looked",
+          "at",
+          "the",
+          "stair"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "It meant someone above me had taken responsibility. That is the comfortable meaning of a signature when you were tired and frightened. The order said the reach was empty. I did not know that it was empty. I treated the first sentence as though it supplied the second. Your father rang the little bell, and I still looked at the seal before I looked at the stare.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.2,
+      "text": " It meant someone above me had taken responsibility.",
+      "words": [
+        {
+          "word": " It",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.7983994483947754
+        },
+        {
+          "word": " meant",
+          "start": 0.54,
+          "end": 0.84,
+          "probability": 0.9939370155334473
+        },
+        {
+          "word": " someone",
+          "start": 0.84,
+          "end": 1.48,
+          "probability": 0.8976216912269592
+        },
+        {
+          "word": " above",
+          "start": 1.48,
+          "end": 1.92,
+          "probability": 0.9980158805847168
+        },
+        {
+          "word": " me",
+          "start": 1.92,
+          "end": 2.16,
+          "probability": 0.9951933026313782
+        },
+        {
+          "word": " had",
+          "start": 2.16,
+          "end": 2.3,
+          "probability": 0.994358479976654
+        },
+        {
+          "word": " taken",
+          "start": 2.3,
+          "end": 2.58,
+          "probability": 0.9976402521133423
+        },
+        {
+          "word": " responsibility.",
+          "start": 2.58,
+          "end": 3.2,
+          "probability": 0.9972164630889893
+        }
+      ]
+    },
+    {
+      "start": 4.06,
+      "end": 7.82,
+      "text": " That is the comfortable meaning of a signature when you were tired and frightened.",
+      "words": [
+        {
+          "word": " That",
+          "start": 4.06,
+          "end": 4.38,
+          "probability": 0.9722715020179749
+        },
+        {
+          "word": " is",
+          "start": 4.38,
+          "end": 4.64,
+          "probability": 0.9814842939376831
+        },
+        {
+          "word": " the",
+          "start": 4.64,
+          "end": 4.84,
+          "probability": 0.9927253723144531
+        },
+        {
+          "word": " comfortable",
+          "start": 4.84,
+          "end": 5.2,
+          "probability": 0.9943161606788635
+        },
+        {
+          "word": " meaning",
+          "start": 5.2,
+          "end": 5.46,
+          "probability": 0.9932696223258972
+        },
+        {
+          "word": " of",
+          "start": 5.46,
+          "end": 5.78,
+          "probability": 0.9983977675437927
+        },
+        {
+          "word": " a",
+          "start": 5.78,
+          "end": 5.9,
+          "probability": 0.9510553479194641
+        },
+        {
+          "word": " signature",
+          "start": 5.9,
+          "end": 6.22,
+          "probability": 0.9882491827011108
+        },
+        {
+          "word": " when",
+          "start": 6.22,
+          "end": 6.64,
+          "probability": 0.9393376111984253
+        },
+        {
+          "word": " you",
+          "start": 6.64,
+          "end": 6.78,
+          "probability": 0.9977631568908691
+        },
+        {
+          "word": " were",
+          "start": 6.78,
+          "end": 6.86,
+          "probability": 0.7420344948768616
+        },
+        {
+          "word": " tired",
+          "start": 6.86,
+          "end": 7.18,
+          "probability": 0.9661566615104675
+        },
+        {
+          "word": " and",
+          "start": 7.18,
+          "end": 7.5,
+          "probability": 0.9948368072509766
+        },
+        {
+          "word": " frightened.",
+          "start": 7.5,
+          "end": 7.82,
+          "probability": 0.9971773624420166
+        }
+      ]
+    },
+    {
+      "start": 9.1,
+      "end": 10.82,
+      "text": " The order said the reach was empty.",
+      "words": [
+        {
+          "word": " The",
+          "start": 9.1,
+          "end": 9.28,
+          "probability": 0.9826532602310181
+        },
+        {
+          "word": " order",
+          "start": 9.28,
+          "end": 9.42,
+          "probability": 0.9477287530899048
+        },
+        {
+          "word": " said",
+          "start": 9.42,
+          "end": 9.78,
+          "probability": 0.9975252747535706
+        },
+        {
+          "word": " the",
+          "start": 9.78,
+          "end": 10.04,
+          "probability": 0.9089574217796326
+        },
+        {
+          "word": " reach",
+          "start": 10.04,
+          "end": 10.22,
+          "probability": 0.9119303822517395
+        },
+        {
+          "word": " was",
+          "start": 10.22,
+          "end": 10.46,
+          "probability": 0.9986563920974731
+        },
+        {
+          "word": " empty.",
+          "start": 10.46,
+          "end": 10.82,
+          "probability": 0.9983904361724854
+        }
+      ]
+    },
+    {
+      "start": 11.38,
+      "end": 12.98,
+      "text": " I did not know that it was empty.",
+      "words": [
+        {
+          "word": " I",
+          "start": 11.38,
+          "end": 11.62,
+          "probability": 0.9953051805496216
+        },
+        {
+          "word": " did",
+          "start": 11.62,
+          "end": 11.7,
+          "probability": 0.9827105402946472
+        },
+        {
+          "word": " not",
+          "start": 11.7,
+          "end": 11.98,
+          "probability": 0.9945802092552185
+        },
+        {
+          "word": " know",
+          "start": 11.98,
+          "end": 12.22,
+          "probability": 0.9979438185691833
+        },
+        {
+          "word": " that",
+          "start": 12.22,
+          "end": 12.42,
+          "probability": 0.9733716249465942
+        },
+        {
+          "word": " it",
+          "start": 12.42,
+          "end": 12.52,
+          "probability": 0.9913581609725952
+        },
+        {
+          "word": " was",
+          "start": 12.52,
+          "end": 12.64,
+          "probability": 0.999198853969574
+        },
+        {
+          "word": " empty.",
+          "start": 12.64,
+          "end": 12.98,
+          "probability": 0.9990429282188416
+        }
+      ]
+    },
+    {
+      "start": 13.28,
+      "end": 15.96,
+      "text": " I treated the first sentence as though it supplied the second.",
+      "words": [
+        {
+          "word": " I",
+          "start": 13.28,
+          "end": 13.4,
+          "probability": 0.9653311371803284
+        },
+        {
+          "word": " treated",
+          "start": 13.4,
+          "end": 13.64,
+          "probability": 0.9953545331954956
+        },
+        {
+          "word": " the",
+          "start": 13.64,
+          "end": 13.88,
+          "probability": 0.9949570298194885
+        },
+        {
+          "word": " first",
+          "start": 13.88,
+          "end": 14.04,
+          "probability": 0.9958652257919312
+        },
+        {
+          "word": " sentence",
+          "start": 14.04,
+          "end": 14.48,
+          "probability": 0.9986693859100342
+        },
+        {
+          "word": " as",
+          "start": 14.48,
+          "end": 14.82,
+          "probability": 0.9401037693023682
+        },
+        {
+          "word": " though",
+          "start": 14.82,
+          "end": 14.98,
+          "probability": 0.9937644004821777
+        },
+        {
+          "word": " it",
+          "start": 14.98,
+          "end": 15.12,
+          "probability": 0.9903085827827454
+        },
+        {
+          "word": " supplied",
+          "start": 15.12,
+          "end": 15.5,
+          "probability": 0.9271247386932373
+        },
+        {
+          "word": " the",
+          "start": 15.5,
+          "end": 15.72,
+          "probability": 0.9819377660751343
+        },
+        {
+          "word": " second.",
+          "start": 15.72,
+          "end": 15.96,
+          "probability": 0.9979928731918335
+        }
+      ]
+    },
+    {
+      "start": 16.82,
+      "end": 21.8,
+      "text": " Your father rang the little bell, and I still looked at the seal before I looked at the",
+      "words": [
+        {
+          "word": " Your",
+          "start": 16.82,
+          "end": 16.96,
+          "probability": 0.9591807126998901
+        },
+        {
+          "word": " father",
+          "start": 16.96,
+          "end": 17.3,
+          "probability": 0.9841610789299011
+        },
+        {
+          "word": " rang",
+          "start": 17.3,
+          "end": 17.84,
+          "probability": 0.9970237612724304
+        },
+        {
+          "word": " the",
+          "start": 17.84,
+          "end": 18.04,
+          "probability": 0.9966822266578674
+        },
+        {
+          "word": " little",
+          "start": 18.04,
+          "end": 18.24,
+          "probability": 0.9920763969421387
+        },
+        {
+          "word": " bell,",
+          "start": 18.24,
+          "end": 18.52,
+          "probability": 0.997923731803894
+        },
+        {
+          "word": " and",
+          "start": 19.18,
+          "end": 19.32,
+          "probability": 0.9909577369689941
+        },
+        {
+          "word": " I",
+          "start": 19.32,
+          "end": 19.48,
+          "probability": 0.996674656867981
+        },
+        {
+          "word": " still",
+          "start": 19.48,
+          "end": 19.82,
+          "probability": 0.9991528987884521
+        },
+        {
+          "word": " looked",
+          "start": 19.82,
+          "end": 20.08,
+          "probability": 0.9965479969978333
+        },
+        {
+          "word": " at",
+          "start": 20.08,
+          "end": 20.24,
+          "probability": 0.9969152212142944
+        },
+        {
+          "word": " the",
+          "start": 20.24,
+          "end": 20.38,
+          "probability": 0.996910035610199
+        },
+        {
+          "word": " seal",
+          "start": 20.38,
+          "end": 20.64,
+          "probability": 0.995779275894165
+        },
+        {
+          "word": " before",
+          "start": 20.64,
+          "end": 21.1,
+          "probability": 0.9603933095932007
+        },
+        {
+          "word": " I",
+          "start": 21.1,
+          "end": 21.3,
+          "probability": 0.995414137840271
+        },
+        {
+          "word": " looked",
+          "start": 21.3,
+          "end": 21.48,
+          "probability": 0.9961104989051819
+        },
+        {
+          "word": " at",
+          "start": 21.48,
+          "end": 21.64,
+          "probability": 0.9959553480148315
+        },
+        {
+          "word": " the",
+          "start": 21.64,
+          "end": 21.8,
+          "probability": 0.9947023987770081
+        }
+      ]
+    },
+    {
+      "start": 21.8,
+      "end": 22.04,
+      "text": " stare.",
+      "words": [
+        {
+          "word": " stare.",
+          "start": 21.8,
+          "end": 22.04,
+          "probability": 0.8220710158348083
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "it",
+      "meant",
+      "someone",
+      "above",
+      "me",
+      "had",
+      "taken",
+      "responsibility",
+      "that",
+      "is",
+      "the",
+      "comfortable",
+      "meaning",
+      "of",
+      "a",
+      "signature",
+      "when",
+      "you",
+      "are",
+      "tired",
+      "and",
+      "frightened",
+      "the",
+      "order",
+      "said",
+      "the",
+      "reach",
+      "was",
+      "empty",
+      "i",
+      "did",
+      "not",
+      "know",
+      "that",
+      "it",
+      "was",
+      "empty",
+      "i",
+      "treated",
+      "the",
+      "first",
+      "sentence",
+      "as",
+      "though",
+      "it",
+      "supplied",
+      "the",
+      "second",
+      "your",
+      "father",
+      "rang",
+      "the",
+      "little",
+      "bell",
+      "and",
+      "i",
+      "still",
+      "looked",
+      "at",
+      "the",
+      "seal",
+      "before",
+      "i",
+      "looked",
+      "at",
+      "the",
+      "stair"
+    ],
+    "observed_tokens": [
+      "it",
+      "meant",
+      "someone",
+      "above",
+      "me",
+      "had",
+      "taken",
+      "responsibility",
+      "that",
+      "is",
+      "the",
+      "comfortable",
+      "meaning",
+      "of",
+      "a",
+      "signature",
+      "when",
+      "you",
+      "were",
+      "tired",
+      "and",
+      "frightened",
+      "the",
+      "order",
+      "said",
+      "the",
+      "reach",
+      "was",
+      "empty",
+      "i",
+      "did",
+      "not",
+      "know",
+      "that",
+      "it",
+      "was",
+      "empty",
+      "i",
+      "treated",
+      "the",
+      "first",
+      "sentence",
+      "as",
+      "though",
+      "it",
+      "supplied",
+      "the",
+      "second",
+      "your",
+      "father",
+      "rang",
+      "the",
+      "little",
+      "bell",
+      "and",
+      "i",
+      "still",
+      "looked",
+      "at",
+      "the",
+      "seal",
+      "before",
+      "i",
+      "looked",
+      "at",
+      "the",
+      "stare"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 18,
+        "observed_start": 0,
+        "observed_end": 18,
+        "expected": [
+          "it",
+          "meant",
+          "someone",
+          "above",
+          "me",
+          "had",
+          "taken",
+          "responsibility",
+          "that",
+          "is",
+          "the",
+          "comfortable",
+          "meaning",
+          "of",
+          "a",
+          "signature",
+          "when",
+          "you"
+        ],
+        "observed": [
+          "it",
+          "meant",
+          "someone",
+          "above",
+          "me",
+          "had",
+          "taken",
+          "responsibility",
+          "that",
+          "is",
+          "the",
+          "comfortable",
+          "meaning",
+          "of",
+          "a",
+          "signature",
+          "when",
+          "you"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 18,
+        "expected_end": 19,
+        "observed_start": 18,
+        "observed_end": 19,
+        "expected": [
+          "are"
+        ],
+        "observed": [
+          "were"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 19,
+        "expected_end": 66,
+        "observed_start": 19,
+        "observed_end": 66,
+        "expected": [
+          "tired",
+          "and",
+          "frightened",
+          "the",
+          "order",
+          "said",
+          "the",
+          "reach",
+          "was",
+          "empty",
+          "i",
+          "did",
+          "not",
+          "know",
+          "that",
+          "it",
+          "was",
+          "empty",
+          "i",
+          "treated",
+          "the",
+          "first",
+          "sentence",
+          "as",
+          "though",
+          "it",
+          "supplied",
+          "the",
+          "second",
+          "your",
+          "father",
+          "rang",
+          "the",
+          "little",
+          "bell",
+          "and",
+          "i",
+          "still",
+          "looked",
+          "at",
+          "the",
+          "seal",
+          "before",
+          "i",
+          "looked",
+          "at",
+          "the"
+        ],
+        "observed": [
+          "tired",
+          "and",
+          "frightened",
+          "the",
+          "order",
+          "said",
+          "the",
+          "reach",
+          "was",
+          "empty",
+          "i",
+          "did",
+          "not",
+          "know",
+          "that",
+          "it",
+          "was",
+          "empty",
+          "i",
+          "treated",
+          "the",
+          "first",
+          "sentence",
+          "as",
+          "though",
+          "it",
+          "supplied",
+          "the",
+          "second",
+          "your",
+          "father",
+          "rang",
+          "the",
+          "little",
+          "bell",
+          "and",
+          "i",
+          "still",
+          "looked",
+          "at",
+          "the",
+          "seal",
+          "before",
+          "i",
+          "looked",
+          "at",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 66,
+        "expected_end": 67,
+        "observed_start": 66,
+        "observed_end": 67,
+        "expected": [
+          "stair"
+        ],
+        "observed": [
+          "stare"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "are"
+        ],
+        "observed": [
+          "were"
+        ],
+        "expected_start": 18,
+        "observed_start": 18
+      },
+      {
+        "expected": [
+          "stair"
+        ],
+        "observed": [
+          "stare"
+        ],
+        "expected_start": 66,
+        "observed_start": 66
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 18:19.",
+      "Changed source words at expected tokens 66:67."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,570 @@
+{
+  "line_id": "ada_steps_greeting",
+  "clip_id": "66a019207b394c1ca088ce944bd1b691",
+  "source_text_sha256": "320df252399fd24fea0e91eabf653e4efe475d2f5a01408f41f53f5d93edcdae",
+  "master": "work/gateway-voice/masters/66a019207b394c1ca088ce944bd1b691.wav",
+  "wav_sha256": "cf7f433a61677ecd2aac04e8bb724dea9bfed24d1eec911d1644ed3186ee12f9",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 415680,
+    "sample_count": 207840,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 8.66,
+    "peak": 0.5390625,
+    "peak_dbfs": -5.367217578212261,
+    "rms": 0.06443924521537285,
+    "rms_dbfs": -23.816991103330245,
+    "dc_offset": 0.00011673164514507854,
+    "silence_fraction": 0.22474018475750576,
+    "leading_silence_seconds": 0.3945,
+    "tail_silence_seconds": 0.017166666666666667,
+    "active_span_seconds": 8.248333333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 23,
+    "source_words_per_active_minute": 167.30652657102445,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "ada",
+      "wipes",
+      "the",
+      "rain",
+      "from",
+      "the",
+      "calibration",
+      "plaque",
+      "with",
+      "her",
+      "sleeve",
+      "she",
+      "seems",
+      "more",
+      "offended",
+      "by",
+      "an",
+      "unread",
+      "label",
+      "than",
+      "by",
+      "the",
+      "weather"
+    ],
+    "observed_tokens": [
+      "ada",
+      "wipes",
+      "the",
+      "rain",
+      "from",
+      "the",
+      "calibration",
+      "plaque",
+      "with",
+      "her",
+      "sleeve",
+      "she",
+      "seems",
+      "more",
+      "offended",
+      "by",
+      "an",
+      "unread",
+      "label",
+      "than",
+      "by",
+      "the",
+      "weather"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 23,
+        "observed_start": 0,
+        "observed_end": 23,
+        "expected": [
+          "ada",
+          "wipes",
+          "the",
+          "rain",
+          "from",
+          "the",
+          "calibration",
+          "plaque",
+          "with",
+          "her",
+          "sleeve",
+          "she",
+          "seems",
+          "more",
+          "offended",
+          "by",
+          "an",
+          "unread",
+          "label",
+          "than",
+          "by",
+          "the",
+          "weather"
+        ],
+        "observed": [
+          "ada",
+          "wipes",
+          "the",
+          "rain",
+          "from",
+          "the",
+          "calibration",
+          "plaque",
+          "with",
+          "her",
+          "sleeve",
+          "she",
+          "seems",
+          "more",
+          "offended",
+          "by",
+          "an",
+          "unread",
+          "label",
+          "than",
+          "by",
+          "the",
+          "weather"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Ada wipes the ring from the calibration clock with her sleeve. She seems more offended by an on-red label than by the weather.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.84,
+      "text": " Ada wipes the ring from the calibration clock with her sleeve.",
+      "words": [
+        {
+          "word": " Ada",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.7940277457237244
+        },
+        {
+          "word": " wipes",
+          "start": 0.56,
+          "end": 0.92,
+          "probability": 0.9779276847839355
+        },
+        {
+          "word": " the",
+          "start": 0.92,
+          "end": 1.2,
+          "probability": 0.998723566532135
+        },
+        {
+          "word": " ring",
+          "start": 1.2,
+          "end": 1.44,
+          "probability": 0.611251711845398
+        },
+        {
+          "word": " from",
+          "start": 1.44,
+          "end": 1.78,
+          "probability": 0.9967247843742371
+        },
+        {
+          "word": " the",
+          "start": 1.78,
+          "end": 1.92,
+          "probability": 0.9972310662269592
+        },
+        {
+          "word": " calibration",
+          "start": 1.92,
+          "end": 2.4,
+          "probability": 0.9605342745780945
+        },
+        {
+          "word": " clock",
+          "start": 2.4,
+          "end": 3.0,
+          "probability": 0.619573175907135
+        },
+        {
+          "word": " with",
+          "start": 3.0,
+          "end": 3.36,
+          "probability": 0.9947195053100586
+        },
+        {
+          "word": " her",
+          "start": 3.36,
+          "end": 3.54,
+          "probability": 0.9996767044067383
+        },
+        {
+          "word": " sleeve.",
+          "start": 3.54,
+          "end": 3.84,
+          "probability": 0.9645317792892456
+        }
+      ]
+    },
+    {
+      "start": 4.52,
+      "end": 8.12,
+      "text": " She seems more offended by an on-red label than by the weather.",
+      "words": [
+        {
+          "word": " She",
+          "start": 4.52,
+          "end": 4.6,
+          "probability": 0.9937870502471924
+        },
+        {
+          "word": " seems",
+          "start": 4.6,
+          "end": 4.84,
+          "probability": 0.9979879856109619
+        },
+        {
+          "word": " more",
+          "start": 4.84,
+          "end": 5.16,
+          "probability": 0.9987496137619019
+        },
+        {
+          "word": " offended",
+          "start": 5.16,
+          "end": 5.62,
+          "probability": 0.9977612495422363
+        },
+        {
+          "word": " by",
+          "start": 5.62,
+          "end": 5.94,
+          "probability": 0.9991182684898376
+        },
+        {
+          "word": " an",
+          "start": 5.94,
+          "end": 6.06,
+          "probability": 0.9912689924240112
+        },
+        {
+          "word": " on",
+          "start": 6.06,
+          "end": 6.3,
+          "probability": 0.7672128081321716
+        },
+        {
+          "word": "-red",
+          "start": 6.3,
+          "end": 6.54,
+          "probability": 0.8155384659767151
+        },
+        {
+          "word": " label",
+          "start": 6.54,
+          "end": 6.98,
+          "probability": 0.9957361221313477
+        },
+        {
+          "word": " than",
+          "start": 6.98,
+          "end": 7.6,
+          "probability": 0.8928084969520569
+        },
+        {
+          "word": " by",
+          "start": 7.6,
+          "end": 7.8,
+          "probability": 0.9976038336753845
+        },
+        {
+          "word": " the",
+          "start": 7.8,
+          "end": 7.9,
+          "probability": 0.9979655742645264
+        },
+        {
+          "word": " weather.",
+          "start": 7.9,
+          "end": 8.12,
+          "probability": 0.9995738863945007
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "ada",
+      "wipes",
+      "the",
+      "rain",
+      "from",
+      "the",
+      "calibration",
+      "plaque",
+      "with",
+      "her",
+      "sleeve",
+      "she",
+      "seems",
+      "more",
+      "offended",
+      "by",
+      "an",
+      "unread",
+      "label",
+      "than",
+      "by",
+      "the",
+      "weather"
+    ],
+    "observed_tokens": [
+      "ada",
+      "wipes",
+      "the",
+      "ring",
+      "from",
+      "the",
+      "calibration",
+      "clock",
+      "with",
+      "her",
+      "sleeve",
+      "she",
+      "seems",
+      "more",
+      "offended",
+      "by",
+      "an",
+      "on",
+      "red",
+      "label",
+      "than",
+      "by",
+      "the",
+      "weather"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 3,
+        "observed_start": 0,
+        "observed_end": 3,
+        "expected": [
+          "ada",
+          "wipes",
+          "the"
+        ],
+        "observed": [
+          "ada",
+          "wipes",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 3,
+        "expected_end": 4,
+        "observed_start": 3,
+        "observed_end": 4,
+        "expected": [
+          "rain"
+        ],
+        "observed": [
+          "ring"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 4,
+        "expected_end": 7,
+        "observed_start": 4,
+        "observed_end": 7,
+        "expected": [
+          "from",
+          "the",
+          "calibration"
+        ],
+        "observed": [
+          "from",
+          "the",
+          "calibration"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 7,
+        "expected_end": 8,
+        "observed_start": 7,
+        "observed_end": 8,
+        "expected": [
+          "plaque"
+        ],
+        "observed": [
+          "clock"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 8,
+        "expected_end": 17,
+        "observed_start": 8,
+        "observed_end": 17,
+        "expected": [
+          "with",
+          "her",
+          "sleeve",
+          "she",
+          "seems",
+          "more",
+          "offended",
+          "by",
+          "an"
+        ],
+        "observed": [
+          "with",
+          "her",
+          "sleeve",
+          "she",
+          "seems",
+          "more",
+          "offended",
+          "by",
+          "an"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 17,
+        "expected_end": 18,
+        "observed_start": 17,
+        "observed_end": 19,
+        "expected": [
+          "unread"
+        ],
+        "observed": [
+          "on",
+          "red"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 18,
+        "expected_end": 23,
+        "observed_start": 19,
+        "observed_end": 24,
+        "expected": [
+          "label",
+          "than",
+          "by",
+          "the",
+          "weather"
+        ],
+        "observed": [
+          "label",
+          "than",
+          "by",
+          "the",
+          "weather"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "rain"
+        ],
+        "observed": [
+          "ring"
+        ],
+        "expected_start": 3,
+        "observed_start": 3
+      },
+      {
+        "expected": [
+          "plaque"
+        ],
+        "observed": [
+          "clock"
+        ],
+        "expected_start": 7,
+        "observed_start": 7
+      },
+      {
+        "expected": [
+          "unread"
+        ],
+        "observed": [
+          "on",
+          "red"
+        ],
+        "expected_start": 17,
+        "observed_start": 17
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 3:4.",
+      "Changed source words at expected tokens 7:8.",
+      "Changed source words at expected tokens 17:18."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

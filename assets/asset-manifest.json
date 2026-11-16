@@ -1,0 +1,1267 @@
+{
+  "assets": [
+    {
+      "id": "setup-key",
+      "path": "assets/art/setup-key.png",
+      "purpose": "setup pipeline fixture only",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/ARTWORK_WORKFLOW.md",
+      "external_references": [],
+      "review_status": "Generated; original visual inspected. Not selected as final game art.",
+      "sha256": "9fa249f256dda0e12ead2f64c8773b37e988e4aa0b9839bbed714ed20a12a259"
+    },
+    {
+      "id": "ch1_l1",
+      "path": "assets/art/locations/ch1_l1.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-47952f76-53e6-4bfd-be1b-e0f6ede4ec40.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "d2a4e101e5ffd4c5ff406c2276ee8d791d50e381cc6c6bbfb4858ef6a78efc43"
+    },
+    {
+      "id": "ch1_l2",
+      "path": "assets/art/locations/ch1_l2.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-83d31498-be1f-4262-854f-3b4fe3f399f7.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "74c15ddb36a7d5f7dc6ca8857a196399435d927666d3fc6a8f6f46d59246539a"
+    },
+    {
+      "id": "ch1_l3",
+      "path": "assets/art/locations/ch1_l3.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-1d76e3d7-d1df-42e8-8c92-4d414c1fdeee.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "59d7f134282138f63db7f570d014cb04635cb7ff666011dfcdfd7e6ae20918e9"
+    },
+    {
+      "id": "ch1_l4",
+      "path": "assets/art/locations/ch1_l4.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-b08ef992-2333-4c28-a4ba-4caca45eb36c.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "090242391d44367ad0078428459b249f6a03a7f02b155a24d4ac61342730edf3"
+    },
+    {
+      "id": "ch1_l5",
+      "path": "assets/art/locations/ch1_l5.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-f834dd4a-2046-4b90-898e-2bff446af444.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "aa1ccf587a615f7e46784f4913c362b8d7d41d85731254331625db65e92fcbef"
+    },
+    {
+      "id": "ch1_l6",
+      "path": "assets/art/locations/ch1_l6.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-e891786a-85bd-4668-b716-56e9a1611d05.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "51411cbdbd899b2463e20ce5ae5f16ea47e97a0f47d4bec5cc2f07229ab4e65d"
+    },
+    {
+      "id": "ch2_l1",
+      "path": "assets/art/locations/ch2_l1.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-1ffd0bda-276b-4e64-8450-ef6192f6dcbd.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "8af7afb525e42e40c8ff2fa467d9cb0efb7f77f495323f06e4fbfd6ba02dd1c5"
+    },
+    {
+      "id": "ch2_l2",
+      "path": "assets/art/locations/ch2_l2.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-1becbcf0-2a1b-472d-ad6e-5bf0d6e952af.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "c63121a521c8bfae89d677f016c2af1e4023de17f364687f68626766017b108a"
+    },
+    {
+      "id": "ch2_l3",
+      "path": "assets/art/locations/ch2_l3.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-0c6d8825-84d9-465a-98fc-352477651928.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "3371e427dd32364c23cb73f4c6b0c697f118c9e707a84e5adb04dcfd27291691"
+    },
+    {
+      "id": "ch2_l4",
+      "path": "assets/art/locations/ch2_l4.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-166e8dda-9875-4ef9-8947-f43c6b3ad6a9.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "4506ba3f990c62a09332c35f9a5fdbf335f5d41a9f17ba26e6f6359717343acc"
+    },
+    {
+      "id": "ch2_l5",
+      "path": "assets/art/locations/ch2_l5.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-effa49d2-0fc6-4253-b72a-54c65433eae9.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "fa3b6620541eaaaf0d0387dc232ac95c7470b9b2fbc69ea6a586d600fde64d04"
+    },
+    {
+      "id": "ch2_l6",
+      "path": "assets/art/locations/ch2_l6.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-55e41867-25c0-47a9-bff1-22fe5bba3bc6.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "9fd88cb751137793e6ec5ad0bb2f4efb201059db2a9d43af68e7010d8dab1174"
+    },
+    {
+      "id": "ch3_l1",
+      "path": "assets/art/locations/ch3_l1.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-73631e67-ac80-4f40-ae61-5bef90b4d48a.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "3e68c0cbed9ee302d1ec2fbd9da73b5d5dd3b7ee34529d49b4b5059b807ae272"
+    },
+    {
+      "id": "ch3_l2",
+      "path": "assets/art/locations/ch3_l2.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-6c7e3b00-cbcd-4403-963c-fe7f14a2a48b.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "7d0d0f4e45ffb4adfc7d162193f52c48696924c3e4f812dc33ec4f26f84f6195"
+    },
+    {
+      "id": "ch3_l3",
+      "path": "assets/art/locations/ch3_l3.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-524278dd-a217-4609-a587-0abb8b43782e.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "3a9946ced8e98e6e339b1deafb5e347cbba3638e771cf497ec222e04839297ee"
+    },
+    {
+      "id": "ch3_l4",
+      "path": "assets/art/locations/ch3_l4.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-ce43789d-2958-490f-8af1-677072cf297b.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "e4b963854bef1cce036f19ade76d1ec06829df2ca4772237b74d57ff762fa514"
+    },
+    {
+      "id": "ch3_l5",
+      "path": "assets/art/locations/ch3_l5.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-0d5ad10d-2b74-4535-9a53-d0cc8f39a097.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "ba2f9fda540b51adf8f52e1256c909149dec8c1f8a43dbf34e2e2ffebdd0542c"
+    },
+    {
+      "id": "ch3_l6",
+      "path": "assets/art/locations/ch3_l6.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-ffaa23c0-9374-454b-b34d-59329ae4ff17.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "bd1afb2932a5c3069448ebf13a4ba4c9b0c38bf577585f6f395881a64b28c91e"
+    },
+    {
+      "id": "cast",
+      "path": "assets/art/portraits/cast.png",
+      "purpose": "Nine original character portraits in 3\u00d73 atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/cast.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-76afcbed-2114-48f5-8c0b-7ef4d0f05007.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "63d37aad99ece04a73e2d2c29630a10cdcb56694ff9fab31e470e19137bc8a9a"
+    },
+    {
+      "id": "inventory-atlas",
+      "path": "assets/art/inventory-atlas.png",
+      "purpose": "36 original inventory icons in 6\u00d76 transparent atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/inventory-atlas.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-b3b165cd-75ce-4043-97c2-57be0a02ecaf.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "65d504ad2431c9e043b2d88e2f1f70e35d31bd43c217ed1d88b92d6e12ead211"
+    },
+    {
+      "id": "ch4_l1",
+      "path": "assets/art/locations/ch4_l1.png",
+      "purpose": "Original environment background: Reed Jetty",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l1.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-56d840b5-db66-4209-90c7-7da954575d14.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "a7ec3880d209c23ff962deb0f013935a7cec0fe1a2b0842a56bb66b5f6a93448"
+    },
+    {
+      "id": "ch4_l2",
+      "path": "assets/art/locations/ch4_l2.png",
+      "purpose": "Original environment background: Abandoned Clinic",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l2.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-ddbd4939-2017-417c-9f7e-5f383af40ede.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "3fa2b4232a0f4866b30c3088866b8da6504bc7c2b3392a72aeba8a1f1ced8ee2"
+    },
+    {
+      "id": "ch4_l3",
+      "path": "assets/art/locations/ch4_l3.png",
+      "purpose": "Original environment background: Glasshouse",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l3.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-94ae167a-0ed5-472a-8312-511142f779df.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "186c54989a149e6f0fcb874a253cab50132da55769fb32cfc2556842a20211b9"
+    },
+    {
+      "id": "ch4_l4",
+      "path": "assets/art/locations/ch4_l4.png",
+      "purpose": "Original environment background: Survey Hut",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l4.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-a39490fa-303a-4b41-a917-31057f13cfea.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "fac3b94c51cd827d14996f3914bd46ced12272c721a9879c02a406f03daab325"
+    },
+    {
+      "id": "ch4_l5",
+      "path": "assets/art/locations/ch4_l5.png",
+      "purpose": "Original environment background: Memorial Garden",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l5.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-a41a2561-7e0f-4f09-be28-83b2e0179d06.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "df450ad86113a9900a3ffdf1963cf1305da803f93763690e206c8d46b1b282be"
+    },
+    {
+      "id": "ch4_l6",
+      "path": "assets/art/locations/ch4_l6.png",
+      "purpose": "Original environment background: Island Refuge",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch4_l6.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-93c30bef-60c4-4c44-95a2-d2a582691f8b.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "3383190494a88be529ed9a9b9a592ac8a929974f203b35dc1d0e7bfb32344af2"
+    },
+    {
+      "id": "ch5_l1",
+      "path": "assets/art/locations/ch5_l1.png",
+      "purpose": "Original environment background: Civic Square",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l1.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-f10e36e8-cc73-4690-84c0-58fa94755682.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "fac41e2a12eabd9f02a14e1e1ee45dab2b45575499d1315c478840fb569b4cc7"
+    },
+    {
+      "id": "ch5_l2",
+      "path": "assets/art/locations/ch5_l2.png",
+      "purpose": "Original environment background: Council Chamber",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l2.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-f7b98aff-5b9a-4094-ab60-22fe2c497555.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "d3e143b51f4866d13f239495c39a5c10bd6606665517153a57a0aea2c31df3c3"
+    },
+    {
+      "id": "ch5_l3",
+      "path": "assets/art/locations/ch5_l3.png",
+      "purpose": "Original environment background: Deed Vault",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l3.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-7d58cd4a-0ed8-4d8b-acdd-972d152e645a.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "c5506eb1fc4ace2040961ace1dc6b79547bfd7a94caccbeb70a30aeca2f28c2a"
+    },
+    {
+      "id": "ch5_l4",
+      "path": "assets/art/locations/ch5_l4.png",
+      "purpose": "Original environment background: Print Shop",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l4.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-57df4293-33f2-4536-a1c6-4704f423db23.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "68cbde5eec74d73f8efd89c041574e574bcea8b4214031b66a3aae99e7fa2b4a"
+    },
+    {
+      "id": "ch5_l5",
+      "path": "assets/art/locations/ch5_l5.png",
+      "purpose": "Original environment background: Counting Room",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l5.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-925a192c-5108-45dd-a390-67fe3c7d1173.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "ed1ba3505d391f64908a60f83de1ce8c962b7bc8e78c004efaa4b0d8c8107d59"
+    },
+    {
+      "id": "ch5_l6",
+      "path": "assets/art/locations/ch5_l6.png",
+      "purpose": "Original environment background: Dispatch Station",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch5_l6.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-011d8bef-e5d9-45e1-8bfb-fc3f65490eb0.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "7403514b1d82d39a1d10ebc961ea099ee1853c621dad73bfd4bd88bc49ecc577"
+    },
+    {
+      "id": "ch6_l1",
+      "path": "assets/art/locations/ch6_l1.png",
+      "purpose": "Original environment background: Dawn Quay",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l1.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-8a8037ec-e3e5-4c65-aa17-d884c2e5e940.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "945fb6703578435d9865a34c4e20463f7b44bf062865ab1e8f1b52bcee1012e7"
+    },
+    {
+      "id": "ch6_l2",
+      "path": "assets/art/locations/ch6_l2.png",
+      "purpose": "Original environment background: Witness Room",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l2.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-7c8e7ced-4263-4d59-bf66-e6fd89ea4d1c.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "24fcfabef0a39ce5374cf03ecfd18026c7e9aae1c7c0c14765347d6250aa1954"
+    },
+    {
+      "id": "ch6_l3",
+      "path": "assets/art/locations/ch6_l3.png",
+      "purpose": "Original environment background: Relay House",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l3.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-69c49780-a0ac-4ae3-991f-167c5fc4fc59.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "47ea2e31a365a3f09722f1a39e828684c315da9bf231cef4d2d03be214682d1d"
+    },
+    {
+      "id": "ch6_l4",
+      "path": "assets/art/locations/ch6_l4.png",
+      "purpose": "Original environment background: Gate Crown",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l4.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-bb1038fb-891b-4285-83ba-84b29c0da2de.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "32643db4081ff3f5620e464152471fe4c45aed2d3de3e145dcfd9116e802e113"
+    },
+    {
+      "id": "ch6_l5",
+      "path": "assets/art/locations/ch6_l5.png",
+      "purpose": "Original environment background: Public Forum",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l5.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-3a5ffd20-81cb-4f5d-93a8-a6e8258a9983.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "4187d40b52ccacfee64edcbfccf5257e1d839a3fad1b2b4ffdf5dfb1b1303791"
+    },
+    {
+      "id": "ch6_l6",
+      "path": "assets/art/locations/ch6_l6.png",
+      "purpose": "Original environment background: Memory Room",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch6_l6.txt",
+      "source_file": "/home/jaco/.codex/generated_images/01a1d96d-f369-7892-8a05-55d59ebc019d/exec-136c395f-717a-4119-b19b-9096c29412f0.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "licensing": "Original generated artwork created for this project without external reference images. Included for distribution with The Quiet Meridian; no third-party source asset.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6a484e95b29b47012cc10496513b4f686b4671e2a168b70bb2e9f20414096eb3"
+    },
+    {
+      "id": "evidence-atlas",
+      "path": "assets/art/evidence-atlas.png",
+      "purpose": "Fifteen original hidden-evidence sprites in 3x5 atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/evidence-atlas.txt",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "6f057e68d60f9fde84e9e7ff5623f21d77199826e98d4252ba808c178fa25104",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-18458bb8-ac6e-40c5-9dae-88194b51251e.png"
+    },
+    {
+      "id": "meridian-icon",
+      "path": "assets/art/meridian-icon.png",
+      "purpose": "Original application icon",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/meridian-icon.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-23e13847-07b4-45cf-a371-d6c35d80dc55.png",
+      "external_references": [],
+      "review_status": "Selected and integrated. Resource and representative in-engine review passed; remaining environmental correspondence work is recorded in docs/ART_REVIEW_CH*.md.",
+      "sha256": "87dd7b8a47069255c8f448052b33c37fed8b4f7340f49f84f4b10054e252cd2e"
+    },
+    {
+      "id": "ada-expressions",
+      "path": "assets/art/characters/ada-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/ada-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "ffc64b5fa175f2aae7987b4de867ac31f090227d175db4203595316948ebbf4a",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "elian-expressions",
+      "path": "assets/art/characters/elian-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/elian-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "8467f11bcc28e1c46d55df51b01c3bfe032f2c3dd546687af966e9add2da138c",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "iona-expressions",
+      "path": "assets/art/characters/iona-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/iona-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "695c11409a4bbb29dd7ed2f1ea9ce2e4fb139c9463b1f217e7bfb148d8d9e8c1",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "mara-expressions",
+      "path": "assets/art/characters/mara-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/mara-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "b16ef6aab2958e13b3fe26aa8475eedce26f0fa689c60013be11a9aab926fb10",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "nadi-expressions",
+      "path": "assets/art/characters/nadi-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/nadi-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "1304da2a318f3fa52f0dac970e8bed7675180f763858cfa1218ce63bc5a50c3f",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "rowan-expressions",
+      "path": "assets/art/characters/rowan-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/rowan-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "f8d8b788ec8a9e4a4d2b4caaeb2c5c61bf9d8acc87c2f000df98002e71903bc6",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "sera-expressions",
+      "path": "assets/art/characters/sera-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/sera-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "740bd51044f98e86897ea9794cc065e432fcb0fd2819bcb09a9aff7008f9390e",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "search-dispatch-office",
+      "path": "assets/art/searches/dispatch-office.png",
+      "purpose": "Original 16-object dispatch office search; opening design review",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/hidden-object-dispatch.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-00732c64-2ccd-4d35-8031-b398e7f0e145.png",
+      "external_references": [],
+      "review_status": "All sixteen search objects identified and polygon hits exercised. Full game conversion pending.",
+      "sha256": "7b664324a3c8d05eeb780a26af32f8a2a7c889ae3ee510af66fe5ddabc2ea499"
+    },
+    {
+      "id": "search-dispatch-office-v2",
+      "path": "assets/art/searches/dispatch-office-v2.png",
+      "purpose": "More concealed search with seventeen word clues, including alternate valid symbol matches",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/hidden-object-dispatch-v2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-9b5cfc3e-feb4-40b7-921f-c7707ef3e5a6.png",
+      "external_references": [],
+      "review_status": "All primary and alternative matches visually identified; independent click observations recorded. Player difficulty review remains open.",
+      "sha256": "c76242c61761b3b4ff7ad0f00007e37e9531081a91d43b5b2c333c7721f4cfd3"
+    },
+    {
+      "id": "search-ch1_l2",
+      "path": "assets/art/searches/ch1_l2.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch1_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-6b398d58-06b9-47e5-8433-54150753e16b.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "5367030acab42f70c7b1039c3b613e25147f42039478cf5973aea9f41399bb5f",
+      "internal_reference": "assets/art/locations/ch1_l2.png"
+    },
+    {
+      "id": "search-ch1_l3",
+      "path": "assets/art/searches/ch1_l3.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch1_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-dee16dbc-247f-487a-aaaa-f8d1f73658b8.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "e639156225117735a5ae6cebfd379a4e7a696d1fc598ded3fcb54a3c90940c48"
+    },
+    {
+      "id": "search-ch1_l4",
+      "path": "assets/art/searches/ch1_l4.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch1_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-466e4811-3ea6-424d-97c1-fe76a2b0e95e.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "abcd4de988dc5fd4597b4d5348dac88b7464d189d107a4ec10167d8d00118099"
+    },
+    {
+      "id": "search-ch1_l5",
+      "path": "assets/art/searches/ch1_l5.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch1_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-b9d27383-0541-4e67-ae1d-a51ac1ca8867.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "5a4e81229ce18f6c6e7271b119fbfda5ffaa4a656a77e443bd31f855885c2b4a"
+    },
+    {
+      "id": "search-ch1_l6",
+      "path": "assets/art/searches/ch1_l6.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch1_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-5d35ec36-a6f6-4caa-b575-e2e4d0196bd3.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "6cb4fa904d870a6a504b5b81181f602ce45a53676734a3455fee47cf35e440f7"
+    },
+    {
+      "id": "search-ch2_l1",
+      "path": "assets/art/searches/ch2_l1.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch2_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-9524ea7c-72be-4f3a-942d-6d111f036d86.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "8bfcade22c203fb8b27bea6620a6a1a28836a24619e9005474877e1bf7cc7741"
+    },
+    {
+      "id": "search-ch2_l2",
+      "path": "assets/art/searches/ch2_l2.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch2_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-8e14ee7b-acfd-4b69-8bc7-8c08948a7694.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "725c7de6f6da723293997a983c015f267c87529360a9e31d7f7a45fadda92d06"
+    },
+    {
+      "id": "search-ch2_l3",
+      "path": "assets/art/searches/ch2_l3.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch2_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-435d03a2-2db0-4874-a43b-4b8bff2699c8.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "81d727427f325e63310a77b559257da7408ed70f5aab59f6f808a4e5b2d7c512"
+    },
+    {
+      "id": "search-ch2_l4",
+      "path": "assets/art/searches/ch2_l4.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch2_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-2320a99f-dbd1-47b5-a10a-d30d3b2c9801.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "0436ccf464d57297a7bd44ffe89dec2de13dc4a7b27561dca9c667bf93374c26"
+    },
+    {
+      "id": "search-ch2_l5",
+      "path": "assets/art/searches/ch2_l5.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch2_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-f0944cbd-946b-47be-9170-dd0212b6f75d.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "1534f807d8c8e85f2d42c42da42797f8675deb72edd6ca505ecfb36145816d7f"
+    },
+    {
+      "id": "search-ch2_l6",
+      "path": "assets/art/searches/ch2_l6.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch2_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-9e7f50da-3e72-43a8-b3cf-8c8e9e66db56.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "e6e9b372c65bfb8f922602d2814da81ebb50e02418c56b34e8970634eda0e452"
+    },
+    {
+      "id": "search-ch3_l1",
+      "path": "assets/art/searches/ch3_l1.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch3_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-f7ad066d-cddd-432d-8583-103ba0b23fba.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "037f60c1152131ce74b3b1b4faf8ed721ec25b41003fc1a24925782657fd2974"
+    },
+    {
+      "id": "search-ch3_l2",
+      "path": "assets/art/searches/ch3_l2.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch3_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-41179074-db5b-4a38-90cd-139eb734fb31.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "248348b56888b128a008bccbd4d5d0d6945a5361734dd6a781934d7f3fc05fe0"
+    },
+    {
+      "id": "search-ch3_l3",
+      "path": "assets/art/searches/ch3_l3.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch3_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-2ae6d183-aa04-4a54-8b56-2349a7e4525f.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "1cffdd8b6cdf192fbcf52e82cb446ece199bf748280c0be2e11bdaadfbd1f4fb"
+    },
+    {
+      "id": "search-ch3_l4",
+      "path": "assets/art/searches/ch3_l4.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch3_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-770878eb-b04d-4e5d-b8cc-64a597201be7.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "d44a6a2b6cf3f7b03fed65920770f18e76f10c77cfce35b2b496c18fec32b26f"
+    },
+    {
+      "id": "search-ch3_l5",
+      "path": "assets/art/searches/ch3_l5.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch3_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-be63ae10-91f9-4248-87e5-ed177a4a4232.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "dcf3b4519975939bdfb6b5c32bd030597baacdb2692c3bd44ca14c5fd00245dd"
+    },
+    {
+      "id": "search-ch3_l6",
+      "path": "assets/art/searches/ch3_l6.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch3_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-c1e26272-3696-4191-a0ac-97f834830c9e.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "0e8c1cff8dfaa44aeff1e7fce54d2762f3e25f29da847c03ca48ae6c8cd83bf9"
+    },
+    {
+      "id": "search-ch4_l1",
+      "path": "assets/art/searches/ch4_l1.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch4_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-79cae04e-8ebf-44c3-a55f-74c8d4d4ffc9.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "55da83746f349625e36d5285af786150e6ac2b519ca58c8c290c5331fd28ce0e"
+    },
+    {
+      "id": "search-ch4_l2",
+      "path": "assets/art/searches/ch4_l2.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch4_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-4ef81f62-0889-419a-8581-6dccfc8961d6.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "f1b1193659d1ce106a9a82668a93dfdd994adb6810e111dcbcf2910f41758be1"
+    },
+    {
+      "id": "search-ch4_l3",
+      "path": "assets/art/searches/ch4_l3.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch4_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-d4bf2162-398e-4c98-bff2-e3df63979dac.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "466c0d275f2fff1f5f6b06e372f5f9011a4ec70769b0459af36c32533053e3d9"
+    },
+    {
+      "id": "search-ch4_l4",
+      "path": "assets/art/searches/ch4_l4.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch4_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-a4fc4e8c-839e-4926-ac1e-28c9b497bbb1.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "bd710384125050c900934ea79e76d5c10c2ddf3a5a3181dfedb77401bb4c6ab5"
+    },
+    {
+      "id": "search-ch4_l5",
+      "path": "assets/art/searches/ch4_l5.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch4_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-745b76d9-fc28-4290-8607-d886804bb904.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "d50be68520b78358945655b8ba71106469ae2fca6301286e820cffc2447853be"
+    },
+    {
+      "id": "search-ch4_l6",
+      "path": "assets/art/searches/ch4_l6.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch4_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-a660a2aa-7171-4da2-8195-434e994478be.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "026473e4483a6bce96e37df087c89bd7ed0df7dd861723d8d30d32c555475b38"
+    },
+    {
+      "id": "search-ch5_l1",
+      "path": "assets/art/searches/ch5_l1.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch5_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-4d4c370f-52d5-4931-b4c7-6a53f6a1e7e1.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "302e57e377198904b21ce75228eea72aeaab96eb9d9dcb081af301b558322bc4"
+    },
+    {
+      "id": "search-ch5_l2",
+      "path": "assets/art/searches/ch5_l2.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch5_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-d8e3c08b-9273-432d-9c9a-15082e354719.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "70f903eb7874ea570ce6594303ed540cef7efaf1db2e9d10fb1efab10519800e"
+    },
+    {
+      "id": "search-ch5_l3",
+      "path": "assets/art/searches/ch5_l3.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch5_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-d5c8439b-e37d-4cce-a1e2-3b37c3a41990.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "78f059124c042daeb2add4600a762aa3ec9978300a1f72e0754a21f14a41b3aa"
+    },
+    {
+      "id": "search-ch5_l4",
+      "path": "assets/art/searches/ch5_l4.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch5_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-f295cefc-54b3-40c4-a5d1-04085b8b74cf.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "7753be9e9c817397a798955f1d8f3a29b5c7e08c9a1a1520399f9034eb340c6d"
+    },
+    {
+      "id": "search-ch5_l5",
+      "path": "assets/art/searches/ch5_l5.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch5_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-5f8937ac-25ac-41c5-a74f-b5c550a11552.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "2fb5abd1d4a06d24c351e1238acd810aeb51df8937870e10a6d30c52effef744"
+    },
+    {
+      "id": "search-ch5_l6",
+      "path": "assets/art/searches/ch5_l6.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch5_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-9448ebe5-fef1-49fa-83ab-ddaba92ab4f6.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "d3645b33a7ea1a8fe57651d1a92c0782233523e8b45e9f6b06f048933e2cd1dc"
+    },
+    {
+      "id": "search-ch6_l1",
+      "path": "assets/art/searches/ch6_l1.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch6_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-ece63d3f-bd3d-4607-a8b5-4dfbf588d9e7.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "50fc23d990bf54b98bc8fb16667826da2e4f00224d4b4ec229d2b29f90d20c52"
+    },
+    {
+      "id": "search-ch6_l2",
+      "path": "assets/art/searches/ch6_l2.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch6_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-271c1ce4-588a-42bd-82a1-7388a421346a.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "ab8b417e39d2054c062616f073edff8e816ddccff0ac70d768713da9b3f71a91"
+    },
+    {
+      "id": "search-ch6_l3",
+      "path": "assets/art/searches/ch6_l3.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch6_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-8df7dbad-a47a-4522-9dd5-32af7c160287.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "83d62bc1698dcba040ea94a559a7d2c097900c470c6411c5a016db3b323d42f3"
+    },
+    {
+      "id": "search-ch6_l4",
+      "path": "assets/art/searches/ch6_l4.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch6_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-cb67689e-629c-4958-8472-9189d8bfaf63.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "d65f6d92c21b1e086194ae39ad70ab41a9c8031cdbeafc4ba7022b3f3643ead8"
+    },
+    {
+      "id": "search-ch6_l5",
+      "path": "assets/art/searches/ch6_l5.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch6_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-e56427ff-dd98-4480-8d75-a527a6ce13cc.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "87f0db769ece59b2caae3d13e0e5f586d42f080bd38fece77e82f8cfc97afaa1"
+    },
+    {
+      "id": "search-ch6_l6",
+      "path": "assets/art/searches/ch6_l6.png",
+      "purpose": "Original concealed-object campaign search illustration",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/campaign-search/ch6_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-b8ab0dd8-657e-40de-a710-bbfb410f1d90.png",
+      "external_references": [],
+      "review_status": "Generated and visually inspected; visible target interiors and alternate matches checked in 36-room campaign tests. Difficulty and artistic acceptance remain subject to playtesting.",
+      "sha256": "5acd21046beb07d632932018070a2553c6ba8f34a769f2f8fb09aabc4d7a7c47"
+    }
+  ],
+  "audio_manifest": "assets/audio/manifest.json",
+  "fonts": [
+    {
+      "path": "assets/fonts/body.ttf",
+      "source": "DejaVu Sans",
+      "license": "assets/fonts/LICENSE.txt"
+    },
+    {
+      "path": "assets/fonts/display.ttf",
+      "source": "DejaVu Serif",
+      "license": "assets/fonts/LICENSE.txt"
+    }
+  ],
+  "distribution_notes": "Generated original artwork for this project; no external artist references. Provider-generated output does not imply exclusive copyright. See docs/LICENSES.md.",
+  "review_evidence": [
+    "docs/ART_REVIEW_CH1.md",
+    "docs/ART_REVIEW_CH2_CH3.md",
+    "docs/ART_REVIEW_CH4_6.md",
+    "docs/QA_REPORT.md"
+  ]
+}

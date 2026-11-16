@@ -1,0 +1,418 @@
+{
+  "line_id": "elian_machine_greeting",
+  "clip_id": "1f857f15ca074699a3ca37c5dae24b0f",
+  "source_text_sha256": "e6d8a7dcfdc6e62bfa75179817af7f2bf360a02700ff924e4e4031dce028aab3",
+  "master": "work/gateway-voice/masters/1f857f15ca074699a3ca37c5dae24b0f.wav",
+  "wav_sha256": "8c73b923ecdb549dc790e11d734218fa6b3df078181906e2d70d5e0b66fc85be",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 553920,
+    "sample_count": 276960,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 11.54,
+    "peak": 0.46875,
+    "peak_dbfs": -6.581174385284495,
+    "rms": 0.037506729425610646,
+    "rms_dbfs": -28.51781609066564,
+    "dc_offset": 0.0002073231768153569,
+    "silence_fraction": 0.43517475447718085,
+    "leading_silence_seconds": 0.40020833333333333,
+    "tail_silence_seconds": 0.02420833333333333,
+    "active_span_seconds": 11.115583333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 20,
+    "source_words_per_active_minute": 107.95654748963543,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "elian",
+      "ash",
+      "checks",
+      "that",
+      "you",
+      "used",
+      "the",
+      "disconnected",
+      "socket",
+      "only",
+      "after",
+      "that",
+      "does",
+      "he",
+      "look",
+      "at",
+      "the",
+      "reconstructed",
+      "pressure",
+      "roll"
+    ],
+    "observed_tokens": [
+      "elian",
+      "ash",
+      "checks",
+      "that",
+      "you",
+      "used",
+      "the",
+      "disconnected",
+      "socket",
+      "only",
+      "after",
+      "that",
+      "does",
+      "he",
+      "look",
+      "at",
+      "the",
+      "reconstructed",
+      "pressure",
+      "roll"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 20,
+        "observed_start": 0,
+        "observed_end": 20,
+        "expected": [
+          "elian",
+          "ash",
+          "checks",
+          "that",
+          "you",
+          "used",
+          "the",
+          "disconnected",
+          "socket",
+          "only",
+          "after",
+          "that",
+          "does",
+          "he",
+          "look",
+          "at",
+          "the",
+          "reconstructed",
+          "pressure",
+          "roll"
+        ],
+        "observed": [
+          "elian",
+          "ash",
+          "checks",
+          "that",
+          "you",
+          "used",
+          "the",
+          "disconnected",
+          "socket",
+          "only",
+          "after",
+          "that",
+          "does",
+          "he",
+          "look",
+          "at",
+          "the",
+          "reconstructed",
+          "pressure",
+          "roll"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Elian Ash checks that you used the disconnected socket. Only after that does he look at the reconstructed pressure roll.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.78,
+      "text": " Elian Ash checks that you used the disconnected socket.",
+      "words": [
+        {
+          "word": " Elian",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.502354234457016
+        },
+        {
+          "word": " Ash",
+          "start": 0.76,
+          "end": 1.16,
+          "probability": 0.5160932540893555
+        },
+        {
+          "word": " checks",
+          "start": 1.16,
+          "end": 1.64,
+          "probability": 0.9946728348731995
+        },
+        {
+          "word": " that",
+          "start": 1.64,
+          "end": 1.96,
+          "probability": 0.9956024885177612
+        },
+        {
+          "word": " you",
+          "start": 1.96,
+          "end": 2.16,
+          "probability": 0.9968000650405884
+        },
+        {
+          "word": " used",
+          "start": 2.16,
+          "end": 2.46,
+          "probability": 0.6085383892059326
+        },
+        {
+          "word": " the",
+          "start": 2.46,
+          "end": 2.7,
+          "probability": 0.9943600296974182
+        },
+        {
+          "word": " disconnected",
+          "start": 2.7,
+          "end": 3.26,
+          "probability": 0.9860348701477051
+        },
+        {
+          "word": " socket.",
+          "start": 3.26,
+          "end": 3.78,
+          "probability": 0.9968936443328857
+        }
+      ]
+    },
+    {
+      "start": 4.54,
+      "end": 8.12,
+      "text": " Only after that does he look at the reconstructed pressure roll.",
+      "words": [
+        {
+          "word": " Only",
+          "start": 4.54,
+          "end": 4.8,
+          "probability": 0.994615375995636
+        },
+        {
+          "word": " after",
+          "start": 4.8,
+          "end": 5.18,
+          "probability": 0.9975554347038269
+        },
+        {
+          "word": " that",
+          "start": 5.18,
+          "end": 5.58,
+          "probability": 0.9984017014503479
+        },
+        {
+          "word": " does",
+          "start": 5.58,
+          "end": 6.0,
+          "probability": 0.8076241612434387
+        },
+        {
+          "word": " he",
+          "start": 6.0,
+          "end": 6.18,
+          "probability": 0.9985973238945007
+        },
+        {
+          "word": " look",
+          "start": 6.18,
+          "end": 6.38,
+          "probability": 0.9837783575057983
+        },
+        {
+          "word": " at",
+          "start": 6.38,
+          "end": 6.54,
+          "probability": 0.9984543323516846
+        },
+        {
+          "word": " the",
+          "start": 6.54,
+          "end": 6.66,
+          "probability": 0.998187243938446
+        },
+        {
+          "word": " reconstructed",
+          "start": 6.66,
+          "end": 7.3,
+          "probability": 0.9898383617401123
+        },
+        {
+          "word": " pressure",
+          "start": 7.3,
+          "end": 7.74,
+          "probability": 0.9932505488395691
+        },
+        {
+          "word": " roll.",
+          "start": 7.74,
+          "end": 8.12,
+          "probability": 0.7329050302505493
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "elian",
+      "ash",
+      "checks",
+      "that",
+      "you",
+      "used",
+      "the",
+      "disconnected",
+      "socket",
+      "only",
+      "after",
+      "that",
+      "does",
+      "he",
+      "look",
+      "at",
+      "the",
+      "reconstructed",
+      "pressure",
+      "roll"
+    ],
+    "observed_tokens": [
+      "elian",
+      "ash",
+      "checks",
+      "that",
+      "you",
+      "used",
+      "the",
+      "disconnected",
+      "socket",
+      "only",
+      "after",
+      "that",
+      "does",
+      "he",
+      "look",
+      "at",
+      "the",
+      "reconstructed",
+      "pressure",
+      "roll"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 20,
+        "observed_start": 0,
+        "observed_end": 20,
+        "expected": [
+          "elian",
+          "ash",
+          "checks",
+          "that",
+          "you",
+          "used",
+          "the",
+          "disconnected",
+          "socket",
+          "only",
+          "after",
+          "that",
+          "does",
+          "he",
+          "look",
+          "at",
+          "the",
+          "reconstructed",
+          "pressure",
+          "roll"
+        ],
+        "observed": [
+          "elian",
+          "ash",
+          "checks",
+          "that",
+          "you",
+          "used",
+          "the",
+          "disconnected",
+          "socket",
+          "only",
+          "after",
+          "that",
+          "does",
+          "he",
+          "look",
+          "at",
+          "the",
+          "reconstructed",
+          "pressure",
+          "roll"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

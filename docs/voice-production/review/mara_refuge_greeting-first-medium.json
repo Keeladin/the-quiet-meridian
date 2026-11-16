@@ -1,0 +1,354 @@
+{
+  "line_id": "mara_refuge_greeting",
+  "clip_id": "f82eb43518e2423dafa417bff3cf09ea",
+  "source_text_sha256": "6957c1ab83b0a742248095a35ee32dde0c2e0ef7701e613438cbcaf13118d48e",
+  "master": "work/gateway-voice/masters/f82eb43518e2423dafa417bff3cf09ea.wav",
+  "wav_sha256": "6b5249ff38adb6778ed61861cddb74409af3d3a458837d3879234c3dafd7563f",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 273600,
+    "sample_count": 136800,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 5.7,
+    "peak": 0.34765625,
+    "peak_dbfs": -9.176999173338736,
+    "rms": 0.03627170281747303,
+    "rms_dbfs": -28.808641109580705,
+    "dc_offset": 0.00012899119951571638,
+    "silence_fraction": 0.39651315789473685,
+    "leading_silence_seconds": 0.39345833333333335,
+    "tail_silence_seconds": 0.333625,
+    "active_span_seconds": 4.972916666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 12,
+    "source_words_per_active_minute": 144.78424801005445,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "sets",
+      "down",
+      "the",
+      "kettle",
+      "neither",
+      "of",
+      "you",
+      "reaches",
+      "for",
+      "it",
+      "immediately"
+    ],
+    "observed_tokens": [
+      "mara",
+      "sets",
+      "down",
+      "the",
+      "kettle",
+      "neither",
+      "of",
+      "you",
+      "reaches",
+      "for",
+      "it",
+      "immediately"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 12,
+        "observed_start": 0,
+        "observed_end": 12,
+        "expected": [
+          "mara",
+          "sets",
+          "down",
+          "the",
+          "kettle",
+          "neither",
+          "of",
+          "you",
+          "reaches",
+          "for",
+          "it",
+          "immediately"
+        ],
+        "observed": [
+          "mara",
+          "sets",
+          "down",
+          "the",
+          "kettle",
+          "neither",
+          "of",
+          "you",
+          "reaches",
+          "for",
+          "it",
+          "immediately"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Farah sets down the kettle. Neither of you reaches for him immediately.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 5.18,
+      "text": " Farah sets down the kettle. Neither of you reaches for him immediately.",
+      "words": [
+        {
+          "word": " Farah",
+          "start": 0.0,
+          "end": 0.84,
+          "probability": 0.4162627011537552
+        },
+        {
+          "word": " sets",
+          "start": 0.84,
+          "end": 1.22,
+          "probability": 0.5555402040481567
+        },
+        {
+          "word": " down",
+          "start": 1.22,
+          "end": 1.52,
+          "probability": 0.7676669955253601
+        },
+        {
+          "word": " the",
+          "start": 1.52,
+          "end": 1.68,
+          "probability": 0.9966617822647095
+        },
+        {
+          "word": " kettle.",
+          "start": 1.68,
+          "end": 2.02,
+          "probability": 0.9400754570960999
+        },
+        {
+          "word": " Neither",
+          "start": 3.22,
+          "end": 3.74,
+          "probability": 0.9694885015487671
+        },
+        {
+          "word": " of",
+          "start": 3.74,
+          "end": 3.92,
+          "probability": 0.991441547870636
+        },
+        {
+          "word": " you",
+          "start": 3.92,
+          "end": 4.02,
+          "probability": 0.9951340556144714
+        },
+        {
+          "word": " reaches",
+          "start": 4.02,
+          "end": 4.3,
+          "probability": 0.9970036149024963
+        },
+        {
+          "word": " for",
+          "start": 4.3,
+          "end": 4.56,
+          "probability": 0.9900335669517517
+        },
+        {
+          "word": " him",
+          "start": 4.56,
+          "end": 4.7,
+          "probability": 0.7250881791114807
+        },
+        {
+          "word": " immediately.",
+          "start": 4.7,
+          "end": 5.18,
+          "probability": 0.9934357404708862
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "sets",
+      "down",
+      "the",
+      "kettle",
+      "neither",
+      "of",
+      "you",
+      "reaches",
+      "for",
+      "it",
+      "immediately"
+    ],
+    "observed_tokens": [
+      "farah",
+      "sets",
+      "down",
+      "the",
+      "kettle",
+      "neither",
+      "of",
+      "you",
+      "reaches",
+      "for",
+      "him",
+      "immediately"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 1,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "mara"
+        ],
+        "observed": [
+          "farah"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 1,
+        "expected_end": 10,
+        "observed_start": 1,
+        "observed_end": 10,
+        "expected": [
+          "sets",
+          "down",
+          "the",
+          "kettle",
+          "neither",
+          "of",
+          "you",
+          "reaches",
+          "for"
+        ],
+        "observed": [
+          "sets",
+          "down",
+          "the",
+          "kettle",
+          "neither",
+          "of",
+          "you",
+          "reaches",
+          "for"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 10,
+        "expected_end": 11,
+        "observed_start": 10,
+        "observed_end": 11,
+        "expected": [
+          "it"
+        ],
+        "observed": [
+          "him"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 11,
+        "expected_end": 12,
+        "observed_start": 11,
+        "observed_end": 12,
+        "expected": [
+          "immediately"
+        ],
+        "observed": [
+          "immediately"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "mara"
+        ],
+        "observed": [
+          "farah"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      },
+      {
+        "expected": [
+          "it"
+        ],
+        "observed": [
+          "him"
+        ],
+        "expected_start": 10,
+        "observed_start": 10
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:1.",
+      "Changed source words at expected tokens 10:11."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

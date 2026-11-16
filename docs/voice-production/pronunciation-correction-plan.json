@@ -1,0 +1,40 @@
+{
+  "reason": "Owner requested phonetics for mispronounced names; use connected IPA/stress directions while retaining normal story spelling.",
+  "pending": [
+    {
+      "line_id": "ch2_closing",
+      "attempt": "retake2",
+      "text": "The East Reach did not flood through Tomas’s sluice. A council bypass opened above it. Rowan admits obeying the closure order; Elian’s initials appear on the coupling record. Only the observatory can fix the opening time independently.",
+      "voice": "willow",
+      "direction": "Iona narrates a consequential discovery with quiet clarity and growing resolve. Keep every script word. Pronunciation reference only, spoken as connected natural names without syllable gaps: Tomas /ˈtoʊməs/ (TOH-muhs), Rowan /ˈroʊən/ (ROH-uhn), Elian /ˈɛliən/ (ELL-ee-uhn), sluice /sluːs/ (slooss). Possessives retain the final s sound. Do not read or spell the pronunciation guide. Keep ordinary name spelling in the transcript. Complete each consonant naturally; no added words."
+    },
+    {
+      "line_id": "ch3_intro",
+      "attempt": "retake2",
+      "text": "Ada Flint opens the observatory before you knock. “Mara told me you might come. She asked for a time, not an alibi.” The great clock has not rung since the flood. Its silence preserved a disagreement nobody wanted measured.",
+      "voice": "willow",
+      "direction": "Iona is quietly surprised by Ada's welcome, then unsettled by the silent clock. Preserve every script word without contractions or substitutions. Pronunciation reference only: Ada /ˈeɪdə/ (AY-duh), Mara /ˈmɑːrə/ (MAH-ruh). Speak these as connected natural names, without syllable gaps; do not spell or read the guide. In 'The great clock', give great its final t /ɡreɪt/. Clear but conversational, with natural breaths. Keep normal name spelling in the transcript."
+    },
+    {
+      "line_id": "ch3_closing",
+      "attempt": "retake2",
+      "text": "The bypass was open by 00:14. The evacuation return was dispatched at 00:22. It certified a task complete about eight minutes after water entered occupied homes. Mara followed a signal bearing toward the old island clinic; your search now has a destination.",
+      "voice": "willow",
+      "direction": "Iona quietly puts the timeline together, with controlled urgency as its meaning becomes clear. Preserve every script word. Say 00:14 as 'zero zero fourteen' and 00:22 as 'zero zero twenty-two'. Keep the word 'open' /ˈoʊpən/ in the first sentence unchanged. Mara is /ˈmɑːrə/ (MAH-ruh), a connected name without syllable gaps. The pronunciation guide is direction only, never additional speech. Natural connected delivery with complete consonants."
+    },
+    {
+      "line_id": "ch5_intro",
+      "attempt": "retake2",
+      "text": "Leth is already preparing for tomorrow’s public sitting. A notice declares the damaged flood records redundant and schedules their destruction after the hearing. Sera Quill pulls a clean sheet into her press. “Then we had better make the hearing useful.”",
+      "voice": "willow",
+      "direction": "Iona narrates a difficult public reckoning with restraint and attention to people. Preserve every script word, including all articles and uncontracted phrases. Leth is /lɛθ/ (leth, with the th of thin); Sera is /ˈsɛrə/ (SEH-ruh). Speak each name naturally as a whole; do not say the guide itself. Articulate the final d of 'damaged' /ˈdæmɪdʒd/. Keep normal name spelling in the transcript. No additions or paraphrasing."
+    },
+    {
+      "line_id": "ch6_closing",
+      "attempt": "retake2",
+      "text": "The public record is complete. The council withdraws Rusk’s emergency authority and refers the signed evidence to an outside court. Elian’s admission is retained for the same inquiry. The archive will keep the old lie visible beside its documented correction.",
+      "voice": "willow",
+      "direction": "Iona gives the conclusion with warmth and quiet conviction, as if sharing the discovery with one trusted person. Preserve every script word and complete final consonants. Elian is /ˈɛliən/ (ELL-ee-uhn); Elian's is /ˈɛliənz/. Keep all three syllables connected and natural, with stress on the first; never spell or read the pronunciation guide. Keep normal name spelling in the transcript. No added words, substitutions or contractions."
+    }
+  ]
+}

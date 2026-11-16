@@ -1,0 +1,819 @@
+{
+  "line_id": "ch5_intro",
+  "clip_id": "89f7ced23a254796a6771364ba9f50c9",
+  "source_text_sha256": "100ad11eb64e48ee44dc28dd207762be90d0bea318a4c820602160f85589e02d",
+  "master": "work/gateway-voice/masters/89f7ced23a254796a6771364ba9f50c9.wav",
+  "wav_sha256": "7fa38b29613afeb16fc60c5821a9d5d17c1788bacdfdd31e6bde53d1eb36d31f",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 736320,
+    "sample_count": 368160,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 15.34,
+    "peak": 0.6875,
+    "peak_dbfs": -3.254545949953995,
+    "rms": 0.06746490133893138,
+    "rms_dbfs": -23.418442208347713,
+    "dc_offset": 0.00011308654294434655,
+    "silence_fraction": 0.24225336810082573,
+    "leading_silence_seconds": 0.403,
+    "tail_silence_seconds": 0.363875,
+    "active_span_seconds": 14.573125,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 40,
+    "source_words_per_active_minute": 164.68670926791611,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "leth",
+      "is",
+      "already",
+      "preparing",
+      "for",
+      "tomorrow's",
+      "public",
+      "sitting",
+      "a",
+      "notice",
+      "declares",
+      "the",
+      "damaged",
+      "flood",
+      "records",
+      "redundant",
+      "and",
+      "schedules",
+      "their",
+      "destruction",
+      "after",
+      "the",
+      "hearing",
+      "sera",
+      "quill",
+      "pulls",
+      "a",
+      "clean",
+      "sheet",
+      "into",
+      "her",
+      "press",
+      "then",
+      "we",
+      "had",
+      "better",
+      "make",
+      "the",
+      "hearing",
+      "useful"
+    ],
+    "observed_tokens": [
+      "leth",
+      "is",
+      "already",
+      "preparing",
+      "for",
+      "tomorrow's",
+      "public",
+      "sitting",
+      "a",
+      "notice",
+      "declares",
+      "the",
+      "damaged",
+      "flood",
+      "records",
+      "redundant",
+      "and",
+      "schedules",
+      "their",
+      "destruction",
+      "after",
+      "the",
+      "hearing",
+      "sera",
+      "quill",
+      "pulls",
+      "a",
+      "clean",
+      "sheet",
+      "into",
+      "her",
+      "press",
+      "then",
+      "we",
+      "had",
+      "better",
+      "make",
+      "the",
+      "hearing",
+      "useful"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 40,
+        "observed_start": 0,
+        "observed_end": 40,
+        "expected": [
+          "leth",
+          "is",
+          "already",
+          "preparing",
+          "for",
+          "tomorrow's",
+          "public",
+          "sitting",
+          "a",
+          "notice",
+          "declares",
+          "the",
+          "damaged",
+          "flood",
+          "records",
+          "redundant",
+          "and",
+          "schedules",
+          "their",
+          "destruction",
+          "after",
+          "the",
+          "hearing",
+          "sera",
+          "quill",
+          "pulls",
+          "a",
+          "clean",
+          "sheet",
+          "into",
+          "her",
+          "press",
+          "then",
+          "we",
+          "had",
+          "better",
+          "make",
+          "the",
+          "hearing",
+          "useful"
+        ],
+        "observed": [
+          "leth",
+          "is",
+          "already",
+          "preparing",
+          "for",
+          "tomorrow's",
+          "public",
+          "sitting",
+          "a",
+          "notice",
+          "declares",
+          "the",
+          "damaged",
+          "flood",
+          "records",
+          "redundant",
+          "and",
+          "schedules",
+          "their",
+          "destruction",
+          "after",
+          "the",
+          "hearing",
+          "sera",
+          "quill",
+          "pulls",
+          "a",
+          "clean",
+          "sheet",
+          "into",
+          "her",
+          "press",
+          "then",
+          "we",
+          "had",
+          "better",
+          "make",
+          "the",
+          "hearing",
+          "useful"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Left is already preparing for tomorrow's public sitting, and notice declares the damaged flood records redundant, and schedules their destruction after the hearing. Sarah Quill pulls the clean sheet into her press. Then we had better make the hearing useful.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 9.2,
+      "text": " Left is already preparing for tomorrow's public sitting, and notice declares the damaged flood records redundant, and schedules their destruction after the hearing.",
+      "words": [
+        {
+          "word": " Left",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.10412131249904633
+        },
+        {
+          "word": " is",
+          "start": 0.58,
+          "end": 0.78,
+          "probability": 0.9866015315055847
+        },
+        {
+          "word": " already",
+          "start": 0.78,
+          "end": 1.06,
+          "probability": 0.9894640445709229
+        },
+        {
+          "word": " preparing",
+          "start": 1.06,
+          "end": 1.4,
+          "probability": 0.9983648657798767
+        },
+        {
+          "word": " for",
+          "start": 1.4,
+          "end": 1.72,
+          "probability": 0.9977933168411255
+        },
+        {
+          "word": " tomorrow's",
+          "start": 1.72,
+          "end": 2.2,
+          "probability": 0.9682489931583405
+        },
+        {
+          "word": " public",
+          "start": 2.2,
+          "end": 2.42,
+          "probability": 0.9967671632766724
+        },
+        {
+          "word": " sitting,",
+          "start": 2.42,
+          "end": 2.8,
+          "probability": 0.9506223201751709
+        },
+        {
+          "word": " and",
+          "start": 3.36,
+          "end": 3.46,
+          "probability": 0.9406075477600098
+        },
+        {
+          "word": " notice",
+          "start": 3.46,
+          "end": 3.68,
+          "probability": 0.7481348514556885
+        },
+        {
+          "word": " declares",
+          "start": 3.68,
+          "end": 4.12,
+          "probability": 0.9874036312103271
+        },
+        {
+          "word": " the",
+          "start": 4.12,
+          "end": 4.38,
+          "probability": 0.9924052357673645
+        },
+        {
+          "word": " damaged",
+          "start": 4.38,
+          "end": 4.7,
+          "probability": 0.643027663230896
+        },
+        {
+          "word": " flood",
+          "start": 4.7,
+          "end": 5.08,
+          "probability": 0.9719773530960083
+        },
+        {
+          "word": " records",
+          "start": 5.08,
+          "end": 5.54,
+          "probability": 0.9821599125862122
+        },
+        {
+          "word": " redundant,",
+          "start": 5.54,
+          "end": 5.94,
+          "probability": 0.986351728439331
+        },
+        {
+          "word": " and",
+          "start": 6.52,
+          "end": 6.76,
+          "probability": 0.9973567724227905
+        },
+        {
+          "word": " schedules",
+          "start": 6.76,
+          "end": 7.2,
+          "probability": 0.9952294826507568
+        },
+        {
+          "word": " their",
+          "start": 7.2,
+          "end": 7.54,
+          "probability": 0.9951047897338867
+        },
+        {
+          "word": " destruction",
+          "start": 7.54,
+          "end": 8.06,
+          "probability": 0.9805408120155334
+        },
+        {
+          "word": " after",
+          "start": 8.06,
+          "end": 8.7,
+          "probability": 0.9861928820610046
+        },
+        {
+          "word": " the",
+          "start": 8.7,
+          "end": 8.9,
+          "probability": 0.998140811920166
+        },
+        {
+          "word": " hearing.",
+          "start": 8.9,
+          "end": 9.2,
+          "probability": 0.9991864562034607
+        }
+      ]
+    },
+    {
+      "start": 9.98,
+      "end": 14.74,
+      "text": " Sarah Quill pulls the clean sheet into her press. Then we had better make the hearing useful.",
+      "words": [
+        {
+          "word": " Sarah",
+          "start": 9.98,
+          "end": 10.12,
+          "probability": 0.8488909602165222
+        },
+        {
+          "word": " Quill",
+          "start": 10.12,
+          "end": 10.46,
+          "probability": 0.9657953381538391
+        },
+        {
+          "word": " pulls",
+          "start": 10.46,
+          "end": 10.8,
+          "probability": 0.9905796647071838
+        },
+        {
+          "word": " the",
+          "start": 10.8,
+          "end": 10.96,
+          "probability": 0.8134020566940308
+        },
+        {
+          "word": " clean",
+          "start": 10.96,
+          "end": 11.22,
+          "probability": 0.9783585071563721
+        },
+        {
+          "word": " sheet",
+          "start": 11.22,
+          "end": 11.52,
+          "probability": 0.9950527548789978
+        },
+        {
+          "word": " into",
+          "start": 11.52,
+          "end": 11.88,
+          "probability": 0.9677336812019348
+        },
+        {
+          "word": " her",
+          "start": 11.88,
+          "end": 12.04,
+          "probability": 0.8911516070365906
+        },
+        {
+          "word": " press.",
+          "start": 12.04,
+          "end": 12.3,
+          "probability": 0.9921463131904602
+        },
+        {
+          "word": " Then",
+          "start": 13.06,
+          "end": 13.18,
+          "probability": 0.9854571223258972
+        },
+        {
+          "word": " we",
+          "start": 13.18,
+          "end": 13.34,
+          "probability": 0.947163999080658
+        },
+        {
+          "word": " had",
+          "start": 13.34,
+          "end": 13.46,
+          "probability": 0.9682397842407227
+        },
+        {
+          "word": " better",
+          "start": 13.46,
+          "end": 13.66,
+          "probability": 0.9992521405220032
+        },
+        {
+          "word": " make",
+          "start": 13.66,
+          "end": 13.88,
+          "probability": 0.9987648725509644
+        },
+        {
+          "word": " the",
+          "start": 13.88,
+          "end": 14.06,
+          "probability": 0.9985892176628113
+        },
+        {
+          "word": " hearing",
+          "start": 14.06,
+          "end": 14.36,
+          "probability": 0.9994298815727234
+        },
+        {
+          "word": " useful.",
+          "start": 14.36,
+          "end": 14.74,
+          "probability": 0.9989776611328125
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "leth",
+      "is",
+      "already",
+      "preparing",
+      "for",
+      "tomorrow's",
+      "public",
+      "sitting",
+      "a",
+      "notice",
+      "declares",
+      "the",
+      "damaged",
+      "flood",
+      "records",
+      "redundant",
+      "and",
+      "schedules",
+      "their",
+      "destruction",
+      "after",
+      "the",
+      "hearing",
+      "sera",
+      "quill",
+      "pulls",
+      "a",
+      "clean",
+      "sheet",
+      "into",
+      "her",
+      "press",
+      "then",
+      "we",
+      "had",
+      "better",
+      "make",
+      "the",
+      "hearing",
+      "useful"
+    ],
+    "observed_tokens": [
+      "left",
+      "is",
+      "already",
+      "preparing",
+      "for",
+      "tomorrow's",
+      "public",
+      "sitting",
+      "and",
+      "notice",
+      "declares",
+      "the",
+      "damaged",
+      "flood",
+      "records",
+      "redundant",
+      "and",
+      "schedules",
+      "their",
+      "destruction",
+      "after",
+      "the",
+      "hearing",
+      "sarah",
+      "quill",
+      "pulls",
+      "the",
+      "clean",
+      "sheet",
+      "into",
+      "her",
+      "press",
+      "then",
+      "we",
+      "had",
+      "better",
+      "make",
+      "the",
+      "hearing",
+      "useful"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 1,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "leth"
+        ],
+        "observed": [
+          "left"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 1,
+        "expected_end": 8,
+        "observed_start": 1,
+        "observed_end": 8,
+        "expected": [
+          "is",
+          "already",
+          "preparing",
+          "for",
+          "tomorrow's",
+          "public",
+          "sitting"
+        ],
+        "observed": [
+          "is",
+          "already",
+          "preparing",
+          "for",
+          "tomorrow's",
+          "public",
+          "sitting"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 8,
+        "expected_end": 9,
+        "observed_start": 8,
+        "observed_end": 9,
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "and"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 9,
+        "expected_end": 23,
+        "observed_start": 9,
+        "observed_end": 23,
+        "expected": [
+          "notice",
+          "declares",
+          "the",
+          "damaged",
+          "flood",
+          "records",
+          "redundant",
+          "and",
+          "schedules",
+          "their",
+          "destruction",
+          "after",
+          "the",
+          "hearing"
+        ],
+        "observed": [
+          "notice",
+          "declares",
+          "the",
+          "damaged",
+          "flood",
+          "records",
+          "redundant",
+          "and",
+          "schedules",
+          "their",
+          "destruction",
+          "after",
+          "the",
+          "hearing"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 23,
+        "expected_end": 24,
+        "observed_start": 23,
+        "observed_end": 24,
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 24,
+        "expected_end": 26,
+        "observed_start": 24,
+        "observed_end": 26,
+        "expected": [
+          "quill",
+          "pulls"
+        ],
+        "observed": [
+          "quill",
+          "pulls"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 26,
+        "expected_end": 27,
+        "observed_start": 26,
+        "observed_end": 27,
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 27,
+        "expected_end": 40,
+        "observed_start": 27,
+        "observed_end": 40,
+        "expected": [
+          "clean",
+          "sheet",
+          "into",
+          "her",
+          "press",
+          "then",
+          "we",
+          "had",
+          "better",
+          "make",
+          "the",
+          "hearing",
+          "useful"
+        ],
+        "observed": [
+          "clean",
+          "sheet",
+          "into",
+          "her",
+          "press",
+          "then",
+          "we",
+          "had",
+          "better",
+          "make",
+          "the",
+          "hearing",
+          "useful"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "leth"
+        ],
+        "observed": [
+          "left"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      },
+      {
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "and"
+        ],
+        "expected_start": 8,
+        "observed_start": 8
+      },
+      {
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ],
+        "expected_start": 23,
+        "observed_start": 23
+      },
+      {
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ],
+        "expected_start": 26,
+        "observed_start": 26
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:1.",
+      "Changed source words at expected tokens 8:9.",
+      "Changed source words at expected tokens 23:24.",
+      "Changed source words at expected tokens 26:27."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

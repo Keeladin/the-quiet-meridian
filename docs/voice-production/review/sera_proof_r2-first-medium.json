@@ -1,0 +1,962 @@
+{
+  "line_id": "sera_proof_r2",
+  "clip_id": "d574da101b3a4f3ba0c333f12e039d2c",
+  "source_text_sha256": "dce263e300d1cf8a5785cf339e18aa552765a342006fdb2e6d65cfb6eb25f910",
+  "master": "work/gateway-voice/masters/d574da101b3a4f3ba0c333f12e039d2c.wav",
+  "wav_sha256": "280fc5a7c189af48a37c0db42d955d644ad666c132a9417f27e6987178d2f289",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1152000,
+    "sample_count": 576000,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 24.0,
+    "peak": 0.5859375,
+    "peak_dbfs": -4.6429741251233665,
+    "rms": 0.07407823831207655,
+    "rms_dbfs": -22.606187087116773,
+    "dc_offset": 0.0001161706182691786,
+    "silence_fraction": 0.20375868055555554,
+    "leading_silence_seconds": 0.380875,
+    "tail_silence_seconds": 0.175125,
+    "active_span_seconds": 23.444,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 53,
+    "source_words_per_active_minute": 135.64238184610136,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "she",
+      "would",
+      "have",
+      "checked",
+      "whether",
+      "the",
+      "petition's",
+      "demands",
+      "were",
+      "still",
+      "worth",
+      "making",
+      "then",
+      "she",
+      "would",
+      "have",
+      "asked",
+      "why",
+      "we",
+      "were",
+      "all",
+      "standing",
+      "around",
+      "imagining",
+      "her",
+      "opinion",
+      "when",
+      "there",
+      "were",
+      "living",
+      "tenants",
+      "to",
+      "consult",
+      "i",
+      "miss",
+      "her",
+      "enough",
+      "to",
+      "invent",
+      "kinder",
+      "answers",
+      "i",
+      "suspect",
+      "that",
+      "is",
+      "why",
+      "i",
+      "should",
+      "not",
+      "do",
+      "it",
+      "in",
+      "print"
+    ],
+    "observed_tokens": [
+      "she",
+      "would",
+      "have",
+      "checked",
+      "whether",
+      "the",
+      "petition's",
+      "demands",
+      "were",
+      "still",
+      "worth",
+      "making",
+      "then",
+      "she",
+      "would",
+      "have",
+      "asked",
+      "why",
+      "we",
+      "were",
+      "all",
+      "standing",
+      "here",
+      "imagining",
+      "her",
+      "opinion",
+      "when",
+      "there",
+      "were",
+      "living",
+      "tenants",
+      "to",
+      "consult",
+      "i",
+      "miss",
+      "her",
+      "enough",
+      "to",
+      "invent",
+      "kinder",
+      "answers",
+      "i",
+      "suspect",
+      "that",
+      "is",
+      "why",
+      "i",
+      "should",
+      "not",
+      "do",
+      "it",
+      "in",
+      "print"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 22,
+        "observed_start": 0,
+        "observed_end": 22,
+        "expected": [
+          "she",
+          "would",
+          "have",
+          "checked",
+          "whether",
+          "the",
+          "petition's",
+          "demands",
+          "were",
+          "still",
+          "worth",
+          "making",
+          "then",
+          "she",
+          "would",
+          "have",
+          "asked",
+          "why",
+          "we",
+          "were",
+          "all",
+          "standing"
+        ],
+        "observed": [
+          "she",
+          "would",
+          "have",
+          "checked",
+          "whether",
+          "the",
+          "petition's",
+          "demands",
+          "were",
+          "still",
+          "worth",
+          "making",
+          "then",
+          "she",
+          "would",
+          "have",
+          "asked",
+          "why",
+          "we",
+          "were",
+          "all",
+          "standing"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 22,
+        "expected_end": 23,
+        "observed_start": 22,
+        "observed_end": 23,
+        "expected": [
+          "around"
+        ],
+        "observed": [
+          "here"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 23,
+        "expected_end": 53,
+        "observed_start": 23,
+        "observed_end": 53,
+        "expected": [
+          "imagining",
+          "her",
+          "opinion",
+          "when",
+          "there",
+          "were",
+          "living",
+          "tenants",
+          "to",
+          "consult",
+          "i",
+          "miss",
+          "her",
+          "enough",
+          "to",
+          "invent",
+          "kinder",
+          "answers",
+          "i",
+          "suspect",
+          "that",
+          "is",
+          "why",
+          "i",
+          "should",
+          "not",
+          "do",
+          "it",
+          "in",
+          "print"
+        ],
+        "observed": [
+          "imagining",
+          "her",
+          "opinion",
+          "when",
+          "there",
+          "were",
+          "living",
+          "tenants",
+          "to",
+          "consult",
+          "i",
+          "miss",
+          "her",
+          "enough",
+          "to",
+          "invent",
+          "kinder",
+          "answers",
+          "i",
+          "suspect",
+          "that",
+          "is",
+          "why",
+          "i",
+          "should",
+          "not",
+          "do",
+          "it",
+          "in",
+          "print"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "around"
+        ],
+        "observed": [
+          "here"
+        ],
+        "expected_start": 22,
+        "observed_start": 22
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 22:23."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "She would have checked whether the petition's demands were still worth making. Then she would have asked why we were all standing here imagining her opinion when there were living tenants to consult. I miss her enough to invent kinder answers. I suspect that is why I should not do it in print.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.14,
+      "text": " She would have checked whether the petition's demands were still worth making. Then she would",
+      "words": [
+        {
+          "word": " She",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.8468608260154724
+        },
+        {
+          "word": " would",
+          "start": 0.58,
+          "end": 0.74,
+          "probability": 0.9976305961608887
+        },
+        {
+          "word": " have",
+          "start": 0.74,
+          "end": 0.9,
+          "probability": 0.9192540645599365
+        },
+        {
+          "word": " checked",
+          "start": 0.9,
+          "end": 1.24,
+          "probability": 0.9941633343696594
+        },
+        {
+          "word": " whether",
+          "start": 1.24,
+          "end": 1.48,
+          "probability": 0.991806149482727
+        },
+        {
+          "word": " the",
+          "start": 1.48,
+          "end": 1.74,
+          "probability": 0.9980396628379822
+        },
+        {
+          "word": " petition's",
+          "start": 1.74,
+          "end": 2.3,
+          "probability": 0.9060163199901581
+        },
+        {
+          "word": " demands",
+          "start": 2.3,
+          "end": 2.72,
+          "probability": 0.9978427886962891
+        },
+        {
+          "word": " were",
+          "start": 2.72,
+          "end": 3.0,
+          "probability": 0.9971381425857544
+        },
+        {
+          "word": " still",
+          "start": 3.0,
+          "end": 3.34,
+          "probability": 0.9940183162689209
+        },
+        {
+          "word": " worth",
+          "start": 3.34,
+          "end": 3.74,
+          "probability": 0.99299156665802
+        },
+        {
+          "word": " making.",
+          "start": 3.74,
+          "end": 4.7,
+          "probability": 0.9924278855323792
+        },
+        {
+          "word": " Then",
+          "start": 5.7,
+          "end": 5.82,
+          "probability": 0.571412205696106
+        },
+        {
+          "word": " she",
+          "start": 5.82,
+          "end": 6.0,
+          "probability": 0.9497974514961243
+        },
+        {
+          "word": " would",
+          "start": 6.0,
+          "end": 6.14,
+          "probability": 0.9983466863632202
+        }
+      ]
+    },
+    {
+      "start": 6.14,
+      "end": 12.24,
+      "text": " have asked why we were all standing here imagining her opinion when there were living",
+      "words": [
+        {
+          "word": " have",
+          "start": 6.14,
+          "end": 6.36,
+          "probability": 0.9713557958602905
+        },
+        {
+          "word": " asked",
+          "start": 6.36,
+          "end": 6.94,
+          "probability": 0.996542751789093
+        },
+        {
+          "word": " why",
+          "start": 6.94,
+          "end": 7.24,
+          "probability": 0.9960395097732544
+        },
+        {
+          "word": " we",
+          "start": 7.24,
+          "end": 7.5,
+          "probability": 0.9924907088279724
+        },
+        {
+          "word": " were",
+          "start": 7.5,
+          "end": 7.76,
+          "probability": 0.9882832169532776
+        },
+        {
+          "word": " all",
+          "start": 7.76,
+          "end": 8.1,
+          "probability": 0.9976503252983093
+        },
+        {
+          "word": " standing",
+          "start": 8.1,
+          "end": 8.68,
+          "probability": 0.9958513975143433
+        },
+        {
+          "word": " here",
+          "start": 8.68,
+          "end": 9.14,
+          "probability": 0.9976886510848999
+        },
+        {
+          "word": " imagining",
+          "start": 9.14,
+          "end": 9.98,
+          "probability": 0.46844571828842163
+        },
+        {
+          "word": " her",
+          "start": 9.98,
+          "end": 10.4,
+          "probability": 0.995267391204834
+        },
+        {
+          "word": " opinion",
+          "start": 10.4,
+          "end": 11.0,
+          "probability": 0.997992992401123
+        },
+        {
+          "word": " when",
+          "start": 11.0,
+          "end": 11.4,
+          "probability": 0.9617842435836792
+        },
+        {
+          "word": " there",
+          "start": 11.4,
+          "end": 11.58,
+          "probability": 0.9924801588058472
+        },
+        {
+          "word": " were",
+          "start": 11.58,
+          "end": 11.82,
+          "probability": 0.9975607395172119
+        },
+        {
+          "word": " living",
+          "start": 11.82,
+          "end": 12.24,
+          "probability": 0.993000864982605
+        }
+      ]
+    },
+    {
+      "start": 12.24,
+      "end": 21.02,
+      "text": " tenants to consult. I miss her enough to invent kinder answers. I suspect that is why",
+      "words": [
+        {
+          "word": " tenants",
+          "start": 12.24,
+          "end": 12.64,
+          "probability": 0.9935479760169983
+        },
+        {
+          "word": " to",
+          "start": 12.64,
+          "end": 12.92,
+          "probability": 0.9994537234306335
+        },
+        {
+          "word": " consult.",
+          "start": 12.92,
+          "end": 13.46,
+          "probability": 0.9995225667953491
+        },
+        {
+          "word": " I",
+          "start": 14.0,
+          "end": 14.14,
+          "probability": 0.9608577489852905
+        },
+        {
+          "word": " miss",
+          "start": 14.14,
+          "end": 14.48,
+          "probability": 0.999245285987854
+        },
+        {
+          "word": " her",
+          "start": 14.48,
+          "end": 14.84,
+          "probability": 0.9991486072540283
+        },
+        {
+          "word": " enough",
+          "start": 14.84,
+          "end": 15.44,
+          "probability": 0.9988464117050171
+        },
+        {
+          "word": " to",
+          "start": 15.44,
+          "end": 15.8,
+          "probability": 0.9987653493881226
+        },
+        {
+          "word": " invent",
+          "start": 15.8,
+          "end": 16.34,
+          "probability": 0.9986534118652344
+        },
+        {
+          "word": " kinder",
+          "start": 16.34,
+          "end": 17.22,
+          "probability": 0.9952891170978546
+        },
+        {
+          "word": " answers.",
+          "start": 17.22,
+          "end": 17.98,
+          "probability": 0.9992616772651672
+        },
+        {
+          "word": " I",
+          "start": 19.22,
+          "end": 19.44,
+          "probability": 0.9963060617446899
+        },
+        {
+          "word": " suspect",
+          "start": 19.44,
+          "end": 19.9,
+          "probability": 0.9997178912162781
+        },
+        {
+          "word": " that",
+          "start": 19.9,
+          "end": 20.26,
+          "probability": 0.9982026815414429
+        },
+        {
+          "word": " is",
+          "start": 20.26,
+          "end": 20.56,
+          "probability": 0.9963595271110535
+        },
+        {
+          "word": " why",
+          "start": 20.56,
+          "end": 21.02,
+          "probability": 0.9994761347770691
+        }
+      ]
+    },
+    {
+      "start": 21.02,
+      "end": 23.6,
+      "text": " I should not do it in print.",
+      "words": [
+        {
+          "word": " I",
+          "start": 21.02,
+          "end": 21.36,
+          "probability": 0.9774148464202881
+        },
+        {
+          "word": " should",
+          "start": 21.36,
+          "end": 21.58,
+          "probability": 0.9982183575630188
+        },
+        {
+          "word": " not",
+          "start": 21.58,
+          "end": 22.0,
+          "probability": 0.9988704323768616
+        },
+        {
+          "word": " do",
+          "start": 22.0,
+          "end": 22.52,
+          "probability": 0.9692789316177368
+        },
+        {
+          "word": " it",
+          "start": 22.52,
+          "end": 22.94,
+          "probability": 0.9990792274475098
+        },
+        {
+          "word": " in",
+          "start": 22.94,
+          "end": 23.38,
+          "probability": 0.974867582321167
+        },
+        {
+          "word": " print.",
+          "start": 23.38,
+          "end": 23.6,
+          "probability": 0.9913255572319031
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "she",
+      "would",
+      "have",
+      "checked",
+      "whether",
+      "the",
+      "petition's",
+      "demands",
+      "were",
+      "still",
+      "worth",
+      "making",
+      "then",
+      "she",
+      "would",
+      "have",
+      "asked",
+      "why",
+      "we",
+      "were",
+      "all",
+      "standing",
+      "around",
+      "imagining",
+      "her",
+      "opinion",
+      "when",
+      "there",
+      "were",
+      "living",
+      "tenants",
+      "to",
+      "consult",
+      "i",
+      "miss",
+      "her",
+      "enough",
+      "to",
+      "invent",
+      "kinder",
+      "answers",
+      "i",
+      "suspect",
+      "that",
+      "is",
+      "why",
+      "i",
+      "should",
+      "not",
+      "do",
+      "it",
+      "in",
+      "print"
+    ],
+    "observed_tokens": [
+      "she",
+      "would",
+      "have",
+      "checked",
+      "whether",
+      "the",
+      "petition's",
+      "demands",
+      "were",
+      "still",
+      "worth",
+      "making",
+      "then",
+      "she",
+      "would",
+      "have",
+      "asked",
+      "why",
+      "we",
+      "were",
+      "all",
+      "standing",
+      "here",
+      "imagining",
+      "her",
+      "opinion",
+      "when",
+      "there",
+      "were",
+      "living",
+      "tenants",
+      "to",
+      "consult",
+      "i",
+      "miss",
+      "her",
+      "enough",
+      "to",
+      "invent",
+      "kinder",
+      "answers",
+      "i",
+      "suspect",
+      "that",
+      "is",
+      "why",
+      "i",
+      "should",
+      "not",
+      "do",
+      "it",
+      "in",
+      "print"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 22,
+        "observed_start": 0,
+        "observed_end": 22,
+        "expected": [
+          "she",
+          "would",
+          "have",
+          "checked",
+          "whether",
+          "the",
+          "petition's",
+          "demands",
+          "were",
+          "still",
+          "worth",
+          "making",
+          "then",
+          "she",
+          "would",
+          "have",
+          "asked",
+          "why",
+          "we",
+          "were",
+          "all",
+          "standing"
+        ],
+        "observed": [
+          "she",
+          "would",
+          "have",
+          "checked",
+          "whether",
+          "the",
+          "petition's",
+          "demands",
+          "were",
+          "still",
+          "worth",
+          "making",
+          "then",
+          "she",
+          "would",
+          "have",
+          "asked",
+          "why",
+          "we",
+          "were",
+          "all",
+          "standing"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 22,
+        "expected_end": 23,
+        "observed_start": 22,
+        "observed_end": 23,
+        "expected": [
+          "around"
+        ],
+        "observed": [
+          "here"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 23,
+        "expected_end": 53,
+        "observed_start": 23,
+        "observed_end": 53,
+        "expected": [
+          "imagining",
+          "her",
+          "opinion",
+          "when",
+          "there",
+          "were",
+          "living",
+          "tenants",
+          "to",
+          "consult",
+          "i",
+          "miss",
+          "her",
+          "enough",
+          "to",
+          "invent",
+          "kinder",
+          "answers",
+          "i",
+          "suspect",
+          "that",
+          "is",
+          "why",
+          "i",
+          "should",
+          "not",
+          "do",
+          "it",
+          "in",
+          "print"
+        ],
+        "observed": [
+          "imagining",
+          "her",
+          "opinion",
+          "when",
+          "there",
+          "were",
+          "living",
+          "tenants",
+          "to",
+          "consult",
+          "i",
+          "miss",
+          "her",
+          "enough",
+          "to",
+          "invent",
+          "kinder",
+          "answers",
+          "i",
+          "suspect",
+          "that",
+          "is",
+          "why",
+          "i",
+          "should",
+          "not",
+          "do",
+          "it",
+          "in",
+          "print"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "around"
+        ],
+        "observed": [
+          "here"
+        ],
+        "expected_start": 22,
+        "observed_start": 22
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 22:23."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

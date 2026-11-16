@@ -1,0 +1,1025 @@
+{
+  "line_id": "nadi_signal_r2",
+  "clip_id": "59f54d6891e243ea9dc019423efb719f",
+  "source_text_sha256": "b482ea223c6c28d699d55e51cd78049c15ea52bc2461110d021737f42a34d168",
+  "master": "work/gateway-voice/masters/59f54d6891e243ea9dc019423efb719f.wav",
+  "wav_sha256": "0fb54013ad081256233d143e51000401c6b62aa142f8596cb2f002c82f3c5469",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1116480,
+    "sample_count": 558240,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 23.26,
+    "peak": 0.46875,
+    "peak_dbfs": -6.581174385284495,
+    "rms": 0.03691284103926812,
+    "rms_dbfs": -28.656450550872258,
+    "dc_offset": 4.379773215121408e-05,
+    "silence_fraction": 0.31596087704213244,
+    "leading_silence_seconds": 0.4025416666666667,
+    "tail_silence_seconds": 0.388,
+    "active_span_seconds": 22.469458333333332,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 59,
+    "source_words_per_active_minute": 157.5471890547725,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "at",
+      "the",
+      "western",
+      "channel",
+      "yes",
+      "we",
+      "will",
+      "read",
+      "the",
+      "markers",
+      "even",
+      "if",
+      "i",
+      "think",
+      "i",
+      "remember",
+      "them",
+      "reeds",
+      "grow",
+      "banks",
+      "slip",
+      "and",
+      "memory",
+      "is",
+      "not",
+      "a",
+      "sounding",
+      "pole",
+      "take",
+      "a",
+      "dry",
+      "copy",
+      "of",
+      "your",
+      "source",
+      "list",
+      "leave",
+      "another",
+      "with",
+      "ada",
+      "if",
+      "we",
+      "are",
+      "delayed",
+      "let",
+      "the",
+      "delay",
+      "be",
+      "an",
+      "inconvenience",
+      "not",
+      "a",
+      "way",
+      "for",
+      "the",
+      "whole",
+      "investigation",
+      "to",
+      "disappear"
+    ],
+    "observed_tokens": [
+      "at",
+      "the",
+      "western",
+      "channel",
+      "yes",
+      "we",
+      "will",
+      "read",
+      "the",
+      "markers",
+      "even",
+      "if",
+      "i",
+      "think",
+      "i",
+      "remember",
+      "them",
+      "reeds",
+      "grow",
+      "banks",
+      "slip",
+      "and",
+      "memory",
+      "is",
+      "not",
+      "a",
+      "sounding",
+      "pole",
+      "take",
+      "a",
+      "dry",
+      "copy",
+      "of",
+      "your",
+      "source",
+      "list",
+      "leave",
+      "another",
+      "with",
+      "ada",
+      "if",
+      "we",
+      "are",
+      "delayed",
+      "let",
+      "the",
+      "delay",
+      "be",
+      "an",
+      "inconvenience",
+      "not",
+      "a",
+      "way",
+      "for",
+      "the",
+      "whole",
+      "investigation",
+      "to",
+      "disappear"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 59,
+        "observed_start": 0,
+        "observed_end": 59,
+        "expected": [
+          "at",
+          "the",
+          "western",
+          "channel",
+          "yes",
+          "we",
+          "will",
+          "read",
+          "the",
+          "markers",
+          "even",
+          "if",
+          "i",
+          "think",
+          "i",
+          "remember",
+          "them",
+          "reeds",
+          "grow",
+          "banks",
+          "slip",
+          "and",
+          "memory",
+          "is",
+          "not",
+          "a",
+          "sounding",
+          "pole",
+          "take",
+          "a",
+          "dry",
+          "copy",
+          "of",
+          "your",
+          "source",
+          "list",
+          "leave",
+          "another",
+          "with",
+          "ada",
+          "if",
+          "we",
+          "are",
+          "delayed",
+          "let",
+          "the",
+          "delay",
+          "be",
+          "an",
+          "inconvenience",
+          "not",
+          "a",
+          "way",
+          "for",
+          "the",
+          "whole",
+          "investigation",
+          "to",
+          "disappear"
+        ],
+        "observed": [
+          "at",
+          "the",
+          "western",
+          "channel",
+          "yes",
+          "we",
+          "will",
+          "read",
+          "the",
+          "markers",
+          "even",
+          "if",
+          "i",
+          "think",
+          "i",
+          "remember",
+          "them",
+          "reeds",
+          "grow",
+          "banks",
+          "slip",
+          "and",
+          "memory",
+          "is",
+          "not",
+          "a",
+          "sounding",
+          "pole",
+          "take",
+          "a",
+          "dry",
+          "copy",
+          "of",
+          "your",
+          "source",
+          "list",
+          "leave",
+          "another",
+          "with",
+          "ada",
+          "if",
+          "we",
+          "are",
+          "delayed",
+          "let",
+          "the",
+          "delay",
+          "be",
+          "an",
+          "inconvenience",
+          "not",
+          "a",
+          "way",
+          "for",
+          "the",
+          "whole",
+          "investigation",
+          "to",
+          "disappear"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "At the Western Channel yes, we will read the markers even if I think I remember them. Reads grow, banks slip, and memory is not a sounding pole. Take a dry copy of your source list. Leave another with Ada. If we are delayed, let the delay be an inconvenience, not a way for the whole investigation to disappear.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 5.58,
+      "text": " At the Western Channel yes, we will read the markers even if I think I remember them.",
+      "words": [
+        {
+          "word": " At",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.4542931318283081
+        },
+        {
+          "word": " the",
+          "start": 0.54,
+          "end": 0.7,
+          "probability": 0.9649404883384705
+        },
+        {
+          "word": " Western",
+          "start": 0.7,
+          "end": 0.98,
+          "probability": 0.5331655740737915
+        },
+        {
+          "word": " Channel",
+          "start": 0.98,
+          "end": 1.36,
+          "probability": 0.6008609533309937
+        },
+        {
+          "word": " yes,",
+          "start": 1.36,
+          "end": 1.74,
+          "probability": 0.6497953534126282
+        },
+        {
+          "word": " we",
+          "start": 2.36,
+          "end": 2.54,
+          "probability": 0.977601945400238
+        },
+        {
+          "word": " will",
+          "start": 2.54,
+          "end": 2.7,
+          "probability": 0.9980452060699463
+        },
+        {
+          "word": " read",
+          "start": 2.7,
+          "end": 2.98,
+          "probability": 0.9826741814613342
+        },
+        {
+          "word": " the",
+          "start": 2.98,
+          "end": 3.18,
+          "probability": 0.9984044432640076
+        },
+        {
+          "word": " markers",
+          "start": 3.18,
+          "end": 3.58,
+          "probability": 0.933695912361145
+        },
+        {
+          "word": " even",
+          "start": 3.58,
+          "end": 3.98,
+          "probability": 0.9749269485473633
+        },
+        {
+          "word": " if",
+          "start": 3.98,
+          "end": 4.18,
+          "probability": 0.9953896999359131
+        },
+        {
+          "word": " I",
+          "start": 4.18,
+          "end": 4.38,
+          "probability": 0.932501494884491
+        },
+        {
+          "word": " think",
+          "start": 4.38,
+          "end": 4.6,
+          "probability": 0.9990286827087402
+        },
+        {
+          "word": " I",
+          "start": 4.6,
+          "end": 4.82,
+          "probability": 0.9845766425132751
+        },
+        {
+          "word": " remember",
+          "start": 4.82,
+          "end": 5.14,
+          "probability": 0.9958030581474304
+        },
+        {
+          "word": " them.",
+          "start": 5.14,
+          "end": 5.58,
+          "probability": 0.998464822769165
+        }
+      ]
+    },
+    {
+      "start": 6.4,
+      "end": 10.68,
+      "text": " Reads grow, banks slip, and memory is not a sounding pole.",
+      "words": [
+        {
+          "word": " Reads",
+          "start": 6.4,
+          "end": 6.78,
+          "probability": 0.856190949678421
+        },
+        {
+          "word": " grow,",
+          "start": 6.78,
+          "end": 7.0,
+          "probability": 0.8813990354537964
+        },
+        {
+          "word": " banks",
+          "start": 7.48,
+          "end": 7.74,
+          "probability": 0.9405714869499207
+        },
+        {
+          "word": " slip,",
+          "start": 7.74,
+          "end": 8.1,
+          "probability": 0.994429349899292
+        },
+        {
+          "word": " and",
+          "start": 8.62,
+          "end": 8.8,
+          "probability": 0.9930753707885742
+        },
+        {
+          "word": " memory",
+          "start": 8.8,
+          "end": 9.2,
+          "probability": 0.9902230501174927
+        },
+        {
+          "word": " is",
+          "start": 9.2,
+          "end": 9.48,
+          "probability": 0.998431384563446
+        },
+        {
+          "word": " not",
+          "start": 9.48,
+          "end": 9.72,
+          "probability": 0.9947301149368286
+        },
+        {
+          "word": " a",
+          "start": 9.72,
+          "end": 9.98,
+          "probability": 0.9940193891525269
+        },
+        {
+          "word": " sounding",
+          "start": 9.98,
+          "end": 10.28,
+          "probability": 0.9974517226219177
+        },
+        {
+          "word": " pole.",
+          "start": 10.28,
+          "end": 10.68,
+          "probability": 0.8797820210456848
+        }
+      ]
+    },
+    {
+      "start": 11.52,
+      "end": 13.68,
+      "text": " Take a dry copy of your source list.",
+      "words": [
+        {
+          "word": " Take",
+          "start": 11.52,
+          "end": 11.64,
+          "probability": 0.9874268770217896
+        },
+        {
+          "word": " a",
+          "start": 11.64,
+          "end": 11.86,
+          "probability": 0.9987248778343201
+        },
+        {
+          "word": " dry",
+          "start": 11.86,
+          "end": 12.12,
+          "probability": 0.9833705425262451
+        },
+        {
+          "word": " copy",
+          "start": 12.12,
+          "end": 12.46,
+          "probability": 0.9928507804870605
+        },
+        {
+          "word": " of",
+          "start": 12.46,
+          "end": 12.76,
+          "probability": 0.9990295171737671
+        },
+        {
+          "word": " your",
+          "start": 12.76,
+          "end": 12.9,
+          "probability": 0.9959653615951538
+        },
+        {
+          "word": " source",
+          "start": 12.9,
+          "end": 13.18,
+          "probability": 0.9508935809135437
+        },
+        {
+          "word": " list.",
+          "start": 13.18,
+          "end": 13.68,
+          "probability": 0.976414680480957
+        }
+      ]
+    },
+    {
+      "start": 14.22,
+      "end": 15.34,
+      "text": " Leave another with Ada.",
+      "words": [
+        {
+          "word": " Leave",
+          "start": 14.22,
+          "end": 14.36,
+          "probability": 0.9920641779899597
+        },
+        {
+          "word": " another",
+          "start": 14.36,
+          "end": 14.74,
+          "probability": 0.9946383833885193
+        },
+        {
+          "word": " with",
+          "start": 14.74,
+          "end": 15.0,
+          "probability": 0.9952759742736816
+        },
+        {
+          "word": " Ada.",
+          "start": 15.0,
+          "end": 15.34,
+          "probability": 0.44459596276283264
+        }
+      ]
+    },
+    {
+      "start": 16.08,
+      "end": 21.22,
+      "text": " If we are delayed, let the delay be an inconvenience, not a way for the whole",
+      "words": [
+        {
+          "word": " If",
+          "start": 16.08,
+          "end": 16.34,
+          "probability": 0.9898774027824402
+        },
+        {
+          "word": " we",
+          "start": 16.34,
+          "end": 16.52,
+          "probability": 0.9986088871955872
+        },
+        {
+          "word": " are",
+          "start": 16.52,
+          "end": 16.7,
+          "probability": 0.9983680844306946
+        },
+        {
+          "word": " delayed,",
+          "start": 16.7,
+          "end": 17.18,
+          "probability": 0.9980236291885376
+        },
+        {
+          "word": " let",
+          "start": 17.8,
+          "end": 17.88,
+          "probability": 0.9948415160179138
+        },
+        {
+          "word": " the",
+          "start": 17.88,
+          "end": 18.06,
+          "probability": 0.9964558482170105
+        },
+        {
+          "word": " delay",
+          "start": 18.06,
+          "end": 18.42,
+          "probability": 0.9933608770370483
+        },
+        {
+          "word": " be",
+          "start": 18.42,
+          "end": 18.66,
+          "probability": 0.9979960918426514
+        },
+        {
+          "word": " an",
+          "start": 18.66,
+          "end": 18.84,
+          "probability": 0.9907382130622864
+        },
+        {
+          "word": " inconvenience,",
+          "start": 18.84,
+          "end": 19.52,
+          "probability": 0.9947587847709656
+        },
+        {
+          "word": " not",
+          "start": 20.02,
+          "end": 20.24,
+          "probability": 0.9939504861831665
+        },
+        {
+          "word": " a",
+          "start": 20.24,
+          "end": 20.44,
+          "probability": 0.9924560785293579
+        },
+        {
+          "word": " way",
+          "start": 20.44,
+          "end": 20.58,
+          "probability": 0.998623251914978
+        },
+        {
+          "word": " for",
+          "start": 20.58,
+          "end": 20.82,
+          "probability": 0.999319314956665
+        },
+        {
+          "word": " the",
+          "start": 20.82,
+          "end": 20.98,
+          "probability": 0.9988493919372559
+        },
+        {
+          "word": " whole",
+          "start": 20.98,
+          "end": 21.22,
+          "probability": 0.9989180564880371
+        }
+      ]
+    },
+    {
+      "start": 21.22,
+      "end": 22.76,
+      "text": " investigation to disappear.",
+      "words": [
+        {
+          "word": " investigation",
+          "start": 21.22,
+          "end": 21.96,
+          "probability": 0.9957135915756226
+        },
+        {
+          "word": " to",
+          "start": 21.96,
+          "end": 22.28,
+          "probability": 0.9993292093276978
+        },
+        {
+          "word": " disappear.",
+          "start": 22.28,
+          "end": 22.76,
+          "probability": 0.9987812638282776
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "at",
+      "the",
+      "western",
+      "channel",
+      "yes",
+      "we",
+      "will",
+      "read",
+      "the",
+      "markers",
+      "even",
+      "if",
+      "i",
+      "think",
+      "i",
+      "remember",
+      "them",
+      "reeds",
+      "grow",
+      "banks",
+      "slip",
+      "and",
+      "memory",
+      "is",
+      "not",
+      "a",
+      "sounding",
+      "pole",
+      "take",
+      "a",
+      "dry",
+      "copy",
+      "of",
+      "your",
+      "source",
+      "list",
+      "leave",
+      "another",
+      "with",
+      "ada",
+      "if",
+      "we",
+      "are",
+      "delayed",
+      "let",
+      "the",
+      "delay",
+      "be",
+      "an",
+      "inconvenience",
+      "not",
+      "a",
+      "way",
+      "for",
+      "the",
+      "whole",
+      "investigation",
+      "to",
+      "disappear"
+    ],
+    "observed_tokens": [
+      "at",
+      "the",
+      "western",
+      "channel",
+      "yes",
+      "we",
+      "will",
+      "read",
+      "the",
+      "markers",
+      "even",
+      "if",
+      "i",
+      "think",
+      "i",
+      "remember",
+      "them",
+      "reads",
+      "grow",
+      "banks",
+      "slip",
+      "and",
+      "memory",
+      "is",
+      "not",
+      "a",
+      "sounding",
+      "pole",
+      "take",
+      "a",
+      "dry",
+      "copy",
+      "of",
+      "your",
+      "source",
+      "list",
+      "leave",
+      "another",
+      "with",
+      "ada",
+      "if",
+      "we",
+      "are",
+      "delayed",
+      "let",
+      "the",
+      "delay",
+      "be",
+      "an",
+      "inconvenience",
+      "not",
+      "a",
+      "way",
+      "for",
+      "the",
+      "whole",
+      "investigation",
+      "to",
+      "disappear"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 17,
+        "observed_start": 0,
+        "observed_end": 17,
+        "expected": [
+          "at",
+          "the",
+          "western",
+          "channel",
+          "yes",
+          "we",
+          "will",
+          "read",
+          "the",
+          "markers",
+          "even",
+          "if",
+          "i",
+          "think",
+          "i",
+          "remember",
+          "them"
+        ],
+        "observed": [
+          "at",
+          "the",
+          "western",
+          "channel",
+          "yes",
+          "we",
+          "will",
+          "read",
+          "the",
+          "markers",
+          "even",
+          "if",
+          "i",
+          "think",
+          "i",
+          "remember",
+          "them"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 17,
+        "expected_end": 18,
+        "observed_start": 17,
+        "observed_end": 18,
+        "expected": [
+          "reeds"
+        ],
+        "observed": [
+          "reads"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 18,
+        "expected_end": 59,
+        "observed_start": 18,
+        "observed_end": 59,
+        "expected": [
+          "grow",
+          "banks",
+          "slip",
+          "and",
+          "memory",
+          "is",
+          "not",
+          "a",
+          "sounding",
+          "pole",
+          "take",
+          "a",
+          "dry",
+          "copy",
+          "of",
+          "your",
+          "source",
+          "list",
+          "leave",
+          "another",
+          "with",
+          "ada",
+          "if",
+          "we",
+          "are",
+          "delayed",
+          "let",
+          "the",
+          "delay",
+          "be",
+          "an",
+          "inconvenience",
+          "not",
+          "a",
+          "way",
+          "for",
+          "the",
+          "whole",
+          "investigation",
+          "to",
+          "disappear"
+        ],
+        "observed": [
+          "grow",
+          "banks",
+          "slip",
+          "and",
+          "memory",
+          "is",
+          "not",
+          "a",
+          "sounding",
+          "pole",
+          "take",
+          "a",
+          "dry",
+          "copy",
+          "of",
+          "your",
+          "source",
+          "list",
+          "leave",
+          "another",
+          "with",
+          "ada",
+          "if",
+          "we",
+          "are",
+          "delayed",
+          "let",
+          "the",
+          "delay",
+          "be",
+          "an",
+          "inconvenience",
+          "not",
+          "a",
+          "way",
+          "for",
+          "the",
+          "whole",
+          "investigation",
+          "to",
+          "disappear"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "reeds"
+        ],
+        "observed": [
+          "reads"
+        ],
+        "expected_start": 17,
+        "observed_start": 17
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 17:18."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

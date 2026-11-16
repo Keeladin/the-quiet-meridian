@@ -1,0 +1,1165 @@
+{
+  "line_id": "nadi_arrival_r2",
+  "clip_id": "afa76a29719547e7a2a89ebb9bee654c",
+  "source_text_sha256": "70ee9f932f790db4187530e7becd9f56816ba029b85bfe4738aeb26768def225",
+  "master": "work/gateway-voice/masters/afa76a29719547e7a2a89ebb9bee654c.wav",
+  "wav_sha256": "eeb6472b544a7f3082eda1555d2277d1acc0376154d06bbe19b69bd66bd56871",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1039680,
+    "sample_count": 519840,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 21.66,
+    "peak": 0.55859375,
+    "peak_dbfs": -5.058078556935755,
+    "rms": 0.04457549893621815,
+    "rms_dbfs": -27.01807574082729,
+    "dc_offset": 6.10179554759337e-05,
+    "silence_fraction": 0.2480878731917513,
+    "leading_silence_seconds": 0.4008333333333333,
+    "tail_silence_seconds": 0.06625,
+    "active_span_seconds": 21.192916666666665,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 66,
+    "source_words_per_active_minute": 186.85488469024637,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "i",
+      "knew",
+      "she",
+      "carried",
+      "her",
+      "own",
+      "parcel",
+      "and",
+      "paid",
+      "her",
+      "own",
+      "fare",
+      "i",
+      "put",
+      "her",
+      "ashore",
+      "on",
+      "the",
+      "works",
+      "side",
+      "she",
+      "asked",
+      "for",
+      "privacy",
+      "and",
+      "i",
+      "gave",
+      "it",
+      "then",
+      "the",
+      "notice",
+      "appeared",
+      "and",
+      "made",
+      "my",
+      "silence",
+      "look",
+      "like",
+      "agreement",
+      "i",
+      "should",
+      "have",
+      "challenged",
+      "that",
+      "sooner",
+      "you",
+      "may",
+      "write",
+      "down",
+      "exactly",
+      "what",
+      "i",
+      "saw",
+      "please",
+      "do",
+      "not",
+      "improve",
+      "it",
+      "into",
+      "something",
+      "i",
+      "only",
+      "wish",
+      "i",
+      "had",
+      "known"
+    ],
+    "observed_tokens": [
+      "i",
+      "knew",
+      "she",
+      "carried",
+      "her",
+      "own",
+      "parcel",
+      "and",
+      "paid",
+      "her",
+      "own",
+      "fare",
+      "i",
+      "put",
+      "her",
+      "ashore",
+      "on",
+      "the",
+      "works",
+      "side",
+      "she",
+      "asked",
+      "for",
+      "privacy",
+      "and",
+      "i",
+      "gave",
+      "it",
+      "then",
+      "the",
+      "notice",
+      "appeared",
+      "and",
+      "made",
+      "my",
+      "silence",
+      "look",
+      "like",
+      "agreement",
+      "i",
+      "should",
+      "have",
+      "challenged",
+      "that",
+      "sooner",
+      "you",
+      "may",
+      "write",
+      "down",
+      "exactly",
+      "what",
+      "i",
+      "saw",
+      "please",
+      "do",
+      "not",
+      "improve",
+      "it",
+      "into",
+      "something",
+      "i",
+      "only",
+      "wish",
+      "i",
+      "had",
+      "known"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 66,
+        "observed_start": 0,
+        "observed_end": 66,
+        "expected": [
+          "i",
+          "knew",
+          "she",
+          "carried",
+          "her",
+          "own",
+          "parcel",
+          "and",
+          "paid",
+          "her",
+          "own",
+          "fare",
+          "i",
+          "put",
+          "her",
+          "ashore",
+          "on",
+          "the",
+          "works",
+          "side",
+          "she",
+          "asked",
+          "for",
+          "privacy",
+          "and",
+          "i",
+          "gave",
+          "it",
+          "then",
+          "the",
+          "notice",
+          "appeared",
+          "and",
+          "made",
+          "my",
+          "silence",
+          "look",
+          "like",
+          "agreement",
+          "i",
+          "should",
+          "have",
+          "challenged",
+          "that",
+          "sooner",
+          "you",
+          "may",
+          "write",
+          "down",
+          "exactly",
+          "what",
+          "i",
+          "saw",
+          "please",
+          "do",
+          "not",
+          "improve",
+          "it",
+          "into",
+          "something",
+          "i",
+          "only",
+          "wish",
+          "i",
+          "had",
+          "known"
+        ],
+        "observed": [
+          "i",
+          "knew",
+          "she",
+          "carried",
+          "her",
+          "own",
+          "parcel",
+          "and",
+          "paid",
+          "her",
+          "own",
+          "fare",
+          "i",
+          "put",
+          "her",
+          "ashore",
+          "on",
+          "the",
+          "works",
+          "side",
+          "she",
+          "asked",
+          "for",
+          "privacy",
+          "and",
+          "i",
+          "gave",
+          "it",
+          "then",
+          "the",
+          "notice",
+          "appeared",
+          "and",
+          "made",
+          "my",
+          "silence",
+          "look",
+          "like",
+          "agreement",
+          "i",
+          "should",
+          "have",
+          "challenged",
+          "that",
+          "sooner",
+          "you",
+          "may",
+          "write",
+          "down",
+          "exactly",
+          "what",
+          "i",
+          "saw",
+          "please",
+          "do",
+          "not",
+          "improve",
+          "it",
+          "into",
+          "something",
+          "i",
+          "only",
+          "wish",
+          "i",
+          "had",
+          "known"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "I knew she carried her own parcel and paid her own fare. I put her ashore on the work side. She asked for privacy and I gave it. Then the notice appeared and made my violence look like agreement. I should have challenged that sooner. You may write down exactly what I saw. Please do not improve it into something I only wish I had known.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.66,
+      "text": " I knew she carried her own parcel and paid her own fare.",
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.9071190357208252
+        },
+        {
+          "word": " knew",
+          "start": 0.5,
+          "end": 0.74,
+          "probability": 0.9619556069374084
+        },
+        {
+          "word": " she",
+          "start": 0.74,
+          "end": 0.98,
+          "probability": 0.9936042428016663
+        },
+        {
+          "word": " carried",
+          "start": 0.98,
+          "end": 1.34,
+          "probability": 0.9961708188056946
+        },
+        {
+          "word": " her",
+          "start": 1.34,
+          "end": 1.52,
+          "probability": 0.9986594915390015
+        },
+        {
+          "word": " own",
+          "start": 1.52,
+          "end": 1.8,
+          "probability": 0.9960439205169678
+        },
+        {
+          "word": " parcel",
+          "start": 1.8,
+          "end": 2.24,
+          "probability": 0.9982403516769409
+        },
+        {
+          "word": " and",
+          "start": 2.24,
+          "end": 2.58,
+          "probability": 0.9832354784011841
+        },
+        {
+          "word": " paid",
+          "start": 2.58,
+          "end": 2.88,
+          "probability": 0.9887480735778809
+        },
+        {
+          "word": " her",
+          "start": 2.88,
+          "end": 3.08,
+          "probability": 0.9976508021354675
+        },
+        {
+          "word": " own",
+          "start": 3.08,
+          "end": 3.36,
+          "probability": 0.9925042390823364
+        },
+        {
+          "word": " fare.",
+          "start": 3.36,
+          "end": 3.66,
+          "probability": 0.9675906300544739
+        }
+      ]
+    },
+    {
+      "start": 4.24,
+      "end": 6.26,
+      "text": " I put her ashore on the work side.",
+      "words": [
+        {
+          "word": " I",
+          "start": 4.24,
+          "end": 4.48,
+          "probability": 0.997403085231781
+        },
+        {
+          "word": " put",
+          "start": 4.48,
+          "end": 4.68,
+          "probability": 0.9979718327522278
+        },
+        {
+          "word": " her",
+          "start": 4.68,
+          "end": 4.88,
+          "probability": 0.998348593711853
+        },
+        {
+          "word": " ashore",
+          "start": 4.88,
+          "end": 5.26,
+          "probability": 0.9881540536880493
+        },
+        {
+          "word": " on",
+          "start": 5.26,
+          "end": 5.54,
+          "probability": 0.9949302077293396
+        },
+        {
+          "word": " the",
+          "start": 5.54,
+          "end": 5.72,
+          "probability": 0.9988730549812317
+        },
+        {
+          "word": " work",
+          "start": 5.72,
+          "end": 5.88,
+          "probability": 0.8533307313919067
+        },
+        {
+          "word": " side.",
+          "start": 5.88,
+          "end": 6.26,
+          "probability": 0.9395756125450134
+        }
+      ]
+    },
+    {
+      "start": 6.66,
+      "end": 8.96,
+      "text": " She asked for privacy and I gave it.",
+      "words": [
+        {
+          "word": " She",
+          "start": 6.66,
+          "end": 6.88,
+          "probability": 0.9950199127197266
+        },
+        {
+          "word": " asked",
+          "start": 6.88,
+          "end": 7.18,
+          "probability": 0.991923987865448
+        },
+        {
+          "word": " for",
+          "start": 7.18,
+          "end": 7.38,
+          "probability": 0.999270498752594
+        },
+        {
+          "word": " privacy",
+          "start": 7.38,
+          "end": 7.84,
+          "probability": 0.9852315187454224
+        },
+        {
+          "word": " and",
+          "start": 7.84,
+          "end": 8.12,
+          "probability": 0.9077106714248657
+        },
+        {
+          "word": " I",
+          "start": 8.12,
+          "end": 8.34,
+          "probability": 0.9902276992797852
+        },
+        {
+          "word": " gave",
+          "start": 8.34,
+          "end": 8.52,
+          "probability": 0.9983653426170349
+        },
+        {
+          "word": " it.",
+          "start": 8.52,
+          "end": 8.96,
+          "probability": 0.9988728165626526
+        }
+      ]
+    },
+    {
+      "start": 9.42,
+      "end": 12.56,
+      "text": " Then the notice appeared and made my violence look like agreement.",
+      "words": [
+        {
+          "word": " Then",
+          "start": 9.42,
+          "end": 9.56,
+          "probability": 0.988937258720398
+        },
+        {
+          "word": " the",
+          "start": 9.56,
+          "end": 9.74,
+          "probability": 0.9651012420654297
+        },
+        {
+          "word": " notice",
+          "start": 9.74,
+          "end": 10.02,
+          "probability": 0.9919798374176025
+        },
+        {
+          "word": " appeared",
+          "start": 10.02,
+          "end": 10.5,
+          "probability": 0.9990265369415283
+        },
+        {
+          "word": " and",
+          "start": 10.5,
+          "end": 10.8,
+          "probability": 0.9477512836456299
+        },
+        {
+          "word": " made",
+          "start": 10.8,
+          "end": 11.04,
+          "probability": 0.9945172667503357
+        },
+        {
+          "word": " my",
+          "start": 11.04,
+          "end": 11.26,
+          "probability": 0.9979733824729919
+        },
+        {
+          "word": " violence",
+          "start": 11.26,
+          "end": 11.72,
+          "probability": 0.5042728781700134
+        },
+        {
+          "word": " look",
+          "start": 11.72,
+          "end": 11.92,
+          "probability": 0.9895534515380859
+        },
+        {
+          "word": " like",
+          "start": 11.92,
+          "end": 12.14,
+          "probability": 0.9993390440940857
+        },
+        {
+          "word": " agreement.",
+          "start": 12.14,
+          "end": 12.56,
+          "probability": 0.9659278392791748
+        }
+      ]
+    },
+    {
+      "start": 13.14,
+      "end": 14.52,
+      "text": " I should have challenged that sooner.",
+      "words": [
+        {
+          "word": " I",
+          "start": 13.14,
+          "end": 13.28,
+          "probability": 0.9953426122665405
+        },
+        {
+          "word": " should",
+          "start": 13.28,
+          "end": 13.44,
+          "probability": 0.9987038373947144
+        },
+        {
+          "word": " have",
+          "start": 13.44,
+          "end": 13.62,
+          "probability": 0.8001479506492615
+        },
+        {
+          "word": " challenged",
+          "start": 13.62,
+          "end": 13.94,
+          "probability": 0.995890736579895
+        },
+        {
+          "word": " that",
+          "start": 13.94,
+          "end": 14.2,
+          "probability": 0.9982865452766418
+        },
+        {
+          "word": " sooner.",
+          "start": 14.2,
+          "end": 14.52,
+          "probability": 0.9989263415336609
+        }
+      ]
+    },
+    {
+      "start": 15.14,
+      "end": 17.3,
+      "text": " You may write down exactly what I saw.",
+      "words": [
+        {
+          "word": " You",
+          "start": 15.14,
+          "end": 15.28,
+          "probability": 0.9942489862442017
+        },
+        {
+          "word": " may",
+          "start": 15.28,
+          "end": 15.46,
+          "probability": 0.9960240125656128
+        },
+        {
+          "word": " write",
+          "start": 15.46,
+          "end": 15.72,
+          "probability": 0.9984509944915771
+        },
+        {
+          "word": " down",
+          "start": 15.72,
+          "end": 16.06,
+          "probability": 0.9987157583236694
+        },
+        {
+          "word": " exactly",
+          "start": 16.06,
+          "end": 16.64,
+          "probability": 0.9962408542633057
+        },
+        {
+          "word": " what",
+          "start": 16.64,
+          "end": 16.84,
+          "probability": 0.9989482760429382
+        },
+        {
+          "word": " I",
+          "start": 16.84,
+          "end": 17.0,
+          "probability": 0.9939942955970764
+        },
+        {
+          "word": " saw.",
+          "start": 17.0,
+          "end": 17.3,
+          "probability": 0.997931957244873
+        }
+      ]
+    },
+    {
+      "start": 17.3,
+      "end": 21.16,
+      "text": " Please do not improve it into something I only wish I had known.",
+      "words": [
+        {
+          "word": " Please",
+          "start": 17.3,
+          "end": 17.98,
+          "probability": 0.4917739927768707
+        },
+        {
+          "word": " do",
+          "start": 17.98,
+          "end": 18.2,
+          "probability": 0.9860467314720154
+        },
+        {
+          "word": " not",
+          "start": 18.2,
+          "end": 18.44,
+          "probability": 0.9897124767303467
+        },
+        {
+          "word": " improve",
+          "start": 18.44,
+          "end": 18.86,
+          "probability": 0.966359555721283
+        },
+        {
+          "word": " it",
+          "start": 18.86,
+          "end": 19.04,
+          "probability": 0.9967231154441833
+        },
+        {
+          "word": " into",
+          "start": 19.04,
+          "end": 19.3,
+          "probability": 0.9967470169067383
+        },
+        {
+          "word": " something",
+          "start": 19.3,
+          "end": 19.64,
+          "probability": 0.9956667423248291
+        },
+        {
+          "word": " I",
+          "start": 19.64,
+          "end": 19.88,
+          "probability": 0.9782984852790833
+        },
+        {
+          "word": " only",
+          "start": 19.88,
+          "end": 20.2,
+          "probability": 0.9893723130226135
+        },
+        {
+          "word": " wish",
+          "start": 20.2,
+          "end": 20.48,
+          "probability": 0.9437699913978577
+        },
+        {
+          "word": " I",
+          "start": 20.48,
+          "end": 20.74,
+          "probability": 0.9928258657455444
+        },
+        {
+          "word": " had",
+          "start": 20.74,
+          "end": 20.9,
+          "probability": 0.9985581040382385
+        },
+        {
+          "word": " known.",
+          "start": 20.9,
+          "end": 21.16,
+          "probability": 0.9980781078338623
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "i",
+      "knew",
+      "she",
+      "carried",
+      "her",
+      "own",
+      "parcel",
+      "and",
+      "paid",
+      "her",
+      "own",
+      "fare",
+      "i",
+      "put",
+      "her",
+      "ashore",
+      "on",
+      "the",
+      "works",
+      "side",
+      "she",
+      "asked",
+      "for",
+      "privacy",
+      "and",
+      "i",
+      "gave",
+      "it",
+      "then",
+      "the",
+      "notice",
+      "appeared",
+      "and",
+      "made",
+      "my",
+      "silence",
+      "look",
+      "like",
+      "agreement",
+      "i",
+      "should",
+      "have",
+      "challenged",
+      "that",
+      "sooner",
+      "you",
+      "may",
+      "write",
+      "down",
+      "exactly",
+      "what",
+      "i",
+      "saw",
+      "please",
+      "do",
+      "not",
+      "improve",
+      "it",
+      "into",
+      "something",
+      "i",
+      "only",
+      "wish",
+      "i",
+      "had",
+      "known"
+    ],
+    "observed_tokens": [
+      "i",
+      "knew",
+      "she",
+      "carried",
+      "her",
+      "own",
+      "parcel",
+      "and",
+      "paid",
+      "her",
+      "own",
+      "fare",
+      "i",
+      "put",
+      "her",
+      "ashore",
+      "on",
+      "the",
+      "work",
+      "side",
+      "she",
+      "asked",
+      "for",
+      "privacy",
+      "and",
+      "i",
+      "gave",
+      "it",
+      "then",
+      "the",
+      "notice",
+      "appeared",
+      "and",
+      "made",
+      "my",
+      "violence",
+      "look",
+      "like",
+      "agreement",
+      "i",
+      "should",
+      "have",
+      "challenged",
+      "that",
+      "sooner",
+      "you",
+      "may",
+      "write",
+      "down",
+      "exactly",
+      "what",
+      "i",
+      "saw",
+      "please",
+      "do",
+      "not",
+      "improve",
+      "it",
+      "into",
+      "something",
+      "i",
+      "only",
+      "wish",
+      "i",
+      "had",
+      "known"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 18,
+        "observed_start": 0,
+        "observed_end": 18,
+        "expected": [
+          "i",
+          "knew",
+          "she",
+          "carried",
+          "her",
+          "own",
+          "parcel",
+          "and",
+          "paid",
+          "her",
+          "own",
+          "fare",
+          "i",
+          "put",
+          "her",
+          "ashore",
+          "on",
+          "the"
+        ],
+        "observed": [
+          "i",
+          "knew",
+          "she",
+          "carried",
+          "her",
+          "own",
+          "parcel",
+          "and",
+          "paid",
+          "her",
+          "own",
+          "fare",
+          "i",
+          "put",
+          "her",
+          "ashore",
+          "on",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 18,
+        "expected_end": 19,
+        "observed_start": 18,
+        "observed_end": 19,
+        "expected": [
+          "works"
+        ],
+        "observed": [
+          "work"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 19,
+        "expected_end": 35,
+        "observed_start": 19,
+        "observed_end": 35,
+        "expected": [
+          "side",
+          "she",
+          "asked",
+          "for",
+          "privacy",
+          "and",
+          "i",
+          "gave",
+          "it",
+          "then",
+          "the",
+          "notice",
+          "appeared",
+          "and",
+          "made",
+          "my"
+        ],
+        "observed": [
+          "side",
+          "she",
+          "asked",
+          "for",
+          "privacy",
+          "and",
+          "i",
+          "gave",
+          "it",
+          "then",
+          "the",
+          "notice",
+          "appeared",
+          "and",
+          "made",
+          "my"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 35,
+        "expected_end": 36,
+        "observed_start": 35,
+        "observed_end": 36,
+        "expected": [
+          "silence"
+        ],
+        "observed": [
+          "violence"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 36,
+        "expected_end": 66,
+        "observed_start": 36,
+        "observed_end": 66,
+        "expected": [
+          "look",
+          "like",
+          "agreement",
+          "i",
+          "should",
+          "have",
+          "challenged",
+          "that",
+          "sooner",
+          "you",
+          "may",
+          "write",
+          "down",
+          "exactly",
+          "what",
+          "i",
+          "saw",
+          "please",
+          "do",
+          "not",
+          "improve",
+          "it",
+          "into",
+          "something",
+          "i",
+          "only",
+          "wish",
+          "i",
+          "had",
+          "known"
+        ],
+        "observed": [
+          "look",
+          "like",
+          "agreement",
+          "i",
+          "should",
+          "have",
+          "challenged",
+          "that",
+          "sooner",
+          "you",
+          "may",
+          "write",
+          "down",
+          "exactly",
+          "what",
+          "i",
+          "saw",
+          "please",
+          "do",
+          "not",
+          "improve",
+          "it",
+          "into",
+          "something",
+          "i",
+          "only",
+          "wish",
+          "i",
+          "had",
+          "known"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "works"
+        ],
+        "observed": [
+          "work"
+        ],
+        "expected_start": 18,
+        "observed_start": 18
+      },
+      {
+        "expected": [
+          "silence"
+        ],
+        "observed": [
+          "violence"
+        ],
+        "expected_start": 35,
+        "observed_start": 35
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 18:19.",
+      "Changed source words at expected tokens 35:36."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

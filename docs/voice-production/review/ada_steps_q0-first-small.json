@@ -1,0 +1,276 @@
+{
+  "line_id": "ada_steps_q0",
+  "clip_id": "fbbf0d9650c7441987c12cd8665efee6",
+  "source_text_sha256": "f3d609573f46ae14be7355823735ffdb7a9f03fda1367521d1eeb6d46f3bd862",
+  "master": "work/gateway-voice/masters/fbbf0d9650c7441987c12cd8665efee6.wav",
+  "wav_sha256": "f16bd47e769aa05092762ffb65b3a03161a3b38ccd1e58136603bad92e3b13af",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 133440,
+    "sample_count": 66720,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.78,
+    "peak": 0.392578125,
+    "peak_dbfs": -8.121478071106838,
+    "rms": 0.060030689994074585,
+    "rms_dbfs": -24.43253329650172,
+    "dc_offset": 8.952737712174011e-05,
+    "silence_fraction": 0.4537170263788969,
+    "leading_silence_seconds": 0.4039583333333333,
+    "tail_silence_seconds": 0.36191666666666666,
+    "active_span_seconds": 2.014125,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 8,
+    "source_words_per_active_minute": 238.31688698566376,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "keep",
+      "a",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "observed_tokens": [
+      "why",
+      "keep",
+      "a",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "keep",
+          "a",
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ],
+        "observed": [
+          "why",
+          "keep",
+          "a",
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why keep the clock you know is wrong",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.24,
+      "text": " Why keep the clock you know is wrong",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.834226667881012
+        },
+        {
+          "word": " keep",
+          "start": 0.56,
+          "end": 0.76,
+          "probability": 0.9824495315551758
+        },
+        {
+          "word": " the",
+          "start": 0.76,
+          "end": 0.9,
+          "probability": 0.9886094331741333
+        },
+        {
+          "word": " clock",
+          "start": 0.9,
+          "end": 1.18,
+          "probability": 0.9929476976394653
+        },
+        {
+          "word": " you",
+          "start": 1.18,
+          "end": 1.7,
+          "probability": 0.18919196724891663
+        },
+        {
+          "word": " know",
+          "start": 1.7,
+          "end": 1.84,
+          "probability": 0.994691789150238
+        },
+        {
+          "word": " is",
+          "start": 1.84,
+          "end": 1.98,
+          "probability": 0.963701069355011
+        },
+        {
+          "word": " wrong",
+          "start": 1.98,
+          "end": 2.24,
+          "probability": 0.9978294968605042
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "keep",
+      "a",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "observed_tokens": [
+      "why",
+      "keep",
+      "the",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 2,
+        "observed_start": 0,
+        "observed_end": 2,
+        "expected": [
+          "why",
+          "keep"
+        ],
+        "observed": [
+          "why",
+          "keep"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 2,
+        "expected_end": 3,
+        "observed_start": 2,
+        "observed_end": 3,
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 3,
+        "expected_end": 8,
+        "observed_start": 3,
+        "observed_end": 8,
+        "expected": [
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ],
+        "observed": [
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ],
+        "expected_start": 2,
+        "observed_start": 2
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 2:3."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

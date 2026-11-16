@@ -1,0 +1,1229 @@
+{
+  "date": "2026-11-16",
+  "source_revision": "dc0111fb50225af6f619a37816da20a3982b1255",
+  "snapshot_type": "new public history",
+  "excluded": [
+    {
+      "path": "assets/audio/auditions/2026-11-14-natural/ledger.json",
+      "reason": "Private audition spending ledger and approved request record"
+    },
+    {
+      "path": "assets/audio/auditions/2026-11-14-natural/request-plan.json",
+      "reason": "Private audition spending ledger and approved request record"
+    },
+    {
+      "path": "assets/audio/auditions/2026-11-14/ledger.json",
+      "reason": "Private audition spending ledger and approved request record"
+    },
+    {
+      "path": "assets/audio/auditions/2026-11-14/request-plan.json",
+      "reason": "Private audition spending ledger and approved request record"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_door_1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_door_1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_3.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_3.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_stone_1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_stone_1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_stone_2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_stone_2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wet_1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wet_1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wet_2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wet_2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wood_1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wood_1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wood_2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wood_2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l3.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l3.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l4.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l4.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l5.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l5.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l6.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch1_l6.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l3.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l3.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l4.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l4.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l5.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l5.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l6.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch2_l6.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l3.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l3.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l4.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l4.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l5.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l5.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l6.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch3_l6.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l3.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l3.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l4.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l4.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l5.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l5.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l6.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch4_l6.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l3.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l3.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l4.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l4.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l5.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l5.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l6.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch5_l6.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l1.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l1.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l2.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l2.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l3.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l3.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l4.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l4.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l5.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l5.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l6.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-campaign/room_ch6_l6.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/building_movement.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/building_movement.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/harbour_water.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/harbour_water.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/hint_revealed.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/hint_revealed.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/journal_updated.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/journal_updated.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/menu_interaction.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/menu_interaction.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/moored_boat_and_ropes.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/moored_boat_and_ropes.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/object_found.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/object_found.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/office_clock.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/office_clock.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/office_room_tone.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/office_room_tone.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/rain_on_the_office.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/rain_on_the_office.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/receipt_recovered.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/receipt_recovered.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/search_completed.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/search_completed.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/symbol_understood.ogg",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "assets/audio/licensed-opening/symbol_understood.ogg.import",
+      "reason": "Purchased recordings: distributed only inside playable game data"
+    },
+    {
+      "path": "docs/voice-production/GATEWAY_BATCH_PLAN.md",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/checkpoints/before-corrections-VOICE_BATCH_REPORT.md",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/checkpoints/before-corrections-VOICE_REVIEW_SUMMARY.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/checkpoints/before-resume-VOICE_BATCH_REPORT.md",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/checkpoints/before-resume-VOICE_REVIEW_SUMMARY.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/correction-final-budget.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-quotes-retake1.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-quotes-retake2.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-quotes-retake3.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-quotes-retake4.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-run-retake1.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-run-retake2.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-run-retake3.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/correction-run-retake4.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/draft-delivery.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/gateway-approval.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/gateway-batch-plan.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/gateway-interruption.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/gateway-quotes.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/gateway-resume-final-budget.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/gateway-resume-plan.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/owner-billing-exception.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/quote-validation.json",
+      "reason": "Private gateway administration and generation run records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_greeting-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_q0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ada_steps_r2-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch1_closing-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch1_closing-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch1_intro-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch1_intro-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch2_closing-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch2_closing-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch2_closing-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch2_intro-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_closing-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_closing-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_closing-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_closing-retake3.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_closing-retake4.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_intro-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_intro-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch3_intro-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch4_closing-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch4_intro-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch5_closing-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch5_closing-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch5_intro-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch5_intro-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch5_intro-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch6_closing-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch6_closing-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch6_closing-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/ch6_intro-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_council_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_council_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_council_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_council_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_council_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_council_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_council_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_r0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/elian_machine_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_r0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_memory_room_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_greeting-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_q0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_r1-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_r1-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/mara_refuge_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_q0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_r0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_arrival_r2-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_r0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_r0-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_r0-retake3.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_memorial_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_signal_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_signal_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_signal_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_signal_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_signal_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_signal_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/nadi_signal_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_ending-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_ending-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_ending-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_ending-retake3.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_ending-retake4.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_opening-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_opening-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/narration_opening-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_greeting-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_greeting-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_q1-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_r1-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_r1-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_before_hearing_r2-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_q2-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_r0-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_r0-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_r1-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/rowan_kitchen_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_r1-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_r1-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_archive_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_greeting-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_q0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_q1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_q2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_r0-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_r1-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_r1-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_r1-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_r2-first.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_r2-retake1.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/receipts/sera_proof_r2-retake2.json",
+      "reason": "Private production receipts and historical administrative records"
+    },
+    {
+      "path": "docs/voice-production/user-diction-correction.json",
+      "reason": "Private gateway administration and generation run records"
+    }
+  ],
+  "packages": [
+    {
+      "name": "hidden-object-campaign-v4-linux.zip",
+      "sha256": "7decfca99cd3e4b1b29871a7540e654cf3afd0e46862b27be6e4b216762ca529",
+      "bytes": 339401141,
+      "original_archive_sha256": "9fe26c83aa89ced8c51f230f0a20f278b02967ba0ff74f8fa1315ae076820be9",
+      "unchanged_included_files": {
+        "FOLEY_LICENSES.txt": "2de74c7e19212139578cb7b560225aac5b62221104d69e68605de204792a155e",
+        "FONT_LICENSE.txt": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+        "GODOT_NOTICES.txt": "aa03a44d9b834f035e544b9aad0c7e91d43ba16bc595490c4c5c4853155bc348",
+        "LICENSES.md": "fa3178ba715127ed0e0a77d2ca57eebe7b4da077f037afeae3012dcb501d850e",
+        "MUSIC_LICENSE.txt": "8fbdbfc5c2eef1cc8e6348f9b92778a920deee8f7de036ef8a3078377c3ae59f",
+        "PLAYER_GUIDE.md": "0ae8468ca2d2d8e3cc3ab626f4561f9597ebfd5ce20168685cd12b1fc2744e40",
+        "README.txt": "c7ffb1a66a62873dc3745b6130dda8790e2eae3c667804d133d74f079e1e7362",
+        "quiet-meridian.pck": "2574dec4dc6f90d587f44f355be094a9efbd46a1ed4d27056567b35992ad9976",
+        "quiet-meridian.x86_64": "d9f79ab89b5ae369aeed11c6052d402e8218cd503bf85b4a235f9c30c46a7c63"
+      }
+    },
+    {
+      "name": "hidden-object-campaign-v4-windows.zip",
+      "sha256": "1686495c48d936fd8a341a4ee8ed12d297cd058813066878f2d03b1175970857",
+      "bytes": 349052123,
+      "original_archive_sha256": "2976bd9cf9af3549b3a8fc0e3a15e2096b68a2b099bde41b24f964f7a3967aac",
+      "unchanged_included_files": {
+        "FOLEY_LICENSES.txt": "2de74c7e19212139578cb7b560225aac5b62221104d69e68605de204792a155e",
+        "FONT_LICENSE.txt": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+        "GODOT_NOTICES.txt": "aa03a44d9b834f035e544b9aad0c7e91d43ba16bc595490c4c5c4853155bc348",
+        "LICENSES.md": "fa3178ba715127ed0e0a77d2ca57eebe7b4da077f037afeae3012dcb501d850e",
+        "MUSIC_LICENSE.txt": "8fbdbfc5c2eef1cc8e6348f9b92778a920deee8f7de036ef8a3078377c3ae59f",
+        "PLAYER_GUIDE.md": "0ae8468ca2d2d8e3cc3ab626f4561f9597ebfd5ce20168685cd12b1fc2744e40",
+        "README.txt": "af97a21a0953f319e70262da11168ee11a256e0d0930c52d13f71190464ae30c",
+        "quiet-meridian.exe": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+        "quiet-meridian.pck": "2574dec4dc6f90d587f44f355be094a9efbd46a1ed4d27056567b35992ad9976"
+      }
+    }
+  ],
+  "credential_pattern_scan": "no matches",
+  "runtime_code_and_content": "byte-identical to original revision"
+}

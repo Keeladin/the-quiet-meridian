@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "scope": "three_sample_auditions_only",
+  "manifest_sha256": "2cb37edad079cb25fcfbbe0fd4f4317a6f1ed2a871649a39e3d8bc829f40ee3e",
+  "cap_usd": 0.25,
+  "max_attempts_total": 3,
+  "max_attempts_per_line": 1,
+  "approved_by": "user in this conversation",
+  "approval_text": "Approve US$0.25, first three takes only",
+  "credential_authorization": "Reuse Atlas’s existing OpenAI key read-only, without exposing or storing it",
+  "recorded_utc": "2026-11-14T11:07:11.142402+00:00",
+  "remaining_95_authorized": false,
+  "retakes_authorized": false
+}

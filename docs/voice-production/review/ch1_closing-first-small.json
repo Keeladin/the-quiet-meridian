@@ -1,0 +1,738 @@
+{
+  "line_id": "ch1_closing",
+  "clip_id": "7d08f2e0aece42998c456763fadd6a02",
+  "source_text_sha256": "c3498c81470d4454353081894e1d13d95a7ddd934d60459531184fc3bf84468a",
+  "master": "work/gateway-voice/masters/7d08f2e0aece42998c456763fadd6a02.wav",
+  "wav_sha256": "d106ddba16eccf242b5c2f774e2a6d4c7b07041d61e3f0f7599078647eec4452",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 717120,
+    "sample_count": 358560,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 14.94,
+    "peak": 0.828125,
+    "peak_dbfs": -1.6380820876619626,
+    "rms": 0.07985500915846035,
+    "rms_dbfs": -21.9539567234728,
+    "dc_offset": 0.0001252752710058986,
+    "silence_fraction": 0.24710229808121376,
+    "leading_silence_seconds": 0.4054583333333333,
+    "tail_silence_seconds": 0.38008333333333333,
+    "active_span_seconds": 14.154458333333332,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 40,
+    "source_words_per_active_minute": 169.557883705664,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "was",
+      "not",
+      "taken",
+      "from",
+      "leth",
+      "she",
+      "borrowed",
+      "the",
+      "bell",
+      "key",
+      "recovered",
+      "a",
+      "removed",
+      "folio",
+      "and",
+      "followed",
+      "a",
+      "record",
+      "of",
+      "the",
+      "old",
+      "flood",
+      "toward",
+      "the",
+      "pumping",
+      "works",
+      "the",
+      "tide",
+      "and",
+      "the",
+      "official",
+      "story",
+      "disagree",
+      "by",
+      "more",
+      "than",
+      "a",
+      "smudged",
+      "digit"
+    ],
+    "observed_tokens": [
+      "mara",
+      "was",
+      "not",
+      "taken",
+      "from",
+      "leth",
+      "she",
+      "borrowed",
+      "the",
+      "bell",
+      "key",
+      "recovered",
+      "a",
+      "removed",
+      "folio",
+      "and",
+      "followed",
+      "a",
+      "record",
+      "of",
+      "the",
+      "old",
+      "flood",
+      "toward",
+      "the",
+      "pumping",
+      "works",
+      "the",
+      "tide",
+      "and",
+      "the",
+      "official",
+      "story",
+      "disagree",
+      "by",
+      "more",
+      "than",
+      "a",
+      "smudged",
+      "digit"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 40,
+        "observed_start": 0,
+        "observed_end": 40,
+        "expected": [
+          "mara",
+          "was",
+          "not",
+          "taken",
+          "from",
+          "leth",
+          "she",
+          "borrowed",
+          "the",
+          "bell",
+          "key",
+          "recovered",
+          "a",
+          "removed",
+          "folio",
+          "and",
+          "followed",
+          "a",
+          "record",
+          "of",
+          "the",
+          "old",
+          "flood",
+          "toward",
+          "the",
+          "pumping",
+          "works",
+          "the",
+          "tide",
+          "and",
+          "the",
+          "official",
+          "story",
+          "disagree",
+          "by",
+          "more",
+          "than",
+          "a",
+          "smudged",
+          "digit"
+        ],
+        "observed": [
+          "mara",
+          "was",
+          "not",
+          "taken",
+          "from",
+          "leth",
+          "she",
+          "borrowed",
+          "the",
+          "bell",
+          "key",
+          "recovered",
+          "a",
+          "removed",
+          "folio",
+          "and",
+          "followed",
+          "a",
+          "record",
+          "of",
+          "the",
+          "old",
+          "flood",
+          "toward",
+          "the",
+          "pumping",
+          "works",
+          "the",
+          "tide",
+          "and",
+          "the",
+          "official",
+          "story",
+          "disagree",
+          "by",
+          "more",
+          "than",
+          "a",
+          "smudged",
+          "digit"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Mara was not taken from Loth. She borrowed the bell key, recovered a removed folio, and followed a record of the old flood toward the pumping works. The tide and the official story disagree by more than a smudged digit.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.38,
+      "text": " Mara was not taken from Loth. She borrowed the bell key, recovered a removed folio, and",
+      "words": [
+        {
+          "word": " Mara",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.8016774654388428
+        },
+        {
+          "word": " was",
+          "start": 0.62,
+          "end": 0.84,
+          "probability": 0.9844224452972412
+        },
+        {
+          "word": " not",
+          "start": 0.84,
+          "end": 1.06,
+          "probability": 0.9982696771621704
+        },
+        {
+          "word": " taken",
+          "start": 1.06,
+          "end": 1.36,
+          "probability": 0.9153921604156494
+        },
+        {
+          "word": " from",
+          "start": 1.36,
+          "end": 1.66,
+          "probability": 0.9983165264129639
+        },
+        {
+          "word": " Loth.",
+          "start": 1.66,
+          "end": 1.94,
+          "probability": 0.6909736096858978
+        },
+        {
+          "word": " She",
+          "start": 2.56,
+          "end": 2.84,
+          "probability": 0.9953001737594604
+        },
+        {
+          "word": " borrowed",
+          "start": 2.84,
+          "end": 3.08,
+          "probability": 0.996455729007721
+        },
+        {
+          "word": " the",
+          "start": 3.08,
+          "end": 3.34,
+          "probability": 0.9981749057769775
+        },
+        {
+          "word": " bell",
+          "start": 3.34,
+          "end": 3.52,
+          "probability": 0.7834771275520325
+        },
+        {
+          "word": " key,",
+          "start": 3.52,
+          "end": 3.82,
+          "probability": 0.7284567952156067
+        },
+        {
+          "word": " recovered",
+          "start": 4.3,
+          "end": 4.62,
+          "probability": 0.9995079040527344
+        },
+        {
+          "word": " a",
+          "start": 4.62,
+          "end": 4.84,
+          "probability": 0.9968603849411011
+        },
+        {
+          "word": " removed",
+          "start": 4.84,
+          "end": 5.18,
+          "probability": 0.9952523708343506
+        },
+        {
+          "word": " folio,",
+          "start": 5.18,
+          "end": 5.76,
+          "probability": 0.9353504776954651
+        },
+        {
+          "word": " and",
+          "start": 6.2,
+          "end": 6.38,
+          "probability": 0.9985682964324951
+        }
+      ]
+    },
+    {
+      "start": 6.38,
+      "end": 11.48,
+      "text": " followed a record of the old flood toward the pumping works. The tide and the official",
+      "words": [
+        {
+          "word": " followed",
+          "start": 6.38,
+          "end": 6.72,
+          "probability": 0.998006284236908
+        },
+        {
+          "word": " a",
+          "start": 6.72,
+          "end": 6.92,
+          "probability": 0.9985727071762085
+        },
+        {
+          "word": " record",
+          "start": 6.92,
+          "end": 7.18,
+          "probability": 0.9984064698219299
+        },
+        {
+          "word": " of",
+          "start": 7.18,
+          "end": 7.4,
+          "probability": 0.9991471767425537
+        },
+        {
+          "word": " the",
+          "start": 7.4,
+          "end": 7.48,
+          "probability": 0.9970773458480835
+        },
+        {
+          "word": " old",
+          "start": 7.48,
+          "end": 7.72,
+          "probability": 0.9243699312210083
+        },
+        {
+          "word": " flood",
+          "start": 7.72,
+          "end": 8.06,
+          "probability": 0.9801902174949646
+        },
+        {
+          "word": " toward",
+          "start": 8.06,
+          "end": 8.62,
+          "probability": 0.9657800197601318
+        },
+        {
+          "word": " the",
+          "start": 8.62,
+          "end": 8.86,
+          "probability": 0.9702088236808777
+        },
+        {
+          "word": " pumping",
+          "start": 8.86,
+          "end": 9.1,
+          "probability": 0.761012613773346
+        },
+        {
+          "word": " works.",
+          "start": 9.1,
+          "end": 9.5,
+          "probability": 0.980628490447998
+        },
+        {
+          "word": " The",
+          "start": 10.38,
+          "end": 10.54,
+          "probability": 0.9902498126029968
+        },
+        {
+          "word": " tide",
+          "start": 10.54,
+          "end": 10.84,
+          "probability": 0.8443750739097595
+        },
+        {
+          "word": " and",
+          "start": 10.84,
+          "end": 11.1,
+          "probability": 0.9949384927749634
+        },
+        {
+          "word": " the",
+          "start": 11.1,
+          "end": 11.2,
+          "probability": 0.9953632354736328
+        },
+        {
+          "word": " official",
+          "start": 11.2,
+          "end": 11.48,
+          "probability": 0.9947288632392883
+        }
+      ]
+    },
+    {
+      "start": 11.48,
+      "end": 14.42,
+      "text": " story disagree by more than a smudged digit.",
+      "words": [
+        {
+          "word": " story",
+          "start": 11.48,
+          "end": 12.0,
+          "probability": 0.9952391386032104
+        },
+        {
+          "word": " disagree",
+          "start": 12.0,
+          "end": 12.7,
+          "probability": 0.9222365021705627
+        },
+        {
+          "word": " by",
+          "start": 12.7,
+          "end": 13.1,
+          "probability": 0.9957894682884216
+        },
+        {
+          "word": " more",
+          "start": 13.1,
+          "end": 13.4,
+          "probability": 0.9970971345901489
+        },
+        {
+          "word": " than",
+          "start": 13.4,
+          "end": 13.56,
+          "probability": 0.9967442750930786
+        },
+        {
+          "word": " a",
+          "start": 13.56,
+          "end": 13.72,
+          "probability": 0.9992786049842834
+        },
+        {
+          "word": " smudged",
+          "start": 13.72,
+          "end": 14.16,
+          "probability": 0.989924410978953
+        },
+        {
+          "word": " digit.",
+          "start": 14.16,
+          "end": 14.42,
+          "probability": 0.9928105473518372
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "was",
+      "not",
+      "taken",
+      "from",
+      "leth",
+      "she",
+      "borrowed",
+      "the",
+      "bell",
+      "key",
+      "recovered",
+      "a",
+      "removed",
+      "folio",
+      "and",
+      "followed",
+      "a",
+      "record",
+      "of",
+      "the",
+      "old",
+      "flood",
+      "toward",
+      "the",
+      "pumping",
+      "works",
+      "the",
+      "tide",
+      "and",
+      "the",
+      "official",
+      "story",
+      "disagree",
+      "by",
+      "more",
+      "than",
+      "a",
+      "smudged",
+      "digit"
+    ],
+    "observed_tokens": [
+      "mara",
+      "was",
+      "not",
+      "taken",
+      "from",
+      "loth",
+      "she",
+      "borrowed",
+      "the",
+      "bell",
+      "key",
+      "recovered",
+      "a",
+      "removed",
+      "folio",
+      "and",
+      "followed",
+      "a",
+      "record",
+      "of",
+      "the",
+      "old",
+      "flood",
+      "toward",
+      "the",
+      "pumping",
+      "works",
+      "the",
+      "tide",
+      "and",
+      "the",
+      "official",
+      "story",
+      "disagree",
+      "by",
+      "more",
+      "than",
+      "a",
+      "smudged",
+      "digit"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 5,
+        "observed_start": 0,
+        "observed_end": 5,
+        "expected": [
+          "mara",
+          "was",
+          "not",
+          "taken",
+          "from"
+        ],
+        "observed": [
+          "mara",
+          "was",
+          "not",
+          "taken",
+          "from"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 5,
+        "expected_end": 6,
+        "observed_start": 5,
+        "observed_end": 6,
+        "expected": [
+          "leth"
+        ],
+        "observed": [
+          "loth"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 6,
+        "expected_end": 40,
+        "observed_start": 6,
+        "observed_end": 40,
+        "expected": [
+          "she",
+          "borrowed",
+          "the",
+          "bell",
+          "key",
+          "recovered",
+          "a",
+          "removed",
+          "folio",
+          "and",
+          "followed",
+          "a",
+          "record",
+          "of",
+          "the",
+          "old",
+          "flood",
+          "toward",
+          "the",
+          "pumping",
+          "works",
+          "the",
+          "tide",
+          "and",
+          "the",
+          "official",
+          "story",
+          "disagree",
+          "by",
+          "more",
+          "than",
+          "a",
+          "smudged",
+          "digit"
+        ],
+        "observed": [
+          "she",
+          "borrowed",
+          "the",
+          "bell",
+          "key",
+          "recovered",
+          "a",
+          "removed",
+          "folio",
+          "and",
+          "followed",
+          "a",
+          "record",
+          "of",
+          "the",
+          "old",
+          "flood",
+          "toward",
+          "the",
+          "pumping",
+          "works",
+          "the",
+          "tide",
+          "and",
+          "the",
+          "official",
+          "story",
+          "disagree",
+          "by",
+          "more",
+          "than",
+          "a",
+          "smudged",
+          "digit"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "leth"
+        ],
+        "observed": [
+          "loth"
+        ],
+        "expected_start": 5,
+        "observed_start": 5
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 5:6."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

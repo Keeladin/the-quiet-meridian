@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run mystery game",
+      "type": "godot",
+      "request": "launch",
+      "project": "${workspaceFolder}",
+      "editor_path": "/home/jaco/.local/bin/godot4",
+      "address": "127.0.0.1",
+      "port": 6007
+    }
+  ]
+}

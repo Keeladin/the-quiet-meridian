@@ -1,0 +1,1107 @@
+{
+  "line_id": "mara_refuge_r1",
+  "clip_id": "2322f39843ac41f79fd92bebbcb186fa",
+  "source_text_sha256": "99518e30d7372d184791117703aa3312a4e500344a73dbcbe6a9f918d83c0594",
+  "master": "work/gateway-voice/masters/2322f39843ac41f79fd92bebbcb186fa.wav",
+  "wav_sha256": "85d22a1883f6062284800a25f85a6581bd5ce5dc0b78243b24d5d8af74a25043",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1044480,
+    "sample_count": 522240,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 21.76,
+    "peak": 0.265625,
+    "peak_dbfs": -11.514621052112265,
+    "rms": 0.03186148518203396,
+    "rms_dbfs": -29.934679679719302,
+    "dc_offset": 0.0006562169276031793,
+    "silence_fraction": 0.14905407475490196,
+    "leading_silence_seconds": 0.404375,
+    "tail_silence_seconds": 0.39395833333333335,
+    "active_span_seconds": 20.961666666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 63,
+    "source_words_per_active_minute": 180.32917229864037,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "it",
+      "named",
+      "a",
+      "destructive",
+      "purpose",
+      "but",
+      "the",
+      "signature",
+      "was",
+      "on",
+      "a",
+      "flap",
+      "i",
+      "could",
+      "not",
+      "copy",
+      "more",
+      "than",
+      "that",
+      "it",
+      "called",
+      "the",
+      "reach",
+      "a",
+      "records",
+      "store",
+      "i",
+      "had",
+      "begun",
+      "to",
+      "repeat",
+      "its",
+      "language",
+      "the",
+      "register",
+      "reminded",
+      "me",
+      "there",
+      "were",
+      "homes",
+      "around",
+      "that",
+      "store",
+      "and",
+      "people",
+      "in",
+      "them",
+      "i",
+      "needed",
+      "to",
+      "know",
+      "their",
+      "names",
+      "before",
+      "i",
+      "helped",
+      "turn",
+      "their",
+      "deaths",
+      "into",
+      "a",
+      "neat",
+      "argument"
+    ],
+    "observed_tokens": [
+      "it",
+      "named",
+      "a",
+      "destructive",
+      "purpose",
+      "but",
+      "the",
+      "signature",
+      "was",
+      "on",
+      "a",
+      "flap",
+      "i",
+      "could",
+      "not",
+      "copy",
+      "more",
+      "than",
+      "that",
+      "it",
+      "called",
+      "the",
+      "reach",
+      "a",
+      "records",
+      "store",
+      "i",
+      "had",
+      "begun",
+      "to",
+      "repeat",
+      "its",
+      "language",
+      "the",
+      "register",
+      "reminded",
+      "me",
+      "there",
+      "were",
+      "homes",
+      "around",
+      "that",
+      "store",
+      "and",
+      "people",
+      "in",
+      "them",
+      "i",
+      "needed",
+      "to",
+      "know",
+      "their",
+      "names",
+      "before",
+      "i",
+      "helped",
+      "turn",
+      "their",
+      "deaths",
+      "into",
+      "a",
+      "neat",
+      "argument"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 63,
+        "observed_start": 0,
+        "observed_end": 63,
+        "expected": [
+          "it",
+          "named",
+          "a",
+          "destructive",
+          "purpose",
+          "but",
+          "the",
+          "signature",
+          "was",
+          "on",
+          "a",
+          "flap",
+          "i",
+          "could",
+          "not",
+          "copy",
+          "more",
+          "than",
+          "that",
+          "it",
+          "called",
+          "the",
+          "reach",
+          "a",
+          "records",
+          "store",
+          "i",
+          "had",
+          "begun",
+          "to",
+          "repeat",
+          "its",
+          "language",
+          "the",
+          "register",
+          "reminded",
+          "me",
+          "there",
+          "were",
+          "homes",
+          "around",
+          "that",
+          "store",
+          "and",
+          "people",
+          "in",
+          "them",
+          "i",
+          "needed",
+          "to",
+          "know",
+          "their",
+          "names",
+          "before",
+          "i",
+          "helped",
+          "turn",
+          "their",
+          "deaths",
+          "into",
+          "a",
+          "neat",
+          "argument"
+        ],
+        "observed": [
+          "it",
+          "named",
+          "a",
+          "destructive",
+          "purpose",
+          "but",
+          "the",
+          "signature",
+          "was",
+          "on",
+          "a",
+          "flap",
+          "i",
+          "could",
+          "not",
+          "copy",
+          "more",
+          "than",
+          "that",
+          "it",
+          "called",
+          "the",
+          "reach",
+          "a",
+          "records",
+          "store",
+          "i",
+          "had",
+          "begun",
+          "to",
+          "repeat",
+          "its",
+          "language",
+          "the",
+          "register",
+          "reminded",
+          "me",
+          "there",
+          "were",
+          "homes",
+          "around",
+          "that",
+          "store",
+          "and",
+          "people",
+          "in",
+          "them",
+          "i",
+          "needed",
+          "to",
+          "know",
+          "their",
+          "names",
+          "before",
+          "i",
+          "helped",
+          "turn",
+          "their",
+          "deaths",
+          "into",
+          "a",
+          "neat",
+          "argument"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "It named a destructive purpose, but the signature was on a flat I could not copy. More than that, it called the reach a record store. I had begun to repeat its language. The register reminded me there were homes around that store and people in them. I needed to know their names before I helped turn their deaths into a neat argument.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.92,
+      "text": " It named a destructive purpose, but the signature was on a flat I could not copy.",
+      "words": [
+        {
+          "word": " It",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.8575834631919861
+        },
+        {
+          "word": " named",
+          "start": 0.5,
+          "end": 0.82,
+          "probability": 0.9736029505729675
+        },
+        {
+          "word": " a",
+          "start": 0.82,
+          "end": 0.98,
+          "probability": 0.9867523908615112
+        },
+        {
+          "word": " destructive",
+          "start": 0.98,
+          "end": 1.46,
+          "probability": 0.98854660987854
+        },
+        {
+          "word": " purpose,",
+          "start": 1.46,
+          "end": 2.1,
+          "probability": 0.9962297081947327
+        },
+        {
+          "word": " but",
+          "start": 2.48,
+          "end": 2.64,
+          "probability": 0.9943146109580994
+        },
+        {
+          "word": " the",
+          "start": 2.64,
+          "end": 2.88,
+          "probability": 0.9910368919372559
+        },
+        {
+          "word": " signature",
+          "start": 2.88,
+          "end": 3.22,
+          "probability": 0.9808760285377502
+        },
+        {
+          "word": " was",
+          "start": 3.22,
+          "end": 3.5,
+          "probability": 0.9952661991119385
+        },
+        {
+          "word": " on",
+          "start": 3.5,
+          "end": 3.64,
+          "probability": 0.995900571346283
+        },
+        {
+          "word": " a",
+          "start": 3.64,
+          "end": 3.76,
+          "probability": 0.974410355091095
+        },
+        {
+          "word": " flat",
+          "start": 3.76,
+          "end": 3.96,
+          "probability": 0.9659779071807861
+        },
+        {
+          "word": " I",
+          "start": 3.96,
+          "end": 4.18,
+          "probability": 0.9664815068244934
+        },
+        {
+          "word": " could",
+          "start": 4.18,
+          "end": 4.32,
+          "probability": 0.9944919347763062
+        },
+        {
+          "word": " not",
+          "start": 4.32,
+          "end": 4.52,
+          "probability": 0.9987367987632751
+        },
+        {
+          "word": " copy.",
+          "start": 4.52,
+          "end": 4.92,
+          "probability": 0.9967569708824158
+        }
+      ]
+    },
+    {
+      "start": 5.52,
+      "end": 8.52,
+      "text": " More than that, it called the reach a record store.",
+      "words": [
+        {
+          "word": " More",
+          "start": 5.52,
+          "end": 5.74,
+          "probability": 0.9928498268127441
+        },
+        {
+          "word": " than",
+          "start": 5.74,
+          "end": 5.96,
+          "probability": 0.9956232905387878
+        },
+        {
+          "word": " that,",
+          "start": 5.96,
+          "end": 6.24,
+          "probability": 0.9984102249145508
+        },
+        {
+          "word": " it",
+          "start": 6.46,
+          "end": 6.66,
+          "probability": 0.9948387742042542
+        },
+        {
+          "word": " called",
+          "start": 6.66,
+          "end": 6.92,
+          "probability": 0.997271716594696
+        },
+        {
+          "word": " the",
+          "start": 6.92,
+          "end": 7.14,
+          "probability": 0.9432744979858398
+        },
+        {
+          "word": " reach",
+          "start": 7.14,
+          "end": 7.38,
+          "probability": 0.4466703236103058
+        },
+        {
+          "word": " a",
+          "start": 7.38,
+          "end": 7.64,
+          "probability": 0.9474450945854187
+        },
+        {
+          "word": " record",
+          "start": 7.64,
+          "end": 8.0,
+          "probability": 0.7609047889709473
+        },
+        {
+          "word": " store.",
+          "start": 8.0,
+          "end": 8.52,
+          "probability": 0.9736065864562988
+        }
+      ]
+    },
+    {
+      "start": 9.12,
+      "end": 11.02,
+      "text": " I had begun to repeat its language.",
+      "words": [
+        {
+          "word": " I",
+          "start": 9.12,
+          "end": 9.3,
+          "probability": 0.9955248832702637
+        },
+        {
+          "word": " had",
+          "start": 9.3,
+          "end": 9.44,
+          "probability": 0.9973293542861938
+        },
+        {
+          "word": " begun",
+          "start": 9.44,
+          "end": 9.72,
+          "probability": 0.9931215643882751
+        },
+        {
+          "word": " to",
+          "start": 9.72,
+          "end": 9.96,
+          "probability": 0.9991427659988403
+        },
+        {
+          "word": " repeat",
+          "start": 9.96,
+          "end": 10.3,
+          "probability": 0.9995483756065369
+        },
+        {
+          "word": " its",
+          "start": 10.3,
+          "end": 10.58,
+          "probability": 0.9696503281593323
+        },
+        {
+          "word": " language.",
+          "start": 10.58,
+          "end": 11.02,
+          "probability": 0.9954968690872192
+        }
+      ]
+    },
+    {
+      "start": 11.68,
+      "end": 15.94,
+      "text": " The register reminded me there were homes around that store and people in them.",
+      "words": [
+        {
+          "word": " The",
+          "start": 11.68,
+          "end": 11.88,
+          "probability": 0.9941312670707703
+        },
+        {
+          "word": " register",
+          "start": 11.88,
+          "end": 12.24,
+          "probability": 0.9662297964096069
+        },
+        {
+          "word": " reminded",
+          "start": 12.24,
+          "end": 12.84,
+          "probability": 0.9974693059921265
+        },
+        {
+          "word": " me",
+          "start": 12.84,
+          "end": 13.2,
+          "probability": 0.9991022348403931
+        },
+        {
+          "word": " there",
+          "start": 13.2,
+          "end": 13.36,
+          "probability": 0.9567868709564209
+        },
+        {
+          "word": " were",
+          "start": 13.36,
+          "end": 13.52,
+          "probability": 0.9973107576370239
+        },
+        {
+          "word": " homes",
+          "start": 13.52,
+          "end": 13.88,
+          "probability": 0.9913206696510315
+        },
+        {
+          "word": " around",
+          "start": 13.88,
+          "end": 14.24,
+          "probability": 0.9983183145523071
+        },
+        {
+          "word": " that",
+          "start": 14.24,
+          "end": 14.48,
+          "probability": 0.9825137257575989
+        },
+        {
+          "word": " store",
+          "start": 14.48,
+          "end": 14.84,
+          "probability": 0.9980186223983765
+        },
+        {
+          "word": " and",
+          "start": 14.84,
+          "end": 15.14,
+          "probability": 0.6790816783905029
+        },
+        {
+          "word": " people",
+          "start": 15.14,
+          "end": 15.42,
+          "probability": 0.998589813709259
+        },
+        {
+          "word": " in",
+          "start": 15.42,
+          "end": 15.7,
+          "probability": 0.998754620552063
+        },
+        {
+          "word": " them.",
+          "start": 15.7,
+          "end": 15.94,
+          "probability": 0.9981750249862671
+        }
+      ]
+    },
+    {
+      "start": 16.52,
+      "end": 21.08,
+      "text": " I needed to know their names before I helped turn their deaths into a neat argument.",
+      "words": [
+        {
+          "word": " I",
+          "start": 16.52,
+          "end": 16.72,
+          "probability": 0.9969357252120972
+        },
+        {
+          "word": " needed",
+          "start": 16.72,
+          "end": 16.94,
+          "probability": 0.995292067527771
+        },
+        {
+          "word": " to",
+          "start": 16.94,
+          "end": 17.2,
+          "probability": 0.9991717338562012
+        },
+        {
+          "word": " know",
+          "start": 17.2,
+          "end": 17.44,
+          "probability": 0.9981228709220886
+        },
+        {
+          "word": " their",
+          "start": 17.44,
+          "end": 17.66,
+          "probability": 0.9955788254737854
+        },
+        {
+          "word": " names",
+          "start": 17.66,
+          "end": 18.0,
+          "probability": 0.9980584979057312
+        },
+        {
+          "word": " before",
+          "start": 18.0,
+          "end": 18.4,
+          "probability": 0.9927427768707275
+        },
+        {
+          "word": " I",
+          "start": 18.4,
+          "end": 18.64,
+          "probability": 0.993626594543457
+        },
+        {
+          "word": " helped",
+          "start": 18.64,
+          "end": 18.88,
+          "probability": 0.9752520322799683
+        },
+        {
+          "word": " turn",
+          "start": 18.88,
+          "end": 19.24,
+          "probability": 0.972453236579895
+        },
+        {
+          "word": " their",
+          "start": 19.24,
+          "end": 19.48,
+          "probability": 0.9949880838394165
+        },
+        {
+          "word": " deaths",
+          "start": 19.48,
+          "end": 19.76,
+          "probability": 0.9702630639076233
+        },
+        {
+          "word": " into",
+          "start": 19.76,
+          "end": 20.14,
+          "probability": 0.9938092827796936
+        },
+        {
+          "word": " a",
+          "start": 20.14,
+          "end": 20.32,
+          "probability": 0.9751616716384888
+        },
+        {
+          "word": " neat",
+          "start": 20.32,
+          "end": 20.58,
+          "probability": 0.9951854348182678
+        },
+        {
+          "word": " argument.",
+          "start": 20.58,
+          "end": 21.08,
+          "probability": 0.9909223914146423
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "it",
+      "named",
+      "a",
+      "destructive",
+      "purpose",
+      "but",
+      "the",
+      "signature",
+      "was",
+      "on",
+      "a",
+      "flap",
+      "i",
+      "could",
+      "not",
+      "copy",
+      "more",
+      "than",
+      "that",
+      "it",
+      "called",
+      "the",
+      "reach",
+      "a",
+      "records",
+      "store",
+      "i",
+      "had",
+      "begun",
+      "to",
+      "repeat",
+      "its",
+      "language",
+      "the",
+      "register",
+      "reminded",
+      "me",
+      "there",
+      "were",
+      "homes",
+      "around",
+      "that",
+      "store",
+      "and",
+      "people",
+      "in",
+      "them",
+      "i",
+      "needed",
+      "to",
+      "know",
+      "their",
+      "names",
+      "before",
+      "i",
+      "helped",
+      "turn",
+      "their",
+      "deaths",
+      "into",
+      "a",
+      "neat",
+      "argument"
+    ],
+    "observed_tokens": [
+      "it",
+      "named",
+      "a",
+      "destructive",
+      "purpose",
+      "but",
+      "the",
+      "signature",
+      "was",
+      "on",
+      "a",
+      "flat",
+      "i",
+      "could",
+      "not",
+      "copy",
+      "more",
+      "than",
+      "that",
+      "it",
+      "called",
+      "the",
+      "reach",
+      "a",
+      "record",
+      "store",
+      "i",
+      "had",
+      "begun",
+      "to",
+      "repeat",
+      "its",
+      "language",
+      "the",
+      "register",
+      "reminded",
+      "me",
+      "there",
+      "were",
+      "homes",
+      "around",
+      "that",
+      "store",
+      "and",
+      "people",
+      "in",
+      "them",
+      "i",
+      "needed",
+      "to",
+      "know",
+      "their",
+      "names",
+      "before",
+      "i",
+      "helped",
+      "turn",
+      "their",
+      "deaths",
+      "into",
+      "a",
+      "neat",
+      "argument"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 11,
+        "observed_start": 0,
+        "observed_end": 11,
+        "expected": [
+          "it",
+          "named",
+          "a",
+          "destructive",
+          "purpose",
+          "but",
+          "the",
+          "signature",
+          "was",
+          "on",
+          "a"
+        ],
+        "observed": [
+          "it",
+          "named",
+          "a",
+          "destructive",
+          "purpose",
+          "but",
+          "the",
+          "signature",
+          "was",
+          "on",
+          "a"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 11,
+        "expected_end": 12,
+        "observed_start": 11,
+        "observed_end": 12,
+        "expected": [
+          "flap"
+        ],
+        "observed": [
+          "flat"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 12,
+        "expected_end": 24,
+        "observed_start": 12,
+        "observed_end": 24,
+        "expected": [
+          "i",
+          "could",
+          "not",
+          "copy",
+          "more",
+          "than",
+          "that",
+          "it",
+          "called",
+          "the",
+          "reach",
+          "a"
+        ],
+        "observed": [
+          "i",
+          "could",
+          "not",
+          "copy",
+          "more",
+          "than",
+          "that",
+          "it",
+          "called",
+          "the",
+          "reach",
+          "a"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 24,
+        "expected_end": 25,
+        "observed_start": 24,
+        "observed_end": 25,
+        "expected": [
+          "records"
+        ],
+        "observed": [
+          "record"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 25,
+        "expected_end": 63,
+        "observed_start": 25,
+        "observed_end": 63,
+        "expected": [
+          "store",
+          "i",
+          "had",
+          "begun",
+          "to",
+          "repeat",
+          "its",
+          "language",
+          "the",
+          "register",
+          "reminded",
+          "me",
+          "there",
+          "were",
+          "homes",
+          "around",
+          "that",
+          "store",
+          "and",
+          "people",
+          "in",
+          "them",
+          "i",
+          "needed",
+          "to",
+          "know",
+          "their",
+          "names",
+          "before",
+          "i",
+          "helped",
+          "turn",
+          "their",
+          "deaths",
+          "into",
+          "a",
+          "neat",
+          "argument"
+        ],
+        "observed": [
+          "store",
+          "i",
+          "had",
+          "begun",
+          "to",
+          "repeat",
+          "its",
+          "language",
+          "the",
+          "register",
+          "reminded",
+          "me",
+          "there",
+          "were",
+          "homes",
+          "around",
+          "that",
+          "store",
+          "and",
+          "people",
+          "in",
+          "them",
+          "i",
+          "needed",
+          "to",
+          "know",
+          "their",
+          "names",
+          "before",
+          "i",
+          "helped",
+          "turn",
+          "their",
+          "deaths",
+          "into",
+          "a",
+          "neat",
+          "argument"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "flap"
+        ],
+        "observed": [
+          "flat"
+        ],
+        "expected_start": 11,
+        "observed_start": 11
+      },
+      {
+        "expected": [
+          "records"
+        ],
+        "observed": [
+          "record"
+        ],
+        "expected_start": 24,
+        "observed_start": 24
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 11:12.",
+      "Changed source words at expected tokens 24:25."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

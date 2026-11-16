@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "provider": "OpenAI API",
+  "model": "gpt-live-1",
+  "transport": "primary_websocket",
+  "rate_usd_per_minute": 0.05,
+  "pricing_checked": "2026-11-14",
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-live-1",
+  "billing_source": "https://developers.openai.com/api/docs/guides/voice-latency-cost?api=live",
+  "expected_first_pass_usd": [
+    0.025,
+    0.04
+  ],
+  "spending_cap_usd": 0.25,
+  "max_attempts_total": 1,
+  "max_attempts_per_line": 1,
+  "session_limit_seconds": 60,
+  "close_grace_seconds": 10,
+  "quiet_tail_seconds": 8,
+  "approval_status": "awaiting_one_natural_mara_retake",
+  "scope": "three_sample_auditions_only",
+  "full_batch_authorized": false,
+  "backend_calls_allowed": false,
+  "pronunciation": {
+    "Iona": "eye-OH-nuh",
+    "Mara": "MAH-ruh",
+    "Leth": "LETH, rhymes with breath",
+    "Tomas": "TOH-muhs, first syllable stressed"
+  },
+  "quality_gate": [
+    "exact_script_transcript_match",
+    "complete_finalization_and_usage_receipt",
+    "audible_not_clipped_or_truncated",
+    "independent_saved_audio_review",
+    "user_listening_approval_before_full_batch"
+  ],
+  "samples": [
+    {
+      "line_id": "ch1_closing",
+      "speaker": "iona",
+      "voice": "willow",
+      "direction": "You are Iona, alone with the recovered papers, quietly putting the facts together. Think these thoughts in your own everyday speaking voice. Let 'not taken' carry a small discovery, move briskly through the practical details, and let the final sentence sound like your own dry suspicion. Use varied thought-sized phrases and relaxed articulation. Keep the voice intimate and grounded; the listener is close. Let punctuation serve your train of thought, with no set words-per-minute target. Mara is MAH-ruh, with an open ah vowel; Leth rhymes with breath.",
+      "source_text_sha256": "c3498c81470d4454353081894e1d13d95a7ddd934d60459531184fc3bf84468a",
+      "words": 40,
+      "characters": 219,
+      "script": "Mara was not taken from Leth. She borrowed the bell key, recovered a removed folio, and followed a record of the old flood toward the pumping works. The tide and the official story disagree by more than a smudged digit."
+    },
+    {
+      "line_id": "rowan_kitchen_r2",
+      "speaker": "rowan",
+      "voice": "stone",
+      "direction": "You are Rowan in the workers' kitchen, sitting across a table from Iona, your former colleague Tomas's daughter. She has just asked: 'What do you want the record to say about you?' Answer her directly. The first admissions are plain, difficult facts. Let a small beat separate each 'That' as you find the courage to own it. The middle explanation can run together like someone recognizing his own old excuse. Become quietly firmer on 'I will not give you one of those.' The last two sentences are a practical request to Iona, without a speech-making finish. Use a relaxed, lived-in speaking voice, uneven sentence lengths and natural unvoiced breaths. Keep the words exactly as supplied. Tomas is TOH-muhs, with a plain T, not a th sound.",
+      "source_text_sha256": "e16770e007d094d9b8e5ecf2bdd33c93ab7e424b96220ea221417709443ed31b",
+      "words": 68,
+      "characters": 363,
+      "script": "That I shut the lower footway barrier. That I unfastened it when Tomas called, while he opened the separate upper footway gate. That acting later did not make the earlier closure harmless. I have spent seventeen years rehearsing explanations that end with me having no choice. I will not give you one of those. Ask me what I saw. If I do not know, make me say so."
+    },
+    {
+      "line_id": "mara_refuge_r0",
+      "speaker": "mara",
+      "voice": "quartz",
+      "direction": "You are Mara in the island refuge, sitting close to Iona after setting down a kettle. Iona has just asked you, hurt and angry: 'Why let me think you might be dead?' Answer her, person to person. Begin as if the explanation seems reasonable to you, then hear how it sounds to the person you frightened. Let the second sentence come a little quicker. Before 'I frightened you because I was frightened', take a small, ordinary breath and stop defending yourself. Say the admission plainly, with a little hesitation in the pacing but no added filler words. 'I can explain it' is a reflex; the final sentence is a quieter acknowledgment that explaining is not an apology. Keep relaxed everyday articulation, small pitch changes and irregular thought-sized pauses. Speak at close conversational distance. Let the emotional change come through the words, with no imposed tempo or dramatic climax. Natural unvoiced breathing is welcome. Preserve every supplied word.",
+      "source_text_sha256": "cda31d0a99e724fb1f3488d59069716cace6b509531960347683a74608a196bd",
+      "words": 59,
+      "characters": 348,
+      "script": "I thought you would understand the letter. Then I thought another letter would lead someone here. Each explanation made the next day of silence easier to justify. I frightened you because I was frightened, and because being useful felt safer than admitting I needed help. I can explain it. I cannot turn that explanation into something you owed me."
+    }
+  ],
+  "performance_style": "natural_in_scene_v1",
+  "recordable_line_ids": [
+    "mara_refuge_r0"
+  ],
+  "output_directory": "work/voice-auditions-natural-mara",
+  "user_feedback": "The candidate audio sounds like narration or someone reading from a book; make the speaking realistic and natural.",
+  "carry_in_ledger": {
+    "path": "assets/audio/auditions/2026-11-14/ledger.json",
+    "sha256": "8094dedfffb82a9212cae78fb695b98212d9752accb697ec5d3ef0bac4c33bae",
+    "spent_usd": "0.097501"
+  }
+}

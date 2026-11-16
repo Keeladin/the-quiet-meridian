@@ -1,0 +1,934 @@
+{
+  "line_id": "ch3_closing",
+  "clip_id": "d1bd73291d3b472ea008b2c61a19d61c",
+  "source_text_sha256": "824f38061ccfbac5589de4171187020586ea2c23e0d0bba5b89773bc04ab35cb",
+  "master": "work/gateway-voice/masters/d1bd73291d3b472ea008b2c61a19d61c.wav",
+  "wav_sha256": "5099ee1ae4010b7ea2e6016460ba96f11af079654d34167e8d82b736077848f6",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 887040,
+    "sample_count": 443520,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 18.48,
+    "peak": 0.8203125,
+    "peak_dbfs": -1.7204134115586058,
+    "rms": 0.059538390299091165,
+    "rms_dbfs": -24.504058225385638,
+    "dc_offset": 9.138429319703733e-05,
+    "silence_fraction": 0.2281452922077922,
+    "leading_silence_seconds": 0.39508333333333334,
+    "tail_silence_seconds": 0.310875,
+    "active_span_seconds": 17.774041666666665,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 44,
+    "source_words_per_active_minute": 148.53121476310258,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "bypass",
+      "was",
+      "open",
+      "by",
+      "00",
+      "14",
+      "the",
+      "evacuation",
+      "return",
+      "was",
+      "dispatched",
+      "at",
+      "00",
+      "22",
+      "it",
+      "certified",
+      "a",
+      "task",
+      "complete",
+      "about",
+      "eight",
+      "minutes",
+      "after",
+      "water",
+      "entered",
+      "occupied",
+      "homes",
+      "mara",
+      "followed",
+      "a",
+      "signal",
+      "bearing",
+      "toward",
+      "the",
+      "old",
+      "island",
+      "clinic",
+      "your",
+      "search",
+      "now",
+      "has",
+      "a",
+      "destination"
+    ],
+    "observed_tokens": [
+      "the",
+      "bypass",
+      "was",
+      "open",
+      "by",
+      "zero",
+      "zero",
+      "fourteen",
+      "the",
+      "evacuation",
+      "return",
+      "was",
+      "dispatched",
+      "at",
+      "zero",
+      "zero",
+      "twenty",
+      "two",
+      "it",
+      "certified",
+      "a",
+      "task",
+      "complete",
+      "about",
+      "eight",
+      "minutes",
+      "after",
+      "water",
+      "entered",
+      "occupied",
+      "homes",
+      "mara",
+      "followed",
+      "a",
+      "signal",
+      "bearing",
+      "toward",
+      "the",
+      "old",
+      "island",
+      "clinic",
+      "your",
+      "search",
+      "now",
+      "has",
+      "a",
+      "destination"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 5,
+        "observed_start": 0,
+        "observed_end": 5,
+        "expected": [
+          "the",
+          "bypass",
+          "was",
+          "open",
+          "by"
+        ],
+        "observed": [
+          "the",
+          "bypass",
+          "was",
+          "open",
+          "by"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 5,
+        "expected_end": 7,
+        "observed_start": 5,
+        "observed_end": 8,
+        "expected": [
+          "00",
+          "14"
+        ],
+        "observed": [
+          "zero",
+          "zero",
+          "fourteen"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 7,
+        "expected_end": 13,
+        "observed_start": 8,
+        "observed_end": 14,
+        "expected": [
+          "the",
+          "evacuation",
+          "return",
+          "was",
+          "dispatched",
+          "at"
+        ],
+        "observed": [
+          "the",
+          "evacuation",
+          "return",
+          "was",
+          "dispatched",
+          "at"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 13,
+        "expected_end": 15,
+        "observed_start": 14,
+        "observed_end": 18,
+        "expected": [
+          "00",
+          "22"
+        ],
+        "observed": [
+          "zero",
+          "zero",
+          "twenty",
+          "two"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 15,
+        "expected_end": 44,
+        "observed_start": 18,
+        "observed_end": 47,
+        "expected": [
+          "it",
+          "certified",
+          "a",
+          "task",
+          "complete",
+          "about",
+          "eight",
+          "minutes",
+          "after",
+          "water",
+          "entered",
+          "occupied",
+          "homes",
+          "mara",
+          "followed",
+          "a",
+          "signal",
+          "bearing",
+          "toward",
+          "the",
+          "old",
+          "island",
+          "clinic",
+          "your",
+          "search",
+          "now",
+          "has",
+          "a",
+          "destination"
+        ],
+        "observed": [
+          "it",
+          "certified",
+          "a",
+          "task",
+          "complete",
+          "about",
+          "eight",
+          "minutes",
+          "after",
+          "water",
+          "entered",
+          "occupied",
+          "homes",
+          "mara",
+          "followed",
+          "a",
+          "signal",
+          "bearing",
+          "toward",
+          "the",
+          "old",
+          "island",
+          "clinic",
+          "your",
+          "search",
+          "now",
+          "has",
+          "a",
+          "destination"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "00",
+          "14"
+        ],
+        "observed": [
+          "zero",
+          "zero",
+          "fourteen"
+        ],
+        "expected_start": 5,
+        "observed_start": 5
+      },
+      {
+        "expected": [
+          "00",
+          "22"
+        ],
+        "observed": [
+          "zero",
+          "zero",
+          "twenty",
+          "two"
+        ],
+        "expected_start": 13,
+        "observed_start": 14
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 5:7.",
+      "Changed source words at expected tokens 13:15."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The bypass was opened by 0014. The evacuation return was dispatched at 0022. It certified a task complete about eight minutes after water entered occupied homes. Mara followed a signal bearing toward the Old Island Clinic. Your search now has a destination.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.66,
+      "text": " The bypass was opened by 0014. The evacuation return was dispatched at 0022.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.8732089996337891
+        },
+        {
+          "word": " bypass",
+          "start": 0.48,
+          "end": 0.84,
+          "probability": 0.8957124948501587
+        },
+        {
+          "word": " was",
+          "start": 0.84,
+          "end": 1.08,
+          "probability": 0.9951386451721191
+        },
+        {
+          "word": " opened",
+          "start": 1.08,
+          "end": 1.42,
+          "probability": 0.9147233963012695
+        },
+        {
+          "word": " by",
+          "start": 1.42,
+          "end": 1.64,
+          "probability": 0.997035026550293
+        },
+        {
+          "word": " 0014.",
+          "start": 1.64,
+          "end": 2.64,
+          "probability": 0.9773449599742889
+        },
+        {
+          "word": " The",
+          "start": 3.26,
+          "end": 3.38,
+          "probability": 0.9921746850013733
+        },
+        {
+          "word": " evacuation",
+          "start": 3.38,
+          "end": 3.88,
+          "probability": 0.9930282235145569
+        },
+        {
+          "word": " return",
+          "start": 3.88,
+          "end": 4.42,
+          "probability": 0.9834778904914856
+        },
+        {
+          "word": " was",
+          "start": 4.42,
+          "end": 4.8,
+          "probability": 0.994755744934082
+        },
+        {
+          "word": " dispatched",
+          "start": 4.8,
+          "end": 5.16,
+          "probability": 0.965969979763031
+        },
+        {
+          "word": " at",
+          "start": 5.16,
+          "end": 5.54,
+          "probability": 0.9933005571365356
+        },
+        {
+          "word": " 0022.",
+          "start": 5.54,
+          "end": 6.66,
+          "probability": 0.9872067272663116
+        }
+      ]
+    },
+    {
+      "start": 7.22,
+      "end": 11.98,
+      "text": " It certified a task complete about eight minutes after water entered occupied homes.",
+      "words": [
+        {
+          "word": " It",
+          "start": 7.22,
+          "end": 7.34,
+          "probability": 0.990662157535553
+        },
+        {
+          "word": " certified",
+          "start": 7.34,
+          "end": 7.78,
+          "probability": 0.9726741313934326
+        },
+        {
+          "word": " a",
+          "start": 7.78,
+          "end": 8.02,
+          "probability": 0.9926924705505371
+        },
+        {
+          "word": " task",
+          "start": 8.02,
+          "end": 8.32,
+          "probability": 0.9976937174797058
+        },
+        {
+          "word": " complete",
+          "start": 8.32,
+          "end": 8.72,
+          "probability": 0.9259799718856812
+        },
+        {
+          "word": " about",
+          "start": 8.72,
+          "end": 9.1,
+          "probability": 0.9747034907341003
+        },
+        {
+          "word": " eight",
+          "start": 9.1,
+          "end": 9.36,
+          "probability": 0.6871530413627625
+        },
+        {
+          "word": " minutes",
+          "start": 9.36,
+          "end": 9.68,
+          "probability": 0.9966230392456055
+        },
+        {
+          "word": " after",
+          "start": 9.68,
+          "end": 10.32,
+          "probability": 0.9911516308784485
+        },
+        {
+          "word": " water",
+          "start": 10.32,
+          "end": 10.58,
+          "probability": 0.9738847613334656
+        },
+        {
+          "word": " entered",
+          "start": 10.58,
+          "end": 11.14,
+          "probability": 0.9853577613830566
+        },
+        {
+          "word": " occupied",
+          "start": 11.14,
+          "end": 11.52,
+          "probability": 0.9847303628921509
+        },
+        {
+          "word": " homes.",
+          "start": 11.52,
+          "end": 11.98,
+          "probability": 0.9966802597045898
+        }
+      ]
+    },
+    {
+      "start": 12.68,
+      "end": 15.58,
+      "text": " Mara followed a signal bearing toward the Old Island Clinic.",
+      "words": [
+        {
+          "word": " Mara",
+          "start": 12.68,
+          "end": 12.72,
+          "probability": 0.8180630803108215
+        },
+        {
+          "word": " followed",
+          "start": 12.72,
+          "end": 13.16,
+          "probability": 0.9979109168052673
+        },
+        {
+          "word": " a",
+          "start": 13.16,
+          "end": 13.42,
+          "probability": 0.983659029006958
+        },
+        {
+          "word": " signal",
+          "start": 13.42,
+          "end": 13.78,
+          "probability": 0.9962790608406067
+        },
+        {
+          "word": " bearing",
+          "start": 13.78,
+          "end": 14.14,
+          "probability": 0.9361448884010315
+        },
+        {
+          "word": " toward",
+          "start": 14.14,
+          "end": 14.48,
+          "probability": 0.9766567945480347
+        },
+        {
+          "word": " the",
+          "start": 14.48,
+          "end": 14.66,
+          "probability": 0.9903348088264465
+        },
+        {
+          "word": " Old",
+          "start": 14.66,
+          "end": 14.88,
+          "probability": 0.47267237305641174
+        },
+        {
+          "word": " Island",
+          "start": 14.88,
+          "end": 15.22,
+          "probability": 0.9918054342269897
+        },
+        {
+          "word": " Clinic.",
+          "start": 15.22,
+          "end": 15.58,
+          "probability": 0.714938759803772
+        }
+      ]
+    },
+    {
+      "start": 16.12,
+      "end": 17.72,
+      "text": " Your search now has a destination.",
+      "words": [
+        {
+          "word": " Your",
+          "start": 16.12,
+          "end": 16.24,
+          "probability": 0.9727526307106018
+        },
+        {
+          "word": " search",
+          "start": 16.24,
+          "end": 16.58,
+          "probability": 0.9995044469833374
+        },
+        {
+          "word": " now",
+          "start": 16.58,
+          "end": 16.94,
+          "probability": 0.9948126077651978
+        },
+        {
+          "word": " has",
+          "start": 16.94,
+          "end": 17.14,
+          "probability": 0.9987240433692932
+        },
+        {
+          "word": " a",
+          "start": 17.14,
+          "end": 17.28,
+          "probability": 0.9986292123794556
+        },
+        {
+          "word": " destination.",
+          "start": 17.28,
+          "end": 17.72,
+          "probability": 0.9988540410995483
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "bypass",
+      "was",
+      "open",
+      "by",
+      "00",
+      "14",
+      "the",
+      "evacuation",
+      "return",
+      "was",
+      "dispatched",
+      "at",
+      "00",
+      "22",
+      "it",
+      "certified",
+      "a",
+      "task",
+      "complete",
+      "about",
+      "eight",
+      "minutes",
+      "after",
+      "water",
+      "entered",
+      "occupied",
+      "homes",
+      "mara",
+      "followed",
+      "a",
+      "signal",
+      "bearing",
+      "toward",
+      "the",
+      "old",
+      "island",
+      "clinic",
+      "your",
+      "search",
+      "now",
+      "has",
+      "a",
+      "destination"
+    ],
+    "observed_tokens": [
+      "the",
+      "bypass",
+      "was",
+      "opened",
+      "by",
+      "0014",
+      "the",
+      "evacuation",
+      "return",
+      "was",
+      "dispatched",
+      "at",
+      "0022",
+      "it",
+      "certified",
+      "a",
+      "task",
+      "complete",
+      "about",
+      "eight",
+      "minutes",
+      "after",
+      "water",
+      "entered",
+      "occupied",
+      "homes",
+      "mara",
+      "followed",
+      "a",
+      "signal",
+      "bearing",
+      "toward",
+      "the",
+      "old",
+      "island",
+      "clinic",
+      "your",
+      "search",
+      "now",
+      "has",
+      "a",
+      "destination"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 3,
+        "observed_start": 0,
+        "observed_end": 3,
+        "expected": [
+          "the",
+          "bypass",
+          "was"
+        ],
+        "observed": [
+          "the",
+          "bypass",
+          "was"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 3,
+        "expected_end": 4,
+        "observed_start": 3,
+        "observed_end": 4,
+        "expected": [
+          "open"
+        ],
+        "observed": [
+          "opened"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 4,
+        "expected_end": 5,
+        "observed_start": 4,
+        "observed_end": 5,
+        "expected": [
+          "by"
+        ],
+        "observed": [
+          "by"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 5,
+        "expected_end": 7,
+        "observed_start": 5,
+        "observed_end": 6,
+        "expected": [
+          "00",
+          "14"
+        ],
+        "observed": [
+          "0014"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 7,
+        "expected_end": 13,
+        "observed_start": 6,
+        "observed_end": 12,
+        "expected": [
+          "the",
+          "evacuation",
+          "return",
+          "was",
+          "dispatched",
+          "at"
+        ],
+        "observed": [
+          "the",
+          "evacuation",
+          "return",
+          "was",
+          "dispatched",
+          "at"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 13,
+        "expected_end": 15,
+        "observed_start": 12,
+        "observed_end": 13,
+        "expected": [
+          "00",
+          "22"
+        ],
+        "observed": [
+          "0022"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 15,
+        "expected_end": 44,
+        "observed_start": 13,
+        "observed_end": 42,
+        "expected": [
+          "it",
+          "certified",
+          "a",
+          "task",
+          "complete",
+          "about",
+          "eight",
+          "minutes",
+          "after",
+          "water",
+          "entered",
+          "occupied",
+          "homes",
+          "mara",
+          "followed",
+          "a",
+          "signal",
+          "bearing",
+          "toward",
+          "the",
+          "old",
+          "island",
+          "clinic",
+          "your",
+          "search",
+          "now",
+          "has",
+          "a",
+          "destination"
+        ],
+        "observed": [
+          "it",
+          "certified",
+          "a",
+          "task",
+          "complete",
+          "about",
+          "eight",
+          "minutes",
+          "after",
+          "water",
+          "entered",
+          "occupied",
+          "homes",
+          "mara",
+          "followed",
+          "a",
+          "signal",
+          "bearing",
+          "toward",
+          "the",
+          "old",
+          "island",
+          "clinic",
+          "your",
+          "search",
+          "now",
+          "has",
+          "a",
+          "destination"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "open"
+        ],
+        "observed": [
+          "opened"
+        ],
+        "expected_start": 3,
+        "observed_start": 3
+      },
+      {
+        "expected": [
+          "00",
+          "14"
+        ],
+        "observed": [
+          "0014"
+        ],
+        "expected_start": 5,
+        "observed_start": 5
+      },
+      {
+        "expected": [
+          "00",
+          "22"
+        ],
+        "observed": [
+          "0022"
+        ],
+        "expected_start": 13,
+        "observed_start": 12
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 3:4.",
+      "Changed source words at expected tokens 5:7.",
+      "Changed source words at expected tokens 13:15."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

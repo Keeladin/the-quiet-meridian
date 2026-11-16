@@ -1,0 +1,368 @@
+{
+  "conversations": [
+    {
+      "id": "nadi_arrival",
+      "location": "ch1_l1",
+      "character": "nadi",
+      "requires": [],
+      "greeting": "Nadi keeps one hand on the mooring rope while you talk. The boat nudges the stair, patient as an old dog.",
+      "topics": [
+        {
+          "question": "Do people still remember my father?",
+          "reply": "People remember a sentence they were given. Some have mistaken repeating it for remembering him. I remember Tomas bringing a stool onto this quay so a child could step into the boat without being lifted. I remember that because it happened. It does not prove what he did at the gate. You will want to keep those two kinds of remembering apart.",
+          "requires": []
+        },
+        {
+          "question": "Why keep your own passenger book?",
+          "reply": "The office pays by crossing, not by passenger. Their ledger can tell you a boat went out and came back. Mine tells me whose basket is still aboard, who needs help on the stair, who is waiting on the other shore. A column is useful. It becomes dangerous when someone decides that whatever will not fit inside it does not exist.",
+          "requires": []
+        },
+        {
+          "question": "You knew Mara was leaving deliberately.",
+          "reply": "I knew she carried her own parcel and paid her own fare. I put her ashore on the works side. She asked for privacy, and I gave it. Then the notice appeared and made my silence look like agreement. I should have challenged that sooner. You may write down exactly what I saw. Please do not improve it into something I only wish I had known.",
+          "requires": [
+            "p01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sera_archive",
+      "location": "ch1_l3",
+      "character": "sera",
+      "requires": [],
+      "greeting": "A woman with printer’s ink on her cuffs brings a stack of public notices into the vestibule. She introduces herself as Sera Quill.",
+      "topics": [
+        {
+          "question": "Did Mara ask you to print anything?",
+          "reply": "She asked how many copies of a correction would make it difficult to suppress. I said one good copy in ten different places is stronger than ten good copies in one cupboard. She laughed, but she did not leave me a manuscript. Whatever she found, she did not yet think it was ready for strangers to trust.",
+          "requires": []
+        },
+        {
+          "question": "Were you here during the flood?",
+          "reply": "I was a child in the north ward. My mother spent that night carrying blankets, and the following years asking where the tenants’ petition had gone. She taught me to set type because she was tired of begging someone else to print a question. I have inherited the press. I would prefer not to inherit the same unanswered question forever.",
+          "requires": []
+        },
+        {
+          "question": "The shelf label was changed.",
+          "reply": "Then preserve the replacement as well as what lay beneath it. A wrong label can be an error; a sequence of convenient wrong labels can tell another story. You know paper better than I do. I know how easy it is for a reader to trust a clean heading. Show me a source when you have one, and I will make sure the heading points to it.",
+          "requires": [
+            "p03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rowan_kitchen",
+      "location": "ch2_l4",
+      "character": "rowan",
+      "requires": [],
+      "greeting": "Rowan pours tea into an uncracked cup for you. His own cup has been repaired with a narrow metal staple.",
+      "topics": [
+        {
+          "question": "Why did you keep this room?",
+          "reply": "The new works office wanted to turn it into a store. I said the night shift needed somewhere warm. That was true. It was not all of the truth. If the table went, I thought the voices might go with it. I have been very good at keeping objects. It took me much longer to understand that an object cannot speak on my behalf.",
+          "requires": []
+        },
+        {
+          "question": "What did the closure order mean to you?",
+          "reply": "It meant someone above me had taken responsibility. That is the comfortable meaning of a signature when you are tired and frightened. The order said the Reach was empty. I did not know that it was empty. I treated the first sentence as though it supplied the second. Your father rang the little bell, and I still looked at the seal before I looked at the stair.",
+          "requires": [
+            "p17"
+          ]
+        },
+        {
+          "question": "What do you want the record to say about you?",
+          "reply": "That I shut the lower footway barrier. That I unfastened it when Tomas called, while he opened the separate upper footway gate. That acting later did not make the earlier closure harmless. I have spent seventeen years rehearsing explanations that end with me having no choice. I will not give you one of those. Ask me what I saw. If I do not know, make me say so.",
+          "requires": [
+            "p18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elian_machine",
+      "location": "ch2_l3",
+      "character": "elian",
+      "requires": [
+        "p14"
+      ],
+      "greeting": "Elian Ash checks that you used the disconnected socket. Only after that does he look at the reconstructed pressure roll.",
+      "topics": [
+        {
+          "question": "Could a wheel have slipped by itself?",
+          "reply": "A wheel can slip. That does not make every sequence of valves an accident. This interlock requires different movements in different places. If you are going to accuse a mechanism, describe the movement it would have to make. If you are going to accuse a person, find more than a machine that person once maintained.",
+          "requires": [
+            "p14"
+          ]
+        },
+        {
+          "question": "Why build a council bypass at all?",
+          "reply": "For repairs to the residential gate without draining the whole reservoir. That was the stated use, and it was a reasonable one. A tool can serve a reasonable purpose and still give someone a dangerous power. We wrote an authorisation procedure. I used to think the procedure was the same thing as a safeguard. You can see how thin that distinction has become.",
+          "requires": [
+            "p15"
+          ]
+        },
+        {
+          "question": "Your initials are on the coupling record.",
+          "reply": "Yes. I will not claim another engineer used my hand. The record shows what I approved for service. You will ask a different question about the night it was used. Before I answer it, get the observatory time. I have allowed a bad chronology to do too much of my speaking. I need to stop doing that, but you should not have to depend on my resolve.",
+          "requires": [
+            "p20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ada_steps",
+      "location": "ch3_l1",
+      "character": "ada",
+      "requires": [],
+      "greeting": "Ada wipes the rain from the calibration plaque with her sleeve. She seems more offended by an unread label than by the weather.",
+      "topics": [
+        {
+          "question": "Why keep a clock you know is wrong?",
+          "reply": "Because a measured error can be corrected. A clock that is four minutes fast and says so is more useful than a clock advertised as perfect whose drift nobody checks. People find that disappointing. They want an instrument to relieve them of judgment. Instruments are excellent servants and very poor excuses.",
+          "requires": []
+        },
+        {
+          "question": "Did the council dispute your measurements?",
+          "reply": "They disputed whether measurements were kind. That was cleverer. If I answered with more figures, I appeared cold. If I answered with grief, I appeared unreliable. I should have published the method and let other observers repeat it. Instead I waited for the office to ask a fair question. Waiting became a habit I could mistake for dignity.",
+          "requires": [
+            "p22"
+          ]
+        },
+        {
+          "question": "What would make you change your conclusion?",
+          "reply": "A faulty plate, a mistaken correction, another instrument showing a different sequence with a better calibration. I have written those possibilities beside my result. A conclusion is not weakened by naming what could overturn it. It is weakened when its author decides no such thing may be allowed to exist.",
+          "requires": [
+            "p28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nadi_signal",
+      "location": "ch3_l4",
+      "character": "nadi",
+      "requires": [
+        "p25"
+      ],
+      "greeting": "Nadi arrives carrying lamp oil and a pair of dry gloves. She studies the relay chart as she would a river channel.",
+      "topics": [
+        {
+          "question": "Do you know who answered Mara?",
+          "reply": "I know the old clinic has been used since the city called it abandoned. I do not know who was at its lamp that night. Mara asked me to carry supplies, and I did. I have been learning the difference between keeping someone’s confidence and allowing a public lie to grow around it. It is an uncomfortable lesson to learn twice.",
+          "requires": [
+            "p25"
+          ]
+        },
+        {
+          "question": "The clearest route is not the shortest.",
+          "reply": "Neither is the safest crossing. People count the distance they can see. They forget the current beneath it, or the hill between one lamp and the next. A map is an argument about which costs matter. I trust a map more when it shows me the costs it has chosen to leave out.",
+          "requires": [
+            "p26"
+          ]
+        },
+        {
+          "question": "Will you take me to the clinic?",
+          "reply": "At the western channel, yes. We will read the markers even if I think I remember them. Reeds grow, banks slip, and memory is not a sounding pole. Take a dry copy of your source list. Leave another with Ada. If we are delayed, let the delay be an inconvenience, not a way for the whole investigation to disappear.",
+          "requires": [
+            "p29"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mara_refuge",
+      "location": "ch4_l6",
+      "character": "mara",
+      "requires": [
+        "p38"
+      ],
+      "greeting": "Mara sets down the kettle. Neither of you reaches for it immediately.",
+      "topics": [
+        {
+          "question": "Why let me think you might be dead?",
+          "reply": "I thought you would understand the letter. Then I thought another letter would lead someone here. Each explanation made the next day of silence easier to justify. I frightened you because I was frightened, and because being useful felt safer than admitting I needed help. I can explain it. I cannot turn that explanation into something you owed me.",
+          "requires": [
+            "p38"
+          ]
+        },
+        {
+          "question": "Why was the tracing not enough?",
+          "reply": "It named a destructive purpose, but the signature was on a flap I could not copy. More than that, it called the Reach a records store. I had begun to repeat its language. The register reminded me there were homes around that store and people in them. I needed to know their names before I helped turn their deaths into a neat argument.",
+          "requires": [
+            "p39"
+          ]
+        },
+        {
+          "question": "What happens when we go back?",
+          "reply": "We state what each source can support. We do not promise the families a particular sentence, or promise Elian forgiveness if he speaks. We make copies, preserve the originals and let people ask difficult questions in public. And afterward I will answer your difficult questions in private. Finding the record does not repair every relationship it has damaged.",
+          "requires": [
+            "p40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nadi_memorial",
+      "location": "ch4_l5",
+      "character": "nadi",
+      "requires": [
+        "p37"
+      ],
+      "greeting": "Nadi kneels to clear grass from one of the smaller stones. She pronounces the name before she touches the letters.",
+      "topics": [
+        {
+          "question": "Which of them did you know?",
+          "reply": "Asha repaired my winter coat. Len always paid in exact change and apologised as though that were a nuisance. Petra once brought a pot plant aboard and bought a second ticket for it as a joke. I could give you a dozen stories. None is a requirement for being remembered. People who left nobody to tell a charming story deserve the same size letters.",
+          "requires": [
+            "p37"
+          ]
+        },
+        {
+          "question": "Why were the lodgers missing from the address lists?",
+          "reply": "Some moved with seasonal work. Some rented a bed rather than a room. The forms had space for an owner and a household, and the clerk decided a person without either belonged in the margin. That choice did not drown them. It made it easier to claim afterward that the houses had been empty.",
+          "requires": [
+            "p37"
+          ]
+        },
+        {
+          "question": "Should we move the stones into the city?",
+          "reply": "Ask the people who placed them. The city has already taken enough decisions on this shore’s behalf. A copy of the names belongs in the public register. The stones can belong here if the families want them here. Preserving a record does not mean collecting every meaningful thing into the room where you work.",
+          "requires": [
+            "p40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sera_proof",
+      "location": "ch5_l4",
+      "character": "sera",
+      "requires": [
+        "p45"
+      ],
+      "greeting": "Sera reads the proof aloud with a ruler beneath each line. She stops at the small words as often as the large ones.",
+      "topics": [
+        {
+          "question": "Why change “proved guilty” to “evidence shows”?",
+          "reply": "Because the sheet is a deposition, not a verdict. If we make one claim larger than its source, Rusk will spend the hearing discussing that claim and never touch the others. Precision is not a courtesy we owe him. It is a service we owe the people who will rely on this after we leave the room.",
+          "requires": [
+            "p45"
+          ]
+        },
+        {
+          "question": "Will you print a correction if we discover a mistake?",
+          "reply": "On the same size sheet, in the same places, without hiding it between advertisements. I have put that promise at the foot of this edition. A press can distribute a lie faster than a clerk can shelve one. I would like to believe the machine in my room is naturally on the right side. It is not. I have to keep choosing what goes into it.",
+          "requires": [
+            "p46"
+          ]
+        },
+        {
+          "question": "What would your mother have thought?",
+          "reply": "She would have checked whether the petition’s demands were still worth making. Then she would have asked why we were all standing around imagining her opinion when there were living tenants to consult. I miss her enough to invent kinder answers. I suspect that is why I should not do it in print.",
+          "requires": [
+            "p50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elian_council",
+      "location": "ch5_l2",
+      "character": "elian",
+      "requires": [
+        "p42"
+      ],
+      "greeting": "Elian removes his engineer’s badge and lays it beside his statement. He does not ask you to take it.",
+      "topics": [
+        {
+          "question": "Did you believe the houses were empty?",
+          "reply": "I believed Rusk wanted me to accept that they were. The preliminary sheet counted beds. I knew how a household check ought to look, and it did not look like that. He promised a formal return afterward. I told myself my responsibility began at the valve and ended at the pressure gauge. That was a boundary I drew for my own convenience.",
+          "requires": [
+            "p42"
+          ]
+        },
+        {
+          "question": "Why not speak when Ada challenged the time?",
+          "reply": "Because every year of silence made speaking more expensive. At first I would have lost my post. Later I would also have to explain the years I had kept it. I called that protecting the works and the people employed there. They were not asked whether they wanted my protection purchased with their neighbours’ history.",
+          "requires": [
+            "p49"
+          ]
+        },
+        {
+          "question": "What are you asking from me now?",
+          "reply": "A chance to give the statement before someone gives it for me. Not a promise about what follows. I am afraid of the inquiry. I am more afraid of discovering I can still make fear sound like an instruction I was obliged to obey. If I change a sentence to make myself smaller in the event, bring me back to the source.",
+          "requires": [
+            "p50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rowan_before_hearing",
+      "location": "ch6_l2",
+      "character": "rowan",
+      "requires": [
+        "p52"
+      ],
+      "greeting": "Rowan reads his corrected statement once more. The crossed-out sentence remains visible on the page.",
+      "topics": [
+        {
+          "question": "Are you ready to say it in the chamber?",
+          "reply": "Ready is too generous. I know the first sentence, and I know it is true. I can begin with that. If my voice fails, the signed copy will not. You have arranged a hearing where a person may be frightened without the evidence vanishing with their courage. I wish we had understood how to do that seventeen years ago.",
+          "requires": [
+            "p52"
+          ]
+        },
+        {
+          "question": "The new isolation tag bears your name.",
+          "reply": "And Elian’s, and the date, and exactly what we checked. No grand claim that the works are safe forever. A person coming after us can repeat the check and disagree. It is a small thing compared with what happened. Small things are still worth doing properly. That is something Tomas knew long before I decided to listen.",
+          "requires": [
+            "p55"
+          ]
+        },
+        {
+          "question": "What will you do after the inquiry?",
+          "reply": "Whatever work I am still permitted to do. If I teach, the apprentices will hear this account before they learn the shortcuts. They should know a seal is a reason to identify an order, not a reason to stop asking what the order requires. I cannot give them my innocence. I can give them a warning without making it sound like someone else’s mistake.",
+          "requires": [
+            "p56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mara_memory_room",
+      "location": "ch6_l6",
+      "character": "mara",
+      "requires": [
+        "p59"
+      ],
+      "greeting": "Mara places a spare chair beside the open register. The public door will remain unlocked until evening.",
+      "topics": [
+        {
+          "question": "Can an archive prevent this happening again?",
+          "reply": "An archive cannot make people brave or honest. It can make a lie more expensive to maintain. It can keep the inconvenient copy, explain a correction, and let someone without a title ask to see the source. Those are limited promises. I think we should make them clearly and then build a place capable of keeping them.",
+          "requires": [
+            "p59"
+          ]
+        },
+        {
+          "question": "Does my father’s entry look right to you?",
+          "reply": "It looks supported. I know that is a smaller word than you wanted when you came home. It leaves room for him to have been an ordinary person who did something brave, instead of a monument that must be polished until every human mark disappears. You can miss your father without having to prove he never made a mistake.",
+          "requires": [
+            "p59"
+          ]
+        },
+        {
+          "question": "What should we repair next?",
+          "reply": "The window leaks. Then the duplicate catalogue needs an index ordinary readers can use. Then perhaps you and I could have supper without either of us turning a difficult feeling into a research assignment. The city has a great deal of work left. It is a relief to reach work that does not require us to pretend the ending happened before the repair.",
+          "requires": [
+            "p60"
+          ]
+        }
+      ]
+    }
+  ]
+}

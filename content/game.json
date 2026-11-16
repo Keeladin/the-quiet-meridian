@@ -1,0 +1,3627 @@
+{
+  "title": "The Quiet Meridian",
+  "subtitle": "A mystery in six tides",
+  "intro": "The letter reaches you wrapped in sailcloth.\n\nIona—They have repaired the catalogue, but not the truth. Come before the winter register is pulped. Ask why the midnight bell was silent. —Mara\n\nSeventeen years ago the East Reach flood killed twenty-three people. Your father, lockkeeper Tomas Vale, was named responsible. You left Leth to learn how to repair paper. Now its archivist has vanished, and the city wants to burn its damaged records.\n\nThe ferry brings you home under a sky the colour of old pewter. Nadi Bell ties the boat with the same knot she used when you were a child. 'Nobody disappears from a city this small,' she says. 'But a city can agree not to look.'",
+  "ending": "The corrected register lies open beneath the archive window. Twenty-three names, no longer a number in the margin. Beside Tomas Vale's entry, the old accusation remains visible under a single ruled line. The correction cites its evidence. Nobody has scraped the page clean.\n\nRusk is removed from emergency office and referred to an outside court with the original records. Elian gives testimony without a promise of immunity. Rowan's account includes both the people he helped and the order he obeyed. Truth is not a pardon, and the city has begun to understand the difference.\n\nMara establishes duplicate archives on both sides of the water. Sera prints the findings at cost. Nadi carries the first public copies to the island. Ada restores the midnight signal, which sounds without commanding anyone to be silent.\n\nYou stay to teach two apprentices. One asks whether a repair ought to be invisible. You hold the folio against the light. The seam shines, delicate and unmistakable.\n\n'It ought to hold,' you say. 'And it ought to tell the truth.'\n\nTHE END",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "The Borrowed Bell",
+      "summary": "Find the path Mara left through the rain.",
+      "intro": "The archive door is shut, though its lamps are burning. Mara missed her last ferry, according to the notice in the tide office. Nadi remembers something different. Begin at the landing: a returned dispatch box has been left among the lost property.",
+      "closing": "Mara was not taken from Leth. She borrowed the bell key, recovered a removed folio, and followed a record of the old flood toward the pumping works. The tide and the official story disagree by more than a smudged digit.",
+      "locations": [
+        "ch1_l1",
+        "ch1_l2",
+        "ch1_l3",
+        "ch1_l4",
+        "ch1_l5",
+        "ch1_l6"
+      ],
+      "final_puzzle": "p10"
+    },
+    {
+      "id": "ch2",
+      "title": "Water Has a Memory",
+      "summary": "Reconstruct the flood in the machines that survived it.",
+      "intro": "Rowan Pike waits by the pump court with a kettle and a face like a shut door. “You have your father’s hands,” he says. “I hoped you would not have his questions.” The machinery has fewer reasons to lie.",
+      "closing": "The East Reach did not flood through Tomas’s sluice. A council bypass opened above it. Rowan admits obeying the closure order; Elian’s initials appear on the coupling record. Only the observatory can fix the opening time independently.",
+      "locations": [
+        "ch2_l1",
+        "ch2_l2",
+        "ch2_l3",
+        "ch2_l4",
+        "ch2_l5",
+        "ch2_l6"
+      ],
+      "final_puzzle": "p20"
+    },
+    {
+      "id": "ch3",
+      "title": "The Unstruck Hour",
+      "summary": "Find the minute the city removed from its history.",
+      "intro": "Ada Flint opens the observatory before you knock. “Mara told me you might come. She asked for a time, not an alibi.” The great clock has not rung since the flood. Its silence preserved a disagreement nobody wanted measured.",
+      "closing": "The bypass was open by 00:14. The evacuation return was dispatched at 00:22. It certified a task complete about eight minutes after water entered occupied homes. Mara followed a signal bearing toward the old island clinic; your search now has a destination.",
+      "locations": [
+        "ch3_l1",
+        "ch3_l2",
+        "ch3_l3",
+        "ch3_l4",
+        "ch3_l5",
+        "ch3_l6"
+      ],
+      "final_puzzle": "p30"
+    },
+    {
+      "id": "ch4",
+      "title": "Names in the Reeds",
+      "summary": "Find the people hidden inside the missing numbers.",
+      "intro": "Nadi guides the boat between reeds taller than the cabin roof. “The city calls this the abandoned shore,” she says. “That is a decision people in the city made.” On the jetty, someone has tied a fresh strip of blue cloth.",
+      "closing": "Mara is alive. The clinic register proves twenty-three residents were still in the Reach; the council’s evacuation return counted empty beds elsewhere. The original tracing and living witnesses now survive in separate hands. You return to establish who profited and who ordered the false record.",
+      "locations": [
+        "ch4_l1",
+        "ch4_l2",
+        "ch4_l3",
+        "ch4_l4",
+        "ch4_l5",
+        "ch4_l6"
+      ],
+      "final_puzzle": "p40"
+    },
+    {
+      "id": "ch5",
+      "title": "The Price of Silence",
+      "summary": "Follow the records from a machine to a decision.",
+      "intro": "Leth is already preparing for tomorrow’s public sitting. A notice declares the damaged flood records redundant and schedules their destruction after the hearing. Sera Quill pulls a clean sheet into her press. “Then we had better make the hearing useful.”",
+      "closing": "The originals tie Rusk’s signature to the diversion and his payments to the land transfer. Elian admits operating the bypass after accepting Rusk’s false assurance. Sera finishes independent copies. The remaining task is to put the verified case where one office cannot make it disappear.",
+      "locations": [
+        "ch5_l1",
+        "ch5_l2",
+        "ch5_l3",
+        "ch5_l4",
+        "ch5_l5",
+        "ch5_l6"
+      ],
+      "final_puzzle": "p50"
+    },
+    {
+      "id": "ch6",
+      "title": "A City That Remembers",
+      "summary": "Make a record that cannot be erased by one locked door.",
+      "intro": "Dawn turns the harbour windows gold. Nadi has two boats ready; Sera has three sets of proofs. Rusk still controls the council seal, but he no longer controls every copy. The public sitting will begin when the witnesses and evidence are ready.",
+      "closing": "The public record is complete. The council withdraws Rusk’s emergency authority and refers the signed evidence to an outside court. Elian’s admission is retained for the same inquiry. The archive will keep the old lie visible beside its documented correction.",
+      "locations": [
+        "ch6_l1",
+        "ch6_l2",
+        "ch6_l3",
+        "ch6_l4",
+        "ch6_l5",
+        "ch6_l6"
+      ],
+      "final_puzzle": "p60"
+    }
+  ],
+  "locations": [
+    {
+      "id": "ch1_l1",
+      "chapter": "ch1",
+      "title": "Ferry Landing",
+      "description": "Rain stipples the harbour. The last boat rocks against a stone stair polished by generations of wet boots.",
+      "art": "res://assets/art/locations/ch1_l1.png",
+      "hotspots": [
+        {
+          "id": "ch1_l1_a",
+          "label": "Dispatch box",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The wooden dispatch box stands open on the quay. Three pieces of a water-damaged receipt have caught on separate surfaces: the box lid, the mooring post’s rope and the landing steps. The box piece reads: ARCHIVE — PERSONAL PARCEL. Nothing on it names a prisoner."
+        },
+        {
+          "id": "ch1_l1_b",
+          "label": "Mooring post",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "A triangle of blue receipt paper has caught beneath the rope around the mooring post. It reads: COLLECTED BY M. VENN. The ink is purple, unlike the black type of the later missing-person notice."
+        },
+        {
+          "id": "ch1_l1_c",
+          "label": "Landing steps",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The final scrap is tucked in a crack between the lower landing stones: 18:40 — ONE FARE PAID. Nadi says, “Mara carried her own case. She asked me not to announce her destination. I regret agreeing; I do not regret believing she had a reason.”"
+        }
+      ]
+    },
+    {
+      "id": "ch1_l2",
+      "chapter": "ch1",
+      "title": "Tide Office",
+      "description": "Tide tables cover the walls. Two clocks tick at slightly different speeds, neither quite admitting it.",
+      "art": "res://assets/art/locations/ch1_l2.png",
+      "hotspots": [
+        {
+          "id": "ch1_l2_a",
+          "label": "Tide table",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The table for the flood night lists low water at 00:20. Water rises by exactly one marked division every six minutes after low water. A pencilled observation at 00:38 records three divisions above low water. The next disputed measurement is five divisions above low water."
+        },
+        {
+          "id": "ch1_l2_b",
+          "label": "Shutter plate",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The tide-office shutter uses three brass buttons. Its engraved rule reads: “At low water, press SHORE. As water rises, press CHANNEL twice. Only then press SEA.” The buttons are a maintenance interlock, not a musical instrument."
+        },
+        {
+          "id": "ch1_l2_c",
+          "label": "Missing-person notice",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The notice claims Mara missed the 18:40 boat and may have fallen into the harbour. It was posted at 19:05. Nadi’s receipt records a paid 18:40 passage under Mara’s own name. The notice offers no witness and no recovered belongings."
+        }
+      ]
+    },
+    {
+      "id": "ch1_l3",
+      "chapter": "ch1",
+      "title": "Archive Vestibule",
+      "description": "The archive smells of wet wool and paper. One shelf label has been replaced more recently than its neighbours.",
+      "art": "res://assets/art/locations/ch1_l3.png",
+      "hotspots": [
+        {
+          "id": "ch1_l3_a",
+          "label": "Catalogue rule",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The old index orders records first by DISTRICT, then YEAR, then DOCUMENT TYPE. Districts run East before North before West. Inside one year, petitions come before tide returns and works orders. Mara’s note names East, year 17, works order."
+        },
+        {
+          "id": "ch1_l3_b",
+          "label": "Shelf tickets",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Four surviving tickets read: A — East / 17 / petition; B — East / 17 / tide return; C — East / 17 / works order; D — North / 17 / works order. A fresh replacement ticket points to B, but an old pinhole is visible above C."
+        },
+        {
+          "id": "ch1_l3_c",
+          "label": "Supply chest",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Mara has left the supply chest unlatched. Inside is a packet of long-fibred repair tissue. Her label says, “No adhesive tape. No ink on a damaged original. Give the tear a bridge, not a disguise.”",
+          "item": "tissue"
+        }
+      ]
+    },
+    {
+      "id": "ch1_l4",
+      "chapter": "ch1",
+      "title": "Restoration Room",
+      "description": "A sheet of blue paper waits beneath glass weights. Lamplight turns its tears into bright little rivers.",
+      "art": "res://assets/art/locations/ch1_l4.png",
+      "hotspots": [
+        {
+          "id": "ch1_l4_a",
+          "label": "Paste jar",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "A jar of wheat paste stands in a shallow water bath. It remains usable. The work card says to combine it with thin repair tissue before touching the torn dispatch folio. Dry tissue alone will not hold; wet paste alone will stain.",
+          "item": "paste"
+        },
+        {
+          "id": "ch1_l4_b",
+          "label": "Folio fragments",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Four strips of the dispatch folio retain fragments of a sentence. The torn edges fit in this order: the strip ending “borrowed”; the strip beginning “the bell key” and ending “then”; the strip beginning “opened the” and ending “folio”; the strip beginning “before taking the works road”. The text is Mara’s own hand."
+        },
+        {
+          "id": "ch1_l4_c",
+          "label": "Mara’s margin",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Mara’s note reads, “I have borrowed the bell key, then opened the missing folio before taking the works road. If the tide had not turned, it could not have filled the Reach. Ask the machine before asking the men.” Beside it she has drawn a small practice bell, not the great harbour bell."
+        }
+      ]
+    },
+    {
+      "id": "ch1_l5",
+      "chapter": "ch1",
+      "title": "Boarding House",
+      "description": "A narrow parlour overlooks the back of the archive. Someone has kept Mara’s supper warm twice.",
+      "art": "res://assets/art/locations/ch1_l5.png",
+      "hotspots": [
+        {
+          "id": "ch1_l5_a",
+          "label": "Landlady’s account",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Mrs Lorn says, “She returned the bell key before supper. She had blue paper under her arm. Then she changed her wet shoes and walked toward the works road. I saw no struggle. I did see someone from the council ask whether she had left a parcel.”"
+        },
+        {
+          "id": "ch1_l5_b",
+          "label": "Rain ledger",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The house ledger records: 17:10 — bell key delivered to Mara; 17:35 — Mara returns with blue folio; 17:50 — key returned; 18:00 — Mara leaves on foot. The ferry landing is reached by the works road. The missing-person notice omits all four entries."
+        },
+        {
+          "id": "ch1_l5_c",
+          "label": "Key rack",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "A spare flax bell cord is looped over the key rack beside Mara’s coat. Her note says the practice bell’s pull broke before she could return it. She kept the cord, but the brass hook stayed in the tower.",
+          "item": "bell_cord"
+        }
+      ]
+    },
+    {
+      "id": "ch1_l6",
+      "chapter": "ch1",
+      "title": "Bell Tower",
+      "description": "The great harbour bell hangs above a much smaller practice bell. Only the smaller one has a missing pull.",
+      "art": "res://assets/art/locations/ch1_l6.png",
+      "hotspots": [
+        {
+          "id": "ch1_l6_a",
+          "label": "Spare rope tackle",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Among the spare rope tackle is a brass hook wrapped in a scrap of sailcloth. Its curved end matches the practice lever’s empty eye. You can take it without disturbing the great bell.",
+          "item": "bell_hook"
+        },
+        {
+          "id": "ch1_l6_b",
+          "label": "Signal card",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The tower teaches signals with two sounds: SHORT and LONG. The card assigns WORKS = LONG, SHORT, SHORT; FERRY = SHORT, LONG; ARCHIVE = LONG, LONG. Mara underlined WORKS and wrote, “Quiet bell only. I do not want the whole harbour called out.”"
+        },
+        {
+          "id": "ch1_l6_c",
+          "label": "Key return book",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Mara signed the key return book herself at 17:50. The ink matches her letter; the pressure dents match the signature on the ferry receipt. A second hand added “never returned” to the missing notice, but never to this book."
+        }
+      ]
+    },
+    {
+      "id": "ch2_l1",
+      "chapter": "ch2",
+      "title": "Pump Court",
+      "description": "Water drums beneath iron grates. Pale mineral lines remain on the sheltered walls long after the flood.",
+      "art": "res://assets/art/locations/ch2_l1.png",
+      "hotspots": [
+        {
+          "id": "ch2_l1_a",
+          "label": "High-water nail",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "A brass nail marks the flood’s highest point. Silt beneath it contains red foundry grit. Ordinary harbour sediment is grey. Rowan says the red grit enters the works only through the upper reservoir."
+        },
+        {
+          "id": "ch2_l1_b",
+          "label": "Broken gauge",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The gauge glass lies below its mounting. The bent needle stopped against the HIGH mark, not the normal tide mark. Its backplate is stamped RESERVOIR FEED."
+        },
+        {
+          "id": "ch2_l1_c",
+          "label": "Service chart",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The service chart lists directed links: COURT → GALLERY or CISTERN; GALLERY → PIT or GAUGE LANDING; GAUGE LANDING → DRY WALK; DRY WALK → MACHINE or SUMP; CISTERN → SUMP; SUMP → MACHINE; PIT → SEA DRAIN. Every arrow is one-way. The inspection must pass GAUGE LANDING to record the upstream reading before reaching MACHINE."
+        }
+      ]
+    },
+    {
+      "id": "ch2_l2",
+      "chapter": "ch2",
+      "title": "Sluice Gallery",
+      "description": "Three enormous wheels vanish into the dark. A small training board shows their interlocks in miniature.",
+      "art": "res://assets/art/locations/ch2_l2.png",
+      "hotspots": [
+        {
+          "id": "ch2_l2_a",
+          "label": "Valve protocol",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The disconnected training board starts with FEED open, DRAIN closed and VENT untested. Constraints: DRAIN may open only while FEED is closed. VENT may be tested only while DRAIN is open. FEED may reopen only after VENT has passed and DRAIN is closed. An inspection ends with the original valve positions restored. Use each of the five named actions exactly once."
+        },
+        {
+          "id": "ch2_l2_b",
+          "label": "Coupling crate",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The ordinary gate shafts are round. A spare square-drive coupling rests in a divided tool crate labelled COUNCIL BYPASS. Its paint is worn in one diagonal band.",
+          "item": "coupling"
+        },
+        {
+          "id": "ch2_l2_c",
+          "label": "Scored housing",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The council bypass housing bears fresh-looking diagonal wear preserved under old grease. The ordinary East Reach gate has a straight wear line. Force travelled through the diagonal drive on the flood night. A current safety tag lists PIT and SUMP as flooded. Neither is traversable today. The other charted service platforms remain dry; the test requires a route that never enters a flooded node."
+        }
+      ]
+    },
+    {
+      "id": "ch2_l3",
+      "chapter": "ch2",
+      "title": "Machine Room",
+      "description": "The room is warm with the smell of old oil. A pressure recorder has preserved one fragile roll.",
+      "art": "res://assets/art/locations/ch2_l3.png",
+      "hotspots": [
+        {
+          "id": "ch2_l3_a",
+          "label": "Crank drawer",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The drawer contains an insulated wooden crank. Its brass thread matches the coupling in the gallery. An instruction states that the disconnected test socket is the only permitted place to fit it.",
+          "item": "handle"
+        },
+        {
+          "id": "ch2_l3_b",
+          "label": "Pressure roll",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The pressure roll reads, in order: reservoir steady; bypass pressure rises; East Reach level rises; harbour tide turns. The main gate trace stays flat throughout. A note explains that a rise downstream before the harbour tide turns must have an upstream source."
+        },
+        {
+          "id": "ch2_l3_c",
+          "label": "Test socket",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The disconnected training socket has three positions. At CLOSED there is no flow; at HALF, the upper reservoir feeds the Reach slowly; at FULL, it feeds the Reach rapidly. The old scratch reaches FULL. No position connects the harbour directly."
+        }
+      ]
+    },
+    {
+      "id": "ch2_l4",
+      "chapter": "ch2",
+      "title": "Workers’ Kitchen",
+      "description": "A long table still bears the initials of workers whose shifts ended before the city remembered them.",
+      "art": "res://assets/art/locations/ch2_l4.png",
+      "hotspots": [
+        {
+          "id": "ch2_l4_a",
+          "label": "Meal slate",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The meal slate has six visitors but its times washed away. The cook remembers that the bell apprentice arrived immediately before Rowan. Rowan arrived exactly two places before the post carrier. The council courier was the last of the six. Every visitor arrived once; there were no ties."
+        },
+        {
+          "id": "ch2_l4_b",
+          "label": "Cup with a crack",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Rowan recognises his old cup. “The courier came after I ate. He said the Reach was empty. I locked the lower footway barrier until Tomas rang the handbell. I then unfastened that barrier; Tomas separately released the upper footway gate. By then water was over the lower stair. Put that in your book too.” Rowan adds, “Tomas unlatched the upper footway himself. I saw him pull three people through before he went back down. That is a memory I can put my name to.”"
+        },
+        {
+          "id": "ch2_l4_c",
+          "label": "Cook’s lunch tin",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Inside the lunch tin, the cook’s separate note says Ada’s messenger arrived before the bell apprentice. Elian’s runner came after Rowan but before the post carrier. The runner asked whether the houses were clear; the council courier later answered yes without producing a household list. The note records a claim, not a verified evacuation."
+        }
+      ]
+    },
+    {
+      "id": "ch2_l5",
+      "chapter": "ch2",
+      "title": "Lockkeeper’s Cabin",
+      "description": "Tools are wrapped in linen, carefully enough to suggest grief rather than order.",
+      "art": "res://assets/art/locations/ch2_l5.png",
+      "hotspots": [
+        {
+          "id": "ch2_l5_a",
+          "label": "Tomas’s keyring",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Rowan preserved Tomas’s key on its old ring. You make a charcoal tracing of the working edge: two shallow notches and a narrow shoulder. “I threw away nothing,” he says. “Except the chance to speak sooner.”",
+          "item": "key_blank"
+        },
+        {
+          "id": "ch2_l5_b",
+          "label": "Bypass profile",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "A lock maintenance plate gives the council bypass a broad shoulder and three deep notches. The plate can be lifted from its pin for comparison. Tomas’s ordinary gate key is visibly incompatible.",
+          "item": "key_plate"
+        },
+        {
+          "id": "ch2_l5_c",
+          "label": "Rowan’s closure order",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The closure order bears the magistrate’s office stamp. It says EAST REACH EVACUATED — CLOSE PUBLIC FOOTWAY. It does not instruct Rowan to inspect the houses. His signed receipt establishes obedience, not the truth of the claim."
+        }
+      ]
+    },
+    {
+      "id": "ch2_l6",
+      "chapter": "ch2",
+      "title": "Spillway Overlook",
+      "description": "The city’s roofs sit below the reservoir lip. From here the flood has a shape that no written excuse can alter.",
+      "art": "res://assets/art/locations/ch2_l6.png",
+      "hotspots": [
+        {
+          "id": "ch2_l6_a",
+          "label": "Flow diagram",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The spillway diagram gives this physical order: RESERVOIR → BYPASS → REACH → LOWER STAIR. The harbour branch joins the Reach beyond the lower stair; it cannot push reservoir grit uphill into the bypass."
+        },
+        {
+          "id": "ch2_l6_b",
+          "label": "Gate scars",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Tomas’s residential gate was still seated when the surge hit: silt cakes its upstream face, with no scour through the opening. The bypass outlet is scoured clean. The different marks agree with the pressure roll."
+        },
+        {
+          "id": "ch2_l6_c",
+          "label": "Observatory cable",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "A dead timing cable runs from the recorder toward the observatory. Its tag says, “All pressure times set by the meridian pulse.” Rowan points uphill. “If the clocks disagree, ask Ada. She never forgave a minute.”"
+        }
+      ]
+    },
+    {
+      "id": "ch3_l1",
+      "chapter": "ch3",
+      "title": "Observatory Steps",
+      "description": "An armillary sphere gathers rain above the city. Ada’s boots have worn a dry crescent under the porch.",
+      "art": "res://assets/art/locations/ch3_l1.png",
+      "hotspots": [
+        {
+          "id": "ch3_l1_a",
+          "label": "Lens box",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "A padded instrument box contains a convex viewing lens. Its label warns against holding a plate close to a hot lamp. Ada prefers daylight and patience.",
+          "item": "lens"
+        },
+        {
+          "id": "ch3_l1_b",
+          "label": "Calibration plaque",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The old works clock ran four minutes fast relative to meridian time. Its flood-night entry reads 00:18. To convert a works reading to meridian time, subtract four minutes; do not add them."
+        },
+        {
+          "id": "ch3_l1_c",
+          "label": "Ada at the door",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Ada says, “A fast clock is not a dishonest clock. Its error was recorded. The dishonest thing was printing its reading as though no correction existed. Mara wanted the original plates because a copied number can lose its footnote.”"
+        }
+      ]
+    },
+    {
+      "id": "ch3_l2",
+      "chapter": "ch3",
+      "title": "Transit Hall",
+      "description": "A telescope points through a slit of pale sky. On the desk, four exposure envelopes lie out of sequence.",
+      "art": "res://assets/art/locations/ch3_l2.png",
+      "hotspots": [
+        {
+          "id": "ch3_l2_a",
+          "label": "Exposure envelopes",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Six exposure envelopes were filed by their observed local clock readings, not by a common time: Council dispatch — WORKS 00:26; Reach warning — HARBOUR 00:13; Reservoir steady — MERIDIAN 00:10; Last ferry clears — HARBOUR 00:21; Bypass opens — WORKS 00:18; Tide turns — MERIDIAN 00:20. The clock name is part of each reading."
+        },
+        {
+          "id": "ch3_l2_b",
+          "label": "Instrument ledger",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The observatory ledger confirms that MERIDIAN is the reference clock. The HARBOUR clock ran three minutes slow that night; add three minutes to its readings. The WORKS correction remains on the entrance plaque. Exposure codes use I = 30 seconds, II = 60 seconds, III = 90 seconds. These are durations, not clock corrections. Star crossings constrain the reference clock’s error to under ten seconds."
+        },
+        {
+          "id": "ch3_l2_c",
+          "label": "Viewer components",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Beside the small brass instrument are its detachable viewer components. You lift a folding frame with an empty circular lens seat; it matches the padded lens box on the steps.",
+          "item": "viewer_frame"
+        }
+      ]
+    },
+    {
+      "id": "ch3_l3",
+      "chapter": "ch3",
+      "title": "Plate Darkroom",
+      "description": "Trays are dry now, but the room retains a mineral smell. Four glass plates wait behind red curtains.",
+      "art": "res://assets/art/locations/ch3_l3.png",
+      "hotspots": [
+        {
+          "id": "ch3_l3_a",
+          "label": "Backlit plate",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Against diffuse light, one plate shows the bypass lamp bright and the residential gate lamp dark. The exposure label is 00:14 meridian. The lamp key states bright means OPEN for the bypass, but dark means CLOSED for the residential gate; the systems use different housings. Because the plate integrates light during its exposure, it establishes that the bypass was open by the labelled end, not the exact second when the lamp changed."
+        },
+        {
+          "id": "ch3_l3_b",
+          "label": "Exposure timer notes",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The critical plate was triggered by a reference flash at 00:11:45 meridian time. Before opening, the delay wheel passed three equally spaced notches. The per-notch duration marking has worn away. The shutter then remained open for exposure code II; code durations are in the transit-hall ledger. The backlit plate retains its exact exposure-END time. Use these records to recover the lost notch calibration."
+        },
+        {
+          "id": "ch3_l3_c",
+          "label": "Ada’s rejected letter",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Ada wrote to the council: “Your evacuation return is later than my first warning plate.” The reply asks her to avoid confusing grieving families with technical uncertainties. She says, “Uncertainty should be measured. They used it as a curtain.”"
+        }
+      ]
+    },
+    {
+      "id": "ch3_l4",
+      "chapter": "ch3",
+      "title": "Signal Loft",
+      "description": "Coloured panes hang over a small lamp. The city below looks like a constellation someone has tried to rearrange.",
+      "art": "res://assets/art/locations/ch3_l4.png",
+      "hotspots": [
+        {
+          "id": "ch3_l4_a",
+          "label": "Signal alphabet",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The signal wheel has four clockwise slots numbered 0, 1, 2, 3: RED, WHITE, BLUE, AMBER. Its letter table gives R = 0 steps, E = 1, A = 2, D = 3. For each letter, advance clockwise by that many steps, transmit the pane reached, and leave the cursor there for the next letter. After slot 3, the next step returns to slot 0. Every pane is also labelled in words."
+        },
+        {
+          "id": "ch3_l4_b",
+          "label": "Relay chart",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The relay chart gives directed links and signal loss per link: LOFT→NORTH ROOF 2; LOFT→MARKET 1; NORTH ROOF→MERIDIAN ROOF 3; NORTH ROOF→QUARRY 2; MARKET→HARBOUR 1; MARKET→CHAPEL 2; HARBOUR→ISLAND 8; CHAPEL→MERIDIAN ROOF 1; QUARRY→ISLAND 6; MERIDIAN ROOF→ISLAND 2. There are no other links. Lower total loss means a clearer signal; relays do not restore strength."
+        },
+        {
+          "id": "ch3_l4_c",
+          "label": "Mara’s signal note",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Mara copied a message from the island: “A room for those who were never listed.” Beneath it is a bearing instruction: start NORTH, turn one quarter-turn clockwise, then turn half a turn. The final direction identifies the old clinic channel. For the relay test, Mara wrote the message READ and drew the cursor starting on WHITE. She underlined “keep the cursor where it lands”; resetting it between letters would send a different message."
+        }
+      ]
+    },
+    {
+      "id": "ch3_l5",
+      "chapter": "ch3",
+      "title": "Clock Workshop",
+      "description": "The room is crowded with clocks that disagree for honest mechanical reasons. Ada has labelled every disagreement.",
+      "art": "res://assets/art/locations/ch3_l5.png",
+      "hotspots": [
+        {
+          "id": "ch3_l5_a",
+          "label": "Spare spring",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "A spare clock spring lies in waxed paper. It is for the demonstration clock, not the preserved flood-night instrument. Ada insists that evidence be explained before it is repaired.",
+          "item": "clock_spring"
+        },
+        {
+          "id": "ch3_l5_b",
+          "label": "Detached spindle",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The demonstration clock’s spindle lies in a shallow tray. Its flat side accepts the end of the spare spring. Once assembled, it shows why a stopped hand retains a reading without proving the event occurred at that reading.",
+          "item": "clock_spindle"
+        },
+        {
+          "id": "ch3_l5_c",
+          "label": "Fault report",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The council hallway clock stopped at 00:05 when its spring broke. Its stopped display was later cited as the time the evacuation return arrived. A stopped clock cannot timestamp a later arrival. The observatory plate, by contrast, records the dispatch lamp at 00:22."
+        }
+      ]
+    },
+    {
+      "id": "ch3_l6",
+      "chapter": "ch3",
+      "title": "Meridian Roof",
+      "description": "The meridian line runs beneath your feet in brass. Far across the marsh, one window catches the light.",
+      "art": "res://assets/art/locations/ch3_l6.png",
+      "hotspots": [
+        {
+          "id": "ch3_l6_a",
+          "label": "Independent timeline",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Four sources now align: works reading 00:18 minus four minutes = 00:14; observatory bypass plate ends 00:14; warning flare plate 00:16; council dispatch plate 00:22. The stopped hallway clock supplies no valid arrival time."
+        },
+        {
+          "id": "ch3_l6_b",
+          "label": "Bearing rose",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The roof’s compass rose names NORTH, EAST, SOUTH and WEST clockwise. From NORTH, a clockwise quarter-turn reaches EAST; a further half-turn reaches the opposite point. The old clinic stands on that final bearing. Ada’s relay requirement is written beside the rose: choose the route with the lowest TOTAL signal loss, not the fewest rooftops. All listed links are operational tonight."
+        },
+        {
+          "id": "ch3_l6_c",
+          "label": "Ada’s promise",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "“Mara is not protecting a culprit,” Ada says. “She is protecting people who will be asked why they did not leave. Find them before you publish a theory about them.” She wraps copies of the plates separately from the originals."
+        }
+      ]
+    },
+    {
+      "id": "ch4_l1",
+      "chapter": "ch4",
+      "title": "Reed Jetty",
+      "description": "The jetty rises on uneven piles. A rust-coloured cloth marks the route post; its written tag matters more than its colour.",
+      "art": "res://assets/art/locations/ch4_l1.png",
+      "hotspots": [
+        {
+          "id": "ch4_l1_a",
+          "label": "Cloth route tag",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The jetty route tag lists: JETTY→WILLOW or FERRY HUT; FERRY HUT→DRY BANK; DRY BANK→WILLOW or SOFT MUD; WILLOW→STONE RIDGE or SOFT MUD; STONE RIDGE→CLINIC; SOFT MUD→CLINIC. Arrows are one-way. A rope is stored at FERRY HUT and can be carried onward. Start at JETTY without a rope."
+        },
+        {
+          "id": "ch4_l1_b",
+          "label": "Crossing marker",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The willow crossing requires the ferry-hut rope before you may LEAVE WILLOW toward STONE RIDGE. The rope remains usable after the crossing. SOFT MUD has collapsed and cannot be entered. The direct approach to WILLOW is physically open, but there is no arrow from WILLOW back to the hut. Route tags use words as well as colour."
+        },
+        {
+          "id": "ch4_l1_c",
+          "label": "Ferry log",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Nadi’s private log records three families brought to the clinic after the flood. She used house names because she did not know every passenger’s surname. The city later treated unlisted passengers as though they had not existed."
+        }
+      ]
+    },
+    {
+      "id": "ch4_l2",
+      "chapter": "ch4",
+      "title": "Abandoned Clinic",
+      "description": "The clinic is no longer staffed, but its cupboards have been cleaned. Someone has been working here by lamplight.",
+      "art": "res://assets/art/locations/ch4_l2.png",
+      "hotspots": [
+        {
+          "id": "ch4_l2_a",
+          "label": "Triage board",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The historical clinic board sorts its cards first by category: BREATH before BLEED before BONE before WALK. Within one category only, lower arrival numbers come first. The board is a record of this clinic’s past procedure, not guidance for a current emergency. Arrival number does not override category."
+        },
+        {
+          "id": "ch4_l2_b",
+          "label": "Loose register leaf",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "A torn numbered leaf is headed FLOOD DEATHS — DISTINCT PEOPLE. It records 8 people treated before dying, 9 family members recovered from houses and 6 lodgers recovered without permanent addresses. No person appears in more than one group. The final total was left blank. Separate surviving-patient pages remain in the book.",
+          "item": "register_leaf"
+        },
+        {
+          "id": "ch4_l2_c",
+          "label": "Binding stub",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The book’s binding retains the bottom of page 23. The loose leaf’s upper number is also 23. Three thread holes and a diagonal tear match. A clerk wrote, “Not evacuated: treated or recovered after water rose.” Six surviving treatment cards read: Moss — BREATH, arrival 02; Elva — BONE, arrival 00; Cora — BLEED, arrival 04; Vale — BREATH, arrival 01; Petra — WALK, arrival 01; Hadi — BLEED, arrival 03. Category labels and arrival numbers remain legible even where the treatment notes faded.",
+          "item": "register_stub"
+        }
+      ]
+    },
+    {
+      "id": "ch4_l3",
+      "chapter": "ch4",
+      "title": "Glasshouse",
+      "description": "Salt has clouded the panes. Tough little plants survive in labelled pots, each carrying a piece of the clinic’s old routine.",
+      "art": "res://assets/art/locations/ch4_l3.png",
+      "hotspots": [
+        {
+          "id": "ch4_l3_a",
+          "label": "Plant labels",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Four surviving greenhouse inventory numbers are REED 4, MINT 2, SAGE 7 and THYME 1. Mara’s shelf reference uses three DIFFERENT numbers from this set. She did not write the three chosen plants on the label; the rest of her indexing conditions are in the shelter note."
+        },
+        {
+          "id": "ch4_l3_b",
+          "label": "Mara’s shelter note",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "“I am safe,” Mara writes. “I left because a duplicate accusation was not enough. I needed the register and the people behind it. I should have told Iona more. I thought a letter could not be seized if I never wrote it; I forgot what silence does to friends.” To keep the shelf reference separate from its key, Mara wrote: “Three digits in increasing order. The middle digit is three more than the first. Together the three digits total twelve.” The reference indexes a storage shelf; it is not a medicine recipe."
+        },
+        {
+          "id": "ch4_l3_c",
+          "label": "Backing shelf",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Neutral archival backing sheets dry beneath a slatted cover. One has registration crosses matching Mara’s tracing method. She has left it for transporting a fragile original.",
+          "item": "backing"
+        }
+      ]
+    },
+    {
+      "id": "ch4_l4",
+      "chapter": "ch4",
+      "title": "Survey Hut",
+      "description": "Old survey stakes lean against the wall. A map marks ground that stays high even when the paths disappear.",
+      "art": "res://assets/art/locations/ch4_l4.png",
+      "hotspots": [
+        {
+          "id": "ch4_l4_a",
+          "label": "Survey map",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The survey grid gives coordinates: HUT(0,0), NORTH BANK(0,1), STONE BRIDGE(1,1), RIDGE(1,0), GARDEN(2,1), TOWER(2,0), REFUGE(3,1), TIDAL CUT(1,2). Travel is allowed between named sites only when they share a grid side: one coordinate differs by exactly one and the other is equal. Diagonal moves are not possible."
+        },
+        {
+          "id": "ch4_l4_b",
+          "label": "Evacuation plan",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The real plan required house-by-house marks, a ferryperson’s count and clinic confirmation. The return the council filed contains only the number of empty beds in the west barracks. Empty beds are capacity, not evidence of evacuated people."
+        },
+        {
+          "id": "ch4_l4_c",
+          "label": "Surveyor’s annotation",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Current water height is 3 survey units. A safe site must be STRICTLY HIGHER than the water. Site heights: HUT 5, NORTH BANK 4, STONE BRIDGE 4, RIDGE 2, GARDEN 4, TOWER 3, REFUGE 5, TIDAL CUT 1. A separate older annotation marks the East Reach houses occupied after the warning flare, citing clinic admissions and Nadi’s boat trips."
+        }
+      ]
+    },
+    {
+      "id": "ch4_l5",
+      "chapter": "ch4",
+      "title": "Memorial Garden",
+      "description": "Names were scratched on loose stones before the council built its official monument. Some stones have only a house mark.",
+      "art": "res://assets/art/locations/ch4_l5.png",
+      "hotspots": [
+        {
+          "id": "ch4_l5_a",
+          "label": "Patient stones",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Eight stones carry the names from the clinic’s patient column: Elva Doss, Tomas Vale, Tavi Moss, Lio Kern, Oren Wye, Petra Senn, Hadi Fen and Cora Wren. The informal memorial kept the names the printed report compressed."
+        },
+        {
+          "id": "ch4_l5_b",
+          "label": "Family and lodger stones",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Nine family names and six lodger names complete the garden: Mira Doss, Cal Doss, Nel Fell, Anja Fell, Sumi Moss, Edda Kern, Jan Wye, Bea Senn, Hesa Fen; then Len Aru, Farah Sol, Dima Rell, Esme Tann, Yori Pell and Asha Voss. Each belongs to one person, not one household."
+        },
+        {
+          "id": "ch4_l5_c",
+          "label": "Official monument",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The official monument says “23 souls lost to the tide.” Its total is correct, but its cause and account of evacuation are not. Mara has laid blank paper beside it: names can be restored without inventing a new number."
+        }
+      ]
+    },
+    {
+      "id": "ch4_l6",
+      "chapter": "ch4",
+      "title": "Island Refuge",
+      "description": "A small house stands above the reed line. Mara opens the door holding a kettle as if you were only late for tea.",
+      "art": "res://assets/art/locations/ch4_l6.png",
+      "hotspots": [
+        {
+          "id": "ch4_l6_a",
+          "label": "Door signal",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The shelter’s visitor card says: “Friends knock once, pause, twice, pause, once.” Use KNOCK and PAUSE to reproduce the complete pattern. The first pause separates one knock from two; the second separates two from one."
+        },
+        {
+          "id": "ch4_l6_b",
+          "label": "Mara’s tracing",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Mara unfolds her original tracing. The instruction reads: “Divert reservoir to clear Reach records store. Use council bypass. Evacuation return to follow.” The author’s signature was on a separate authorisation flap that Mara could not copy. She will not pretend the tracing alone identifies its author.",
+          "item": "tracing"
+        },
+        {
+          "id": "ch4_l6_c",
+          "label": "Mara’s testimony",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "“I saw Rusk order the archive sealed, but I did not see him sign this,” Mara says. “Elian can identify the working instruction. The deed vault can explain the interest. Promise me the patients will not become scenery in a story about your father.” You answer, “They will be named.”"
+        }
+      ]
+    },
+    {
+      "id": "ch5_l1",
+      "chapter": "ch5",
+      "title": "Civic Square",
+      "description": "Fresh notices cover older notices. The paper is cheap enough that yesterday’s promises show through.",
+      "art": "res://assets/art/locations/ch5_l1.png",
+      "hotspots": [
+        {
+          "id": "ch5_l1_a",
+          "label": "Destruction notice",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The magistrate’s office schedules damaged flood records for destruction after tomorrow’s public sitting. The notice gives a right to deposit relevant originals before the sitting closes. There is no need to race a real clock; the sitting advances only when your case is ready."
+        },
+        {
+          "id": "ch5_l1_b",
+          "label": "Occupancy petition",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "A duplicate tenants’ petition was posted the week before the flood. It lists occupied East Reach houses and objects to their transfer to the foundry. Rusk signed its receipt, writing, “Occupancy acknowledged; acquisition cannot proceed while claims remain.”"
+        },
+        {
+          "id": "ch5_l1_c",
+          "label": "Public-sitting rules",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "A deposition must identify ACT, TIME, AUTHORITY, PURPOSE and CONSEQUENCE, then cite an independent source for each. The rules forbid treating a witness’s confession as proof of every claim in the case."
+        }
+      ]
+    },
+    {
+      "id": "ch5_l2",
+      "chapter": "ch5",
+      "title": "Council Chamber",
+      "description": "The chamber’s high windows illuminate the public benches less generously than the magistrate’s desk.",
+      "art": "res://assets/art/locations/ch5_l2.png",
+      "hotspots": [
+        {
+          "id": "ch5_l2_a",
+          "label": "Authority ledger",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Only the magistrate could authorise reservoir diversion. The works engineer could operate it after written authority; the lockkeeper controlled only the residential gate. A clerk transmitted documents but had no authority to issue them."
+        },
+        {
+          "id": "ch5_l2_b",
+          "label": "Elian’s statement",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Elian says, “I turned the bypass. Beforehand, Rusk showed me a preliminary sheet counting empty barracks beds and promised the formal evacuation return would follow. I knew capacity was not a household check. I accepted his spoken assurance because refusal would have cost the works contract. The formal return was dispatched later, at 00:22. Put that distinction in your account.”"
+        },
+        {
+          "id": "ch5_l2_c",
+          "label": "Order counterfoil",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The instruction counterfoil reads: “Clear the Reach records store by diversion. Occupancy petition must not delay acquisition. Evacuation return to follow.” Rusk’s full signature crosses the attached authorisation flap and the dated counterfoil; separating them would break the pen strokes. A clerk preserved both."
+        }
+      ]
+    },
+    {
+      "id": "ch5_l3",
+      "chapter": "ch5",
+      "title": "Deed Vault",
+      "description": "The vault shelves are orderly. Their order makes the missing moral step easier, not harder, to see.",
+      "art": "res://assets/art/locations/ch5_l3.png",
+      "hotspots": [
+        {
+          "id": "ch5_l3_a",
+          "label": "Deed chain",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Six title events survive without dates: Tenant claims lodged; Foundry option purchased; Option assigned; Emergency clearance declared; Claims extinguished; Land transferred. Conditions written across the deeds: lodging preceded purchase; purchase preceded assignment; clearance immediately preceded extinguishment; transfer followed extinguishment. The counting-room ledger records one additional relative position."
+        },
+        {
+          "id": "ch5_l3_b",
+          "label": "Original seal",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The dispatch counterfoil retains a wax impression of the magistrate’s seal. A crescent-shaped chip interrupts its outer ring near the top. You lift the counterfoil in its support, keeping the wax intact.",
+          "item": "seal_impression"
+        },
+        {
+          "id": "ch5_l3_c",
+          "label": "Seal register",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The seal register documents the same crescent chip two months before the flood. The clerk makes a rubbing for comparison. The register warns: a seal identifies an office; custody and signature identify the person responsible.",
+          "item": "seal_register"
+        }
+      ]
+    },
+    {
+      "id": "ch5_l4",
+      "chapter": "ch5",
+      "title": "Print Shop",
+      "description": "Sera’s press takes up most of the room. There is still space on the wall for her mother’s first tenants’ notice.",
+      "art": "res://assets/art/locations/ch5_l4.png",
+      "hotspots": [
+        {
+          "id": "ch5_l4_a",
+          "label": "Compositor’s rack",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Sera has divided the account into five blocks. The required publication order is: what happened; when it happened; who authorised it; why it was ordered; whom it harmed. She calls them ACT, TIME, AUTHORITY, PURPOSE, CONSEQUENCE. Readers should not have to infer the accusation from scattered details.",
+          "item": "type_form"
+        },
+        {
+          "id": "ch5_l4_b",
+          "label": "Proofing sheet",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The blank proof sheet has five citation boxes. Sera says, “A correction is stronger than a flourish. If a line says more than the source, we shorten the line.” The victims’ names have been checked twice against the memorial and register.",
+          "item": "proof_sheet"
+        },
+        {
+          "id": "ch5_l4_c",
+          "label": "Sera’s question",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "“My mother’s petition mattered,” Sera says. “But do not make the deaths sound like a useful route to reform. We needed those people alive. We need a city that can hear a complaint before it becomes an archive.”"
+        }
+      ]
+    },
+    {
+      "id": "ch5_l5",
+      "chapter": "ch5",
+      "title": "Counting Room",
+      "description": "The accounts are written in a steady hand. In the margin, three sums refuse to agree with their heading.",
+      "art": "res://assets/art/locations/ch5_l5.png",
+      "hotspots": [
+        {
+          "id": "ch5_l5_a",
+          "label": "Acquisition account",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The foundry option cost 120 crowns. The emergency transfer paid out 310 crowns. A 40-crown survey fee was legitimate and separately receipted. The remaining gain, after subtracting both option cost and survey fee from the payout, was sent to Rusk’s private trust. The title clerk notes that Option assigned occurred exactly TWO event positions before Claims extinguished, with one intervening title event. This is an event-order annotation, not a two-day interval."
+        },
+        {
+          "id": "ch5_l5_b",
+          "label": "Trust payment",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The trust ledger describes the remaining gain as “clear title premium.” The payment date is the day after the records store flooded. The trust beneficiary is Dorian Rusk. This establishes material benefit; the signed instruction establishes intent."
+        },
+        {
+          "id": "ch5_l5_c",
+          "label": "Accountant’s note",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The accountant refused to classify the premium as flood relief because no household received it. “Relief is paid to people in need,” she wrote. “This payment follows a title, not a person.” Her refusal remains attached to the ledger."
+        }
+      ]
+    },
+    {
+      "id": "ch5_l6",
+      "chapter": "ch5",
+      "title": "Dispatch Station",
+      "description": "Pneumatic tubes converge above a counter scarred by parcel weights. A clerk has kept the receipts everyone else discarded.",
+      "art": "res://assets/art/locations/ch5_l6.png",
+      "hotspots": [
+        {
+          "id": "ch5_l6_a",
+          "label": "Custody receipts",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Six receipt cards survive out of sequence. A: sender Olan, recipient Vey, sealed packet. B: sender Vey, recipient Elian, delivered packet. C: sender Rusk, recipient Olan, signed authorisation. D: sender Elian, recipient Records office, countersigned instruction. E: sender Works drafting room, recipient Rusk, unsigned technical draft. F: sender Records office, recipient Public vault, lodged original. Follow the same document, starting as an unsigned technical draft and ending as a lodged original. A recipient must be the next card’s sender."
+        },
+        {
+          "id": "ch5_l6_b",
+          "label": "Clerk’s retained flap",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The clerk retained the authorisation flap because the first copy smeared. Rusk signed again across flap and counterfoil in front of her. The retained version matches Mara’s tracing word for word, including “evacuation return to follow.” This is an original, not Mara’s recollection."
+        },
+        {
+          "id": "ch5_l6_c",
+          "label": "Late assurance",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The dispatch log records the evacuation return at 00:22. Its attached instruction says “Use the west barracks capacity; do not delay for household checks,” in Rusk’s signed hand. His earlier petition receipt acknowledges occupied houses. The two documents remove the possibility that he merely trusted a completed evacuation."
+        }
+      ]
+    },
+    {
+      "id": "ch6_l1",
+      "chapter": "ch6",
+      "title": "Dawn Quay",
+      "description": "For the first time since your arrival, the rain has stopped. Three packets wait on a dry crate.",
+      "art": "res://assets/art/locations/ch6_l1.png",
+      "hotspots": [
+        {
+          "id": "ch6_l1_a",
+          "label": "Sera’s copies",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Sera has made identical verified bundles for the island refuge, public library and print shop. None is the sole copy. The original instruction and plates remain with Iona for deposition.",
+          "item": "copy_bundle"
+        },
+        {
+          "id": "ch6_l1_b",
+          "label": "Oilcloth wraps",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Nadi provides oilcloth wraps. Each packet lists its destination and contents. “If one boat is stopped, the other still crosses,” she says. “If both are stopped, Sera still has her press.”",
+          "item": "dispatch_wrap"
+        },
+        {
+          "id": "ch6_l1_c",
+          "label": "Distribution chart",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The chart assigns independent routes: ISLAND by NADI; LIBRARY by OLAN; PRINT SHOP held by SERA. Giving every bundle to one courier would recreate the single point of control you are trying to remove."
+        }
+      ]
+    },
+    {
+      "id": "ch6_l2",
+      "chapter": "ch6",
+      "title": "Witness Room",
+      "description": "The witnesses sit around an ordinary table. Nobody has been given a script for what they did not see.",
+      "art": "res://assets/art/locations/ch6_l2.png",
+      "hotspots": [
+        {
+          "id": "ch6_l2_a",
+          "label": "Witness scope cards",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The chair has six witnesses: Rowan, Mara, Olan, Ada, Elian and Sera. Sera will close by describing public distribution. Ada must speak immediately before Elian so the operator’s account uses the corrected time. Mara must speak immediately after Rowan, connecting his retained papers to her tracing. The remaining condition is on Rowan’s corrected draft."
+        },
+        {
+          "id": "ch6_l2_b",
+          "label": "Elian before the sitting",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "“Will you say I was deceived?” Elian asks. You answer, “I will say what you told me: before operating, you recognised that the preliminary bed-capacity sheet was not an evacuation check. You accepted Rusk’s spoken assurance and promised return anyway.” He looks at the table. “Then that is what I will say.”"
+        },
+        {
+          "id": "ch6_l2_c",
+          "label": "Rowan’s correction",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Rowan has struck out “I had no choice” in his draft. Beneath it he writes, “I feared the consequences of refusing.” He does not ask you to make the correction invisible. The clerk’s scheduling note on this draft says Olan must speak after Mara but before Ada, so custody is established before the timing and operator evidence are joined. Every witness speaks once; no simultaneous testimony is permitted."
+        }
+      ]
+    },
+    {
+      "id": "ch6_l3",
+      "chapter": "ch6",
+      "title": "Relay House",
+      "description": "A small transmitter sends the public notice to the outer wards. Its mechanism is simpler than its reputation.",
+      "art": "res://assets/art/locations/ch6_l3.png",
+      "hotspots": [
+        {
+          "id": "ch6_l3_a",
+          "label": "Relay test card",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The relay starts in COLD and must reach READY. Each pulse changes the state according to the card; there is no real-time limit. From COLD: SHORT→PRIMED, LONG→COLD. From PRIMED: SHORT→CHARGED, LONG→VENTED. From CHARGED: SHORT→OVERLOAD, LONG→BRIDGED. The second half of the transition table is beside the checksum register. Use the fewest pulses, because every pulse consumes a test impression."
+        },
+        {
+          "id": "ch6_l3_b",
+          "label": "Checksum rule",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Relay table continued: from BRIDGED, SHORT→CHECK and LONG→VENTED; from CHECK, SHORT→OVERLOAD and LONG→READY; from VENTED, SHORT→COLD and LONG→PRIMED; from OVERLOAD, either pulse→COLD. Separate packet check: source numbers in causal order are pressure 3, plates 7, authority 2, purpose 4, register 6. Multiply each by its 1-based position (1 through 5), add the products, then choose a single check digit that makes the total plus that digit a multiple of ten."
+        },
+        {
+          "id": "ch6_l3_c",
+          "label": "Public notice",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The notice announces a deposition, not a verdict: “Original flood records and witness statements available at the public sitting. Copies held at island refuge, public library and Quill’s print shop.” No allegation is presented as a court conviction."
+        }
+      ]
+    },
+    {
+      "id": "ch6_l4",
+      "chapter": "ch6",
+      "title": "Gate Crown",
+      "description": "The bypass control stands above the city. In daylight it looks less like fate and more like a lever someone chose to move.",
+      "art": "res://assets/art/locations/ch6_l4.png",
+      "hotspots": [
+        {
+          "id": "ch6_l4_a",
+          "label": "Isolation pin",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "Rowan sets out a steel isolation pin. The training interlock shows the safe order: stop FEED, close BYPASS, confirm ZERO pressure, then insert PIN. The real works have already been secured by authorised staff; your reconstruction checks the witnessed procedure.",
+          "item": "locking_pin"
+        },
+        {
+          "id": "ch6_l4_b",
+          "label": "Witnessed tag",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Elian and Rowan sign an isolation tag after checking the actual closed bypass. Their signatures record a present safety state; neither signature absolves a past action. The tag belongs with the isolation pin.",
+          "item": "lock_tag"
+        },
+        {
+          "id": "ch6_l4_c",
+          "label": "Emergency charter",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The charter permits the council to withdraw delegated emergency authority when an officer uses it for an undisclosed private interest. Withdrawal preserves records and prevents further orders. A separate outside court determines criminal responsibility; the sitting cannot pronounce a criminal sentence."
+        }
+      ]
+    },
+    {
+      "id": "ch6_l5",
+      "chapter": "ch6",
+      "title": "Public Forum",
+      "description": "The benches fill quietly. Rusk looks first at the archive case, then at the empty space where he expected a single missing page.",
+      "art": "res://assets/art/locations/ch6_l5.png",
+      "hotspots": [
+        {
+          "id": "ch6_l5_a",
+          "label": "Evidence board",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The five-source board reads: ACT — reservoir bypass shown by pressure and scour; TIME — open by 00:14 on independent plates; AUTHORITY — signed original and custody receipts; PURPOSE — destroy claims for acquisition, in the instruction and trust ledger; CONSEQUENCE — twenty-three named deaths in the corrected register."
+        },
+        {
+          "id": "ch6_l5_b",
+          "label": "Rusk’s defence",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "Rusk says, “An exceptional tide made every calculation unreliable.” Ada lays out the unaltered plates. The pressure roll rises upstream before the harbour tide turns; red reservoir grit and bypass scour confirm the route. A tide cannot account for a signed instruction to divert it."
+        },
+        {
+          "id": "ch6_l5_c",
+          "label": "Council’s decision",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "The chair states the question narrowly: whether to withdraw Rusk’s delegated authority, preserve originals and refer the evidence to an outside court. The decision is not whether the council may quietly replace one official story with another."
+        }
+      ]
+    },
+    {
+      "id": "ch6_l6",
+      "chapter": "ch6",
+      "title": "Memory Room",
+      "description": "The archive has opened a low room beside the public entrance. Anyone may read the corrected register here.",
+      "art": "res://assets/art/locations/ch6_l6.png",
+      "hotspots": [
+        {
+          "id": "ch6_l6_a",
+          "label": "Correction rule",
+          "x": 0.23,
+          "y": 0.59,
+          "text": "The archive’s correction rule requires four steps: retain the original entry; rule through the false claim with one readable line; add the corrected statement with source references; date and sign the correction. Erasure would conceal how the institution failed."
+        },
+        {
+          "id": "ch6_l6_b",
+          "label": "Tomas’s entry",
+          "x": 0.5,
+          "y": 0.42,
+          "text": "The old entry says Tomas Vale opened the residential gate. The documented correction states that the gate remained seated, the council bypass caused the flood, and Tomas opened the upper footway after ringing the handbell. His death is listed among the twenty-three; his last act is no longer used to blame him."
+        },
+        {
+          "id": "ch6_l6_c",
+          "label": "The open register",
+          "x": 0.77,
+          "y": 0.61,
+          "text": "Mara reads every name aloud: Elva Doss, Tomas Vale, Tavi Moss, Lio Kern, Oren Wye, Petra Senn, Hadi Fen, Cora Wren, Mira Doss, Cal Doss, Nel Fell, Anja Fell, Sumi Moss, Edda Kern, Jan Wye, Bea Senn, Hesa Fen, Len Aru, Farah Sol, Dima Rell, Esme Tann, Yori Pell and Asha Voss. The list ends. The room remains quiet for a while."
+        }
+      ]
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "p01",
+      "chapter": "ch1",
+      "location": "ch1_l1",
+      "title": "The three scraps",
+      "type": "hidden",
+      "prompt": "Recover the dispatch receipt from the landing.",
+      "details": "Examine the dispatch box, mooring post and landing steps. Their fragments are retained in your journal; no tiny object is permanently lost.",
+      "solution": "found",
+      "clues": [
+        "ch1_l1_a",
+        "ch1_l1_b",
+        "ch1_l1_c"
+      ],
+      "requires": [],
+      "options": [],
+      "hints": [
+        "The receipt tore among the landing’s working surfaces.",
+        "Look at the dispatch box, mooring post and landing steps.",
+        "Inspect all three landing hotspots, then confirm the search."
+      ],
+      "success": "Together the scraps prove that Mara collected her parcel and paid for a passage. Someone wrote the notice without checking the receipt.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: found."
+    },
+    {
+      "id": "p02",
+      "chapter": "ch1",
+      "location": "ch1_l2",
+      "title": "Water before its time",
+      "type": "code",
+      "prompt": "At what time would the normal tide reach five divisions above low water?",
+      "details": "Enter a four-digit 24-hour time, without punctuation. Count from the tide table’s low water, crossing midnight if necessary.",
+      "solution": "0050",
+      "clues": [
+        "ch1_l2_a"
+      ],
+      "requires": [],
+      "options": [],
+      "hints": [
+        "The tide rises at a constant rate.",
+        "Five divisions take five times six minutes.",
+        "00:20 plus thirty minutes is 00:50. Enter 0050."
+      ],
+      "success": "Normal tide could not reach five divisions until 00:50. The removed folio reports that level in the Reach at 00:14: thirty-six minutes too early, and six minutes before low water ended.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: 0050."
+    },
+    {
+      "id": "p03",
+      "chapter": "ch1",
+      "location": "ch1_l3",
+      "title": "The displaced catalogue",
+      "type": "choice",
+      "prompt": "Which shelf ticket names the folio Mara was seeking?",
+      "details": "Use the catalogue hierarchy and the exact district, year and type. The replacement label is not necessarily reliable.",
+      "solution": "C — East / 17 / works order",
+      "clues": [
+        "ch1_l3_a",
+        "ch1_l3_b"
+      ],
+      "requires": [],
+      "options": [
+        "B — East / 17 / tide return",
+        "D — North / 17 / works order",
+        "C — East / 17 / works order",
+        "A — East / 17 / petition"
+      ],
+      "hints": [
+        "Read all three parts of the catalogue reference.",
+        "East and year 17 are insufficient: the document is a works order.",
+        "Choose C — East / 17 / works order."
+      ],
+      "success": "The works-order shelf has a narrow empty space. Mara was following an administrative record, not merely a tide table.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: C — East / 17 / works order."
+    },
+    {
+      "id": "p04",
+      "chapter": "ch1",
+      "location": "ch1_l4",
+      "title": "A repair that can be undone",
+      "type": "assembly",
+      "prompt": "Prepare a reversible support for the damaged folio.",
+      "details": "Combine repair tissue and wheat paste in the inventory. Then apply the resulting repair kit here.",
+      "solution": "assembled",
+      "clues": [
+        "ch1_l3_c",
+        "ch1_l4_a"
+      ],
+      "requires": [
+        "p03"
+      ],
+      "options": [],
+      "hints": [
+        "The supply chest and the workbench hold complementary materials.",
+        "Tissue supports the tear; paste attaches that support.",
+        "Combine Repair tissue with Wheat paste, then apply the Paper repair kit."
+      ],
+      "success": "The supported page can be handled without losing its torn edges. You have preserved both writing and physical evidence.",
+      "items": [
+        "repair_kit"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p05",
+      "chapter": "ch1",
+      "location": "ch1_l4",
+      "title": "The path through the page",
+      "type": "order",
+      "prompt": "Reconstruct the order of Mara’s actions from the four strips.",
+      "details": "Arrange the strips by their matching sentence edges. Every strip is used once.",
+      "solution": [
+        "Borrowed",
+        "The bell key, then",
+        "Opened the folio",
+        "Before taking the works road"
+      ],
+      "clues": [
+        "ch1_l4_b",
+        "ch1_l4_c"
+      ],
+      "requires": [
+        "p04"
+      ],
+      "options": [
+        "Opened the folio",
+        "Borrowed",
+        "Before taking the works road",
+        "The bell key, then"
+      ],
+      "hints": [
+        "Read the words on each edge as parts of one sentence.",
+        "Borrowing comes before opening; the road comes last.",
+        "Order: Borrowed → The bell key, then → Opened the folio → Before taking the works road."
+      ],
+      "success": "The repaired sentence gives you a route. The bell key came before the folio; the works road came after it.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['Borrowed', 'The bell key, then', 'Opened the folio', 'Before taking the works road']."
+    },
+    {
+      "id": "p06",
+      "chapter": "ch1",
+      "location": "ch1_l5",
+      "title": "An evening without a struggle",
+      "type": "order",
+      "prompt": "Put the witnessed events in chronological order.",
+      "details": "Use the boarding-house ledger. The later missing notice is an allegation, not a timed observation.",
+      "solution": [
+        "Key delivered",
+        "Blue folio seen",
+        "Key returned",
+        "Mara leaves on foot"
+      ],
+      "clues": [
+        "ch1_l5_a",
+        "ch1_l5_b"
+      ],
+      "requires": [
+        "p01"
+      ],
+      "options": [
+        "Mara leaves on foot",
+        "Blue folio seen",
+        "Key delivered",
+        "Key returned"
+      ],
+      "hints": [
+        "The ledger gives four explicit times.",
+        "17:10 precedes 17:35, then 17:50, then 18:00.",
+        "Key delivered → Blue folio seen → Key returned → Mara leaves on foot."
+      ],
+      "success": "Mara’s movements form a deliberate itinerary. The council’s visitor was interested in what she carried, not in finding her.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['Key delivered', 'Blue folio seen', 'Key returned', 'Mara leaves on foot']."
+    },
+    {
+      "id": "p07",
+      "chapter": "ch1",
+      "location": "ch1_l2",
+      "title": "The tide shutter",
+      "type": "sequence",
+      "prompt": "Operate the shutter’s maintenance interlock.",
+      "details": "Select the engraved button sequence. Buttons may be used more than once. Do not omit the repeated rising-water step.",
+      "solution": [
+        "SHORE",
+        "CHANNEL",
+        "CHANNEL",
+        "SEA"
+      ],
+      "clues": [
+        "ch1_l2_b"
+      ],
+      "requires": [
+        "p02"
+      ],
+      "options": [
+        "SEA",
+        "SHORE",
+        "CHANNEL"
+      ],
+      "hints": [
+        "Begin where the water is lowest.",
+        "The rising-water button is pressed twice.",
+        "SHORE → CHANNEL → CHANNEL → SEA."
+      ],
+      "success": "The shutter lifts, revealing an old flood-level scratch behind it. Its height agrees with Mara’s copied measurement, not the official tide time.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['SHORE', 'CHANNEL', 'CHANNEL', 'SEA']."
+    },
+    {
+      "id": "p08",
+      "chapter": "ch1",
+      "location": "ch1_l6",
+      "title": "The small bell",
+      "type": "assembly",
+      "prompt": "Restore the practice bell’s pull without touching the harbour alarm.",
+      "details": "Combine the flax bell cord with the brass bell hook in inventory, then fit the repaired pull.",
+      "solution": "assembled",
+      "clues": [
+        "ch1_l5_c",
+        "ch1_l6_a"
+      ],
+      "requires": [
+        "p06"
+      ],
+      "options": [],
+      "hints": [
+        "The cord and hook were left in different places.",
+        "Take the cord from the key rack and the hook from the tower’s spare rope tackle.",
+        "Combine Bell cord and Brass bell hook, then apply Repaired bell pull."
+      ],
+      "success": "The little bell moves freely again. Its private teaching signal can be reproduced without summoning the harbour.",
+      "items": [
+        "bell_pull"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p09",
+      "chapter": "ch1",
+      "location": "ch1_l6",
+      "title": "A quiet destination",
+      "type": "sequence",
+      "prompt": "Reproduce the destination Mara underlined.",
+      "details": "Read the practice signal card. Enter the sounds in order; a sound may be repeated.",
+      "solution": [
+        "LONG",
+        "SHORT",
+        "SHORT"
+      ],
+      "clues": [
+        "ch1_l6_b"
+      ],
+      "requires": [
+        "p08"
+      ],
+      "options": [
+        "SHORT",
+        "LONG"
+      ],
+      "hints": [
+        "Mara underlined a destination, not a person.",
+        "Use the WORKS entry on the signal card.",
+        "LONG → SHORT → SHORT."
+      ],
+      "success": "The practice keeper recognises the signal. Mara was asking which road remained dry to the pumping works after the evening tide.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['LONG', 'SHORT', 'SHORT']."
+    },
+    {
+      "id": "p10",
+      "chapter": "ch1",
+      "location": "ch1_l6",
+      "title": "The borrowed bell",
+      "type": "deduction",
+      "prompt": "Which account best fits the independent records?",
+      "details": "Your conclusion must explain the paid passage, the returned key, the repaired folio and the witnessed departure.",
+      "solution": "Mara left deliberately, carrying evidence toward the works",
+      "clues": [
+        "ch1_l1_b",
+        "ch1_l1_c",
+        "ch1_l2_c",
+        "ch1_l5_b",
+        "ch1_l6_c"
+      ],
+      "requires": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07",
+        "p08",
+        "p09"
+      ],
+      "options": [
+        "Mara fell into the harbour before 17:10",
+        "Mara was seized in the boarding house",
+        "Mara left deliberately, carrying evidence toward the works",
+        "Mara never collected the archive parcel"
+      ],
+      "hints": [
+        "Test each claim against the timed records.",
+        "A returned key and paid fare contradict an unexplained disappearance at the archive.",
+        "Choose the deliberate departure toward the works."
+      ],
+      "success": "You write a careful first conclusion: Mara left voluntarily with evidence. It does not explain why she hid. It tells you where to look next.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Mara left deliberately, carrying evidence toward the works."
+    },
+    {
+      "id": "p11",
+      "chapter": "ch2",
+      "location": "ch2_l1",
+      "title": "Marks the water left",
+      "type": "hidden",
+      "prompt": "Record three independent traces in the pump court.",
+      "details": "Examine the high-water nail, broken gauge and service chart. Record physical evidence before interpreting the machine.",
+      "solution": "found",
+      "clues": [
+        "ch2_l1_a",
+        "ch2_l1_b",
+        "ch2_l1_c"
+      ],
+      "requires": [
+        "p10"
+      ],
+      "options": [],
+      "hints": [
+        "The flood left traces above and below eye level.",
+        "Inspect the nail, gauge and route chart.",
+        "Examine all three pump-court hotspots, then confirm."
+      ],
+      "success": "The red sediment and reservoir gauge establish an upstream source worth testing. The route chart gives you a safe approach.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: found."
+    },
+    {
+      "id": "p12",
+      "chapter": "ch2",
+      "location": "ch2_l1",
+      "title": "A dry way through",
+      "type": "routing",
+      "prompt": "Trace a safe maintenance route from the court to the machine room.",
+      "details": "Plan a directed route from COURT to MACHINE. It must include the required gauge reading and avoid every platform named on the gallery’s current flood tag. Do not revisit nodes.",
+      "solution": [
+        "COURT",
+        "GALLERY",
+        "GAUGE LANDING",
+        "DRY WALK",
+        "MACHINE"
+      ],
+      "clues": [
+        "ch2_l1_c",
+        "ch2_l2_c"
+      ],
+      "requires": [
+        "p11"
+      ],
+      "options": [
+        "SUMP",
+        "GAUGE LANDING",
+        "COURT",
+        "SEA DRAIN",
+        "MACHINE",
+        "CISTERN",
+        "DRY WALK",
+        "PIT",
+        "GALLERY"
+      ],
+      "hints": [
+        "The chart alone is not enough: check today’s flooded-platform tag in the gallery.",
+        "The CISTERN branch enters SUMP, while the PIT branch misses the gauge and is flooded.",
+        "COURT → GALLERY → GAUGE LANDING → DRY WALK → MACHINE."
+      ],
+      "success": "You mark a dry access route for the investigation. Nobody needs to enter the flooded pit.",
+      "items": [],
+      "rewards": [],
+      "rationale": "SUMP and PIT are excluded by the current tag. The only remaining directed path from COURT through GAUGE LANDING to MACHINE uses GALLERY and DRY WALK. CISTERN leads only to excluded SUMP."
+    },
+    {
+      "id": "p13",
+      "chapter": "ch2",
+      "location": "ch2_l2",
+      "title": "The five-valve protocol",
+      "type": "sequence",
+      "prompt": "Run the disconnected training board through its inspection cycle.",
+      "details": "Infer the safe action order from the interlocks. Starting state: FEED open, DRAIN closed. Finish with VENT tested and both valves restored. Use every available action once.",
+      "solution": [
+        "Close FEED",
+        "Open DRAIN",
+        "Test VENT",
+        "Close DRAIN",
+        "Open FEED"
+      ],
+      "clues": [
+        "ch2_l2_a"
+      ],
+      "requires": [
+        "p12"
+      ],
+      "options": [
+        "Open FEED",
+        "Close DRAIN",
+        "Test VENT",
+        "Close FEED",
+        "Open DRAIN"
+      ],
+      "hints": [
+        "Write down which condition each action needs before it can happen.",
+        "Close FEED permits Open DRAIN; the vent test must happen before that drain closes again.",
+        "Close FEED → Open DRAIN → Test VENT → Close DRAIN → Open FEED."
+      ],
+      "success": "The interlock works exactly as its maker intended. The flood required a deliberate bypass operation, not one wheel slipping by itself.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Open DRAIN requires Close FEED first; Test VENT requires Open DRAIN before it and Close DRAIN after it. Open FEED requires both Test VENT and Close DRAIN. These constraints force all five actions uniquely."
+    },
+    {
+      "id": "p14",
+      "chapter": "ch2",
+      "location": "ch2_l3",
+      "title": "The square drive",
+      "type": "assembly",
+      "prompt": "Prepare the safe bypass test tool.",
+      "details": "Combine the coupling from the gallery with the insulated crank from the machine-room drawer, then use it in the disconnected socket.",
+      "solution": "assembled",
+      "clues": [
+        "ch2_l2_b",
+        "ch2_l3_a",
+        "ch2_l3_c"
+      ],
+      "requires": [
+        "p13"
+      ],
+      "options": [],
+      "hints": [
+        "The square shaft needs a square coupling.",
+        "The coupling’s threaded end needs the insulated handle.",
+        "Combine Bypass coupling with Insulated crank, then apply Bypass test crank."
+      ],
+      "success": "The test crank reaches the old FULL scratch. You can demonstrate the mechanism without moving a live gate.",
+      "items": [
+        "bypass_tool"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p15",
+      "chapter": "ch2",
+      "location": "ch2_l3",
+      "title": "A pressure without a tide",
+      "type": "deduction",
+      "prompt": "Which source explains the recorder and the test socket?",
+      "details": "Choose the explanation consistent with an unchanged main gate, rising bypass pressure and a tide that turns later.",
+      "solution": "Upper reservoir water entered through the council bypass",
+      "clues": [
+        "ch2_l1_a",
+        "ch2_l3_b",
+        "ch2_l3_c"
+      ],
+      "requires": [
+        "p14"
+      ],
+      "options": [
+        "The harbour tide forced open Tomas’s gate",
+        "Rain alone filled every street at once",
+        "Upper reservoir water entered through the council bypass",
+        "The recorder ran backwards"
+      ],
+      "hints": [
+        "The main gate trace does not move.",
+        "The reservoir pressurises the bypass before the Reach rises.",
+        "Choose upper reservoir water entering through the council bypass."
+      ],
+      "success": "The machine supplies a causal explanation independent of anyone’s recollection. The water came from above.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Upper reservoir water entered through the council bypass."
+    },
+    {
+      "id": "p16",
+      "chapter": "ch2",
+      "location": "ch2_l4",
+      "title": "The kitchen witnesses",
+      "type": "order",
+      "prompt": "Arrange the arrivals at the workers’ kitchen.",
+      "details": "Reconstruct all six arrivals using both the meal slate and the cook’s separate note. “Exactly two places before” means one visitor stood between them. Each visitor appears once.",
+      "solution": [
+        "Ada’s messenger",
+        "Bell apprentice",
+        "Rowan",
+        "Elian’s runner",
+        "Post carrier",
+        "Council courier"
+      ],
+      "clues": [
+        "ch2_l4_a",
+        "ch2_l4_c"
+      ],
+      "requires": [
+        "p10"
+      ],
+      "options": [
+        "Post carrier",
+        "Council courier",
+        "Rowan",
+        "Ada’s messenger",
+        "Elian’s runner",
+        "Bell apprentice"
+      ],
+      "hints": [
+        "Treat Bell apprentice → Rowan as a block. One person goes between Rowan and the post carrier.",
+        "That intervening visitor must be Elian’s runner. Ada precedes the block, and the courier is last.",
+        "Ada’s messenger → Bell apprentice → Rowan → Elian’s runner → Post carrier → Council courier."
+      ],
+      "success": "The evacuation assurance arrived with the council courier, after the engineer’s runner had asked whether the houses were clear.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Apprentice immediately precedes Rowan. Runner is after Rowan and before Post, and Rowan is exactly two positions before Post, forcing Apprentice–Rowan–Runner–Post. Ada precedes Apprentice; Courier is last. Six visitors fill six positions uniquely."
+    },
+    {
+      "id": "p17",
+      "chapter": "ch2",
+      "location": "ch2_l4",
+      "title": "What Rowan can actually prove",
+      "type": "deduction",
+      "prompt": "Which statement is supported by Rowan’s account and the cook’s note?",
+      "details": "Distinguish a witnessed order from an unverified claim inside that order.",
+      "solution": "Rowan closed the footway after receiving an unverified evacuation claim",
+      "clues": [
+        "ch2_l4_b",
+        "ch2_l4_c",
+        "ch2_l5_c"
+      ],
+      "requires": [
+        "p16"
+      ],
+      "options": [
+        "Rowan personally inspected every house",
+        "The cook witnessed Rusk opening the bypass",
+        "Rowan closed the footway after receiving an unverified evacuation claim",
+        "Every resident had already reached the ferry"
+      ],
+      "hints": [
+        "A message can be delivered honestly and still be false.",
+        "Neither witness checked the houses.",
+        "Choose the closure after an unverified evacuation claim."
+      ],
+      "success": "Rowan signs a statement limited to what he did and heard. It is harder to evade because it does not claim what he could not know.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Rowan closed the footway after receiving an unverified evacuation claim."
+    },
+    {
+      "id": "p18",
+      "chapter": "ch2",
+      "location": "ch2_l5",
+      "title": "The key that could not fit",
+      "type": "assembly",
+      "prompt": "Mount the two key profiles for comparison.",
+      "details": "Combine Tomas’s gate-key tracing with the bypass lock profile. Their shoulders must be aligned, not their tips.",
+      "solution": "assembled",
+      "clues": [
+        "ch2_l5_a",
+        "ch2_l5_b"
+      ],
+      "requires": [
+        "p17"
+      ],
+      "options": [],
+      "hints": [
+        "Both profiles are portable evidence.",
+        "Matching the shoulders exposes the different working edges.",
+        "Combine Gate-key tracing with Lock profile plate."
+      ],
+      "success": "Tomas’s key could not operate the bypass. His custody of the residential key cannot explain the diverted reservoir.",
+      "items": [
+        "key_comparison"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p19",
+      "chapter": "ch2",
+      "location": "ch2_l6",
+      "title": "The path of the surge",
+      "type": "order",
+      "prompt": "Put the water’s physical route in order.",
+      "details": "Use all four stages. Begin at the source identified by the red grit and pressure roll.",
+      "solution": [
+        "RESERVOIR",
+        "BYPASS",
+        "REACH",
+        "LOWER STAIR"
+      ],
+      "clues": [
+        "ch2_l6_a",
+        "ch2_l6_b"
+      ],
+      "requires": [
+        "p15",
+        "p18"
+      ],
+      "options": [
+        "REACH",
+        "LOWER STAIR",
+        "RESERVOIR",
+        "BYPASS"
+      ],
+      "hints": [
+        "The red sediment begins upstream of the city.",
+        "The bypass connects the reservoir to the Reach.",
+        "RESERVOIR → BYPASS → REACH → LOWER STAIR."
+      ],
+      "success": "The reconstructed route agrees with both the sediment and the scour marks. Three kinds of evidence describe the same event.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['RESERVOIR', 'BYPASS', 'REACH', 'LOWER STAIR']."
+    },
+    {
+      "id": "p20",
+      "chapter": "ch2",
+      "location": "ch2_l6",
+      "title": "The gate above the gate",
+      "type": "deduction",
+      "prompt": "Which finding is now defensible?",
+      "details": "Identify what the machinery proves. Do not yet accuse a particular person of turning the bypass; physical access is not individual identity.",
+      "solution": "The flood was a deliberate reservoir diversion through the council bypass",
+      "clues": [
+        "ch2_l3_b",
+        "ch2_l5_b",
+        "ch2_l6_a",
+        "ch2_l6_b",
+        "ch2_l6_c"
+      ],
+      "requires": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p10"
+      ],
+      "options": [
+        "Tomas opened his own sluice to the harbour",
+        "The flood was a deliberate reservoir diversion through the council bypass",
+        "Rowan alone must have turned the bypass",
+        "The tide table proves nobody touched a gate"
+      ],
+      "hints": [
+        "The route and interlock establish an operation, but not the operator’s name.",
+        "The bypass is mechanically separate from Tomas’s lock.",
+        "Choose deliberate reservoir diversion through the council bypass."
+      ],
+      "success": "You can clear the mechanism of one lie. To establish who acted, you first need an exact time that the works office could not rewrite.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: The flood was a deliberate reservoir diversion through the council bypass."
+    },
+    {
+      "id": "p21",
+      "chapter": "ch3",
+      "location": "ch3_l1",
+      "title": "An instrument’s history",
+      "type": "hidden",
+      "prompt": "Inspect the observatory’s entrance evidence.",
+      "details": "Record the lens box, calibration plaque and Ada’s account before deciding whether the clock discrepancy is deception or a known error.",
+      "solution": "found",
+      "clues": [
+        "ch3_l1_a",
+        "ch3_l1_b",
+        "ch3_l1_c"
+      ],
+      "requires": [
+        "p20"
+      ],
+      "options": [],
+      "hints": [
+        "The correction is recorded where instrument users enter.",
+        "Inspect the box, plaque and Ada.",
+        "Examine all three observatory-steps hotspots."
+      ],
+      "success": "The four-minute error was documented before the flood. A later report omitted the correction.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: found."
+    },
+    {
+      "id": "p22",
+      "chapter": "ch3",
+      "location": "ch3_l1",
+      "title": "Four minutes fast",
+      "type": "code",
+      "prompt": "Convert the works reading to meridian time.",
+      "details": "The works clock reads 00:18 and runs four minutes fast. Enter the corrected time as four digits, without punctuation.",
+      "solution": "0014",
+      "clues": [
+        "ch3_l1_b",
+        "ch3_l1_c"
+      ],
+      "requires": [
+        "p21"
+      ],
+      "options": [],
+      "hints": [
+        "A fast clock displays a later time than reality.",
+        "Subtract four minutes from 00:18.",
+        "Enter 0014."
+      ],
+      "success": "The corrected works entry is 00:14. You now need an independent record to check it.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: 0014."
+    },
+    {
+      "id": "p23",
+      "chapter": "ch3",
+      "location": "ch3_l2",
+      "title": "Six exposures",
+      "type": "order",
+      "prompt": "Put the observatory events in time order.",
+      "details": "Arrange six events in actual meridian-time order. Convert each envelope’s reading using the clock named on it. A slow clock needs time added; a fast clock needs time subtracted. Every event is used once.",
+      "solution": [
+        "Reservoir steady",
+        "Bypass opens",
+        "Reach warning",
+        "Tide turns",
+        "Council dispatch",
+        "Last ferry clears"
+      ],
+      "clues": [
+        "ch3_l1_b",
+        "ch3_l2_a",
+        "ch3_l2_b"
+      ],
+      "requires": [
+        "p22"
+      ],
+      "options": [
+        "Council dispatch",
+        "Tide turns",
+        "Reach warning",
+        "Last ferry clears",
+        "Reservoir steady",
+        "Bypass opens"
+      ],
+      "hints": [
+        "There are three clocks. Do not sort the printed numbers before correcting them.",
+        "Corrected times are Reservoir 00:10, Bypass 00:14, Warning 00:16, Tide 00:20, Dispatch 00:22 and Ferry 00:24.",
+        "Reservoir steady → Bypass opens → Reach warning → Tide turns → Council dispatch → Last ferry clears."
+      ],
+      "success": "The dispatch was not an advance warning. It followed the flood’s first visible effects.",
+      "items": [],
+      "rewards": [],
+      "rationale": "WORKS readings subtract four minutes; HARBOUR readings add three; MERIDIAN is unchanged. Resulting six times are all distinct and force the stated chronology."
+    },
+    {
+      "id": "p24",
+      "chapter": "ch3",
+      "location": "ch3_l3",
+      "title": "Light through glass",
+      "type": "assembly",
+      "prompt": "Assemble a viewer for the fragile original plate.",
+      "details": "Combine the viewing lens and brass viewer frame. Use diffuse light, preserving the plate surface.",
+      "solution": "assembled",
+      "clues": [
+        "ch3_l1_a",
+        "ch3_l2_c",
+        "ch3_l3_a"
+      ],
+      "requires": [
+        "p23"
+      ],
+      "options": [],
+      "hints": [
+        "The lens box and telescope desk hold the two parts.",
+        "The frame’s empty circular seat fits the lens.",
+        "Combine Viewing lens with Viewer frame, then apply Assembled plate viewer."
+      ],
+      "success": "The enlarged image shows the bypass open while the residential gate remains closed. The two lamp housings cannot be confused.",
+      "items": [
+        "plate_viewer"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p25",
+      "chapter": "ch3",
+      "location": "ch3_l4",
+      "title": "The wheel remembers",
+      "type": "sequence",
+      "prompt": "Encode Mara’s four-letter relay test with the moving signal wheel.",
+      "details": "Use the letter-step table and the starting cursor in Mara’s note. Transmit one pane per letter, retaining the cursor position between letters. Labels make colour recognition unnecessary.",
+      "solution": [
+        "WHITE",
+        "BLUE",
+        "RED",
+        "AMBER"
+      ],
+      "clues": [
+        "ch3_l4_a",
+        "ch3_l4_c"
+      ],
+      "requires": [
+        "p20"
+      ],
+      "options": [
+        "BLUE",
+        "AMBER",
+        "RED",
+        "WHITE"
+      ],
+      "hints": [
+        "The message is READ, and the cursor starts at WHITE, slot 1.",
+        "R moves zero: WHITE. E moves one: BLUE. Continue from BLUE rather than starting over.",
+        "READ transmits WHITE → BLUE → RED → AMBER."
+      ],
+      "success": "The test signal is readable from the north roof. Mara could communicate with someone beyond the marsh.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Start at index 1. Add letter steps 0,1,2,3 modulo 4: indices 1,2,0,3, corresponding to WHITE,BLUE,RED,AMBER."
+    },
+    {
+      "id": "p26",
+      "chapter": "ch3",
+      "location": "ch3_l4",
+      "title": "Across the roofline",
+      "type": "routing",
+      "prompt": "Find the permitted relay route from the loft to the island.",
+      "details": "Find the directed LOFT-to-ISLAND route with the smallest total loss. Add the number on every used link. Relays do not reset loss; do not repeat a node.",
+      "solution": [
+        "LOFT",
+        "MARKET",
+        "CHAPEL",
+        "MERIDIAN ROOF",
+        "ISLAND"
+      ],
+      "clues": [
+        "ch3_l4_b",
+        "ch3_l6_b"
+      ],
+      "requires": [
+        "p25"
+      ],
+      "options": [
+        "QUARRY",
+        "MERIDIAN ROOF",
+        "LOFT",
+        "CHAPEL",
+        "HARBOUR",
+        "ISLAND",
+        "NORTH ROOF",
+        "MARKET"
+      ],
+      "hints": [
+        "Compare complete routes. A route with more relays can still lose less signal.",
+        "The north-meridian route loses 7. The market-chapel-meridian route loses 6; the harbour and quarry routes each lose 10.",
+        "LOFT → MARKET → CHAPEL → MERIDIAN ROOF → ISLAND. Total loss: 6."
+      ],
+      "success": "The relay route explains how Mara found shelter without leaving a public ferry booking under the island’s name.",
+      "items": [],
+      "rewards": [],
+      "rationale": "There are four possible complete directed routes. Losses are north-meridian 7, north-quarry 10, market-harbour 10, market-chapel-meridian 6. The last is uniquely minimal."
+    },
+    {
+      "id": "p27",
+      "chapter": "ch3",
+      "location": "ch3_l5",
+      "title": "A clock is not a witness",
+      "type": "assembly",
+      "prompt": "Build Ada’s demonstration of the stopped-clock fault.",
+      "details": "Combine the spare spring and detached spindle. Leave the preserved original instrument untouched.",
+      "solution": "assembled",
+      "clues": [
+        "ch3_l5_a",
+        "ch3_l5_b",
+        "ch3_l5_c"
+      ],
+      "requires": [
+        "p24"
+      ],
+      "options": [],
+      "hints": [
+        "The model’s spring is separate from its spindle.",
+        "Both parts are in the workshop.",
+        "Combine Clock spring and Clock spindle."
+      ],
+      "success": "The model makes the error plain: a stopped hand preserves its own failure, not the time of a later event.",
+      "items": [
+        "clock_model"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p28",
+      "chapter": "ch3",
+      "location": "ch3_l3",
+      "title": "The lost calibration",
+      "type": "code",
+      "prompt": "Recover the delay wheel’s missing seconds-per-notch calibration.",
+      "details": "Find the total interval from reference flash to the recorded plate END. Subtract the duration of exposure code II, then divide the remaining delay equally among three notches. Enter the number of seconds per notch.",
+      "solution": "25",
+      "clues": [
+        "ch3_l3_b",
+        "ch3_l2_b",
+        "ch3_l3_a"
+      ],
+      "requires": [
+        "p24"
+      ],
+      "options": [],
+      "hints": [
+        "The plate ends at 00:14:00, while its reference flash is 00:11:45. That entire interval includes both delay and exposure.",
+        "The total is 135 seconds. Code II uses 60 seconds, leaving 75 seconds for three equal delay notches.",
+        "(135 − 60) ÷ 3 = 25. Enter 25."
+      ],
+      "success": "Each delay notch represents twenty-five seconds. The restored calibration explains the instrument’s operation without changing the preserved plate or its recorded time.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Recorded end 00:14:00 minus trigger 00:11:45 =135s. Subtract 60s code-II exposure:75s delay. Divide by three equal notches:25s each. The answer is not printed in any one clue."
+    },
+    {
+      "id": "p29",
+      "chapter": "ch3",
+      "location": "ch3_l6",
+      "title": "The clinic bearing",
+      "type": "choice",
+      "prompt": "Which direction does Mara’s bearing instruction indicate?",
+      "details": "Start NORTH, turn one quarter-turn clockwise, then a half-turn. Use the roof’s labelled compass rose.",
+      "solution": "WEST",
+      "clues": [
+        "ch3_l4_c",
+        "ch3_l6_b"
+      ],
+      "requires": [
+        "p26"
+      ],
+      "options": [
+        "NORTH",
+        "SOUTH",
+        "WEST",
+        "EAST"
+      ],
+      "hints": [
+        "Perform the two turns in sequence.",
+        "The first turn reaches EAST. The second reaches its opposite.",
+        "Choose WEST."
+      ],
+      "success": "Across the western marsh, the old clinic window flashes once. Someone has been waiting for a careful reader.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: WEST."
+    },
+    {
+      "id": "p30",
+      "chapter": "ch3",
+      "location": "ch3_l6",
+      "title": "The unstruck hour",
+      "type": "deduction",
+      "prompt": "What does the corrected timeline establish?",
+      "details": "Choose the narrow conclusion supported by both machinery and independent optical records.",
+      "solution": "The bypass was open about eight minutes before the evacuation return was dispatched",
+      "clues": [
+        "ch3_l3_a",
+        "ch3_l3_c",
+        "ch3_l5_c",
+        "ch3_l6_a",
+        "ch3_l6_c"
+      ],
+      "requires": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p20"
+      ],
+      "options": [
+        "The evacuation was independently verified at 00:05",
+        "The bypass was open about eight minutes before the evacuation return was dispatched",
+        "The plate proves every council member knew the houses were occupied",
+        "The clocks disagree too much to establish any order"
+      ],
+      "hints": [
+        "The two valid times are 00:14 and 00:22.",
+        "The hallway clock is not a valid timestamp.",
+        "Choose the bypass being open about eight minutes before dispatch."
+      ],
+      "success": "The return could not have authorised an operation already completed unless someone was willing to certify the past falsely. You take the western channel toward the people the return erased.",
+      "items": [],
+      "rewards": [],
+      "rationale": "The corrected works entry places opening at 00:14; the independent plate establishes open by its labelled 00:14 exposure end. The formal return is dispatched at 00:22. These records establish the order and an approximately eight-minute interval, without pretending the calibration uncertainty is zero or the plate resolves an exact opening instant."
+    },
+    {
+      "id": "p31",
+      "chapter": "ch4",
+      "location": "ch4_l1",
+      "title": "Marks for the living",
+      "type": "hidden",
+      "prompt": "Read the route markers and Nadi’s surviving passenger record.",
+      "details": "Inspect the cloth route tag, crossing marker and ferry log. Read the written directions; colour is not a code.",
+      "solution": "found",
+      "clues": [
+        "ch4_l1_a",
+        "ch4_l1_b",
+        "ch4_l1_c"
+      ],
+      "requires": [
+        "p30"
+      ],
+      "options": [],
+      "hints": [
+        "A safe route and a passenger record share the jetty.",
+        "Read the tags and the log.",
+        "Examine all three reed-jetty hotspots."
+      ],
+      "success": "Mara’s trail is recent. Nadi’s old log explains why the official passenger count was incomplete.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: found."
+    },
+    {
+      "id": "p32",
+      "chapter": "ch4",
+      "location": "ch4_l1",
+      "title": "Above the mud",
+      "type": "routing",
+      "prompt": "Choose a safe route from the jetty to the clinic.",
+      "details": "Plan a single directed route from JETTY to CLINIC. You start without rope, gain it at FERRY HUT, and need it for WILLOW→STONE RIDGE. Never enter the collapsed mud or repeat a node.",
+      "solution": [
+        "JETTY",
+        "FERRY HUT",
+        "DRY BANK",
+        "WILLOW",
+        "STONE RIDGE",
+        "CLINIC"
+      ],
+      "clues": [
+        "ch4_l1_a",
+        "ch4_l1_b"
+      ],
+      "requires": [
+        "p31"
+      ],
+      "options": [
+        "SOFT MUD",
+        "FERRY HUT",
+        "CLINIC",
+        "WILLOW",
+        "JETTY",
+        "DRY BANK",
+        "STONE RIDGE"
+      ],
+      "hints": [
+        "The shortest-looking first step reaches the crossing without its required rope.",
+        "Visit FERRY HUT before WILLOW; the one-way chart leads from the hut through DRY BANK.",
+        "JETTY → FERRY HUT → DRY BANK → WILLOW → STONE RIDGE → CLINIC."
+      ],
+      "success": "The ridge carries you above the drowned path. Mara’s route did not require anyone to guess their way through the marsh.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Mud is excluded. The only clinic approach is via STONE RIDGE, requiring rope acquired at FERRY HUT. With one-way edges and no repeats, JETTY→FERRY HUT→DRY BANK→WILLOW→STONE RIDGE→CLINIC is unique."
+    },
+    {
+      "id": "p33",
+      "chapter": "ch4",
+      "location": "ch4_l2",
+      "title": "The clinic’s order",
+      "type": "order",
+      "prompt": "Reconstruct the recorded triage sequence.",
+      "details": "Arrange the six historical cards by category priority, breaking ties only by arrival number. Use the board’s rules and the actual card fields. Every card appears once.",
+      "solution": [
+        "Vale",
+        "Moss",
+        "Hadi",
+        "Cora",
+        "Elva",
+        "Petra"
+      ],
+      "clues": [
+        "ch4_l2_a",
+        "ch4_l2_c"
+      ],
+      "requires": [
+        "p32"
+      ],
+      "options": [
+        "Elva",
+        "Moss",
+        "Petra",
+        "Hadi",
+        "Vale",
+        "Cora"
+      ],
+      "hints": [
+        "Sort into BREATH, BLEED, BONE and WALK groups before comparing arrival numbers.",
+        "BREATH contains Vale then Moss; BLEED contains Hadi then Cora. The earliest arrival overall is not necessarily treated first.",
+        "Vale → Moss → Hadi → Cora → Elva → Petra."
+      ],
+      "success": "The register order follows treatment priority, not arrival time. You avoid mistaking a medical sorting convention for a chronology.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Primary category ranking and secondary arrival ranking produce Vale(1,BREATH),Moss(2,BREATH),Hadi(3,BLEED),Cora(4,BLEED),Elva(0,BONE),Petra(1,WALK). A global sort by arrival is invalid."
+    },
+    {
+      "id": "p34",
+      "chapter": "ch4",
+      "location": "ch4_l2",
+      "title": "The page and its absence",
+      "type": "assembly",
+      "prompt": "Rejoin the clinic leaf to its surviving binding evidence.",
+      "details": "Combine the loose register leaf and binding stub. Preserve the tear as evidence of their original connection.",
+      "solution": "assembled",
+      "clues": [
+        "ch4_l2_b",
+        "ch4_l2_c"
+      ],
+      "requires": [
+        "p33"
+      ],
+      "options": [],
+      "hints": [
+        "The number alone is suggestive; fibres and thread holes confirm it.",
+        "Both pieces come from the clinic.",
+        "Combine Torn clinic leaf and Clinic binding stub."
+      ],
+      "success": "The register is authenticated by its physical join. Its categories refer to distinct people, not duplicated household totals.",
+      "items": [
+        "restored_register"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p35",
+      "chapter": "ch4",
+      "location": "ch4_l3",
+      "title": "A shelf among the leaves",
+      "type": "code",
+      "prompt": "Read Mara’s storage reference from the plant inventory.",
+      "details": "Find a three-digit shelf reference using three distinct greenhouse inventory numbers. Apply all constraints in Mara’s note: increasing order, middle three above first, total twelve. Enter the digits without spaces.",
+      "solution": "147",
+      "clues": [
+        "ch4_l3_a",
+        "ch4_l3_b"
+      ],
+      "requires": [
+        "p32"
+      ],
+      "options": [],
+      "hints": [
+        "The available digits are 1, 2, 4 and 7; use only three and keep them increasing.",
+        "Only the pair 1 then 4 can begin the reference while leaving a larger third digit. The total then requires 7.",
+        "The shelf reference is 147."
+      ],
+      "success": "The indexed shelf contains Mara’s working notes. Her silence was a choice, and she acknowledges the hurt it caused.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Among increasing triples from {1,2,4,7}, only (1,4,7) has its middle three above its first and sum 12. Distinctness and increasing order eliminate permutations."
+    },
+    {
+      "id": "p36",
+      "chapter": "ch4",
+      "location": "ch4_l4",
+      "title": "The high-ground approach",
+      "type": "routing",
+      "prompt": "Trace the remaining safe path to the refuge.",
+      "details": "Use the coordinate grid and height survey to reach REFUGE from HUT. Move only between sites sharing a grid side; do not enter any site at or below water height 3. Do not repeat sites.",
+      "solution": [
+        "HUT",
+        "NORTH BANK",
+        "STONE BRIDGE",
+        "GARDEN",
+        "REFUGE"
+      ],
+      "clues": [
+        "ch4_l4_a",
+        "ch4_l4_c"
+      ],
+      "requires": [
+        "p35"
+      ],
+      "options": [
+        "TOWER",
+        "GARDEN",
+        "HUT",
+        "STONE BRIDGE",
+        "REFUGE",
+        "RIDGE",
+        "NORTH BANK",
+        "TIDAL CUT"
+      ],
+      "hints": [
+        "First exclude RIDGE, TOWER and TIDAL CUT: equal to the water level is not safe.",
+        "HUT’s only dry neighbour is NORTH BANK. Continue across the row at y=1.",
+        "HUT → NORTH BANK → STONE BRIDGE → GARDEN → REFUGE."
+      ],
+      "success": "The route passes the unofficial memorial. It is a place Mara wanted you to see before hearing her explanation.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Safe nodes have heights >3: HUT, NORTH BANK, STONE BRIDGE, GARDEN, REFUGE. Their side-adjacency graph is a single chain in exactly that order."
+    },
+    {
+      "id": "p37",
+      "chapter": "ch4",
+      "location": "ch4_l5",
+      "title": "The unaddressed names",
+      "type": "code",
+      "prompt": "How many people would the city omit by counting only patients and named family members?",
+      "details": "The monument’s total includes everyone. Subtract the register’s patient and family groups to recover the omitted lodger category; check the result against the names on the garden stones. Use the transcribed names, not the number of weathered stones.",
+      "solution": "6",
+      "clues": [
+        "ch4_l2_b",
+        "ch4_l5_a",
+        "ch4_l5_b",
+        "ch4_l5_c"
+      ],
+      "requires": [
+        "p34",
+        "p36"
+      ],
+      "options": [],
+      "hints": [
+        "The full memorial contains 23 people. The city’s two categories cover 8 and 9.",
+        "The counted groups total 17. Subtract that from 23, then check the separate lodger names.",
+        "23 − 8 − 9 = 6. Enter 6."
+      ],
+      "success": "Six lodgers would disappear if an address were treated as a condition for being counted. You cross-check each name, retaining twenty-three people in the corrected register.",
+      "items": [],
+      "rewards": [],
+      "rationale": "The fixed memorial total 23 minus 8 patients and 9 family members leaves 6 lodgers. Their six individual names independently check the recovered category."
+    },
+    {
+      "id": "p38",
+      "chapter": "ch4",
+      "location": "ch4_l6",
+      "title": "A friend at the door",
+      "type": "sequence",
+      "prompt": "Give the refuge’s complete visitor signal.",
+      "details": "Use KNOCK and PAUSE, including both separating pauses. Do not insert a pause between the two middle knocks.",
+      "solution": [
+        "KNOCK",
+        "PAUSE",
+        "KNOCK",
+        "KNOCK",
+        "PAUSE",
+        "KNOCK"
+      ],
+      "clues": [
+        "ch4_l6_a"
+      ],
+      "requires": [
+        "p36"
+      ],
+      "options": [
+        "PAUSE",
+        "KNOCK"
+      ],
+      "hints": [
+        "The pattern has three groups: one, two, one.",
+        "Separate the groups with PAUSE.",
+        "KNOCK → PAUSE → KNOCK → KNOCK → PAUSE → KNOCK."
+      ],
+      "success": "Mara recognises the signal. When she sees you, the practiced explanation leaves her face. “I am sorry,” she says first.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['KNOCK', 'PAUSE', 'KNOCK', 'KNOCK', 'PAUSE', 'KNOCK']."
+    },
+    {
+      "id": "p39",
+      "chapter": "ch4",
+      "location": "ch4_l6",
+      "title": "Keep the original",
+      "type": "assembly",
+      "prompt": "Protect Mara’s tracing for the return journey.",
+      "details": "Combine the original tracing with archival backing. The missing authorisation flap remains a gap in the evidence; do not fill it by assumption.",
+      "solution": "assembled",
+      "clues": [
+        "ch4_l3_c",
+        "ch4_l6_b",
+        "ch4_l6_c"
+      ],
+      "requires": [
+        "p38"
+      ],
+      "options": [],
+      "hints": [
+        "Transparent paper needs neutral support.",
+        "The glasshouse has backing prepared with matching registration marks.",
+        "Combine Mara’s original tracing and Archival backing."
+      ],
+      "success": "The instruction survives as an original tracing with its limits stated. It proves a destructive purpose; its author still requires independent identification.",
+      "items": [
+        "protected_tracing"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p40",
+      "chapter": "ch4",
+      "location": "ch4_l6",
+      "title": "People, not capacity",
+      "type": "deduction",
+      "prompt": "Why does the council’s evacuation return fail?",
+      "details": "Compare the actual evacuation plan, the filed return, the clinic register and the ferry record.",
+      "solution": "It counted empty beds instead of verifying that residents had left",
+      "clues": [
+        "ch4_l1_c",
+        "ch4_l2_c",
+        "ch4_l4_b",
+        "ch4_l4_c",
+        "ch4_l6_c"
+      ],
+      "requires": [
+        "p31",
+        "p32",
+        "p33",
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p39",
+        "p30"
+      ],
+      "options": [
+        "It used the wrong colour of ink",
+        "It counted empty beds instead of verifying that residents had left",
+        "It listed twenty-four victims instead of twenty-three",
+        "Mara’s disappearance alone proves it false"
+      ],
+      "hints": [
+        "The plan required people to be checked at several stages.",
+        "The filed return records available beds, not people moved.",
+        "Choose the substitution of empty beds for verified residents."
+      ],
+      "success": "The return transformed accommodation capacity into a false claim of completed evacuation. The people in the register were still there. Mara agrees to return as a witness, while Nadi carries a separate copy of the evidence.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: It counted empty beds instead of verifying that residents had left."
+    },
+    {
+      "id": "p41",
+      "chapter": "ch5",
+      "location": "ch5_l1",
+      "title": "The city’s public promises",
+      "type": "hidden",
+      "prompt": "Collect the public rules and the surviving petition.",
+      "details": "Inspect the destruction notice, occupancy petition and sitting rules. These documents establish a lawful route for preserving the case.",
+      "solution": "found",
+      "clues": [
+        "ch5_l1_a",
+        "ch5_l1_b",
+        "ch5_l1_c"
+      ],
+      "requires": [
+        "p40"
+      ],
+      "options": [],
+      "hints": [
+        "The square contains a deadline, a prior acknowledgement and a procedure.",
+        "Read all three posted documents.",
+        "Examine each civic-square hotspot, then confirm."
+      ],
+      "success": "Rusk acknowledged occupied houses before the flood. The public rules still permit the originals to be deposited before destruction.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: found."
+    },
+    {
+      "id": "p42",
+      "chapter": "ch5",
+      "location": "ch5_l2",
+      "title": "Who could order the water?",
+      "type": "deduction",
+      "prompt": "Which office held authority to authorise the diversion?",
+      "details": "Separate authorising, operating, transmitting and maintaining. Use the authority ledger rather than a character’s social status.",
+      "solution": "The magistrate authorised; the engineer operated",
+      "clues": [
+        "ch5_l2_a",
+        "ch5_l2_b"
+      ],
+      "requires": [
+        "p41"
+      ],
+      "options": [
+        "The lockkeeper authorised every water movement",
+        "The clerk could authorise a diversion by sealing it",
+        "The magistrate authorised; the engineer operated",
+        "The engineer’s operation proves he alone authorised it"
+      ],
+      "hints": [
+        "A machine operator and an authorising officer need not be the same person.",
+        "The ledger reserves diversion authority to the magistrate.",
+        "Choose the magistrate authorising and the engineer operating."
+      ],
+      "success": "The chain of responsibility includes both Rusk’s authority and Elian’s act. Neither can be substituted for the other.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: The magistrate authorised; the engineer operated."
+    },
+    {
+      "id": "p43",
+      "chapter": "ch5",
+      "location": "ch5_l3",
+      "title": "The land beneath the water",
+      "type": "order",
+      "prompt": "Reconstruct the title transaction.",
+      "details": "Reconstruct the six title events using the deed conditions and the ledger’s relative-position annotation. “Exactly two positions before” means one event between them. Every event is used once.",
+      "solution": [
+        "Tenant claims lodged",
+        "Foundry option purchased",
+        "Option assigned",
+        "Emergency clearance declared",
+        "Claims extinguished",
+        "Land transferred"
+      ],
+      "clues": [
+        "ch5_l1_b",
+        "ch5_l3_a",
+        "ch5_l5_a"
+      ],
+      "requires": [
+        "p41"
+      ],
+      "options": [
+        "Land transferred",
+        "Option assigned",
+        "Emergency clearance declared",
+        "Tenant claims lodged",
+        "Claims extinguished",
+        "Foundry option purchased"
+      ],
+      "hints": [
+        "Clearance must sit immediately before extinguishment. Assignment is exactly two places before extinguishment.",
+        "That forces Assignment → Clearance → Extinguishment; purchase and lodging precede it, and transfer follows.",
+        "Tenant claims lodged → Foundry option purchased → Option assigned → Emergency clearance declared → Claims extinguished → Land transferred."
+      ],
+      "success": "The flood was used to remove an obstacle to a transaction already planned. The transaction did not arise only as a response to disaster.",
+      "items": [],
+      "rewards": [],
+      "rationale": "The distance constraint plus clearance adjacency forces Assignment–Clearance–Extinguishment. Lodging precedes Purchase precedes Assignment, and Transfer follows Extinguishment. The six-event total order is unique."
+    },
+    {
+      "id": "p44",
+      "chapter": "ch5",
+      "location": "ch5_l3",
+      "title": "A seal and its limits",
+      "type": "assembly",
+      "prompt": "Authenticate the office seal on the original counterfoil.",
+      "details": "Combine the wax impression and seal-register rubbing. This proves the office seal; retain the separate signature evidence for personal attribution.",
+      "solution": "assembled",
+      "clues": [
+        "ch5_l3_b",
+        "ch5_l3_c",
+        "ch5_l6_b"
+      ],
+      "requires": [
+        "p43"
+      ],
+      "options": [],
+      "hints": [
+        "A distinctive defect can authenticate an impression.",
+        "Align the crescent chip in the two records.",
+        "Combine Wax seal impression and Seal register rubbing."
+      ],
+      "success": "The impression is genuine. You explicitly avoid claiming that a seal alone proves who held it.",
+      "items": [
+        "seal_comparison"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p45",
+      "chapter": "ch5",
+      "location": "ch5_l4",
+      "title": "A case a reader can follow",
+      "type": "order",
+      "prompt": "Arrange Sera’s five account blocks.",
+      "details": "Use the public sitting’s causal order: event, time, authority, purpose, consequence. Every block is used once.",
+      "solution": [
+        "ACT",
+        "TIME",
+        "AUTHORITY",
+        "PURPOSE",
+        "CONSEQUENCE"
+      ],
+      "clues": [
+        "ch5_l1_c",
+        "ch5_l4_a"
+      ],
+      "requires": [
+        "p42",
+        "p44"
+      ],
+      "options": [
+        "PURPOSE",
+        "ACT",
+        "CONSEQUENCE",
+        "TIME",
+        "AUTHORITY"
+      ],
+      "hints": [
+        "Begin with the event before explaining who ordered it.",
+        "Time follows act; consequence follows purpose.",
+        "ACT → TIME → AUTHORITY → PURPOSE → CONSEQUENCE."
+      ],
+      "success": "The accusation becomes a sequence of claims with sources, rather than an atmosphere of suspicion.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['ACT', 'TIME', 'AUTHORITY', 'PURPOSE', 'CONSEQUENCE']."
+    },
+    {
+      "id": "p46",
+      "chapter": "ch5",
+      "location": "ch5_l4",
+      "title": "Print only what you can prove",
+      "type": "assembly",
+      "prompt": "Prepare the publication proof with its citations.",
+      "details": "Combine the corrected type forme and proofing sheet. The original records remain separate from this distributable copy.",
+      "solution": "assembled",
+      "clues": [
+        "ch5_l4_a",
+        "ch5_l4_b",
+        "ch5_l4_c"
+      ],
+      "requires": [
+        "p45"
+      ],
+      "options": [],
+      "hints": [
+        "Sera has set the text; the sheet holds its citations.",
+        "Take the forme and the ruled sheet from the print shop.",
+        "Combine Corrected type forme and Proofing sheet."
+      ],
+      "success": "Sera approves the proof. It says Elian operated the bypass, Rusk authorised it, and twenty-three people died; each statement has its own source.",
+      "items": [
+        "publication_proof"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p47",
+      "chapter": "ch5",
+      "location": "ch5_l5",
+      "title": "The clear-title premium",
+      "type": "code",
+      "prompt": "Calculate the private gain shown by the acquisition account.",
+      "details": "Subtract the option cost and legitimate survey fee from the transfer payout. Enter the remaining number of crowns.",
+      "solution": "150",
+      "clues": [
+        "ch5_l5_a",
+        "ch5_l5_b"
+      ],
+      "requires": [
+        "p43"
+      ],
+      "options": [],
+      "hints": [
+        "Start from the 310-crown payout.",
+        "Subtract 120 and then 40.",
+        "310 − 120 − 40 = 150. Enter 150."
+      ],
+      "success": "The unexplained premium is 150 crowns, paid to Rusk’s trust. The ledger ties his benefit to the cleared title.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: 150."
+    },
+    {
+      "id": "p48",
+      "chapter": "ch5",
+      "location": "ch5_l5",
+      "title": "Relief for whom?",
+      "type": "deduction",
+      "prompt": "What does the premium establish?",
+      "details": "Use the trust ledger and accountant’s note. Do not confuse financial benefit with independent proof of the signed order.",
+      "solution": "Rusk personally benefited from the land transfer",
+      "clues": [
+        "ch5_l5_a",
+        "ch5_l5_b",
+        "ch5_l5_c"
+      ],
+      "requires": [
+        "p47"
+      ],
+      "options": [
+        "Every foundry worker profited equally",
+        "The payment was distributed to displaced households",
+        "Rusk personally benefited from the land transfer",
+        "The payment alone proves every detail of the flood"
+      ],
+      "hints": [
+        "The beneficiary is named and the relief classification was rejected.",
+        "The ledger establishes benefit, while other documents establish the act.",
+        "Choose Rusk’s personal benefit from the land transfer."
+      ],
+      "success": "You record motive precisely. The money supports the case without being asked to prove what only the order can prove.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Rusk personally benefited from the land transfer."
+    },
+    {
+      "id": "p49",
+      "chapter": "ch5",
+      "location": "ch5_l6",
+      "title": "The unbroken dispatch",
+      "type": "order",
+      "prompt": "Reconstruct the original instruction’s chain of custody.",
+      "details": "Order receipt cards A–F by matching each recipient to the next sender. Start with the unsigned draft from the Works drafting room; end at the Public vault. Each card appears once. This tracks one document, not the later evacuation return.",
+      "solution": [
+        "E",
+        "C",
+        "A",
+        "B",
+        "D",
+        "F"
+      ],
+      "clues": [
+        "ch5_l2_c",
+        "ch5_l6_a",
+        "ch5_l6_b"
+      ],
+      "requires": [
+        "p44"
+      ],
+      "options": [
+        "C",
+        "F",
+        "A",
+        "D",
+        "B",
+        "E"
+      ],
+      "hints": [
+        "Find the only card whose sender is the Works drafting room. Its recipient tells you the next sender to seek.",
+        "E reaches Rusk, so C follows; C reaches Olan, so A follows. Continue matching endpoints.",
+        "E → C → A → B → D → F."
+      ],
+      "success": "The originals and linked receipts connect the instruction to Rusk’s hand and Elian’s receipt. Mara’s tracing is corroborated, not left to stand alone.",
+      "items": [],
+      "rewards": [],
+      "rationale": "The unique document chain is Works drafting room→Rusk→Olan→Vey→Elian→Records office→Public vault. Receipt labels along it are E,C,A,B,D,F."
+    },
+    {
+      "id": "p50",
+      "chapter": "ch5",
+      "location": "ch5_l6",
+      "title": "The price of silence",
+      "type": "deduction",
+      "prompt": "Which account of intent survives all the evidence?",
+      "details": "Join Rusk’s occupancy acknowledgement, the signed destructive instruction, the false-return direction and his private gain.",
+      "solution": "Rusk knowingly ordered diversion to destroy claims and secure the transfer",
+      "clues": [
+        "ch5_l1_b",
+        "ch5_l2_b",
+        "ch5_l2_c",
+        "ch5_l5_b",
+        "ch5_l6_b",
+        "ch5_l6_c"
+      ],
+      "requires": [
+        "p41",
+        "p42",
+        "p43",
+        "p44",
+        "p45",
+        "p46",
+        "p47",
+        "p48",
+        "p49",
+        "p40"
+      ],
+      "options": [
+        "Rusk believed an independently completed evacuation had been verified",
+        "Elian forged every record without Rusk’s knowledge",
+        "Rusk knowingly ordered diversion to destroy claims and secure the transfer",
+        "The flood was an unrelated accident followed by an ordinary sale"
+      ],
+      "hints": [
+        "Rusk acknowledged occupied houses and then forbade household checks.",
+        "His instruction names the records store and acquisition; the trust records his benefit.",
+        "Choose the knowing diversion to destroy claims and secure the transfer."
+      ],
+      "success": "The case now identifies action, authority and purpose without relying on a single confession. The originals must enter the public record, and copies must survive beyond one office’s reach.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Rusk knowingly ordered diversion to destroy claims and secure the transfer."
+    },
+    {
+      "id": "p51",
+      "chapter": "ch6",
+      "location": "ch6_l1",
+      "title": "More than one copy",
+      "type": "assembly",
+      "prompt": "Prepare the independent public copies for distribution.",
+      "details": "Combine the verified copy bundle and waterproof dispatch wrap. Keep the originals separate for deposition.",
+      "solution": "assembled",
+      "clues": [
+        "ch6_l1_a",
+        "ch6_l1_b",
+        "ch6_l1_c"
+      ],
+      "requires": [
+        "p50"
+      ],
+      "options": [],
+      "hints": [
+        "Copies preserve access; the original preserves physical evidence.",
+        "Nadi’s wraps protect Sera’s bundles.",
+        "Combine Verified copy bundle and Waterproof dispatch wrap."
+      ],
+      "success": "The island, library and print shop each receive a complete checked set. One closed office can no longer erase the case.",
+      "items": [
+        "sealed_copies"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p52",
+      "chapter": "ch6",
+      "location": "ch6_l2",
+      "title": "What each witness knows",
+      "type": "order",
+      "prompt": "Arrange the witness accounts in the planned causal order.",
+      "details": "Arrange six witnesses under all scheduling conditions from the scope cards and corrected draft. “Immediately” means adjacent positions. Every witness appears once.",
+      "solution": [
+        "Rowan",
+        "Mara",
+        "Olan",
+        "Ada",
+        "Elian",
+        "Sera"
+      ],
+      "clues": [
+        "ch6_l2_a",
+        "ch6_l2_b",
+        "ch6_l2_c"
+      ],
+      "requires": [
+        "p51"
+      ],
+      "options": [
+        "Elian",
+        "Rowan",
+        "Sera",
+        "Olan",
+        "Ada",
+        "Mara"
+      ],
+      "hints": [
+        "Form the two adjacent pairs Rowan→Mara and Ada→Elian.",
+        "Olan goes between Mara and Ada; Sera closes. This fixes the two pairs’ order.",
+        "Rowan → Mara → Olan → Ada → Elian → Sera."
+      ],
+      "success": "The witnesses agree on their limits as well as their observations. Their differences no longer provide a convenient place to hide the whole event.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Rowan–Mara is adjacent; Olan lies after Mara and before Ada; Ada–Elian is adjacent; Sera is last. These constraints fill all six slots uniquely."
+    },
+    {
+      "id": "p53",
+      "chapter": "ch6",
+      "location": "ch6_l3",
+      "title": "The relay’s safe path",
+      "type": "sequence",
+      "prompt": "Find the shortest pulse sequence from COLD to READY.",
+      "details": "Use both halves of the relay transition table. Begin at COLD; each selected pulse changes the current state. Submit the FEWEST pulses that reach READY. Wrong attempts are safe simulations and consume no actual resources.",
+      "solution": [
+        "SHORT",
+        "SHORT",
+        "LONG",
+        "SHORT",
+        "LONG"
+      ],
+      "clues": [
+        "ch6_l3_a",
+        "ch6_l3_b"
+      ],
+      "requires": [
+        "p51"
+      ],
+      "options": [
+        "LONG",
+        "SHORT"
+      ],
+      "hints": [
+        "Work backward from READY: it can only be reached by LONG from CHECK. CHECK is reached by SHORT from BRIDGED.",
+        "The shortest path to BRIDGED is COLD→PRIMED→CHARGED→BRIDGED. Avoid VENTED and OVERLOAD loops.",
+        "SHORT → SHORT → LONG → SHORT → LONG. States: PRIMED, CHARGED, BRIDGED, CHECK, READY."
+      ],
+      "success": "Both contacts answer. The outer wards receive the same public notice as the city centre.",
+      "items": [],
+      "rewards": [],
+      "rationale": "READY has one incoming edge from CHECK via LONG, CHECK one from BRIDGED via SHORT, BRIDGED one from CHARGED via LONG. The shortest COLD-to-CHARGED path is SHORT,SHORT. Thus the unique shortest complete sequence is SHORT,SHORT,LONG,SHORT,LONG."
+    },
+    {
+      "id": "p54",
+      "chapter": "ch6",
+      "location": "ch6_l3",
+      "title": "Count the sources",
+      "type": "code",
+      "prompt": "Calculate the notice’s packet check digit.",
+      "details": "Use the five source packet numbers in their recorded causal order. Multiply each by position 1–5, sum, then enter the single digit 0–9 that makes the total divisible by ten. Do not simply enter the sum’s last digit.",
+      "solution": "1",
+      "clues": [
+        "ch6_l3_b",
+        "ch6_l3_c"
+      ],
+      "requires": [
+        "p53"
+      ],
+      "options": [],
+      "hints": [
+        "The ordered weighted products are 3×1, 7×2, 2×3, 4×4 and 6×5.",
+        "Their sum is 69. You need a digit that takes it to the next multiple of ten.",
+        "69 + 1 = 70. Enter 1."
+      ],
+      "success": "The transmitted source list is complete. Recipients can ask for the same five evidence packets instead of trusting an unsupported summary.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Weighted sum =3+14+6+16+30=69; unique digit d in [0,9] with (69+d)%10=0 is 1."
+    },
+    {
+      "id": "p55",
+      "chapter": "ch6",
+      "location": "ch6_l4",
+      "title": "A witnessed safe state",
+      "type": "assembly",
+      "prompt": "Pair the bypass isolation hardware with its signed record.",
+      "details": "Combine the gate isolation pin and witnessed isolation tag. This records the already-secured real gate and supports the procedural reconstruction.",
+      "solution": "assembled",
+      "clues": [
+        "ch6_l4_a",
+        "ch6_l4_b"
+      ],
+      "requires": [
+        "p52"
+      ],
+      "options": [],
+      "hints": [
+        "Physical restraint and an accountable record serve different purposes.",
+        "The pin and tag belong together.",
+        "Combine Gate isolation pin and Witnessed isolation tag."
+      ],
+      "success": "The secured bypass has both a physical interlock and a witnessed record. Future operators can see who checked it and what was checked.",
+      "items": [
+        "isolation_set"
+      ],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: assembled."
+    },
+    {
+      "id": "p56",
+      "chapter": "ch6",
+      "location": "ch6_l4",
+      "title": "The limit of this hearing",
+      "type": "choice",
+      "prompt": "What action can the council properly take under the emergency charter?",
+      "details": "Choose the response within the charter’s authority. A referral preserves the distinction between administrative removal and a criminal trial.",
+      "solution": "Withdraw emergency authority, preserve evidence and refer the case",
+      "clues": [
+        "ch6_l4_c",
+        "ch6_l5_c"
+      ],
+      "requires": [
+        "p55"
+      ],
+      "options": [
+        "Erase all records mentioning the flood",
+        "Pronounce a criminal sentence without an outside trial",
+        "Withdraw emergency authority, preserve evidence and refer the case",
+        "Keep Rusk’s authority until every original has been destroyed"
+      ],
+      "hints": [
+        "The charter allows withdrawal of delegated powers.",
+        "Criminal responsibility is reserved for the outside court.",
+        "Choose withdrawal, preservation and referral."
+      ],
+      "success": "The proposed decision has a defined legal purpose inside the fiction: protect the city and the evidence while an outside court hears the case.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Withdraw emergency authority, preserve evidence and refer the case."
+    },
+    {
+      "id": "p57",
+      "chapter": "ch6",
+      "location": "ch6_l5",
+      "title": "The five parts of the case",
+      "type": "order",
+      "prompt": "Present the evidence board as a causal argument.",
+      "details": "Arrange all five claims. Use the public sitting’s established order, with consequences following the act, timing, authority and purpose.",
+      "solution": [
+        "Bypass diversion",
+        "00:14 meridian",
+        "Rusk’s signed authority",
+        "Destruction for acquisition",
+        "Twenty-three named deaths"
+      ],
+      "clues": [
+        "ch6_l5_a"
+      ],
+      "requires": [
+        "p52",
+        "p54",
+        "p56"
+      ],
+      "options": [
+        "Rusk’s signed authority",
+        "Twenty-three named deaths",
+        "Bypass diversion",
+        "Destruction for acquisition",
+        "00:14 meridian"
+      ],
+      "hints": [
+        "Use ACT, TIME, AUTHORITY, PURPOSE, CONSEQUENCE.",
+        "The time comes immediately after the physical act.",
+        "Bypass diversion → 00:14 meridian → Rusk’s signed authority → Destruction for acquisition → Twenty-three named deaths."
+      ],
+      "success": "Each claim is supported by a different part of the record. The whole case does not collapse if one witness is frightened or one copy is lost.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['Bypass diversion', '00:14 meridian', 'Rusk’s signed authority', 'Destruction for acquisition', 'Twenty-three named deaths']."
+    },
+    {
+      "id": "p58",
+      "chapter": "ch6",
+      "location": "ch6_l5",
+      "title": "The tide defence",
+      "type": "deduction",
+      "prompt": "Why does Rusk’s exceptional-tide explanation fail?",
+      "details": "Choose the rebuttal supported by the physical route, independent time and original instruction.",
+      "solution": "Upstream diversion preceded the tide and followed a signed destructive order",
+      "clues": [
+        "ch6_l5_a",
+        "ch6_l5_b"
+      ],
+      "requires": [
+        "p57"
+      ],
+      "options": [
+        "Every unusual tide is impossible",
+        "Rusk’s manner proves he is lying",
+        "Upstream diversion preceded the tide and followed a signed destructive order",
+        "The victims’ number alone identifies the operator"
+      ],
+      "hints": [
+        "A natural tide cannot explain an upstream pressure rise before its own turn.",
+        "The machine evidence agrees with a signed order, not merely a suspicion.",
+        "Choose upstream diversion preceding the tide under a signed destructive order."
+      ],
+      "success": "Rusk asks for the originals. The chair answers that they have already been deposited, and that copies are being read on both shores.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Upstream diversion preceded the tide and followed a signed destructive order."
+    },
+    {
+      "id": "p59",
+      "chapter": "ch6",
+      "location": "ch6_l6",
+      "title": "A correction that can be read",
+      "type": "order",
+      "prompt": "Correct Tomas’s entry without hiding the original institutional failure.",
+      "details": "Follow the archive correction rule, using every step once. Preserve the old writing beneath a single readable cancellation.",
+      "solution": [
+        "Retain original",
+        "Rule through false claim",
+        "Add sourced correction",
+        "Date and sign"
+      ],
+      "clues": [
+        "ch6_l6_a",
+        "ch6_l6_b"
+      ],
+      "requires": [
+        "p58"
+      ],
+      "options": [
+        "Date and sign",
+        "Add sourced correction",
+        "Retain original",
+        "Rule through false claim"
+      ],
+      "hints": [
+        "Do not begin by erasing the entry.",
+        "The sourced replacement comes after the readable cancellation.",
+        "Retain original → Rule through false claim → Add sourced correction → Date and sign."
+      ],
+      "success": "Your father’s name is corrected in public. The old accusation remains legible as evidence of what the city once chose to believe.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: ['Retain original', 'Rule through false claim', 'Add sourced correction', 'Date and sign']."
+    },
+    {
+      "id": "p60",
+      "chapter": "ch6",
+      "location": "ch6_l6",
+      "title": "The public record",
+      "type": "deduction",
+      "prompt": "What does the finished record owe the city?",
+      "details": "Choose the conclusion that preserves the evidence, names the people harmed and leaves responsibility open to a proper hearing.",
+      "solution": "Keep the originals, publish the sources and name every person lost",
+      "clues": [
+        "ch6_l6_a",
+        "ch6_l6_b",
+        "ch6_l6_c"
+      ],
+      "requires": [
+        "p51",
+        "p52",
+        "p53",
+        "p54",
+        "p55",
+        "p56",
+        "p57",
+        "p58",
+        "p59",
+        "p50"
+      ],
+      "options": [
+        "Replace the old story with an unsupported heroic legend",
+        "Destroy the false entry so nobody remembers the failure",
+        "Keep the originals, publish the sources and name every person lost",
+        "Preserve only the evidence that clears Iona’s father"
+      ],
+      "hints": [
+        "The investigation began with one name and uncovered twenty-three.",
+        "A durable correction needs sources as well as a conclusion.",
+        "Choose keeping originals, publishing sources and naming every person lost."
+      ],
+      "success": "Mara closes the register only after the last name has been read. Outside, the midnight bell’s repaired mechanism waits for its next honest hour.",
+      "items": [],
+      "rewards": [],
+      "rationale": "Compare the cited evidence using the explicit rule. Intended answer: Keep the originals, publish the sources and name every person lost."
+    }
+  ],
+  "items": [
+    {
+      "id": "tissue",
+      "name": "Repair tissue",
+      "description": "Thin, long-fibred conservation paper. It bridges a tear without concealing the writing underneath."
+    },
+    {
+      "id": "paste",
+      "name": "Wheat paste",
+      "description": "A small jar of reversible paper paste from Mara’s workbench. Used sparingly, it can be removed later."
+    },
+    {
+      "id": "repair_kit",
+      "name": "Paper repair kit",
+      "description": "Tissue and reversible paste, ready to support the dispatch folio without covering its lines."
+    },
+    {
+      "id": "bell_cord",
+      "name": "Bell cord",
+      "description": "A flax pull-cord, frayed at the fastening but strong along its length."
+    },
+    {
+      "id": "bell_hook",
+      "name": "Brass bell hook",
+      "description": "A small hook sized for the bell’s empty lever eye."
+    },
+    {
+      "id": "bell_pull",
+      "name": "Repaired bell pull",
+      "description": "The flax cord fastened to its brass hook. It can operate the quiet practice bell."
+    },
+    {
+      "id": "coupling",
+      "name": "Bypass coupling",
+      "description": "A removable brass coupling whose square drive fits the council bypass socket."
+    },
+    {
+      "id": "handle",
+      "name": "Insulated crank",
+      "description": "A dry wooden crank with a threaded brass end. Designed to turn the bypass coupling safely."
+    },
+    {
+      "id": "bypass_tool",
+      "name": "Bypass test crank",
+      "description": "The square coupling fitted to its insulated handle. Used to test the disconnected training mechanism."
+    },
+    {
+      "id": "key_blank",
+      "name": "Gate-key tracing",
+      "description": "A charcoal tracing of Tomas’s narrow two-notch key. It is evidence, not a usable gate key."
+    },
+    {
+      "id": "key_plate",
+      "name": "Lock profile plate",
+      "description": "A removable maintenance plate showing the three-notch profile of the council bypass."
+    },
+    {
+      "id": "key_comparison",
+      "name": "Key comparison mount",
+      "description": "The two-notch gate-key tracing aligned beside the three-notch bypass profile. They cannot operate the same lock."
+    },
+    {
+      "id": "lens",
+      "name": "Viewing lens",
+      "description": "A convex lens from the old plate viewer. Its polished edges are still sound."
+    },
+    {
+      "id": "viewer_frame",
+      "name": "Viewer frame",
+      "description": "A folding brass frame that holds a photographic plate against diffuse light."
+    },
+    {
+      "id": "plate_viewer",
+      "name": "Assembled plate viewer",
+      "description": "The lens seated in its brass frame. It enlarges the plate without touching its fragile emulsion."
+    },
+    {
+      "id": "clock_spring",
+      "name": "Clock spring",
+      "description": "A coiled replacement spring retained with the maintenance tools."
+    },
+    {
+      "id": "clock_spindle",
+      "name": "Clock spindle",
+      "description": "The detached spindle from the demonstration clock. Its flattened end locates the spring."
+    },
+    {
+      "id": "clock_model",
+      "name": "Clock demonstration model",
+      "description": "A spring fitted to its spindle, showing how a stopped display can retain the last pulse without keeping time."
+    },
+    {
+      "id": "register_leaf",
+      "name": "Torn clinic leaf",
+      "description": "A numbered register leaf listing patients and lodgers, with a torn continuation edge."
+    },
+    {
+      "id": "register_stub",
+      "name": "Clinic binding stub",
+      "description": "The surviving stub of the clinic book. Its fibres and page number match the loose leaf."
+    },
+    {
+      "id": "restored_register",
+      "name": "Rejoined clinic register",
+      "description": "The leaf and stub aligned without erasing the seam. Its numbered entries can be checked against the memorial."
+    },
+    {
+      "id": "tracing",
+      "name": "Mara’s original tracing",
+      "description": "A translucent tracing of the council diversion instruction, made before the folio was removed."
+    },
+    {
+      "id": "backing",
+      "name": "Archival backing",
+      "description": "A neutral backing sheet with a registration cross, prepared for preserving fragile transparent records."
+    },
+    {
+      "id": "protected_tracing",
+      "name": "Protected instruction tracing",
+      "description": "Mara’s original tracing supported against archival backing, with its registration marks and annotations preserved."
+    },
+    {
+      "id": "seal_impression",
+      "name": "Wax seal impression",
+      "description": "An original impression retained on a dispatch counterfoil. A crescent-shaped chip breaks the outer ring."
+    },
+    {
+      "id": "seal_register",
+      "name": "Seal register rubbing",
+      "description": "A rubbing of the magistrate’s registered seal, including its documented crescent chip."
+    },
+    {
+      "id": "seal_comparison",
+      "name": "Authenticated seal comparison",
+      "description": "The original impression aligned with the registered damaged seal. It identifies the office seal, not by itself the person who used it."
+    },
+    {
+      "id": "type_form",
+      "name": "Corrected type forme",
+      "description": "The printer’s set type, checked for names, numbers and claims against the source records."
+    },
+    {
+      "id": "proof_sheet",
+      "name": "Proofing sheet",
+      "description": "A ruled proofing sheet with spaces for source citations and correction marks."
+    },
+    {
+      "id": "publication_proof",
+      "name": "Verified publication proof",
+      "description": "A proof with citations to the pressure roll, observatory plates, clinic register and original instruction."
+    },
+    {
+      "id": "copy_bundle",
+      "name": "Verified copy bundle",
+      "description": "Sera’s printed account and facsimiles, checked against the original sources."
+    },
+    {
+      "id": "dispatch_wrap",
+      "name": "Waterproof dispatch wrap",
+      "description": "An oilcloth wrap with a cord seal and a list of its intended public recipients."
+    },
+    {
+      "id": "sealed_copies",
+      "name": "Sealed public copies",
+      "description": "Independent copies wrapped for the island, library and print shop. The originals remain in the deposition case."
+    },
+    {
+      "id": "locking_pin",
+      "name": "Gate isolation pin",
+      "description": "A steel pin sized for the bypass test interlock. It prevents the control linkage from moving."
+    },
+    {
+      "id": "lock_tag",
+      "name": "Witnessed isolation tag",
+      "description": "A numbered tag signed by Rowan and Elian, recording that the bypass has been put in its safe closed state."
+    },
+    {
+      "id": "isolation_set",
+      "name": "Witnessed isolation set",
+      "description": "The pin and signed tag together: a physical interlock paired with a public record of who verified it."
+    }
+  ],
+  "characters": [
+    {
+      "id": "iona",
+      "name": "Iona Vale",
+      "role": "Paper conservator",
+      "description": "You learned to mend records after a false one drove you from home. Precise hands; less patient questions."
+    },
+    {
+      "id": "mara",
+      "name": "Mara Venn",
+      "role": "Municipal archivist",
+      "description": "A friend who preserves inconvenient records. Her disappearance began with a removed page, but the investigation must establish why."
+    },
+    {
+      "id": "rowan",
+      "name": "Rowan Pike",
+      "role": "Lockkeeper",
+      "description": "A practical man who remembers every gate and avoids one particular night."
+    },
+    {
+      "id": "nadi",
+      "name": "Nadi Bell",
+      "role": "Ferryperson",
+      "description": "She remembers who travelled together, which channel was open, and who never came back."
+    },
+    {
+      "id": "sera",
+      "name": "Sera Quill",
+      "role": "Printer",
+      "description": "Her mother organised the East Reach tenants. Sera insists that every strong claim needs a source."
+    },
+    {
+      "id": "elian",
+      "name": "Elian Ash",
+      "role": "Works engineer",
+      "description": "Designer of a bypass whose signature appears too often in records he would rather forget."
+    },
+    {
+      "id": "ada",
+      "name": "Ada Flint",
+      "role": "Retired astronomer",
+      "description": "Keeps the old observatory open because an instrument may still have something to say."
+    },
+    {
+      "id": "rusk",
+      "name": "Dorian Rusk",
+      "role": "Magistrate",
+      "description": "His emergency powers survived the emergency. Courteous, orderly, and very interested in which documents remain legible."
+    },
+    {
+      "id": "tomas",
+      "name": "Tomas Vale",
+      "role": "Late gatekeeper",
+      "description": "Your father. The official flood account blames his operation of the East Reach sluice. You have come to test that account, not merely replace it with a comforting one."
+    }
+  ],
+  "recipes": [
+    {
+      "id": "r01",
+      "ingredients": [
+        "tissue",
+        "paste"
+      ],
+      "result": "repair_kit",
+      "text": "You tear the tissue along its fibres and brush the edge with paste. A repair should support the page, not overwrite it."
+    },
+    {
+      "id": "r02",
+      "ingredients": [
+        "bell_cord",
+        "bell_hook"
+      ],
+      "result": "bell_pull",
+      "text": "You reeve the cord through the hook and secure it with two half-hitches. The load now bears on sound fibres."
+    },
+    {
+      "id": "r03",
+      "ingredients": [
+        "coupling",
+        "handle"
+      ],
+      "result": "bypass_tool",
+      "text": "The crank screws securely into the coupling. The training mechanism can now be turned without touching a live gate."
+    },
+    {
+      "id": "r04",
+      "ingredients": [
+        "key_blank",
+        "key_plate"
+      ],
+      "result": "key_comparison",
+      "text": "You align the shoulders of both profiles. Their working edges differ in length and notch count; the mismatch is structural."
+    },
+    {
+      "id": "r05",
+      "ingredients": [
+        "lens",
+        "viewer_frame"
+      ],
+      "result": "plate_viewer",
+      "text": "The lens clips into the frame. You keep the metal clear of the emulsion and let the light do the work."
+    },
+    {
+      "id": "r06",
+      "ingredients": [
+        "clock_spring",
+        "clock_spindle"
+      ],
+      "result": "clock_model",
+      "text": "The spring seats on the spindle’s flat. The model can explain the fault without altering the preserved original clock."
+    },
+    {
+      "id": "r07",
+      "ingredients": [
+        "register_leaf",
+        "register_stub"
+      ],
+      "result": "restored_register",
+      "text": "The page number, thread holes and torn fibres align. You support the join so that anyone can inspect why these two pieces belong together."
+    },
+    {
+      "id": "r08",
+      "ingredients": [
+        "tracing",
+        "backing"
+      ],
+      "result": "protected_tracing",
+      "text": "The tracing rests against its backing. You secure the margin, never the writing, and preserve the registration marks."
+    },
+    {
+      "id": "r09",
+      "ingredients": [
+        "seal_impression",
+        "seal_register"
+      ],
+      "result": "seal_comparison",
+      "text": "The broken crescent aligns in all three impressions. The office seal is authenticated; the signature and custody record must still identify responsibility."
+    },
+    {
+      "id": "r10",
+      "ingredients": [
+        "type_form",
+        "proof_sheet"
+      ],
+      "result": "publication_proof",
+      "text": "You pull a proof and check each factual line against its source. The sheet distinguishes direct observation, documentary evidence and admission."
+    },
+    {
+      "id": "r11",
+      "ingredients": [
+        "copy_bundle",
+        "dispatch_wrap"
+      ],
+      "result": "sealed_copies",
+      "text": "The checked copies go into separate oilcloth packets. Each recipient gets the source list and the means to request the originals."
+    },
+    {
+      "id": "r12",
+      "ingredients": [
+        "locking_pin",
+        "lock_tag"
+      ],
+      "result": "isolation_set",
+      "text": "The signed tag is secured to the isolation pin. A mechanism and a witnessed record now describe the same safe state."
+    }
+  ],
+  "content_revision": "2026-11-14-deduction-pass-2",
+  "search_catalog": "res://content/hidden-object-scenes.json"
+}

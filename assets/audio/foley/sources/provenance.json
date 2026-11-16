@@ -1,0 +1,579 @@
+{
+  "checked_date": "2026-11-14",
+  "packs": [
+    {
+      "id": "kenney",
+      "archive": "rpg_oga.zip",
+      "creator": "Kenney Vleugels",
+      "title": "50 RPG sound effects",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects",
+      "download_url": "https://opengameart.org/sites/default/files/RPGsounds_Kenney.zip",
+      "archive_sha256": "3ae398ad63e293f9c450bda22d5d81c3af69c74df66fc1400f33c012c0bbc231",
+      "license": "CC0-1.0",
+      "license_record": "assets/audio/foley/sources/Kenney-license.txt"
+    },
+    {
+      "id": "rubberduck",
+      "archive": "rubberduck_sfx100v2.zip",
+      "creator": "rubberduck",
+      "title": "100 CC0 SFX #2",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2",
+      "download_url": "https://opengameart.org/sites/default/files/sfx_100_v2.zip",
+      "archive_sha256": "0fc61b4494e2e893c0c015ced4877b3f689c7d84a48cb61daecd7ddb52db797b",
+      "license": "CC0-1.0",
+      "license_record": "assets/audio/foley/sources/rubberduck-license-declaration.txt"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kenney:beltHandle1",
+      "path": "assets/audio/foley/sources/kenney/beltHandle1.ogg",
+      "sha256": "2ef665bd8b65dbe669f4560be38a6d8f04a162e618b15a49e3e71b58e558aab0",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/beltHandle1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:beltHandle2",
+      "path": "assets/audio/foley/sources/kenney/beltHandle2.ogg",
+      "sha256": "f3b692d5c83263c25bce779805b212dbab515d18a603c695fc6a1e8650cf5366",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/beltHandle2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookClose",
+      "path": "assets/audio/foley/sources/kenney/bookClose.ogg",
+      "sha256": "81e976532565f4372abd14e83d2684195fa548d0a28d345de221e56052454f32",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookClose.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookFlip1",
+      "path": "assets/audio/foley/sources/kenney/bookFlip1.ogg",
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookFlip1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookFlip2",
+      "path": "assets/audio/foley/sources/kenney/bookFlip2.ogg",
+      "sha256": "3409042acbfaebc24c1a6327dc073e36f9250841712e96c5040da566a97df73c",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookFlip2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookFlip3",
+      "path": "assets/audio/foley/sources/kenney/bookFlip3.ogg",
+      "sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookFlip3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookOpen",
+      "path": "assets/audio/foley/sources/kenney/bookOpen.ogg",
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookOpen.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookPlace2",
+      "path": "assets/audio/foley/sources/kenney/bookPlace2.ogg",
+      "sha256": "831874e8fd142d4d0a03ff009f1f83966338a7878c0f6f38c613ae5b80dd731e",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookPlace2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookPlace3",
+      "path": "assets/audio/foley/sources/kenney/bookPlace3.ogg",
+      "sha256": "b1afa711e1cabfe5b2c56e20e20e0f9d82142d067727447fa992ddc43dbdb06e",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookPlace3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth1",
+      "path": "assets/audio/foley/sources/kenney/cloth1.ogg",
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth2",
+      "path": "assets/audio/foley/sources/kenney/cloth2.ogg",
+      "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth3",
+      "path": "assets/audio/foley/sources/kenney/cloth3.ogg",
+      "sha256": "a48632d17a4f1416541d261a32a31612e01267144c407fa3ecab3ff410f0085b",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth4",
+      "path": "assets/audio/foley/sources/kenney/cloth4.ogg",
+      "sha256": "e7ab9a6c4466dea874196c61f59bf1da05cfe58748f42fadd695d441a154a99b",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth4.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:clothBelt",
+      "path": "assets/audio/foley/sources/kenney/clothBelt.ogg",
+      "sha256": "f29560a2aea95bbfeb643e1e8f56ec2b6f7e32f32ce4e140645a36db81de3253",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/clothBelt.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:clothBelt2",
+      "path": "assets/audio/foley/sources/kenney/clothBelt2.ogg",
+      "sha256": "d545b1d9f20e6188140aaf551a96f1e82fe0d15f7ca066fac8b065e1231e0038",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/clothBelt2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:creak1",
+      "path": "assets/audio/foley/sources/kenney/creak1.ogg",
+      "sha256": "8a346186fd297254248cab8e8117060a52a5cf2a84f603153a762108550ea95e",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/creak1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:creak2",
+      "path": "assets/audio/foley/sources/kenney/creak2.ogg",
+      "sha256": "8a990afdc03aebb91d528f5385e2f95582dbfa8e2c12c71098ab01be9142294a",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/creak2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:creak3",
+      "path": "assets/audio/foley/sources/kenney/creak3.ogg",
+      "sha256": "f9638787f95004b9d2d06f8eff8e99d4e594c21b51947daf562856fbcec905d1",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/creak3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:doorOpen_1",
+      "path": "assets/audio/foley/sources/kenney/doorOpen_1.ogg",
+      "sha256": "4ab93bab96522d8eb109ff96dc57cb6765deb02448fe14c10472084be5bb2a0b",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/doorOpen_1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:doorOpen_2",
+      "path": "assets/audio/foley/sources/kenney/doorOpen_2.ogg",
+      "sha256": "68962fb0458c9bac59dec3adefa9849703c7c89d34712de03dd0075d095e79e9",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/doorOpen_2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:handleCoins2",
+      "path": "assets/audio/foley/sources/kenney/handleCoins2.ogg",
+      "sha256": "4b857968d64f9ac9336a10ffac6694d7547e1f01566ad6857b30bc8db3ee6c32",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/handleCoins2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:handleSmallLeather",
+      "path": "assets/audio/foley/sources/kenney/handleSmallLeather.ogg",
+      "sha256": "ae3cbf695aa0a8b98b5a80a835be5a3ccbd5446a24db2235cd4c3cd6fc92ed96",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/handleSmallLeather.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:handleSmallLeather2",
+      "path": "assets/audio/foley/sources/kenney/handleSmallLeather2.ogg",
+      "sha256": "a66f6db5918ad016c28a9f2768f127a7f39b5fa04481e5a3b4e78ebe2a1c282d",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/handleSmallLeather2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:metalClick",
+      "path": "assets/audio/foley/sources/kenney/metalClick.ogg",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/metalClick.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:metalLatch",
+      "path": "assets/audio/foley/sources/kenney/metalLatch.ogg",
+      "sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/metalLatch.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "rubberduck:door_02",
+      "path": "assets/audio/foley/sources/rubberduck/door_02.ogg",
+      "sha256": "317b5caa1e2800dea1189b73ac2a6e4f92b137da7bfe115c7acc382c3f43da6e",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_door_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wet_01",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wet_01.ogg",
+      "sha256": "c2663b62fc7239972c044719b95daec4004976fc9bd0a1678c06170d99a3d408",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wet_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wet_02",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wet_02.ogg",
+      "sha256": "b2cfbdd75ee970dcb68cc157fec818eda2f5802989b0da684aa67817cb914b52",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wet_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wet_03",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wet_03.ogg",
+      "sha256": "4d475dd54d72a862cb72fcff4d1970161e619352f500f8b75755a2f5e987513e",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wet_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_01",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_01.ogg",
+      "sha256": "52465eeb853a8fa3cd9f4e218dc0b28bdcb3bb52da72f5bece5d47cae2523a20",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_02",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_02.ogg",
+      "sha256": "e6c35ceaabd50775ba222d8c9566e807b876debf066443626a0a4906849982d4",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_03",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_03.ogg",
+      "sha256": "c02fd155ca74ece4e5c9992f1d48c615bc768b0a8c712423d7091bc0f1207d4c",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_04",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_04.ogg",
+      "sha256": "d229d313dc89c5c1d337f2f348d75822695530832fd10469595a3d37c53118ab",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_04.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:glass_01",
+      "path": "assets/audio/foley/sources/rubberduck/glass_01.ogg",
+      "sha256": "9c664345b242c2ff06e4d00b0383a03afe1b7bf8a685ec9628fb605a1e43c196",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_glass_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:glass_02",
+      "path": "assets/audio/foley/sources/rubberduck/glass_02.ogg",
+      "sha256": "27464f1af8eabe2df582d17d12fd9e140e69723d87a4548123cb0ac796aded0b",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_glass_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:glass_03",
+      "path": "assets/audio/foley/sources/rubberduck/glass_03.ogg",
+      "sha256": "e540ec72e2386a1e98f23047f4f070a8554335f57417deb11514a198382a58fd",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_glass_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:lock_open_01",
+      "path": "assets/audio/foley/sources/rubberduck/lock_open_01.ogg",
+      "sha256": "5147f96254216792e0bf5f32a3589efbc4e4632fbba4737740f336b7bfbf3f55",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_lock_open_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_machine_01",
+      "path": "assets/audio/foley/sources/rubberduck/loop_machine_01.ogg",
+      "sha256": "18aa96bda8feb81ffa4158545749a4fddbd419124025832d0014bb0ddfaecc8a",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_machine_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_machine_03",
+      "path": "assets/audio/foley/sources/rubberduck/loop_machine_03.ogg",
+      "sha256": "0508e8b7c73e0492ff58abc2dcae303f5492c1e14b51dc62a74387db1ca13b73",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_machine_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_water_01",
+      "path": "assets/audio/foley/sources/rubberduck/loop_water_01.ogg",
+      "sha256": "955a367cf87f150f7868e2ecf5745ef13cec2c78a29304eda27e74f1fea06c57",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_water_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_water_02",
+      "path": "assets/audio/foley/sources/rubberduck/loop_water_02.ogg",
+      "sha256": "32bc3462ebd2376d9b84e8f602969f8c2a475f589adee9804207e19116cda768",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_water_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_water_03",
+      "path": "assets/audio/foley/sources/rubberduck/loop_water_03.ogg",
+      "sha256": "33b123860425a34ce8de43cfa075b0b4ffb7a3cf090be5c21213c9b99f3d2fa3",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_water_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_01",
+      "path": "assets/audio/foley/sources/rubberduck/metal_01.ogg",
+      "sha256": "c2e97c7a8e7bca13eb3f711d8a9f58aa7f982c69af43af4ce4a151246a42ebee",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_02",
+      "path": "assets/audio/foley/sources/rubberduck/metal_02.ogg",
+      "sha256": "d33548b1b6d977ecd5b8433c305dd99533232a2aad40d2e0bc5bc90e8549cbd2",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_04",
+      "path": "assets/audio/foley/sources/rubberduck/metal_04.ogg",
+      "sha256": "33c7d65086795882b8ffaaa215be3b38695dcca5e2112e5d9e3fe6e67328dae7",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_04.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_05",
+      "path": "assets/audio/foley/sources/rubberduck/metal_05.ogg",
+      "sha256": "64e7b8d40642f59c0aa2f925d66ce9333b0cbb20bc010f1496cd89cd7197d247",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_05.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_06",
+      "path": "assets/audio/foley/sources/rubberduck/metal_06.ogg",
+      "sha256": "3d989232768f98190fbdcfff80f890f476c4d18d7709c5c907b20439bbf70d5a",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_06.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:switch_01",
+      "path": "assets/audio/foley/sources/rubberduck/switch_01.ogg",
+      "sha256": "fa2c8ebd6361394762e9964698a0be2e31ae62dc91510f81c716c0ef8cf5741d",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_switch_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:switch_02",
+      "path": "assets/audio/foley/sources/rubberduck/switch_02.ogg",
+      "sha256": "4ea2e80d7b9bee89dcb878233ae6bd3a18c1cf960885ec844b3d43dfbf8d700b",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_switch_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_01",
+      "path": "assets/audio/foley/sources/rubberduck/wood_01.ogg",
+      "sha256": "3d2f562125ccc5f4e5b2d547fac204025249acbe4ff31db721a64a639cf58fd6",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_02",
+      "path": "assets/audio/foley/sources/rubberduck/wood_02.ogg",
+      "sha256": "199fd6f6715ea73028163346ac08de5b02cbd304569a6590ae6fc581221a840d",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_03",
+      "path": "assets/audio/foley/sources/rubberduck/wood_03.ogg",
+      "sha256": "57330fbbd91c7ab5356c65f22813988bcf07d363099b5dda0a958ceab443df2c",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_04",
+      "path": "assets/audio/foley/sources/rubberduck/wood_04.ogg",
+      "sha256": "afa88de3d54c12b2a8111149da18de5b0eb2bf315f8c8cf0814e181a36da1d0b",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_04.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_hit_01",
+      "path": "assets/audio/foley/sources/rubberduck/wood_hit_01.ogg",
+      "sha256": "84abc80d93011d86f29bc55c10a023265ece0851d0784d1bf07c5990f08daeab",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_hit_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_hit_02",
+      "path": "assets/audio/foley/sources/rubberduck/wood_hit_02.ogg",
+      "sha256": "7ff0c18fafb7d025addb5d3cb586444842d8281ca9ed265eb2ac7213fa754b8a",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_hit_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    }
+  ]
+}

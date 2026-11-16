@@ -1,0 +1,3908 @@
+{
+  "id": "ch3",
+  "title": "The Unstruck Hour",
+  "bpm": 74,
+  "meter": 4,
+  "bars": 48,
+  "mode": "minor",
+  "tonic_midi": 48,
+  "theme": "Meridian",
+  "form": [
+    "Prelude",
+    "Statement",
+    "Answer",
+    "Shadow",
+    "Reprise",
+    "Coda"
+  ],
+  "note_events": [
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 0,
+      "duration": 6.16216,
+      "velocity": 0.0313,
+      "pan": -0.5,
+      "seed": 661731
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 0,
+      "duration": 6.16216,
+      "velocity": 0.02844,
+      "pan": 0.15,
+      "seed": 988538
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 0,
+      "duration": 6.16216,
+      "velocity": 0.0302,
+      "pan": 0.55,
+      "seed": 78019
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 0,
+      "duration": 5.83784,
+      "velocity": 0.03555,
+      "pan": -0.2,
+      "seed": 450850
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 0,
+      "duration": 0.56757,
+      "velocity": 0.03923,
+      "pan": -0.28,
+      "seed": 500050
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 2.03362,
+      "duration": 0.56757,
+      "velocity": 0.0365,
+      "pan": -0.28,
+      "seed": 488281
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 3.24559,
+      "duration": 0.56757,
+      "velocity": 0.03832,
+      "pan": -0.28,
+      "seed": 441566
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 5.28147,
+      "duration": 0.56757,
+      "velocity": 0.03879,
+      "pan": -0.28,
+      "seed": 843045
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 6.49265,
+      "duration": 6.16216,
+      "velocity": 0.03126,
+      "pan": -0.5,
+      "seed": 943050
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 6.48437,
+      "duration": 6.16216,
+      "velocity": 0.03071,
+      "pan": 0.15,
+      "seed": 677754
+    },
+    {
+      "instrument": "strings",
+      "midi": 75,
+      "start": 6.48351,
+      "duration": 6.16216,
+      "velocity": 0.02923,
+      "pan": 0.55,
+      "seed": 723585
+    },
+    {
+      "instrument": "cello",
+      "midi": 44,
+      "start": 6.4837,
+      "duration": 5.83784,
+      "velocity": 0.03599,
+      "pan": -0.2,
+      "seed": 399314
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 6.49635,
+      "duration": 0.56757,
+      "velocity": 0.03994,
+      "pan": -0.28,
+      "seed": 461489
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 8.52389,
+      "duration": 0.56757,
+      "velocity": 0.03949,
+      "pan": -0.28,
+      "seed": 946037
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 9.31929,
+      "duration": 0.97297,
+      "velocity": 0.02666,
+      "pan": 0.65,
+      "seed": 489613
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 9.73315,
+      "duration": 0.56757,
+      "velocity": 0.03931,
+      "pan": -0.28,
+      "seed": 702032
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 11.74848,
+      "duration": 0.56757,
+      "velocity": 0.03804,
+      "pan": -0.28,
+      "seed": 646848
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 12.96514,
+      "duration": 6.16216,
+      "velocity": 0.03114,
+      "pan": -0.5,
+      "seed": 551527
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 12.962,
+      "duration": 6.16216,
+      "velocity": 0.02913,
+      "pan": 0.15,
+      "seed": 454047
+    },
+    {
+      "instrument": "strings",
+      "midi": 70,
+      "start": 12.97532,
+      "duration": 6.16216,
+      "velocity": 0.02993,
+      "pan": 0.55,
+      "seed": 896795
+    },
+    {
+      "instrument": "cello",
+      "midi": 39,
+      "start": 12.97068,
+      "duration": 5.83784,
+      "velocity": 0.03534,
+      "pan": -0.2,
+      "seed": 694007
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 12.98067,
+      "duration": 0.56757,
+      "velocity": 0.03754,
+      "pan": -0.28,
+      "seed": 946018
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 14.99625,
+      "duration": 0.56757,
+      "velocity": 0.03799,
+      "pan": -0.28,
+      "seed": 869543
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 12.97949,
+      "duration": 0.76216,
+      "velocity": 0.0786,
+      "pan": -0.12,
+      "seed": 901385
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 13.78043,
+      "duration": 0.76216,
+      "velocity": 0.05852,
+      "pan": -0.12,
+      "seed": 797776
+    },
+    {
+      "instrument": "celesta",
+      "midi": 72,
+      "start": 14.5938,
+      "duration": 1.52432,
+      "velocity": 0.07759,
+      "pan": -0.12,
+      "seed": 25322
+    },
+    {
+      "instrument": "celesta",
+      "midi": 68,
+      "start": 16.20716,
+      "duration": 0.76216,
+      "velocity": 0.05984,
+      "pan": -0.12,
+      "seed": 221111
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 17.02322,
+      "duration": 0.76216,
+      "velocity": 0.05881,
+      "pan": -0.12,
+      "seed": 788860
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 17.84308,
+      "duration": 1.52432,
+      "velocity": 0.05862,
+      "pan": -0.12,
+      "seed": 195682
+    },
+    {
+      "instrument": "celesta",
+      "midi": 58,
+      "start": 19.46047,
+      "duration": 0.76216,
+      "velocity": 0.07155,
+      "pan": -0.12,
+      "seed": 611595
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 20.27577,
+      "duration": 0.76216,
+      "velocity": 0.06028,
+      "pan": -0.12,
+      "seed": 347532
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 21.08382,
+      "duration": 1.52432,
+      "velocity": 0.0647,
+      "pan": -0.12,
+      "seed": 110539
+    },
+    {
+      "instrument": "celesta",
+      "midi": 62,
+      "start": 22.69917,
+      "duration": 0.76216,
+      "velocity": 0.06442,
+      "pan": -0.12,
+      "seed": 275637
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 23.52532,
+      "duration": 2.28649,
+      "velocity": 0.06029,
+      "pan": -0.12,
+      "seed": 729163
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 16.21007,
+      "duration": 0.56757,
+      "velocity": 0.03731,
+      "pan": -0.28,
+      "seed": 526285
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 18.23933,
+      "duration": 0.56757,
+      "velocity": 0.03789,
+      "pan": -0.28,
+      "seed": 739648
+    },
+    {
+      "instrument": "strings",
+      "midi": 70,
+      "start": 19.45032,
+      "duration": 6.16216,
+      "velocity": 0.02813,
+      "pan": -0.5,
+      "seed": 127852
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 19.45185,
+      "duration": 6.16216,
+      "velocity": 0.03069,
+      "pan": 0.15,
+      "seed": 644274
+    },
+    {
+      "instrument": "strings",
+      "midi": 77,
+      "start": 19.45112,
+      "duration": 6.16216,
+      "velocity": 0.0285,
+      "pan": 0.55,
+      "seed": 507361
+    },
+    {
+      "instrument": "cello",
+      "midi": 46,
+      "start": 19.45633,
+      "duration": 5.83784,
+      "velocity": 0.03463,
+      "pan": -0.2,
+      "seed": 101637
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 19.45533,
+      "duration": 0.56757,
+      "velocity": 0.03903,
+      "pan": -0.28,
+      "seed": 435781
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 21.48721,
+      "duration": 0.56757,
+      "velocity": 0.03656,
+      "pan": -0.28,
+      "seed": 416033
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 22.30505,
+      "duration": 0.97297,
+      "velocity": 0.02614,
+      "pan": 0.65,
+      "seed": 811322
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 22.69423,
+      "duration": 0.56757,
+      "velocity": 0.04064,
+      "pan": -0.28,
+      "seed": 299295
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 24.7414,
+      "duration": 0.56757,
+      "velocity": 0.03637,
+      "pan": -0.28,
+      "seed": 356165
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 25.95568,
+      "duration": 6.16216,
+      "velocity": 0.05019,
+      "pan": -0.5,
+      "seed": 422551
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 25.94803,
+      "duration": 6.16216,
+      "velocity": 0.05476,
+      "pan": 0.15,
+      "seed": 4312
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 25.94807,
+      "duration": 6.16216,
+      "velocity": 0.05,
+      "pan": 0.55,
+      "seed": 358838
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 25.95731,
+      "duration": 5.83784,
+      "velocity": 0.05909,
+      "pan": -0.2,
+      "seed": 805535
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 25.942,
+      "duration": 0.56757,
+      "velocity": 0.07132,
+      "pan": -0.28,
+      "seed": 24058
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 26.55667,
+      "duration": 0.56757,
+      "velocity": 0.06369,
+      "pan": -0.28,
+      "seed": 294309
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 27.17335,
+      "duration": 0.56757,
+      "velocity": 0.06655,
+      "pan": -0.28,
+      "seed": 93627
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 27.97819,
+      "duration": 0.56757,
+      "velocity": 0.06756,
+      "pan": -0.28,
+      "seed": 861595
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 28.59115,
+      "duration": 0.56757,
+      "velocity": 0.06603,
+      "pan": -0.28,
+      "seed": 941833
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 25.95601,
+      "duration": 0.76216,
+      "velocity": 0.1244,
+      "pan": -0.12,
+      "seed": 303895
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 26.75155,
+      "duration": 0.76216,
+      "velocity": 0.10615,
+      "pan": -0.12,
+      "seed": 170264
+    },
+    {
+      "instrument": "celesta",
+      "midi": 72,
+      "start": 27.56219,
+      "duration": 1.52432,
+      "velocity": 0.12873,
+      "pan": -0.12,
+      "seed": 212657
+    },
+    {
+      "instrument": "celesta",
+      "midi": 68,
+      "start": 29.18552,
+      "duration": 0.76216,
+      "velocity": 0.1105,
+      "pan": -0.12,
+      "seed": 685738
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 29.99511,
+      "duration": 0.76216,
+      "velocity": 0.1135,
+      "pan": -0.12,
+      "seed": 983138
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 30.81428,
+      "duration": 1.52432,
+      "velocity": 0.11242,
+      "pan": -0.12,
+      "seed": 984285
+    },
+    {
+      "instrument": "celesta",
+      "midi": 58,
+      "start": 32.43147,
+      "duration": 0.76216,
+      "velocity": 0.13514,
+      "pan": -0.12,
+      "seed": 571532
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 33.2374,
+      "duration": 0.76216,
+      "velocity": 0.10791,
+      "pan": -0.12,
+      "seed": 722409
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 34.06414,
+      "duration": 1.52432,
+      "velocity": 0.10999,
+      "pan": -0.12,
+      "seed": 662169
+    },
+    {
+      "instrument": "celesta",
+      "midi": 62,
+      "start": 35.67109,
+      "duration": 0.76216,
+      "velocity": 0.11096,
+      "pan": -0.12,
+      "seed": 172063
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 36.49217,
+      "duration": 2.28649,
+      "velocity": 0.10442,
+      "pan": -0.12,
+      "seed": 30270
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 29.1956,
+      "duration": 0.56757,
+      "velocity": 0.0686,
+      "pan": -0.28,
+      "seed": 802740
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 29.79081,
+      "duration": 0.56757,
+      "velocity": 0.07026,
+      "pan": -0.28,
+      "seed": 581846
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 30.4126,
+      "duration": 0.56757,
+      "velocity": 0.06768,
+      "pan": -0.28,
+      "seed": 968624
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 31.22797,
+      "duration": 0.56757,
+      "velocity": 0.06785,
+      "pan": -0.28,
+      "seed": 243644
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 31.83088,
+      "duration": 0.56757,
+      "velocity": 0.06599,
+      "pan": -0.28,
+      "seed": 59736
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 32.4283,
+      "duration": 6.16216,
+      "velocity": 0.0494,
+      "pan": -0.5,
+      "seed": 330182
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 32.43901,
+      "duration": 6.16216,
+      "velocity": 0.05424,
+      "pan": 0.15,
+      "seed": 175213
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 32.4393,
+      "duration": 6.16216,
+      "velocity": 0.05431,
+      "pan": 0.55,
+      "seed": 1426
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 32.42127,
+      "duration": 5.83784,
+      "velocity": 0.06099,
+      "pan": -0.2,
+      "seed": 745406
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 32.4365,
+      "duration": 0.56757,
+      "velocity": 0.06739,
+      "pan": -0.28,
+      "seed": 294736
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 33.03027,
+      "duration": 0.56757,
+      "velocity": 0.06698,
+      "pan": -0.28,
+      "seed": 589698
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 33.64507,
+      "duration": 0.56757,
+      "velocity": 0.07071,
+      "pan": -0.28,
+      "seed": 726480
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 34.45295,
+      "duration": 0.56757,
+      "velocity": 0.07005,
+      "pan": -0.28,
+      "seed": 565010
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 35.07206,
+      "duration": 0.56757,
+      "velocity": 0.06649,
+      "pan": -0.28,
+      "seed": 247076
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 35.26176,
+      "duration": 0.97297,
+      "velocity": 0.04805,
+      "pan": 0.65,
+      "seed": 735178
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 35.68484,
+      "duration": 0.56757,
+      "velocity": 0.06511,
+      "pan": -0.28,
+      "seed": 34194
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 36.29427,
+      "duration": 0.56757,
+      "velocity": 0.06723,
+      "pan": -0.28,
+      "seed": 228340
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 36.89094,
+      "duration": 0.56757,
+      "velocity": 0.06873,
+      "pan": -0.28,
+      "seed": 859509
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 37.70028,
+      "duration": 0.56757,
+      "velocity": 0.06745,
+      "pan": -0.28,
+      "seed": 469678
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 38.31835,
+      "duration": 0.56757,
+      "velocity": 0.06753,
+      "pan": -0.28,
+      "seed": 475334
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 38.90761,
+      "duration": 6.16216,
+      "velocity": 0.05275,
+      "pan": -0.5,
+      "seed": 132660
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 38.90726,
+      "duration": 6.16216,
+      "velocity": 0.05365,
+      "pan": 0.15,
+      "seed": 222793
+    },
+    {
+      "instrument": "strings",
+      "midi": 75,
+      "start": 38.923,
+      "duration": 6.16216,
+      "velocity": 0.05071,
+      "pan": 0.55,
+      "seed": 586356
+    },
+    {
+      "instrument": "cello",
+      "midi": 44,
+      "start": 38.91877,
+      "duration": 5.83784,
+      "velocity": 0.06562,
+      "pan": -0.2,
+      "seed": 307303
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 38.91665,
+      "duration": 0.56757,
+      "velocity": 0.06735,
+      "pan": -0.28,
+      "seed": 647554
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 39.52211,
+      "duration": 0.56757,
+      "velocity": 0.06803,
+      "pan": -0.28,
+      "seed": 406567
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 40.13691,
+      "duration": 0.56757,
+      "velocity": 0.06571,
+      "pan": -0.28,
+      "seed": 588468
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 40.95519,
+      "duration": 0.56757,
+      "velocity": 0.06849,
+      "pan": -0.28,
+      "seed": 743115
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 41.54452,
+      "duration": 0.56757,
+      "velocity": 0.06659,
+      "pan": -0.28,
+      "seed": 404275
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 38.9267,
+      "duration": 0.76216,
+      "velocity": 0.12928,
+      "pan": -0.12,
+      "seed": 689889
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 39.73312,
+      "duration": 0.76216,
+      "velocity": 0.10755,
+      "pan": -0.12,
+      "seed": 817088
+    },
+    {
+      "instrument": "celesta",
+      "midi": 72,
+      "start": 40.52876,
+      "duration": 1.52432,
+      "velocity": 0.12975,
+      "pan": -0.12,
+      "seed": 181630
+    },
+    {
+      "instrument": "celesta",
+      "midi": 68,
+      "start": 42.15955,
+      "duration": 0.76216,
+      "velocity": 0.10776,
+      "pan": -0.12,
+      "seed": 616662
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 42.96927,
+      "duration": 0.76216,
+      "velocity": 0.1085,
+      "pan": -0.12,
+      "seed": 598100
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 43.77701,
+      "duration": 1.52432,
+      "velocity": 0.10377,
+      "pan": -0.12,
+      "seed": 397867
+    },
+    {
+      "instrument": "celesta",
+      "midi": 58,
+      "start": 45.40849,
+      "duration": 0.76216,
+      "velocity": 0.13399,
+      "pan": -0.12,
+      "seed": 451933
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 46.2226,
+      "duration": 0.76216,
+      "velocity": 0.11347,
+      "pan": -0.12,
+      "seed": 229585
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 47.03827,
+      "duration": 1.52432,
+      "velocity": 0.11293,
+      "pan": -0.12,
+      "seed": 130622
+    },
+    {
+      "instrument": "celesta",
+      "midi": 62,
+      "start": 48.64388,
+      "duration": 0.76216,
+      "velocity": 0.10615,
+      "pan": -0.12,
+      "seed": 621755
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 49.46449,
+      "duration": 2.28649,
+      "velocity": 0.11179,
+      "pan": -0.12,
+      "seed": 97181
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 42.16819,
+      "duration": 0.56757,
+      "velocity": 0.0696,
+      "pan": -0.28,
+      "seed": 680291
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 42.77366,
+      "duration": 0.56757,
+      "velocity": 0.06711,
+      "pan": -0.28,
+      "seed": 84195
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 43.38247,
+      "duration": 0.56757,
+      "velocity": 0.06531,
+      "pan": -0.28,
+      "seed": 538101
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 44.19484,
+      "duration": 0.56757,
+      "velocity": 0.06772,
+      "pan": -0.28,
+      "seed": 235380
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 44.78949,
+      "duration": 0.56757,
+      "velocity": 0.06997,
+      "pan": -0.28,
+      "seed": 724379
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 45.39396,
+      "duration": 6.16216,
+      "velocity": 0.05101,
+      "pan": -0.5,
+      "seed": 633897
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 45.39359,
+      "duration": 6.16216,
+      "velocity": 0.04912,
+      "pan": 0.15,
+      "seed": 84674
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 45.40589,
+      "duration": 6.16216,
+      "velocity": 0.05469,
+      "pan": 0.55,
+      "seed": 798307
+    },
+    {
+      "instrument": "strings",
+      "midi": 77,
+      "start": 45.41651,
+      "duration": 6.16216,
+      "velocity": 0.05244,
+      "pan": 0.3,
+      "seed": 732410
+    },
+    {
+      "instrument": "cello",
+      "midi": 43,
+      "start": 45.4136,
+      "duration": 5.83784,
+      "velocity": 0.06393,
+      "pan": -0.2,
+      "seed": 706126
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 45.4064,
+      "duration": 0.56757,
+      "velocity": 0.0669,
+      "pan": -0.28,
+      "seed": 229299
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 46.02054,
+      "duration": 0.56757,
+      "velocity": 0.06527,
+      "pan": -0.28,
+      "seed": 582836
+    },
+    {
+      "instrument": "harp",
+      "midi": 71,
+      "start": 46.62644,
+      "duration": 0.56757,
+      "velocity": 0.06682,
+      "pan": -0.28,
+      "seed": 925945
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 47.42102,
+      "duration": 0.56757,
+      "velocity": 0.06651,
+      "pan": -0.28,
+      "seed": 394047
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 48.04824,
+      "duration": 0.56757,
+      "velocity": 0.06707,
+      "pan": -0.28,
+      "seed": 803844
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 48.24942,
+      "duration": 0.97297,
+      "velocity": 0.04466,
+      "pan": 0.65,
+      "seed": 678657
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 48.66045,
+      "duration": 0.56757,
+      "velocity": 0.06911,
+      "pan": -0.28,
+      "seed": 900116
+    },
+    {
+      "instrument": "harp",
+      "midi": 71,
+      "start": 49.25722,
+      "duration": 0.56757,
+      "velocity": 0.07097,
+      "pan": -0.28,
+      "seed": 73824
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 49.85495,
+      "duration": 0.56757,
+      "velocity": 0.07034,
+      "pan": -0.28,
+      "seed": 161467
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 50.67482,
+      "duration": 0.56757,
+      "velocity": 0.06782,
+      "pan": -0.28,
+      "seed": 712160
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 51.28485,
+      "duration": 0.56757,
+      "velocity": 0.06955,
+      "pan": -0.28,
+      "seed": 294438
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 51.89426,
+      "duration": 6.16216,
+      "velocity": 0.05798,
+      "pan": -0.5,
+      "seed": 822689
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 51.88567,
+      "duration": 6.16216,
+      "velocity": 0.05565,
+      "pan": 0.15,
+      "seed": 261545
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 51.89441,
+      "duration": 6.16216,
+      "velocity": 0.06041,
+      "pan": 0.55,
+      "seed": 857044
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 51.89396,
+      "duration": 5.83784,
+      "velocity": 0.06726,
+      "pan": -0.2,
+      "seed": 821074
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 51.89483,
+      "duration": 0.56757,
+      "velocity": 0.07505,
+      "pan": -0.28,
+      "seed": 213525
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 52.50608,
+      "duration": 0.56757,
+      "velocity": 0.07571,
+      "pan": -0.28,
+      "seed": 126607
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 53.11606,
+      "duration": 0.56757,
+      "velocity": 0.07144,
+      "pan": -0.28,
+      "seed": 227847
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 53.91322,
+      "duration": 0.56757,
+      "velocity": 0.07284,
+      "pan": -0.28,
+      "seed": 860882
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 54.51706,
+      "duration": 0.56757,
+      "velocity": 0.07885,
+      "pan": -0.28,
+      "seed": 986225
+    },
+    {
+      "instrument": "flute",
+      "midi": 63,
+      "start": 51.89414,
+      "duration": 0.71351,
+      "velocity": 0.14994,
+      "pan": 0.12,
+      "seed": 973751
+    },
+    {
+      "instrument": "flute",
+      "midi": 70,
+      "start": 52.70395,
+      "duration": 0.71351,
+      "velocity": 0.1136,
+      "pan": 0.12,
+      "seed": 328008
+    },
+    {
+      "instrument": "flute",
+      "midi": 75,
+      "start": 53.51441,
+      "duration": 1.42703,
+      "velocity": 0.14102,
+      "pan": 0.12,
+      "seed": 10419
+    },
+    {
+      "instrument": "flute",
+      "midi": 72,
+      "start": 55.13164,
+      "duration": 0.71351,
+      "velocity": 0.11326,
+      "pan": 0.12,
+      "seed": 690392
+    },
+    {
+      "instrument": "flute",
+      "midi": 70,
+      "start": 55.94249,
+      "duration": 0.71351,
+      "velocity": 0.12409,
+      "pan": 0.12,
+      "seed": 254836
+    },
+    {
+      "instrument": "flute",
+      "midi": 67,
+      "start": 56.76583,
+      "duration": 1.42703,
+      "velocity": 0.12133,
+      "pan": 0.12,
+      "seed": 647625
+    },
+    {
+      "instrument": "flute",
+      "midi": 62,
+      "start": 58.36902,
+      "duration": 0.71351,
+      "velocity": 0.14244,
+      "pan": 0.12,
+      "seed": 125916
+    },
+    {
+      "instrument": "flute",
+      "midi": 67,
+      "start": 59.18758,
+      "duration": 0.71351,
+      "velocity": 0.12053,
+      "pan": 0.12,
+      "seed": 680530
+    },
+    {
+      "instrument": "flute",
+      "midi": 70,
+      "start": 60.00803,
+      "duration": 1.42703,
+      "velocity": 0.12509,
+      "pan": 0.12,
+      "seed": 653240
+    },
+    {
+      "instrument": "flute",
+      "midi": 65,
+      "start": 61.61821,
+      "duration": 0.71351,
+      "velocity": 0.12039,
+      "pan": 0.12,
+      "seed": 166505
+    },
+    {
+      "instrument": "flute",
+      "midi": 63,
+      "start": 62.43677,
+      "duration": 2.14054,
+      "velocity": 0.11813,
+      "pan": 0.12,
+      "seed": 336370
+    },
+    {
+      "instrument": "cello",
+      "midi": 55,
+      "start": 51.8888,
+      "duration": 2.78919,
+      "velocity": 0.04889,
+      "pan": -0.48,
+      "seed": 762231
+    },
+    {
+      "instrument": "cello",
+      "midi": 53,
+      "start": 55.14444,
+      "duration": 2.78919,
+      "velocity": 0.04988,
+      "pan": -0.48,
+      "seed": 94643
+    },
+    {
+      "instrument": "cello",
+      "midi": 51,
+      "start": 58.3861,
+      "duration": 2.78919,
+      "velocity": 0.0468,
+      "pan": -0.48,
+      "seed": 47131
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 61.6109,
+      "duration": 2.78919,
+      "velocity": 0.04798,
+      "pan": -0.48,
+      "seed": 567674
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 55.14313,
+      "duration": 0.56757,
+      "velocity": 0.0758,
+      "pan": -0.28,
+      "seed": 136265
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 55.74116,
+      "duration": 0.56757,
+      "velocity": 0.07735,
+      "pan": -0.28,
+      "seed": 918523
+    },
+    {
+      "instrument": "harp",
+      "midi": 79,
+      "start": 56.35792,
+      "duration": 0.56757,
+      "velocity": 0.07352,
+      "pan": -0.28,
+      "seed": 998733
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 57.1673,
+      "duration": 0.56757,
+      "velocity": 0.07169,
+      "pan": -0.28,
+      "seed": 146368
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 57.76043,
+      "duration": 0.56757,
+      "velocity": 0.07928,
+      "pan": -0.28,
+      "seed": 518873
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 58.3859,
+      "duration": 6.16216,
+      "velocity": 0.05762,
+      "pan": -0.5,
+      "seed": 988118
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 58.38362,
+      "duration": 6.16216,
+      "velocity": 0.061,
+      "pan": 0.15,
+      "seed": 162307
+    },
+    {
+      "instrument": "strings",
+      "midi": 75,
+      "start": 58.37921,
+      "duration": 6.16216,
+      "velocity": 0.05781,
+      "pan": 0.55,
+      "seed": 239884
+    },
+    {
+      "instrument": "cello",
+      "midi": 44,
+      "start": 58.38584,
+      "duration": 5.83784,
+      "velocity": 0.06702,
+      "pan": -0.2,
+      "seed": 219120
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 58.38584,
+      "duration": 0.56757,
+      "velocity": 0.07184,
+      "pan": -0.28,
+      "seed": 739247
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 58.97778,
+      "duration": 0.56757,
+      "velocity": 0.0716,
+      "pan": -0.28,
+      "seed": 672694
+    },
+    {
+      "instrument": "harp",
+      "midi": 84,
+      "start": 59.60606,
+      "duration": 0.56757,
+      "velocity": 0.0764,
+      "pan": -0.28,
+      "seed": 248294
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 60.41104,
+      "duration": 0.56757,
+      "velocity": 0.07789,
+      "pan": -0.28,
+      "seed": 693277
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 61.02359,
+      "duration": 0.56757,
+      "velocity": 0.07829,
+      "pan": -0.28,
+      "seed": 451904
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 61.22036,
+      "duration": 0.97297,
+      "velocity": 0.05026,
+      "pan": 0.65,
+      "seed": 735186
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 61.6148,
+      "duration": 0.56757,
+      "velocity": 0.07769,
+      "pan": -0.28,
+      "seed": 496560
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 62.23654,
+      "duration": 0.56757,
+      "velocity": 0.07473,
+      "pan": -0.28,
+      "seed": 324090
+    },
+    {
+      "instrument": "harp",
+      "midi": 87,
+      "start": 62.82817,
+      "duration": 0.56757,
+      "velocity": 0.07275,
+      "pan": -0.28,
+      "seed": 178652
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 63.64768,
+      "duration": 0.56757,
+      "velocity": 0.0732,
+      "pan": -0.28,
+      "seed": 458695
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 64.25031,
+      "duration": 0.56757,
+      "velocity": 0.07306,
+      "pan": -0.28,
+      "seed": 131226
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 64.86392,
+      "duration": 6.16216,
+      "velocity": 0.05851,
+      "pan": -0.5,
+      "seed": 993705
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 64.86567,
+      "duration": 6.16216,
+      "velocity": 0.05635,
+      "pan": 0.15,
+      "seed": 103343
+    },
+    {
+      "instrument": "strings",
+      "midi": 70,
+      "start": 64.858,
+      "duration": 6.16216,
+      "velocity": 0.05523,
+      "pan": 0.55,
+      "seed": 601094
+    },
+    {
+      "instrument": "cello",
+      "midi": 39,
+      "start": 64.87249,
+      "duration": 5.83784,
+      "velocity": 0.06761,
+      "pan": -0.2,
+      "seed": 653367
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 64.86752,
+      "duration": 0.56757,
+      "velocity": 0.07596,
+      "pan": -0.28,
+      "seed": 602442
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 65.47009,
+      "duration": 0.56757,
+      "velocity": 0.07313,
+      "pan": -0.28,
+      "seed": 413093
+    },
+    {
+      "instrument": "harp",
+      "midi": 79,
+      "start": 66.07934,
+      "duration": 0.56757,
+      "velocity": 0.0719,
+      "pan": -0.28,
+      "seed": 937421
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 66.88499,
+      "duration": 0.56757,
+      "velocity": 0.07764,
+      "pan": -0.28,
+      "seed": 358461
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 67.50098,
+      "duration": 0.56757,
+      "velocity": 0.07313,
+      "pan": -0.28,
+      "seed": 880790
+    },
+    {
+      "instrument": "flute",
+      "midi": 63,
+      "start": 64.87278,
+      "duration": 0.71351,
+      "velocity": 0.13928,
+      "pan": 0.12,
+      "seed": 584573
+    },
+    {
+      "instrument": "flute",
+      "midi": 70,
+      "start": 65.67056,
+      "duration": 0.71351,
+      "velocity": 0.11693,
+      "pan": 0.12,
+      "seed": 896426
+    },
+    {
+      "instrument": "flute",
+      "midi": 75,
+      "start": 66.48773,
+      "duration": 1.42703,
+      "velocity": 0.14467,
+      "pan": 0.12,
+      "seed": 836605
+    },
+    {
+      "instrument": "flute",
+      "midi": 72,
+      "start": 68.09838,
+      "duration": 0.71351,
+      "velocity": 0.1142,
+      "pan": 0.12,
+      "seed": 530073
+    },
+    {
+      "instrument": "flute",
+      "midi": 70,
+      "start": 68.92032,
+      "duration": 0.71351,
+      "velocity": 0.11431,
+      "pan": 0.12,
+      "seed": 332089
+    },
+    {
+      "instrument": "flute",
+      "midi": 67,
+      "start": 69.73443,
+      "duration": 1.42703,
+      "velocity": 0.1207,
+      "pan": 0.12,
+      "seed": 353389
+    },
+    {
+      "instrument": "flute",
+      "midi": 62,
+      "start": 71.35135,
+      "duration": 0.71351,
+      "velocity": 0.15378,
+      "pan": 0.12,
+      "seed": 787610
+    },
+    {
+      "instrument": "flute",
+      "midi": 67,
+      "start": 72.15802,
+      "duration": 0.71351,
+      "velocity": 0.11427,
+      "pan": 0.12,
+      "seed": 897283
+    },
+    {
+      "instrument": "flute",
+      "midi": 70,
+      "start": 72.9651,
+      "duration": 1.42703,
+      "velocity": 0.11794,
+      "pan": 0.12,
+      "seed": 770699
+    },
+    {
+      "instrument": "flute",
+      "midi": 65,
+      "start": 74.60598,
+      "duration": 0.71351,
+      "velocity": 0.12133,
+      "pan": 0.12,
+      "seed": 453235
+    },
+    {
+      "instrument": "flute",
+      "midi": 63,
+      "start": 75.41094,
+      "duration": 2.14054,
+      "velocity": 0.12397,
+      "pan": 0.12,
+      "seed": 770656
+    },
+    {
+      "instrument": "cello",
+      "midi": 55,
+      "start": 64.85653,
+      "duration": 2.78919,
+      "velocity": 0.04987,
+      "pan": -0.48,
+      "seed": 892400
+    },
+    {
+      "instrument": "cello",
+      "midi": 53,
+      "start": 68.10557,
+      "duration": 2.78919,
+      "velocity": 0.04672,
+      "pan": -0.48,
+      "seed": 713896
+    },
+    {
+      "instrument": "cello",
+      "midi": 51,
+      "start": 71.34875,
+      "duration": 2.78919,
+      "velocity": 0.05133,
+      "pan": -0.48,
+      "seed": 641173
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 74.59379,
+      "duration": 2.78919,
+      "velocity": 0.04982,
+      "pan": -0.48,
+      "seed": 49444
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 68.11486,
+      "duration": 0.56757,
+      "velocity": 0.07191,
+      "pan": -0.28,
+      "seed": 678799
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 68.72019,
+      "duration": 0.56757,
+      "velocity": 0.07205,
+      "pan": -0.28,
+      "seed": 674309
+    },
+    {
+      "instrument": "harp",
+      "midi": 82,
+      "start": 69.33483,
+      "duration": 0.56757,
+      "velocity": 0.07196,
+      "pan": -0.28,
+      "seed": 43327
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 70.13466,
+      "duration": 0.56757,
+      "velocity": 0.07796,
+      "pan": -0.28,
+      "seed": 601928
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 70.75399,
+      "duration": 0.56757,
+      "velocity": 0.07438,
+      "pan": -0.28,
+      "seed": 286565
+    },
+    {
+      "instrument": "strings",
+      "midi": 70,
+      "start": 71.34357,
+      "duration": 6.16216,
+      "velocity": 0.05681,
+      "pan": -0.5,
+      "seed": 714978
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 71.35919,
+      "duration": 6.16216,
+      "velocity": 0.06054,
+      "pan": 0.15,
+      "seed": 503853
+    },
+    {
+      "instrument": "strings",
+      "midi": 77,
+      "start": 71.36243,
+      "duration": 6.16216,
+      "velocity": 0.05523,
+      "pan": 0.55,
+      "seed": 820426
+    },
+    {
+      "instrument": "cello",
+      "midi": 46,
+      "start": 71.35855,
+      "duration": 5.83784,
+      "velocity": 0.0662,
+      "pan": -0.2,
+      "seed": 945807
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 71.36184,
+      "duration": 0.56757,
+      "velocity": 0.07507,
+      "pan": -0.28,
+      "seed": 321071
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 71.95911,
+      "duration": 0.56757,
+      "velocity": 0.07326,
+      "pan": -0.28,
+      "seed": 986895
+    },
+    {
+      "instrument": "harp",
+      "midi": 86,
+      "start": 72.57002,
+      "duration": 0.56757,
+      "velocity": 0.07506,
+      "pan": -0.28,
+      "seed": 966105
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 73.37701,
+      "duration": 0.56757,
+      "velocity": 0.07613,
+      "pan": -0.28,
+      "seed": 31757
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 73.981,
+      "duration": 0.56757,
+      "velocity": 0.07576,
+      "pan": -0.28,
+      "seed": 973870
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 74.19514,
+      "duration": 0.97297,
+      "velocity": 0.0547,
+      "pan": 0.65,
+      "seed": 983204
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 74.60422,
+      "duration": 0.56757,
+      "velocity": 0.0767,
+      "pan": -0.28,
+      "seed": 870651
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 75.19402,
+      "duration": 0.56757,
+      "velocity": 0.0744,
+      "pan": -0.28,
+      "seed": 945852
+    },
+    {
+      "instrument": "harp",
+      "midi": 89,
+      "start": 75.81855,
+      "duration": 0.56757,
+      "velocity": 0.07364,
+      "pan": -0.28,
+      "seed": 825431
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 76.61694,
+      "duration": 0.56757,
+      "velocity": 0.07933,
+      "pan": -0.28,
+      "seed": 433399
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 77.22779,
+      "duration": 0.56757,
+      "velocity": 0.07619,
+      "pan": -0.28,
+      "seed": 125865
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 77.84034,
+      "duration": 6.16216,
+      "velocity": 0.04039,
+      "pan": -0.5,
+      "seed": 850162
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 77.84366,
+      "duration": 6.16216,
+      "velocity": 0.04038,
+      "pan": 0.15,
+      "seed": 487856
+    },
+    {
+      "instrument": "strings",
+      "midi": 75,
+      "start": 77.83364,
+      "duration": 6.16216,
+      "velocity": 0.03957,
+      "pan": 0.55,
+      "seed": 547838
+    },
+    {
+      "instrument": "cello",
+      "midi": 44,
+      "start": 77.8357,
+      "duration": 5.83784,
+      "velocity": 0.04648,
+      "pan": -0.2,
+      "seed": 894496
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 77.83607,
+      "duration": 0.56757,
+      "velocity": 0.05207,
+      "pan": -0.28,
+      "seed": 717560
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 78.45401,
+      "duration": 0.56757,
+      "velocity": 0.04734,
+      "pan": -0.28,
+      "seed": 875847
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 79.05681,
+      "duration": 0.56757,
+      "velocity": 0.05222,
+      "pan": -0.28,
+      "seed": 156718
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 79.87006,
+      "duration": 0.56757,
+      "velocity": 0.0494,
+      "pan": -0.28,
+      "seed": 316879
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 80.48359,
+      "duration": 0.56757,
+      "velocity": 0.0475,
+      "pan": -0.28,
+      "seed": 728610
+    },
+    {
+      "instrument": "flute",
+      "midi": 62,
+      "start": 77.84677,
+      "duration": 0.71351,
+      "velocity": 0.09387,
+      "pan": 0.12,
+      "seed": 47909
+    },
+    {
+      "instrument": "flute",
+      "midi": 68,
+      "start": 78.64915,
+      "duration": 0.71351,
+      "velocity": 0.07778,
+      "pan": 0.12,
+      "seed": 913017
+    },
+    {
+      "instrument": "flute",
+      "midi": 74,
+      "start": 79.45069,
+      "duration": 1.42703,
+      "velocity": 0.09634,
+      "pan": 0.12,
+      "seed": 116199
+    },
+    {
+      "instrument": "flute",
+      "midi": 68,
+      "start": 81.8867,
+      "duration": 0.71351,
+      "velocity": 0.07562,
+      "pan": 0.12,
+      "seed": 722415
+    },
+    {
+      "instrument": "flute",
+      "midi": 65,
+      "start": 82.71084,
+      "duration": 1.42703,
+      "velocity": 0.07662,
+      "pan": 0.12,
+      "seed": 925974
+    },
+    {
+      "instrument": "flute",
+      "midi": 60,
+      "start": 84.33305,
+      "duration": 0.71351,
+      "velocity": 0.10152,
+      "pan": 0.12,
+      "seed": 807536
+    },
+    {
+      "instrument": "flute",
+      "midi": 68,
+      "start": 85.93565,
+      "duration": 1.42703,
+      "velocity": 0.0785,
+      "pan": 0.12,
+      "seed": 404183
+    },
+    {
+      "instrument": "flute",
+      "midi": 63,
+      "start": 87.56314,
+      "duration": 0.71351,
+      "velocity": 0.07907,
+      "pan": 0.12,
+      "seed": 4345
+    },
+    {
+      "instrument": "flute",
+      "midi": 62,
+      "start": 88.37381,
+      "duration": 2.14054,
+      "velocity": 0.08126,
+      "pan": 0.12,
+      "seed": 820649
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 81.0853,
+      "duration": 0.56757,
+      "velocity": 0.05045,
+      "pan": -0.28,
+      "seed": 748718
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 81.68218,
+      "duration": 0.56757,
+      "velocity": 0.048,
+      "pan": -0.28,
+      "seed": 304312
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 82.30466,
+      "duration": 0.56757,
+      "velocity": 0.04839,
+      "pan": -0.28,
+      "seed": 935486
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 83.11972,
+      "duration": 0.56757,
+      "velocity": 0.04848,
+      "pan": -0.28,
+      "seed": 135534
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 83.71681,
+      "duration": 0.56757,
+      "velocity": 0.05111,
+      "pan": -0.28,
+      "seed": 59409
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 84.3307,
+      "duration": 6.16216,
+      "velocity": 0.04021,
+      "pan": -0.5,
+      "seed": 111692
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 84.32481,
+      "duration": 6.16216,
+      "velocity": 0.03687,
+      "pan": 0.15,
+      "seed": 721716
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 84.33534,
+      "duration": 6.16216,
+      "velocity": 0.03732,
+      "pan": 0.55,
+      "seed": 431359
+    },
+    {
+      "instrument": "strings",
+      "midi": 77,
+      "start": 84.32974,
+      "duration": 6.16216,
+      "velocity": 0.03772,
+      "pan": 0.3,
+      "seed": 999095
+    },
+    {
+      "instrument": "cello",
+      "midi": 43,
+      "start": 84.33614,
+      "duration": 5.83784,
+      "velocity": 0.04606,
+      "pan": -0.2,
+      "seed": 318889
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 84.31986,
+      "duration": 0.56757,
+      "velocity": 0.05152,
+      "pan": -0.28,
+      "seed": 82944
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 84.92908,
+      "duration": 0.56757,
+      "velocity": 0.04907,
+      "pan": -0.28,
+      "seed": 223436
+    },
+    {
+      "instrument": "harp",
+      "midi": 71,
+      "start": 85.54568,
+      "duration": 0.56757,
+      "velocity": 0.05158,
+      "pan": -0.28,
+      "seed": 882056
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 86.36112,
+      "duration": 0.56757,
+      "velocity": 0.05173,
+      "pan": -0.28,
+      "seed": 627449
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 86.97133,
+      "duration": 0.56757,
+      "velocity": 0.04863,
+      "pan": -0.28,
+      "seed": 574448
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 87.15632,
+      "duration": 0.97297,
+      "velocity": 0.03588,
+      "pan": 0.65,
+      "seed": 436121
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 87.5638,
+      "duration": 0.56757,
+      "velocity": 0.04846,
+      "pan": -0.28,
+      "seed": 612160
+    },
+    {
+      "instrument": "harp",
+      "midi": 71,
+      "start": 88.17876,
+      "duration": 0.56757,
+      "velocity": 0.04914,
+      "pan": -0.28,
+      "seed": 159168
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 88.78362,
+      "duration": 0.56757,
+      "velocity": 0.04876,
+      "pan": -0.28,
+      "seed": 302949
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 89.5829,
+      "duration": 0.56757,
+      "velocity": 0.04941,
+      "pan": -0.28,
+      "seed": 240945
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 90.21427,
+      "duration": 0.56757,
+      "velocity": 0.05187,
+      "pan": -0.28,
+      "seed": 386367
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 90.79943,
+      "duration": 6.16216,
+      "velocity": 0.04033,
+      "pan": -0.5,
+      "seed": 699904
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 90.81286,
+      "duration": 6.16216,
+      "velocity": 0.03783,
+      "pan": 0.15,
+      "seed": 464290
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 90.80372,
+      "duration": 6.16216,
+      "velocity": 0.04043,
+      "pan": 0.55,
+      "seed": 930337
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 90.81168,
+      "duration": 5.83784,
+      "velocity": 0.04866,
+      "pan": -0.2,
+      "seed": 859829
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 90.80671,
+      "duration": 0.56757,
+      "velocity": 0.05031,
+      "pan": -0.28,
+      "seed": 39842
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 91.41039,
+      "duration": 0.56757,
+      "velocity": 0.05068,
+      "pan": -0.28,
+      "seed": 743512
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 92.03847,
+      "duration": 0.56757,
+      "velocity": 0.0524,
+      "pan": -0.28,
+      "seed": 246071
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 92.82747,
+      "duration": 0.56757,
+      "velocity": 0.04942,
+      "pan": -0.28,
+      "seed": 32627
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 93.4575,
+      "duration": 0.56757,
+      "velocity": 0.04814,
+      "pan": -0.28,
+      "seed": 254471
+    },
+    {
+      "instrument": "flute",
+      "midi": 62,
+      "start": 90.8117,
+      "duration": 0.71351,
+      "velocity": 0.09672,
+      "pan": 0.12,
+      "seed": 819055
+    },
+    {
+      "instrument": "flute",
+      "midi": 68,
+      "start": 91.62765,
+      "duration": 0.71351,
+      "velocity": 0.07543,
+      "pan": 0.12,
+      "seed": 460053
+    },
+    {
+      "instrument": "flute",
+      "midi": 74,
+      "start": 92.43009,
+      "duration": 1.42703,
+      "velocity": 0.09251,
+      "pan": 0.12,
+      "seed": 872736
+    },
+    {
+      "instrument": "flute",
+      "midi": 68,
+      "start": 94.85627,
+      "duration": 0.71351,
+      "velocity": 0.07511,
+      "pan": 0.12,
+      "seed": 961087
+    },
+    {
+      "instrument": "flute",
+      "midi": 65,
+      "start": 95.67053,
+      "duration": 1.42703,
+      "velocity": 0.07986,
+      "pan": 0.12,
+      "seed": 939551
+    },
+    {
+      "instrument": "flute",
+      "midi": 60,
+      "start": 97.28865,
+      "duration": 0.71351,
+      "velocity": 0.10169,
+      "pan": 0.12,
+      "seed": 374215
+    },
+    {
+      "instrument": "flute",
+      "midi": 68,
+      "start": 98.92823,
+      "duration": 1.42703,
+      "velocity": 0.0824,
+      "pan": 0.12,
+      "seed": 172954
+    },
+    {
+      "instrument": "flute",
+      "midi": 63,
+      "start": 100.54229,
+      "duration": 0.71351,
+      "velocity": 0.07952,
+      "pan": 0.12,
+      "seed": 600601
+    },
+    {
+      "instrument": "flute",
+      "midi": 62,
+      "start": 101.35012,
+      "duration": 2.14054,
+      "velocity": 0.08384,
+      "pan": 0.12,
+      "seed": 573552
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 94.05566,
+      "duration": 0.56757,
+      "velocity": 0.05191,
+      "pan": -0.28,
+      "seed": 650477
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 94.66141,
+      "duration": 0.56757,
+      "velocity": 0.04814,
+      "pan": -0.28,
+      "seed": 461709
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 95.27676,
+      "duration": 0.56757,
+      "velocity": 0.05001,
+      "pan": -0.28,
+      "seed": 16735
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 96.08871,
+      "duration": 0.56757,
+      "velocity": 0.05098,
+      "pan": -0.28,
+      "seed": 959039
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 96.69893,
+      "duration": 0.56757,
+      "velocity": 0.0471,
+      "pan": -0.28,
+      "seed": 478902
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 97.30422,
+      "duration": 6.16216,
+      "velocity": 0.03998,
+      "pan": -0.5,
+      "seed": 781897
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 97.29492,
+      "duration": 6.16216,
+      "velocity": 0.03954,
+      "pan": 0.15,
+      "seed": 851329
+    },
+    {
+      "instrument": "strings",
+      "midi": 75,
+      "start": 97.30583,
+      "duration": 6.16216,
+      "velocity": 0.03636,
+      "pan": 0.55,
+      "seed": 634325
+    },
+    {
+      "instrument": "cello",
+      "midi": 44,
+      "start": 97.29012,
+      "duration": 5.83784,
+      "velocity": 0.04506,
+      "pan": -0.2,
+      "seed": 224669
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 97.29552,
+      "duration": 0.56757,
+      "velocity": 0.05143,
+      "pan": -0.28,
+      "seed": 218741
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 97.90515,
+      "duration": 0.56757,
+      "velocity": 0.05016,
+      "pan": -0.28,
+      "seed": 980872
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 98.52347,
+      "duration": 0.56757,
+      "velocity": 0.04916,
+      "pan": -0.28,
+      "seed": 177597
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 99.32703,
+      "duration": 0.56757,
+      "velocity": 0.04828,
+      "pan": -0.28,
+      "seed": 859540
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 99.94399,
+      "duration": 0.56757,
+      "velocity": 0.05098,
+      "pan": -0.28,
+      "seed": 162344
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 100.12374,
+      "duration": 0.97297,
+      "velocity": 0.03428,
+      "pan": 0.65,
+      "seed": 986190
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 100.5481,
+      "duration": 0.56757,
+      "velocity": 0.05199,
+      "pan": -0.28,
+      "seed": 595311
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 101.15921,
+      "duration": 0.56757,
+      "velocity": 0.04879,
+      "pan": -0.28,
+      "seed": 413628
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 101.75745,
+      "duration": 0.56757,
+      "velocity": 0.04909,
+      "pan": -0.28,
+      "seed": 750628
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 102.57788,
+      "duration": 0.56757,
+      "velocity": 0.04961,
+      "pan": -0.28,
+      "seed": 354800
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 103.17774,
+      "duration": 0.56757,
+      "velocity": 0.05285,
+      "pan": -0.28,
+      "seed": 51987
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 103.7786,
+      "duration": 6.16216,
+      "velocity": 0.06421,
+      "pan": -0.5,
+      "seed": 668866
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 103.78874,
+      "duration": 6.16216,
+      "velocity": 0.06501,
+      "pan": 0.15,
+      "seed": 777766
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 103.78608,
+      "duration": 6.16216,
+      "velocity": 0.06319,
+      "pan": 0.55,
+      "seed": 324702
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 103.77354,
+      "duration": 5.83784,
+      "velocity": 0.07384,
+      "pan": -0.2,
+      "seed": 197788
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 103.77607,
+      "duration": 0.56757,
+      "velocity": 0.07875,
+      "pan": -0.28,
+      "seed": 453674
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 104.38956,
+      "duration": 0.56757,
+      "velocity": 0.08407,
+      "pan": -0.28,
+      "seed": 187470
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 105.00351,
+      "duration": 0.56757,
+      "velocity": 0.07922,
+      "pan": -0.28,
+      "seed": 429623
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 105.81462,
+      "duration": 0.56757,
+      "velocity": 0.08114,
+      "pan": -0.28,
+      "seed": 160781
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 106.40769,
+      "duration": 0.56757,
+      "velocity": 0.08863,
+      "pan": -0.28,
+      "seed": 857992
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 103.77309,
+      "duration": 0.76216,
+      "velocity": 0.15707,
+      "pan": -0.12,
+      "seed": 76250
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 104.58404,
+      "duration": 0.76216,
+      "velocity": 0.13799,
+      "pan": -0.12,
+      "seed": 85985
+    },
+    {
+      "instrument": "celesta",
+      "midi": 84,
+      "start": 105.39907,
+      "duration": 1.52432,
+      "velocity": 0.16227,
+      "pan": -0.12,
+      "seed": 355666
+    },
+    {
+      "instrument": "celesta",
+      "midi": 80,
+      "start": 107.01548,
+      "duration": 0.76216,
+      "velocity": 0.12755,
+      "pan": -0.12,
+      "seed": 882172
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 107.84076,
+      "duration": 0.76216,
+      "velocity": 0.1311,
+      "pan": -0.12,
+      "seed": 387492
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 108.6597,
+      "duration": 1.52432,
+      "velocity": 0.12639,
+      "pan": -0.12,
+      "seed": 975868
+    },
+    {
+      "instrument": "celesta",
+      "midi": 58,
+      "start": 110.27596,
+      "duration": 0.76216,
+      "velocity": 0.16818,
+      "pan": -0.12,
+      "seed": 253609
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 111.08803,
+      "duration": 0.76216,
+      "velocity": 0.13849,
+      "pan": -0.12,
+      "seed": 389509
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 111.89248,
+      "duration": 1.52432,
+      "velocity": 0.13084,
+      "pan": -0.12,
+      "seed": 291737
+    },
+    {
+      "instrument": "celesta",
+      "midi": 62,
+      "start": 113.51538,
+      "duration": 0.76216,
+      "velocity": 0.12816,
+      "pan": -0.12,
+      "seed": 360640
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 114.32696,
+      "duration": 2.28649,
+      "velocity": 0.1376,
+      "pan": -0.12,
+      "seed": 55657
+    },
+    {
+      "instrument": "cello",
+      "midi": 55,
+      "start": 103.78717,
+      "duration": 2.78919,
+      "velocity": 0.05368,
+      "pan": -0.48,
+      "seed": 366160
+    },
+    {
+      "instrument": "cello",
+      "midi": 53,
+      "start": 107.03118,
+      "duration": 2.78919,
+      "velocity": 0.05589,
+      "pan": -0.48,
+      "seed": 518501
+    },
+    {
+      "instrument": "cello",
+      "midi": 51,
+      "start": 110.27643,
+      "duration": 2.78919,
+      "velocity": 0.05777,
+      "pan": -0.48,
+      "seed": 491354
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 113.5236,
+      "duration": 2.78919,
+      "velocity": 0.05682,
+      "pan": -0.48,
+      "seed": 472872
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 107.03857,
+      "duration": 0.56757,
+      "velocity": 0.08028,
+      "pan": -0.28,
+      "seed": 169524
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 107.63612,
+      "duration": 0.56757,
+      "velocity": 0.08299,
+      "pan": -0.28,
+      "seed": 385196
+    },
+    {
+      "instrument": "harp",
+      "midi": 79,
+      "start": 108.24953,
+      "duration": 0.56757,
+      "velocity": 0.08833,
+      "pan": -0.28,
+      "seed": 580423
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 109.0425,
+      "duration": 0.56757,
+      "velocity": 0.08267,
+      "pan": -0.28,
+      "seed": 957561
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 109.66037,
+      "duration": 0.56757,
+      "velocity": 0.08094,
+      "pan": -0.28,
+      "seed": 47679
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 110.27599,
+      "duration": 6.16216,
+      "velocity": 0.06187,
+      "pan": -0.5,
+      "seed": 282834
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 110.25891,
+      "duration": 6.16216,
+      "velocity": 0.06402,
+      "pan": 0.15,
+      "seed": 664798
+    },
+    {
+      "instrument": "strings",
+      "midi": 75,
+      "start": 110.26577,
+      "duration": 6.16216,
+      "velocity": 0.06205,
+      "pan": 0.55,
+      "seed": 8516
+    },
+    {
+      "instrument": "cello",
+      "midi": 44,
+      "start": 110.27053,
+      "duration": 5.83784,
+      "velocity": 0.07792,
+      "pan": -0.2,
+      "seed": 990846
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 110.27415,
+      "duration": 0.56757,
+      "velocity": 0.08457,
+      "pan": -0.28,
+      "seed": 74841
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 110.86933,
+      "duration": 0.56757,
+      "velocity": 0.08484,
+      "pan": -0.28,
+      "seed": 489037
+    },
+    {
+      "instrument": "harp",
+      "midi": 84,
+      "start": 111.48609,
+      "duration": 0.56757,
+      "velocity": 0.08073,
+      "pan": -0.28,
+      "seed": 745974
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 112.2976,
+      "duration": 0.56757,
+      "velocity": 0.08629,
+      "pan": -0.28,
+      "seed": 956432
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 112.9029,
+      "duration": 0.56757,
+      "velocity": 0.08647,
+      "pan": -0.28,
+      "seed": 744743
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 113.11581,
+      "duration": 0.97297,
+      "velocity": 0.05632,
+      "pan": 0.65,
+      "seed": 357324
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 113.51819,
+      "duration": 0.56757,
+      "velocity": 0.08838,
+      "pan": -0.28,
+      "seed": 697864
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 114.12452,
+      "duration": 0.56757,
+      "velocity": 0.08396,
+      "pan": -0.28,
+      "seed": 938550
+    },
+    {
+      "instrument": "harp",
+      "midi": 87,
+      "start": 114.73446,
+      "duration": 0.56757,
+      "velocity": 0.08368,
+      "pan": -0.28,
+      "seed": 270912
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 115.54029,
+      "duration": 0.56757,
+      "velocity": 0.08082,
+      "pan": -0.28,
+      "seed": 146801
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 116.14524,
+      "duration": 0.56757,
+      "velocity": 0.08737,
+      "pan": -0.28,
+      "seed": 123505
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 116.74851,
+      "duration": 6.16216,
+      "velocity": 0.06078,
+      "pan": -0.5,
+      "seed": 987458
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 116.7529,
+      "duration": 6.16216,
+      "velocity": 0.06316,
+      "pan": 0.15,
+      "seed": 625236
+    },
+    {
+      "instrument": "strings",
+      "midi": 70,
+      "start": 116.76826,
+      "duration": 6.16216,
+      "velocity": 0.06313,
+      "pan": 0.55,
+      "seed": 741397
+    },
+    {
+      "instrument": "cello",
+      "midi": 39,
+      "start": 116.76059,
+      "duration": 5.83784,
+      "velocity": 0.07409,
+      "pan": -0.2,
+      "seed": 882473
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 116.75577,
+      "duration": 0.56757,
+      "velocity": 0.08451,
+      "pan": -0.28,
+      "seed": 421340
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 117.35452,
+      "duration": 0.56757,
+      "velocity": 0.08421,
+      "pan": -0.28,
+      "seed": 451909
+    },
+    {
+      "instrument": "harp",
+      "midi": 79,
+      "start": 117.96634,
+      "duration": 0.56757,
+      "velocity": 0.08157,
+      "pan": -0.28,
+      "seed": 547877
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 118.77935,
+      "duration": 0.56757,
+      "velocity": 0.08762,
+      "pan": -0.28,
+      "seed": 695316
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 119.40329,
+      "duration": 0.56757,
+      "velocity": 0.08239,
+      "pan": -0.28,
+      "seed": 78690
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 116.76408,
+      "duration": 0.76216,
+      "velocity": 0.15872,
+      "pan": -0.12,
+      "seed": 301675
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 117.56252,
+      "duration": 0.76216,
+      "velocity": 0.13162,
+      "pan": -0.12,
+      "seed": 566987
+    },
+    {
+      "instrument": "celesta",
+      "midi": 84,
+      "start": 118.38725,
+      "duration": 1.52432,
+      "velocity": 0.16333,
+      "pan": -0.12,
+      "seed": 344952
+    },
+    {
+      "instrument": "celesta",
+      "midi": 80,
+      "start": 120.00008,
+      "duration": 0.76216,
+      "velocity": 0.13193,
+      "pan": -0.12,
+      "seed": 825524
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 120.81052,
+      "duration": 0.76216,
+      "velocity": 0.1367,
+      "pan": -0.12,
+      "seed": 949528
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 121.61364,
+      "duration": 1.52432,
+      "velocity": 0.13276,
+      "pan": -0.12,
+      "seed": 761797
+    },
+    {
+      "instrument": "celesta",
+      "midi": 58,
+      "start": 123.25449,
+      "duration": 0.76216,
+      "velocity": 0.16678,
+      "pan": -0.12,
+      "seed": 148846
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 124.05965,
+      "duration": 0.76216,
+      "velocity": 0.13136,
+      "pan": -0.12,
+      "seed": 465107
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 124.85503,
+      "duration": 1.52432,
+      "velocity": 0.1401,
+      "pan": -0.12,
+      "seed": 258205
+    },
+    {
+      "instrument": "celesta",
+      "midi": 62,
+      "start": 126.48185,
+      "duration": 0.76216,
+      "velocity": 0.14022,
+      "pan": -0.12,
+      "seed": 879040
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 127.3031,
+      "duration": 2.28649,
+      "velocity": 0.13557,
+      "pan": -0.12,
+      "seed": 670664
+    },
+    {
+      "instrument": "cello",
+      "midi": 55,
+      "start": 116.75915,
+      "duration": 2.78919,
+      "velocity": 0.05221,
+      "pan": -0.48,
+      "seed": 557545
+    },
+    {
+      "instrument": "cello",
+      "midi": 53,
+      "start": 119.99631,
+      "duration": 2.78919,
+      "velocity": 0.0528,
+      "pan": -0.48,
+      "seed": 841587
+    },
+    {
+      "instrument": "cello",
+      "midi": 51,
+      "start": 123.24266,
+      "duration": 2.78919,
+      "velocity": 0.0529,
+      "pan": -0.48,
+      "seed": 566425
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 126.47984,
+      "duration": 2.78919,
+      "velocity": 0.05631,
+      "pan": -0.48,
+      "seed": 409815
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 119.99929,
+      "duration": 0.56757,
+      "velocity": 0.08316,
+      "pan": -0.28,
+      "seed": 87889
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 120.61658,
+      "duration": 0.56757,
+      "velocity": 0.08632,
+      "pan": -0.28,
+      "seed": 700479
+    },
+    {
+      "instrument": "harp",
+      "midi": 82,
+      "start": 121.21622,
+      "duration": 0.56757,
+      "velocity": 0.08851,
+      "pan": -0.28,
+      "seed": 825646
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 122.02479,
+      "duration": 0.56757,
+      "velocity": 0.07945,
+      "pan": -0.28,
+      "seed": 333015
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 122.64623,
+      "duration": 0.56757,
+      "velocity": 0.08595,
+      "pan": -0.28,
+      "seed": 632184
+    },
+    {
+      "instrument": "strings",
+      "midi": 70,
+      "start": 123.25407,
+      "duration": 6.16216,
+      "velocity": 0.06122,
+      "pan": -0.5,
+      "seed": 244863
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 123.24017,
+      "duration": 6.16216,
+      "velocity": 0.06219,
+      "pan": 0.15,
+      "seed": 106892
+    },
+    {
+      "instrument": "strings",
+      "midi": 77,
+      "start": 123.23137,
+      "duration": 6.16216,
+      "velocity": 0.06077,
+      "pan": 0.55,
+      "seed": 773125
+    },
+    {
+      "instrument": "cello",
+      "midi": 46,
+      "start": 123.24455,
+      "duration": 5.83784,
+      "velocity": 0.08043,
+      "pan": -0.2,
+      "seed": 329727
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 123.23335,
+      "duration": 0.56757,
+      "velocity": 0.08542,
+      "pan": -0.28,
+      "seed": 1252
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 123.85137,
+      "duration": 0.56757,
+      "velocity": 0.0864,
+      "pan": -0.28,
+      "seed": 753205
+    },
+    {
+      "instrument": "harp",
+      "midi": 86,
+      "start": 124.46312,
+      "duration": 0.56757,
+      "velocity": 0.08565,
+      "pan": -0.28,
+      "seed": 375928
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 125.27354,
+      "duration": 0.56757,
+      "velocity": 0.0821,
+      "pan": -0.28,
+      "seed": 521366
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 125.88237,
+      "duration": 0.56757,
+      "velocity": 0.08329,
+      "pan": -0.28,
+      "seed": 228244
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 126.08776,
+      "duration": 0.97297,
+      "velocity": 0.05455,
+      "pan": 0.65,
+      "seed": 481405
+    },
+    {
+      "instrument": "harp",
+      "midi": 77,
+      "start": 126.48038,
+      "duration": 0.56757,
+      "velocity": 0.08265,
+      "pan": -0.28,
+      "seed": 644451
+    },
+    {
+      "instrument": "harp",
+      "midi": 74,
+      "start": 127.10016,
+      "duration": 0.56757,
+      "velocity": 0.08238,
+      "pan": -0.28,
+      "seed": 961271
+    },
+    {
+      "instrument": "harp",
+      "midi": 89,
+      "start": 127.70673,
+      "duration": 0.56757,
+      "velocity": 0.08373,
+      "pan": -0.28,
+      "seed": 860449
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 128.51537,
+      "duration": 0.56757,
+      "velocity": 0.08026,
+      "pan": -0.28,
+      "seed": 468951
+    },
+    {
+      "instrument": "harp",
+      "midi": 70,
+      "start": 129.11346,
+      "duration": 0.56757,
+      "velocity": 0.08299,
+      "pan": -0.28,
+      "seed": 1452
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 129.72834,
+      "duration": 6.16216,
+      "velocity": 0.03765,
+      "pan": -0.5,
+      "seed": 241437
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 129.73775,
+      "duration": 6.16216,
+      "velocity": 0.03565,
+      "pan": 0.15,
+      "seed": 989604
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 129.7412,
+      "duration": 6.16216,
+      "velocity": 0.03651,
+      "pan": 0.55,
+      "seed": 857588
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 129.73735,
+      "duration": 5.83784,
+      "velocity": 0.04134,
+      "pan": -0.2,
+      "seed": 122033
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 129.72851,
+      "duration": 0.56757,
+      "velocity": 0.04787,
+      "pan": -0.28,
+      "seed": 757034
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 130.3478,
+      "duration": 0.56757,
+      "velocity": 0.04463,
+      "pan": -0.28,
+      "seed": 906100
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 130.94583,
+      "duration": 0.56757,
+      "velocity": 0.0441,
+      "pan": -0.28,
+      "seed": 567642
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 131.76252,
+      "duration": 0.56757,
+      "velocity": 0.04555,
+      "pan": -0.28,
+      "seed": 414831
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 132.35929,
+      "duration": 0.56757,
+      "velocity": 0.04513,
+      "pan": -0.28,
+      "seed": 728670
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 129.74031,
+      "duration": 0.76216,
+      "velocity": 0.08903,
+      "pan": -0.12,
+      "seed": 132535
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 130.54344,
+      "duration": 0.76216,
+      "velocity": 0.07549,
+      "pan": -0.12,
+      "seed": 62085
+    },
+    {
+      "instrument": "celesta",
+      "midi": 72,
+      "start": 131.34472,
+      "duration": 1.52432,
+      "velocity": 0.09135,
+      "pan": -0.12,
+      "seed": 769513
+    },
+    {
+      "instrument": "celesta",
+      "midi": 68,
+      "start": 132.96685,
+      "duration": 0.76216,
+      "velocity": 0.0721,
+      "pan": -0.12,
+      "seed": 345800
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 133.78545,
+      "duration": 0.76216,
+      "velocity": 0.07595,
+      "pan": -0.12,
+      "seed": 719109
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 134.60144,
+      "duration": 1.52432,
+      "velocity": 0.07612,
+      "pan": -0.12,
+      "seed": 467592
+    },
+    {
+      "instrument": "celesta",
+      "midi": 58,
+      "start": 136.22574,
+      "duration": 0.76216,
+      "velocity": 0.09148,
+      "pan": -0.12,
+      "seed": 740458
+    },
+    {
+      "instrument": "celesta",
+      "midi": 63,
+      "start": 137.0388,
+      "duration": 0.76216,
+      "velocity": 0.07252,
+      "pan": -0.12,
+      "seed": 8997
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 137.84676,
+      "duration": 1.52432,
+      "velocity": 0.07557,
+      "pan": -0.12,
+      "seed": 4598
+    },
+    {
+      "instrument": "celesta",
+      "midi": 62,
+      "start": 139.45894,
+      "duration": 0.76216,
+      "velocity": 0.0756,
+      "pan": -0.12,
+      "seed": 517246
+    },
+    {
+      "instrument": "celesta",
+      "midi": 60,
+      "start": 140.26199,
+      "duration": 2.28649,
+      "velocity": 0.07397,
+      "pan": -0.12,
+      "seed": 419014
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 132.97687,
+      "duration": 0.56757,
+      "velocity": 0.04406,
+      "pan": -0.28,
+      "seed": 817901
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 133.58938,
+      "duration": 0.56757,
+      "velocity": 0.04803,
+      "pan": -0.28,
+      "seed": 280210
+    },
+    {
+      "instrument": "harp",
+      "midi": 72,
+      "start": 134.18498,
+      "duration": 0.56757,
+      "velocity": 0.04685,
+      "pan": -0.28,
+      "seed": 369647
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 135.0081,
+      "duration": 0.56757,
+      "velocity": 0.04479,
+      "pan": -0.28,
+      "seed": 406422
+    },
+    {
+      "instrument": "harp",
+      "midi": 65,
+      "start": 135.6134,
+      "duration": 0.56757,
+      "velocity": 0.04374,
+      "pan": -0.28,
+      "seed": 550120
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 136.22773,
+      "duration": 6.16216,
+      "velocity": 0.03571,
+      "pan": -0.5,
+      "seed": 42170
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 136.22634,
+      "duration": 6.16216,
+      "velocity": 0.0371,
+      "pan": 0.15,
+      "seed": 491024
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 136.22484,
+      "duration": 6.16216,
+      "velocity": 0.0339,
+      "pan": 0.55,
+      "seed": 223700
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 136.22587,
+      "duration": 5.83784,
+      "velocity": 0.04293,
+      "pan": -0.2,
+      "seed": 323759
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 136.22558,
+      "duration": 0.56757,
+      "velocity": 0.04396,
+      "pan": -0.28,
+      "seed": 807268
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 136.81923,
+      "duration": 0.56757,
+      "velocity": 0.04615,
+      "pan": -0.28,
+      "seed": 933467
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 137.43548,
+      "duration": 0.56757,
+      "velocity": 0.04422,
+      "pan": -0.28,
+      "seed": 794270
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 138.23682,
+      "duration": 0.56757,
+      "velocity": 0.04885,
+      "pan": -0.28,
+      "seed": 876129
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 138.84618,
+      "duration": 0.56757,
+      "velocity": 0.04893,
+      "pan": -0.28,
+      "seed": 951156
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 139.0657,
+      "duration": 0.97297,
+      "velocity": 0.03013,
+      "pan": 0.65,
+      "seed": 333309
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 139.44987,
+      "duration": 0.56757,
+      "velocity": 0.04687,
+      "pan": -0.28,
+      "seed": 490839
+    },
+    {
+      "instrument": "harp",
+      "midi": 63,
+      "start": 140.05862,
+      "duration": 0.56757,
+      "velocity": 0.04395,
+      "pan": -0.28,
+      "seed": 299492
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 140.67734,
+      "duration": 0.56757,
+      "velocity": 0.04441,
+      "pan": -0.28,
+      "seed": 960025
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 141.47466,
+      "duration": 0.56757,
+      "velocity": 0.04635,
+      "pan": -0.28,
+      "seed": 368743
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 142.10248,
+      "duration": 0.56757,
+      "velocity": 0.04469,
+      "pan": -0.28,
+      "seed": 844520
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 142.70847,
+      "duration": 6.16216,
+      "velocity": 0.0335,
+      "pan": -0.5,
+      "seed": 349574
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 142.71107,
+      "duration": 6.16216,
+      "velocity": 0.03473,
+      "pan": 0.15,
+      "seed": 868650
+    },
+    {
+      "instrument": "strings",
+      "midi": 75,
+      "start": 142.70907,
+      "duration": 6.16216,
+      "velocity": 0.03623,
+      "pan": 0.55,
+      "seed": 47132
+    },
+    {
+      "instrument": "cello",
+      "midi": 44,
+      "start": 142.71325,
+      "duration": 5.83784,
+      "velocity": 0.04014,
+      "pan": -0.2,
+      "seed": 354756
+    },
+    {
+      "instrument": "harp",
+      "midi": 68,
+      "start": 142.70843,
+      "duration": 0.56757,
+      "velocity": 0.04459,
+      "pan": -0.28,
+      "seed": 509337
+    },
+    {
+      "instrument": "harp",
+      "midi": 75,
+      "start": 145.95103,
+      "duration": 0.56757,
+      "velocity": 0.04763,
+      "pan": -0.28,
+      "seed": 746947
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 149.18066,
+      "duration": 6.16216,
+      "velocity": 0.03428,
+      "pan": -0.5,
+      "seed": 906138
+    },
+    {
+      "instrument": "strings",
+      "midi": 63,
+      "start": 149.18979,
+      "duration": 6.16216,
+      "velocity": 0.03587,
+      "pan": 0.15,
+      "seed": 967180
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 149.19852,
+      "duration": 6.16216,
+      "velocity": 0.0348,
+      "pan": 0.55,
+      "seed": 269773
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 149.17863,
+      "duration": 5.83784,
+      "velocity": 0.04342,
+      "pan": -0.2,
+      "seed": 402856
+    },
+    {
+      "instrument": "harp",
+      "midi": 60,
+      "start": 149.18271,
+      "duration": 0.56757,
+      "velocity": 0.04443,
+      "pan": -0.28,
+      "seed": 63694
+    },
+    {
+      "instrument": "celesta",
+      "midi": 67,
+      "start": 152.01834,
+      "duration": 0.97297,
+      "velocity": 0.03187,
+      "pan": 0.65,
+      "seed": 197524
+    },
+    {
+      "instrument": "harp",
+      "midi": 67,
+      "start": 152.4294,
+      "duration": 0.56757,
+      "velocity": 0.0469,
+      "pan": -0.28,
+      "seed": 281361
+    }
+  ]
+}

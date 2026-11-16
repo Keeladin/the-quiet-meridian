@@ -1,0 +1,1030 @@
+{
+  "line_id": "rowan_before_hearing_r1",
+  "clip_id": "00d0e818cacf4734a6176b26d9689415",
+  "source_text_sha256": "744f7edc5b54c29814fc1ba5a5a60c2eaa41629a7afef88dc7de635382f56d58",
+  "master": "work/gateway-voice/masters/00d0e818cacf4734a6176b26d9689415.wav",
+  "wav_sha256": "12f140bf53eb16c7856679c28b0b7c192ae02ab77ae4f0f1269a3196d7da6ae6",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1077120,
+    "sample_count": 538560,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 22.44,
+    "peak": 0.546875,
+    "peak_dbfs": -5.24223859267223,
+    "rms": 0.06219498674191831,
+    "rms_dbfs": -24.124892408456052,
+    "dc_offset": 0.00022960272985629503,
+    "silence_fraction": 0.29016822638146167,
+    "leading_silence_seconds": 0.4045,
+    "tail_silence_seconds": 0.335,
+    "active_span_seconds": 21.7005,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 57,
+    "source_words_per_active_minute": 157.600055298265,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "and",
+      "elian's",
+      "and",
+      "the",
+      "date",
+      "and",
+      "exactly",
+      "what",
+      "we",
+      "checked",
+      "no",
+      "grand",
+      "claim",
+      "that",
+      "the",
+      "works",
+      "are",
+      "safe",
+      "forever",
+      "a",
+      "person",
+      "coming",
+      "after",
+      "us",
+      "can",
+      "repeat",
+      "the",
+      "check",
+      "and",
+      "disagree",
+      "it",
+      "is",
+      "a",
+      "small",
+      "thing",
+      "compared",
+      "with",
+      "what",
+      "happened",
+      "small",
+      "things",
+      "are",
+      "still",
+      "worth",
+      "doing",
+      "properly",
+      "that",
+      "is",
+      "something",
+      "tomas",
+      "knew",
+      "long",
+      "before",
+      "i",
+      "decided",
+      "to",
+      "listen"
+    ],
+    "observed_tokens": [
+      "and",
+      "elian's",
+      "and",
+      "the",
+      "date",
+      "and",
+      "exactly",
+      "what",
+      "we",
+      "checked",
+      "no",
+      "grand",
+      "claim",
+      "that",
+      "the",
+      "works",
+      "are",
+      "safe",
+      "forever",
+      "a",
+      "person",
+      "coming",
+      "after",
+      "us",
+      "can",
+      "repeat",
+      "the",
+      "check",
+      "and",
+      "disagree",
+      "it",
+      "is",
+      "a",
+      "small",
+      "thing",
+      "compared",
+      "with",
+      "what",
+      "happened",
+      "small",
+      "things",
+      "are",
+      "still",
+      "worth",
+      "doing",
+      "properly",
+      "that",
+      "is",
+      "something",
+      "tomas",
+      "knew",
+      "long",
+      "before",
+      "i",
+      "decided",
+      "to",
+      "listen"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 57,
+        "observed_start": 0,
+        "observed_end": 57,
+        "expected": [
+          "and",
+          "elian's",
+          "and",
+          "the",
+          "date",
+          "and",
+          "exactly",
+          "what",
+          "we",
+          "checked",
+          "no",
+          "grand",
+          "claim",
+          "that",
+          "the",
+          "works",
+          "are",
+          "safe",
+          "forever",
+          "a",
+          "person",
+          "coming",
+          "after",
+          "us",
+          "can",
+          "repeat",
+          "the",
+          "check",
+          "and",
+          "disagree",
+          "it",
+          "is",
+          "a",
+          "small",
+          "thing",
+          "compared",
+          "with",
+          "what",
+          "happened",
+          "small",
+          "things",
+          "are",
+          "still",
+          "worth",
+          "doing",
+          "properly",
+          "that",
+          "is",
+          "something",
+          "tomas",
+          "knew",
+          "long",
+          "before",
+          "i",
+          "decided",
+          "to",
+          "listen"
+        ],
+        "observed": [
+          "and",
+          "elian's",
+          "and",
+          "the",
+          "date",
+          "and",
+          "exactly",
+          "what",
+          "we",
+          "checked",
+          "no",
+          "grand",
+          "claim",
+          "that",
+          "the",
+          "works",
+          "are",
+          "safe",
+          "forever",
+          "a",
+          "person",
+          "coming",
+          "after",
+          "us",
+          "can",
+          "repeat",
+          "the",
+          "check",
+          "and",
+          "disagree",
+          "it",
+          "is",
+          "a",
+          "small",
+          "thing",
+          "compared",
+          "with",
+          "what",
+          "happened",
+          "small",
+          "things",
+          "are",
+          "still",
+          "worth",
+          "doing",
+          "properly",
+          "that",
+          "is",
+          "something",
+          "tomas",
+          "knew",
+          "long",
+          "before",
+          "i",
+          "decided",
+          "to",
+          "listen"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "And aliens, and the date, and exactly what we checked. No grand claim that the works are safe forever. A person coming after us can repeat the check and disagree. It is a small thing compared with what happened. Small things are still worth doing properly. That is something Thomas knew long before I decided to listen.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.82,
+      "text": " And aliens, and the date, and exactly what we checked.",
+      "words": [
+        {
+          "word": " And",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.4973193109035492
+        },
+        {
+          "word": " aliens,",
+          "start": 0.58,
+          "end": 1.12,
+          "probability": 0.9276442527770996
+        },
+        {
+          "word": " and",
+          "start": 1.42,
+          "end": 1.52,
+          "probability": 0.9568195343017578
+        },
+        {
+          "word": " the",
+          "start": 1.52,
+          "end": 1.64,
+          "probability": 0.9578152298927307
+        },
+        {
+          "word": " date,",
+          "start": 1.64,
+          "end": 1.98,
+          "probability": 0.9889872670173645
+        },
+        {
+          "word": " and",
+          "start": 2.38,
+          "end": 2.48,
+          "probability": 0.9843332171440125
+        },
+        {
+          "word": " exactly",
+          "start": 2.48,
+          "end": 2.96,
+          "probability": 0.9921956062316895
+        },
+        {
+          "word": " what",
+          "start": 2.96,
+          "end": 3.22,
+          "probability": 0.9988460540771484
+        },
+        {
+          "word": " we",
+          "start": 3.22,
+          "end": 3.48,
+          "probability": 0.9972479939460754
+        },
+        {
+          "word": " checked.",
+          "start": 3.48,
+          "end": 3.82,
+          "probability": 0.9742783904075623
+        }
+      ]
+    },
+    {
+      "start": 4.78,
+      "end": 7.36,
+      "text": " No grand claim that the works are safe forever.",
+      "words": [
+        {
+          "word": " No",
+          "start": 4.78,
+          "end": 4.92,
+          "probability": 0.9819851517677307
+        },
+        {
+          "word": " grand",
+          "start": 4.92,
+          "end": 5.16,
+          "probability": 0.96820068359375
+        },
+        {
+          "word": " claim",
+          "start": 5.16,
+          "end": 5.56,
+          "probability": 0.9947503209114075
+        },
+        {
+          "word": " that",
+          "start": 5.56,
+          "end": 5.94,
+          "probability": 0.8253703713417053
+        },
+        {
+          "word": " the",
+          "start": 5.94,
+          "end": 6.12,
+          "probability": 0.9876107573509216
+        },
+        {
+          "word": " works",
+          "start": 6.12,
+          "end": 6.36,
+          "probability": 0.9023207426071167
+        },
+        {
+          "word": " are",
+          "start": 6.36,
+          "end": 6.68,
+          "probability": 0.9978679418563843
+        },
+        {
+          "word": " safe",
+          "start": 6.68,
+          "end": 6.92,
+          "probability": 0.9971756935119629
+        },
+        {
+          "word": " forever.",
+          "start": 6.92,
+          "end": 7.36,
+          "probability": 0.9336006045341492
+        }
+      ]
+    },
+    {
+      "start": 7.98,
+      "end": 11.34,
+      "text": " A person coming after us can repeat the check and disagree.",
+      "words": [
+        {
+          "word": " A",
+          "start": 7.98,
+          "end": 8.06,
+          "probability": 0.9849163293838501
+        },
+        {
+          "word": " person",
+          "start": 8.06,
+          "end": 8.44,
+          "probability": 0.9991173148155212
+        },
+        {
+          "word": " coming",
+          "start": 8.44,
+          "end": 8.78,
+          "probability": 0.9948399662971497
+        },
+        {
+          "word": " after",
+          "start": 8.78,
+          "end": 9.18,
+          "probability": 0.9978998899459839
+        },
+        {
+          "word": " us",
+          "start": 9.18,
+          "end": 9.44,
+          "probability": 0.9957654476165771
+        },
+        {
+          "word": " can",
+          "start": 9.44,
+          "end": 9.76,
+          "probability": 0.9742379784584045
+        },
+        {
+          "word": " repeat",
+          "start": 9.76,
+          "end": 10.08,
+          "probability": 0.999370276927948
+        },
+        {
+          "word": " the",
+          "start": 10.08,
+          "end": 10.3,
+          "probability": 0.9941110014915466
+        },
+        {
+          "word": " check",
+          "start": 10.3,
+          "end": 10.52,
+          "probability": 0.9909085631370544
+        },
+        {
+          "word": " and",
+          "start": 10.52,
+          "end": 10.88,
+          "probability": 0.932790994644165
+        },
+        {
+          "word": " disagree.",
+          "start": 10.88,
+          "end": 11.34,
+          "probability": 0.995586633682251
+        }
+      ]
+    },
+    {
+      "start": 12.44,
+      "end": 15.04,
+      "text": " It is a small thing compared with what happened.",
+      "words": [
+        {
+          "word": " It",
+          "start": 12.44,
+          "end": 12.54,
+          "probability": 0.9859368205070496
+        },
+        {
+          "word": " is",
+          "start": 12.54,
+          "end": 12.68,
+          "probability": 0.9845404028892517
+        },
+        {
+          "word": " a",
+          "start": 12.68,
+          "end": 12.88,
+          "probability": 0.9933815002441406
+        },
+        {
+          "word": " small",
+          "start": 12.88,
+          "end": 13.16,
+          "probability": 0.9983990788459778
+        },
+        {
+          "word": " thing",
+          "start": 13.16,
+          "end": 13.54,
+          "probability": 0.9976949095726013
+        },
+        {
+          "word": " compared",
+          "start": 13.54,
+          "end": 14.18,
+          "probability": 0.9600352048873901
+        },
+        {
+          "word": " with",
+          "start": 14.18,
+          "end": 14.44,
+          "probability": 0.9737324714660645
+        },
+        {
+          "word": " what",
+          "start": 14.44,
+          "end": 14.64,
+          "probability": 0.9986899495124817
+        },
+        {
+          "word": " happened.",
+          "start": 14.64,
+          "end": 15.04,
+          "probability": 0.9968764781951904
+        }
+      ]
+    },
+    {
+      "start": 15.6,
+      "end": 17.78,
+      "text": " Small things are still worth doing properly.",
+      "words": [
+        {
+          "word": " Small",
+          "start": 15.6,
+          "end": 15.82,
+          "probability": 0.9737622141838074
+        },
+        {
+          "word": " things",
+          "start": 15.82,
+          "end": 16.16,
+          "probability": 0.9961806535720825
+        },
+        {
+          "word": " are",
+          "start": 16.16,
+          "end": 16.42,
+          "probability": 0.9936087131500244
+        },
+        {
+          "word": " still",
+          "start": 16.42,
+          "end": 16.74,
+          "probability": 0.9969038367271423
+        },
+        {
+          "word": " worth",
+          "start": 16.74,
+          "end": 17.0,
+          "probability": 0.9968400001525879
+        },
+        {
+          "word": " doing",
+          "start": 17.0,
+          "end": 17.3,
+          "probability": 0.9983685612678528
+        },
+        {
+          "word": " properly.",
+          "start": 17.3,
+          "end": 17.78,
+          "probability": 0.9932686686515808
+        }
+      ]
+    },
+    {
+      "start": 18.3,
+      "end": 21.98,
+      "text": " That is something Thomas knew long before I decided to listen.",
+      "words": [
+        {
+          "word": " That",
+          "start": 18.3,
+          "end": 18.44,
+          "probability": 0.9913151860237122
+        },
+        {
+          "word": " is",
+          "start": 18.44,
+          "end": 18.6,
+          "probability": 0.9701440930366516
+        },
+        {
+          "word": " something",
+          "start": 18.6,
+          "end": 18.9,
+          "probability": 0.9984063506126404
+        },
+        {
+          "word": " Thomas",
+          "start": 18.9,
+          "end": 19.32,
+          "probability": 0.8670321702957153
+        },
+        {
+          "word": " knew",
+          "start": 19.32,
+          "end": 19.72,
+          "probability": 0.9973886609077454
+        },
+        {
+          "word": " long",
+          "start": 19.72,
+          "end": 20.36,
+          "probability": 0.9145002961158752
+        },
+        {
+          "word": " before",
+          "start": 20.36,
+          "end": 20.74,
+          "probability": 0.9988456964492798
+        },
+        {
+          "word": " I",
+          "start": 20.74,
+          "end": 21.02,
+          "probability": 0.9801402688026428
+        },
+        {
+          "word": " decided",
+          "start": 21.02,
+          "end": 21.42,
+          "probability": 0.9967683553695679
+        },
+        {
+          "word": " to",
+          "start": 21.42,
+          "end": 21.72,
+          "probability": 0.9988321661949158
+        },
+        {
+          "word": " listen.",
+          "start": 21.72,
+          "end": 21.98,
+          "probability": 0.9990233182907104
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "and",
+      "elian's",
+      "and",
+      "the",
+      "date",
+      "and",
+      "exactly",
+      "what",
+      "we",
+      "checked",
+      "no",
+      "grand",
+      "claim",
+      "that",
+      "the",
+      "works",
+      "are",
+      "safe",
+      "forever",
+      "a",
+      "person",
+      "coming",
+      "after",
+      "us",
+      "can",
+      "repeat",
+      "the",
+      "check",
+      "and",
+      "disagree",
+      "it",
+      "is",
+      "a",
+      "small",
+      "thing",
+      "compared",
+      "with",
+      "what",
+      "happened",
+      "small",
+      "things",
+      "are",
+      "still",
+      "worth",
+      "doing",
+      "properly",
+      "that",
+      "is",
+      "something",
+      "tomas",
+      "knew",
+      "long",
+      "before",
+      "i",
+      "decided",
+      "to",
+      "listen"
+    ],
+    "observed_tokens": [
+      "and",
+      "aliens",
+      "and",
+      "the",
+      "date",
+      "and",
+      "exactly",
+      "what",
+      "we",
+      "checked",
+      "no",
+      "grand",
+      "claim",
+      "that",
+      "the",
+      "works",
+      "are",
+      "safe",
+      "forever",
+      "a",
+      "person",
+      "coming",
+      "after",
+      "us",
+      "can",
+      "repeat",
+      "the",
+      "check",
+      "and",
+      "disagree",
+      "it",
+      "is",
+      "a",
+      "small",
+      "thing",
+      "compared",
+      "with",
+      "what",
+      "happened",
+      "small",
+      "things",
+      "are",
+      "still",
+      "worth",
+      "doing",
+      "properly",
+      "that",
+      "is",
+      "something",
+      "thomas",
+      "knew",
+      "long",
+      "before",
+      "i",
+      "decided",
+      "to",
+      "listen"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 1,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "and"
+        ],
+        "observed": [
+          "and"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 1,
+        "expected_end": 2,
+        "observed_start": 1,
+        "observed_end": 2,
+        "expected": [
+          "elian's"
+        ],
+        "observed": [
+          "aliens"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 2,
+        "expected_end": 49,
+        "observed_start": 2,
+        "observed_end": 49,
+        "expected": [
+          "and",
+          "the",
+          "date",
+          "and",
+          "exactly",
+          "what",
+          "we",
+          "checked",
+          "no",
+          "grand",
+          "claim",
+          "that",
+          "the",
+          "works",
+          "are",
+          "safe",
+          "forever",
+          "a",
+          "person",
+          "coming",
+          "after",
+          "us",
+          "can",
+          "repeat",
+          "the",
+          "check",
+          "and",
+          "disagree",
+          "it",
+          "is",
+          "a",
+          "small",
+          "thing",
+          "compared",
+          "with",
+          "what",
+          "happened",
+          "small",
+          "things",
+          "are",
+          "still",
+          "worth",
+          "doing",
+          "properly",
+          "that",
+          "is",
+          "something"
+        ],
+        "observed": [
+          "and",
+          "the",
+          "date",
+          "and",
+          "exactly",
+          "what",
+          "we",
+          "checked",
+          "no",
+          "grand",
+          "claim",
+          "that",
+          "the",
+          "works",
+          "are",
+          "safe",
+          "forever",
+          "a",
+          "person",
+          "coming",
+          "after",
+          "us",
+          "can",
+          "repeat",
+          "the",
+          "check",
+          "and",
+          "disagree",
+          "it",
+          "is",
+          "a",
+          "small",
+          "thing",
+          "compared",
+          "with",
+          "what",
+          "happened",
+          "small",
+          "things",
+          "are",
+          "still",
+          "worth",
+          "doing",
+          "properly",
+          "that",
+          "is",
+          "something"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 49,
+        "expected_end": 50,
+        "observed_start": 49,
+        "observed_end": 50,
+        "expected": [
+          "tomas"
+        ],
+        "observed": [
+          "thomas"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 50,
+        "expected_end": 57,
+        "observed_start": 50,
+        "observed_end": 57,
+        "expected": [
+          "knew",
+          "long",
+          "before",
+          "i",
+          "decided",
+          "to",
+          "listen"
+        ],
+        "observed": [
+          "knew",
+          "long",
+          "before",
+          "i",
+          "decided",
+          "to",
+          "listen"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "elian's"
+        ],
+        "observed": [
+          "aliens"
+        ],
+        "expected_start": 1,
+        "observed_start": 1
+      },
+      {
+        "expected": [
+          "tomas"
+        ],
+        "observed": [
+          "thomas"
+        ],
+        "expected_start": 49,
+        "observed_start": 49
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 1:2.",
+      "Changed source words at expected tokens 49:50."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

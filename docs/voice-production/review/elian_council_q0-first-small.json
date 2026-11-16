@@ -1,0 +1,227 @@
+{
+  "line_id": "elian_council_q0",
+  "clip_id": "47066e5f4114405cad7f9004323f57d6",
+  "source_text_sha256": "da243087e9523ab400363366f53e907a450c743bc1cf6f353453fcae7ad2a6ea",
+  "master": "work/gateway-voice/masters/47066e5f4114405cad7f9004323f57d6.wav",
+  "wav_sha256": "51c1136792b3a99f52a43dec9917131f8fd53debfbd3c5d56d5ac12404bbf688",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 132480,
+    "sample_count": 66240,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.76,
+    "peak": 0.271484375,
+    "peak_dbfs": -11.325103214434712,
+    "rms": 0.04265719260783913,
+    "rms_dbfs": -27.40015460222491,
+    "dc_offset": 6.743352770229469e-05,
+    "silence_fraction": 0.32936292270531403,
+    "leading_silence_seconds": 0.4013333333333333,
+    "tail_silence_seconds": 0.283,
+    "active_span_seconds": 2.0756666666666668,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 202.34462823189335,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "did",
+      "you",
+      "believe",
+      "the",
+      "houses",
+      "were",
+      "empty"
+    ],
+    "observed_tokens": [
+      "did",
+      "you",
+      "believe",
+      "the",
+      "houses",
+      "were",
+      "empty"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "did",
+          "you",
+          "believe",
+          "the",
+          "houses",
+          "were",
+          "empty"
+        ],
+        "observed": [
+          "did",
+          "you",
+          "believe",
+          "the",
+          "houses",
+          "were",
+          "empty"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Did you believe the houses were empty?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.16,
+      "text": " Did you believe the houses were empty?",
+      "words": [
+        {
+          "word": " Did",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.9414354562759399
+        },
+        {
+          "word": " you",
+          "start": 0.5,
+          "end": 0.66,
+          "probability": 0.9972870349884033
+        },
+        {
+          "word": " believe",
+          "start": 0.66,
+          "end": 1.0,
+          "probability": 0.9981470108032227
+        },
+        {
+          "word": " the",
+          "start": 1.0,
+          "end": 1.32,
+          "probability": 0.985732913017273
+        },
+        {
+          "word": " houses",
+          "start": 1.32,
+          "end": 1.62,
+          "probability": 0.9912887811660767
+        },
+        {
+          "word": " were",
+          "start": 1.62,
+          "end": 1.88,
+          "probability": 0.9961070418357849
+        },
+        {
+          "word": " empty?",
+          "start": 1.88,
+          "end": 2.16,
+          "probability": 0.9994003772735596
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "did",
+      "you",
+      "believe",
+      "the",
+      "houses",
+      "were",
+      "empty"
+    ],
+    "observed_tokens": [
+      "did",
+      "you",
+      "believe",
+      "the",
+      "houses",
+      "were",
+      "empty"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "did",
+          "you",
+          "believe",
+          "the",
+          "houses",
+          "were",
+          "empty"
+        ],
+        "observed": [
+          "did",
+          "you",
+          "believe",
+          "the",
+          "houses",
+          "were",
+          "empty"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

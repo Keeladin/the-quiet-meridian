@@ -1,0 +1,16 @@
+{
+  "source_wav_sha256": "879fd147f49f7903c1d4c6729929113f9296d4ed925dddb51d59f7505f6929ac",
+  "last_nonzero_sample": 564337,
+  "last_nonzero_seconds": 23.514041666666667,
+  "retained_end_sample": 588338,
+  "removed_samples": 170542,
+  "removed_samples_all_zero": true,
+  "asr_extra_word_interval": [
+    30.2,
+    31.6
+  ],
+  "extra_word_interval_peak": 0,
+  "processing": "Retained every original nonzero sample plus one second of exact zero tail; no gain/fade or content edits. Full original master and uncorrected ASR transcript retained.",
+  "derivative_sha256": "201c7bbb92344c084ff400ab5eb92ffcc877d37ab3e6ad33547a79c78dce4689",
+  "listening_accepted": false
+}

@@ -1,0 +1,227 @@
+{
+  "line_id": "ada_steps_q2",
+  "clip_id": "3c4b7ed7d1394b47a502b474faeb082c",
+  "source_text_sha256": "cd3db85bcb17b990992c5fdb9ed208680e4faece7a6bae512d09ccc83173ac55",
+  "master": "work/gateway-voice/masters/3c4b7ed7d1394b47a502b474faeb082c.wav",
+  "wav_sha256": "ba40f4407448a10125f4c174b896191c3e6a6d63dd86e8d0789c0ff8395156da",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 141120,
+    "sample_count": 70560,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.94,
+    "peak": 0.53515625,
+    "peak_dbfs": -5.430387963108856,
+    "rms": 0.06410549840854585,
+    "rms_dbfs": -23.862094378085438,
+    "dc_offset": 3.129479025496917e-05,
+    "silence_fraction": 0.338109410430839,
+    "leading_silence_seconds": 0.4131666666666667,
+    "tail_silence_seconds": 0.36695833333333333,
+    "active_span_seconds": 2.159875,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 194.4556976676891,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "would",
+      "make",
+      "you",
+      "change",
+      "your",
+      "conclusion"
+    ],
+    "observed_tokens": [
+      "what",
+      "would",
+      "make",
+      "you",
+      "change",
+      "your",
+      "conclusion"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "what",
+          "would",
+          "make",
+          "you",
+          "change",
+          "your",
+          "conclusion"
+        ],
+        "observed": [
+          "what",
+          "would",
+          "make",
+          "you",
+          "change",
+          "your",
+          "conclusion"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "What would make you change your conclusion?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.24,
+      "text": " What would make you change your conclusion?",
+      "words": [
+        {
+          "word": " What",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.9088274240493774
+        },
+        {
+          "word": " would",
+          "start": 0.52,
+          "end": 0.68,
+          "probability": 0.9946176409721375
+        },
+        {
+          "word": " make",
+          "start": 0.68,
+          "end": 0.88,
+          "probability": 0.9956717491149902
+        },
+        {
+          "word": " you",
+          "start": 0.88,
+          "end": 1.18,
+          "probability": 0.9430707693099976
+        },
+        {
+          "word": " change",
+          "start": 1.18,
+          "end": 1.54,
+          "probability": 0.9972010850906372
+        },
+        {
+          "word": " your",
+          "start": 1.54,
+          "end": 1.84,
+          "probability": 0.9893673062324524
+        },
+        {
+          "word": " conclusion?",
+          "start": 1.84,
+          "end": 2.24,
+          "probability": 0.9980611205101013
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "would",
+      "make",
+      "you",
+      "change",
+      "your",
+      "conclusion"
+    ],
+    "observed_tokens": [
+      "what",
+      "would",
+      "make",
+      "you",
+      "change",
+      "your",
+      "conclusion"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "what",
+          "would",
+          "make",
+          "you",
+          "change",
+          "your",
+          "conclusion"
+        ],
+        "observed": [
+          "what",
+          "would",
+          "make",
+          "you",
+          "change",
+          "your",
+          "conclusion"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

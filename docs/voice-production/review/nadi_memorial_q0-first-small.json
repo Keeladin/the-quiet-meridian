@@ -1,0 +1,213 @@
+{
+  "line_id": "nadi_memorial_q0",
+  "clip_id": "25deccc037bb4c75861719a5403330ae",
+  "source_text_sha256": "ea4d927fb1731a77cb85a850777ad0f95ea5e753209b31233df4236004d07a82",
+  "master": "work/gateway-voice/masters/25deccc037bb4c75861719a5403330ae.wav",
+  "wav_sha256": "f4f8d0ed53bd66572ab3eccf21ef6e8ebb814ff32fa102928914106dca069833",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 92160,
+    "sample_count": 46080,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 1.92,
+    "peak": 0.2373046875,
+    "peak_dbfs": -12.493873660829994,
+    "rms": 0.03323230341490945,
+    "rms_dbfs": -29.56879111260504,
+    "dc_offset": 2.4397505654229057e-05,
+    "silence_fraction": 0.4455295138888889,
+    "leading_silence_seconds": 0.41329166666666667,
+    "tail_silence_seconds": 0.30904166666666666,
+    "active_span_seconds": 1.1976666666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 300.5844698023935,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "which",
+      "of",
+      "them",
+      "did",
+      "you",
+      "know"
+    ],
+    "observed_tokens": [
+      "which",
+      "of",
+      "them",
+      "did",
+      "you",
+      "know"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "which",
+          "of",
+          "them",
+          "did",
+          "you",
+          "know"
+        ],
+        "observed": [
+          "which",
+          "of",
+          "them",
+          "did",
+          "you",
+          "know"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Which of them did you know?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.44,
+      "text": " Which of them did you know?",
+      "words": [
+        {
+          "word": " Which",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.9116306304931641
+        },
+        {
+          "word": " of",
+          "start": 0.52,
+          "end": 0.7,
+          "probability": 0.9966919422149658
+        },
+        {
+          "word": " them",
+          "start": 0.7,
+          "end": 0.9,
+          "probability": 0.9973506927490234
+        },
+        {
+          "word": " did",
+          "start": 0.9,
+          "end": 1.08,
+          "probability": 0.9831974506378174
+        },
+        {
+          "word": " you",
+          "start": 1.08,
+          "end": 1.22,
+          "probability": 0.9985218644142151
+        },
+        {
+          "word": " know?",
+          "start": 1.22,
+          "end": 1.44,
+          "probability": 0.9986788630485535
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "which",
+      "of",
+      "them",
+      "did",
+      "you",
+      "know"
+    ],
+    "observed_tokens": [
+      "which",
+      "of",
+      "them",
+      "did",
+      "you",
+      "know"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "which",
+          "of",
+          "them",
+          "did",
+          "you",
+          "know"
+        ],
+        "observed": [
+          "which",
+          "of",
+          "them",
+          "did",
+          "you",
+          "know"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

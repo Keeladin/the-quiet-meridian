@@ -1,0 +1,815 @@
+{
+  "line_id": "ch5_closing",
+  "clip_id": "cae2ef6c6c9c429b98405c5a5a87fd82",
+  "source_text_sha256": "052aecbac8b90e35947b0dd4e74c3c1e189ddb64ce8faa7e9e4e180daf500b67",
+  "master": "work/gateway-voice/masters/cae2ef6c6c9c429b98405c5a5a87fd82.wav",
+  "wav_sha256": "8ee106ad23555f0d748731cd06ce201c2c9b9eff5a86e8dcceebb9e645db6cd6",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1032000,
+    "sample_count": 516000,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 21.5,
+    "peak": 0.65625,
+    "peak_dbfs": -3.658613671719734,
+    "rms": 0.06458413208993204,
+    "rms_dbfs": -23.797483445761607,
+    "dc_offset": 0.0001188711122024891,
+    "silence_fraction": 0.21793798449612403,
+    "leading_silence_seconds": 0.40508333333333335,
+    "tail_silence_seconds": 0.384375,
+    "active_span_seconds": 20.710541666666668,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 45,
+    "source_words_per_active_minute": 130.36839129831225,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "originals",
+      "tie",
+      "rusk's",
+      "signature",
+      "to",
+      "the",
+      "diversion",
+      "and",
+      "his",
+      "payments",
+      "to",
+      "the",
+      "land",
+      "transfer",
+      "elian",
+      "admits",
+      "operating",
+      "the",
+      "bypass",
+      "after",
+      "accepting",
+      "rusk's",
+      "false",
+      "assurance",
+      "sera",
+      "finishes",
+      "independent",
+      "copies",
+      "the",
+      "remaining",
+      "task",
+      "is",
+      "to",
+      "put",
+      "the",
+      "verified",
+      "case",
+      "where",
+      "one",
+      "office",
+      "cannot",
+      "make",
+      "it",
+      "disappear"
+    ],
+    "observed_tokens": [
+      "the",
+      "originals",
+      "tie",
+      "rusk's",
+      "signature",
+      "to",
+      "the",
+      "diversion",
+      "and",
+      "his",
+      "payments",
+      "to",
+      "the",
+      "land",
+      "transfer",
+      "elian",
+      "admits",
+      "operating",
+      "the",
+      "bypass",
+      "after",
+      "accepting",
+      "rusk's",
+      "false",
+      "assurance",
+      "sera",
+      "finishes",
+      "independent",
+      "copies",
+      "the",
+      "remaining",
+      "task",
+      "is",
+      "to",
+      "put",
+      "the",
+      "verified",
+      "case",
+      "where",
+      "one",
+      "office",
+      "cannot",
+      "make",
+      "it",
+      "disappear"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 45,
+        "observed_start": 0,
+        "observed_end": 45,
+        "expected": [
+          "the",
+          "originals",
+          "tie",
+          "rusk's",
+          "signature",
+          "to",
+          "the",
+          "diversion",
+          "and",
+          "his",
+          "payments",
+          "to",
+          "the",
+          "land",
+          "transfer",
+          "elian",
+          "admits",
+          "operating",
+          "the",
+          "bypass",
+          "after",
+          "accepting",
+          "rusk's",
+          "false",
+          "assurance",
+          "sera",
+          "finishes",
+          "independent",
+          "copies",
+          "the",
+          "remaining",
+          "task",
+          "is",
+          "to",
+          "put",
+          "the",
+          "verified",
+          "case",
+          "where",
+          "one",
+          "office",
+          "cannot",
+          "make",
+          "it",
+          "disappear"
+        ],
+        "observed": [
+          "the",
+          "originals",
+          "tie",
+          "rusk's",
+          "signature",
+          "to",
+          "the",
+          "diversion",
+          "and",
+          "his",
+          "payments",
+          "to",
+          "the",
+          "land",
+          "transfer",
+          "elian",
+          "admits",
+          "operating",
+          "the",
+          "bypass",
+          "after",
+          "accepting",
+          "rusk's",
+          "false",
+          "assurance",
+          "sera",
+          "finishes",
+          "independent",
+          "copies",
+          "the",
+          "remaining",
+          "task",
+          "is",
+          "to",
+          "put",
+          "the",
+          "verified",
+          "case",
+          "where",
+          "one",
+          "office",
+          "cannot",
+          "make",
+          "it",
+          "disappear"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The originals tie Rusk's signature to the diversion and his payments to the land transfer. Elian admits operating the bypass after accepting Rusk's false assurance. Sarah finishes independent copies. The remaining task is to put the verified case where one office cannot make it disappear.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.56,
+      "text": " The originals tie Rusk's signature to the diversion and his payments to the land transfer.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.855558454990387
+        },
+        {
+          "word": " originals",
+          "start": 0.52,
+          "end": 0.96,
+          "probability": 0.9093504548072815
+        },
+        {
+          "word": " tie",
+          "start": 0.96,
+          "end": 1.36,
+          "probability": 0.9772696495056152
+        },
+        {
+          "word": " Rusk's",
+          "start": 1.36,
+          "end": 1.92,
+          "probability": 0.9303609728813171
+        },
+        {
+          "word": " signature",
+          "start": 1.92,
+          "end": 2.24,
+          "probability": 0.9903548955917358
+        },
+        {
+          "word": " to",
+          "start": 2.24,
+          "end": 2.86,
+          "probability": 0.9953800439834595
+        },
+        {
+          "word": " the",
+          "start": 2.86,
+          "end": 3.0,
+          "probability": 0.9954572916030884
+        },
+        {
+          "word": " diversion",
+          "start": 3.0,
+          "end": 3.4,
+          "probability": 0.9819453358650208
+        },
+        {
+          "word": " and",
+          "start": 3.4,
+          "end": 4.38,
+          "probability": 0.7353827357292175
+        },
+        {
+          "word": " his",
+          "start": 4.38,
+          "end": 4.62,
+          "probability": 0.9970211386680603
+        },
+        {
+          "word": " payments",
+          "start": 4.62,
+          "end": 5.02,
+          "probability": 0.9945566654205322
+        },
+        {
+          "word": " to",
+          "start": 5.02,
+          "end": 5.6,
+          "probability": 0.9976547956466675
+        },
+        {
+          "word": " the",
+          "start": 5.6,
+          "end": 5.74,
+          "probability": 0.9952439665794373
+        },
+        {
+          "word": " land",
+          "start": 5.74,
+          "end": 5.96,
+          "probability": 0.8783820271492004
+        },
+        {
+          "word": " transfer.",
+          "start": 5.96,
+          "end": 6.56,
+          "probability": 0.9975728392601013
+        }
+      ]
+    },
+    {
+      "start": 7.42,
+      "end": 12.22,
+      "text": " Elian admits operating the bypass after accepting Rusk's false assurance.",
+      "words": [
+        {
+          "word": " Elian",
+          "start": 7.42,
+          "end": 7.6,
+          "probability": 0.4479551166296005
+        },
+        {
+          "word": " admits",
+          "start": 7.6,
+          "end": 7.96,
+          "probability": 0.9910309314727783
+        },
+        {
+          "word": " operating",
+          "start": 7.96,
+          "end": 8.72,
+          "probability": 0.9258134961128235
+        },
+        {
+          "word": " the",
+          "start": 8.72,
+          "end": 8.98,
+          "probability": 0.995439350605011
+        },
+        {
+          "word": " bypass",
+          "start": 8.98,
+          "end": 9.4,
+          "probability": 0.9473674297332764
+        },
+        {
+          "word": " after",
+          "start": 9.4,
+          "end": 10.32,
+          "probability": 0.9862385988235474
+        },
+        {
+          "word": " accepting",
+          "start": 10.32,
+          "end": 10.9,
+          "probability": 0.9951311349868774
+        },
+        {
+          "word": " Rusk's",
+          "start": 10.9,
+          "end": 11.4,
+          "probability": 0.9911941091219584
+        },
+        {
+          "word": " false",
+          "start": 11.4,
+          "end": 11.64,
+          "probability": 0.9954833984375
+        },
+        {
+          "word": " assurance.",
+          "start": 11.64,
+          "end": 12.22,
+          "probability": 0.9877603650093079
+        }
+      ]
+    },
+    {
+      "start": 13.1,
+      "end": 15.04,
+      "text": " Sarah finishes independent copies.",
+      "words": [
+        {
+          "word": " Sarah",
+          "start": 13.1,
+          "end": 13.16,
+          "probability": 0.869114875793457
+        },
+        {
+          "word": " finishes",
+          "start": 13.16,
+          "end": 13.7,
+          "probability": 0.9976767897605896
+        },
+        {
+          "word": " independent",
+          "start": 13.7,
+          "end": 14.42,
+          "probability": 0.9781090021133423
+        },
+        {
+          "word": " copies.",
+          "start": 14.42,
+          "end": 15.04,
+          "probability": 0.9984570741653442
+        }
+      ]
+    },
+    {
+      "start": 15.68,
+      "end": 20.9,
+      "text": " The remaining task is to put the verified case where one office cannot make it disappear.",
+      "words": [
+        {
+          "word": " The",
+          "start": 15.68,
+          "end": 15.78,
+          "probability": 0.9949486255645752
+        },
+        {
+          "word": " remaining",
+          "start": 15.78,
+          "end": 16.14,
+          "probability": 0.9993368983268738
+        },
+        {
+          "word": " task",
+          "start": 16.14,
+          "end": 16.56,
+          "probability": 0.998878538608551
+        },
+        {
+          "word": " is",
+          "start": 16.56,
+          "end": 16.82,
+          "probability": 0.9988092184066772
+        },
+        {
+          "word": " to",
+          "start": 16.82,
+          "end": 17.0,
+          "probability": 0.9978309273719788
+        },
+        {
+          "word": " put",
+          "start": 17.0,
+          "end": 17.18,
+          "probability": 0.9987373948097229
+        },
+        {
+          "word": " the",
+          "start": 17.18,
+          "end": 17.38,
+          "probability": 0.9961134195327759
+        },
+        {
+          "word": " verified",
+          "start": 17.38,
+          "end": 17.8,
+          "probability": 0.9860511422157288
+        },
+        {
+          "word": " case",
+          "start": 17.8,
+          "end": 18.24,
+          "probability": 0.9991936087608337
+        },
+        {
+          "word": " where",
+          "start": 18.24,
+          "end": 18.88,
+          "probability": 0.9465346932411194
+        },
+        {
+          "word": " one",
+          "start": 18.88,
+          "end": 19.14,
+          "probability": 0.9836453199386597
+        },
+        {
+          "word": " office",
+          "start": 19.14,
+          "end": 19.56,
+          "probability": 0.973239004611969
+        },
+        {
+          "word": " cannot",
+          "start": 19.56,
+          "end": 19.94,
+          "probability": 0.9798153638839722
+        },
+        {
+          "word": " make",
+          "start": 19.94,
+          "end": 20.28,
+          "probability": 0.9983017444610596
+        },
+        {
+          "word": " it",
+          "start": 20.28,
+          "end": 20.48,
+          "probability": 0.999233603477478
+        },
+        {
+          "word": " disappear.",
+          "start": 20.48,
+          "end": 20.9,
+          "probability": 0.9988874793052673
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "originals",
+      "tie",
+      "rusk's",
+      "signature",
+      "to",
+      "the",
+      "diversion",
+      "and",
+      "his",
+      "payments",
+      "to",
+      "the",
+      "land",
+      "transfer",
+      "elian",
+      "admits",
+      "operating",
+      "the",
+      "bypass",
+      "after",
+      "accepting",
+      "rusk's",
+      "false",
+      "assurance",
+      "sera",
+      "finishes",
+      "independent",
+      "copies",
+      "the",
+      "remaining",
+      "task",
+      "is",
+      "to",
+      "put",
+      "the",
+      "verified",
+      "case",
+      "where",
+      "one",
+      "office",
+      "cannot",
+      "make",
+      "it",
+      "disappear"
+    ],
+    "observed_tokens": [
+      "the",
+      "originals",
+      "tie",
+      "rusk's",
+      "signature",
+      "to",
+      "the",
+      "diversion",
+      "and",
+      "his",
+      "payments",
+      "to",
+      "the",
+      "land",
+      "transfer",
+      "elian",
+      "admits",
+      "operating",
+      "the",
+      "bypass",
+      "after",
+      "accepting",
+      "rusk's",
+      "false",
+      "assurance",
+      "sarah",
+      "finishes",
+      "independent",
+      "copies",
+      "the",
+      "remaining",
+      "task",
+      "is",
+      "to",
+      "put",
+      "the",
+      "verified",
+      "case",
+      "where",
+      "one",
+      "office",
+      "cannot",
+      "make",
+      "it",
+      "disappear"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 25,
+        "observed_start": 0,
+        "observed_end": 25,
+        "expected": [
+          "the",
+          "originals",
+          "tie",
+          "rusk's",
+          "signature",
+          "to",
+          "the",
+          "diversion",
+          "and",
+          "his",
+          "payments",
+          "to",
+          "the",
+          "land",
+          "transfer",
+          "elian",
+          "admits",
+          "operating",
+          "the",
+          "bypass",
+          "after",
+          "accepting",
+          "rusk's",
+          "false",
+          "assurance"
+        ],
+        "observed": [
+          "the",
+          "originals",
+          "tie",
+          "rusk's",
+          "signature",
+          "to",
+          "the",
+          "diversion",
+          "and",
+          "his",
+          "payments",
+          "to",
+          "the",
+          "land",
+          "transfer",
+          "elian",
+          "admits",
+          "operating",
+          "the",
+          "bypass",
+          "after",
+          "accepting",
+          "rusk's",
+          "false",
+          "assurance"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 25,
+        "expected_end": 26,
+        "observed_start": 25,
+        "observed_end": 26,
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 26,
+        "expected_end": 45,
+        "observed_start": 26,
+        "observed_end": 45,
+        "expected": [
+          "finishes",
+          "independent",
+          "copies",
+          "the",
+          "remaining",
+          "task",
+          "is",
+          "to",
+          "put",
+          "the",
+          "verified",
+          "case",
+          "where",
+          "one",
+          "office",
+          "cannot",
+          "make",
+          "it",
+          "disappear"
+        ],
+        "observed": [
+          "finishes",
+          "independent",
+          "copies",
+          "the",
+          "remaining",
+          "task",
+          "is",
+          "to",
+          "put",
+          "the",
+          "verified",
+          "case",
+          "where",
+          "one",
+          "office",
+          "cannot",
+          "make",
+          "it",
+          "disappear"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ],
+        "expected_start": 25,
+        "observed_start": 25
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 25:26."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

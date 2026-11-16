@@ -1,0 +1,17 @@
+Create one finished original hidden-object search painting for The Quiet Meridian, a fictional canal-city mystery. Wide landscape 1536x1024. Detailed painterly realism with fine ink and gouache texture; petrol teal shadows, warm amber lighting, ivory, tarnished brass and weathered natural materials. No readable words, labels, UI, border, watermark or people. BOARDING HOUSE PARLOUR: intimate low-angle look into an old occupied sitting room corner with a cluttered supper table in the foreground, sewing basket and carpet below, cabinet of china and mantel at rear, coat on a chair, rain-dark window on the left. A real lived-in room, cream and ochre textiles, amber firelight, dark teal wood, varied height and many overlapping objects. No people.
+Make a difficult but fair classic hidden-object scene: 60+ believable overlapping clutter details. Hide targets through matching colour, occlusion and shapes integrated in the setting. Most targets 2–6% of image width, none oversized as a display. Mix physical objects and plausible motifs. Keep enough of each target visible to identify it when zoomed. No neat rows or evenly spaced inventory display; no large empty floor or sky. The following 14 depictions must actually appear, in their broadly indicated places, disguised among unrelated clutter:
+1. a tiny fox embroidered into the chair upholstery at lower left
+2. a white domino half under a saucer near centre
+3. a stemmed wine goblet concealed among tinted bottles at upper right
+4. a brass button among biscuits at lower right
+5. a pair of spectacles lying along a dark book near middle left
+6. a curled pipe blending into the mantel ornaments near upper centre
+7. a small lemon partly hidden beneath napkin at centre right
+8. a broken-handled toy soldier in the sewing basket at bottom centre
+9. a fern motif woven into the upper-left curtain
+10. a tarnished key partly tucked into the coat pocket on the right
+11. a teaspoon nearly aligned with the edge of a plate near bottom left
+12. a single knitting needle threaded through dark yarn near lower middle right
+13. a tiny crown emblem on an upper cupboard catch
+14. a folded fan partly beneath the old ledger on the middle table
+Keep exposure readable. Every target distinct from clutter; ornate details should still look like their material. Natural asymmetrical composition, strong sense of place, professional finished game artwork.

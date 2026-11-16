@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "provider": "OpenAI API",
+  "model": "gpt-live-1",
+  "transport": "primary_websocket",
+  "rate_usd_per_minute": 0.05,
+  "pricing_checked": "2026-11-14",
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-live-1",
+  "billing_source": "https://developers.openai.com/api/docs/guides/voice-latency-cost?api=live",
+  "expected_first_pass_usd": [
+    0.1,
+    0.15
+  ],
+  "spending_cap_usd": 0.25,
+  "max_attempts_total": 3,
+  "max_attempts_per_line": 1,
+  "session_limit_seconds": 90,
+  "close_grace_seconds": 15,
+  "quiet_tail_seconds": 8,
+  "approval_status": "approved_three_first_takes_only",
+  "scope": "three_sample_auditions_only",
+  "full_batch_authorized": false,
+  "backend_calls_allowed": false,
+  "pronunciation": {
+    "Iona": "eye-OH-nuh",
+    "Mara": "MAH-ruh",
+    "Leth": "LETH, rhymes with breath",
+    "Tomas": "TOH-muhs, first syllable stressed"
+  },
+  "quality_gate": [
+    "exact_script_transcript_match",
+    "complete_finalization_and_usage_receipt",
+    "audible_not_clipped_or_truncated",
+    "independent_saved_audio_review",
+    "user_listening_approval_before_full_batch"
+  ],
+  "samples": [
+    {
+      "line_id": "ch1_closing",
+      "speaker": "iona",
+      "voice": "willow",
+      "direction": "Iona: observant and warm, restrained suspense, precise articulation. Let the discovery land without sounding triumphant. About 125 words per minute.",
+      "source_text_sha256": "c3498c81470d4454353081894e1d13d95a7ddd934d60459531184fc3bf84468a",
+      "words": 40,
+      "characters": 219,
+      "script": "Mara was not taken from Leth. She borrowed the bell key, recovered a removed folio, and followed a record of the old flood toward the pumping works. The tide and the official story disagree by more than a smudged digit."
+    },
+    {
+      "line_id": "rowan_kitchen_r2",
+      "speaker": "rowan",
+      "voice": "stone",
+      "direction": "Rowan: older lockkeeper, weathered low delivery, contained remorse and quiet resolve. No theatrical sobbing or added sighs. About 135 words per minute.",
+      "source_text_sha256": "e16770e007d094d9b8e5ecf2bdd33c93ab7e424b96220ea221417709443ed31b",
+      "words": 68,
+      "characters": 363,
+      "script": "That I shut the lower footway barrier. That I unfastened it when Tomas called, while he opened the separate upper footway gate. That acting later did not make the earlier closure harmless. I have spent seventeen years rehearsing explanations that end with me having no choice. I will not give you one of those. Ask me what I saw. If I do not know, make me say so."
+    },
+    {
+      "line_id": "mara_refuge_r0",
+      "speaker": "mara",
+      "voice": "quartz",
+      "direction": "Mara: mature archivist, tired but lucid, vulnerability beneath professional precision. Natural pauses, clear final words. About 130 words per minute.",
+      "source_text_sha256": "cda31d0a99e724fb1f3488d59069716cace6b509531960347683a74608a196bd",
+      "words": 59,
+      "characters": 348,
+      "script": "I thought you would understand the letter. Then I thought another letter would lead someone here. Each explanation made the next day of silence easier to justify. I frightened you because I was frightened, and because being useful felt safer than admitting I needed help. I can explain it. I cannot turn that explanation into something you owed me."
+    }
+  ]
+}

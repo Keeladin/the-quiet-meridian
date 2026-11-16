@@ -1,0 +1,444 @@
+{
+  "line_id": "nadi_signal_greeting",
+  "clip_id": "4fe42db2033e480abebf3a9789eb6446",
+  "source_text_sha256": "b51918f214b99a7306f3bb8089f2279b0a7d7017c244fdd10bf2c5157ba26b0f",
+  "master": "work/gateway-voice/masters/4fe42db2033e480abebf3a9789eb6446.wav",
+  "wav_sha256": "739d5aedf02919f1526207f49c40975485f0b6a387104c06e3052bc3fa28b4a1",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 407040,
+    "sample_count": 203520,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 8.48,
+    "peak": 0.419921875,
+    "peak_dbfs": -7.536630021204509,
+    "rms": 0.04705767113739574,
+    "rms_dbfs": -26.547391393265777,
+    "dc_offset": 0.00011043803496930584,
+    "silence_fraction": 0.25641705974842766,
+    "leading_silence_seconds": 0.400125,
+    "tail_silence_seconds": 0.20545833333333333,
+    "active_span_seconds": 7.874416666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 22,
+    "source_words_per_active_minute": 167.63146476458573,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "nadi",
+      "arrives",
+      "carrying",
+      "lamp",
+      "oil",
+      "and",
+      "a",
+      "pair",
+      "of",
+      "dry",
+      "gloves",
+      "she",
+      "studies",
+      "the",
+      "relay",
+      "chart",
+      "as",
+      "she",
+      "would",
+      "a",
+      "river",
+      "channel"
+    ],
+    "observed_tokens": [
+      "nadi",
+      "arrives",
+      "carrying",
+      "lamp",
+      "oil",
+      "and",
+      "a",
+      "pair",
+      "of",
+      "dry",
+      "gloves",
+      "she",
+      "studies",
+      "the",
+      "relay",
+      "chart",
+      "as",
+      "she",
+      "would",
+      "a",
+      "river",
+      "channel"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 22,
+        "observed_start": 0,
+        "observed_end": 22,
+        "expected": [
+          "nadi",
+          "arrives",
+          "carrying",
+          "lamp",
+          "oil",
+          "and",
+          "a",
+          "pair",
+          "of",
+          "dry",
+          "gloves",
+          "she",
+          "studies",
+          "the",
+          "relay",
+          "chart",
+          "as",
+          "she",
+          "would",
+          "a",
+          "river",
+          "channel"
+        ],
+        "observed": [
+          "nadi",
+          "arrives",
+          "carrying",
+          "lamp",
+          "oil",
+          "and",
+          "a",
+          "pair",
+          "of",
+          "dry",
+          "gloves",
+          "she",
+          "studies",
+          "the",
+          "relay",
+          "chart",
+          "as",
+          "she",
+          "would",
+          "a",
+          "river",
+          "channel"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Nadi arrives carrying lamp oil and a pair of dry gloves. She studies the relay chart, as she would a river channel.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.02,
+      "text": " Nadi arrives carrying lamp oil and a pair of dry gloves.",
+      "words": [
+        {
+          "word": " Nadi",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.5828888714313507
+        },
+        {
+          "word": " arrives",
+          "start": 0.66,
+          "end": 1.32,
+          "probability": 0.994109034538269
+        },
+        {
+          "word": " carrying",
+          "start": 1.32,
+          "end": 1.76,
+          "probability": 0.9668031930923462
+        },
+        {
+          "word": " lamp",
+          "start": 1.76,
+          "end": 2.12,
+          "probability": 0.9895219206809998
+        },
+        {
+          "word": " oil",
+          "start": 2.12,
+          "end": 2.4,
+          "probability": 0.9587571024894714
+        },
+        {
+          "word": " and",
+          "start": 2.4,
+          "end": 2.8,
+          "probability": 0.9888766407966614
+        },
+        {
+          "word": " a",
+          "start": 2.8,
+          "end": 2.92,
+          "probability": 0.9982361793518066
+        },
+        {
+          "word": " pair",
+          "start": 2.92,
+          "end": 3.14,
+          "probability": 0.9989055395126343
+        },
+        {
+          "word": " of",
+          "start": 3.14,
+          "end": 3.38,
+          "probability": 0.9978594183921814
+        },
+        {
+          "word": " dry",
+          "start": 3.38,
+          "end": 3.62,
+          "probability": 0.9921711683273315
+        },
+        {
+          "word": " gloves.",
+          "start": 3.62,
+          "end": 4.02,
+          "probability": 0.9953238368034363
+        }
+      ]
+    },
+    {
+      "start": 4.8,
+      "end": 7.9,
+      "text": " She studies the relay chart, as she would a river channel.",
+      "words": [
+        {
+          "word": " She",
+          "start": 4.8,
+          "end": 5.0,
+          "probability": 0.99533611536026
+        },
+        {
+          "word": " studies",
+          "start": 5.0,
+          "end": 5.32,
+          "probability": 0.9945578575134277
+        },
+        {
+          "word": " the",
+          "start": 5.32,
+          "end": 5.54,
+          "probability": 0.9985916018486023
+        },
+        {
+          "word": " relay",
+          "start": 5.54,
+          "end": 5.84,
+          "probability": 0.9722132682800293
+        },
+        {
+          "word": " chart,",
+          "start": 5.84,
+          "end": 6.24,
+          "probability": 0.9970237612724304
+        },
+        {
+          "word": " as",
+          "start": 6.7,
+          "end": 6.76,
+          "probability": 0.9948859810829163
+        },
+        {
+          "word": " she",
+          "start": 6.76,
+          "end": 6.96,
+          "probability": 0.9976950287818909
+        },
+        {
+          "word": " would",
+          "start": 6.96,
+          "end": 7.18,
+          "probability": 0.995860755443573
+        },
+        {
+          "word": " a",
+          "start": 7.18,
+          "end": 7.38,
+          "probability": 0.9648764729499817
+        },
+        {
+          "word": " river",
+          "start": 7.38,
+          "end": 7.54,
+          "probability": 0.957321047782898
+        },
+        {
+          "word": " channel.",
+          "start": 7.54,
+          "end": 7.9,
+          "probability": 0.8296808004379272
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "nadi",
+      "arrives",
+      "carrying",
+      "lamp",
+      "oil",
+      "and",
+      "a",
+      "pair",
+      "of",
+      "dry",
+      "gloves",
+      "she",
+      "studies",
+      "the",
+      "relay",
+      "chart",
+      "as",
+      "she",
+      "would",
+      "a",
+      "river",
+      "channel"
+    ],
+    "observed_tokens": [
+      "nadi",
+      "arrives",
+      "carrying",
+      "lamp",
+      "oil",
+      "and",
+      "a",
+      "pair",
+      "of",
+      "dry",
+      "gloves",
+      "she",
+      "studies",
+      "the",
+      "relay",
+      "chart",
+      "as",
+      "she",
+      "would",
+      "a",
+      "river",
+      "channel"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 22,
+        "observed_start": 0,
+        "observed_end": 22,
+        "expected": [
+          "nadi",
+          "arrives",
+          "carrying",
+          "lamp",
+          "oil",
+          "and",
+          "a",
+          "pair",
+          "of",
+          "dry",
+          "gloves",
+          "she",
+          "studies",
+          "the",
+          "relay",
+          "chart",
+          "as",
+          "she",
+          "would",
+          "a",
+          "river",
+          "channel"
+        ],
+        "observed": [
+          "nadi",
+          "arrives",
+          "carrying",
+          "lamp",
+          "oil",
+          "and",
+          "a",
+          "pair",
+          "of",
+          "dry",
+          "gloves",
+          "she",
+          "studies",
+          "the",
+          "relay",
+          "chart",
+          "as",
+          "she",
+          "would",
+          "a",
+          "river",
+          "channel"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

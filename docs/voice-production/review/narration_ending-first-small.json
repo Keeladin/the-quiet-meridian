@@ -1,0 +1,2952 @@
+{
+  "line_id": "narration_ending",
+  "clip_id": "546790d8f87a48d6a145698881425590",
+  "source_text_sha256": "e327331d9cbda96d2dad7ff1b5ca8bc44329f0d7eed484757821df85f1b6d209",
+  "master": "work/gateway-voice/masters/546790d8f87a48d6a145698881425590.wav",
+  "wav_sha256": "72ab924912ee5e6e19c93cd917a533ff613d01d57adf695dcd803063be5b8a86",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 3675840,
+    "sample_count": 1837920,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 76.58,
+    "peak": 0.58984375,
+    "peak_dbfs": -4.585260360373602,
+    "rms": 0.04862922462137191,
+    "rms_dbfs": -26.26205310147798,
+    "dc_offset": 0.00016018849310846296,
+    "silence_fraction": 0.3119134673979281,
+    "leading_silence_seconds": 0.403,
+    "tail_silence_seconds": 0.35283333333333333,
+    "active_span_seconds": 75.82416666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 176,
+    "source_words_per_active_minute": 139.26958203738914,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "corrected",
+      "register",
+      "lies",
+      "open",
+      "beneath",
+      "the",
+      "archive",
+      "window",
+      "twenty",
+      "three",
+      "names",
+      "no",
+      "longer",
+      "a",
+      "number",
+      "in",
+      "the",
+      "margin",
+      "beside",
+      "tomas",
+      "vale's",
+      "entry",
+      "the",
+      "old",
+      "accusation",
+      "remains",
+      "visible",
+      "under",
+      "a",
+      "single",
+      "ruled",
+      "line",
+      "the",
+      "correction",
+      "cites",
+      "its",
+      "evidence",
+      "nobody",
+      "has",
+      "scraped",
+      "the",
+      "page",
+      "clean",
+      "rusk",
+      "is",
+      "removed",
+      "from",
+      "emergency",
+      "office",
+      "and",
+      "referred",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "with",
+      "the",
+      "original",
+      "records",
+      "elian",
+      "gives",
+      "testimony",
+      "without",
+      "a",
+      "promise",
+      "of",
+      "immunity",
+      "rowan's",
+      "account",
+      "includes",
+      "both",
+      "the",
+      "people",
+      "he",
+      "helped",
+      "and",
+      "the",
+      "order",
+      "he",
+      "obeyed",
+      "truth",
+      "is",
+      "not",
+      "a",
+      "pardon",
+      "and",
+      "the",
+      "city",
+      "has",
+      "begun",
+      "to",
+      "understand",
+      "the",
+      "difference",
+      "mara",
+      "establishes",
+      "duplicate",
+      "archives",
+      "on",
+      "both",
+      "sides",
+      "of",
+      "the",
+      "water",
+      "sera",
+      "prints",
+      "the",
+      "findings",
+      "at",
+      "cost",
+      "nadi",
+      "carries",
+      "the",
+      "first",
+      "public",
+      "copies",
+      "to",
+      "the",
+      "island",
+      "ada",
+      "restores",
+      "the",
+      "midnight",
+      "signal",
+      "which",
+      "sounds",
+      "without",
+      "commanding",
+      "anyone",
+      "to",
+      "be",
+      "silent",
+      "you",
+      "stay",
+      "to",
+      "teach",
+      "two",
+      "apprentices",
+      "one",
+      "asks",
+      "whether",
+      "a",
+      "repair",
+      "ought",
+      "to",
+      "be",
+      "invisible",
+      "you",
+      "hold",
+      "the",
+      "folio",
+      "against",
+      "the",
+      "light",
+      "the",
+      "seam",
+      "shines",
+      "delicate",
+      "and",
+      "unmistakable",
+      "it",
+      "ought",
+      "to",
+      "hold",
+      "you",
+      "say",
+      "and",
+      "it",
+      "ought",
+      "to",
+      "tell",
+      "the",
+      "truth",
+      "the",
+      "end"
+    ],
+    "observed_tokens": [
+      "the",
+      "corrected",
+      "register",
+      "lies",
+      "open",
+      "beneath",
+      "the",
+      "archive",
+      "window",
+      "twenty",
+      "three",
+      "names",
+      "no",
+      "longer",
+      "a",
+      "number",
+      "in",
+      "the",
+      "margin",
+      "beside",
+      "tomas",
+      "vale's",
+      "entry",
+      "the",
+      "old",
+      "accusation",
+      "remains",
+      "visible",
+      "under",
+      "a",
+      "single",
+      "ruled",
+      "line",
+      "the",
+      "correction",
+      "cites",
+      "its",
+      "evidence",
+      "nobody",
+      "has",
+      "scraped",
+      "the",
+      "page",
+      "clean",
+      "rusk",
+      "is",
+      "removed",
+      "from",
+      "emergency",
+      "office",
+      "and",
+      "referred",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "with",
+      "the",
+      "original",
+      "records",
+      "elian",
+      "gives",
+      "testimony",
+      "without",
+      "a",
+      "promise",
+      "of",
+      "immunity",
+      "rowan's",
+      "account",
+      "includes",
+      "both",
+      "the",
+      "people",
+      "he",
+      "helped",
+      "and",
+      "the",
+      "order",
+      "he",
+      "obeyed",
+      "truth",
+      "is",
+      "not",
+      "a",
+      "pardon",
+      "and",
+      "the",
+      "city",
+      "has",
+      "begun",
+      "to",
+      "understand",
+      "the",
+      "difference",
+      "mara",
+      "establishes",
+      "duplicate",
+      "archives",
+      "on",
+      "both",
+      "sides",
+      "of",
+      "the",
+      "water",
+      "sera",
+      "prints",
+      "the",
+      "findings",
+      "at",
+      "cost",
+      "nadi",
+      "carries",
+      "the",
+      "first",
+      "public",
+      "copies",
+      "to",
+      "the",
+      "island",
+      "ada",
+      "restores",
+      "the",
+      "midnight",
+      "signal",
+      "which",
+      "sounds",
+      "without",
+      "commanding",
+      "anyone",
+      "to",
+      "be",
+      "silent",
+      "you",
+      "stay",
+      "to",
+      "teach",
+      "two",
+      "apprentices",
+      "one",
+      "asks",
+      "whether",
+      "a",
+      "repair",
+      "ought",
+      "to",
+      "be",
+      "invisible",
+      "you",
+      "hold",
+      "the",
+      "folio",
+      "against",
+      "the",
+      "light",
+      "the",
+      "seam",
+      "shines",
+      "delicate",
+      "and",
+      "unmistakable",
+      "it",
+      "ought",
+      "to",
+      "hold",
+      "you",
+      "say",
+      "and",
+      "it",
+      "ought",
+      "to",
+      "tell",
+      "the",
+      "truth",
+      "the",
+      "end"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 176,
+        "observed_start": 0,
+        "observed_end": 176,
+        "expected": [
+          "the",
+          "corrected",
+          "register",
+          "lies",
+          "open",
+          "beneath",
+          "the",
+          "archive",
+          "window",
+          "twenty",
+          "three",
+          "names",
+          "no",
+          "longer",
+          "a",
+          "number",
+          "in",
+          "the",
+          "margin",
+          "beside",
+          "tomas",
+          "vale's",
+          "entry",
+          "the",
+          "old",
+          "accusation",
+          "remains",
+          "visible",
+          "under",
+          "a",
+          "single",
+          "ruled",
+          "line",
+          "the",
+          "correction",
+          "cites",
+          "its",
+          "evidence",
+          "nobody",
+          "has",
+          "scraped",
+          "the",
+          "page",
+          "clean",
+          "rusk",
+          "is",
+          "removed",
+          "from",
+          "emergency",
+          "office",
+          "and",
+          "referred",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "with",
+          "the",
+          "original",
+          "records",
+          "elian",
+          "gives",
+          "testimony",
+          "without",
+          "a",
+          "promise",
+          "of",
+          "immunity",
+          "rowan's",
+          "account",
+          "includes",
+          "both",
+          "the",
+          "people",
+          "he",
+          "helped",
+          "and",
+          "the",
+          "order",
+          "he",
+          "obeyed",
+          "truth",
+          "is",
+          "not",
+          "a",
+          "pardon",
+          "and",
+          "the",
+          "city",
+          "has",
+          "begun",
+          "to",
+          "understand",
+          "the",
+          "difference",
+          "mara",
+          "establishes",
+          "duplicate",
+          "archives",
+          "on",
+          "both",
+          "sides",
+          "of",
+          "the",
+          "water",
+          "sera",
+          "prints",
+          "the",
+          "findings",
+          "at",
+          "cost",
+          "nadi",
+          "carries",
+          "the",
+          "first",
+          "public",
+          "copies",
+          "to",
+          "the",
+          "island",
+          "ada",
+          "restores",
+          "the",
+          "midnight",
+          "signal",
+          "which",
+          "sounds",
+          "without",
+          "commanding",
+          "anyone",
+          "to",
+          "be",
+          "silent",
+          "you",
+          "stay",
+          "to",
+          "teach",
+          "two",
+          "apprentices",
+          "one",
+          "asks",
+          "whether",
+          "a",
+          "repair",
+          "ought",
+          "to",
+          "be",
+          "invisible",
+          "you",
+          "hold",
+          "the",
+          "folio",
+          "against",
+          "the",
+          "light",
+          "the",
+          "seam",
+          "shines",
+          "delicate",
+          "and",
+          "unmistakable",
+          "it",
+          "ought",
+          "to",
+          "hold",
+          "you",
+          "say",
+          "and",
+          "it",
+          "ought",
+          "to",
+          "tell",
+          "the",
+          "truth",
+          "the",
+          "end"
+        ],
+        "observed": [
+          "the",
+          "corrected",
+          "register",
+          "lies",
+          "open",
+          "beneath",
+          "the",
+          "archive",
+          "window",
+          "twenty",
+          "three",
+          "names",
+          "no",
+          "longer",
+          "a",
+          "number",
+          "in",
+          "the",
+          "margin",
+          "beside",
+          "tomas",
+          "vale's",
+          "entry",
+          "the",
+          "old",
+          "accusation",
+          "remains",
+          "visible",
+          "under",
+          "a",
+          "single",
+          "ruled",
+          "line",
+          "the",
+          "correction",
+          "cites",
+          "its",
+          "evidence",
+          "nobody",
+          "has",
+          "scraped",
+          "the",
+          "page",
+          "clean",
+          "rusk",
+          "is",
+          "removed",
+          "from",
+          "emergency",
+          "office",
+          "and",
+          "referred",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "with",
+          "the",
+          "original",
+          "records",
+          "elian",
+          "gives",
+          "testimony",
+          "without",
+          "a",
+          "promise",
+          "of",
+          "immunity",
+          "rowan's",
+          "account",
+          "includes",
+          "both",
+          "the",
+          "people",
+          "he",
+          "helped",
+          "and",
+          "the",
+          "order",
+          "he",
+          "obeyed",
+          "truth",
+          "is",
+          "not",
+          "a",
+          "pardon",
+          "and",
+          "the",
+          "city",
+          "has",
+          "begun",
+          "to",
+          "understand",
+          "the",
+          "difference",
+          "mara",
+          "establishes",
+          "duplicate",
+          "archives",
+          "on",
+          "both",
+          "sides",
+          "of",
+          "the",
+          "water",
+          "sera",
+          "prints",
+          "the",
+          "findings",
+          "at",
+          "cost",
+          "nadi",
+          "carries",
+          "the",
+          "first",
+          "public",
+          "copies",
+          "to",
+          "the",
+          "island",
+          "ada",
+          "restores",
+          "the",
+          "midnight",
+          "signal",
+          "which",
+          "sounds",
+          "without",
+          "commanding",
+          "anyone",
+          "to",
+          "be",
+          "silent",
+          "you",
+          "stay",
+          "to",
+          "teach",
+          "two",
+          "apprentices",
+          "one",
+          "asks",
+          "whether",
+          "a",
+          "repair",
+          "ought",
+          "to",
+          "be",
+          "invisible",
+          "you",
+          "hold",
+          "the",
+          "folio",
+          "against",
+          "the",
+          "light",
+          "the",
+          "seam",
+          "shines",
+          "delicate",
+          "and",
+          "unmistakable",
+          "it",
+          "ought",
+          "to",
+          "hold",
+          "you",
+          "say",
+          "and",
+          "it",
+          "ought",
+          "to",
+          "tell",
+          "the",
+          "truth",
+          "the",
+          "end"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The corrected register lies open beneath the archive window. 23 names, no longer a number in the margin. Beside Thomas Vail's entry, the old accusation remains visible under a single rule blind. The correction cites evidence. Nobody has scraped the page clean. Rusk is removed from emergency office and referred to an outside court with the original records. Alien gives testimony without a promise of immunity. Rowan's account includes both the people he helped and the order he obeyed. Truth is not a pardon, and the city has begun to understand the difference. Mara establishes duplicate archives on both sides of the water. Sarah prints the findings at cost. Nadi carries the first public copies to the island. And Ada restores the midnight signal, which sounds, without commanding anyone to be silent. You stay to teach two apprentices. One asks whether a repair ought to be invisible. You hold the folio against the light. The seam shines, delicate and unmistakable. It ought to hold, you say, and it ought to tell the truth. The end.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.2,
+      "text": " The corrected register lies open beneath the archive window.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.5865879654884338
+        },
+        {
+          "word": " corrected",
+          "start": 0.48,
+          "end": 0.86,
+          "probability": 0.9259369373321533
+        },
+        {
+          "word": " register",
+          "start": 0.86,
+          "end": 1.26,
+          "probability": 0.40101104974746704
+        },
+        {
+          "word": " lies",
+          "start": 1.26,
+          "end": 1.78,
+          "probability": 0.982853353023529
+        },
+        {
+          "word": " open",
+          "start": 1.78,
+          "end": 2.3,
+          "probability": 0.9225628972053528
+        },
+        {
+          "word": " beneath",
+          "start": 2.3,
+          "end": 2.86,
+          "probability": 0.9784258008003235
+        },
+        {
+          "word": " the",
+          "start": 2.86,
+          "end": 3.18,
+          "probability": 0.9905288815498352
+        },
+        {
+          "word": " archive",
+          "start": 3.18,
+          "end": 3.64,
+          "probability": 0.9450469613075256
+        },
+        {
+          "word": " window.",
+          "start": 3.64,
+          "end": 4.2,
+          "probability": 0.998823344707489
+        }
+      ]
+    },
+    {
+      "start": 5.14,
+      "end": 8.2,
+      "text": " 23 names, no longer a number in the margin.",
+      "words": [
+        {
+          "word": " 23",
+          "start": 5.14,
+          "end": 5.32,
+          "probability": 0.33377835154533386
+        },
+        {
+          "word": " names,",
+          "start": 5.32,
+          "end": 5.9,
+          "probability": 0.9855936169624329
+        },
+        {
+          "word": " no",
+          "start": 6.54,
+          "end": 6.74,
+          "probability": 0.9946626424789429
+        },
+        {
+          "word": " longer",
+          "start": 6.74,
+          "end": 7.08,
+          "probability": 0.99880051612854
+        },
+        {
+          "word": " a",
+          "start": 7.08,
+          "end": 7.32,
+          "probability": 0.993053138256073
+        },
+        {
+          "word": " number",
+          "start": 7.32,
+          "end": 7.48,
+          "probability": 0.998591959476471
+        },
+        {
+          "word": " in",
+          "start": 7.48,
+          "end": 7.72,
+          "probability": 0.9971725344657898
+        },
+        {
+          "word": " the",
+          "start": 7.72,
+          "end": 7.84,
+          "probability": 0.9980390667915344
+        },
+        {
+          "word": " margin.",
+          "start": 7.84,
+          "end": 8.2,
+          "probability": 0.9978271126747131
+        }
+      ]
+    },
+    {
+      "start": 9.12,
+      "end": 10.78,
+      "text": " Beside Thomas Vail's entry,",
+      "words": [
+        {
+          "word": " Beside",
+          "start": 9.12,
+          "end": 9.6,
+          "probability": 0.8176157772541046
+        },
+        {
+          "word": " Thomas",
+          "start": 9.6,
+          "end": 9.96,
+          "probability": 0.4124084711074829
+        },
+        {
+          "word": " Vail's",
+          "start": 9.96,
+          "end": 10.38,
+          "probability": 0.7093924283981323
+        },
+        {
+          "word": " entry,",
+          "start": 10.38,
+          "end": 10.78,
+          "probability": 0.9995044469833374
+        }
+      ]
+    },
+    {
+      "start": 11.56,
+      "end": 13.6,
+      "text": " the old accusation remains visible",
+      "words": [
+        {
+          "word": " the",
+          "start": 11.56,
+          "end": 11.66,
+          "probability": 0.9898034334182739
+        },
+        {
+          "word": " old",
+          "start": 11.66,
+          "end": 11.98,
+          "probability": 0.9947611689567566
+        },
+        {
+          "word": " accusation",
+          "start": 11.98,
+          "end": 12.52,
+          "probability": 0.9448030591011047
+        },
+        {
+          "word": " remains",
+          "start": 12.52,
+          "end": 13.1,
+          "probability": 0.9988545179367065
+        },
+        {
+          "word": " visible",
+          "start": 13.1,
+          "end": 13.6,
+          "probability": 0.9988351464271545
+        }
+      ]
+    },
+    {
+      "start": 14.18,
+      "end": 15.52,
+      "text": " under a single rule blind.",
+      "words": [
+        {
+          "word": " under",
+          "start": 13.979999999999999,
+          "end": 14.36,
+          "probability": 0.779471755027771
+        },
+        {
+          "word": " a",
+          "start": 14.36,
+          "end": 14.54,
+          "probability": 0.9960594177246094
+        },
+        {
+          "word": " single",
+          "start": 14.54,
+          "end": 14.9,
+          "probability": 0.9993359446525574
+        },
+        {
+          "word": " rule",
+          "start": 14.9,
+          "end": 15.16,
+          "probability": 0.41087281703948975
+        },
+        {
+          "word": " blind.",
+          "start": 15.16,
+          "end": 15.52,
+          "probability": 0.7408115863800049
+        }
+      ]
+    },
+    {
+      "start": 16.5,
+      "end": 18.08,
+      "text": " The correction cites evidence.",
+      "words": [
+        {
+          "word": " The",
+          "start": 16.5,
+          "end": 16.76,
+          "probability": 0.9949743747711182
+        },
+        {
+          "word": " correction",
+          "start": 16.76,
+          "end": 17.1,
+          "probability": 0.9225737452507019
+        },
+        {
+          "word": " cites",
+          "start": 17.1,
+          "end": 17.54,
+          "probability": 0.9747768640518188
+        },
+        {
+          "word": " evidence.",
+          "start": 17.54,
+          "end": 18.08,
+          "probability": 0.9504546523094177
+        }
+      ]
+    },
+    {
+      "start": 18.94,
+      "end": 20.62,
+      "text": " Nobody has scraped the page clean.",
+      "words": [
+        {
+          "word": " Nobody",
+          "start": 18.94,
+          "end": 19.26,
+          "probability": 0.9855625629425049
+        },
+        {
+          "word": " has",
+          "start": 19.26,
+          "end": 19.58,
+          "probability": 0.9948306679725647
+        },
+        {
+          "word": " scraped",
+          "start": 19.58,
+          "end": 19.96,
+          "probability": 0.9973540008068085
+        },
+        {
+          "word": " the",
+          "start": 19.96,
+          "end": 20.02,
+          "probability": 0.9982998967170715
+        },
+        {
+          "word": " page",
+          "start": 20.02,
+          "end": 20.22,
+          "probability": 0.997596800327301
+        },
+        {
+          "word": " clean.",
+          "start": 20.22,
+          "end": 20.62,
+          "probability": 0.9992807507514954
+        }
+      ]
+    },
+    {
+      "start": 21.54,
+      "end": 23.5,
+      "text": " Rusk is removed from emergency office",
+      "words": [
+        {
+          "word": " Rusk",
+          "start": 21.54,
+          "end": 21.7,
+          "probability": 0.899766743183136
+        },
+        {
+          "word": " is",
+          "start": 21.7,
+          "end": 21.82,
+          "probability": 0.9911304712295532
+        },
+        {
+          "word": " removed",
+          "start": 21.82,
+          "end": 22.2,
+          "probability": 0.9978991746902466
+        },
+        {
+          "word": " from",
+          "start": 22.2,
+          "end": 22.48,
+          "probability": 0.9990646243095398
+        },
+        {
+          "word": " emergency",
+          "start": 22.48,
+          "end": 22.9,
+          "probability": 0.8538542985916138
+        },
+        {
+          "word": " office",
+          "start": 22.9,
+          "end": 23.5,
+          "probability": 0.9990085959434509
+        }
+      ]
+    },
+    {
+      "start": 23.5,
+      "end": 27.02,
+      "text": " and referred to an outside court with the original records.",
+      "words": [
+        {
+          "word": " and",
+          "start": 23.5,
+          "end": 24.0,
+          "probability": 0.9000042080879211
+        },
+        {
+          "word": " referred",
+          "start": 24.0,
+          "end": 24.32,
+          "probability": 0.9889124631881714
+        },
+        {
+          "word": " to",
+          "start": 24.32,
+          "end": 24.6,
+          "probability": 0.999193012714386
+        },
+        {
+          "word": " an",
+          "start": 24.6,
+          "end": 24.72,
+          "probability": 0.9895083904266357
+        },
+        {
+          "word": " outside",
+          "start": 24.72,
+          "end": 25.12,
+          "probability": 0.9987897276878357
+        },
+        {
+          "word": " court",
+          "start": 25.12,
+          "end": 25.48,
+          "probability": 0.9978100657463074
+        },
+        {
+          "word": " with",
+          "start": 25.48,
+          "end": 26.0,
+          "probability": 0.9486571550369263
+        },
+        {
+          "word": " the",
+          "start": 26.0,
+          "end": 26.16,
+          "probability": 0.9988170862197876
+        },
+        {
+          "word": " original",
+          "start": 26.16,
+          "end": 26.48,
+          "probability": 0.9987677335739136
+        },
+        {
+          "word": " records.",
+          "start": 26.48,
+          "end": 27.02,
+          "probability": 0.9980596899986267
+        }
+      ]
+    },
+    {
+      "start": 27.02,
+      "end": 30.92,
+      "text": " Alien gives testimony without a promise of immunity.",
+      "words": [
+        {
+          "word": " Alien",
+          "start": 27.02,
+          "end": 28.22,
+          "probability": 0.09928926825523376
+        },
+        {
+          "word": " gives",
+          "start": 28.22,
+          "end": 28.66,
+          "probability": 0.970001757144928
+        },
+        {
+          "word": " testimony",
+          "start": 28.66,
+          "end": 29.24,
+          "probability": 0.9947614073753357
+        },
+        {
+          "word": " without",
+          "start": 29.24,
+          "end": 29.7,
+          "probability": 0.9914597272872925
+        },
+        {
+          "word": " a",
+          "start": 29.7,
+          "end": 29.9,
+          "probability": 0.9891048073768616
+        },
+        {
+          "word": " promise",
+          "start": 29.9,
+          "end": 30.22,
+          "probability": 0.9961295127868652
+        },
+        {
+          "word": " of",
+          "start": 30.22,
+          "end": 30.46,
+          "probability": 0.998278021812439
+        },
+        {
+          "word": " immunity.",
+          "start": 30.46,
+          "end": 30.92,
+          "probability": 0.9959664344787598
+        }
+      ]
+    },
+    {
+      "start": 31.9,
+      "end": 36.18,
+      "text": " Rowan's account includes both the people he helped and the order he obeyed.",
+      "words": [
+        {
+          "word": " Rowan's",
+          "start": 31.9,
+          "end": 32.18,
+          "probability": 0.9110050797462463
+        },
+        {
+          "word": " account",
+          "start": 32.18,
+          "end": 32.44,
+          "probability": 0.997445821762085
+        },
+        {
+          "word": " includes",
+          "start": 32.44,
+          "end": 32.88,
+          "probability": 0.9960886240005493
+        },
+        {
+          "word": " both",
+          "start": 32.88,
+          "end": 33.14,
+          "probability": 0.9922178983688354
+        },
+        {
+          "word": " the",
+          "start": 33.14,
+          "end": 33.3,
+          "probability": 0.9950606226921082
+        },
+        {
+          "word": " people",
+          "start": 33.3,
+          "end": 33.54,
+          "probability": 0.9964970946311951
+        },
+        {
+          "word": " he",
+          "start": 33.54,
+          "end": 33.68,
+          "probability": 0.994638979434967
+        },
+        {
+          "word": " helped",
+          "start": 33.68,
+          "end": 34.02,
+          "probability": 0.9935107827186584
+        },
+        {
+          "word": " and",
+          "start": 34.02,
+          "end": 34.94,
+          "probability": 0.7113785743713379
+        },
+        {
+          "word": " the",
+          "start": 34.94,
+          "end": 35.1,
+          "probability": 0.9942228198051453
+        },
+        {
+          "word": " order",
+          "start": 35.1,
+          "end": 35.4,
+          "probability": 0.9446879625320435
+        },
+        {
+          "word": " he",
+          "start": 35.4,
+          "end": 35.72,
+          "probability": 0.9971964359283447
+        },
+        {
+          "word": " obeyed.",
+          "start": 35.72,
+          "end": 36.18,
+          "probability": 0.9990922808647156
+        }
+      ]
+    },
+    {
+      "start": 37.14,
+      "end": 41.18,
+      "text": " Truth is not a pardon, and the city has begun to understand the difference.",
+      "words": [
+        {
+          "word": " Truth",
+          "start": 37.14,
+          "end": 37.18,
+          "probability": 0.8940330147743225
+        },
+        {
+          "word": " is",
+          "start": 37.18,
+          "end": 37.54,
+          "probability": 0.9982739686965942
+        },
+        {
+          "word": " not",
+          "start": 37.54,
+          "end": 37.8,
+          "probability": 0.9988917708396912
+        },
+        {
+          "word": " a",
+          "start": 37.8,
+          "end": 37.98,
+          "probability": 0.9954609274864197
+        },
+        {
+          "word": " pardon,",
+          "start": 37.98,
+          "end": 38.3,
+          "probability": 0.9936946034431458
+        },
+        {
+          "word": " and",
+          "start": 39.02,
+          "end": 39.18,
+          "probability": 0.9953687191009521
+        },
+        {
+          "word": " the",
+          "start": 39.18,
+          "end": 39.34,
+          "probability": 0.9922785758972168
+        },
+        {
+          "word": " city",
+          "start": 39.34,
+          "end": 39.54,
+          "probability": 0.9537097811698914
+        },
+        {
+          "word": " has",
+          "start": 39.54,
+          "end": 39.82,
+          "probability": 0.9962041974067688
+        },
+        {
+          "word": " begun",
+          "start": 39.82,
+          "end": 40.06,
+          "probability": 0.9940447211265564
+        },
+        {
+          "word": " to",
+          "start": 40.06,
+          "end": 40.22,
+          "probability": 0.998749852180481
+        },
+        {
+          "word": " understand",
+          "start": 40.22,
+          "end": 40.6,
+          "probability": 0.9992545247077942
+        },
+        {
+          "word": " the",
+          "start": 40.6,
+          "end": 40.78,
+          "probability": 0.9989350438117981
+        },
+        {
+          "word": " difference.",
+          "start": 40.78,
+          "end": 41.18,
+          "probability": 0.9984195232391357
+        }
+      ]
+    },
+    {
+      "start": 41.94,
+      "end": 45.32,
+      "text": " Mara establishes duplicate archives on both sides of the water.",
+      "words": [
+        {
+          "word": " Mara",
+          "start": 41.94,
+          "end": 41.94,
+          "probability": 0.9485265016555786
+        },
+        {
+          "word": " establishes",
+          "start": 41.94,
+          "end": 42.66,
+          "probability": 0.9967954754829407
+        },
+        {
+          "word": " duplicate",
+          "start": 42.66,
+          "end": 43.12,
+          "probability": 0.9839394092559814
+        },
+        {
+          "word": " archives",
+          "start": 43.12,
+          "end": 43.76,
+          "probability": 0.9950888752937317
+        },
+        {
+          "word": " on",
+          "start": 43.76,
+          "end": 44.3,
+          "probability": 0.9941285848617554
+        },
+        {
+          "word": " both",
+          "start": 44.3,
+          "end": 44.48,
+          "probability": 0.9989894032478333
+        },
+        {
+          "word": " sides",
+          "start": 44.48,
+          "end": 44.74,
+          "probability": 0.9968421459197998
+        },
+        {
+          "word": " of",
+          "start": 44.74,
+          "end": 44.94,
+          "probability": 0.9988631010055542
+        },
+        {
+          "word": " the",
+          "start": 44.94,
+          "end": 45.02,
+          "probability": 0.9985476136207581
+        },
+        {
+          "word": " water.",
+          "start": 45.02,
+          "end": 45.32,
+          "probability": 0.9974013566970825
+        }
+      ]
+    },
+    {
+      "start": 46.5,
+      "end": 48.2,
+      "text": " Sarah prints the findings at cost.",
+      "words": [
+        {
+          "word": " Sarah",
+          "start": 46.5,
+          "end": 46.52,
+          "probability": 0.7576037049293518
+        },
+        {
+          "word": " prints",
+          "start": 46.52,
+          "end": 46.94,
+          "probability": 0.9928192496299744
+        },
+        {
+          "word": " the",
+          "start": 46.94,
+          "end": 47.18,
+          "probability": 0.9992380142211914
+        },
+        {
+          "word": " findings",
+          "start": 47.18,
+          "end": 47.56,
+          "probability": 0.9881641864776611
+        },
+        {
+          "word": " at",
+          "start": 47.56,
+          "end": 47.82,
+          "probability": 0.9964087605476379
+        },
+        {
+          "word": " cost.",
+          "start": 47.82,
+          "end": 48.2,
+          "probability": 0.9952549934387207
+        }
+      ]
+    },
+    {
+      "start": 49.3,
+      "end": 51.62,
+      "text": " Nadi carries the first public copies to the island.",
+      "words": [
+        {
+          "word": " Nadi",
+          "start": 49.3,
+          "end": 49.36,
+          "probability": 0.7662841975688934
+        },
+        {
+          "word": " carries",
+          "start": 49.36,
+          "end": 49.72,
+          "probability": 0.995827853679657
+        },
+        {
+          "word": " the",
+          "start": 49.72,
+          "end": 49.94,
+          "probability": 0.9989390969276428
+        },
+        {
+          "word": " first",
+          "start": 49.94,
+          "end": 50.18,
+          "probability": 0.9987372756004333
+        },
+        {
+          "word": " public",
+          "start": 50.18,
+          "end": 50.58,
+          "probability": 0.9971321821212769
+        },
+        {
+          "word": " copies",
+          "start": 50.58,
+          "end": 50.92,
+          "probability": 0.9914419054985046
+        },
+        {
+          "word": " to",
+          "start": 50.92,
+          "end": 51.18,
+          "probability": 0.9992334842681885
+        },
+        {
+          "word": " the",
+          "start": 51.18,
+          "end": 51.32,
+          "probability": 0.997982382774353
+        },
+        {
+          "word": " island.",
+          "start": 51.32,
+          "end": 51.62,
+          "probability": 0.9501951932907104
+        }
+      ]
+    },
+    {
+      "start": 51.62,
+      "end": 57.18,
+      "text": " And Ada restores the midnight signal, which sounds, without commanding anyone to be silent.",
+      "words": [
+        {
+          "word": " And",
+          "start": 51.62,
+          "end": 51.76,
+          "probability": 0.09312055259943008
+        },
+        {
+          "word": " Ada",
+          "start": 51.76,
+          "end": 52.68,
+          "probability": 0.511754035949707
+        },
+        {
+          "word": " restores",
+          "start": 52.68,
+          "end": 53.1,
+          "probability": 0.983178973197937
+        },
+        {
+          "word": " the",
+          "start": 53.1,
+          "end": 53.34,
+          "probability": 0.9921268224716187
+        },
+        {
+          "word": " midnight",
+          "start": 53.34,
+          "end": 53.66,
+          "probability": 0.8955511450767517
+        },
+        {
+          "word": " signal,",
+          "start": 53.66,
+          "end": 54.1,
+          "probability": 0.9851285219192505
+        },
+        {
+          "word": " which",
+          "start": 54.44,
+          "end": 54.56,
+          "probability": 0.9934201836585999
+        },
+        {
+          "word": " sounds,",
+          "start": 54.56,
+          "end": 54.94,
+          "probability": 0.9863260984420776
+        },
+        {
+          "word": " without",
+          "start": 55.34,
+          "end": 55.52,
+          "probability": 0.9917499423027039
+        },
+        {
+          "word": " commanding",
+          "start": 55.52,
+          "end": 55.96,
+          "probability": 0.9857044219970703
+        },
+        {
+          "word": " anyone",
+          "start": 55.96,
+          "end": 56.46,
+          "probability": 0.8940062522888184
+        },
+        {
+          "word": " to",
+          "start": 56.46,
+          "end": 56.7,
+          "probability": 0.8365252017974854
+        },
+        {
+          "word": " be",
+          "start": 56.7,
+          "end": 56.84,
+          "probability": 0.9989287257194519
+        },
+        {
+          "word": " silent.",
+          "start": 56.84,
+          "end": 57.18,
+          "probability": 0.9992320537567139
+        }
+      ]
+    },
+    {
+      "start": 57.98,
+      "end": 59.56,
+      "text": " You stay to teach two apprentices.",
+      "words": [
+        {
+          "word": " You",
+          "start": 57.98,
+          "end": 58.1,
+          "probability": 0.9232970476150513
+        },
+        {
+          "word": " stay",
+          "start": 58.1,
+          "end": 58.38,
+          "probability": 0.9786115288734436
+        },
+        {
+          "word": " to",
+          "start": 58.38,
+          "end": 58.62,
+          "probability": 0.9977249503135681
+        },
+        {
+          "word": " teach",
+          "start": 58.62,
+          "end": 58.8,
+          "probability": 0.9964790940284729
+        },
+        {
+          "word": " two",
+          "start": 58.8,
+          "end": 59.12,
+          "probability": 0.9861623048782349
+        },
+        {
+          "word": " apprentices.",
+          "start": 59.12,
+          "end": 59.56,
+          "probability": 0.9760103821754456
+        }
+      ]
+    },
+    {
+      "start": 60.4,
+      "end": 62.74,
+      "text": " One asks whether a repair ought to be invisible.",
+      "words": [
+        {
+          "word": " One",
+          "start": 60.4,
+          "end": 60.56,
+          "probability": 0.9489869475364685
+        },
+        {
+          "word": " asks",
+          "start": 60.56,
+          "end": 60.82,
+          "probability": 0.9919999837875366
+        },
+        {
+          "word": " whether",
+          "start": 60.82,
+          "end": 61.14,
+          "probability": 0.9830064177513123
+        },
+        {
+          "word": " a",
+          "start": 61.14,
+          "end": 61.56,
+          "probability": 0.9653959274291992
+        },
+        {
+          "word": " repair",
+          "start": 61.56,
+          "end": 61.9,
+          "probability": 0.895114541053772
+        },
+        {
+          "word": " ought",
+          "start": 61.9,
+          "end": 62.16,
+          "probability": 0.9940829873085022
+        },
+        {
+          "word": " to",
+          "start": 62.16,
+          "end": 62.3,
+          "probability": 0.9976590871810913
+        },
+        {
+          "word": " be",
+          "start": 62.3,
+          "end": 62.4,
+          "probability": 0.9989235997200012
+        },
+        {
+          "word": " invisible.",
+          "start": 62.4,
+          "end": 62.74,
+          "probability": 0.9962571859359741
+        }
+      ]
+    },
+    {
+      "start": 63.52,
+      "end": 65.2,
+      "text": " You hold the folio against the light.",
+      "words": [
+        {
+          "word": " You",
+          "start": 63.52,
+          "end": 63.7,
+          "probability": 0.9930938482284546
+        },
+        {
+          "word": " hold",
+          "start": 63.7,
+          "end": 63.92,
+          "probability": 0.9990198612213135
+        },
+        {
+          "word": " the",
+          "start": 63.92,
+          "end": 64.1,
+          "probability": 0.9975122213363647
+        },
+        {
+          "word": " folio",
+          "start": 64.1,
+          "end": 64.48,
+          "probability": 0.9937002062797546
+        },
+        {
+          "word": " against",
+          "start": 64.48,
+          "end": 64.76,
+          "probability": 0.9972487092018127
+        },
+        {
+          "word": " the",
+          "start": 64.76,
+          "end": 64.98,
+          "probability": 0.9978839755058289
+        },
+        {
+          "word": " light.",
+          "start": 64.98,
+          "end": 65.2,
+          "probability": 0.9910466074943542
+        }
+      ]
+    },
+    {
+      "start": 66.26,
+      "end": 69.88,
+      "text": " The seam shines, delicate and unmistakable.",
+      "words": [
+        {
+          "word": " The",
+          "start": 66.26,
+          "end": 66.4,
+          "probability": 0.9440352916717529
+        },
+        {
+          "word": " seam",
+          "start": 66.4,
+          "end": 66.74,
+          "probability": 0.9349409341812134
+        },
+        {
+          "word": " shines,",
+          "start": 66.74,
+          "end": 67.28,
+          "probability": 0.9947218894958496
+        },
+        {
+          "word": " delicate",
+          "start": 67.94,
+          "end": 68.4,
+          "probability": 0.9977896213531494
+        },
+        {
+          "word": " and",
+          "start": 68.4,
+          "end": 69.18,
+          "probability": 0.9178740382194519
+        },
+        {
+          "word": " unmistakable.",
+          "start": 69.18,
+          "end": 69.88,
+          "probability": 0.9943860173225403
+        }
+      ]
+    },
+    {
+      "start": 71.02,
+      "end": 74.26,
+      "text": " It ought to hold, you say, and it ought to tell the truth.",
+      "words": [
+        {
+          "word": " It",
+          "start": 71.02,
+          "end": 71.34,
+          "probability": 0.8542570471763611
+        },
+        {
+          "word": " ought",
+          "start": 71.34,
+          "end": 71.48,
+          "probability": 0.9928334951400757
+        },
+        {
+          "word": " to",
+          "start": 71.48,
+          "end": 71.68,
+          "probability": 0.9981829524040222
+        },
+        {
+          "word": " hold,",
+          "start": 71.68,
+          "end": 71.96,
+          "probability": 0.9943891167640686
+        },
+        {
+          "word": " you",
+          "start": 72.08,
+          "end": 72.18,
+          "probability": 0.997209370136261
+        },
+        {
+          "word": " say,",
+          "start": 72.18,
+          "end": 72.44,
+          "probability": 0.9987905621528625
+        },
+        {
+          "word": " and",
+          "start": 73.14,
+          "end": 73.26,
+          "probability": 0.9206287264823914
+        },
+        {
+          "word": " it",
+          "start": 73.26,
+          "end": 73.34,
+          "probability": 0.9938027858734131
+        },
+        {
+          "word": " ought",
+          "start": 73.34,
+          "end": 73.48,
+          "probability": 0.9962639212608337
+        },
+        {
+          "word": " to",
+          "start": 73.48,
+          "end": 73.64,
+          "probability": 0.9984657764434814
+        },
+        {
+          "word": " tell",
+          "start": 73.64,
+          "end": 73.78,
+          "probability": 0.9986041188240051
+        },
+        {
+          "word": " the",
+          "start": 73.78,
+          "end": 73.94,
+          "probability": 0.9972785115242004
+        },
+        {
+          "word": " truth.",
+          "start": 73.94,
+          "end": 74.26,
+          "probability": 0.9994534850120544
+        }
+      ]
+    },
+    {
+      "start": 75.6,
+      "end": 76.08,
+      "text": " The end.",
+      "words": [
+        {
+          "word": " The",
+          "start": 75.6,
+          "end": 75.84,
+          "probability": 0.8950424194335938
+        },
+        {
+          "word": " end.",
+          "start": 75.84,
+          "end": 76.08,
+          "probability": 0.42023053765296936
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "corrected",
+      "register",
+      "lies",
+      "open",
+      "beneath",
+      "the",
+      "archive",
+      "window",
+      "twenty",
+      "three",
+      "names",
+      "no",
+      "longer",
+      "a",
+      "number",
+      "in",
+      "the",
+      "margin",
+      "beside",
+      "tomas",
+      "vale's",
+      "entry",
+      "the",
+      "old",
+      "accusation",
+      "remains",
+      "visible",
+      "under",
+      "a",
+      "single",
+      "ruled",
+      "line",
+      "the",
+      "correction",
+      "cites",
+      "its",
+      "evidence",
+      "nobody",
+      "has",
+      "scraped",
+      "the",
+      "page",
+      "clean",
+      "rusk",
+      "is",
+      "removed",
+      "from",
+      "emergency",
+      "office",
+      "and",
+      "referred",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "with",
+      "the",
+      "original",
+      "records",
+      "elian",
+      "gives",
+      "testimony",
+      "without",
+      "a",
+      "promise",
+      "of",
+      "immunity",
+      "rowan's",
+      "account",
+      "includes",
+      "both",
+      "the",
+      "people",
+      "he",
+      "helped",
+      "and",
+      "the",
+      "order",
+      "he",
+      "obeyed",
+      "truth",
+      "is",
+      "not",
+      "a",
+      "pardon",
+      "and",
+      "the",
+      "city",
+      "has",
+      "begun",
+      "to",
+      "understand",
+      "the",
+      "difference",
+      "mara",
+      "establishes",
+      "duplicate",
+      "archives",
+      "on",
+      "both",
+      "sides",
+      "of",
+      "the",
+      "water",
+      "sera",
+      "prints",
+      "the",
+      "findings",
+      "at",
+      "cost",
+      "nadi",
+      "carries",
+      "the",
+      "first",
+      "public",
+      "copies",
+      "to",
+      "the",
+      "island",
+      "ada",
+      "restores",
+      "the",
+      "midnight",
+      "signal",
+      "which",
+      "sounds",
+      "without",
+      "commanding",
+      "anyone",
+      "to",
+      "be",
+      "silent",
+      "you",
+      "stay",
+      "to",
+      "teach",
+      "two",
+      "apprentices",
+      "one",
+      "asks",
+      "whether",
+      "a",
+      "repair",
+      "ought",
+      "to",
+      "be",
+      "invisible",
+      "you",
+      "hold",
+      "the",
+      "folio",
+      "against",
+      "the",
+      "light",
+      "the",
+      "seam",
+      "shines",
+      "delicate",
+      "and",
+      "unmistakable",
+      "it",
+      "ought",
+      "to",
+      "hold",
+      "you",
+      "say",
+      "and",
+      "it",
+      "ought",
+      "to",
+      "tell",
+      "the",
+      "truth",
+      "the",
+      "end"
+    ],
+    "observed_tokens": [
+      "the",
+      "corrected",
+      "register",
+      "lies",
+      "open",
+      "beneath",
+      "the",
+      "archive",
+      "window",
+      "23",
+      "names",
+      "no",
+      "longer",
+      "a",
+      "number",
+      "in",
+      "the",
+      "margin",
+      "beside",
+      "thomas",
+      "vail's",
+      "entry",
+      "the",
+      "old",
+      "accusation",
+      "remains",
+      "visible",
+      "under",
+      "a",
+      "single",
+      "rule",
+      "blind",
+      "the",
+      "correction",
+      "cites",
+      "evidence",
+      "nobody",
+      "has",
+      "scraped",
+      "the",
+      "page",
+      "clean",
+      "rusk",
+      "is",
+      "removed",
+      "from",
+      "emergency",
+      "office",
+      "and",
+      "referred",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "with",
+      "the",
+      "original",
+      "records",
+      "alien",
+      "gives",
+      "testimony",
+      "without",
+      "a",
+      "promise",
+      "of",
+      "immunity",
+      "rowan's",
+      "account",
+      "includes",
+      "both",
+      "the",
+      "people",
+      "he",
+      "helped",
+      "and",
+      "the",
+      "order",
+      "he",
+      "obeyed",
+      "truth",
+      "is",
+      "not",
+      "a",
+      "pardon",
+      "and",
+      "the",
+      "city",
+      "has",
+      "begun",
+      "to",
+      "understand",
+      "the",
+      "difference",
+      "mara",
+      "establishes",
+      "duplicate",
+      "archives",
+      "on",
+      "both",
+      "sides",
+      "of",
+      "the",
+      "water",
+      "sarah",
+      "prints",
+      "the",
+      "findings",
+      "at",
+      "cost",
+      "nadi",
+      "carries",
+      "the",
+      "first",
+      "public",
+      "copies",
+      "to",
+      "the",
+      "island",
+      "and",
+      "ada",
+      "restores",
+      "the",
+      "midnight",
+      "signal",
+      "which",
+      "sounds",
+      "without",
+      "commanding",
+      "anyone",
+      "to",
+      "be",
+      "silent",
+      "you",
+      "stay",
+      "to",
+      "teach",
+      "two",
+      "apprentices",
+      "one",
+      "asks",
+      "whether",
+      "a",
+      "repair",
+      "ought",
+      "to",
+      "be",
+      "invisible",
+      "you",
+      "hold",
+      "the",
+      "folio",
+      "against",
+      "the",
+      "light",
+      "the",
+      "seam",
+      "shines",
+      "delicate",
+      "and",
+      "unmistakable",
+      "it",
+      "ought",
+      "to",
+      "hold",
+      "you",
+      "say",
+      "and",
+      "it",
+      "ought",
+      "to",
+      "tell",
+      "the",
+      "truth",
+      "the",
+      "end"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 9,
+        "observed_start": 0,
+        "observed_end": 9,
+        "expected": [
+          "the",
+          "corrected",
+          "register",
+          "lies",
+          "open",
+          "beneath",
+          "the",
+          "archive",
+          "window"
+        ],
+        "observed": [
+          "the",
+          "corrected",
+          "register",
+          "lies",
+          "open",
+          "beneath",
+          "the",
+          "archive",
+          "window"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 9,
+        "expected_end": 11,
+        "observed_start": 9,
+        "observed_end": 10,
+        "expected": [
+          "twenty",
+          "three"
+        ],
+        "observed": [
+          "23"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 11,
+        "expected_end": 20,
+        "observed_start": 10,
+        "observed_end": 19,
+        "expected": [
+          "names",
+          "no",
+          "longer",
+          "a",
+          "number",
+          "in",
+          "the",
+          "margin",
+          "beside"
+        ],
+        "observed": [
+          "names",
+          "no",
+          "longer",
+          "a",
+          "number",
+          "in",
+          "the",
+          "margin",
+          "beside"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 20,
+        "expected_end": 22,
+        "observed_start": 19,
+        "observed_end": 21,
+        "expected": [
+          "tomas",
+          "vale's"
+        ],
+        "observed": [
+          "thomas",
+          "vail's"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 22,
+        "expected_end": 31,
+        "observed_start": 21,
+        "observed_end": 30,
+        "expected": [
+          "entry",
+          "the",
+          "old",
+          "accusation",
+          "remains",
+          "visible",
+          "under",
+          "a",
+          "single"
+        ],
+        "observed": [
+          "entry",
+          "the",
+          "old",
+          "accusation",
+          "remains",
+          "visible",
+          "under",
+          "a",
+          "single"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 31,
+        "expected_end": 33,
+        "observed_start": 30,
+        "observed_end": 32,
+        "expected": [
+          "ruled",
+          "line"
+        ],
+        "observed": [
+          "rule",
+          "blind"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 33,
+        "expected_end": 36,
+        "observed_start": 32,
+        "observed_end": 35,
+        "expected": [
+          "the",
+          "correction",
+          "cites"
+        ],
+        "observed": [
+          "the",
+          "correction",
+          "cites"
+        ]
+      },
+      {
+        "operation": "delete",
+        "expected_start": 36,
+        "expected_end": 37,
+        "observed_start": 35,
+        "observed_end": 35,
+        "expected": [
+          "its"
+        ],
+        "observed": []
+      },
+      {
+        "operation": "equal",
+        "expected_start": 37,
+        "expected_end": 60,
+        "observed_start": 35,
+        "observed_end": 58,
+        "expected": [
+          "evidence",
+          "nobody",
+          "has",
+          "scraped",
+          "the",
+          "page",
+          "clean",
+          "rusk",
+          "is",
+          "removed",
+          "from",
+          "emergency",
+          "office",
+          "and",
+          "referred",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "with",
+          "the",
+          "original",
+          "records"
+        ],
+        "observed": [
+          "evidence",
+          "nobody",
+          "has",
+          "scraped",
+          "the",
+          "page",
+          "clean",
+          "rusk",
+          "is",
+          "removed",
+          "from",
+          "emergency",
+          "office",
+          "and",
+          "referred",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "with",
+          "the",
+          "original",
+          "records"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 60,
+        "expected_end": 61,
+        "observed_start": 58,
+        "observed_end": 59,
+        "expected": [
+          "elian"
+        ],
+        "observed": [
+          "alien"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 61,
+        "expected_end": 105,
+        "observed_start": 59,
+        "observed_end": 103,
+        "expected": [
+          "gives",
+          "testimony",
+          "without",
+          "a",
+          "promise",
+          "of",
+          "immunity",
+          "rowan's",
+          "account",
+          "includes",
+          "both",
+          "the",
+          "people",
+          "he",
+          "helped",
+          "and",
+          "the",
+          "order",
+          "he",
+          "obeyed",
+          "truth",
+          "is",
+          "not",
+          "a",
+          "pardon",
+          "and",
+          "the",
+          "city",
+          "has",
+          "begun",
+          "to",
+          "understand",
+          "the",
+          "difference",
+          "mara",
+          "establishes",
+          "duplicate",
+          "archives",
+          "on",
+          "both",
+          "sides",
+          "of",
+          "the",
+          "water"
+        ],
+        "observed": [
+          "gives",
+          "testimony",
+          "without",
+          "a",
+          "promise",
+          "of",
+          "immunity",
+          "rowan's",
+          "account",
+          "includes",
+          "both",
+          "the",
+          "people",
+          "he",
+          "helped",
+          "and",
+          "the",
+          "order",
+          "he",
+          "obeyed",
+          "truth",
+          "is",
+          "not",
+          "a",
+          "pardon",
+          "and",
+          "the",
+          "city",
+          "has",
+          "begun",
+          "to",
+          "understand",
+          "the",
+          "difference",
+          "mara",
+          "establishes",
+          "duplicate",
+          "archives",
+          "on",
+          "both",
+          "sides",
+          "of",
+          "the",
+          "water"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 105,
+        "expected_end": 106,
+        "observed_start": 103,
+        "observed_end": 104,
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 106,
+        "expected_end": 120,
+        "observed_start": 104,
+        "observed_end": 118,
+        "expected": [
+          "prints",
+          "the",
+          "findings",
+          "at",
+          "cost",
+          "nadi",
+          "carries",
+          "the",
+          "first",
+          "public",
+          "copies",
+          "to",
+          "the",
+          "island"
+        ],
+        "observed": [
+          "prints",
+          "the",
+          "findings",
+          "at",
+          "cost",
+          "nadi",
+          "carries",
+          "the",
+          "first",
+          "public",
+          "copies",
+          "to",
+          "the",
+          "island"
+        ]
+      },
+      {
+        "operation": "insert",
+        "expected_start": 120,
+        "expected_end": 120,
+        "observed_start": 118,
+        "observed_end": 119,
+        "expected": [],
+        "observed": [
+          "and"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 120,
+        "expected_end": 176,
+        "observed_start": 119,
+        "observed_end": 175,
+        "expected": [
+          "ada",
+          "restores",
+          "the",
+          "midnight",
+          "signal",
+          "which",
+          "sounds",
+          "without",
+          "commanding",
+          "anyone",
+          "to",
+          "be",
+          "silent",
+          "you",
+          "stay",
+          "to",
+          "teach",
+          "two",
+          "apprentices",
+          "one",
+          "asks",
+          "whether",
+          "a",
+          "repair",
+          "ought",
+          "to",
+          "be",
+          "invisible",
+          "you",
+          "hold",
+          "the",
+          "folio",
+          "against",
+          "the",
+          "light",
+          "the",
+          "seam",
+          "shines",
+          "delicate",
+          "and",
+          "unmistakable",
+          "it",
+          "ought",
+          "to",
+          "hold",
+          "you",
+          "say",
+          "and",
+          "it",
+          "ought",
+          "to",
+          "tell",
+          "the",
+          "truth",
+          "the",
+          "end"
+        ],
+        "observed": [
+          "ada",
+          "restores",
+          "the",
+          "midnight",
+          "signal",
+          "which",
+          "sounds",
+          "without",
+          "commanding",
+          "anyone",
+          "to",
+          "be",
+          "silent",
+          "you",
+          "stay",
+          "to",
+          "teach",
+          "two",
+          "apprentices",
+          "one",
+          "asks",
+          "whether",
+          "a",
+          "repair",
+          "ought",
+          "to",
+          "be",
+          "invisible",
+          "you",
+          "hold",
+          "the",
+          "folio",
+          "against",
+          "the",
+          "light",
+          "the",
+          "seam",
+          "shines",
+          "delicate",
+          "and",
+          "unmistakable",
+          "it",
+          "ought",
+          "to",
+          "hold",
+          "you",
+          "say",
+          "and",
+          "it",
+          "ought",
+          "to",
+          "tell",
+          "the",
+          "truth",
+          "the",
+          "end"
+        ]
+      }
+    ],
+    "missing": [
+      "its"
+    ],
+    "extra": [
+      "and"
+    ],
+    "substitutions": [
+      {
+        "expected": [
+          "twenty",
+          "three"
+        ],
+        "observed": [
+          "23"
+        ],
+        "expected_start": 9,
+        "observed_start": 9
+      },
+      {
+        "expected": [
+          "tomas",
+          "vale's"
+        ],
+        "observed": [
+          "thomas",
+          "vail's"
+        ],
+        "expected_start": 20,
+        "observed_start": 19
+      },
+      {
+        "expected": [
+          "ruled",
+          "line"
+        ],
+        "observed": [
+          "rule",
+          "blind"
+        ],
+        "expected_start": 31,
+        "observed_start": 30
+      },
+      {
+        "expected": [
+          "elian"
+        ],
+        "observed": [
+          "alien"
+        ],
+        "expected_start": 60,
+        "observed_start": 58
+      },
+      {
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ],
+        "expected_start": 105,
+        "observed_start": 103
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 9:11.",
+      "Changed source words at expected tokens 20:22.",
+      "Changed source words at expected tokens 31:33.",
+      "Missing source words at expected tokens 36:37.",
+      "Changed source words at expected tokens 60:61.",
+      "Changed source words at expected tokens 105:106.",
+      "Extra spoken words at observed tokens 118:119."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

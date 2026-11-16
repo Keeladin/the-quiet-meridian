@@ -1,0 +1,983 @@
+{
+  "line_id": "sera_archive_r0",
+  "clip_id": "ad965c6267ec425fba5ba2a8452b89c9",
+  "source_text_sha256": "7aaa55926f2810f58a2d8d9f40ad37c5b666a844ea7e8de261d2349ad12fb712",
+  "master": "work/gateway-voice/masters/ad965c6267ec425fba5ba2a8452b89c9.wav",
+  "wav_sha256": "3103573dc7c72598c297c21f06a2a1f2001c5e8756b1457018e43956e2e11a34",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1008000,
+    "sample_count": 504000,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 21.0,
+    "peak": 0.58203125,
+    "peak_dbfs": -4.70107393799151,
+    "rms": 0.05676138379373452,
+    "rms_dbfs": -24.918940507188623,
+    "dc_offset": 8.202029031420511e-05,
+    "silence_fraction": 0.21583333333333332,
+    "leading_silence_seconds": 0.3767083333333333,
+    "tail_silence_seconds": 0.38033333333333336,
+    "active_span_seconds": 20.242958333333334,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 57,
+    "source_words_per_active_minute": 168.9476381704749,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "she",
+      "asked",
+      "how",
+      "many",
+      "copies",
+      "of",
+      "a",
+      "correction",
+      "would",
+      "make",
+      "it",
+      "difficult",
+      "to",
+      "suppress",
+      "i",
+      "said",
+      "one",
+      "good",
+      "copy",
+      "in",
+      "ten",
+      "different",
+      "places",
+      "is",
+      "stronger",
+      "than",
+      "ten",
+      "good",
+      "copies",
+      "in",
+      "one",
+      "cupboard",
+      "she",
+      "laughed",
+      "but",
+      "she",
+      "did",
+      "not",
+      "leave",
+      "me",
+      "a",
+      "manuscript",
+      "whatever",
+      "she",
+      "found",
+      "she",
+      "did",
+      "not",
+      "yet",
+      "think",
+      "it",
+      "was",
+      "ready",
+      "for",
+      "strangers",
+      "to",
+      "trust"
+    ],
+    "observed_tokens": [
+      "she",
+      "asked",
+      "how",
+      "many",
+      "copies",
+      "of",
+      "a",
+      "correction",
+      "would",
+      "make",
+      "it",
+      "difficult",
+      "to",
+      "suppress",
+      "i",
+      "said",
+      "one",
+      "good",
+      "copy",
+      "in",
+      "ten",
+      "different",
+      "places",
+      "is",
+      "stronger",
+      "than",
+      "ten",
+      "good",
+      "copies",
+      "in",
+      "one",
+      "cupboard",
+      "she",
+      "laughed",
+      "but",
+      "she",
+      "did",
+      "not",
+      "leave",
+      "me",
+      "a",
+      "manuscript",
+      "whatever",
+      "she",
+      "found",
+      "she",
+      "did",
+      "not",
+      "yet",
+      "think",
+      "it",
+      "was",
+      "ready",
+      "for",
+      "strangers",
+      "to",
+      "trust"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 57,
+        "observed_start": 0,
+        "observed_end": 57,
+        "expected": [
+          "she",
+          "asked",
+          "how",
+          "many",
+          "copies",
+          "of",
+          "a",
+          "correction",
+          "would",
+          "make",
+          "it",
+          "difficult",
+          "to",
+          "suppress",
+          "i",
+          "said",
+          "one",
+          "good",
+          "copy",
+          "in",
+          "ten",
+          "different",
+          "places",
+          "is",
+          "stronger",
+          "than",
+          "ten",
+          "good",
+          "copies",
+          "in",
+          "one",
+          "cupboard",
+          "she",
+          "laughed",
+          "but",
+          "she",
+          "did",
+          "not",
+          "leave",
+          "me",
+          "a",
+          "manuscript",
+          "whatever",
+          "she",
+          "found",
+          "she",
+          "did",
+          "not",
+          "yet",
+          "think",
+          "it",
+          "was",
+          "ready",
+          "for",
+          "strangers",
+          "to",
+          "trust"
+        ],
+        "observed": [
+          "she",
+          "asked",
+          "how",
+          "many",
+          "copies",
+          "of",
+          "a",
+          "correction",
+          "would",
+          "make",
+          "it",
+          "difficult",
+          "to",
+          "suppress",
+          "i",
+          "said",
+          "one",
+          "good",
+          "copy",
+          "in",
+          "ten",
+          "different",
+          "places",
+          "is",
+          "stronger",
+          "than",
+          "ten",
+          "good",
+          "copies",
+          "in",
+          "one",
+          "cupboard",
+          "she",
+          "laughed",
+          "but",
+          "she",
+          "did",
+          "not",
+          "leave",
+          "me",
+          "a",
+          "manuscript",
+          "whatever",
+          "she",
+          "found",
+          "she",
+          "did",
+          "not",
+          "yet",
+          "think",
+          "it",
+          "was",
+          "ready",
+          "for",
+          "strangers",
+          "to",
+          "trust"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "She asked how many copies of the correction would make it difficult to suppress. I said one good copy in ten different places is stronger than ten good copies in one cupboard. She laughed, but she did not leave me a manuscript. Whatever she found, she did not yet think it was ready for strangers to trust.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.6,
+      "text": " She asked how many copies of the correction would make it difficult to suppress.",
+      "words": [
+        {
+          "word": " She",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.8363185524940491
+        },
+        {
+          "word": " asked",
+          "start": 0.6,
+          "end": 0.9,
+          "probability": 0.9922971129417419
+        },
+        {
+          "word": " how",
+          "start": 0.9,
+          "end": 1.32,
+          "probability": 0.9787494540214539
+        },
+        {
+          "word": " many",
+          "start": 1.32,
+          "end": 1.54,
+          "probability": 0.9988929629325867
+        },
+        {
+          "word": " copies",
+          "start": 1.54,
+          "end": 2.04,
+          "probability": 0.996682345867157
+        },
+        {
+          "word": " of",
+          "start": 2.04,
+          "end": 2.3,
+          "probability": 0.9947302341461182
+        },
+        {
+          "word": " the",
+          "start": 2.3,
+          "end": 2.42,
+          "probability": 0.8322463631629944
+        },
+        {
+          "word": " correction",
+          "start": 2.42,
+          "end": 2.78,
+          "probability": 0.949836254119873
+        },
+        {
+          "word": " would",
+          "start": 2.78,
+          "end": 3.12,
+          "probability": 0.9962910413742065
+        },
+        {
+          "word": " make",
+          "start": 3.12,
+          "end": 3.36,
+          "probability": 0.9960424900054932
+        },
+        {
+          "word": " it",
+          "start": 3.36,
+          "end": 3.52,
+          "probability": 0.9977255463600159
+        },
+        {
+          "word": " difficult",
+          "start": 3.52,
+          "end": 3.9,
+          "probability": 0.9979324340820312
+        },
+        {
+          "word": " to",
+          "start": 3.9,
+          "end": 4.24,
+          "probability": 0.9953356385231018
+        },
+        {
+          "word": " suppress.",
+          "start": 4.24,
+          "end": 4.6,
+          "probability": 0.9899396300315857
+        }
+      ]
+    },
+    {
+      "start": 5.26,
+      "end": 11.36,
+      "text": " I said one good copy in ten different places is stronger than ten good copies in one cupboard.",
+      "words": [
+        {
+          "word": " I",
+          "start": 5.26,
+          "end": 5.34,
+          "probability": 0.9609010815620422
+        },
+        {
+          "word": " said",
+          "start": 5.34,
+          "end": 5.54,
+          "probability": 0.9908338189125061
+        },
+        {
+          "word": " one",
+          "start": 5.54,
+          "end": 5.8,
+          "probability": 0.9016794562339783
+        },
+        {
+          "word": " good",
+          "start": 5.8,
+          "end": 6.1,
+          "probability": 0.9907774925231934
+        },
+        {
+          "word": " copy",
+          "start": 6.1,
+          "end": 6.56,
+          "probability": 0.9984773993492126
+        },
+        {
+          "word": " in",
+          "start": 6.56,
+          "end": 6.88,
+          "probability": 0.954322874546051
+        },
+        {
+          "word": " ten",
+          "start": 6.88,
+          "end": 7.12,
+          "probability": 0.5511035323143005
+        },
+        {
+          "word": " different",
+          "start": 7.12,
+          "end": 7.52,
+          "probability": 0.9966022968292236
+        },
+        {
+          "word": " places",
+          "start": 7.52,
+          "end": 7.9,
+          "probability": 0.9981346130371094
+        },
+        {
+          "word": " is",
+          "start": 7.9,
+          "end": 8.24,
+          "probability": 0.9897997379302979
+        },
+        {
+          "word": " stronger",
+          "start": 8.24,
+          "end": 8.6,
+          "probability": 0.9972135424613953
+        },
+        {
+          "word": " than",
+          "start": 8.6,
+          "end": 8.96,
+          "probability": 0.9931632280349731
+        },
+        {
+          "word": " ten",
+          "start": 8.96,
+          "end": 9.42,
+          "probability": 0.957747757434845
+        },
+        {
+          "word": " good",
+          "start": 9.42,
+          "end": 9.78,
+          "probability": 0.9963074922561646
+        },
+        {
+          "word": " copies",
+          "start": 9.78,
+          "end": 10.32,
+          "probability": 0.9977455735206604
+        },
+        {
+          "word": " in",
+          "start": 10.32,
+          "end": 10.64,
+          "probability": 0.9976215958595276
+        },
+        {
+          "word": " one",
+          "start": 10.64,
+          "end": 10.92,
+          "probability": 0.9966251850128174
+        },
+        {
+          "word": " cupboard.",
+          "start": 10.92,
+          "end": 11.36,
+          "probability": 0.9655693173408508
+        }
+      ]
+    },
+    {
+      "start": 12.18,
+      "end": 15.32,
+      "text": " She laughed, but she did not leave me a manuscript.",
+      "words": [
+        {
+          "word": " She",
+          "start": 12.18,
+          "end": 12.44,
+          "probability": 0.9947752952575684
+        },
+        {
+          "word": " laughed,",
+          "start": 12.44,
+          "end": 12.76,
+          "probability": 0.9976982474327087
+        },
+        {
+          "word": " but",
+          "start": 13.3,
+          "end": 13.66,
+          "probability": 0.9976332187652588
+        },
+        {
+          "word": " she",
+          "start": 13.66,
+          "end": 13.84,
+          "probability": 0.9939946532249451
+        },
+        {
+          "word": " did",
+          "start": 13.84,
+          "end": 13.98,
+          "probability": 0.9857187867164612
+        },
+        {
+          "word": " not",
+          "start": 13.98,
+          "end": 14.18,
+          "probability": 0.9993120431900024
+        },
+        {
+          "word": " leave",
+          "start": 14.18,
+          "end": 14.46,
+          "probability": 0.9990952014923096
+        },
+        {
+          "word": " me",
+          "start": 14.46,
+          "end": 14.68,
+          "probability": 0.9959942102432251
+        },
+        {
+          "word": " a",
+          "start": 14.68,
+          "end": 14.82,
+          "probability": 0.9919857978820801
+        },
+        {
+          "word": " manuscript.",
+          "start": 14.82,
+          "end": 15.32,
+          "probability": 0.9973279237747192
+        }
+      ]
+    },
+    {
+      "start": 16.14,
+      "end": 20.4,
+      "text": " Whatever she found, she did not yet think it was ready for strangers to trust.",
+      "words": [
+        {
+          "word": " Whatever",
+          "start": 16.14,
+          "end": 16.34,
+          "probability": 0.9942500591278076
+        },
+        {
+          "word": " she",
+          "start": 16.34,
+          "end": 16.68,
+          "probability": 0.9943612813949585
+        },
+        {
+          "word": " found,",
+          "start": 16.68,
+          "end": 17.12,
+          "probability": 0.9972134232521057
+        },
+        {
+          "word": " she",
+          "start": 17.44,
+          "end": 17.56,
+          "probability": 0.9977415800094604
+        },
+        {
+          "word": " did",
+          "start": 17.56,
+          "end": 17.7,
+          "probability": 0.9900380373001099
+        },
+        {
+          "word": " not",
+          "start": 17.7,
+          "end": 17.92,
+          "probability": 0.9978119134902954
+        },
+        {
+          "word": " yet",
+          "start": 17.92,
+          "end": 18.16,
+          "probability": 0.9733448624610901
+        },
+        {
+          "word": " think",
+          "start": 18.16,
+          "end": 18.46,
+          "probability": 0.9971304535865784
+        },
+        {
+          "word": " it",
+          "start": 18.46,
+          "end": 18.68,
+          "probability": 0.989978551864624
+        },
+        {
+          "word": " was",
+          "start": 18.68,
+          "end": 18.84,
+          "probability": 0.9977025389671326
+        },
+        {
+          "word": " ready",
+          "start": 18.84,
+          "end": 19.08,
+          "probability": 0.9935280680656433
+        },
+        {
+          "word": " for",
+          "start": 19.08,
+          "end": 19.36,
+          "probability": 0.9985785484313965
+        },
+        {
+          "word": " strangers",
+          "start": 19.36,
+          "end": 19.7,
+          "probability": 0.9946499466896057
+        },
+        {
+          "word": " to",
+          "start": 19.7,
+          "end": 20.12,
+          "probability": 0.9993828535079956
+        },
+        {
+          "word": " trust.",
+          "start": 20.12,
+          "end": 20.4,
+          "probability": 0.9993258714675903
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "she",
+      "asked",
+      "how",
+      "many",
+      "copies",
+      "of",
+      "a",
+      "correction",
+      "would",
+      "make",
+      "it",
+      "difficult",
+      "to",
+      "suppress",
+      "i",
+      "said",
+      "one",
+      "good",
+      "copy",
+      "in",
+      "ten",
+      "different",
+      "places",
+      "is",
+      "stronger",
+      "than",
+      "ten",
+      "good",
+      "copies",
+      "in",
+      "one",
+      "cupboard",
+      "she",
+      "laughed",
+      "but",
+      "she",
+      "did",
+      "not",
+      "leave",
+      "me",
+      "a",
+      "manuscript",
+      "whatever",
+      "she",
+      "found",
+      "she",
+      "did",
+      "not",
+      "yet",
+      "think",
+      "it",
+      "was",
+      "ready",
+      "for",
+      "strangers",
+      "to",
+      "trust"
+    ],
+    "observed_tokens": [
+      "she",
+      "asked",
+      "how",
+      "many",
+      "copies",
+      "of",
+      "the",
+      "correction",
+      "would",
+      "make",
+      "it",
+      "difficult",
+      "to",
+      "suppress",
+      "i",
+      "said",
+      "one",
+      "good",
+      "copy",
+      "in",
+      "ten",
+      "different",
+      "places",
+      "is",
+      "stronger",
+      "than",
+      "ten",
+      "good",
+      "copies",
+      "in",
+      "one",
+      "cupboard",
+      "she",
+      "laughed",
+      "but",
+      "she",
+      "did",
+      "not",
+      "leave",
+      "me",
+      "a",
+      "manuscript",
+      "whatever",
+      "she",
+      "found",
+      "she",
+      "did",
+      "not",
+      "yet",
+      "think",
+      "it",
+      "was",
+      "ready",
+      "for",
+      "strangers",
+      "to",
+      "trust"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "she",
+          "asked",
+          "how",
+          "many",
+          "copies",
+          "of"
+        ],
+        "observed": [
+          "she",
+          "asked",
+          "how",
+          "many",
+          "copies",
+          "of"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 6,
+        "expected_end": 7,
+        "observed_start": 6,
+        "observed_end": 7,
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 7,
+        "expected_end": 57,
+        "observed_start": 7,
+        "observed_end": 57,
+        "expected": [
+          "correction",
+          "would",
+          "make",
+          "it",
+          "difficult",
+          "to",
+          "suppress",
+          "i",
+          "said",
+          "one",
+          "good",
+          "copy",
+          "in",
+          "ten",
+          "different",
+          "places",
+          "is",
+          "stronger",
+          "than",
+          "ten",
+          "good",
+          "copies",
+          "in",
+          "one",
+          "cupboard",
+          "she",
+          "laughed",
+          "but",
+          "she",
+          "did",
+          "not",
+          "leave",
+          "me",
+          "a",
+          "manuscript",
+          "whatever",
+          "she",
+          "found",
+          "she",
+          "did",
+          "not",
+          "yet",
+          "think",
+          "it",
+          "was",
+          "ready",
+          "for",
+          "strangers",
+          "to",
+          "trust"
+        ],
+        "observed": [
+          "correction",
+          "would",
+          "make",
+          "it",
+          "difficult",
+          "to",
+          "suppress",
+          "i",
+          "said",
+          "one",
+          "good",
+          "copy",
+          "in",
+          "ten",
+          "different",
+          "places",
+          "is",
+          "stronger",
+          "than",
+          "ten",
+          "good",
+          "copies",
+          "in",
+          "one",
+          "cupboard",
+          "she",
+          "laughed",
+          "but",
+          "she",
+          "did",
+          "not",
+          "leave",
+          "me",
+          "a",
+          "manuscript",
+          "whatever",
+          "she",
+          "found",
+          "she",
+          "did",
+          "not",
+          "yet",
+          "think",
+          "it",
+          "was",
+          "ready",
+          "for",
+          "strangers",
+          "to",
+          "trust"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ],
+        "expected_start": 6,
+        "observed_start": 6
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 6:7."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

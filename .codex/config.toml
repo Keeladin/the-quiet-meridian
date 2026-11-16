@@ -1,0 +1,5 @@
+# Project-scoped preferences; global defaults are unchanged; only this folder is registered as trusted.
+model = "gpt-6-astra"
+model_reasoning_effort = "xhigh"
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"

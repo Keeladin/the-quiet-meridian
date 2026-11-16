@@ -1,0 +1,781 @@
+{
+  "created_utc": "2026-11-14T11:22:12.437397+00:00",
+  "script_id": "mara_refuge_r0",
+  "source_text_sha256": "cda31d0a99e724fb1f3488d59069716cace6b509531960347683a74608a196bd",
+  "audio": "work/voice-auditions/mara_refuge_r0-56e17e6bda42440c93a80b5508e108e5/candidate.wav",
+  "audio_sha256": "879fd147f49f7903c1d4c6729929113f9296d4ed925dddb51d59f7505f6929ac",
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+    "license": "MIT",
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 1330,
+        "sha256": "c87ff776137c2ecb30ee3b324b4cf5f38abf9423464613641ee45430bf580851"
+      },
+      {
+        "name": "config.json",
+        "bytes": 2657,
+        "sha256": "666a9605530ac1f61fa8177f3702b4dacec9966749e42610839fcc32661d5fae"
+      },
+      {
+        "name": "model.bin",
+        "bytes": 483545366,
+        "sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 2128466,
+        "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df"
+      },
+      {
+        "name": "vocabulary.txt",
+        "bytes": 422309,
+        "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf"
+      },
+      {
+        "name": "LICENSE.openai-whisper",
+        "bytes": 1063,
+        "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+      },
+      {
+        "name": "LICENSE.faster-whisper",
+        "bytes": 1064,
+        "sha256": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5"
+      }
+    ]
+  },
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.9.0",
+    "av": "16.0.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "onnxruntime": "1.32.0"
+  },
+  "transcription": {
+    "text": "I thought you would understand the letter. Then I thought another letter would lead someone here. Each explanation made the next day of silence easier to justify. I frightened you because I was frightened, and because being useful felt safer than admitting I needed help. I can explain it. I cannot turn that explanation into something you owed me. You",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.16,
+        "text": " I thought you would understand the letter. Then I thought another letter would lead someone",
+        "avg_logprob": -0.14657590905825296,
+        "no_speech_probability": 0.0650971308350563,
+        "compression_ratio": 1.6730769230769231,
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.16,
+            "word": " I",
+            "probability": 0.5980888605117798
+          },
+          {
+            "start": 1.16,
+            "end": 1.34,
+            "word": " thought",
+            "probability": 0.9787705540657043
+          },
+          {
+            "start": 1.34,
+            "end": 1.54,
+            "word": " you",
+            "probability": 0.9949023723602295
+          },
+          {
+            "start": 1.54,
+            "end": 1.66,
+            "word": " would",
+            "probability": 0.9918174147605896
+          },
+          {
+            "start": 1.66,
+            "end": 2.1,
+            "word": " understand",
+            "probability": 0.9984021782875061
+          },
+          {
+            "start": 2.1,
+            "end": 2.32,
+            "word": " the",
+            "probability": 0.9895329475402832
+          },
+          {
+            "start": 2.32,
+            "end": 2.58,
+            "word": " letter.",
+            "probability": 0.9824938178062439
+          },
+          {
+            "start": 2.94,
+            "end": 3.2,
+            "word": " Then",
+            "probability": 0.9904087781906128
+          },
+          {
+            "start": 3.2,
+            "end": 3.36,
+            "word": " I",
+            "probability": 0.9596826434135437
+          },
+          {
+            "start": 3.36,
+            "end": 3.58,
+            "word": " thought",
+            "probability": 0.9934936165809631
+          },
+          {
+            "start": 3.58,
+            "end": 4.04,
+            "word": " another",
+            "probability": 0.9892210364341736
+          },
+          {
+            "start": 4.04,
+            "end": 4.34,
+            "word": " letter",
+            "probability": 0.9982105493545532
+          },
+          {
+            "start": 4.34,
+            "end": 4.6,
+            "word": " would",
+            "probability": 0.9975426197052002
+          },
+          {
+            "start": 4.6,
+            "end": 4.84,
+            "word": " lead",
+            "probability": 0.9943978786468506
+          },
+          {
+            "start": 4.84,
+            "end": 5.16,
+            "word": " someone",
+            "probability": 0.9513452053070068
+          }
+        ]
+      },
+      {
+        "start": 5.16,
+        "end": 11.28,
+        "text": " here. Each explanation made the next day of silence easier to justify. I frightened you",
+        "avg_logprob": -0.14657590905825296,
+        "no_speech_probability": 0.0650971308350563,
+        "compression_ratio": 1.6730769230769231,
+        "words": [
+          {
+            "start": 5.16,
+            "end": 5.54,
+            "word": " here.",
+            "probability": 0.9975650310516357
+          },
+          {
+            "start": 6.02,
+            "end": 6.2,
+            "word": " Each",
+            "probability": 0.9893286824226379
+          },
+          {
+            "start": 6.2,
+            "end": 6.84,
+            "word": " explanation",
+            "probability": 0.9891613125801086
+          },
+          {
+            "start": 6.84,
+            "end": 7.34,
+            "word": " made",
+            "probability": 0.9977235198020935
+          },
+          {
+            "start": 7.34,
+            "end": 7.56,
+            "word": " the",
+            "probability": 0.9959012866020203
+          },
+          {
+            "start": 7.56,
+            "end": 7.82,
+            "word": " next",
+            "probability": 0.9988229870796204
+          },
+          {
+            "start": 7.82,
+            "end": 8.1,
+            "word": " day",
+            "probability": 0.9985425472259521
+          },
+          {
+            "start": 8.1,
+            "end": 8.3,
+            "word": " of",
+            "probability": 0.9960869550704956
+          },
+          {
+            "start": 8.3,
+            "end": 8.76,
+            "word": " silence",
+            "probability": 0.9937248826026917
+          },
+          {
+            "start": 8.76,
+            "end": 9.22,
+            "word": " easier",
+            "probability": 0.9986081719398499
+          },
+          {
+            "start": 9.22,
+            "end": 9.48,
+            "word": " to",
+            "probability": 0.9995610117912292
+          },
+          {
+            "start": 9.48,
+            "end": 10.02,
+            "word": " justify.",
+            "probability": 0.9994254112243652
+          },
+          {
+            "start": 10.5,
+            "end": 10.64,
+            "word": " I",
+            "probability": 0.9481882452964783
+          },
+          {
+            "start": 10.64,
+            "end": 10.96,
+            "word": " frightened",
+            "probability": 0.9862942099571228
+          },
+          {
+            "start": 10.96,
+            "end": 11.28,
+            "word": " you",
+            "probability": 0.9984363913536072
+          }
+        ]
+      },
+      {
+        "start": 11.28,
+        "end": 16.78,
+        "text": " because I was frightened, and because being useful felt safer than admitting I needed",
+        "avg_logprob": -0.14657590905825296,
+        "no_speech_probability": 0.0650971308350563,
+        "compression_ratio": 1.6730769230769231,
+        "words": [
+          {
+            "start": 11.28,
+            "end": 11.6,
+            "word": " because",
+            "probability": 0.9515395164489746
+          },
+          {
+            "start": 11.6,
+            "end": 11.94,
+            "word": " I",
+            "probability": 0.9944525361061096
+          },
+          {
+            "start": 11.94,
+            "end": 12.14,
+            "word": " was",
+            "probability": 0.9991351962089539
+          },
+          {
+            "start": 12.14,
+            "end": 12.52,
+            "word": " frightened,",
+            "probability": 0.9983022212982178
+          },
+          {
+            "start": 12.9,
+            "end": 13.14,
+            "word": " and",
+            "probability": 0.9957109689712524
+          },
+          {
+            "start": 13.14,
+            "end": 13.52,
+            "word": " because",
+            "probability": 0.9707419276237488
+          },
+          {
+            "start": 13.52,
+            "end": 13.96,
+            "word": " being",
+            "probability": 0.9706392288208008
+          },
+          {
+            "start": 13.96,
+            "end": 14.58,
+            "word": " useful",
+            "probability": 0.9956973791122437
+          },
+          {
+            "start": 14.58,
+            "end": 15.1,
+            "word": " felt",
+            "probability": 0.9638634920120239
+          },
+          {
+            "start": 15.1,
+            "end": 15.52,
+            "word": " safer",
+            "probability": 0.9994245767593384
+          },
+          {
+            "start": 15.52,
+            "end": 15.82,
+            "word": " than",
+            "probability": 0.9966608285903931
+          },
+          {
+            "start": 15.82,
+            "end": 16.18,
+            "word": " admitting",
+            "probability": 0.998938262462616
+          },
+          {
+            "start": 16.18,
+            "end": 16.48,
+            "word": " I",
+            "probability": 0.9934699535369873
+          },
+          {
+            "start": 16.48,
+            "end": 16.78,
+            "word": " needed",
+            "probability": 0.9988219141960144
+          }
+        ]
+      },
+      {
+        "start": 16.78,
+        "end": 23.28,
+        "text": " help. I can explain it. I cannot turn that explanation into something you owed me.",
+        "avg_logprob": -0.14657590905825296,
+        "no_speech_probability": 0.0650971308350563,
+        "compression_ratio": 1.6730769230769231,
+        "words": [
+          {
+            "start": 16.78,
+            "end": 17.12,
+            "word": " help.",
+            "probability": 0.998856782913208
+          },
+          {
+            "start": 17.52,
+            "end": 17.78,
+            "word": " I",
+            "probability": 0.9964774250984192
+          },
+          {
+            "start": 17.78,
+            "end": 18.1,
+            "word": " can",
+            "probability": 0.915777325630188
+          },
+          {
+            "start": 18.1,
+            "end": 18.58,
+            "word": " explain",
+            "probability": 0.8840516805648804
+          },
+          {
+            "start": 18.58,
+            "end": 18.88,
+            "word": " it.",
+            "probability": 0.9987993240356445
+          },
+          {
+            "start": 19.22,
+            "end": 19.44,
+            "word": " I",
+            "probability": 0.9972659349441528
+          },
+          {
+            "start": 19.44,
+            "end": 19.76,
+            "word": " cannot",
+            "probability": 0.9880735278129578
+          },
+          {
+            "start": 19.76,
+            "end": 20.16,
+            "word": " turn",
+            "probability": 0.9994754195213318
+          },
+          {
+            "start": 20.16,
+            "end": 20.46,
+            "word": " that",
+            "probability": 0.9972447156906128
+          },
+          {
+            "start": 20.46,
+            "end": 21.16,
+            "word": " explanation",
+            "probability": 0.993872880935669
+          },
+          {
+            "start": 21.16,
+            "end": 21.84,
+            "word": " into",
+            "probability": 0.9966006875038147
+          },
+          {
+            "start": 21.84,
+            "end": 22.3,
+            "word": " something",
+            "probability": 0.9993323683738708
+          },
+          {
+            "start": 22.3,
+            "end": 22.7,
+            "word": " you",
+            "probability": 0.9845672845840454
+          },
+          {
+            "start": 22.7,
+            "end": 22.92,
+            "word": " owed",
+            "probability": 0.9796323180198669
+          },
+          {
+            "start": 22.92,
+            "end": 23.28,
+            "word": " me.",
+            "probability": 0.9973326921463013
+          }
+        ]
+      },
+      {
+        "start": 30.200000000000003,
+        "end": 31.6,
+        "text": " You",
+        "avg_logprob": -0.6899412721395493,
+        "no_speech_probability": 0.829711377620697,
+        "compression_ratio": 0.2727272727272727,
+        "words": [
+          {
+            "start": 30.200000000000003,
+            "end": 31.6,
+            "word": " You",
+            "probability": 0.0967320129275322
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "language_probability": 1,
+    "decoded_duration_seconds": 31.62,
+    "settings": {
+      "device": "cpu",
+      "compute_type": "int8",
+      "cpu_threads": 4,
+      "beam_size": 5,
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "initial_prompt": null,
+      "prefix": null,
+      "hotwords": null,
+      "vad_filter": false,
+      "word_timestamps": true,
+      "local_files_only": true,
+      "offline_environment": true
+    }
+  },
+  "comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "i",
+      "thought",
+      "you",
+      "would",
+      "understand",
+      "the",
+      "letter",
+      "then",
+      "i",
+      "thought",
+      "another",
+      "letter",
+      "would",
+      "lead",
+      "someone",
+      "here",
+      "each",
+      "explanation",
+      "made",
+      "the",
+      "next",
+      "day",
+      "of",
+      "silence",
+      "easier",
+      "to",
+      "justify",
+      "i",
+      "frightened",
+      "you",
+      "because",
+      "i",
+      "was",
+      "frightened",
+      "and",
+      "because",
+      "being",
+      "useful",
+      "felt",
+      "safer",
+      "than",
+      "admitting",
+      "i",
+      "needed",
+      "help",
+      "i",
+      "can",
+      "explain",
+      "it",
+      "i",
+      "cannot",
+      "turn",
+      "that",
+      "explanation",
+      "into",
+      "something",
+      "you",
+      "owed",
+      "me"
+    ],
+    "observed_tokens": [
+      "i",
+      "thought",
+      "you",
+      "would",
+      "understand",
+      "the",
+      "letter",
+      "then",
+      "i",
+      "thought",
+      "another",
+      "letter",
+      "would",
+      "lead",
+      "someone",
+      "here",
+      "each",
+      "explanation",
+      "made",
+      "the",
+      "next",
+      "day",
+      "of",
+      "silence",
+      "easier",
+      "to",
+      "justify",
+      "i",
+      "frightened",
+      "you",
+      "because",
+      "i",
+      "was",
+      "frightened",
+      "and",
+      "because",
+      "being",
+      "useful",
+      "felt",
+      "safer",
+      "than",
+      "admitting",
+      "i",
+      "needed",
+      "help",
+      "i",
+      "can",
+      "explain",
+      "it",
+      "i",
+      "cannot",
+      "turn",
+      "that",
+      "explanation",
+      "into",
+      "something",
+      "you",
+      "owed",
+      "me",
+      "you"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 59,
+        "observed_start": 0,
+        "observed_end": 59,
+        "expected": [
+          "i",
+          "thought",
+          "you",
+          "would",
+          "understand",
+          "the",
+          "letter",
+          "then",
+          "i",
+          "thought",
+          "another",
+          "letter",
+          "would",
+          "lead",
+          "someone",
+          "here",
+          "each",
+          "explanation",
+          "made",
+          "the",
+          "next",
+          "day",
+          "of",
+          "silence",
+          "easier",
+          "to",
+          "justify",
+          "i",
+          "frightened",
+          "you",
+          "because",
+          "i",
+          "was",
+          "frightened",
+          "and",
+          "because",
+          "being",
+          "useful",
+          "felt",
+          "safer",
+          "than",
+          "admitting",
+          "i",
+          "needed",
+          "help",
+          "i",
+          "can",
+          "explain",
+          "it",
+          "i",
+          "cannot",
+          "turn",
+          "that",
+          "explanation",
+          "into",
+          "something",
+          "you",
+          "owed",
+          "me"
+        ],
+        "observed": [
+          "i",
+          "thought",
+          "you",
+          "would",
+          "understand",
+          "the",
+          "letter",
+          "then",
+          "i",
+          "thought",
+          "another",
+          "letter",
+          "would",
+          "lead",
+          "someone",
+          "here",
+          "each",
+          "explanation",
+          "made",
+          "the",
+          "next",
+          "day",
+          "of",
+          "silence",
+          "easier",
+          "to",
+          "justify",
+          "i",
+          "frightened",
+          "you",
+          "because",
+          "i",
+          "was",
+          "frightened",
+          "and",
+          "because",
+          "being",
+          "useful",
+          "felt",
+          "safer",
+          "than",
+          "admitting",
+          "i",
+          "needed",
+          "help",
+          "i",
+          "can",
+          "explain",
+          "it",
+          "i",
+          "cannot",
+          "turn",
+          "that",
+          "explanation",
+          "into",
+          "something",
+          "you",
+          "owed",
+          "me"
+        ]
+      },
+      {
+        "operation": "insert",
+        "expected_start": 59,
+        "expected_end": 59,
+        "observed_start": 59,
+        "observed_end": 60,
+        "expected": [],
+        "observed": [
+          "you"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [
+      "you"
+    ],
+    "substitutions": [],
+    "reasons": [
+      "Extra spoken words at observed tokens 59:60."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "status": "asr_mismatch_hold",
+  "accepted_for_game": false,
+  "human_listening_required": true,
+  "paid_api_calls": 0,
+  "limitations": [
+    "A separate ASR pass is evidence, not a guarantee that every spoken word is correct.",
+    "Fictional names and punctuation/numbers can be misrecognized. No names, source text or phonetic hints were supplied to ASR; no mismatch is automatically corrected.",
+    "Segment/word timestamps describe ASR recognition and are not approved subtitle timing or forced alignment of the source script.",
+    "Listen to the complete recording against the script, including its opening and fully released final word; record mismatch resolutions explicitly.",
+    "User audition approval remains required before full-batch voice production."
+  ]
+}

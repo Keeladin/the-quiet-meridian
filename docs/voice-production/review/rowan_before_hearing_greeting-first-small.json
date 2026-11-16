@@ -1,0 +1,386 @@
+{
+  "line_id": "rowan_before_hearing_greeting",
+  "clip_id": "a441dd9407264b27a3e4324ed984353f",
+  "source_text_sha256": "d637c8449002dcd3dc18ea9b3595f9a761027f31bce4e21957736721cc5745e2",
+  "master": "work/gateway-voice/masters/a441dd9407264b27a3e4324ed984353f.wav",
+  "wav_sha256": "6f407280d3134315deb3dddb0738f44135c3696d80bc4b17cc29ef0c212ae8f0",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 359040,
+    "sample_count": 179520,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 7.48,
+    "peak": 0.63671875,
+    "peak_dbfs": -3.9210472181578346,
+    "rms": 0.05970374870096425,
+    "rms_dbfs": -24.47996798745248,
+    "dc_offset": 0.00014180780094575116,
+    "silence_fraction": 0.25020610516934044,
+    "leading_silence_seconds": 0.412875,
+    "tail_silence_seconds": 0.012291666666666666,
+    "active_span_seconds": 7.054833333333334,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 16,
+    "source_words_per_active_minute": 136.0769212596565,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "rowan",
+      "reads",
+      "his",
+      "corrected",
+      "statement",
+      "once",
+      "more",
+      "the",
+      "crossed",
+      "out",
+      "sentence",
+      "remains",
+      "visible",
+      "on",
+      "the",
+      "page"
+    ],
+    "observed_tokens": [
+      "rowan",
+      "reads",
+      "his",
+      "corrected",
+      "statement",
+      "once",
+      "more",
+      "the",
+      "crossed",
+      "out",
+      "sentence",
+      "remains",
+      "visible",
+      "on",
+      "the",
+      "page"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 16,
+        "observed_start": 0,
+        "observed_end": 16,
+        "expected": [
+          "rowan",
+          "reads",
+          "his",
+          "corrected",
+          "statement",
+          "once",
+          "more",
+          "the",
+          "crossed",
+          "out",
+          "sentence",
+          "remains",
+          "visible",
+          "on",
+          "the",
+          "page"
+        ],
+        "observed": [
+          "rowan",
+          "reads",
+          "his",
+          "corrected",
+          "statement",
+          "once",
+          "more",
+          "the",
+          "crossed",
+          "out",
+          "sentence",
+          "remains",
+          "visible",
+          "on",
+          "the",
+          "page"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Rohn reads his corrected statement once more. The crossed-out sentence remains visible on the page.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.94,
+      "text": " Rohn reads his corrected statement once more.",
+      "words": [
+        {
+          "word": " Rohn",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.6494182646274567
+        },
+        {
+          "word": " reads",
+          "start": 0.68,
+          "end": 1.08,
+          "probability": 0.9874474406242371
+        },
+        {
+          "word": " his",
+          "start": 1.08,
+          "end": 1.36,
+          "probability": 0.9981797933578491
+        },
+        {
+          "word": " corrected",
+          "start": 1.36,
+          "end": 1.7,
+          "probability": 0.9884564876556396
+        },
+        {
+          "word": " statement",
+          "start": 1.7,
+          "end": 2.24,
+          "probability": 0.9968948364257812
+        },
+        {
+          "word": " once",
+          "start": 2.24,
+          "end": 2.54,
+          "probability": 0.9922934770584106
+        },
+        {
+          "word": " more.",
+          "start": 2.54,
+          "end": 2.94,
+          "probability": 0.9995688796043396
+        }
+      ]
+    },
+    {
+      "start": 3.78,
+      "end": 6.82,
+      "text": " The crossed-out sentence remains visible on the page.",
+      "words": [
+        {
+          "word": " The",
+          "start": 3.78,
+          "end": 3.88,
+          "probability": 0.9864604473114014
+        },
+        {
+          "word": " crossed",
+          "start": 3.88,
+          "end": 4.18,
+          "probability": 0.9799622297286987
+        },
+        {
+          "word": "-out",
+          "start": 4.18,
+          "end": 4.42,
+          "probability": 0.810592919588089
+        },
+        {
+          "word": " sentence",
+          "start": 4.42,
+          "end": 4.96,
+          "probability": 0.9963175058364868
+        },
+        {
+          "word": " remains",
+          "start": 4.96,
+          "end": 5.6,
+          "probability": 0.9968929290771484
+        },
+        {
+          "word": " visible",
+          "start": 5.6,
+          "end": 6.1,
+          "probability": 0.998752236366272
+        },
+        {
+          "word": " on",
+          "start": 6.1,
+          "end": 6.38,
+          "probability": 0.9988549947738647
+        },
+        {
+          "word": " the",
+          "start": 6.38,
+          "end": 6.5,
+          "probability": 0.9992116689682007
+        },
+        {
+          "word": " page.",
+          "start": 6.5,
+          "end": 6.82,
+          "probability": 0.9990980625152588
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "rowan",
+      "reads",
+      "his",
+      "corrected",
+      "statement",
+      "once",
+      "more",
+      "the",
+      "crossed",
+      "out",
+      "sentence",
+      "remains",
+      "visible",
+      "on",
+      "the",
+      "page"
+    ],
+    "observed_tokens": [
+      "rohn",
+      "reads",
+      "his",
+      "corrected",
+      "statement",
+      "once",
+      "more",
+      "the",
+      "crossed",
+      "out",
+      "sentence",
+      "remains",
+      "visible",
+      "on",
+      "the",
+      "page"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 1,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "rowan"
+        ],
+        "observed": [
+          "rohn"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 1,
+        "expected_end": 16,
+        "observed_start": 1,
+        "observed_end": 16,
+        "expected": [
+          "reads",
+          "his",
+          "corrected",
+          "statement",
+          "once",
+          "more",
+          "the",
+          "crossed",
+          "out",
+          "sentence",
+          "remains",
+          "visible",
+          "on",
+          "the",
+          "page"
+        ],
+        "observed": [
+          "reads",
+          "his",
+          "corrected",
+          "statement",
+          "once",
+          "more",
+          "the",
+          "crossed",
+          "out",
+          "sentence",
+          "remains",
+          "visible",
+          "on",
+          "the",
+          "page"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "rowan"
+        ],
+        "observed": [
+          "rohn"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:1."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

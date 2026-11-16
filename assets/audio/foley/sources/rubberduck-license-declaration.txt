@@ -1,0 +1,7 @@
+License declaration record, checked 14 November 2026
+Creator: rubberduck
+Title: 100 CC0 SFX #2
+Author page: https://opengameart.org/content/100-cc0-sfx-2
+The author page lists License(s): CC0 and describes the pack as "another pack with 100 CC0 sfx".
+CC0 1.0 public-domain dedication: https://creativecommons.org/publicdomain/zero/1.0/
+The downloaded archive contains no separate license file. This is a project-maintained record of the author page, not an invented upstream license file.

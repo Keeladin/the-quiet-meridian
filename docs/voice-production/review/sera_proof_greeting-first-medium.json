@@ -1,0 +1,484 @@
+{
+  "line_id": "sera_proof_greeting",
+  "clip_id": "880000276d4d49eba030c850d9e7d6cb",
+  "source_text_sha256": "41ee04f830ee9accced393797241d7dfaf1024a18dc4724dcfb8b7c235f49012",
+  "master": "work/gateway-voice/masters/880000276d4d49eba030c850d9e7d6cb.wav",
+  "wav_sha256": "257cdeb1ed6d66ca30b63918b071c0c16045089587681afbd098ab56693b4053",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 432000,
+    "sample_count": 216000,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 9.0,
+    "peak": 0.50390625,
+    "peak_dbfs": -5.953005100252011,
+    "rms": 0.05692994561385653,
+    "rms_dbfs": -24.893184621542904,
+    "dc_offset": 0.0001689885457356771,
+    "silence_fraction": 0.26425462962962964,
+    "leading_silence_seconds": 0.393,
+    "tail_silence_seconds": 0.003416666666666667,
+    "active_span_seconds": 8.603583333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 23,
+    "source_words_per_active_minute": 160.39828366087775,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "sera",
+      "reads",
+      "the",
+      "proof",
+      "aloud",
+      "with",
+      "a",
+      "ruler",
+      "beneath",
+      "each",
+      "line",
+      "she",
+      "stops",
+      "at",
+      "the",
+      "small",
+      "words",
+      "as",
+      "often",
+      "as",
+      "the",
+      "large",
+      "ones"
+    ],
+    "observed_tokens": [
+      "sera",
+      "reads",
+      "the",
+      "proof",
+      "aloud",
+      "with",
+      "a",
+      "ruler",
+      "beneath",
+      "each",
+      "line",
+      "she",
+      "stops",
+      "at",
+      "the",
+      "small",
+      "words",
+      "as",
+      "often",
+      "as",
+      "the",
+      "large",
+      "ones"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 23,
+        "observed_start": 0,
+        "observed_end": 23,
+        "expected": [
+          "sera",
+          "reads",
+          "the",
+          "proof",
+          "aloud",
+          "with",
+          "a",
+          "ruler",
+          "beneath",
+          "each",
+          "line",
+          "she",
+          "stops",
+          "at",
+          "the",
+          "small",
+          "words",
+          "as",
+          "often",
+          "as",
+          "the",
+          "large",
+          "ones"
+        ],
+        "observed": [
+          "sera",
+          "reads",
+          "the",
+          "proof",
+          "aloud",
+          "with",
+          "a",
+          "ruler",
+          "beneath",
+          "each",
+          "line",
+          "she",
+          "stops",
+          "at",
+          "the",
+          "small",
+          "words",
+          "as",
+          "often",
+          "as",
+          "the",
+          "large",
+          "ones"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Sarah reads the proof aloud with a ruler beneath each line. She stops at the small words as often as the large ones.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.72,
+      "text": " Sarah reads the proof aloud with a ruler beneath each line.",
+      "words": [
+        {
+          "word": " Sarah",
+          "start": 0.0,
+          "end": 0.82,
+          "probability": 0.9369245767593384
+        },
+        {
+          "word": " reads",
+          "start": 0.82,
+          "end": 1.18,
+          "probability": 0.9975144863128662
+        },
+        {
+          "word": " the",
+          "start": 1.18,
+          "end": 1.38,
+          "probability": 0.9955450296401978
+        },
+        {
+          "word": " proof",
+          "start": 1.38,
+          "end": 1.62,
+          "probability": 0.9887130260467529
+        },
+        {
+          "word": " aloud",
+          "start": 1.62,
+          "end": 2.02,
+          "probability": 0.9963538646697998
+        },
+        {
+          "word": " with",
+          "start": 2.02,
+          "end": 2.3,
+          "probability": 0.930141031742096
+        },
+        {
+          "word": " a",
+          "start": 2.3,
+          "end": 2.44,
+          "probability": 0.9243687987327576
+        },
+        {
+          "word": " ruler",
+          "start": 2.44,
+          "end": 2.7,
+          "probability": 0.9975282549858093
+        },
+        {
+          "word": " beneath",
+          "start": 2.7,
+          "end": 2.98,
+          "probability": 0.9966241121292114
+        },
+        {
+          "word": " each",
+          "start": 2.98,
+          "end": 3.28,
+          "probability": 0.9991855025291443
+        },
+        {
+          "word": " line.",
+          "start": 3.28,
+          "end": 3.72,
+          "probability": 0.9990248680114746
+        }
+      ]
+    },
+    {
+      "start": 4.7,
+      "end": 8.42,
+      "text": " She stops at the small words as often as the large ones.",
+      "words": [
+        {
+          "word": " She",
+          "start": 4.7,
+          "end": 4.88,
+          "probability": 0.9914512038230896
+        },
+        {
+          "word": " stops",
+          "start": 4.88,
+          "end": 5.34,
+          "probability": 0.9983445405960083
+        },
+        {
+          "word": " at",
+          "start": 5.34,
+          "end": 5.78,
+          "probability": 0.992533802986145
+        },
+        {
+          "word": " the",
+          "start": 5.78,
+          "end": 5.94,
+          "probability": 0.9937273263931274
+        },
+        {
+          "word": " small",
+          "start": 5.94,
+          "end": 6.3,
+          "probability": 0.997884213924408
+        },
+        {
+          "word": " words",
+          "start": 6.3,
+          "end": 6.74,
+          "probability": 0.9981043338775635
+        },
+        {
+          "word": " as",
+          "start": 6.74,
+          "end": 7.0,
+          "probability": 0.9179622530937195
+        },
+        {
+          "word": " often",
+          "start": 7.0,
+          "end": 7.26,
+          "probability": 0.9934593439102173
+        },
+        {
+          "word": " as",
+          "start": 7.26,
+          "end": 7.54,
+          "probability": 0.9946470856666565
+        },
+        {
+          "word": " the",
+          "start": 7.54,
+          "end": 7.86,
+          "probability": 0.9486320614814758
+        },
+        {
+          "word": " large",
+          "start": 7.86,
+          "end": 8.1,
+          "probability": 0.9914044141769409
+        },
+        {
+          "word": " ones.",
+          "start": 8.1,
+          "end": 8.42,
+          "probability": 0.9968976974487305
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "sera",
+      "reads",
+      "the",
+      "proof",
+      "aloud",
+      "with",
+      "a",
+      "ruler",
+      "beneath",
+      "each",
+      "line",
+      "she",
+      "stops",
+      "at",
+      "the",
+      "small",
+      "words",
+      "as",
+      "often",
+      "as",
+      "the",
+      "large",
+      "ones"
+    ],
+    "observed_tokens": [
+      "sarah",
+      "reads",
+      "the",
+      "proof",
+      "aloud",
+      "with",
+      "a",
+      "ruler",
+      "beneath",
+      "each",
+      "line",
+      "she",
+      "stops",
+      "at",
+      "the",
+      "small",
+      "words",
+      "as",
+      "often",
+      "as",
+      "the",
+      "large",
+      "ones"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 1,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 1,
+        "expected_end": 23,
+        "observed_start": 1,
+        "observed_end": 23,
+        "expected": [
+          "reads",
+          "the",
+          "proof",
+          "aloud",
+          "with",
+          "a",
+          "ruler",
+          "beneath",
+          "each",
+          "line",
+          "she",
+          "stops",
+          "at",
+          "the",
+          "small",
+          "words",
+          "as",
+          "often",
+          "as",
+          "the",
+          "large",
+          "ones"
+        ],
+        "observed": [
+          "reads",
+          "the",
+          "proof",
+          "aloud",
+          "with",
+          "a",
+          "ruler",
+          "beneath",
+          "each",
+          "line",
+          "she",
+          "stops",
+          "at",
+          "the",
+          "small",
+          "words",
+          "as",
+          "often",
+          "as",
+          "the",
+          "large",
+          "ones"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:1."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

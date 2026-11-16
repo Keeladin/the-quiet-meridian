@@ -1,0 +1,374 @@
+{
+  "line_id": "mara_memory_room_greeting",
+  "clip_id": "3040b78821694633ad0e11cfe91c3a9e",
+  "source_text_sha256": "330320dc83798e11168866bae5146affc9b8b43b759a7c1696b14274b23de949",
+  "master": "work/gateway-voice/masters/3040b78821694633ad0e11cfe91c3a9e.wav",
+  "wav_sha256": "982b63f4cb850cc0ebfd958ddc3d47a637eb5ed9f6e3596259146e4e5b8edded",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 338880,
+    "sample_count": 169440,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 7.06,
+    "peak": 0.44140625,
+    "peak_dbfs": -7.103230436568597,
+    "rms": 0.04960826738382404,
+    "rms_dbfs": -26.088918816980225,
+    "dc_offset": 9.052827743227691e-05,
+    "silence_fraction": 0.2791489612842304,
+    "leading_silence_seconds": 0.39591666666666664,
+    "tail_silence_seconds": 0.364875,
+    "active_span_seconds": 6.2992083333333335,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 17,
+    "source_words_per_active_minute": 161.92510963679297,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "places",
+      "a",
+      "spare",
+      "chair",
+      "beside",
+      "the",
+      "open",
+      "register",
+      "the",
+      "public",
+      "door",
+      "will",
+      "remain",
+      "unlocked",
+      "until",
+      "evening"
+    ],
+    "observed_tokens": [
+      "mara",
+      "places",
+      "a",
+      "spare",
+      "chair",
+      "beside",
+      "the",
+      "open",
+      "register",
+      "the",
+      "public",
+      "door",
+      "will",
+      "remain",
+      "unlocked",
+      "until",
+      "evening"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 17,
+        "observed_start": 0,
+        "observed_end": 17,
+        "expected": [
+          "mara",
+          "places",
+          "a",
+          "spare",
+          "chair",
+          "beside",
+          "the",
+          "open",
+          "register",
+          "the",
+          "public",
+          "door",
+          "will",
+          "remain",
+          "unlocked",
+          "until",
+          "evening"
+        ],
+        "observed": [
+          "mara",
+          "places",
+          "a",
+          "spare",
+          "chair",
+          "beside",
+          "the",
+          "open",
+          "register",
+          "the",
+          "public",
+          "door",
+          "will",
+          "remain",
+          "unlocked",
+          "until",
+          "evening"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Mara places a spare chair beside the open register. The public door will remain unlocked until evening.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.06,
+      "text": " Mara places a spare chair beside the open register.",
+      "words": [
+        {
+          "word": " Mara",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.647320568561554
+        },
+        {
+          "word": " places",
+          "start": 0.58,
+          "end": 0.92,
+          "probability": 0.9968096613883972
+        },
+        {
+          "word": " a",
+          "start": 0.92,
+          "end": 1.12,
+          "probability": 0.988591730594635
+        },
+        {
+          "word": " spare",
+          "start": 1.12,
+          "end": 1.34,
+          "probability": 0.9920342564582825
+        },
+        {
+          "word": " chair",
+          "start": 1.34,
+          "end": 1.62,
+          "probability": 0.9920523166656494
+        },
+        {
+          "word": " beside",
+          "start": 1.62,
+          "end": 2.04,
+          "probability": 0.99570232629776
+        },
+        {
+          "word": " the",
+          "start": 2.04,
+          "end": 2.28,
+          "probability": 0.9970038533210754
+        },
+        {
+          "word": " open",
+          "start": 2.28,
+          "end": 2.56,
+          "probability": 0.8643708825111389
+        },
+        {
+          "word": " register.",
+          "start": 2.56,
+          "end": 3.06,
+          "probability": 0.997624933719635
+        }
+      ]
+    },
+    {
+      "start": 3.82,
+      "end": 6.48,
+      "text": " The public door will remain unlocked until evening.",
+      "words": [
+        {
+          "word": " The",
+          "start": 3.82,
+          "end": 4.16,
+          "probability": 0.9936774373054504
+        },
+        {
+          "word": " public",
+          "start": 4.16,
+          "end": 4.42,
+          "probability": 0.9982410669326782
+        },
+        {
+          "word": " door",
+          "start": 4.42,
+          "end": 4.76,
+          "probability": 0.9935657382011414
+        },
+        {
+          "word": " will",
+          "start": 4.76,
+          "end": 5.04,
+          "probability": 0.9978971481323242
+        },
+        {
+          "word": " remain",
+          "start": 5.04,
+          "end": 5.32,
+          "probability": 0.9975568056106567
+        },
+        {
+          "word": " unlocked",
+          "start": 5.32,
+          "end": 5.8,
+          "probability": 0.9977746605873108
+        },
+        {
+          "word": " until",
+          "start": 5.8,
+          "end": 6.16,
+          "probability": 0.9902392625808716
+        },
+        {
+          "word": " evening.",
+          "start": 6.16,
+          "end": 6.48,
+          "probability": 0.9971771240234375
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "places",
+      "a",
+      "spare",
+      "chair",
+      "beside",
+      "the",
+      "open",
+      "register",
+      "the",
+      "public",
+      "door",
+      "will",
+      "remain",
+      "unlocked",
+      "until",
+      "evening"
+    ],
+    "observed_tokens": [
+      "mara",
+      "places",
+      "a",
+      "spare",
+      "chair",
+      "beside",
+      "the",
+      "open",
+      "register",
+      "the",
+      "public",
+      "door",
+      "will",
+      "remain",
+      "unlocked",
+      "until",
+      "evening"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 17,
+        "observed_start": 0,
+        "observed_end": 17,
+        "expected": [
+          "mara",
+          "places",
+          "a",
+          "spare",
+          "chair",
+          "beside",
+          "the",
+          "open",
+          "register",
+          "the",
+          "public",
+          "door",
+          "will",
+          "remain",
+          "unlocked",
+          "until",
+          "evening"
+        ],
+        "observed": [
+          "mara",
+          "places",
+          "a",
+          "spare",
+          "chair",
+          "beside",
+          "the",
+          "open",
+          "register",
+          "the",
+          "public",
+          "door",
+          "will",
+          "remain",
+          "unlocked",
+          "until",
+          "evening"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

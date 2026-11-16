@@ -1,0 +1,999 @@
+{
+  "line_id": "ada_steps_r1",
+  "clip_id": "46e7594c9ef448f1ba1160e2d4272e3d",
+  "source_text_sha256": "4334dc072bd7fafdf33d362edd165e99d0bf57ec0e5f16a497ef0ea78b803eab",
+  "master": "work/gateway-voice/masters/46e7594c9ef448f1ba1160e2d4272e3d.wav",
+  "wav_sha256": "c9177493be2956ca4dec8349709f5f8352c0d00cd5d4d0e5790372576c9b5ff8",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1289280,
+    "sample_count": 644640,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 26.86,
+    "peak": 0.375,
+    "peak_dbfs": -8.519374645445623,
+    "rms": 0.038577468414319006,
+    "rms_dbfs": -28.27332551298519,
+    "dc_offset": 0.00018770545018343573,
+    "silence_fraction": 0.3596007073715562,
+    "leading_silence_seconds": 0.4038333333333333,
+    "tail_silence_seconds": 0.035916666666666666,
+    "active_span_seconds": 26.42025,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 58,
+    "source_words_per_active_minute": 131.717148777926,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "they",
+      "disputed",
+      "whether",
+      "measurements",
+      "were",
+      "kind",
+      "that",
+      "was",
+      "cleverer",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "more",
+      "figures",
+      "i",
+      "appeared",
+      "cold",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "grief",
+      "i",
+      "appeared",
+      "unreliable",
+      "i",
+      "should",
+      "have",
+      "published",
+      "the",
+      "method",
+      "and",
+      "let",
+      "other",
+      "observers",
+      "repeat",
+      "it",
+      "instead",
+      "i",
+      "waited",
+      "for",
+      "the",
+      "office",
+      "to",
+      "ask",
+      "a",
+      "fair",
+      "question",
+      "waiting",
+      "became",
+      "a",
+      "habit",
+      "i",
+      "could",
+      "mistake",
+      "for",
+      "dignity"
+    ],
+    "observed_tokens": [
+      "they",
+      "disputed",
+      "whether",
+      "measurements",
+      "were",
+      "kind",
+      "that",
+      "was",
+      "cleverer",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "more",
+      "figures",
+      "i",
+      "appeared",
+      "cold",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "grief",
+      "i",
+      "appeared",
+      "unreliable",
+      "i",
+      "should",
+      "have",
+      "published",
+      "the",
+      "method",
+      "and",
+      "let",
+      "other",
+      "observers",
+      "repeat",
+      "it",
+      "instead",
+      "i",
+      "waited",
+      "for",
+      "the",
+      "office",
+      "to",
+      "ask",
+      "a",
+      "fair",
+      "question",
+      "waiting",
+      "became",
+      "a",
+      "habit",
+      "i",
+      "could",
+      "mistake",
+      "for",
+      "dignity"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 58,
+        "observed_start": 0,
+        "observed_end": 58,
+        "expected": [
+          "they",
+          "disputed",
+          "whether",
+          "measurements",
+          "were",
+          "kind",
+          "that",
+          "was",
+          "cleverer",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "more",
+          "figures",
+          "i",
+          "appeared",
+          "cold",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "grief",
+          "i",
+          "appeared",
+          "unreliable",
+          "i",
+          "should",
+          "have",
+          "published",
+          "the",
+          "method",
+          "and",
+          "let",
+          "other",
+          "observers",
+          "repeat",
+          "it",
+          "instead",
+          "i",
+          "waited",
+          "for",
+          "the",
+          "office",
+          "to",
+          "ask",
+          "a",
+          "fair",
+          "question",
+          "waiting",
+          "became",
+          "a",
+          "habit",
+          "i",
+          "could",
+          "mistake",
+          "for",
+          "dignity"
+        ],
+        "observed": [
+          "they",
+          "disputed",
+          "whether",
+          "measurements",
+          "were",
+          "kind",
+          "that",
+          "was",
+          "cleverer",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "more",
+          "figures",
+          "i",
+          "appeared",
+          "cold",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "grief",
+          "i",
+          "appeared",
+          "unreliable",
+          "i",
+          "should",
+          "have",
+          "published",
+          "the",
+          "method",
+          "and",
+          "let",
+          "other",
+          "observers",
+          "repeat",
+          "it",
+          "instead",
+          "i",
+          "waited",
+          "for",
+          "the",
+          "office",
+          "to",
+          "ask",
+          "a",
+          "fair",
+          "question",
+          "waiting",
+          "became",
+          "a",
+          "habit",
+          "i",
+          "could",
+          "mistake",
+          "for",
+          "dignity"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "They disputed whether measurements were kind. I was cleverer. If I answered with more figures, I appeared cold. If I answered with grief, I appeared unreliable. I should have published the method and let other observers repeat it. Instead, I waited for the office to ask a fair question. Waiting became a habit. I could mistake for dignity.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.88,
+      "text": " They disputed whether measurements were kind. I was cleverer. If I answered with more figures,",
+      "words": [
+        {
+          "word": " They",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.945439338684082
+        },
+        {
+          "word": " disputed",
+          "start": 0.52,
+          "end": 0.96,
+          "probability": 0.9954720735549927
+        },
+        {
+          "word": " whether",
+          "start": 0.96,
+          "end": 1.26,
+          "probability": 0.9662368893623352
+        },
+        {
+          "word": " measurements",
+          "start": 1.26,
+          "end": 1.74,
+          "probability": 0.9946632385253906
+        },
+        {
+          "word": " were",
+          "start": 1.74,
+          "end": 2.14,
+          "probability": 0.91243577003479
+        },
+        {
+          "word": " kind.",
+          "start": 2.14,
+          "end": 2.7,
+          "probability": 0.9739468097686768
+        },
+        {
+          "word": " I",
+          "start": 3.52,
+          "end": 3.84,
+          "probability": 0.9545363783836365
+        },
+        {
+          "word": " was",
+          "start": 3.84,
+          "end": 3.98,
+          "probability": 0.9901262521743774
+        },
+        {
+          "word": " cleverer.",
+          "start": 3.98,
+          "end": 4.72,
+          "probability": 0.7115254253149033
+        },
+        {
+          "word": " If",
+          "start": 5.1,
+          "end": 5.58,
+          "probability": 0.9896731376647949
+        },
+        {
+          "word": " I",
+          "start": 5.58,
+          "end": 5.7,
+          "probability": 0.9950405955314636
+        },
+        {
+          "word": " answered",
+          "start": 5.7,
+          "end": 5.94,
+          "probability": 0.9982947707176208
+        },
+        {
+          "word": " with",
+          "start": 5.94,
+          "end": 6.14,
+          "probability": 0.9925138354301453
+        },
+        {
+          "word": " more",
+          "start": 6.14,
+          "end": 6.42,
+          "probability": 0.9909103512763977
+        },
+        {
+          "word": " figures,",
+          "start": 6.42,
+          "end": 6.88,
+          "probability": 0.9981196522712708
+        }
+      ]
+    },
+    {
+      "start": 7.18,
+      "end": 14.54,
+      "text": " I appeared cold. If I answered with grief, I appeared unreliable. I should have published",
+      "words": [
+        {
+          "word": " I",
+          "start": 7.18,
+          "end": 7.66,
+          "probability": 0.998508632183075
+        },
+        {
+          "word": " appeared",
+          "start": 7.66,
+          "end": 7.96,
+          "probability": 0.9975942969322205
+        },
+        {
+          "word": " cold.",
+          "start": 7.96,
+          "end": 8.48,
+          "probability": 0.9991139769554138
+        },
+        {
+          "word": " If",
+          "start": 9.32,
+          "end": 9.5,
+          "probability": 0.9938961863517761
+        },
+        {
+          "word": " I",
+          "start": 9.5,
+          "end": 9.64,
+          "probability": 0.9977142810821533
+        },
+        {
+          "word": " answered",
+          "start": 9.64,
+          "end": 9.92,
+          "probability": 0.9992423057556152
+        },
+        {
+          "word": " with",
+          "start": 9.92,
+          "end": 10.16,
+          "probability": 0.9992923736572266
+        },
+        {
+          "word": " grief,",
+          "start": 10.16,
+          "end": 10.48,
+          "probability": 0.997270405292511
+        },
+        {
+          "word": " I",
+          "start": 11.34,
+          "end": 11.42,
+          "probability": 0.9988386034965515
+        },
+        {
+          "word": " appeared",
+          "start": 11.42,
+          "end": 11.76,
+          "probability": 0.9989184141159058
+        },
+        {
+          "word": " unreliable.",
+          "start": 11.76,
+          "end": 12.4,
+          "probability": 0.9966080188751221
+        },
+        {
+          "word": " I",
+          "start": 13.7,
+          "end": 13.92,
+          "probability": 0.9910504817962646
+        },
+        {
+          "word": " should",
+          "start": 13.92,
+          "end": 14.04,
+          "probability": 0.9961109757423401
+        },
+        {
+          "word": " have",
+          "start": 14.04,
+          "end": 14.16,
+          "probability": 0.948830783367157
+        },
+        {
+          "word": " published",
+          "start": 14.16,
+          "end": 14.54,
+          "probability": 0.999057948589325
+        }
+      ]
+    },
+    {
+      "start": 14.54,
+      "end": 21.04,
+      "text": " the method and let other observers repeat it. Instead, I waited for the office to ask a fair",
+      "words": [
+        {
+          "word": " the",
+          "start": 14.54,
+          "end": 14.78,
+          "probability": 0.9930678606033325
+        },
+        {
+          "word": " method",
+          "start": 14.78,
+          "end": 15.12,
+          "probability": 0.9873942136764526
+        },
+        {
+          "word": " and",
+          "start": 15.12,
+          "end": 15.64,
+          "probability": 0.9325097799301147
+        },
+        {
+          "word": " let",
+          "start": 15.64,
+          "end": 15.74,
+          "probability": 0.9986420273780823
+        },
+        {
+          "word": " other",
+          "start": 15.74,
+          "end": 16.0,
+          "probability": 0.9954036474227905
+        },
+        {
+          "word": " observers",
+          "start": 16.0,
+          "end": 16.38,
+          "probability": 0.9979191422462463
+        },
+        {
+          "word": " repeat",
+          "start": 16.38,
+          "end": 16.82,
+          "probability": 0.9980916380882263
+        },
+        {
+          "word": " it.",
+          "start": 16.82,
+          "end": 17.34,
+          "probability": 0.9986715316772461
+        },
+        {
+          "word": " Instead,",
+          "start": 17.94,
+          "end": 18.3,
+          "probability": 0.9983575940132141
+        },
+        {
+          "word": " I",
+          "start": 18.4,
+          "end": 18.5,
+          "probability": 0.9992757439613342
+        },
+        {
+          "word": " waited",
+          "start": 18.5,
+          "end": 18.72,
+          "probability": 0.9981155395507812
+        },
+        {
+          "word": " for",
+          "start": 18.72,
+          "end": 19.0,
+          "probability": 0.9991369843482971
+        },
+        {
+          "word": " the",
+          "start": 19.0,
+          "end": 19.12,
+          "probability": 0.9874429106712341
+        },
+        {
+          "word": " office",
+          "start": 19.12,
+          "end": 19.46,
+          "probability": 0.8998703956604004
+        },
+        {
+          "word": " to",
+          "start": 19.46,
+          "end": 20.04,
+          "probability": 0.9976723790168762
+        },
+        {
+          "word": " ask",
+          "start": 20.04,
+          "end": 20.32,
+          "probability": 0.9989811778068542
+        },
+        {
+          "word": " a",
+          "start": 20.32,
+          "end": 20.58,
+          "probability": 0.9985421895980835
+        },
+        {
+          "word": " fair",
+          "start": 20.58,
+          "end": 21.04,
+          "probability": 0.994512677192688
+        }
+      ]
+    },
+    {
+      "start": 21.04,
+      "end": 26.28,
+      "text": " question. Waiting became a habit. I could mistake for dignity.",
+      "words": [
+        {
+          "word": " question.",
+          "start": 21.04,
+          "end": 21.68,
+          "probability": 0.9987574815750122
+        },
+        {
+          "word": " Waiting",
+          "start": 23.08,
+          "end": 23.34,
+          "probability": 0.9616222977638245
+        },
+        {
+          "word": " became",
+          "start": 23.34,
+          "end": 23.66,
+          "probability": 0.9972386360168457
+        },
+        {
+          "word": " a",
+          "start": 23.66,
+          "end": 23.9,
+          "probability": 0.9972915053367615
+        },
+        {
+          "word": " habit.",
+          "start": 23.9,
+          "end": 24.12,
+          "probability": 0.9489065408706665
+        },
+        {
+          "word": " I",
+          "start": 24.5,
+          "end": 24.76,
+          "probability": 0.9982137680053711
+        },
+        {
+          "word": " could",
+          "start": 24.76,
+          "end": 24.9,
+          "probability": 0.9986364245414734
+        },
+        {
+          "word": " mistake",
+          "start": 24.9,
+          "end": 25.42,
+          "probability": 0.9969583749771118
+        },
+        {
+          "word": " for",
+          "start": 25.42,
+          "end": 25.94,
+          "probability": 0.9835985898971558
+        },
+        {
+          "word": " dignity.",
+          "start": 25.94,
+          "end": 26.28,
+          "probability": 0.9972388744354248
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "they",
+      "disputed",
+      "whether",
+      "measurements",
+      "were",
+      "kind",
+      "that",
+      "was",
+      "cleverer",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "more",
+      "figures",
+      "i",
+      "appeared",
+      "cold",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "grief",
+      "i",
+      "appeared",
+      "unreliable",
+      "i",
+      "should",
+      "have",
+      "published",
+      "the",
+      "method",
+      "and",
+      "let",
+      "other",
+      "observers",
+      "repeat",
+      "it",
+      "instead",
+      "i",
+      "waited",
+      "for",
+      "the",
+      "office",
+      "to",
+      "ask",
+      "a",
+      "fair",
+      "question",
+      "waiting",
+      "became",
+      "a",
+      "habit",
+      "i",
+      "could",
+      "mistake",
+      "for",
+      "dignity"
+    ],
+    "observed_tokens": [
+      "they",
+      "disputed",
+      "whether",
+      "measurements",
+      "were",
+      "kind",
+      "i",
+      "was",
+      "cleverer",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "more",
+      "figures",
+      "i",
+      "appeared",
+      "cold",
+      "if",
+      "i",
+      "answered",
+      "with",
+      "grief",
+      "i",
+      "appeared",
+      "unreliable",
+      "i",
+      "should",
+      "have",
+      "published",
+      "the",
+      "method",
+      "and",
+      "let",
+      "other",
+      "observers",
+      "repeat",
+      "it",
+      "instead",
+      "i",
+      "waited",
+      "for",
+      "the",
+      "office",
+      "to",
+      "ask",
+      "a",
+      "fair",
+      "question",
+      "waiting",
+      "became",
+      "a",
+      "habit",
+      "i",
+      "could",
+      "mistake",
+      "for",
+      "dignity"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "they",
+          "disputed",
+          "whether",
+          "measurements",
+          "were",
+          "kind"
+        ],
+        "observed": [
+          "they",
+          "disputed",
+          "whether",
+          "measurements",
+          "were",
+          "kind"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 6,
+        "expected_end": 7,
+        "observed_start": 6,
+        "observed_end": 7,
+        "expected": [
+          "that"
+        ],
+        "observed": [
+          "i"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 7,
+        "expected_end": 58,
+        "observed_start": 7,
+        "observed_end": 58,
+        "expected": [
+          "was",
+          "cleverer",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "more",
+          "figures",
+          "i",
+          "appeared",
+          "cold",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "grief",
+          "i",
+          "appeared",
+          "unreliable",
+          "i",
+          "should",
+          "have",
+          "published",
+          "the",
+          "method",
+          "and",
+          "let",
+          "other",
+          "observers",
+          "repeat",
+          "it",
+          "instead",
+          "i",
+          "waited",
+          "for",
+          "the",
+          "office",
+          "to",
+          "ask",
+          "a",
+          "fair",
+          "question",
+          "waiting",
+          "became",
+          "a",
+          "habit",
+          "i",
+          "could",
+          "mistake",
+          "for",
+          "dignity"
+        ],
+        "observed": [
+          "was",
+          "cleverer",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "more",
+          "figures",
+          "i",
+          "appeared",
+          "cold",
+          "if",
+          "i",
+          "answered",
+          "with",
+          "grief",
+          "i",
+          "appeared",
+          "unreliable",
+          "i",
+          "should",
+          "have",
+          "published",
+          "the",
+          "method",
+          "and",
+          "let",
+          "other",
+          "observers",
+          "repeat",
+          "it",
+          "instead",
+          "i",
+          "waited",
+          "for",
+          "the",
+          "office",
+          "to",
+          "ask",
+          "a",
+          "fair",
+          "question",
+          "waiting",
+          "became",
+          "a",
+          "habit",
+          "i",
+          "could",
+          "mistake",
+          "for",
+          "dignity"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "that"
+        ],
+        "observed": [
+          "i"
+        ],
+        "expected_start": 6,
+        "observed_start": 6
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 6:7."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

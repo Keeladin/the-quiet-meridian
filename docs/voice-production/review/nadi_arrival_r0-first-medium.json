@@ -1,0 +1,1138 @@
+{
+  "line_id": "nadi_arrival_r0",
+  "clip_id": "a25d5d2371c7466a915df24d484fb799",
+  "source_text_sha256": "b350c3c97b76c263dfc8cb5d9b4264090fdc18e19e184bdc6851cb74dc01cf90",
+  "master": "work/gateway-voice/masters/a25d5d2371c7466a915df24d484fb799.wav",
+  "wav_sha256": "b49b4bf46ca2be4e632b4fe03da298c3338f2afbff79ebc3b63165453d633d55",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1202880,
+    "sample_count": 601440,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 25.06,
+    "peak": 0.86328125,
+    "peak_dbfs": -1.2769538325347773,
+    "rms": 0.03987044889509383,
+    "rms_dbfs": -27.98697749314051,
+    "dc_offset": 0.00011423993345333179,
+    "silence_fraction": 0.2972449454642192,
+    "leading_silence_seconds": 0.403,
+    "tail_silence_seconds": 0.023291666666666665,
+    "active_span_seconds": 24.633708333333335,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 62,
+    "source_words_per_active_minute": 151.012586073622,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "people",
+      "remember",
+      "a",
+      "sentence",
+      "they",
+      "were",
+      "given",
+      "some",
+      "have",
+      "mistaken",
+      "repeating",
+      "it",
+      "for",
+      "remembering",
+      "him",
+      "i",
+      "remember",
+      "tomas",
+      "bringing",
+      "a",
+      "stool",
+      "onto",
+      "this",
+      "quay",
+      "so",
+      "a",
+      "child",
+      "could",
+      "step",
+      "into",
+      "the",
+      "boat",
+      "without",
+      "being",
+      "lifted",
+      "i",
+      "remember",
+      "that",
+      "because",
+      "it",
+      "happened",
+      "it",
+      "does",
+      "not",
+      "prove",
+      "what",
+      "he",
+      "did",
+      "at",
+      "the",
+      "gate",
+      "you",
+      "will",
+      "want",
+      "to",
+      "keep",
+      "those",
+      "two",
+      "kinds",
+      "of",
+      "remembering",
+      "apart"
+    ],
+    "observed_tokens": [
+      "people",
+      "remember",
+      "a",
+      "sentence",
+      "they",
+      "were",
+      "given",
+      "some",
+      "have",
+      "mistaken",
+      "repeating",
+      "it",
+      "for",
+      "remembering",
+      "him",
+      "i",
+      "remember",
+      "tomas",
+      "bringing",
+      "a",
+      "stool",
+      "onto",
+      "this",
+      "quay",
+      "so",
+      "a",
+      "child",
+      "could",
+      "step",
+      "into",
+      "the",
+      "boat",
+      "without",
+      "being",
+      "lifted",
+      "i",
+      "remember",
+      "that",
+      "because",
+      "it",
+      "happened",
+      "it",
+      "does",
+      "not",
+      "prove",
+      "what",
+      "he",
+      "did",
+      "at",
+      "the",
+      "gate",
+      "you",
+      "will",
+      "want",
+      "to",
+      "keep",
+      "those",
+      "two",
+      "kinds",
+      "of",
+      "remembering",
+      "apart"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 62,
+        "observed_start": 0,
+        "observed_end": 62,
+        "expected": [
+          "people",
+          "remember",
+          "a",
+          "sentence",
+          "they",
+          "were",
+          "given",
+          "some",
+          "have",
+          "mistaken",
+          "repeating",
+          "it",
+          "for",
+          "remembering",
+          "him",
+          "i",
+          "remember",
+          "tomas",
+          "bringing",
+          "a",
+          "stool",
+          "onto",
+          "this",
+          "quay",
+          "so",
+          "a",
+          "child",
+          "could",
+          "step",
+          "into",
+          "the",
+          "boat",
+          "without",
+          "being",
+          "lifted",
+          "i",
+          "remember",
+          "that",
+          "because",
+          "it",
+          "happened",
+          "it",
+          "does",
+          "not",
+          "prove",
+          "what",
+          "he",
+          "did",
+          "at",
+          "the",
+          "gate",
+          "you",
+          "will",
+          "want",
+          "to",
+          "keep",
+          "those",
+          "two",
+          "kinds",
+          "of",
+          "remembering",
+          "apart"
+        ],
+        "observed": [
+          "people",
+          "remember",
+          "a",
+          "sentence",
+          "they",
+          "were",
+          "given",
+          "some",
+          "have",
+          "mistaken",
+          "repeating",
+          "it",
+          "for",
+          "remembering",
+          "him",
+          "i",
+          "remember",
+          "tomas",
+          "bringing",
+          "a",
+          "stool",
+          "onto",
+          "this",
+          "quay",
+          "so",
+          "a",
+          "child",
+          "could",
+          "step",
+          "into",
+          "the",
+          "boat",
+          "without",
+          "being",
+          "lifted",
+          "i",
+          "remember",
+          "that",
+          "because",
+          "it",
+          "happened",
+          "it",
+          "does",
+          "not",
+          "prove",
+          "what",
+          "he",
+          "did",
+          "at",
+          "the",
+          "gate",
+          "you",
+          "will",
+          "want",
+          "to",
+          "keep",
+          "those",
+          "two",
+          "kinds",
+          "of",
+          "remembering",
+          "apart"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "People remember a sentence they were given, some have mistaken repeating it for remembering him. I remember Tomas bringing a stool onto this kay, so a child could step into the boat without being lifted. I remember that because it happened. It does not prove what he did at the gate. You will want to keep those two kinds of remembering apart. effect. Thanks for watching!",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "text": " People remember a sentence they were given,",
+      "words": [
+        {
+          "word": " People",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.8837717175483704
+        },
+        {
+          "word": " remember",
+          "start": 0.62,
+          "end": 1.06,
+          "probability": 0.9966662526130676
+        },
+        {
+          "word": " a",
+          "start": 1.06,
+          "end": 1.36,
+          "probability": 0.9981833100318909
+        },
+        {
+          "word": " sentence",
+          "start": 1.36,
+          "end": 1.7,
+          "probability": 0.9983590245246887
+        },
+        {
+          "word": " they",
+          "start": 1.7,
+          "end": 1.96,
+          "probability": 0.9920578598976135
+        },
+        {
+          "word": " were",
+          "start": 1.96,
+          "end": 2.14,
+          "probability": 0.9993509650230408
+        },
+        {
+          "word": " given,",
+          "start": 2.14,
+          "end": 2.5,
+          "probability": 0.9989650249481201
+        }
+      ]
+    },
+    {
+      "start": 3.2,
+      "end": 6.24,
+      "text": " some have mistaken repeating it for remembering him.",
+      "words": [
+        {
+          "word": " some",
+          "start": 3.2,
+          "end": 3.34,
+          "probability": 0.9882186651229858
+        },
+        {
+          "word": " have",
+          "start": 3.34,
+          "end": 3.62,
+          "probability": 0.9956621527671814
+        },
+        {
+          "word": " mistaken",
+          "start": 3.62,
+          "end": 4.06,
+          "probability": 0.9955968260765076
+        },
+        {
+          "word": " repeating",
+          "start": 4.06,
+          "end": 4.54,
+          "probability": 0.9776835441589355
+        },
+        {
+          "word": " it",
+          "start": 4.54,
+          "end": 4.88,
+          "probability": 0.9991797804832458
+        },
+        {
+          "word": " for",
+          "start": 4.88,
+          "end": 5.34,
+          "probability": 0.9499177932739258
+        },
+        {
+          "word": " remembering",
+          "start": 5.34,
+          "end": 5.86,
+          "probability": 0.9855592250823975
+        },
+        {
+          "word": " him.",
+          "start": 5.86,
+          "end": 6.24,
+          "probability": 0.9810552597045898
+        }
+      ]
+    },
+    {
+      "start": 7.22,
+      "end": 10.54,
+      "text": " I remember Tomas bringing a stool onto this kay,",
+      "words": [
+        {
+          "word": " I",
+          "start": 7.22,
+          "end": 7.66,
+          "probability": 0.8516965508460999
+        },
+        {
+          "word": " remember",
+          "start": 7.66,
+          "end": 8.0,
+          "probability": 0.9969615340232849
+        },
+        {
+          "word": " Tomas",
+          "start": 8.0,
+          "end": 8.46,
+          "probability": 0.882500171661377
+        },
+        {
+          "word": " bringing",
+          "start": 8.46,
+          "end": 8.96,
+          "probability": 0.9045180678367615
+        },
+        {
+          "word": " a",
+          "start": 8.96,
+          "end": 9.24,
+          "probability": 0.99785977602005
+        },
+        {
+          "word": " stool",
+          "start": 9.24,
+          "end": 9.62,
+          "probability": 0.9929201006889343
+        },
+        {
+          "word": " onto",
+          "start": 9.62,
+          "end": 9.98,
+          "probability": 0.948894202709198
+        },
+        {
+          "word": " this",
+          "start": 9.98,
+          "end": 10.24,
+          "probability": 0.9848982691764832
+        },
+        {
+          "word": " kay,",
+          "start": 10.24,
+          "end": 10.54,
+          "probability": 0.1487710326910019
+        }
+      ]
+    },
+    {
+      "start": 11.1,
+      "end": 14.7,
+      "text": " so a child could step into the boat without being lifted.",
+      "words": [
+        {
+          "word": " so",
+          "start": 11.1,
+          "end": 11.38,
+          "probability": 0.9954714775085449
+        },
+        {
+          "word": " a",
+          "start": 11.38,
+          "end": 11.58,
+          "probability": 0.9963011741638184
+        },
+        {
+          "word": " child",
+          "start": 11.58,
+          "end": 11.96,
+          "probability": 0.9993643164634705
+        },
+        {
+          "word": " could",
+          "start": 11.96,
+          "end": 12.24,
+          "probability": 0.998075008392334
+        },
+        {
+          "word": " step",
+          "start": 12.24,
+          "end": 12.54,
+          "probability": 0.9995720982551575
+        },
+        {
+          "word": " into",
+          "start": 12.54,
+          "end": 12.82,
+          "probability": 0.9956459403038025
+        },
+        {
+          "word": " the",
+          "start": 12.82,
+          "end": 13.0,
+          "probability": 0.9982701539993286
+        },
+        {
+          "word": " boat",
+          "start": 13.0,
+          "end": 13.28,
+          "probability": 0.9993976354598999
+        },
+        {
+          "word": " without",
+          "start": 13.28,
+          "end": 13.76,
+          "probability": 0.9873982667922974
+        },
+        {
+          "word": " being",
+          "start": 13.76,
+          "end": 14.24,
+          "probability": 0.999091625213623
+        },
+        {
+          "word": " lifted.",
+          "start": 14.24,
+          "end": 14.7,
+          "probability": 0.9994756579399109
+        }
+      ]
+    },
+    {
+      "start": 15.4,
+      "end": 17.3,
+      "text": " I remember that because it happened.",
+      "words": [
+        {
+          "word": " I",
+          "start": 15.4,
+          "end": 15.62,
+          "probability": 0.9953468441963196
+        },
+        {
+          "word": " remember",
+          "start": 15.62,
+          "end": 15.96,
+          "probability": 0.9991220831871033
+        },
+        {
+          "word": " that",
+          "start": 15.96,
+          "end": 16.24,
+          "probability": 0.9992669224739075
+        },
+        {
+          "word": " because",
+          "start": 16.24,
+          "end": 16.62,
+          "probability": 0.9806367754936218
+        },
+        {
+          "word": " it",
+          "start": 16.62,
+          "end": 16.88,
+          "probability": 0.9983757734298706
+        },
+        {
+          "word": " happened.",
+          "start": 16.88,
+          "end": 17.3,
+          "probability": 0.9989334940910339
+        }
+      ]
+    },
+    {
+      "start": 18.14,
+      "end": 20.4,
+      "text": " It does not prove what he did at the gate.",
+      "words": [
+        {
+          "word": " It",
+          "start": 18.14,
+          "end": 18.38,
+          "probability": 0.989678144454956
+        },
+        {
+          "word": " does",
+          "start": 18.38,
+          "end": 18.54,
+          "probability": 0.9976782202720642
+        },
+        {
+          "word": " not",
+          "start": 18.54,
+          "end": 18.82,
+          "probability": 0.9992097616195679
+        },
+        {
+          "word": " prove",
+          "start": 18.82,
+          "end": 19.16,
+          "probability": 0.9988262057304382
+        },
+        {
+          "word": " what",
+          "start": 19.16,
+          "end": 19.48,
+          "probability": 0.9982282519340515
+        },
+        {
+          "word": " he",
+          "start": 19.48,
+          "end": 19.62,
+          "probability": 0.9991015195846558
+        },
+        {
+          "word": " did",
+          "start": 19.62,
+          "end": 19.82,
+          "probability": 0.9996376037597656
+        },
+        {
+          "word": " at",
+          "start": 19.82,
+          "end": 20.0,
+          "probability": 0.9987252354621887
+        },
+        {
+          "word": " the",
+          "start": 20.0,
+          "end": 20.12,
+          "probability": 0.9953384399414062
+        },
+        {
+          "word": " gate.",
+          "start": 20.12,
+          "end": 20.4,
+          "probability": 0.9886583685874939
+        }
+      ]
+    },
+    {
+      "start": 21.2,
+      "end": 24.5,
+      "text": " You will want to keep those two kinds of remembering apart.",
+      "words": [
+        {
+          "word": " You",
+          "start": 21.2,
+          "end": 21.5,
+          "probability": 0.9956450462341309
+        },
+        {
+          "word": " will",
+          "start": 21.5,
+          "end": 21.7,
+          "probability": 0.998282790184021
+        },
+        {
+          "word": " want",
+          "start": 21.7,
+          "end": 21.92,
+          "probability": 0.9992091059684753
+        },
+        {
+          "word": " to",
+          "start": 21.92,
+          "end": 22.14,
+          "probability": 0.9994899034500122
+        },
+        {
+          "word": " keep",
+          "start": 22.14,
+          "end": 22.34,
+          "probability": 0.9995951056480408
+        },
+        {
+          "word": " those",
+          "start": 22.34,
+          "end": 22.7,
+          "probability": 0.998006284236908
+        },
+        {
+          "word": " two",
+          "start": 22.7,
+          "end": 23.0,
+          "probability": 0.9906545281410217
+        },
+        {
+          "word": " kinds",
+          "start": 23.0,
+          "end": 23.34,
+          "probability": 0.996906578540802
+        },
+        {
+          "word": " of",
+          "start": 23.34,
+          "end": 23.58,
+          "probability": 0.9994988441467285
+        },
+        {
+          "word": " remembering",
+          "start": 23.58,
+          "end": 24.06,
+          "probability": 0.9949198365211487
+        },
+        {
+          "word": " apart.",
+          "start": 24.06,
+          "end": 24.5,
+          "probability": 0.9845750331878662
+        }
+      ]
+    },
+    {
+      "start": 24.5,
+      "end": 24.64,
+      "text": " effect.",
+      "words": [
+        {
+          "word": " effect.",
+          "start": 24.5,
+          "end": 24.64,
+          "probability": 0.0992133766412735
+        }
+      ]
+    },
+    {
+      "start": 24.76,
+      "end": 25.04,
+      "text": " Thanks for watching!",
+      "words": [
+        {
+          "word": " Thanks",
+          "start": 24.76,
+          "end": 25.04,
+          "probability": 0.020326940342783928
+        },
+        {
+          "word": " for",
+          "start": 25.04,
+          "end": 25.04,
+          "probability": 0.5515277981758118
+        },
+        {
+          "word": " watching!",
+          "start": 25.04,
+          "end": 25.04,
+          "probability": 0.9237393140792847
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "people",
+      "remember",
+      "a",
+      "sentence",
+      "they",
+      "were",
+      "given",
+      "some",
+      "have",
+      "mistaken",
+      "repeating",
+      "it",
+      "for",
+      "remembering",
+      "him",
+      "i",
+      "remember",
+      "tomas",
+      "bringing",
+      "a",
+      "stool",
+      "onto",
+      "this",
+      "quay",
+      "so",
+      "a",
+      "child",
+      "could",
+      "step",
+      "into",
+      "the",
+      "boat",
+      "without",
+      "being",
+      "lifted",
+      "i",
+      "remember",
+      "that",
+      "because",
+      "it",
+      "happened",
+      "it",
+      "does",
+      "not",
+      "prove",
+      "what",
+      "he",
+      "did",
+      "at",
+      "the",
+      "gate",
+      "you",
+      "will",
+      "want",
+      "to",
+      "keep",
+      "those",
+      "two",
+      "kinds",
+      "of",
+      "remembering",
+      "apart"
+    ],
+    "observed_tokens": [
+      "people",
+      "remember",
+      "a",
+      "sentence",
+      "they",
+      "were",
+      "given",
+      "some",
+      "have",
+      "mistaken",
+      "repeating",
+      "it",
+      "for",
+      "remembering",
+      "him",
+      "i",
+      "remember",
+      "tomas",
+      "bringing",
+      "a",
+      "stool",
+      "onto",
+      "this",
+      "kay",
+      "so",
+      "a",
+      "child",
+      "could",
+      "step",
+      "into",
+      "the",
+      "boat",
+      "without",
+      "being",
+      "lifted",
+      "i",
+      "remember",
+      "that",
+      "because",
+      "it",
+      "happened",
+      "it",
+      "does",
+      "not",
+      "prove",
+      "what",
+      "he",
+      "did",
+      "at",
+      "the",
+      "gate",
+      "you",
+      "will",
+      "want",
+      "to",
+      "keep",
+      "those",
+      "two",
+      "kinds",
+      "of",
+      "remembering",
+      "apart",
+      "effect",
+      "thanks",
+      "for",
+      "watching"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 23,
+        "observed_start": 0,
+        "observed_end": 23,
+        "expected": [
+          "people",
+          "remember",
+          "a",
+          "sentence",
+          "they",
+          "were",
+          "given",
+          "some",
+          "have",
+          "mistaken",
+          "repeating",
+          "it",
+          "for",
+          "remembering",
+          "him",
+          "i",
+          "remember",
+          "tomas",
+          "bringing",
+          "a",
+          "stool",
+          "onto",
+          "this"
+        ],
+        "observed": [
+          "people",
+          "remember",
+          "a",
+          "sentence",
+          "they",
+          "were",
+          "given",
+          "some",
+          "have",
+          "mistaken",
+          "repeating",
+          "it",
+          "for",
+          "remembering",
+          "him",
+          "i",
+          "remember",
+          "tomas",
+          "bringing",
+          "a",
+          "stool",
+          "onto",
+          "this"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 23,
+        "expected_end": 24,
+        "observed_start": 23,
+        "observed_end": 24,
+        "expected": [
+          "quay"
+        ],
+        "observed": [
+          "kay"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 24,
+        "expected_end": 62,
+        "observed_start": 24,
+        "observed_end": 62,
+        "expected": [
+          "so",
+          "a",
+          "child",
+          "could",
+          "step",
+          "into",
+          "the",
+          "boat",
+          "without",
+          "being",
+          "lifted",
+          "i",
+          "remember",
+          "that",
+          "because",
+          "it",
+          "happened",
+          "it",
+          "does",
+          "not",
+          "prove",
+          "what",
+          "he",
+          "did",
+          "at",
+          "the",
+          "gate",
+          "you",
+          "will",
+          "want",
+          "to",
+          "keep",
+          "those",
+          "two",
+          "kinds",
+          "of",
+          "remembering",
+          "apart"
+        ],
+        "observed": [
+          "so",
+          "a",
+          "child",
+          "could",
+          "step",
+          "into",
+          "the",
+          "boat",
+          "without",
+          "being",
+          "lifted",
+          "i",
+          "remember",
+          "that",
+          "because",
+          "it",
+          "happened",
+          "it",
+          "does",
+          "not",
+          "prove",
+          "what",
+          "he",
+          "did",
+          "at",
+          "the",
+          "gate",
+          "you",
+          "will",
+          "want",
+          "to",
+          "keep",
+          "those",
+          "two",
+          "kinds",
+          "of",
+          "remembering",
+          "apart"
+        ]
+      },
+      {
+        "operation": "insert",
+        "expected_start": 62,
+        "expected_end": 62,
+        "observed_start": 62,
+        "observed_end": 66,
+        "expected": [],
+        "observed": [
+          "effect",
+          "thanks",
+          "for",
+          "watching"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [
+      "effect",
+      "thanks",
+      "for",
+      "watching"
+    ],
+    "substitutions": [
+      {
+        "expected": [
+          "quay"
+        ],
+        "observed": [
+          "kay"
+        ],
+        "expected_start": 23,
+        "observed_start": 23
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 23:24.",
+      "Extra spoken words at observed tokens 62:66."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

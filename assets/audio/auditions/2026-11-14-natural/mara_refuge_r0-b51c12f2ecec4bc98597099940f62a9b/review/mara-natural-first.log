@@ -1,0 +1,9 @@
+{
+  "report": "work/voice-asr-reports/mara-natural-first.json",
+  "status": "asr_mismatch_hold",
+  "independent_transcript": "I thought you would understand the letter. Then I thought another letter would lead someone here. Each explanation made the next day of silence easier to justify. I frightened you because I was frightened, and because being useful felt safer than admitting I needed help, I can explain it. I cannot turn that explanation into something you owed me. You",
+  "reasons": [
+    "Extra spoken words at observed tokens 59:60."
+  ],
+  "accepted_for_game": false
+}

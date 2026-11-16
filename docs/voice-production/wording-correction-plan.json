@@ -1,0 +1,1065 @@
+{
+  "authorization": "Owner explicitly requested wording corrections, integration and both platform updates, within the previously approved US$6 total.",
+  "retain_spelling_variants": {
+    "elian_council_r1": "neighbours/neighbors is an identical spoken word with regional spelling.",
+    "elian_machine_r1": "authorisation/authorization is a regional spelling difference.",
+    "nadi_signal_r2": "reeds/reads is a homophone; provider transcript matches the source.",
+    "rowan_kitchen_r2": "Tomas/Thomas is a transcription spelling of the instructed name.",
+    "sera_archive_greeting": "Sera/Sarah is a name transcription variant; provider transcript matches the source.",
+    "sera_proof_greeting": "Sera/Sarah is a name transcription variant; provider transcript matches the source.",
+    "ch6_intro": "dawn/don, harbour/harbor and the instructed names are phonetic/spelling renderings; no ordinary word omission or substitution is established."
+  },
+  "retakes": [
+    {
+      "line_id": "ada_steps_greeting",
+      "attempt": "retake1",
+      "previous_clip": "66a019207b394c1ca088ce944bd1b691",
+      "text": "Ada wipes the rain from the calibration plaque with her sleeve. She seems more offended by an unread label than by the weather.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Notice Ada’s practical irritation at the unread label. Let the dry humour come from the observation rather than delivering it as a joke. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Ada=AY-duh.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 3,
+          "expected_end": 4,
+          "observed_start": 3,
+          "observed_end": 4,
+          "expected": [
+            "rain"
+          ],
+          "observed": [
+            "ring"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "ada_steps_q0",
+      "attempt": "retake1",
+      "previous_clip": "fbbf0d9650c7441987c12cd8665efee6",
+      "text": "Why keep a clock you know is wrong?",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona is observant and warm, with precise but relaxed everyday articulation. Ask with genuine curiosity and a little friendly challenge, inviting Ada to explain the apparent contradiction. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 2,
+          "expected_end": 3,
+          "observed_start": 2,
+          "observed_end": 3,
+          "expected": [
+            "a"
+          ],
+          "observed": [
+            "the"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "ada_steps_r2",
+      "attempt": "retake1",
+      "previous_clip": "b4a6d224137d49d3bfb553ac73b41144",
+      "text": "A faulty plate, a mistaken correction, another instrument showing a different sequence with a better calibration. I have written those possibilities beside my result. A conclusion is not weakened by naming what could overturn it. It is weakened when its author decides no such thing may be allowed to exist.",
+      "voice": "marin",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Ada is an older astronomer: patient authority, dry wit and an underlying kindness. List the possible errors plainly, as real things you would check. Your authority comes from being willing to be wrong; avoid giving the final contrast a speech-making flourish. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 16,
+          "expected_end": 18,
+          "observed_start": 16,
+          "observed_end": 17,
+          "expected": [
+            "i",
+            "have"
+          ],
+          "observed": [
+            "i've"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "ch1_closing",
+      "attempt": "retake1",
+      "previous_clip": "7d08f2e0aece42998c456763fadd6a02",
+      "text": "Mara was not taken from Leth. She borrowed the bell key, recovered a removed folio, and followed a record of the old flood toward the pumping works. The tide and the official story disagree by more than a smudged digit.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Alone with the recovered papers, put the facts together. Let the discovery in “not taken” register briefly; move naturally through the practical details and finish with your own dry suspicion. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Mara=MAH-ruh, Leth=LETH.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 5,
+          "expected_end": 6,
+          "observed_start": 5,
+          "observed_end": 6,
+          "expected": [
+            "leth"
+          ],
+          "observed": [
+            "luth"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "ch1_intro",
+      "attempt": "retake1",
+      "previous_clip": "a05e2dd779694fe8a8b1aed76eaffd6f",
+      "text": "The archive door is shut, though its lamps are burning. Mara missed her last ferry, according to the notice in the tide office. Nadi remembers something different. Begin at the landing: a returned dispatch box has been left among the lost property.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Notice the lit but closed archive, then weigh the conflicting accounts. Let suspicion emerge quietly; the final practical instruction gives you somewhere to begin. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Mara=MAH-ruh, Nadi=NAH-dee.",
+      "reason": [],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    },
+    {
+      "line_id": "ch2_closing",
+      "attempt": "retake1",
+      "previous_clip": "5c3e291990424650a8cfde1b0317999d",
+      "text": "The East Reach did not flood through Tomas’s sluice. A council bypass opened above it. Rowan admits obeying the closure order; Elian’s initials appear on the coupling record. Only the observatory can fix the opening time independently.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. The evidence changes what you believed about your father. Allow a brief release of tension, then return to careful distinctions and the practical need for an independent time. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Tomas=TOH-muhs, Elian=EL-ee-un, Rowan=ROH-un.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 7,
+          "expected_end": 8,
+          "observed_start": 7,
+          "observed_end": 8,
+          "expected": [
+            "tomas's"
+          ],
+          "observed": [
+            "thomas's"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 21,
+          "expected_end": 22,
+          "observed_start": 21,
+          "observed_end": 22,
+          "expected": [
+            "elian's"
+          ],
+          "observed": [
+            "eliam's"
+          ]
+        }
+      ],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    },
+    {
+      "line_id": "ch3_closing",
+      "attempt": "retake1",
+      "previous_clip": "f13ae216cf354e0dbaeffc33f8cfba32",
+      "text": "The bypass was open by 00:14. The evacuation return was dispatched at 00:22. It certified a task complete about eight minutes after water entered occupied homes. Mara followed a signal bearing toward the old island clinic; your search now has a destination.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Make the two times clearly distinct without reciting figures mechanically. Let the human consequence slow you for a beat, then let the new destination bring quiet forward movement. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Mara=MAH-ruh.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 3,
+          "expected_end": 4,
+          "observed_start": 3,
+          "observed_end": 4,
+          "expected": [
+            "open"
+          ],
+          "observed": [
+            "opened"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 5,
+          "expected_end": 7,
+          "observed_start": 5,
+          "observed_end": 6,
+          "expected": [
+            "00",
+            "14"
+          ],
+          "observed": [
+            "0014"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 13,
+          "expected_end": 15,
+          "observed_start": 12,
+          "observed_end": 13,
+          "expected": [
+            "00",
+            "22"
+          ],
+          "observed": [
+            "0022"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 21,
+          "expected_end": 22,
+          "observed_start": 19,
+          "observed_end": 20,
+          "expected": [
+            "eight"
+          ],
+          "observed": [
+            "8"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 28,
+          "expected_end": 29,
+          "observed_start": 26,
+          "observed_end": 27,
+          "expected": [
+            "mara"
+          ],
+          "observed": [
+            "mawra"
+          ]
+        }
+      ],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    },
+    {
+      "line_id": "ch3_intro",
+      "attempt": "retake1",
+      "previous_clip": "3b5a6b5f713b41a4bb80db4e696c0c5a",
+      "text": "Ada Flint opens the observatory before you knock. “Mara told me you might come. She asked for a time, not an alibi.” The great clock has not rung since the flood. Its silence preserved a disagreement nobody wanted measured.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Feel the surprise of Ada expecting you. Give her quoted distinction a little dry clarity in your own voice. End with alert curiosity about the silent clock. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Mara=MAH-ruh, Ada=AY-duh.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 0,
+          "expected_end": 1,
+          "observed_start": 0,
+          "observed_end": 1,
+          "expected": [
+            "ada"
+          ],
+          "observed": [
+            "ida"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 8,
+          "expected_end": 9,
+          "observed_start": 8,
+          "observed_end": 9,
+          "expected": [
+            "mara"
+          ],
+          "observed": [
+            "myra"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "ch5_closing",
+      "attempt": "retake1",
+      "previous_clip": "342f09d79dcc4eafaaf9072a19f1a697",
+      "text": "The originals tie Rusk’s signature to the diversion and his payments to the land transfer. Elian admits operating the bypass after accepting Rusk’s false assurance. Sera finishes independent copies. The remaining task is to put the verified case where one office cannot make it disappear.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. You finally have several independent strands in hand. Sort them calmly rather than announcing victory. End with determination to get the record beyond one office’s control. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Elian=EL-ee-un, Sera=SEH-ruh, Rusk=rusk.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 1,
+          "expected_end": 2,
+          "observed_start": 1,
+          "observed_end": 2,
+          "expected": [
+            "originals"
+          ],
+          "observed": [
+            "origins"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 25,
+          "expected_end": 26,
+          "observed_start": 25,
+          "observed_end": 26,
+          "expected": [
+            "sera"
+          ],
+          "observed": [
+            "sahra"
+          ]
+        }
+      ],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    },
+    {
+      "line_id": "ch5_intro",
+      "attempt": "retake1",
+      "previous_clip": "2fbb6f8a2ae04f0995fe2dd9ba5a89fb",
+      "text": "Leth is already preparing for tomorrow’s public sitting. A notice declares the damaged flood records redundant and schedules their destruction after the hearing. Sera Quill pulls a clean sheet into her press. “Then we had better make the hearing useful.”",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. The destruction notice makes the deadline real. Keep the urgency contained. Report Sera’s practical resolve with a slight lift, still in Iona’s own narrative voice. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Leth=LETH, Sera=SEH-ruh, Quill=kwill.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 0,
+          "expected_end": 1,
+          "observed_start": 0,
+          "observed_end": 1,
+          "expected": [
+            "leth"
+          ],
+          "observed": [
+            "leith"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 23,
+          "expected_end": 24,
+          "observed_start": 23,
+          "observed_end": 24,
+          "expected": [
+            "sera"
+          ],
+          "observed": [
+            "sarah"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 33,
+          "expected_end": 35,
+          "observed_start": 33,
+          "observed_end": 34,
+          "expected": [
+            "we",
+            "had"
+          ],
+          "observed": [
+            "we'd"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "ch6_closing",
+      "attempt": "retake1",
+      "previous_clip": "2636c86295274139805e8ef7019b378d",
+      "text": "The public record is complete. The council withdraws Rusk’s emergency authority and refers the signed evidence to an outside court. Elian’s admission is retained for the same inquiry. The archive will keep the old lie visible beside its documented correction.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. State the outcome carefully, without a triumphant speech. Let the distinction between an inquiry and forgiveness remain clear. Finish on the tangible idea of preserving the correction. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Elian=EL-ee-un, Rusk=rusk.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 36,
+          "expected_end": 37,
+          "observed_start": 36,
+          "observed_end": 37,
+          "expected": [
+            "beside"
+          ],
+          "observed": [
+            "aside"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "elian_machine_r0",
+      "attempt": "retake1",
+      "previous_clip": "676076d114cc494ebb3de7f4d741d610",
+      "text": "A wheel can slip. That does not make every sequence of valves an accident. This interlock requires different movements in different places. If you are going to accuse a mechanism, describe the movement it would have to make. If you are going to accuse a person, find more than a machine that person once maintained.",
+      "voice": "vesper",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Elian is an older engineer: precise technical speech with guarded, hesitant admissions. Answer from engineering habit first, then carefully separate a possible slip from this particular sequence. Your caution about accusing a person is controlled and a little defensive. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 23,
+          "expected_end": 25,
+          "observed_start": 23,
+          "observed_end": 24,
+          "expected": [
+            "you",
+            "are"
+          ],
+          "observed": [
+            "you're"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 39,
+          "expected_end": 41,
+          "observed_start": 38,
+          "observed_end": 39,
+          "expected": [
+            "you",
+            "are"
+          ],
+          "observed": [
+            "you're"
+          ]
+        }
+      ],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    },
+    {
+      "line_id": "mara_memory_room_r0",
+      "attempt": "retake1",
+      "previous_clip": "f08d4d2b08f546f981518f110a518896",
+      "text": "An archive cannot make people brave or honest. It can make a lie more expensive to maintain. It can keep the inconvenient copy, explain a correction, and let someone without a title ask to see the source. Those are limited promises. I think we should make them clearly and then build a place capable of keeping them.",
+      "voice": "quartz",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Mara is a mature archivist: tired clarity, restrained vulnerability and growing warmth. Start by setting an honest limit, then name the concrete things you can build. Let confidence grow through those tasks rather than through an inspiring speech. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 12,
+          "expected_end": 13,
+          "observed_start": 12,
+          "observed_end": 13,
+          "expected": [
+            "lie"
+          ],
+          "observed": [
+            "line"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "mara_refuge_greeting",
+      "attempt": "retake1",
+      "previous_clip": "f82eb43518e2423dafa417bff3cf09ea",
+      "text": "Mara sets down the kettle. Neither of you reaches for it immediately.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Notice the kettle and the space neither of you crosses. Give the second sentence a quiet beat; let the silence carry the estrangement without added drama. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Mara=MAH-ruh.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 0,
+          "expected_end": 1,
+          "observed_start": 0,
+          "observed_end": 1,
+          "expected": [
+            "mara"
+          ],
+          "observed": [
+            "farah"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 10,
+          "expected_end": 11,
+          "observed_start": 10,
+          "observed_end": 11,
+          "expected": [
+            "it"
+          ],
+          "observed": [
+            "him"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "mara_refuge_q0",
+      "attempt": "retake1",
+      "previous_clip": "85d0afe99299469aa6225343fe0ee2f8",
+      "text": "Why let me think you might be dead?",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona is observant and warm, with precise but relaxed everyday articulation. Ask Mara at close range with hurt and restrained anger. You want an honest answer, not a dramatic confrontation. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 7,
+          "expected_end": 8,
+          "observed_start": 7,
+          "observed_end": 8,
+          "expected": [
+            "dead"
+          ],
+          "observed": [
+            "done"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "mara_refuge_r1",
+      "attempt": "retake1",
+      "previous_clip": "29e3257d30654b50a4145efe310d049f",
+      "text": "It named a destructive purpose, but the signature was on a flap I could not copy. More than that, it called the Reach a records store. I had begun to repeat its language. The register reminded me there were homes around that store and people in them. I needed to know their names before I helped turn their deaths into a neat argument.",
+      "voice": "quartz",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Mara is a mature archivist: tired clarity, restrained vulnerability and growing warmth. Explain the missing signature carefully. Then recognise your own use of language that hid the residents. Let their names change the weight of your answer without making a grand speech. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 24,
+          "expected_end": 25,
+          "observed_start": 24,
+          "observed_end": 25,
+          "expected": [
+            "records"
+          ],
+          "observed": [
+            "record"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "nadi_arrival_r0",
+      "attempt": "retake1",
+      "previous_clip": "a25d5d2371c7466a915df24d484fb799",
+      "text": "People remember a sentence they were given. Some have mistaken repeating it for remembering him. I remember Tomas bringing a stool onto this quay so a child could step into the boat without being lifted. I remember that because it happened. It does not prove what he did at the gate. You will want to keep those two kinds of remembering apart.",
+      "voice": "delta",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Nadi is a practical ferryperson: grounded warmth, dry wit and no fuss. Answer Iona personally. Let the memory of the stool soften you, then gently distinguish affection from evidence; help her without giving false reassurance. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing. Names: Tomas=TOH-muhs.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 23,
+          "expected_end": 24,
+          "observed_start": 23,
+          "observed_end": 24,
+          "expected": [
+            "quay"
+          ],
+          "observed": [
+            "kay"
+          ]
+        },
+        {
+          "operation": "insert",
+          "expected_start": 62,
+          "expected_end": 62,
+          "observed_start": 62,
+          "observed_end": 66,
+          "expected": [],
+          "observed": [
+            "effect",
+            "thanks",
+            "for",
+            "watching"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "nadi_arrival_r2",
+      "attempt": "retake1",
+      "previous_clip": "afa76a29719547e7a2a89ebb9bee654c",
+      "text": "I knew she carried her own parcel and paid her own fare. I put her ashore on the works side. She asked for privacy, and I gave it. Then the notice appeared and made my silence look like agreement. I should have challenged that sooner. You may write down exactly what I saw. Please do not improve it into something I only wish I had known.",
+      "voice": "delta",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Nadi is a practical ferryperson: grounded warmth, dry wit and no fuss. Own what you saw and what you failed to challenge. Be practical at first; let a small discomfort enter at the notice. End by asking Iona for accuracy, not protection. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 18,
+          "expected_end": 19,
+          "observed_start": 18,
+          "observed_end": 19,
+          "expected": [
+            "works"
+          ],
+          "observed": [
+            "work"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 35,
+          "expected_end": 36,
+          "observed_start": 35,
+          "observed_end": 36,
+          "expected": [
+            "silence"
+          ],
+          "observed": [
+            "violence"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "nadi_memorial_r0",
+      "attempt": "retake1",
+      "previous_clip": "151eacde818d48d3a0046e9e6d4aa6ff",
+      "text": "Asha repaired my winter coat. Len always paid in exact change and apologised as though that were a nuisance. Petra once brought a pot plant aboard and bought a second ticket for it as a joke. I could give you a dozen stories. None is a requirement for being remembered. People who left nobody to tell a charming story deserve the same size letters.",
+      "voice": "delta",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Nadi is a practical ferryperson: grounded warmth, dry wit and no fuss. Remember three people you knew, allowing small changes of warmth with each ordinary detail and a faint smile at the plant. Then give the people without surviving stories equal weight, without raising your voice. Natural breathing. Names: Asha=AH-shuh, Len=len, Petra=PET-ruh.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 5,
+          "expected_end": 6,
+          "observed_start": 5,
+          "observed_end": 6,
+          "expected": [
+            "len"
+          ],
+          "observed": [
+            "lynn"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 8,
+          "expected_end": 9,
+          "observed_start": 8,
+          "observed_end": 9,
+          "expected": [
+            "in"
+          ],
+          "observed": [
+            "an"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 12,
+          "expected_end": 13,
+          "observed_start": 12,
+          "observed_end": 13,
+          "expected": [
+            "apologised"
+          ],
+          "observed": [
+            "apologized"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 18,
+          "expected_end": 19,
+          "observed_start": 18,
+          "observed_end": 20,
+          "expected": [
+            "nuisance"
+          ],
+          "observed": [
+            "new",
+            "fence"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "narration_ending",
+      "attempt": "retake1",
+      "previous_clip": "546790d8f87a48d6a145698881425590",
+      "text": "The corrected register lies open beneath the archive window. Twenty-three names, no longer a number in the margin. Beside Tomas Vale's entry, the old accusation remains visible under a single ruled line. The correction cites its evidence. Nobody has scraped the page clean.\n\nRusk is removed from emergency office and referred to an outside court with the original records. Elian gives testimony without a promise of immunity. Rowan's account includes both the people he helped and the order he obeyed. Truth is not a pardon, and the city has begun to understand the difference.\n\nMara establishes duplicate archives on both sides of the water. Sera prints the findings at cost. Nadi carries the first public copies to the island. Ada restores the midnight signal, which sounds without commanding anyone to be silent.\n\nYou stay to teach two apprentices. One asks whether a repair ought to be invisible. You hold the folio against the light. The seam shines, delicate and unmistakable.\n\n'It ought to hold,' you say. 'And it ought to tell the truth.'\n\nTHE END",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Tell the ending as Iona noticing what has changed and what still costs people something. Give names and consequences space, then become warmer with the apprentices. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Mara=MAH-ruh, Tomas=TOH-muhs, Nadi=NAH-dee, Elian=EL-ee-un, Ada=AY-duh, Sera=SEH-ruh, Rowan=ROH-un, Rusk=rusk.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 20,
+          "expected_end": 22,
+          "observed_start": 20,
+          "observed_end": 22,
+          "expected": [
+            "tomas",
+            "vale's"
+          ],
+          "observed": [
+            "thomas",
+            "vail's"
+          ]
+        },
+        {
+          "operation": "delete",
+          "expected_start": 36,
+          "expected_end": 37,
+          "observed_start": 36,
+          "observed_end": 36,
+          "expected": [
+            "its"
+          ],
+          "observed": []
+        },
+        {
+          "operation": "replace",
+          "expected_start": 60,
+          "expected_end": 61,
+          "observed_start": 59,
+          "observed_end": 60,
+          "expected": [
+            "elian"
+          ],
+          "observed": [
+            "alien"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 120,
+          "expected_end": 121,
+          "observed_start": 119,
+          "observed_end": 120,
+          "expected": [
+            "ada"
+          ],
+          "observed": [
+            "ata"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "narration_opening",
+      "attempt": "retake1",
+      "previous_clip": "b26f74db860846a39fc4646eaf4619bf",
+      "text": "The letter reaches you wrapped in sailcloth.\n\nIona—They have repaired the catalogue, but not the truth. Come before the winter register is pulped. Ask why the midnight bell was silent. —Mara\n\nSeventeen years ago the East Reach flood killed twenty-three people. Your father, lockkeeper Tomas Vale, was named responsible. You left Leth to learn how to repair paper. Now its archivist has vanished, and the city wants to burn its damaged records.\n\nThe ferry brings you home under a sky the colour of old pewter. Nadi Bell ties the boat with the same knot she used when you were a child. 'Nobody disappears from a city this small,' she says. 'But a city can agree not to look.'",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. As Iona, bring the listener close to a troubling letter and a familiar quay. Separate the letter, old loss and present arrival with thought-sized pauses. Keep the quoted words in your own voice, lightly shaded. Let the last remark settle as personal unease. Natural breathing. Names: Iona=eye-OH-nuh, Mara=MAH-ruh, Leth=LETH, Tomas=TOH-muhs, Nadi=NAH-dee.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 36,
+          "expected_end": 38,
+          "observed_start": 36,
+          "observed_end": 37,
+          "expected": [
+            "east",
+            "reach"
+          ],
+          "observed": [
+            "eastreach"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 83,
+          "expected_end": 84,
+          "observed_start": 82,
+          "observed_end": 83,
+          "expected": [
+            "colour"
+          ],
+          "observed": [
+            "color"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 86,
+          "expected_end": 88,
+          "observed_start": 85,
+          "observed_end": 87,
+          "expected": [
+            "pewter",
+            "nadi"
+          ],
+          "observed": [
+            "shooter",
+            "nattie"
+          ]
+        }
+      ],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    },
+    {
+      "line_id": "rowan_before_hearing_greeting",
+      "attempt": "retake1",
+      "previous_clip": "a441dd9407264b27a3e4324ed984353f",
+      "text": "Rowan reads his corrected statement once more. The crossed-out sentence remains visible on the page.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona’s close, grounded narrative voice. Notice Rowan re-reading the statement and the correction he has left visible. Keep it intimate and concrete. Use varied thought-sized phrasing and relaxed articulation. Natural breathing. Names: Rowan=ROH-un.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 0,
+          "expected_end": 1,
+          "observed_start": 0,
+          "observed_end": 1,
+          "expected": [
+            "rowan"
+          ],
+          "observed": [
+            "rhone"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "rowan_before_hearing_q1",
+      "attempt": "retake1",
+      "previous_clip": "e837e8fc5d9940a3bbdc9b6011ee1c36",
+      "text": "The new isolation tag bears your name.",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona is observant and warm, with precise but relaxed everyday articulation. Notice the new tag with tentative respect. Offer him the fact and let him explain its significance. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "insert",
+          "expected_start": 7,
+          "expected_end": 7,
+          "observed_start": 7,
+          "observed_end": 9,
+          "expected": [],
+          "observed": [
+            "your",
+            "name"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "rowan_before_hearing_r1",
+      "attempt": "retake1",
+      "previous_clip": "00d0e818cacf4734a6176b26d9689415",
+      "text": "And Elian’s, and the date, and exactly what we checked. No grand claim that the works are safe forever. A person coming after us can repeat the check and disagree. It is a small thing compared with what happened. Small things are still worth doing properly. That is something Tomas knew long before I decided to listen.",
+      "voice": "stone",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Rowan is an older lockkeeper: a lived-in low voice, plain words and contained shame. Begin by correcting the credit to include Elian and the details. Speak practically about repeating the check. The thought of Tomas is quietly personal at the end. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing. Names: Tomas=TOH-muhs, Elian=EL-ee-un.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 1,
+          "expected_end": 2,
+          "observed_start": 1,
+          "observed_end": 2,
+          "expected": [
+            "elian's"
+          ],
+          "observed": [
+            "aliens"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 49,
+          "expected_end": 50,
+          "observed_start": 49,
+          "observed_end": 50,
+          "expected": [
+            "tomas"
+          ],
+          "observed": [
+            "thomas"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "rowan_before_hearing_r2",
+      "attempt": "retake1",
+      "previous_clip": "11cdccd40be047e28c2f25ec95bcac87",
+      "text": "Whatever work I am still permitted to do. If I teach, the apprentices will hear this account before they learn the shortcuts. They should know a seal is a reason to identify an order, not a reason to stop asking what the order requires. I cannot give them my innocence. I can give them a warning without making it sound like someone else’s mistake.",
+      "voice": "stone",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Rowan is an older lockkeeper: a lived-in low voice, plain words and contained shame. Accept uncertainty about your future without fishing for reassurance. Describe teaching as something useful you might still do. Finish with firm responsibility for whose mistake it was. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 45,
+          "expected_end": 46,
+          "observed_start": 45,
+          "observed_end": 46,
+          "expected": [
+            "cannot"
+          ],
+          "observed": [
+            "can't"
+          ]
+        },
+        {
+          "operation": "insert",
+          "expected_start": 61,
+          "expected_end": 61,
+          "observed_start": 61,
+          "observed_end": 63,
+          "expected": [],
+          "observed": [
+            "it",
+            "was"
+          ]
+        }
+      ],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    },
+    {
+      "line_id": "rowan_kitchen_q2",
+      "attempt": "retake1",
+      "previous_clip": "d80ab4c25da345e092c065f27ec7e96e",
+      "text": "What do you want the record to say about you?",
+      "voice": "willow",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Iona is observant and warm, with precise but relaxed everyday articulation. Offer Rowan a difficult chance to choose an honest record. Be direct, calm and willing to listen. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 0,
+          "expected_end": 1,
+          "observed_start": 0,
+          "observed_end": 1,
+          "expected": [
+            "what"
+          ],
+          "observed": [
+            "how"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "rowan_kitchen_r0",
+      "attempt": "retake1",
+      "previous_clip": "349c30e128144f75a4cee2c93638b3b5",
+      "text": "The new works office wanted to turn it into a store. I said the night shift needed somewhere warm. That was true. It was not all of the truth. If the table went, I thought the voices might go with it. I have been very good at keeping objects. It took me much longer to understand that an object cannot speak on my behalf.",
+      "voice": "stone",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Rowan is an older lockkeeper: a lived-in low voice, plain words and contained shame. Begin with the useful explanation you have given for years. Admit its incompleteness with a small pause. Let the table and remembered voices matter privately, then finish with plain self-recognition. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 42,
+          "expected_end": 43,
+          "observed_start": 42,
+          "observed_end": 43,
+          "expected": [
+            "have"
+          ],
+          "observed": [
+            "had"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "rowan_kitchen_r1",
+      "attempt": "retake1",
+      "previous_clip": "46f6538778eb4c2a9530b93ea7c55b23",
+      "text": "It meant someone above me had taken responsibility. That is the comfortable meaning of a signature when you are tired and frightened. The order said the Reach was empty. I did not know that it was empty. I treated the first sentence as though it supplied the second. Your father rang the little bell, and I still looked at the seal before I looked at the stair.",
+      "voice": "stone",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Rowan is an older lockkeeper: a lived-in low voice, plain words and contained shame. Describe the comforting excuse as something you once believed. Slow slightly when distinguishing the order from what you actually knew. The memory of Tomas should land as shame, not theatrical grief. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 18,
+          "expected_end": 19,
+          "observed_start": 18,
+          "observed_end": 19,
+          "expected": [
+            "are"
+          ],
+          "observed": [
+            "were"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "sera_archive_r1",
+      "attempt": "retake1",
+      "previous_clip": "b0210741e2bc4bf8966e15e6faf814f6",
+      "text": "I was a child in the north ward. My mother spent that night carrying blankets, and the following years asking where the tenants’ petition had gone. She taught me to set type because she was tired of begging someone else to print a question. I have inherited the press. I would prefer not to inherit the same unanswered question forever.",
+      "voice": "gleam",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Sera is a young printer: quick, clear thought and conviction without shouting. Start with the plain fact of being a child. Let affection and frustration show as you remember your mother. The final wish is personal, not a political slogan. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 7,
+          "expected_end": 8,
+          "observed_start": 7,
+          "observed_end": 8,
+          "expected": [
+            "ward"
+          ],
+          "observed": [
+            "hoard"
+          ]
+        },
+        {
+          "operation": "replace",
+          "expected_start": 22,
+          "expected_end": 23,
+          "observed_start": 22,
+          "observed_end": 23,
+          "expected": [
+            "tenants"
+          ],
+          "observed": [
+            "tenant's"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "sera_proof_r1",
+      "attempt": "retake1",
+      "previous_clip": "80784a2dbf4e406dba1e70921c5c9711",
+      "text": "On the same size sheet, in the same places, without hiding it between advertisements. I have put that promise at the foot of this edition. A press can distribute a lie faster than a clerk can shelve one. I would like to believe the machine in my room is naturally on the right side. It is not. I have to keep choosing what goes into it.",
+      "voice": "gleam",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Sera is a young printer: quick, clear thought and conviction without shouting. Make the commitment as a practical printing promise. Let a rueful thought enter as you admit the press is not automatically on the right side. End with active responsibility, not self-congratulation. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 36,
+          "expected_end": 37,
+          "observed_start": 36,
+          "observed_end": 37,
+          "expected": [
+            "shelve"
+          ],
+          "observed": [
+            "shelf"
+          ]
+        }
+      ],
+      "provider_issue": null
+    },
+    {
+      "line_id": "sera_proof_r2",
+      "attempt": "retake1",
+      "previous_clip": "d574da101b3a4f3ba0c333f12e039d2c",
+      "text": "She would have checked whether the petition’s demands were still worth making. Then she would have asked why we were all standing around imagining her opinion when there were living tenants to consult. I miss her enough to invent kinder answers. I suspect that is why I should not do it in print.",
+      "voice": "gleam",
+      "direction": "Retake: preserve every SCRIPT word exactly, including articles and uncontracted forms. Complete initial and final consonants clearly. Keep the performance conversational and emotionally specific. Sera is a young printer: quick, clear thought and conviction without shouting. Remember your mother with affection and an almost amused certainty about her impatience. Let missing her show briefly, then make the last admission honest and understated. Speak to one nearby person, with natural changes of emphasis and ordinary unvoiced breaths. Natural breathing.",
+      "reason": [
+        {
+          "operation": "replace",
+          "expected_start": 22,
+          "expected_end": 23,
+          "observed_start": 22,
+          "observed_end": 23,
+          "expected": [
+            "around"
+          ],
+          "observed": [
+            "here"
+          ]
+        }
+      ],
+      "provider_issue": "Spoken transcript differs from the script; review or request a new take"
+    }
+  ]
+}

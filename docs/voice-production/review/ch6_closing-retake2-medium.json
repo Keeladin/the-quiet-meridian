@@ -1,0 +1,745 @@
+{
+  "line_id": "ch6_closing",
+  "clip_id": "166577d4c2a8474385b4edd293636e00",
+  "source_text_sha256": "d83ce8417ef77518376833ceda9bf3f5ddc858ecaa50d2f68fd8b57c8c893132",
+  "master": "work/gateway-voice/masters/166577d4c2a8474385b4edd293636e00.wav",
+  "wav_sha256": "6343051ba13dbac887ca23ecc349ee8635ec12df8acaf2f2053ebc3a876d5b51",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 782400,
+    "sample_count": 391200,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 16.3,
+    "peak": 0.48828125,
+    "peak_dbfs": -6.2265990460758625,
+    "rms": 0.03735646266792258,
+    "rms_dbfs": -28.55268508809694,
+    "dc_offset": 0.00010571750882700664,
+    "silence_fraction": 0.2702402862985685,
+    "leading_silence_seconds": 0.39725,
+    "tail_silence_seconds": 0.2798333333333333,
+    "active_span_seconds": 15.622916666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 40,
+    "source_words_per_active_minute": 153.6204827310308,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "public",
+      "record",
+      "is",
+      "complete",
+      "the",
+      "council",
+      "withdraws",
+      "rusk's",
+      "emergency",
+      "authority",
+      "and",
+      "refers",
+      "the",
+      "signed",
+      "evidence",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "elian's",
+      "admission",
+      "is",
+      "retained",
+      "for",
+      "the",
+      "same",
+      "inquiry",
+      "the",
+      "archive",
+      "will",
+      "keep",
+      "the",
+      "old",
+      "lie",
+      "visible",
+      "beside",
+      "its",
+      "documented",
+      "correction"
+    ],
+    "observed_tokens": [
+      "the",
+      "public",
+      "record",
+      "is",
+      "complete",
+      "the",
+      "council",
+      "withdraws",
+      "rusk's",
+      "emergency",
+      "authority",
+      "and",
+      "refers",
+      "the",
+      "signed",
+      "evidence",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "elian's",
+      "admission",
+      "is",
+      "retained",
+      "for",
+      "the",
+      "same",
+      "inquiry",
+      "the",
+      "archive",
+      "will",
+      "keep",
+      "the",
+      "old",
+      "lie",
+      "visible",
+      "beside",
+      "its",
+      "documented",
+      "correction"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 40,
+        "observed_start": 0,
+        "observed_end": 40,
+        "expected": [
+          "the",
+          "public",
+          "record",
+          "is",
+          "complete",
+          "the",
+          "council",
+          "withdraws",
+          "rusk's",
+          "emergency",
+          "authority",
+          "and",
+          "refers",
+          "the",
+          "signed",
+          "evidence",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "elian's",
+          "admission",
+          "is",
+          "retained",
+          "for",
+          "the",
+          "same",
+          "inquiry",
+          "the",
+          "archive",
+          "will",
+          "keep",
+          "the",
+          "old",
+          "lie",
+          "visible",
+          "beside",
+          "its",
+          "documented",
+          "correction"
+        ],
+        "observed": [
+          "the",
+          "public",
+          "record",
+          "is",
+          "complete",
+          "the",
+          "council",
+          "withdraws",
+          "rusk's",
+          "emergency",
+          "authority",
+          "and",
+          "refers",
+          "the",
+          "signed",
+          "evidence",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "elian's",
+          "admission",
+          "is",
+          "retained",
+          "for",
+          "the",
+          "same",
+          "inquiry",
+          "the",
+          "archive",
+          "will",
+          "keep",
+          "the",
+          "old",
+          "lie",
+          "visible",
+          "beside",
+          "its",
+          "documented",
+          "correction"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The public record is complete. The council withdraws Rusk's emergency authority and refers the signed evidence to an outside court. Elian's admission is retained for the same inquiry. The archive will keep the old line visible beside its documented correction.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.5,
+      "text": " The public record is complete. The council withdraws Rusk's emergency",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.20260053873062134
+        },
+        {
+          "word": " public",
+          "start": 0.42,
+          "end": 0.64,
+          "probability": 0.9413224458694458
+        },
+        {
+          "word": " record",
+          "start": 0.64,
+          "end": 1.02,
+          "probability": 0.998449444770813
+        },
+        {
+          "word": " is",
+          "start": 1.02,
+          "end": 1.32,
+          "probability": 0.9982839226722717
+        },
+        {
+          "word": " complete.",
+          "start": 1.32,
+          "end": 1.7,
+          "probability": 0.9977222084999084
+        },
+        {
+          "word": " The",
+          "start": 2.46,
+          "end": 2.58,
+          "probability": 0.9873747825622559
+        },
+        {
+          "word": " council",
+          "start": 2.58,
+          "end": 2.98,
+          "probability": 0.48676177859306335
+        },
+        {
+          "word": " withdraws",
+          "start": 2.98,
+          "end": 3.84,
+          "probability": 0.9933913350105286
+        },
+        {
+          "word": " Rusk's",
+          "start": 3.84,
+          "end": 4.18,
+          "probability": 0.9563570022583008
+        },
+        {
+          "word": " emergency",
+          "start": 4.18,
+          "end": 4.5,
+          "probability": 0.9681743383407593
+        }
+      ]
+    },
+    {
+      "start": 4.5,
+      "end": 7.72,
+      "text": " authority and refers the signed evidence to an outside court.",
+      "words": [
+        {
+          "word": " authority",
+          "start": 4.5,
+          "end": 5.0,
+          "probability": 0.6931318044662476
+        },
+        {
+          "word": " and",
+          "start": 5.0,
+          "end": 5.42,
+          "probability": 0.8811364769935608
+        },
+        {
+          "word": " refers",
+          "start": 5.42,
+          "end": 5.7,
+          "probability": 0.9601901173591614
+        },
+        {
+          "word": " the",
+          "start": 5.7,
+          "end": 5.88,
+          "probability": 0.9898001551628113
+        },
+        {
+          "word": " signed",
+          "start": 5.88,
+          "end": 6.1,
+          "probability": 0.9455724358558655
+        },
+        {
+          "word": " evidence",
+          "start": 6.1,
+          "end": 6.48,
+          "probability": 0.9947581887245178
+        },
+        {
+          "word": " to",
+          "start": 6.48,
+          "end": 6.8,
+          "probability": 0.9985007047653198
+        },
+        {
+          "word": " an",
+          "start": 6.8,
+          "end": 6.94,
+          "probability": 0.9947221279144287
+        },
+        {
+          "word": " outside",
+          "start": 6.94,
+          "end": 7.24,
+          "probability": 0.9575278162956238
+        },
+        {
+          "word": " court.",
+          "start": 7.24,
+          "end": 7.72,
+          "probability": 0.988660454750061
+        }
+      ]
+    },
+    {
+      "start": 8.62,
+      "end": 13.32,
+      "text": " Elian's admission is retained for the same inquiry. The archive will keep the",
+      "words": [
+        {
+          "word": " Elian's",
+          "start": 8.62,
+          "end": 8.96,
+          "probability": 0.6960597733656565
+        },
+        {
+          "word": " admission",
+          "start": 8.96,
+          "end": 9.38,
+          "probability": 0.9847431182861328
+        },
+        {
+          "word": " is",
+          "start": 9.38,
+          "end": 9.74,
+          "probability": 0.7555373311042786
+        },
+        {
+          "word": " retained",
+          "start": 9.74,
+          "end": 10.12,
+          "probability": 0.9843547344207764
+        },
+        {
+          "word": " for",
+          "start": 10.12,
+          "end": 10.32,
+          "probability": 0.9945613741874695
+        },
+        {
+          "word": " the",
+          "start": 10.32,
+          "end": 10.44,
+          "probability": 0.9963854551315308
+        },
+        {
+          "word": " same",
+          "start": 10.44,
+          "end": 10.62,
+          "probability": 0.9993304014205933
+        },
+        {
+          "word": " inquiry.",
+          "start": 10.62,
+          "end": 11.14,
+          "probability": 0.8514641523361206
+        },
+        {
+          "word": " The",
+          "start": 12.16,
+          "end": 12.32,
+          "probability": 0.9935060739517212
+        },
+        {
+          "word": " archive",
+          "start": 12.32,
+          "end": 12.62,
+          "probability": 0.7327620983123779
+        },
+        {
+          "word": " will",
+          "start": 12.62,
+          "end": 12.92,
+          "probability": 0.9964325428009033
+        },
+        {
+          "word": " keep",
+          "start": 12.92,
+          "end": 13.16,
+          "probability": 0.9984986782073975
+        },
+        {
+          "word": " the",
+          "start": 13.16,
+          "end": 13.32,
+          "probability": 0.983856201171875
+        }
+      ]
+    },
+    {
+      "start": 13.32,
+      "end": 15.76,
+      "text": " old line visible beside its documented correction.",
+      "words": [
+        {
+          "word": " old",
+          "start": 13.32,
+          "end": 13.5,
+          "probability": 0.9678370952606201
+        },
+        {
+          "word": " line",
+          "start": 13.5,
+          "end": 13.7,
+          "probability": 0.8059223294258118
+        },
+        {
+          "word": " visible",
+          "start": 13.7,
+          "end": 14.18,
+          "probability": 0.9937738180160522
+        },
+        {
+          "word": " beside",
+          "start": 14.18,
+          "end": 14.64,
+          "probability": 0.8033435940742493
+        },
+        {
+          "word": " its",
+          "start": 14.64,
+          "end": 14.86,
+          "probability": 0.9712287783622742
+        },
+        {
+          "word": " documented",
+          "start": 14.86,
+          "end": 15.28,
+          "probability": 0.9867948889732361
+        },
+        {
+          "word": " correction.",
+          "start": 15.28,
+          "end": 15.76,
+          "probability": 0.989297091960907
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "public",
+      "record",
+      "is",
+      "complete",
+      "the",
+      "council",
+      "withdraws",
+      "rusk's",
+      "emergency",
+      "authority",
+      "and",
+      "refers",
+      "the",
+      "signed",
+      "evidence",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "elian's",
+      "admission",
+      "is",
+      "retained",
+      "for",
+      "the",
+      "same",
+      "inquiry",
+      "the",
+      "archive",
+      "will",
+      "keep",
+      "the",
+      "old",
+      "lie",
+      "visible",
+      "beside",
+      "its",
+      "documented",
+      "correction"
+    ],
+    "observed_tokens": [
+      "the",
+      "public",
+      "record",
+      "is",
+      "complete",
+      "the",
+      "council",
+      "withdraws",
+      "rusk's",
+      "emergency",
+      "authority",
+      "and",
+      "refers",
+      "the",
+      "signed",
+      "evidence",
+      "to",
+      "an",
+      "outside",
+      "court",
+      "elian's",
+      "admission",
+      "is",
+      "retained",
+      "for",
+      "the",
+      "same",
+      "inquiry",
+      "the",
+      "archive",
+      "will",
+      "keep",
+      "the",
+      "old",
+      "line",
+      "visible",
+      "beside",
+      "its",
+      "documented",
+      "correction"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 34,
+        "observed_start": 0,
+        "observed_end": 34,
+        "expected": [
+          "the",
+          "public",
+          "record",
+          "is",
+          "complete",
+          "the",
+          "council",
+          "withdraws",
+          "rusk's",
+          "emergency",
+          "authority",
+          "and",
+          "refers",
+          "the",
+          "signed",
+          "evidence",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "elian's",
+          "admission",
+          "is",
+          "retained",
+          "for",
+          "the",
+          "same",
+          "inquiry",
+          "the",
+          "archive",
+          "will",
+          "keep",
+          "the",
+          "old"
+        ],
+        "observed": [
+          "the",
+          "public",
+          "record",
+          "is",
+          "complete",
+          "the",
+          "council",
+          "withdraws",
+          "rusk's",
+          "emergency",
+          "authority",
+          "and",
+          "refers",
+          "the",
+          "signed",
+          "evidence",
+          "to",
+          "an",
+          "outside",
+          "court",
+          "elian's",
+          "admission",
+          "is",
+          "retained",
+          "for",
+          "the",
+          "same",
+          "inquiry",
+          "the",
+          "archive",
+          "will",
+          "keep",
+          "the",
+          "old"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 34,
+        "expected_end": 35,
+        "observed_start": 34,
+        "observed_end": 35,
+        "expected": [
+          "lie"
+        ],
+        "observed": [
+          "line"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 35,
+        "expected_end": 40,
+        "observed_start": 35,
+        "observed_end": 40,
+        "expected": [
+          "visible",
+          "beside",
+          "its",
+          "documented",
+          "correction"
+        ],
+        "observed": [
+          "visible",
+          "beside",
+          "its",
+          "documented",
+          "correction"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "lie"
+        ],
+        "observed": [
+          "line"
+        ],
+        "expected_start": 34,
+        "observed_start": 34
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 34:35."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

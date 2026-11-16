@@ -1,0 +1,227 @@
+{
+  "line_id": "nadi_signal_q2",
+  "clip_id": "b62566665c8d415e9156ee465f4df48d",
+  "source_text_sha256": "ea11a17e15292778d210229ddbd1e20276945d05e604c5aa8d64ccda2248f816",
+  "master": "work/gateway-voice/masters/b62566665c8d415e9156ee465f4df48d.wav",
+  "wav_sha256": "e419e2e626b3d6a71775590f3aa05247c0d08932dafaa3c846837fc14f573b30",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 118080,
+    "sample_count": 59040,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.46,
+    "peak": 0.3046875,
+    "peak_dbfs": -10.322907252427383,
+    "rms": 0.05155780197564873,
+    "rms_dbfs": -25.754112117371413,
+    "dc_offset": 1.2909493795255336e-05,
+    "silence_fraction": 0.4103150406504065,
+    "leading_silence_seconds": 0.3939166666666667,
+    "tail_silence_seconds": 0.28529166666666667,
+    "active_span_seconds": 1.7807916666666668,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 235.85016027515852,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "will",
+      "you",
+      "take",
+      "me",
+      "to",
+      "the",
+      "clinic"
+    ],
+    "observed_tokens": [
+      "will",
+      "you",
+      "take",
+      "me",
+      "to",
+      "the",
+      "clinic"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "will",
+          "you",
+          "take",
+          "me",
+          "to",
+          "the",
+          "clinic"
+        ],
+        "observed": [
+          "will",
+          "you",
+          "take",
+          "me",
+          "to",
+          "the",
+          "clinic"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Will you take me to the clinic?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.86,
+      "text": " Will you take me to the clinic?",
+      "words": [
+        {
+          "word": " Will",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.6918531060218811
+        },
+        {
+          "word": " you",
+          "start": 0.56,
+          "end": 0.76,
+          "probability": 0.9944329857826233
+        },
+        {
+          "word": " take",
+          "start": 0.76,
+          "end": 1.0,
+          "probability": 0.9988804459571838
+        },
+        {
+          "word": " me",
+          "start": 1.0,
+          "end": 1.26,
+          "probability": 0.998956561088562
+        },
+        {
+          "word": " to",
+          "start": 1.26,
+          "end": 1.44,
+          "probability": 0.9977578520774841
+        },
+        {
+          "word": " the",
+          "start": 1.44,
+          "end": 1.6,
+          "probability": 0.9944109320640564
+        },
+        {
+          "word": " clinic?",
+          "start": 1.6,
+          "end": 1.86,
+          "probability": 0.9820618033409119
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "will",
+      "you",
+      "take",
+      "me",
+      "to",
+      "the",
+      "clinic"
+    ],
+    "observed_tokens": [
+      "will",
+      "you",
+      "take",
+      "me",
+      "to",
+      "the",
+      "clinic"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "will",
+          "you",
+          "take",
+          "me",
+          "to",
+          "the",
+          "clinic"
+        ],
+        "observed": [
+          "will",
+          "you",
+          "take",
+          "me",
+          "to",
+          "the",
+          "clinic"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

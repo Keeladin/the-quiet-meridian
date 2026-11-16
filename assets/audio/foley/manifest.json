@@ -1,0 +1,2655 @@
+{
+  "version": 1,
+  "created": "2026-11-14",
+  "method": "Edited and sequenced CC0 material Foley; third-party source recordings retained unchanged.",
+  "generator": "tools/build_foley.py",
+  "generator_sha256": "814044dfb015b8af0d04d87f3b8a8350bc33e8e7b84f647aedb0427b42ffcfcc",
+  "build_dependencies": "tools/score-requirements.txt",
+  "license": "CC0-1.0",
+  "commercial_use_provenance": "Selected recordings are explicitly dedicated under CC0 by Kenney Vleugels and rubberduck. This is licensed third-party Foley, not a claim that the source recordings were made for the project. Editing and sequences were authored locally. No voice, service-generated audio, purchased subscription or paid API calls used.",
+  "quality_status": "Signal, decoder, provenance and repetition checks are separate from subjective material realism and final listening acceptance.",
+  "processing": {
+    "sample_rate": 32000,
+    "channels": 2,
+    "highpass_hz": 50,
+    "lowpass_hz": 11000,
+    "layer_target_rms_dbfs": -25,
+    "layer_peak_ceiling_dbfs": -10,
+    "final_target_rms_dbfs": -24,
+    "final_peak_ceiling_dbfs": -7,
+    "ui_target_rms_dbfs": -29,
+    "ui_peak_ceiling_dbfs": -12,
+    "tail_padding_seconds": 0.035,
+    "final_fade_seconds": 0.004,
+    "normalization": "Linear RMS matching with peak ceiling, no clipping or synthesized tones."
+  },
+  "packs": [
+    {
+      "id": "kenney",
+      "archive": "rpg_oga.zip",
+      "creator": "Kenney Vleugels",
+      "title": "50 RPG sound effects",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects",
+      "download_url": "https://opengameart.org/sites/default/files/RPGsounds_Kenney.zip",
+      "archive_sha256": "3ae398ad63e293f9c450bda22d5d81c3af69c74df66fc1400f33c012c0bbc231",
+      "license": "CC0-1.0",
+      "license_record": "assets/audio/foley/sources/Kenney-license.txt"
+    },
+    {
+      "id": "rubberduck",
+      "archive": "rubberduck_sfx100v2.zip",
+      "creator": "rubberduck",
+      "title": "100 CC0 SFX #2",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2",
+      "download_url": "https://opengameart.org/sites/default/files/sfx_100_v2.zip",
+      "archive_sha256": "0fc61b4494e2e893c0c015ced4877b3f689c7d84a48cb61daecd7ddb52db797b",
+      "license": "CC0-1.0",
+      "license_record": "assets/audio/foley/sources/rubberduck-license-declaration.txt"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kenney:beltHandle1",
+      "path": "assets/audio/foley/sources/kenney/beltHandle1.ogg",
+      "sha256": "2ef665bd8b65dbe669f4560be38a6d8f04a162e618b15a49e3e71b58e558aab0",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/beltHandle1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:beltHandle2",
+      "path": "assets/audio/foley/sources/kenney/beltHandle2.ogg",
+      "sha256": "f3b692d5c83263c25bce779805b212dbab515d18a603c695fc6a1e8650cf5366",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/beltHandle2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookClose",
+      "path": "assets/audio/foley/sources/kenney/bookClose.ogg",
+      "sha256": "81e976532565f4372abd14e83d2684195fa548d0a28d345de221e56052454f32",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookClose.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookFlip1",
+      "path": "assets/audio/foley/sources/kenney/bookFlip1.ogg",
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookFlip1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookFlip2",
+      "path": "assets/audio/foley/sources/kenney/bookFlip2.ogg",
+      "sha256": "3409042acbfaebc24c1a6327dc073e36f9250841712e96c5040da566a97df73c",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookFlip2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookFlip3",
+      "path": "assets/audio/foley/sources/kenney/bookFlip3.ogg",
+      "sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookFlip3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookOpen",
+      "path": "assets/audio/foley/sources/kenney/bookOpen.ogg",
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookOpen.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookPlace2",
+      "path": "assets/audio/foley/sources/kenney/bookPlace2.ogg",
+      "sha256": "831874e8fd142d4d0a03ff009f1f83966338a7878c0f6f38c613ae5b80dd731e",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookPlace2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:bookPlace3",
+      "path": "assets/audio/foley/sources/kenney/bookPlace3.ogg",
+      "sha256": "b1afa711e1cabfe5b2c56e20e20e0f9d82142d067727447fa992ddc43dbdb06e",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/bookPlace3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth1",
+      "path": "assets/audio/foley/sources/kenney/cloth1.ogg",
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth2",
+      "path": "assets/audio/foley/sources/kenney/cloth2.ogg",
+      "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth3",
+      "path": "assets/audio/foley/sources/kenney/cloth3.ogg",
+      "sha256": "a48632d17a4f1416541d261a32a31612e01267144c407fa3ecab3ff410f0085b",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:cloth4",
+      "path": "assets/audio/foley/sources/kenney/cloth4.ogg",
+      "sha256": "e7ab9a6c4466dea874196c61f59bf1da05cfe58748f42fadd695d441a154a99b",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/cloth4.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:clothBelt",
+      "path": "assets/audio/foley/sources/kenney/clothBelt.ogg",
+      "sha256": "f29560a2aea95bbfeb643e1e8f56ec2b6f7e32f32ce4e140645a36db81de3253",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/clothBelt.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:clothBelt2",
+      "path": "assets/audio/foley/sources/kenney/clothBelt2.ogg",
+      "sha256": "d545b1d9f20e6188140aaf551a96f1e82fe0d15f7ca066fac8b065e1231e0038",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/clothBelt2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:creak1",
+      "path": "assets/audio/foley/sources/kenney/creak1.ogg",
+      "sha256": "8a346186fd297254248cab8e8117060a52a5cf2a84f603153a762108550ea95e",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/creak1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:creak2",
+      "path": "assets/audio/foley/sources/kenney/creak2.ogg",
+      "sha256": "8a990afdc03aebb91d528f5385e2f95582dbfa8e2c12c71098ab01be9142294a",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/creak2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:creak3",
+      "path": "assets/audio/foley/sources/kenney/creak3.ogg",
+      "sha256": "f9638787f95004b9d2d06f8eff8e99d4e594c21b51947daf562856fbcec905d1",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/creak3.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:doorOpen_1",
+      "path": "assets/audio/foley/sources/kenney/doorOpen_1.ogg",
+      "sha256": "4ab93bab96522d8eb109ff96dc57cb6765deb02448fe14c10472084be5bb2a0b",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/doorOpen_1.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:doorOpen_2",
+      "path": "assets/audio/foley/sources/kenney/doorOpen_2.ogg",
+      "sha256": "68962fb0458c9bac59dec3adefa9849703c7c89d34712de03dd0075d095e79e9",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/doorOpen_2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:handleCoins2",
+      "path": "assets/audio/foley/sources/kenney/handleCoins2.ogg",
+      "sha256": "4b857968d64f9ac9336a10ffac6694d7547e1f01566ad6857b30bc8db3ee6c32",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/handleCoins2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:handleSmallLeather",
+      "path": "assets/audio/foley/sources/kenney/handleSmallLeather.ogg",
+      "sha256": "ae3cbf695aa0a8b98b5a80a835be5a3ccbd5446a24db2235cd4c3cd6fc92ed96",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/handleSmallLeather.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:handleSmallLeather2",
+      "path": "assets/audio/foley/sources/kenney/handleSmallLeather2.ogg",
+      "sha256": "a66f6db5918ad016c28a9f2768f127a7f39b5fa04481e5a3b4e78ebe2a1c282d",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/handleSmallLeather2.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:metalClick",
+      "path": "assets/audio/foley/sources/kenney/metalClick.ogg",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/metalClick.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "kenney:metalLatch",
+      "path": "assets/audio/foley/sources/kenney/metalLatch.ogg",
+      "sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708",
+      "creator": "Kenney Vleugels",
+      "pack": "kenney",
+      "member": "OGG/metalLatch.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/50-rpg-sound-effects"
+    },
+    {
+      "id": "rubberduck:door_02",
+      "path": "assets/audio/foley/sources/rubberduck/door_02.ogg",
+      "sha256": "317b5caa1e2800dea1189b73ac2a6e4f92b137da7bfe115c7acc382c3f43da6e",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_door_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wet_01",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wet_01.ogg",
+      "sha256": "c2663b62fc7239972c044719b95daec4004976fc9bd0a1678c06170d99a3d408",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wet_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wet_02",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wet_02.ogg",
+      "sha256": "b2cfbdd75ee970dcb68cc157fec818eda2f5802989b0da684aa67817cb914b52",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wet_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wet_03",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wet_03.ogg",
+      "sha256": "4d475dd54d72a862cb72fcff4d1970161e619352f500f8b75755a2f5e987513e",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wet_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_01",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_01.ogg",
+      "sha256": "52465eeb853a8fa3cd9f4e218dc0b28bdcb3bb52da72f5bece5d47cae2523a20",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_02",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_02.ogg",
+      "sha256": "e6c35ceaabd50775ba222d8c9566e807b876debf066443626a0a4906849982d4",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_03",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_03.ogg",
+      "sha256": "c02fd155ca74ece4e5c9992f1d48c615bc768b0a8c712423d7091bc0f1207d4c",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:footstep_wood_04",
+      "path": "assets/audio/foley/sources/rubberduck/footstep_wood_04.ogg",
+      "sha256": "d229d313dc89c5c1d337f2f348d75822695530832fd10469595a3d37c53118ab",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_footstep_wood_04.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:glass_01",
+      "path": "assets/audio/foley/sources/rubberduck/glass_01.ogg",
+      "sha256": "9c664345b242c2ff06e4d00b0383a03afe1b7bf8a685ec9628fb605a1e43c196",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_glass_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:glass_02",
+      "path": "assets/audio/foley/sources/rubberduck/glass_02.ogg",
+      "sha256": "27464f1af8eabe2df582d17d12fd9e140e69723d87a4548123cb0ac796aded0b",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_glass_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:glass_03",
+      "path": "assets/audio/foley/sources/rubberduck/glass_03.ogg",
+      "sha256": "e540ec72e2386a1e98f23047f4f070a8554335f57417deb11514a198382a58fd",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_glass_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:lock_open_01",
+      "path": "assets/audio/foley/sources/rubberduck/lock_open_01.ogg",
+      "sha256": "5147f96254216792e0bf5f32a3589efbc4e4632fbba4737740f336b7bfbf3f55",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_lock_open_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_machine_01",
+      "path": "assets/audio/foley/sources/rubberduck/loop_machine_01.ogg",
+      "sha256": "18aa96bda8feb81ffa4158545749a4fddbd419124025832d0014bb0ddfaecc8a",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_machine_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_machine_03",
+      "path": "assets/audio/foley/sources/rubberduck/loop_machine_03.ogg",
+      "sha256": "0508e8b7c73e0492ff58abc2dcae303f5492c1e14b51dc62a74387db1ca13b73",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_machine_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_water_01",
+      "path": "assets/audio/foley/sources/rubberduck/loop_water_01.ogg",
+      "sha256": "955a367cf87f150f7868e2ecf5745ef13cec2c78a29304eda27e74f1fea06c57",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_water_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_water_02",
+      "path": "assets/audio/foley/sources/rubberduck/loop_water_02.ogg",
+      "sha256": "32bc3462ebd2376d9b84e8f602969f8c2a475f589adee9804207e19116cda768",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_water_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:loop_water_03",
+      "path": "assets/audio/foley/sources/rubberduck/loop_water_03.ogg",
+      "sha256": "33b123860425a34ce8de43cfa075b0b4ffb7a3cf090be5c21213c9b99f3d2fa3",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_loop_water_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_01",
+      "path": "assets/audio/foley/sources/rubberduck/metal_01.ogg",
+      "sha256": "c2e97c7a8e7bca13eb3f711d8a9f58aa7f982c69af43af4ce4a151246a42ebee",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_02",
+      "path": "assets/audio/foley/sources/rubberduck/metal_02.ogg",
+      "sha256": "d33548b1b6d977ecd5b8433c305dd99533232a2aad40d2e0bc5bc90e8549cbd2",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_04",
+      "path": "assets/audio/foley/sources/rubberduck/metal_04.ogg",
+      "sha256": "33c7d65086795882b8ffaaa215be3b38695dcca5e2112e5d9e3fe6e67328dae7",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_04.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_05",
+      "path": "assets/audio/foley/sources/rubberduck/metal_05.ogg",
+      "sha256": "64e7b8d40642f59c0aa2f925d66ce9333b0cbb20bc010f1496cd89cd7197d247",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_05.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:metal_06",
+      "path": "assets/audio/foley/sources/rubberduck/metal_06.ogg",
+      "sha256": "3d989232768f98190fbdcfff80f890f476c4d18d7709c5c907b20439bbf70d5a",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_metal_06.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:switch_01",
+      "path": "assets/audio/foley/sources/rubberduck/switch_01.ogg",
+      "sha256": "fa2c8ebd6361394762e9964698a0be2e31ae62dc91510f81c716c0ef8cf5741d",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_switch_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:switch_02",
+      "path": "assets/audio/foley/sources/rubberduck/switch_02.ogg",
+      "sha256": "4ea2e80d7b9bee89dcb878233ae6bd3a18c1cf960885ec844b3d43dfbf8d700b",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_switch_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_01",
+      "path": "assets/audio/foley/sources/rubberduck/wood_01.ogg",
+      "sha256": "3d2f562125ccc5f4e5b2d547fac204025249acbe4ff31db721a64a639cf58fd6",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_02",
+      "path": "assets/audio/foley/sources/rubberduck/wood_02.ogg",
+      "sha256": "199fd6f6715ea73028163346ac08de5b02cbd304569a6590ae6fc581221a840d",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_03",
+      "path": "assets/audio/foley/sources/rubberduck/wood_03.ogg",
+      "sha256": "57330fbbd91c7ab5356c65f22813988bcf07d363099b5dda0a958ceab443df2c",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_03.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_04",
+      "path": "assets/audio/foley/sources/rubberduck/wood_04.ogg",
+      "sha256": "afa88de3d54c12b2a8111149da18de5b0eb2bf315f8c8cf0814e181a36da1d0b",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_04.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_hit_01",
+      "path": "assets/audio/foley/sources/rubberduck/wood_hit_01.ogg",
+      "sha256": "84abc80d93011d86f29bc55c10a023265ece0851d0784d1bf07c5990f08daeab",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_hit_01.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    },
+    {
+      "id": "rubberduck:wood_hit_02",
+      "path": "assets/audio/foley/sources/rubberduck/wood_hit_02.ogg",
+      "sha256": "7ff0c18fafb7d025addb5d3cb586444842d8281ca9ed265eb2ac7213fa754b8a",
+      "creator": "rubberduck",
+      "pack": "rubberduck",
+      "member": "sfx100v2_wood_hit_02.ogg",
+      "license": "CC0-1.0",
+      "source_url": "https://opengameart.org/content/100-cc0-sfx-2"
+    }
+  ],
+  "cues": {
+    "paper": {
+      "path": "res://assets/audio/foley/paper_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/paper_01.ogg",
+        "res://assets/audio/foley/paper_02.ogg",
+        "res://assets/audio/foley/paper_03.ogg"
+      ],
+      "gain_db": -3,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Individual pages handled close to the listener."
+    },
+    "book": {
+      "path": "res://assets/audio/foley/book_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/book_01.ogg",
+        "res://assets/audio/foley/book_02.ogg",
+        "res://assets/audio/foley/book_03.ogg"
+      ],
+      "gain_db": -4,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A page or cover movement followed by a restrained book contact."
+    },
+    "cloth": {
+      "path": "res://assets/audio/foley/cloth_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/cloth_01.ogg",
+        "res://assets/audio/foley/cloth_02.ogg",
+        "res://assets/audio/foley/cloth_03.ogg"
+      ],
+      "gain_db": -3,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Soft fabric handling for bags, aprons and textiles."
+    },
+    "rope": {
+      "path": "res://assets/audio/foley/rope_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/rope_01.ogg",
+        "res://assets/audio/foley/rope_02.ogg",
+        "res://assets/audio/foley/rope_03.ogg"
+      ],
+      "gain_db": -4,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Fibres pulled taut with a quiet strain underneath."
+    },
+    "metal": {
+      "path": "res://assets/audio/foley/metal_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/metal_01.ogg",
+        "res://assets/audio/foley/metal_02.ogg",
+        "res://assets/audio/foley/metal_03.ogg"
+      ],
+      "gain_db": -6,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Small metal fittings handled, with a faint coin rattle in the third variation."
+    },
+    "lock": {
+      "path": "res://assets/audio/foley/lock_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/lock_01.ogg",
+        "res://assets/audio/foley/lock_02.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A lock turns and its catch settles."
+    },
+    "glass": {
+      "path": "res://assets/audio/foley/glass_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/glass_01.ogg",
+        "res://assets/audio/foley/glass_02.ogg",
+        "res://assets/audio/foley/glass_03.ogg"
+      ],
+      "gain_db": -7,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Short glass contacts for fragile instruments and vessels."
+    },
+    "wood": {
+      "path": "res://assets/audio/foley/wood_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/wood_01.ogg",
+        "res://assets/audio/foley/wood_02.ogg",
+        "res://assets/audio/foley/wood_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Dry wooden fittings and surfaces handled."
+    },
+    "water": {
+      "path": "res://assets/audio/foley/water_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/water_01.ogg",
+        "res://assets/audio/foley/water_02.ogg",
+        "res://assets/audio/foley/water_03.ogg"
+      ],
+      "gain_db": -7,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Brief flowing-water detail, faded into the existing location ambience."
+    },
+    "footsteps_wet": {
+      "path": "res://assets/audio/foley/footsteps_wet_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/footsteps_wet_01.ogg",
+        "res://assets/audio/foley/footsteps_wet_02.ogg",
+        "res://assets/audio/foley/footsteps_wet_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Two measured steps across wet ground."
+    },
+    "footsteps_wood": {
+      "path": "res://assets/audio/foley/footsteps_wood_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/footsteps_wood_01.ogg",
+        "res://assets/audio/foley/footsteps_wood_02.ogg",
+        "res://assets/audio/foley/footsteps_wood_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Two measured steps on wooden flooring."
+    },
+    "door": {
+      "path": "res://assets/audio/foley/door_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/door_01.ogg",
+        "res://assets/audio/foley/door_02.ogg"
+      ],
+      "gain_db": -6,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A latch releases before a door opens."
+    },
+    "mechanism": {
+      "path": "res://assets/audio/foley/mechanism_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/mechanism_01.ogg",
+        "res://assets/audio/foley/mechanism_02.ogg"
+      ],
+      "gain_db": -7,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A control engages, machinery moves briefly, and a catch settles."
+    },
+    "collect": {
+      "path": "res://assets/audio/foley/collect_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/collect_01.ogg",
+        "res://assets/audio/foley/collect_02.ogg",
+        "res://assets/audio/foley/collect_03.ogg"
+      ],
+      "gain_db": -3,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A small object is tucked into a soft bag."
+    },
+    "combine": {
+      "path": "res://assets/audio/foley/combine_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/combine_01.ogg",
+        "res://assets/audio/foley/combine_02.ogg",
+        "res://assets/audio/foley/combine_03.ogg"
+      ],
+      "gain_db": -5,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Handling, contact and a final fitting together."
+    },
+    "stamp": {
+      "path": "res://assets/audio/foley/stamp_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/stamp_01.ogg",
+        "res://assets/audio/foley/stamp_02.ogg",
+        "res://assets/audio/foley/stamp_03.ogg"
+      ],
+      "gain_db": -6,
+      "pitch_range": [
+        0.985,
+        1.015
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "A paper-backed wooden stamp or firm tabletop contact."
+    },
+    "ui": {
+      "path": "res://assets/audio/foley/ui_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/ui_01.ogg",
+        "res://assets/audio/foley/ui_02.ogg"
+      ],
+      "gain_db": -10,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "cooldown_seconds": 0.12,
+      "description": "Quiet tactile switches for interface confirmations."
+    },
+    "voice_skip": {
+      "path": "res://assets/audio/foley/voice_skip_01.ogg",
+      "variants": [
+        "res://assets/audio/foley/voice_skip_01.ogg",
+        "res://assets/audio/foley/voice_skip_02.ogg"
+      ],
+      "gain_db": -12,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "cooldown_seconds": 0.12,
+      "description": "A very soft fabric motion without a distracting musical tone."
+    }
+  },
+  "assets": [
+    {
+      "path": "assets/audio/foley/paper_01.ogg",
+      "master": "assets/audio/foley/masters/paper_01.wav",
+      "kind": "sfx",
+      "cue": "paper",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.711063,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -37.851,
+      "sha256": "5b9703c74903c02039b48b870a7cce9e07efcda146d6f4823649b14fb8ac798e",
+      "master_sha256": "b35f0e0da4a2db37935cc7b3e4e9b385c95f313c78b0d38285a9d1951c4da8aa",
+      "source_ids": [
+        "kenney:bookFlip1"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:bookFlip1",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/paper_02.ogg",
+      "master": "assets/audio/foley/masters/paper_02.wav",
+      "kind": "sfx",
+      "cue": "paper",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.451281,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -36.321,
+      "sha256": "75b459d41fad8f6bc2249af67cfdc20de999d37ccbc8ff57f7f75c0679741017",
+      "master_sha256": "c6fa37084d4f867e3cc48026827ddda8de3638e30d414621166bc735384eaed2",
+      "source_ids": [
+        "kenney:bookFlip2"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:bookFlip2",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/paper_03.ogg",
+      "master": "assets/audio/foley/masters/paper_03.wav",
+      "kind": "sfx",
+      "cue": "paper",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.265594,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -35.351,
+      "sha256": "259ef2e480eb6a61de2e5436a93c8837422f20101bbcc5d281fdc22f6fdf0573",
+      "master_sha256": "ddf76467480fe5bec02a88fad8727bd24bc01c7de46c5d8ac4eb68281c00ffaf",
+      "source_ids": [
+        "kenney:bookFlip3"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:bookFlip3",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/book_01.ogg",
+      "master": "assets/audio/foley/masters/book_01.wav",
+      "kind": "sfx",
+      "cue": "book",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.831063,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -32.677,
+      "sha256": "fcf6996734b22f2a9c2c53ceba3fd368423c8ec0c739c6a586c42bd960259144",
+      "master_sha256": "27c8ef9e9e1b8457d29f72471727da37a209e17c0bfd7ef1d5fd7f9ee6ba88d8",
+      "source_ids": [
+        "kenney:bookFlip1",
+        "kenney:bookOpen"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:bookOpen",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:bookFlip1",
+          "at": 0.12,
+          "gain_db": -4,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/book_02.ogg",
+      "master": "assets/audio/foley/masters/book_02.wav",
+      "kind": "sfx",
+      "cue": "book",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.7075,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -35.052,
+      "sha256": "2c24a0e42efd85bab117b1688ab147250a08a2bdb3099a28b20b5550ff95c5b6",
+      "master_sha256": "e9c296102478b147147851fa51661984bf6f945b4b3ca6500d7495f7e33ac4dc",
+      "source_ids": [
+        "kenney:bookFlip2",
+        "kenney:bookPlace2"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:bookFlip2",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:bookPlace2",
+          "at": 0.38,
+          "gain_db": -8,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/book_03.ogg",
+      "master": "assets/audio/foley/masters/book_03.wav",
+      "kind": "sfx",
+      "cue": "book",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.565594,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -35.694,
+      "sha256": "419b37787aa4fd55bfa90972d9e0ec95533e1b0fff5caf205a3392bb83407941",
+      "master_sha256": "de640c1203b372b18073017b3e7ea28435c31be8813cd9b5c9864ede9bf3bd63",
+      "source_ids": [
+        "kenney:bookClose",
+        "kenney:bookFlip3"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:bookFlip3",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:bookClose",
+          "at": 0.3,
+          "gain_db": -7,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/cloth_01.ogg",
+      "master": "assets/audio/foley/masters/cloth_01.wav",
+      "kind": "sfx",
+      "cue": "cloth",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.672875,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -28.887,
+      "sha256": "9864244de85fff6c0dcba4dbf6116f1e8a99be61a39ef49759eea3a314c16100",
+      "master_sha256": "5168b19342d6509de29c5a08043b320fd46afa06385b4b947fcea7f181c0f8fd",
+      "source_ids": [
+        "kenney:cloth1"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth1",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/cloth_02.ogg",
+      "master": "assets/audio/foley/masters/cloth_02.wav",
+      "kind": "sfx",
+      "cue": "cloth",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.439625,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -28.323,
+      "sha256": "2315673841596c7e513b236c78518790136c74923b36a550be9e100867616011",
+      "master_sha256": "af89767921168862826f48b2007a466568d56f0d87120fa43728f0d5e506aaa0",
+      "source_ids": [
+        "kenney:cloth2"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth2",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/cloth_03.ogg",
+      "master": "assets/audio/foley/masters/cloth_03.wav",
+      "kind": "sfx",
+      "cue": "cloth",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.511563,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -28.105,
+      "sha256": "f57b29aabdb40074a5bc28a5e53e4cdd260898dec484c4fc8ec036cfa69e3082",
+      "master_sha256": "52a8fbaa7d10c6a87bdee2f6ad3154792e1165c6f7cb7dcc5560c3c6af771c56",
+      "source_ids": [
+        "kenney:cloth3"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth3",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/rope_01.ogg",
+      "master": "assets/audio/foley/masters/rope_01.wav",
+      "kind": "sfx",
+      "cue": "rope",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.757531,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -30.994,
+      "sha256": "4ecf354fca4df2f4c0db78af587f4903ba3963dd47c4331299c54aeef1f0eb05",
+      "master_sha256": "90bb46ad215bd83eed3e6dcd6b0300d942ed0524308d283a871ca6ea6c4dd7c3",
+      "source_ids": [
+        "kenney:clothBelt",
+        "kenney:creak1"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:clothBelt",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:creak1",
+          "at": 0.03,
+          "gain_db": -8,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/rope_02.ogg",
+      "master": "assets/audio/foley/masters/rope_02.wav",
+      "kind": "sfx",
+      "cue": "rope",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.896437,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -31.312,
+      "sha256": "5dbc6cca8046fa57b5e8ac9d6f0da175dd7e243b7a9eb9167d903220dfda1553",
+      "master_sha256": "61fd50565f8e2ca3cd2100e589abca3227cb12d4a5f6eeaab10e6e8291fd9764",
+      "source_ids": [
+        "kenney:clothBelt2",
+        "kenney:creak2"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:clothBelt2",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:creak2",
+          "at": 0.06,
+          "gain_db": -9,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/rope_03.ogg",
+      "master": "assets/audio/foley/masters/rope_03.wav",
+      "kind": "sfx",
+      "cue": "rope",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.453219,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -26.618,
+      "sha256": "a4af9d09ec6e00756530c93fb2ab6766f0c012f0363b60b28e88d44df2a33aef",
+      "master_sha256": "4a2cc6b7d84b1984ad1a0d43ffd2326d35de5eb4ecfc95b1f7b5331c7befc0e6",
+      "source_ids": [
+        "kenney:cloth4",
+        "kenney:creak3"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth4",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:creak3",
+          "at": 0.08,
+          "gain_db": -10,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/metal_01.ogg",
+      "master": "assets/audio/foley/masters/metal_01.wav",
+      "kind": "sfx",
+      "cue": "metal",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.541156,
+      "peak_dbfs": -7.2,
+      "rms_dbfs": -24.0,
+      "sha256": "3e4d4f0d2ee84c7f6545077bdc7f394a65a8e7f68fccb1d4c258fff41688af62",
+      "master_sha256": "898d97d27a97f9f3e20a8c6a051f7ad98a63cbe449fd027ac5e51b02dae4fd62",
+      "source_ids": [
+        "rubberduck:metal_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:metal_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/metal_02.ogg",
+      "master": "assets/audio/foley/masters/metal_02.wav",
+      "kind": "sfx",
+      "cue": "metal",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.338281,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -26.244,
+      "sha256": "83ea183aaa426090211410590d0827a6b838c1285400bfd1915159517e971416",
+      "master_sha256": "7c3bb08666a718ae1edb4145460a1bda3c71b4225e0eb2e17ce0663755765d7a",
+      "source_ids": [
+        "rubberduck:metal_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:metal_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/metal_03.ogg",
+      "master": "assets/audio/foley/masters/metal_03.wav",
+      "kind": "sfx",
+      "cue": "metal",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.473219,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -25.852,
+      "sha256": "549fe7e7b02db55a4bd4617a8663b0f386cad67b827c9b607ce197788a475393",
+      "master_sha256": "fdec7d196e63626c5a88e9cc8d435921b83954a85244ab3f876428b8beec10bf",
+      "source_ids": [
+        "kenney:handleCoins2",
+        "rubberduck:metal_04"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:metal_04",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:handleCoins2",
+          "at": 0.1,
+          "gain_db": -11,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/lock_01.ogg",
+      "master": "assets/audio/foley/masters/lock_01.wav",
+      "kind": "sfx",
+      "cue": "lock",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.68925,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -35.03,
+      "sha256": "ec5d04dc83aaef6dde61c7361e4d0fed95bb657481fa06d0144e12a33e731a5a",
+      "master_sha256": "2a19f5f06590bf3034f9ded6ef6841d1cfbd801034a30930ba2179615be5562b",
+      "source_ids": [
+        "kenney:metalLatch",
+        "rubberduck:lock_open_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:lock_open_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:metalLatch",
+          "at": 0.42,
+          "gain_db": -8,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/lock_02.ogg",
+      "master": "assets/audio/foley/masters/lock_02.wav",
+      "kind": "sfx",
+      "cue": "lock",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.70275,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -32.494,
+      "sha256": "a445959d4e49d90f4ba089ec90c514a74a6c830e894104c86e82a0f3c77310f7",
+      "master_sha256": "5b6c9f3598e06fa5b01061369070075f0e6926ed83574d7b6d816e00234e04a1",
+      "source_ids": [
+        "kenney:metalClick",
+        "rubberduck:lock_open_01"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:metalClick",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:lock_open_01",
+          "at": 0.14,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 0.97,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/glass_01.ogg",
+      "master": "assets/audio/foley/masters/glass_01.wav",
+      "kind": "sfx",
+      "cue": "glass",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.252937,
+      "peak_dbfs": -8.264,
+      "rms_dbfs": -24.0,
+      "sha256": "6e43f117941cf9fcc4f290603863430949c102e0cd727f40817ab59a4aca167f",
+      "master_sha256": "f22849473257ab0973a0ccfe79d1a16c276789310adb16c9a78ba64ce2027ad9",
+      "source_ids": [
+        "rubberduck:glass_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:glass_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/glass_02.ogg",
+      "master": "assets/audio/foley/masters/glass_02.wav",
+      "kind": "sfx",
+      "cue": "glass",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.443063,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -25.208,
+      "sha256": "d863e5653290d1e639b3d6b01fe1ed626c7e92f849c494b304f44bc501784f9e",
+      "master_sha256": "9d74c29a42adae56f7eba0bfa15bde01d969c6687377822e293ab759b61d63f6",
+      "source_ids": [
+        "rubberduck:glass_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:glass_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/glass_03.ogg",
+      "master": "assets/audio/foley/masters/glass_03.wav",
+      "kind": "sfx",
+      "cue": "glass",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.468,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -26.142,
+      "sha256": "c339ec25ffd81c88002754bfea019eb5aac0203a7fac8588f3598c4820f251be",
+      "master_sha256": "a9be151e28436ea56e28a86d9086019f81bdc8214d53dee137988ca2d92baaae",
+      "source_ids": [
+        "rubberduck:glass_03"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:glass_03",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/wood_01.ogg",
+      "master": "assets/audio/foley/masters/wood_01.wav",
+      "kind": "sfx",
+      "cue": "wood",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.518687,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -30.702,
+      "sha256": "12df33ff1e728cb88cc3a0521d881c82715d8623ffd5e4ba893ea7c691c9da00",
+      "master_sha256": "711a15cdd2a0df7320d8ec346b8e9cee810d8d04b138435bec4cc96b4e4e90e4",
+      "source_ids": [
+        "rubberduck:wood_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:wood_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/wood_02.ogg",
+      "master": "assets/audio/foley/masters/wood_02.wav",
+      "kind": "sfx",
+      "cue": "wood",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.449719,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -32.31,
+      "sha256": "25fbe286ddeb0fb68d4ab97148ad3b0dfceb477b4eb28ee6b35ec1b5805327be",
+      "master_sha256": "e6cf770de64e28408b3a60fdc698756345aeee212590e80821ddb3f814b85a8d",
+      "source_ids": [
+        "rubberduck:wood_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:wood_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/wood_03.ogg",
+      "master": "assets/audio/foley/masters/wood_03.wav",
+      "kind": "sfx",
+      "cue": "wood",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.600437,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -31.519,
+      "sha256": "ae9484defddb41b322abda1136f7e56ba49db438901547397a2dc6b6da5ea83a",
+      "master_sha256": "58456b2553c53596ab0703b8bef172b6c50762827cdbb10e70dcf272cfde8081",
+      "source_ids": [
+        "rubberduck:wood_03"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:wood_03",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/water_01.ogg",
+      "master": "assets/audio/foley/masters/water_01.wav",
+      "kind": "sfx",
+      "cue": "water",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 1.735,
+      "peak_dbfs": -10.711,
+      "rms_dbfs": -24.0,
+      "sha256": "46198f3b64713d1e67d1582928a2886172df67c1a4ab5f1bb295ee0fe9547ad3",
+      "master_sha256": "4e67563a3c4da76ae1f48e3a17809e28f974cb0754c78ecc6b497456b2a9371d",
+      "source_ids": [
+        "rubberduck:loop_water_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:loop_water_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.8,
+          "duration_seconds": 1.7,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.16
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/water_02.ogg",
+      "master": "assets/audio/foley/masters/water_02.wav",
+      "kind": "sfx",
+      "cue": "water",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 1.835,
+      "peak_dbfs": -7.792,
+      "rms_dbfs": -24.0,
+      "sha256": "79fdfd6c1e19e6b16868a8b458726ee977d0e6d199360ad4cd8eaa88dfa0337c",
+      "master_sha256": "9a1c510eb1d38f766247fbfde17a97d2293e57e132e073232bae6180bc80c116",
+      "source_ids": [
+        "rubberduck:loop_water_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:loop_water_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 1.3,
+          "duration_seconds": 1.8,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.16
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/water_03.ogg",
+      "master": "assets/audio/foley/masters/water_03.wav",
+      "kind": "sfx",
+      "cue": "water",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 1.635,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -24.148,
+      "sha256": "2bc61f70d7ad7a64dbbfa1f73030126f09517ba18712b6689920f841137c2af6",
+      "master_sha256": "1e4e1d6a8ceb69eba2b18892b82ec660f21e6a5458f4944be90d77a9ea007f2d",
+      "source_ids": [
+        "rubberduck:loop_water_03"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:loop_water_03",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 2.4,
+          "duration_seconds": 1.6,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.16
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/footsteps_wet_01.ogg",
+      "master": "assets/audio/foley/masters/footsteps_wet_01.wav",
+      "kind": "sfx",
+      "cue": "footsteps_wet",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.789531,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -27.568,
+      "sha256": "9c45d5a905a0bdc9de9e5764d4908036998cbc6e4ad12d1b948002a9c73956d5",
+      "master_sha256": "9e59d518b333fe3e309c2382a4dc1922b4f3e5dffd23c297dc0f68c66927bc33",
+      "source_ids": [
+        "rubberduck:footstep_wet_01",
+        "rubberduck:footstep_wet_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:footstep_wet_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": -0.12,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:footstep_wet_02",
+          "at": 0.39,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.12,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/footsteps_wet_02.ogg",
+      "master": "assets/audio/foley/masters/footsteps_wet_02.wav",
+      "kind": "sfx",
+      "cue": "footsteps_wet",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.813906,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -28.145,
+      "sha256": "f3d0bc6c34f7c684e66ae87150a426701ad88b602c1b9c27cd36b767a348738d",
+      "master_sha256": "b6219578188df6b943ee402606557b8b6eba69fc9e6a48eb5d9c61a1e6389787",
+      "source_ids": [
+        "rubberduck:footstep_wet_02",
+        "rubberduck:footstep_wet_03"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:footstep_wet_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": -0.12,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:footstep_wet_03",
+          "at": 0.42,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.12,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/footsteps_wet_03.ogg",
+      "master": "assets/audio/foley/masters/footsteps_wet_03.wav",
+      "kind": "sfx",
+      "cue": "footsteps_wet",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.659656,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -27.455,
+      "sha256": "9c57e0ed3d5133b981e712007cf106c64d27431112e3518213ba0c56f28f853e",
+      "master_sha256": "81c53de84140d6e533226ad8a95afe09ffdcb991b707e94cfd272d2f19737cc3",
+      "source_ids": [
+        "rubberduck:footstep_wet_01",
+        "rubberduck:footstep_wet_03"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:footstep_wet_03",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": -0.12,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:footstep_wet_01",
+          "at": 0.37,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.12,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/footsteps_wood_01.ogg",
+      "master": "assets/audio/foley/masters/footsteps_wood_01.wav",
+      "kind": "sfx",
+      "cue": "footsteps_wood",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.564562,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -26.175,
+      "sha256": "1e640712fb501c7d4480c9c587af15aa4418c5284a02c8be3a0c2ce11105666d",
+      "master_sha256": "4bdac00588a1704fadb457e01b00b26bb4c776dc405a029fda5b648a55f559ee",
+      "source_ids": [
+        "rubberduck:footstep_wood_01",
+        "rubberduck:footstep_wood_03"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:footstep_wood_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": -0.12,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:footstep_wood_03",
+          "at": 0.4,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.12,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/footsteps_wood_02.ogg",
+      "master": "assets/audio/foley/masters/footsteps_wood_02.wav",
+      "kind": "sfx",
+      "cue": "footsteps_wood",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.708469,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -26.643,
+      "sha256": "e1584fea2bbcfd4320a2f2b1c0ce4bcee8dcd919e34873d9c6add3184979b58b",
+      "master_sha256": "eae5ae4e24a8e34bf1307b45648340e519664f9586738b8b90c45f89d2aeea84",
+      "source_ids": [
+        "rubberduck:footstep_wood_02",
+        "rubberduck:footstep_wood_04"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:footstep_wood_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": -0.12,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:footstep_wood_04",
+          "at": 0.43,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.12,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/footsteps_wood_03.ogg",
+      "master": "assets/audio/foley/masters/footsteps_wood_03.wav",
+      "kind": "sfx",
+      "cue": "footsteps_wood",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.621,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -26.115,
+      "sha256": "39d1bf6d1f82c4b4892df874036601e0aa87bb1034d1f00762a0106b57a17405",
+      "master_sha256": "cbe894f9d41de08f03813ae5abe13188674a2d4b71fc7daeb3ba63b513b7588b",
+      "source_ids": [
+        "rubberduck:footstep_wood_01",
+        "rubberduck:footstep_wood_04"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:footstep_wood_04",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": -0.12,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:footstep_wood_01",
+          "at": 0.38,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.12,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/door_01.ogg",
+      "master": "assets/audio/foley/masters/door_01.wav",
+      "kind": "sfx",
+      "cue": "door",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 1.073969,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -30.516,
+      "sha256": "d921f593039a417b970addf55d218dddf898093100c75a5db5b6a513b62284ef",
+      "master_sha256": "9b17070135bb3d343a2622bfcfa6b275b43ca18fb1115a88f6bed111524bdf79",
+      "source_ids": [
+        "kenney:doorOpen_1",
+        "kenney:metalLatch"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:metalLatch",
+          "at": 0.0,
+          "gain_db": -8,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:doorOpen_1",
+          "at": 0.12,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/door_02.ogg",
+      "master": "assets/audio/foley/masters/door_02.wav",
+      "kind": "sfx",
+      "cue": "door",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 1.548312,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -33.143,
+      "sha256": "460e79d2bccc6300cd36c397f59c55d409bb7ee0e53fd13e7b640805f633eeef",
+      "master_sha256": "fb5665702d337190c47cdfd1a5a95e708be7e18239095dfcd1a61bf5d1a03009",
+      "source_ids": [
+        "kenney:doorOpen_2",
+        "rubberduck:door_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:door_02",
+          "at": 0.0,
+          "gain_db": -7,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:doorOpen_2",
+          "at": 0.1,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/mechanism_01.ogg",
+      "master": "assets/audio/foley/masters/mechanism_01.wav",
+      "kind": "sfx",
+      "cue": "mechanism",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 1.52925,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -27.936,
+      "sha256": "562c67cb7dc1b1de25c81e4a7b545a335bd55fd653a59efbdb3477ac6128c382",
+      "master_sha256": "99b5dae1409276eda3dd4f28cce763139ef4d2494c71a26f2d4fcb35487b11f0",
+      "source_ids": [
+        "kenney:metalClick",
+        "kenney:metalLatch",
+        "rubberduck:loop_machine_01"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:metalClick",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:loop_machine_01",
+          "at": 0.12,
+          "gain_db": -5,
+          "start_seconds": 1.5,
+          "duration_seconds": 1.2,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.09
+        },
+        {
+          "source": "kenney:metalLatch",
+          "at": 1.26,
+          "gain_db": -5,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/mechanism_02.ogg",
+      "master": "assets/audio/foley/masters/mechanism_02.wav",
+      "kind": "sfx",
+      "cue": "mechanism",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 1.765594,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -28.156,
+      "sha256": "79e18873db41b3a83db9f5a9647f337197a5fe3a35893547cef5c5aeef6109b6",
+      "master_sha256": "0148ee3e20510c9e21878419743e7bc3ba17d2edf4d373f61bead716a84f5ce1",
+      "source_ids": [
+        "rubberduck:loop_machine_03",
+        "rubberduck:metal_05",
+        "rubberduck:switch_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:switch_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:loop_machine_03",
+          "at": 0.15,
+          "gain_db": -5,
+          "start_seconds": 0.1,
+          "duration_seconds": 1.3,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.09
+        },
+        {
+          "source": "rubberduck:metal_05",
+          "at": 1.38,
+          "gain_db": -7,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/collect_01.ogg",
+      "master": "assets/audio/foley/masters/collect_01.wav",
+      "kind": "sfx",
+      "cue": "collect",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.772875,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -32.354,
+      "sha256": "3df37c530f030464af769a25b6d2a23e17efeb38abebe732261fd1a4bf993ffd",
+      "master_sha256": "362779e182ef4687ea861d99879386340b3b265e11bd46ed8d1d897e89dc6f54",
+      "source_ids": [
+        "kenney:cloth1",
+        "kenney:handleSmallLeather"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:handleSmallLeather",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:cloth1",
+          "at": 0.1,
+          "gain_db": -6,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/collect_02.ogg",
+      "master": "assets/audio/foley/masters/collect_02.wav",
+      "kind": "sfx",
+      "cue": "collect",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.519625,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -30.556,
+      "sha256": "c4d7f63164c25f746262b612dca9844bddd1d02cceea40bb6118a576053d1876",
+      "master_sha256": "fe889442effdf1eda4b899bf7f2f620c6c3ff5c828082c6d7fbcfd7b2a689a68",
+      "source_ids": [
+        "kenney:cloth2",
+        "kenney:handleSmallLeather2"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:handleSmallLeather2",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:cloth2",
+          "at": 0.08,
+          "gain_db": -5,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/collect_03.ogg",
+      "master": "assets/audio/foley/masters/collect_03.wav",
+      "kind": "sfx",
+      "cue": "collect",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.673188,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -29.148,
+      "sha256": "d6b8df6257e41c8803f32be49a22e7549fb3c1ef8b6e13a8de831d998527e6dc",
+      "master_sha256": "f6b1cd73d9fee4394ba23314467a25c07d175d82c02b87da72aa1dcb5bdbf247",
+      "source_ids": [
+        "kenney:beltHandle2",
+        "kenney:cloth3"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth3",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:beltHandle2",
+          "at": 0.2,
+          "gain_db": -7,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/combine_01.ogg",
+      "master": "assets/audio/foley/masters/combine_01.wav",
+      "kind": "sfx",
+      "cue": "combine",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.771781,
+      "peak_dbfs": -7.0,
+      "rms_dbfs": -28.432,
+      "sha256": "88c2aa908f7b4ce21bdd089de062971dabfec24b0cac4ddf0f6ec3959aae6792",
+      "master_sha256": "967ff6a03e5b0e46d64231af9945bc89f5b001d0d0980a9e48c21877d21f8b98",
+      "source_ids": [
+        "kenney:cloth2",
+        "kenney:metalClick",
+        "rubberduck:metal_02"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth2",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:metal_02",
+          "at": 0.18,
+          "gain_db": -3,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:metalClick",
+          "at": 0.34,
+          "gain_db": -5,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/combine_02.ogg",
+      "master": "assets/audio/foley/masters/combine_02.wav",
+      "kind": "sfx",
+      "cue": "combine",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.62925,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -28.318,
+      "sha256": "ce5009667c9ae7a3ba66aaa08ccbcfad2032c9de06158b4acde128b414209fda",
+      "master_sha256": "5f84126ca2b8cec2c7397b0c29ac539d6187f79f5b505d45da7a62abe054b8dd",
+      "source_ids": [
+        "kenney:cloth3",
+        "kenney:metalLatch",
+        "rubberduck:wood_04"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth3",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:wood_04",
+          "at": 0.16,
+          "gain_db": -2,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:metalLatch",
+          "at": 0.36,
+          "gain_db": -9,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/combine_03.ogg",
+      "master": "assets/audio/foley/masters/combine_03.wav",
+      "kind": "sfx",
+      "cue": "combine",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.681719,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -27.603,
+      "sha256": "905c51dec491ad7f414a01c27033c704dc8c737b2cd7f3416853e54e76bba000",
+      "master_sha256": "0ab1cd32ef0c637c68f3243f673c4021996458093864190d0022ab3eda752a3e",
+      "source_ids": [
+        "kenney:beltHandle1",
+        "kenney:cloth4",
+        "rubberduck:metal_06"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth4",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "rubberduck:metal_06",
+          "at": 0.17,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:beltHandle1",
+          "at": 0.37,
+          "gain_db": -5,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/stamp_01.ogg",
+      "master": "assets/audio/foley/masters/stamp_01.wav",
+      "kind": "sfx",
+      "cue": "stamp",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.415594,
+      "peak_dbfs": -7.075,
+      "rms_dbfs": -24.0,
+      "sha256": "7f05f3accd75e1e20ffe136e8fc794fd600db43efae835b44bdd051a858ef6de",
+      "master_sha256": "71083e240c856f7ab4c086d841c7f683822f83d5688cd06cd9b26327ac53c18e",
+      "source_ids": [
+        "kenney:bookFlip3",
+        "rubberduck:wood_hit_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:wood_hit_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:bookFlip3",
+          "at": 0.15,
+          "gain_db": -10,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/stamp_02.ogg",
+      "master": "assets/audio/foley/masters/stamp_02.wav",
+      "kind": "sfx",
+      "cue": "stamp",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.621281,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -25.92,
+      "sha256": "985b8692f146290a304228ffe01579e48346a6de7a74576aa69a66a5d967d676",
+      "master_sha256": "6933c14c92f810107bd53a3b6fec029b18c5f54e6007fbfedaf37e758029ca26",
+      "source_ids": [
+        "kenney:bookFlip2",
+        "rubberduck:wood_hit_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:wood_hit_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:bookFlip2",
+          "at": 0.17,
+          "gain_db": -10,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/stamp_03.ogg",
+      "master": "assets/audio/foley/masters/stamp_03.wav",
+      "kind": "sfx",
+      "cue": "stamp",
+      "variant": 3,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.455594,
+      "peak_dbfs": -7.001,
+      "rms_dbfs": -28.527,
+      "sha256": "e5d39541bcd488348c83e47afb9f53f04370945ca6855fb0837e1353144b05e7",
+      "master_sha256": "0ceaea5ee69ce62a1492a71117b8206da2cd63fb0a864635f25a111b443aa89d",
+      "source_ids": [
+        "kenney:bookFlip3",
+        "kenney:bookPlace3"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:bookPlace3",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        },
+        {
+          "source": "kenney:bookFlip3",
+          "at": 0.19,
+          "gain_db": -9,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/ui_01.ogg",
+      "master": "assets/audio/foley/masters/ui_01.wav",
+      "kind": "sfx",
+      "cue": "ui",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.243094,
+      "peak_dbfs": -12.001,
+      "rms_dbfs": -42.715,
+      "sha256": "620e17deb4d574623de98abfbf19aad4681b419f10a3e7b72fe5394a8c15d983",
+      "master_sha256": "32c27a1ad6c74fdbaa7f5be768ba08c1ef02bd98b39bb51efc3a7b101c59f5e4",
+      "source_ids": [
+        "rubberduck:switch_01"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:switch_01",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/ui_02.ogg",
+      "master": "assets/audio/foley/masters/ui_02.wav",
+      "kind": "sfx",
+      "cue": "ui",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.240563,
+      "peak_dbfs": -12.001,
+      "rms_dbfs": -39.878,
+      "sha256": "42569bc747fe8991d78fb76f6c61da4f9c2a8fca1b06ccb33a676a8c910a3125",
+      "master_sha256": "349684b148b5c8502c2859d43069895ab36661be8d19433f2bd13a7e9685878b",
+      "source_ids": [
+        "rubberduck:switch_02"
+      ],
+      "recipe": [
+        {
+          "source": "rubberduck:switch_02",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": null,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.008
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/voice_skip_01.ogg",
+      "master": "assets/audio/foley/masters/voice_skip_01.wav",
+      "kind": "sfx",
+      "cue": "voice_skip",
+      "variant": 1,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.215,
+      "peak_dbfs": -12.001,
+      "rms_dbfs": -31.031,
+      "sha256": "bd2218cbbdc12e296049379fa9838b5844888ecbd3c95870d1090d01bfd10ec7",
+      "master_sha256": "de756fab3ea69b185934b63ca94082e3140b53224d6f8a7fb3262a5b1a60ff2a",
+      "source_ids": [
+        "kenney:cloth4"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:cloth4",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": 0.18,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.025
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/foley/voice_skip_02.ogg",
+      "master": "assets/audio/foley/masters/voice_skip_02.wav",
+      "kind": "sfx",
+      "cue": "voice_skip",
+      "variant": 2,
+      "sample_rate": 32000,
+      "channels": 2,
+      "duration_seconds": 0.195,
+      "peak_dbfs": -12.001,
+      "rms_dbfs": -35.977,
+      "sha256": "46d50e32532cd6d2b8db6b71bfbabae8811149023930e111fd837c73058e06f2",
+      "master_sha256": "59cd33af80295eef1c7cca183ff166e5aa7c663b2c1b95e81e831b84cee169bd",
+      "source_ids": [
+        "kenney:handleSmallLeather2"
+      ],
+      "recipe": [
+        {
+          "source": "kenney:handleSmallLeather2",
+          "at": 0.0,
+          "gain_db": 0.0,
+          "start_seconds": 0.0,
+          "duration_seconds": 0.16,
+          "playback_rate": 1.0,
+          "pan": 0.0,
+          "fade_seconds": 0.025
+        }
+      ]
+    }
+  ]
+}

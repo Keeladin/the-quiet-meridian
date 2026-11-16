@@ -1,0 +1,2007 @@
+{
+  "events": [
+    {
+      "type": "session.started",
+      "received_seconds": 2.1226879650002957
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.221407865999936,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.3307917319998523,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.4310469209995063,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.5315710959985154,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.6309457429997565,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.7245389069994417,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.825175384999966,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.9239779459985584,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.023560268999063,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 3.027522634998604,
+      "delta": "I thought",
+      "start_ms": 0,
+      "end_ms": 200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.123288013999627,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.223388979999072,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.3225260769995657,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 3.3957993959993473,
+      "delta": " you",
+      "start_ms": 400,
+      "end_ms": 600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.422584406000169,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.5229244679994736,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 3.5930798569988838,
+      "delta": " would understand",
+      "start_ms": 600,
+      "end_ms": 800
+    },
+    {
+      "type": "session.commentary.appended",
+      "received_seconds": 3.5954057429989916
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.622379993999857,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.722785040999952,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.823217270999521,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 3.9201926789992285,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.0202561469996,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.1210811250002735,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 4.1617243609998695,
+      "delta": " the",
+      "start_ms": 1200,
+      "end_ms": 1400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.221180319000268,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.32032741599869,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 4.352720192999186,
+      "delta": " letter.",
+      "start_ms": 1400,
+      "end_ms": 1600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.420891810999819,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.520054415999766,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.620829966999736,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.720304378999572,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.820700509999369,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 4.920284717998584,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.0200679619993025,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.12060513599863,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 5.167760061000081,
+      "delta": " Then",
+      "start_ms": 2200,
+      "end_ms": 2400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.220758841998759,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.3202818959998694,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 5.34327488999952,
+      "delta": " I thought",
+      "start_ms": 2400,
+      "end_ms": 2600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.420258602000104,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.520076228000107,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.619975133999105,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.720994333998533,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 5.763921329998993,
+      "delta": " another",
+      "start_ms": 2800,
+      "end_ms": 3000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.820274622999932,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 5.920891936999396,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.020932171999448,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.120802329998696,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 6.173191902000326,
+      "delta": " letter",
+      "start_ms": 3200,
+      "end_ms": 3400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.220259714998974,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.32087608799884,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 6.364465503998872,
+      "delta": " would",
+      "start_ms": 3400,
+      "end_ms": 3600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.420067809998727,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.520662955999796,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 6.560571574998903,
+      "delta": " lead",
+      "start_ms": 3600,
+      "end_ms": 3800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.621002120999037,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.720020621000003,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 6.738770370999191,
+      "delta": " someone",
+      "start_ms": 3800,
+      "end_ms": 4000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.821393239999452,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 6.92056084899923,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.020689347998996,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.120492455000203,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 7.153780750999431,
+      "delta": " here.",
+      "start_ms": 4200,
+      "end_ms": 4400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.221527048999633,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.32056186599948,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.420282192999366,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.520507298999291,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.620161682998514,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.721006829999169,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.82114524699864,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 7.920456826999725,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.020220497999617,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.12137925999923,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 8.138915351999458,
+      "delta": " Each",
+      "start_ms": 5200,
+      "end_ms": 5400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.220551377999072,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.320611115999782,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.420343592999416,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.5202954209999,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 8.55444375099978,
+      "delta": " explanation",
+      "start_ms": 5600,
+      "end_ms": 5800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.62053651199858,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.720341959999132,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.820949461000055,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 8.921627984000224,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.02037251299953,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.120487414998934,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.220955486000094,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.32037589399988,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 9.371856283998568,
+      "delta": " made",
+      "start_ms": 6400,
+      "end_ms": 6600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.420339731999775,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.52177641399976,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 9.575517351999224,
+      "delta": " the",
+      "start_ms": 6600,
+      "end_ms": 6800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.620509679998577,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.720174123000106,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 9.779493709000235,
+      "delta": " next",
+      "start_ms": 6800,
+      "end_ms": 7000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.82010085299953,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 9.921008064999114,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 9.993132121999224,
+      "delta": " day",
+      "start_ms": 7000,
+      "end_ms": 7200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.020613373999367,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.12016109599972,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 10.166348352999194,
+      "delta": " of",
+      "start_ms": 7200,
+      "end_ms": 7400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.220555632999094,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.32103244300015,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 10.354053314998964,
+      "delta": " silence",
+      "start_ms": 7400,
+      "end_ms": 7600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.421218984000006,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.520881857999484,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.620175242998812,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.720439905999228,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.820942757000012,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 10.920826696999939,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 10.958229732999826,
+      "delta": " easier",
+      "start_ms": 8000,
+      "end_ms": 8200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.02102695800022,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.120583212999918,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.220334277999427,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.319912382999973,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 11.381647645999692,
+      "delta": " to",
+      "start_ms": 8400,
+      "end_ms": 8600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.420651864998945,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.520378359999086,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 11.600262185998872,
+      "delta": " justify.",
+      "start_ms": 8600,
+      "end_ms": 8800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.624068987999635,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.720609457999672,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.819874906999758,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 11.9205365229991,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.021325145999072,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.12076802899901,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.220172236999133,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.320177957999476,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.420213790999696,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.520851911998761,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.620438751999245,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.720593975000156,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.82031402499888,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 12.920271535998836,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 12.979295921999437,
+      "delta": " I",
+      "start_ms": 10400,
+      "end_ms": 10600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.020179114999337,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.120385426998837,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 13.161853457999314,
+      "delta": " frightened",
+      "start_ms": 10600,
+      "end_ms": 10800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.22073164199901,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.32003874899965,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.420719443998678,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.520755146999363,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 13.556434729000102,
+      "delta": " you",
+      "start_ms": 11000,
+      "end_ms": 11200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.620533134999278,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.720026609998968,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 13.736430068998743,
+      "delta": " because",
+      "start_ms": 11200,
+      "end_ms": 11400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.81987337999999,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 13.920431812999595,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.03323178699975,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.131771520998882,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 14.157027571998697,
+      "delta": " I was",
+      "start_ms": 11600,
+      "end_ms": 11800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.229227772999366,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.328766127999188,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 14.340936898999644,
+      "delta": " frightened,",
+      "start_ms": 11800,
+      "end_ms": 12000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.430148113999167,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.528966395999305,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.632282548000148,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.7302062939998,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.830553115998555,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 14.931016129999989,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.03050237000025,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.130460868998853,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.231291984999189,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.330442446000234,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.447347495999566,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.547867985998892,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 15.613017917999969,
+      "delta": " and",
+      "start_ms": 13000,
+      "end_ms": 13200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.647914643999684,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.74763110099957,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 15.78917980499864,
+      "delta": " because",
+      "start_ms": 13200,
+      "end_ms": 13400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.848366709999027,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 15.948349665999558,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.111018448000323,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.211291214000084,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 16.211414563998915,
+      "delta": " being",
+      "start_ms": 13600,
+      "end_ms": 13800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.310810012999355,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.411419553998712,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.510631180999553,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.610934348998853,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 16.611042397998972,
+      "delta": " useful",
+      "start_ms": 14000,
+      "end_ms": 14200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.710784560998945,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.81125211499966,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.usage.updated",
+      "received_seconds": 16.86376624500008,
+      "usage_seconds": 14.0
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 16.9119350259989,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 16.95197130699853,
+      "delta": " felt",
+      "start_ms": 14400,
+      "end_ms": 14600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.01066601599996,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.11104091299967,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.21093920000021,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.311108014999263,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.41086360599911,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 17.446994800999164,
+      "delta": " safer",
+      "start_ms": 14800,
+      "end_ms": 15000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.5109858779997,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.611106233998726,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.710723329999382,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 17.771522483999433,
+      "delta": " than",
+      "start_ms": 15200,
+      "end_ms": 15400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.81058831900009,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 17.910873455999536,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 17.94067297699985,
+      "delta": " admitting",
+      "start_ms": 15400,
+      "end_ms": 15600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.01087371199901,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.111326508000275,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.210762108999916,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.310827633998997,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.410741998999583,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.510882386999583,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 18.584142233999955,
+      "delta": " I",
+      "start_ms": 16000,
+      "end_ms": 16200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.6108121519992,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.710654921998866,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 18.750837959998535,
+      "delta": " needed",
+      "start_ms": 16200,
+      "end_ms": 16400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.811031440998704,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 18.910878545999367,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.010705365999456,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.111513242,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 19.14675401599925,
+      "delta": " help.",
+      "start_ms": 16600,
+      "end_ms": 16800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.210700776999147,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.310782081998696,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.411291188000177,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.511067184999774,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 19.537780884998938,
+      "delta": " I",
+      "start_ms": 17000,
+      "end_ms": 17200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.61105393499929,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.71103006500016,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.81110758199975,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 19.910704207999515,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.010619938999298,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.110956628999702,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 20.16371791900019,
+      "delta": " can",
+      "start_ms": 17600,
+      "end_ms": 17800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.210790109998925,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.31066168899997,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 20.336928318998616,
+      "delta": " explain",
+      "start_ms": 17800,
+      "end_ms": 18000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.410468306999974,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.510802128999785,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.610578308000186,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.710753088000274,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 20.750940421999985,
+      "delta": " it.",
+      "start_ms": 18200,
+      "end_ms": 18400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.81067332299972,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 20.925499408000178,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.079589056998884,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.110534702000223,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.21076738499869,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.310549590998562,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.41044390999923,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.51047374799964,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.610731009999654,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.71074221699928,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.811246633998962,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 21.91081615300027,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 21.95234578399868,
+      "delta": " I",
+      "start_ms": 19400,
+      "end_ms": 19600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.011197922000065,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.110677515000134,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 22.16954438799985,
+      "delta": " cannot",
+      "start_ms": 19600,
+      "end_ms": 19800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.22894893800003,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.329998401999546,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.447137731998737,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.547217657000147,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 22.556982342999618,
+      "delta": " turn",
+      "start_ms": 20000,
+      "end_ms": 20200
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.647401352998713,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.74710768699879,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.847825295999428,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 22.94721326599938,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 22.961342721999245,
+      "delta": " that",
+      "start_ms": 20400,
+      "end_ms": 20600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 23.047562562000167,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 23.147352418000082,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 23.15070492599989,
+      "delta": " explanation",
+      "start_ms": 20600,
+      "end_ms": 20800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 23.246995132998563,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 23.34716324999863,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 23.44732685999952,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 23.963677147999988,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 23.980683850999412,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.00433493899982,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.03927938599918,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.06256722999933,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 24.06265758399968,
+      "delta": " into",
+      "start_ms": 21400,
+      "end_ms": 21600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.086261295999066,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.147409205999793,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.247436481999102,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.347159817998545,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 24.385683997999877,
+      "delta": " something",
+      "start_ms": 21800,
+      "end_ms": 22000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.4440194660001,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.539550446999783,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.653808691999075,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.752600607000204,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 24.814533205999396,
+      "delta": " you",
+      "start_ms": 22200,
+      "end_ms": 22400
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.861861714998668,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 24.964066050999463,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 24.97595733900016,
+      "delta": " owed",
+      "start_ms": 22400,
+      "end_ms": 22600
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.06065201199999,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.16119672700006,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.261081517999628,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_transcript.delta",
+      "received_seconds": 25.346659802999056,
+      "delta": " me.",
+      "start_ms": 22800,
+      "end_ms": 23000
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.360774185999617,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.461175421000007,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.56148454599861,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.663292293000268,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.761444996000137,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.860925768000016,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 25.96118546999969,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.061983114999748,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.160509481998815,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.261282253999525,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.362388321000253,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.46183892099907,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.56084902099974,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.66140102999998,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.760724187999585,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.860805173999324,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 26.963225077999596,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.060858771999847,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.16387865700017,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.26124838099895,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.36108328299997,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.460972416000004,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.564128344998608,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.660707515999093,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.760904458998994,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.861189854998884,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 27.96197965399915,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.061129501000323,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.160946661999333,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.261208863999855,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.360801550999895,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.460675153999546,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.560850800999106,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.66076516999965,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.760933544999716,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.860831396999856,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 28.960711752999487,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.060845407999295,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.161389998998857,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.260612610998578,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.361329748999196,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.460822302999077,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.561267045999557,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.66093000699948,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.76139352300015,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.859126953999294,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 29.96137041699876,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.0609514939988,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.163298461999148,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.26085156299996,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.53885288099991,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.539449813999454,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.561080867999408,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.660581258998718,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.760735312998804,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.860851585999626,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 30.96038458699877,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.06068270799915,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.160712936998607,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.260753863998616,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.361522653000065,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.460818584999288,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.56064558399885,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.661113153999395,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.761093441999037,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.861040911999226,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.usage.updated",
+      "received_seconds": 31.86454909999884,
+      "usage_seconds": 30.0
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 31.960784943999897,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.06322653799907,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.160552182000174,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.26116325200019,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.36121497299973,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.46080433899988,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.56113640999865,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.66068520599947,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.76078994099953,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.86079469200013,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 32.96117255900026,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.06095413099865,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.16084582199983,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.2608193039996,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.36092154200014,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.46024014399882,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.56098952100001,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.66096448999997,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.76364440299949,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.86077663699871,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 33.960595847998775,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 34.061191663999125,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 34.16107740199914,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.closed",
+      "received_seconds": 34.78898081199986,
+      "usage_seconds": 32.0
+    }
+  ]
+}

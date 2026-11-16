@@ -1,0 +1,213 @@
+{
+  "line_id": "ada_steps_q1",
+  "clip_id": "99c24a798bed4abf808b6bcd73c3df6e",
+  "source_text_sha256": "d4ab4fb8e1715707e9d7dfe5db872c2b9b167bd884917c3bc74281839495c733",
+  "master": "work/gateway-voice/masters/99c24a798bed4abf808b6bcd73c3df6e.wav",
+  "wav_sha256": "4bf96859b2466274398c0a2ac72592313830afe1acfde175d01cd94626d7feff",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 160320,
+    "sample_count": 80160,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.34,
+    "peak": 0.306640625,
+    "peak_dbfs": -10.267406171331942,
+    "rms": 0.04439885029811405,
+    "rms_dbfs": -27.05256551466689,
+    "dc_offset": 8.729908042801117e-05,
+    "silence_fraction": 0.36972305389221555,
+    "leading_silence_seconds": 0.413375,
+    "tail_silence_seconds": 0.3600833333333333,
+    "active_span_seconds": 2.5665416666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 140.266571423933,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "did",
+      "the",
+      "council",
+      "dispute",
+      "your",
+      "measurements"
+    ],
+    "observed_tokens": [
+      "did",
+      "the",
+      "council",
+      "dispute",
+      "your",
+      "measurements"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "did",
+          "the",
+          "council",
+          "dispute",
+          "your",
+          "measurements"
+        ],
+        "observed": [
+          "did",
+          "the",
+          "council",
+          "dispute",
+          "your",
+          "measurements"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Did the council dispute your measurements?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.56,
+      "text": " Did the council dispute your measurements?",
+      "words": [
+        {
+          "word": " Did",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.8056445717811584
+        },
+        {
+          "word": " the",
+          "start": 0.56,
+          "end": 0.76,
+          "probability": 0.9889604449272156
+        },
+        {
+          "word": " council",
+          "start": 0.76,
+          "end": 1.14,
+          "probability": 0.6351152658462524
+        },
+        {
+          "word": " dispute",
+          "start": 1.14,
+          "end": 1.92,
+          "probability": 0.9905933737754822
+        },
+        {
+          "word": " your",
+          "start": 1.92,
+          "end": 2.2,
+          "probability": 0.9979642629623413
+        },
+        {
+          "word": " measurements?",
+          "start": 2.2,
+          "end": 2.56,
+          "probability": 0.9925506114959717
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "did",
+      "the",
+      "council",
+      "dispute",
+      "your",
+      "measurements"
+    ],
+    "observed_tokens": [
+      "did",
+      "the",
+      "council",
+      "dispute",
+      "your",
+      "measurements"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "did",
+          "the",
+          "council",
+          "dispute",
+          "your",
+          "measurements"
+        ],
+        "observed": [
+          "did",
+          "the",
+          "council",
+          "dispute",
+          "your",
+          "measurements"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

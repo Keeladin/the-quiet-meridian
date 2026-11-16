@@ -1,0 +1,430 @@
+{
+  "line_id": "nadi_arrival_greeting",
+  "clip_id": "862628492de94758a8d940850a9cc673",
+  "source_text_sha256": "99ec92538c729522534dff836cea60cabc271c957b631d33827720200521b6be",
+  "master": "work/gateway-voice/masters/862628492de94758a8d940850a9cc673.wav",
+  "wav_sha256": "241d1e5b0a65423e7e5e99d78edb6fd0643c9495f939cb082ded1a0b436a75d7",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 422400,
+    "sample_count": 211200,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 8.8,
+    "peak": 0.60546875,
+    "peak_dbfs": -4.358165342831161,
+    "rms": 0.06458008595332694,
+    "rms_dbfs": -23.798027625822556,
+    "dc_offset": 9.726090864701704e-05,
+    "silence_fraction": 0.24190814393939394,
+    "leading_silence_seconds": 0.4065,
+    "tail_silence_seconds": 0.37554166666666666,
+    "active_span_seconds": 8.017958333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 21,
+    "source_words_per_active_minute": 157.14723719151283,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "nadi",
+      "keeps",
+      "one",
+      "hand",
+      "on",
+      "the",
+      "mooring",
+      "rope",
+      "while",
+      "you",
+      "talk",
+      "the",
+      "boat",
+      "nudges",
+      "the",
+      "stair",
+      "patient",
+      "as",
+      "an",
+      "old",
+      "dog"
+    ],
+    "observed_tokens": [
+      "nadi",
+      "keeps",
+      "one",
+      "hand",
+      "on",
+      "the",
+      "mooring",
+      "rope",
+      "while",
+      "you",
+      "talk",
+      "the",
+      "boat",
+      "nudges",
+      "the",
+      "stair",
+      "patient",
+      "as",
+      "an",
+      "old",
+      "dog"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 21,
+        "observed_start": 0,
+        "observed_end": 21,
+        "expected": [
+          "nadi",
+          "keeps",
+          "one",
+          "hand",
+          "on",
+          "the",
+          "mooring",
+          "rope",
+          "while",
+          "you",
+          "talk",
+          "the",
+          "boat",
+          "nudges",
+          "the",
+          "stair",
+          "patient",
+          "as",
+          "an",
+          "old",
+          "dog"
+        ],
+        "observed": [
+          "nadi",
+          "keeps",
+          "one",
+          "hand",
+          "on",
+          "the",
+          "mooring",
+          "rope",
+          "while",
+          "you",
+          "talk",
+          "the",
+          "boat",
+          "nudges",
+          "the",
+          "stair",
+          "patient",
+          "as",
+          "an",
+          "old",
+          "dog"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Nadi keeps one hand on the mooring rope, while you talk. The boat nudges the stair patient as an old dog.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.58,
+      "text": " Nadi keeps one hand on the mooring rope, while you talk.",
+      "words": [
+        {
+          "word": " Nadi",
+          "start": 0.0,
+          "end": 0.84,
+          "probability": 0.5673566460609436
+        },
+        {
+          "word": " keeps",
+          "start": 0.84,
+          "end": 1.28,
+          "probability": 0.9849980473518372
+        },
+        {
+          "word": " one",
+          "start": 1.28,
+          "end": 1.66,
+          "probability": 0.9917771816253662
+        },
+        {
+          "word": " hand",
+          "start": 1.66,
+          "end": 1.98,
+          "probability": 0.9962010979652405
+        },
+        {
+          "word": " on",
+          "start": 1.98,
+          "end": 2.3,
+          "probability": 0.9953747391700745
+        },
+        {
+          "word": " the",
+          "start": 2.3,
+          "end": 2.48,
+          "probability": 0.9972378015518188
+        },
+        {
+          "word": " mooring",
+          "start": 2.48,
+          "end": 2.94,
+          "probability": 0.9532442887624105
+        },
+        {
+          "word": " rope,",
+          "start": 2.94,
+          "end": 3.26,
+          "probability": 0.866182267665863
+        },
+        {
+          "word": " while",
+          "start": 3.82,
+          "end": 3.96,
+          "probability": 0.8503109216690063
+        },
+        {
+          "word": " you",
+          "start": 3.96,
+          "end": 4.18,
+          "probability": 0.9951298236846924
+        },
+        {
+          "word": " talk.",
+          "start": 4.18,
+          "end": 4.58,
+          "probability": 0.9967612624168396
+        }
+      ]
+    },
+    {
+      "start": 5.22,
+      "end": 8.28,
+      "text": " The boat nudges the stair patient as an old dog.",
+      "words": [
+        {
+          "word": " The",
+          "start": 5.22,
+          "end": 5.38,
+          "probability": 0.9873266816139221
+        },
+        {
+          "word": " boat",
+          "start": 5.38,
+          "end": 5.64,
+          "probability": 0.9986149072647095
+        },
+        {
+          "word": " nudges",
+          "start": 5.64,
+          "end": 6.16,
+          "probability": 0.9994329512119293
+        },
+        {
+          "word": " the",
+          "start": 6.16,
+          "end": 6.4,
+          "probability": 0.9576336145401001
+        },
+        {
+          "word": " stair",
+          "start": 6.4,
+          "end": 6.78,
+          "probability": 0.6495246291160583
+        },
+        {
+          "word": " patient",
+          "start": 6.78,
+          "end": 7.3,
+          "probability": 0.6987362504005432
+        },
+        {
+          "word": " as",
+          "start": 7.3,
+          "end": 7.58,
+          "probability": 0.9959526062011719
+        },
+        {
+          "word": " an",
+          "start": 7.58,
+          "end": 7.7,
+          "probability": 0.998026430606842
+        },
+        {
+          "word": " old",
+          "start": 7.7,
+          "end": 7.94,
+          "probability": 0.9787337779998779
+        },
+        {
+          "word": " dog.",
+          "start": 7.94,
+          "end": 8.28,
+          "probability": 0.9956308603286743
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "nadi",
+      "keeps",
+      "one",
+      "hand",
+      "on",
+      "the",
+      "mooring",
+      "rope",
+      "while",
+      "you",
+      "talk",
+      "the",
+      "boat",
+      "nudges",
+      "the",
+      "stair",
+      "patient",
+      "as",
+      "an",
+      "old",
+      "dog"
+    ],
+    "observed_tokens": [
+      "nadi",
+      "keeps",
+      "one",
+      "hand",
+      "on",
+      "the",
+      "mooring",
+      "rope",
+      "while",
+      "you",
+      "talk",
+      "the",
+      "boat",
+      "nudges",
+      "the",
+      "stair",
+      "patient",
+      "as",
+      "an",
+      "old",
+      "dog"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 21,
+        "observed_start": 0,
+        "observed_end": 21,
+        "expected": [
+          "nadi",
+          "keeps",
+          "one",
+          "hand",
+          "on",
+          "the",
+          "mooring",
+          "rope",
+          "while",
+          "you",
+          "talk",
+          "the",
+          "boat",
+          "nudges",
+          "the",
+          "stair",
+          "patient",
+          "as",
+          "an",
+          "old",
+          "dog"
+        ],
+        "observed": [
+          "nadi",
+          "keeps",
+          "one",
+          "hand",
+          "on",
+          "the",
+          "mooring",
+          "rope",
+          "while",
+          "you",
+          "talk",
+          "the",
+          "boat",
+          "nudges",
+          "the",
+          "stair",
+          "patient",
+          "as",
+          "an",
+          "old",
+          "dog"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

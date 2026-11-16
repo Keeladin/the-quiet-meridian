@@ -1,0 +1,199 @@
+{
+  "line_id": "mara_memory_room_q2",
+  "clip_id": "8f731f50ac934e7babb030e2cb968e78",
+  "source_text_sha256": "f8b8902ee9dd14e52cc5354d8ae4e986f7b448221d9c4d36bb0c6bb7ab0840ee",
+  "master": "work/gateway-voice/masters/8f731f50ac934e7babb030e2cb968e78.wav",
+  "wav_sha256": "b3746e9bea1bb0840785b29273bd47f51e1a92436bca20a6d85912e509d9e354",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 114240,
+    "sample_count": 57120,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.38,
+    "peak": 0.271484375,
+    "peak_dbfs": -11.325103214434712,
+    "rms": 0.039729650406584265,
+    "rms_dbfs": -28.017705128371396,
+    "dc_offset": 1.959814076997987e-05,
+    "silence_fraction": 0.4213235294117647,
+    "leading_silence_seconds": 0.39716666666666667,
+    "tail_silence_seconds": 0.38729166666666665,
+    "active_span_seconds": 1.5955416666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 5,
+    "source_words_per_active_minute": 188.0239208210378,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "should",
+      "we",
+      "repair",
+      "next"
+    ],
+    "observed_tokens": [
+      "what",
+      "should",
+      "we",
+      "repair",
+      "next"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 5,
+        "observed_start": 0,
+        "observed_end": 5,
+        "expected": [
+          "what",
+          "should",
+          "we",
+          "repair",
+          "next"
+        ],
+        "observed": [
+          "what",
+          "should",
+          "we",
+          "repair",
+          "next"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "What should we repair next?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.9,
+      "text": " What should we repair next?",
+      "words": [
+        {
+          "word": " What",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8762401342391968
+        },
+        {
+          "word": " should",
+          "start": 0.54,
+          "end": 0.88,
+          "probability": 0.9762510657310486
+        },
+        {
+          "word": " we",
+          "start": 0.88,
+          "end": 1.14,
+          "probability": 0.9969189167022705
+        },
+        {
+          "word": " repair",
+          "start": 1.14,
+          "end": 1.52,
+          "probability": 0.9865482449531555
+        },
+        {
+          "word": " next?",
+          "start": 1.52,
+          "end": 1.9,
+          "probability": 0.9955664277076721
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "should",
+      "we",
+      "repair",
+      "next"
+    ],
+    "observed_tokens": [
+      "what",
+      "should",
+      "we",
+      "repair",
+      "next"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 5,
+        "observed_start": 0,
+        "observed_end": 5,
+        "expected": [
+          "what",
+          "should",
+          "we",
+          "repair",
+          "next"
+        ],
+        "observed": [
+          "what",
+          "should",
+          "we",
+          "repair",
+          "next"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

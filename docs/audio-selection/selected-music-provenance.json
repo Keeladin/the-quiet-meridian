@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-15",
+  "selection": "Owner requested this exact local MP3 as game music. Original retained unchanged.",
+  "assets": [
+    {
+      "path": "assets/audio/selected-music/sonder.mp3",
+      "title": "Sonder",
+      "artist": "Purrple Cat",
+      "album": "City Nights 2",
+      "year": 2023,
+      "duration_seconds": 189.25346875,
+      "sample_rate_hz": 32000,
+      "channels": 2,
+      "source_filename": "Sonder(chosic.com).mp3",
+      "source_sha256": "84474b37170aae1143fa5311275c96564fd81a2972a0371c7f22bd7334fd659a",
+      "sha256": "84474b37170aae1143fa5311275c96564fd81a2972a0371c7f22bd7334fd659a",
+      "bytes": 7574630,
+      "source": "https://www.chosic.com/download-audio/58968/",
+      "artist_track": "https://purrplecat.bandcamp.com/track/sonder",
+      "artist_website": "https://purrplecat.com/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_basis": "Owner supplied a screenshot of the Chosic download page showing commercial-use permission with the supplied CC BY-SA 3.0 attribution. The original MP3 remains unchanged.",
+      "license_review": {
+        "checked": "2026-11-15",
+        "artist_track_link": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "other_listing": "https://www.freegamemusic.com/library/",
+        "other_listing_terms": "https://www.freegamemusic.com/use/",
+        "other_listing_license": "CC BY 4.0",
+        "notes": "Preserve the earlier artist/catalogue observations as history. The packaged credit follows the owner-supplied Chosic screenshot for this download. The MP3 is unchanged; no claim about licensing the rest of the game is made.",
+        "owner_supplied_chosic_screenshot": "CC BY-SA 3.0, commercial use with attribution; supplied in this conversation after the earlier source checks."
+      },
+      "modifications": "No file edits, re-encoding or trimming. Runtime volume fades/ducking and whole-track repeat only.",
+      "scope": [
+        "title",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "ch5",
+        "ch6",
+        "tension",
+        "resolution"
+      ],
+      "quality_review": "Metadata and runtime decoding checks only; no subjective listening approval claimed.",
+      "gain_db": -9.0,
+      "measured_mean_db": -16.6,
+      "measured_peak_db": -0.3,
+      "attribution": "Sonder by Purrple Cat | https://purrplecat.com/\nMusic promoted by https://www.chosic.com/free-music/all/\nCreative Commons CC BY-SA 3.0\nhttps://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ]
+}

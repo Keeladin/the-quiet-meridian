@@ -1,0 +1,1021 @@
+{
+  "line_id": "elian_machine_r0",
+  "clip_id": "e6677a3ebc8d4cfa964422def80991f0",
+  "source_text_sha256": "c3840f983bb7a356e0337a9f378a49ed6101be3f94b698f0b6514c82420d99db",
+  "master": "work/gateway-voice/masters/e6677a3ebc8d4cfa964422def80991f0.wav",
+  "wav_sha256": "22bf9ee675562fc736dda887eae0a345b24dc48925a11caaa2b77c8ae7ec3ac2",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1013760,
+    "sample_count": 506880,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 21.12,
+    "peak": 0.462890625,
+    "peak_dbfs": -6.690432299314538,
+    "rms": 0.05057858756595898,
+    "rms_dbfs": -25.920666054547553,
+    "dc_offset": 0.00014582926576787775,
+    "silence_fraction": 0.22650134154040405,
+    "leading_silence_seconds": 0.396875,
+    "tail_silence_seconds": 0.18708333333333332,
+    "active_span_seconds": 20.536041666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 55,
+    "source_words_per_active_minute": 160.69309040000812,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "wheel",
+      "can",
+      "slip",
+      "that",
+      "does",
+      "not",
+      "make",
+      "every",
+      "sequence",
+      "of",
+      "valves",
+      "an",
+      "accident",
+      "this",
+      "interlock",
+      "requires",
+      "different",
+      "movements",
+      "in",
+      "different",
+      "places",
+      "if",
+      "you",
+      "are",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "mechanism",
+      "describe",
+      "the",
+      "movement",
+      "it",
+      "would",
+      "have",
+      "to",
+      "make",
+      "if",
+      "you",
+      "are",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "person",
+      "find",
+      "more",
+      "than",
+      "a",
+      "machine",
+      "that",
+      "person",
+      "once",
+      "maintained"
+    ],
+    "observed_tokens": [
+      "a",
+      "wheel",
+      "can",
+      "slip",
+      "that",
+      "does",
+      "not",
+      "make",
+      "every",
+      "sequence",
+      "of",
+      "valves",
+      "an",
+      "accident",
+      "this",
+      "interlock",
+      "requires",
+      "different",
+      "movements",
+      "in",
+      "different",
+      "places",
+      "if",
+      "you",
+      "are",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "mechanism",
+      "describe",
+      "the",
+      "movement",
+      "it",
+      "would",
+      "have",
+      "to",
+      "make",
+      "if",
+      "you",
+      "are",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "person",
+      "find",
+      "more",
+      "than",
+      "a",
+      "machine",
+      "that",
+      "person",
+      "once",
+      "maintained"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 55,
+        "observed_start": 0,
+        "observed_end": 55,
+        "expected": [
+          "a",
+          "wheel",
+          "can",
+          "slip",
+          "that",
+          "does",
+          "not",
+          "make",
+          "every",
+          "sequence",
+          "of",
+          "valves",
+          "an",
+          "accident",
+          "this",
+          "interlock",
+          "requires",
+          "different",
+          "movements",
+          "in",
+          "different",
+          "places",
+          "if",
+          "you",
+          "are",
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "mechanism",
+          "describe",
+          "the",
+          "movement",
+          "it",
+          "would",
+          "have",
+          "to",
+          "make",
+          "if",
+          "you",
+          "are",
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "person",
+          "find",
+          "more",
+          "than",
+          "a",
+          "machine",
+          "that",
+          "person",
+          "once",
+          "maintained"
+        ],
+        "observed": [
+          "a",
+          "wheel",
+          "can",
+          "slip",
+          "that",
+          "does",
+          "not",
+          "make",
+          "every",
+          "sequence",
+          "of",
+          "valves",
+          "an",
+          "accident",
+          "this",
+          "interlock",
+          "requires",
+          "different",
+          "movements",
+          "in",
+          "different",
+          "places",
+          "if",
+          "you",
+          "are",
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "mechanism",
+          "describe",
+          "the",
+          "movement",
+          "it",
+          "would",
+          "have",
+          "to",
+          "make",
+          "if",
+          "you",
+          "are",
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "person",
+          "find",
+          "more",
+          "than",
+          "a",
+          "machine",
+          "that",
+          "person",
+          "once",
+          "maintained"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "A wheel can slip. That does not make every sequence of vols an accident. This interlock requires different movements in different places. If you were going to accuse a mechanism, describe the movement it would have to make. If you were going to accuse a person, find more than a machine that person once maintained.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.88,
+      "text": " A wheel can slip. That does not make every sequence of vols an accident.",
+      "words": [
+        {
+          "word": " A",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.8057891130447388
+        },
+        {
+          "word": " wheel",
+          "start": 0.52,
+          "end": 0.74,
+          "probability": 0.8480347394943237
+        },
+        {
+          "word": " can",
+          "start": 0.74,
+          "end": 1.0,
+          "probability": 0.9964806437492371
+        },
+        {
+          "word": " slip.",
+          "start": 1.0,
+          "end": 1.38,
+          "probability": 0.9888142943382263
+        },
+        {
+          "word": " That",
+          "start": 2.08,
+          "end": 2.18,
+          "probability": 0.9863516092300415
+        },
+        {
+          "word": " does",
+          "start": 2.18,
+          "end": 2.38,
+          "probability": 0.9842550754547119
+        },
+        {
+          "word": " not",
+          "start": 2.38,
+          "end": 2.68,
+          "probability": 0.9737969040870667
+        },
+        {
+          "word": " make",
+          "start": 2.68,
+          "end": 2.98,
+          "probability": 0.9986457228660583
+        },
+        {
+          "word": " every",
+          "start": 2.98,
+          "end": 3.26,
+          "probability": 0.9962526559829712
+        },
+        {
+          "word": " sequence",
+          "start": 3.26,
+          "end": 3.7,
+          "probability": 0.9972758889198303
+        },
+        {
+          "word": " of",
+          "start": 3.7,
+          "end": 3.96,
+          "probability": 0.5859737992286682
+        },
+        {
+          "word": " vols",
+          "start": 3.96,
+          "end": 4.32,
+          "probability": 0.5436203479766846
+        },
+        {
+          "word": " an",
+          "start": 4.32,
+          "end": 4.42,
+          "probability": 0.9510250687599182
+        },
+        {
+          "word": " accident.",
+          "start": 4.42,
+          "end": 4.88,
+          "probability": 0.9981947541236877
+        }
+      ]
+    },
+    {
+      "start": 5.56,
+      "end": 8.86,
+      "text": " This interlock requires different movements in different places.",
+      "words": [
+        {
+          "word": " This",
+          "start": 5.56,
+          "end": 5.76,
+          "probability": 0.9900298714637756
+        },
+        {
+          "word": " interlock",
+          "start": 5.76,
+          "end": 6.26,
+          "probability": 0.9761714339256287
+        },
+        {
+          "word": " requires",
+          "start": 6.26,
+          "end": 6.86,
+          "probability": 0.9944426417350769
+        },
+        {
+          "word": " different",
+          "start": 6.86,
+          "end": 7.26,
+          "probability": 0.996347963809967
+        },
+        {
+          "word": " movements",
+          "start": 7.26,
+          "end": 7.66,
+          "probability": 0.987438976764679
+        },
+        {
+          "word": " in",
+          "start": 7.66,
+          "end": 8.18,
+          "probability": 0.9674934148788452
+        },
+        {
+          "word": " different",
+          "start": 8.18,
+          "end": 8.44,
+          "probability": 0.9988025426864624
+        },
+        {
+          "word": " places.",
+          "start": 8.44,
+          "end": 8.86,
+          "probability": 0.9978891015052795
+        }
+      ]
+    },
+    {
+      "start": 9.66,
+      "end": 14.24,
+      "text": " If you were going to accuse a mechanism, describe the movement it would have to make.",
+      "words": [
+        {
+          "word": " If",
+          "start": 9.66,
+          "end": 9.78,
+          "probability": 0.9930481910705566
+        },
+        {
+          "word": " you",
+          "start": 9.78,
+          "end": 9.96,
+          "probability": 0.9994194507598877
+        },
+        {
+          "word": " were",
+          "start": 9.96,
+          "end": 10.1,
+          "probability": 0.512232780456543
+        },
+        {
+          "word": " going",
+          "start": 10.1,
+          "end": 10.3,
+          "probability": 0.9962066411972046
+        },
+        {
+          "word": " to",
+          "start": 10.3,
+          "end": 10.5,
+          "probability": 0.9973069429397583
+        },
+        {
+          "word": " accuse",
+          "start": 10.5,
+          "end": 10.88,
+          "probability": 0.9731787443161011
+        },
+        {
+          "word": " a",
+          "start": 10.88,
+          "end": 11.1,
+          "probability": 0.9957109689712524
+        },
+        {
+          "word": " mechanism,",
+          "start": 11.1,
+          "end": 11.62,
+          "probability": 0.992333173751831
+        },
+        {
+          "word": " describe",
+          "start": 12.22,
+          "end": 12.54,
+          "probability": 0.9879520535469055
+        },
+        {
+          "word": " the",
+          "start": 12.54,
+          "end": 12.8,
+          "probability": 0.9983788728713989
+        },
+        {
+          "word": " movement",
+          "start": 12.8,
+          "end": 13.16,
+          "probability": 0.9957927465438843
+        },
+        {
+          "word": " it",
+          "start": 13.16,
+          "end": 13.52,
+          "probability": 0.9913058876991272
+        },
+        {
+          "word": " would",
+          "start": 13.52,
+          "end": 13.66,
+          "probability": 0.9968061447143555
+        },
+        {
+          "word": " have",
+          "start": 13.66,
+          "end": 13.86,
+          "probability": 0.9980863332748413
+        },
+        {
+          "word": " to",
+          "start": 13.86,
+          "end": 14.02,
+          "probability": 0.9988309741020203
+        },
+        {
+          "word": " make.",
+          "start": 14.02,
+          "end": 14.24,
+          "probability": 0.99921715259552
+        }
+      ]
+    },
+    {
+      "start": 14.94,
+      "end": 20.48,
+      "text": " If you were going to accuse a person, find more than a machine that person once maintained.",
+      "words": [
+        {
+          "word": " If",
+          "start": 14.94,
+          "end": 15.1,
+          "probability": 0.9930025935173035
+        },
+        {
+          "word": " you",
+          "start": 15.1,
+          "end": 15.26,
+          "probability": 0.9989157915115356
+        },
+        {
+          "word": " were",
+          "start": 15.26,
+          "end": 15.34,
+          "probability": 0.9146638512611389
+        },
+        {
+          "word": " going",
+          "start": 15.34,
+          "end": 15.54,
+          "probability": 0.9967374205589294
+        },
+        {
+          "word": " to",
+          "start": 15.54,
+          "end": 15.72,
+          "probability": 0.9961147308349609
+        },
+        {
+          "word": " accuse",
+          "start": 15.72,
+          "end": 16.04,
+          "probability": 0.9977860450744629
+        },
+        {
+          "word": " a",
+          "start": 16.04,
+          "end": 16.3,
+          "probability": 0.992908239364624
+        },
+        {
+          "word": " person,",
+          "start": 16.3,
+          "end": 16.68,
+          "probability": 0.9987640380859375
+        },
+        {
+          "word": " find",
+          "start": 17.3,
+          "end": 17.56,
+          "probability": 0.9930797219276428
+        },
+        {
+          "word": " more",
+          "start": 17.56,
+          "end": 17.92,
+          "probability": 0.9980250597000122
+        },
+        {
+          "word": " than",
+          "start": 17.92,
+          "end": 18.24,
+          "probability": 0.9892913699150085
+        },
+        {
+          "word": " a",
+          "start": 18.24,
+          "end": 18.34,
+          "probability": 0.9835759997367859
+        },
+        {
+          "word": " machine",
+          "start": 18.34,
+          "end": 18.7,
+          "probability": 0.9988279938697815
+        },
+        {
+          "word": " that",
+          "start": 18.7,
+          "end": 19.04,
+          "probability": 0.9946084022521973
+        },
+        {
+          "word": " person",
+          "start": 19.04,
+          "end": 19.46,
+          "probability": 0.9705137014389038
+        },
+        {
+          "word": " once",
+          "start": 19.46,
+          "end": 19.92,
+          "probability": 0.9944249391555786
+        },
+        {
+          "word": " maintained.",
+          "start": 19.92,
+          "end": 20.48,
+          "probability": 0.9978762865066528
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "wheel",
+      "can",
+      "slip",
+      "that",
+      "does",
+      "not",
+      "make",
+      "every",
+      "sequence",
+      "of",
+      "valves",
+      "an",
+      "accident",
+      "this",
+      "interlock",
+      "requires",
+      "different",
+      "movements",
+      "in",
+      "different",
+      "places",
+      "if",
+      "you",
+      "are",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "mechanism",
+      "describe",
+      "the",
+      "movement",
+      "it",
+      "would",
+      "have",
+      "to",
+      "make",
+      "if",
+      "you",
+      "are",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "person",
+      "find",
+      "more",
+      "than",
+      "a",
+      "machine",
+      "that",
+      "person",
+      "once",
+      "maintained"
+    ],
+    "observed_tokens": [
+      "a",
+      "wheel",
+      "can",
+      "slip",
+      "that",
+      "does",
+      "not",
+      "make",
+      "every",
+      "sequence",
+      "of",
+      "vols",
+      "an",
+      "accident",
+      "this",
+      "interlock",
+      "requires",
+      "different",
+      "movements",
+      "in",
+      "different",
+      "places",
+      "if",
+      "you",
+      "were",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "mechanism",
+      "describe",
+      "the",
+      "movement",
+      "it",
+      "would",
+      "have",
+      "to",
+      "make",
+      "if",
+      "you",
+      "were",
+      "going",
+      "to",
+      "accuse",
+      "a",
+      "person",
+      "find",
+      "more",
+      "than",
+      "a",
+      "machine",
+      "that",
+      "person",
+      "once",
+      "maintained"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 11,
+        "observed_start": 0,
+        "observed_end": 11,
+        "expected": [
+          "a",
+          "wheel",
+          "can",
+          "slip",
+          "that",
+          "does",
+          "not",
+          "make",
+          "every",
+          "sequence",
+          "of"
+        ],
+        "observed": [
+          "a",
+          "wheel",
+          "can",
+          "slip",
+          "that",
+          "does",
+          "not",
+          "make",
+          "every",
+          "sequence",
+          "of"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 11,
+        "expected_end": 12,
+        "observed_start": 11,
+        "observed_end": 12,
+        "expected": [
+          "valves"
+        ],
+        "observed": [
+          "vols"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 12,
+        "expected_end": 24,
+        "observed_start": 12,
+        "observed_end": 24,
+        "expected": [
+          "an",
+          "accident",
+          "this",
+          "interlock",
+          "requires",
+          "different",
+          "movements",
+          "in",
+          "different",
+          "places",
+          "if",
+          "you"
+        ],
+        "observed": [
+          "an",
+          "accident",
+          "this",
+          "interlock",
+          "requires",
+          "different",
+          "movements",
+          "in",
+          "different",
+          "places",
+          "if",
+          "you"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 24,
+        "expected_end": 25,
+        "observed_start": 24,
+        "observed_end": 25,
+        "expected": [
+          "are"
+        ],
+        "observed": [
+          "were"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 25,
+        "expected_end": 40,
+        "observed_start": 25,
+        "observed_end": 40,
+        "expected": [
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "mechanism",
+          "describe",
+          "the",
+          "movement",
+          "it",
+          "would",
+          "have",
+          "to",
+          "make",
+          "if",
+          "you"
+        ],
+        "observed": [
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "mechanism",
+          "describe",
+          "the",
+          "movement",
+          "it",
+          "would",
+          "have",
+          "to",
+          "make",
+          "if",
+          "you"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 40,
+        "expected_end": 41,
+        "observed_start": 40,
+        "observed_end": 41,
+        "expected": [
+          "are"
+        ],
+        "observed": [
+          "were"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 41,
+        "expected_end": 55,
+        "observed_start": 41,
+        "observed_end": 55,
+        "expected": [
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "person",
+          "find",
+          "more",
+          "than",
+          "a",
+          "machine",
+          "that",
+          "person",
+          "once",
+          "maintained"
+        ],
+        "observed": [
+          "going",
+          "to",
+          "accuse",
+          "a",
+          "person",
+          "find",
+          "more",
+          "than",
+          "a",
+          "machine",
+          "that",
+          "person",
+          "once",
+          "maintained"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "valves"
+        ],
+        "observed": [
+          "vols"
+        ],
+        "expected_start": 11,
+        "observed_start": 11
+      },
+      {
+        "expected": [
+          "are"
+        ],
+        "observed": [
+          "were"
+        ],
+        "expected_start": 24,
+        "observed_start": 24
+      },
+      {
+        "expected": [
+          "are"
+        ],
+        "observed": [
+          "were"
+        ],
+        "expected_start": 40,
+        "observed_start": 40
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 11:12.",
+      "Changed source words at expected tokens 24:25.",
+      "Changed source words at expected tokens 40:41."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

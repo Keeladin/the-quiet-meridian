@@ -1,0 +1,76 @@
+{
+  "p12": {
+    "title": "MAINTENANCE ACCESS · ONE-WAY SERVICE CHART",
+    "height": 390,
+    "directed": true,
+    "source_clues": ["ch2_l1_c", "ch2_l2_c"],
+    "legend": "PIT and SUMP are flooded. The gauge reading is required.",
+    "nodes": [
+      {"id":"COURT","label":"COURT","option":"COURT","x":0.12,"y":0.47},
+      {"id":"GALLERY","label":"GALLERY","option":"GALLERY","x":0.36,"y":0.28},
+      {"id":"CISTERN","label":"CISTERN","option":"CISTERN","x":0.36,"y":0.78},
+      {"id":"PIT","label":"PIT","option":"PIT","detail":"FLOODED","hazard":true,"x":0.60,"y":0.10},
+      {"id":"SEA DRAIN","label":"SEA DRAIN","option":"SEA DRAIN","x":0.87,"y":0.10},
+      {"id":"GAUGE LANDING","label":"GAUGE LANDING","option":"GAUGE LANDING","detail":"reading required","x":0.60,"y":0.44},
+      {"id":"DRY WALK","label":"DRY WALK","option":"DRY WALK","x":0.87,"y":0.44},
+      {"id":"SUMP","label":"SUMP","option":"SUMP","detail":"FLOODED","hazard":true,"x":0.60,"y":0.78},
+      {"id":"MACHINE","label":"MACHINE","option":"MACHINE","x":0.87,"y":0.78}
+    ],
+    "edges": [["COURT","GALLERY"],["COURT","CISTERN"],["GALLERY","PIT"],["GALLERY","GAUGE LANDING"],["GAUGE LANDING","DRY WALK"],["DRY WALK","MACHINE"],["DRY WALK","SUMP"],["CISTERN","SUMP"],["SUMP","MACHINE"],["PIT","SEA DRAIN"]]
+  },
+  "p26": {
+    "title": "ROOFTOP RELAY · SIGNAL LOSS PER LINK",
+    "height": 430,
+    "directed": true,
+    "source_clues": ["ch3_l4_b", "ch3_l6_b"],
+    "legend": "Every arrow is operational. Add losses along the whole route.",
+    "nodes": [
+      {"id":"LOFT","label":"LOFT","option":"LOFT","x":0.12,"y":0.46},
+      {"id":"NORTH ROOF","label":"NORTH ROOF","option":"NORTH ROOF","x":0.36,"y":0.20},
+      {"id":"MARKET","label":"MARKET","option":"MARKET","x":0.36,"y":0.72},
+      {"id":"QUARRY","label":"QUARRY","option":"QUARRY","x":0.63,"y":0.11},
+      {"id":"MERIDIAN ROOF","label":"MERIDIAN ROOF","option":"MERIDIAN ROOF","x":0.63,"y":0.36},
+      {"id":"CHAPEL","label":"CHAPEL","option":"CHAPEL","x":0.63,"y":0.62},
+      {"id":"HARBOUR","label":"HARBOUR","option":"HARBOUR","x":0.63,"y":0.87},
+      {"id":"ISLAND","label":"ISLAND","option":"ISLAND","x":0.87,"y":0.48}
+    ],
+    "edges": [["LOFT","NORTH ROOF"],["LOFT","MARKET"],["NORTH ROOF","MERIDIAN ROOF"],["NORTH ROOF","QUARRY"],["MARKET","HARBOUR"],["MARKET","CHAPEL"],["HARBOUR","ISLAND"],["CHAPEL","MERIDIAN ROOF"],["QUARRY","ISLAND"],["MERIDIAN ROOF","ISLAND"]],
+    "edge_labels": {"LOFT>NORTH ROOF":"2","LOFT>MARKET":"1","NORTH ROOF>MERIDIAN ROOF":"3","NORTH ROOF>QUARRY":"2","MARKET>HARBOUR":"1","MARKET>CHAPEL":"2","HARBOUR>ISLAND":"8","CHAPEL>MERIDIAN ROOF":"1","QUARRY>ISLAND":"6","MERIDIAN ROOF>ISLAND":"2"}
+  },
+  "p32": {
+    "title": "MARSH CROSSING · ROPE AND SAFE GROUND",
+    "height": 390,
+    "directed": true,
+    "source_clues": ["ch4_l1_a", "ch4_l1_b"],
+    "legend": "Start without rope. Collect it at FERRY HUT; avoid collapsed mud.",
+    "nodes": [
+      {"id":"JETTY","label":"JETTY","option":"JETTY","x":0.12,"y":0.25},
+      {"id":"FERRY HUT","label":"FERRY HUT","option":"FERRY HUT","detail":"rope stored here","x":0.12,"y":0.75},
+      {"id":"DRY BANK","label":"DRY BANK","option":"DRY BANK","x":0.37,"y":0.75},
+      {"id":"WILLOW","label":"WILLOW","option":"WILLOW","x":0.37,"y":0.25},
+      {"id":"STONE RIDGE","label":"STONE RIDGE","option":"STONE RIDGE","x":0.63,"y":0.25},
+      {"id":"SOFT MUD","label":"SOFT MUD","option":"SOFT MUD","detail":"COLLAPSED","hazard":true,"x":0.63,"y":0.75},
+      {"id":"CLINIC","label":"CLINIC","option":"CLINIC","x":0.87,"y":0.50}
+    ],
+    "edges": [["JETTY","WILLOW"],["JETTY","FERRY HUT"],["FERRY HUT","DRY BANK"],["DRY BANK","WILLOW"],["DRY BANK","SOFT MUD"],["WILLOW","STONE RIDGE"],["WILLOW","SOFT MUD"],["STONE RIDGE","CLINIC"],["SOFT MUD","CLINIC"]],
+    "edge_labels": {"WILLOW>STONE RIDGE":"ROPE"}
+  },
+  "p36": {
+    "title": "HIGH-GROUND SURVEY · SIDE-ADJACENT SITES",
+    "height": 410,
+    "directed": false,
+    "source_clues": ["ch4_l4_a", "ch4_l4_c"],
+    "legend": "Water height = 3. Sites must be strictly higher. No diagonals.",
+    "nodes": [
+      {"id":"HUT","label":"HUT","option":"HUT","detail":"height 5 · (0,0)","x":0.12,"y":0.78},
+      {"id":"NORTH BANK","label":"NORTH BANK","option":"NORTH BANK","detail":"height 4 · (0,1)","x":0.12,"y":0.44},
+      {"id":"STONE BRIDGE","label":"STONE BRIDGE","option":"STONE BRIDGE","detail":"height 4 · (1,1)","x":0.37,"y":0.44},
+      {"id":"RIDGE","label":"RIDGE","option":"RIDGE","detail":"height 2 · (1,0)","hazard":true,"x":0.37,"y":0.78},
+      {"id":"GARDEN","label":"GARDEN","option":"GARDEN","detail":"height 4 · (2,1)","x":0.63,"y":0.44},
+      {"id":"TOWER","label":"TOWER","option":"TOWER","detail":"height 3 · (2,0)","hazard":true,"x":0.63,"y":0.78},
+      {"id":"REFUGE","label":"REFUGE","option":"REFUGE","detail":"height 5 · (3,1)","x":0.87,"y":0.44},
+      {"id":"TIDAL CUT","label":"TIDAL CUT","option":"TIDAL CUT","detail":"height 1 · (1,2)","hazard":true,"x":0.37,"y":0.10}
+    ],
+    "edges": [["HUT","NORTH BANK"],["HUT","RIDGE"],["NORTH BANK","STONE BRIDGE"],["STONE BRIDGE","RIDGE"],["STONE BRIDGE","GARDEN"],["STONE BRIDGE","TIDAL CUT"],["RIDGE","TOWER"],["GARDEN","TOWER"],["GARDEN","REFUGE"]]
+  }
+}

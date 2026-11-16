@@ -1,0 +1,17 @@
+Create one finished original hidden-object search painting for The Quiet Meridian, a fictional late-industrial canal-city mystery. Wide landscape 1536x1024. Detailed painterly realism, fine gouache and ink texture, naturally weathered materials, restrained petrol teal and amber palette, good readable exposure. NO readable words, UI, captions, border, watermark or people. LOCKKEEPER'S CABIN: close view into a modest waterside cabin's window alcove, old linen-wrapped tool roll opened across a battered stool, fishing tackle, faded family embroidery, boots, ledger papers and oiled timber. Cool rainlight through an upper-left window, low warm lamp to the right. Quiet melancholy, dense natural layers, less brass than the office, no people.
+Professional classic hidden-object search: at least 60 believable clutter details and varied overlaps. Camouflage targets through matching material/colour, partial occlusion, rotation and embedding in the setting. Mostly small targets (2–6% image width), a few easier finds, many subtle. Every listed target actually visible and recognizable with zoom; no vague implied objects. Natural asymmetric composition, no evenly spaced lineup, no large empty sky or floor. Hide these 14 target depictions around the indicated areas:
+1. a small compass partly concealed beneath a linen fold near lower left
+2. a spool of brown thread in a deep shelf recess near upper right
+3. an old hatchet mostly hidden beneath the tool roll at centre
+4. a leaf pressed between translucent paper pages near middle right
+5. a swan embroidered into a faded cushion near left edge
+6. a wooden whistle hanging among cords near upper middle
+7. a belt buckle partly hidden below a boot near bottom right
+8. a sailmaker's needle across a pale frayed seam near bottom centre
+9. a dark knitted glove folded behind a jug near upper left
+10. a brass key caught in a coarse fishing net near right centre
+11. a dragonfly engraved on a weathered tin at lower middle left
+12. a curved fishing hook caught on a cork near centre left
+13. a loose decorative hinge partly underneath the ledger at lower right
+14. a little domino standing between two dark books near upper centre right
+Use the depicted world and physical surfaces to conceal them. Do not show the targets as bright isolated inventory icons.

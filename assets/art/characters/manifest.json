@@ -1,0 +1,222 @@
+{
+  "assets": [
+    {
+      "id": "ada-expressions",
+      "path": "assets/art/characters/ada-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/ada-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "ffc64b5fa175f2aae7987b4de867ac31f090227d175db4203595316948ebbf4a",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "elian-expressions",
+      "path": "assets/art/characters/elian-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/elian-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "8467f11bcc28e1c46d55df51b01c3bfe032f2c3dd546687af966e9add2da138c",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "iona-expressions",
+      "path": "assets/art/characters/iona-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/iona-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "695c11409a4bbb29dd7ed2f1ea9ce2e4fb139c9463b1f217e7bfb148d8d9e8c1",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "mara-expressions",
+      "path": "assets/art/characters/mara-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/mara-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "b16ef6aab2958e13b3fe26aa8475eedce26f0fa689c60013be11a9aab926fb10",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "nadi-expressions",
+      "path": "assets/art/characters/nadi-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/nadi-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "1304da2a318f3fa52f0dac970e8bed7675180f763858cfa1218ce63bc5a50c3f",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "rowan-expressions",
+      "path": "assets/art/characters/rowan-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/rowan-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "f8d8b788ec8a9e4a4d2b4caaeb2c5c61bf9d8acc87c2f000df98002e71903bc6",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    },
+    {
+      "id": "sera-expressions",
+      "path": "assets/art/characters/sera-expressions.png",
+      "purpose": "Eight-frame original expression/gesture atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/av-polish/sera-expressions.txt",
+      "reference_images": [
+        "assets/art/portraits/cast.png"
+      ],
+      "external_references": [],
+      "sha256": "740bd51044f98e86897ea9794cc065e432fcb0fd2819bcb09a9aff7008f9390e",
+      "width": 1774,
+      "height": 887,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": [
+          "neutral",
+          "blink",
+          "speech_a",
+          "speech_o",
+          "relief",
+          "concern",
+          "explain",
+          "resolve"
+        ]
+      },
+      "review_status": "All seven sheets visually inspected for cast identity, eight-cell layout and expressions. In-engine motion review and user acceptance remain separate checks.",
+      "rights_record": "Original fictional cast; no external artist or real-person reference. Built-in generated output subject to applicable OpenAI account terms; no claim of exclusive copyright or third-party rights clearance."
+    }
+  ],
+  "source_atlas_sha256": "63d37aad99ece04a73e2d2c29630a10cdcb56694ff9fab31e470e19137bc8a9a"
+}

@@ -1,0 +1,693 @@
+{
+  "status": "complete",
+  "lines": {
+    "narration_opening": {
+      "receipt": "narration_opening-retake2.json",
+      "technical_review": "Selected the focused pronunciation/clarity take: independent medium recognition retains all ordinary words, including lockkeeper, Vale, pewter and the full letter without the small recognizer's extra words. Remaining differences are Tomas/Thomas, Leth/Leith and Nadi/Nattie name renderings, ferry/fairy homophones and colour/color regional spelling. Provider transcript is exact. Name consonants/accent and overall performance remain explicit listening-review items; ASR spelling is not treated as proof of correct pronunciation.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/narration_opening-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch1_intro": {
+      "receipt": "ch1_intro-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass. Provider warning contains only approved phonetic or regional spelling renderings; independent recognition matches the exact source. Original warning is retained.",
+      "human_listening_status": "pending",
+      "review_report": "review/ch1_intro-first.json",
+      "provider_transcript_format_exception": true
+    },
+    "ch1_closing": {
+      "receipt": "ch1_closing-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch1_closing-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch2_intro": {
+      "receipt": "ch2_intro-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/ch2_intro-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch2_closing": {
+      "receipt": "ch2_closing-retake2.json",
+      "technical_review": "Selected the focused pronunciation retake: every non-name word matches independent medium recognition; the provider transcript is exact. Independent recognition renders Rowan as Rhone, while the other recognizer also renders Tomas/Elian with alternate spellings. The request explicitly directs connected /roʊən/, /toʊməs/ and /ɛliən/. This is a documented name-recognition uncertainty, not confirmation of correct pronunciation; human pronunciation/performance review remains pending. Earlier ambiguous sluice/name syllable splitting is absent from the selected medium transcript.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch2_closing-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch3_intro": {
+      "receipt": "ch3_intro-retake2.json",
+      "technical_review": "Selected the focused pronunciation retake: the earlier great/grey ordinary-word error is absent. Independent medium recognition matches all words except joining Ada Flint as ataflint; the small recognizer splits Ada as at a. The provider transcript is exact and the request supplies /eɪdə/. Retain this name-boundary/phonetic recognition uncertainty explicitly; it does not establish human pronunciation or acting acceptance.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch3_intro-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch3_closing": {
+      "receipt": "ch3_closing-retake4.json",
+      "technical_review": "A request-only dash after open creates a short word-boundary pause; all canonical words and game subtitles remain unchanged. Both independent recognizers now retain open (not opened), and all other words. They render 00:14 and 00:22 as 0014 and 0022, identical time values with different punctuation. The provider transcript matches the requested words and digit notation. Signal checks pass; performance and caption timing remain pending gameplay listening review.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch3_closing-retake4.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch4_intro": {
+      "receipt": "ch4_intro-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/ch4_intro-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch4_closing": {
+      "receipt": "ch4_closing-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch4_closing-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch5_intro": {
+      "receipt": "ch5_intro-retake2.json",
+      "technical_review": "Selected the clearer focused take: independent medium recognition now retains every ordinary script word, including a/damaged/a, and the provider transcript is exact. Sera is rendered Sarah (a spelling distinction); Leth is rendered leff/lef despite the supplied /lɛθ/ short-E/TH direction. Name consonant/accent interpretation remains a specific listening-review item, not certified pronunciation. No missing ordinary word is waived.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch5_intro-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch5_closing": {
+      "receipt": "ch5_closing-retake1.json",
+      "technical_review": "Both independent recognizers now preserve originals and all other source words. Their only difference is Sera/Sarah, a spelling rendering of the instructed SEH-ruh name; provider transcript is source-exact. Signal and receipt checks pass. Human performance/pronunciation review remains separate.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch5_closing-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch6_intro": {
+      "receipt": "ch6_intro-first.json",
+      "technical_review": "dawn/don, harbour/harbor and the instructed names are phonetic/spelling renderings; no ordinary word omission or substitution is established. Signal checks pass; pronunciation and performance remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch6_intro-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ch6_closing": {
+      "receipt": "ch6_closing-retake1.json",
+      "technical_review": "Retained the first correction take because both independent recognizers match all ordinary script words, with only Elian's rendered elion's/elyon's, a plausible phonetic spelling of /ɛliənz/. Provider transcript is exact. The second retake introduced a possible lie/line substitution, so it is not selected. Name pronunciation and acting remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ch6_closing-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "narration_ending": {
+      "receipt": "narration_ending-retake3.json",
+      "technical_review": "The completed independent medium pass retains all ordinary words, including asks, both articles, corrected, its evidence and seam. The earlier small-model asks/us discrepancy remains preserved but is not reproduced by medium recognition. Only character-name renderings differ: Tomas Vale's/Thomas Bailey's, Elian/alien, Sera/Sarah and Nadi/Nati. Provider transcript is exact; these proper-name/phonetic uncertainties remain explicitly pending listening review. The fourth take introduced a Beside/the side mismatch, so the third take is retained as the stronger technical candidate.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/narration_ending-retake3.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_arrival_greeting": {
+      "receipt": "nadi_arrival_greeting-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_arrival_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_arrival_q0": {
+      "receipt": "nadi_arrival_q0-retake1.json",
+      "technical_review": "Owner heard the diction replacement and said it sounds better but a little slow. Applied pitch-preserving atempo=1.08 to the original saved replacement master, then repeated loudness/signal checks and independent recognition on the final encoded Ogg. All six source words match exactly. Subtitle timing uses the processed recording; original master and unadjusted candidate remain preserved. No additional API generation.",
+      "human_listening_status": "pending",
+      "review_report": "review-prepared/nadi_arrival_q0-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_arrival_r0": {
+      "receipt": "nadi_arrival_r0-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_arrival_r0-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_arrival_q1": {
+      "receipt": "nadi_arrival_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_arrival_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_arrival_r1": {
+      "receipt": "nadi_arrival_r1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_arrival_r1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_arrival_q2": {
+      "receipt": "nadi_arrival_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_arrival_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_arrival_r2": {
+      "receipt": "nadi_arrival_r2-retake1.json",
+      "technical_review": "Both independent checks now preserve silence and all other source words. The sole work/works difference occurs at the shared s boundary in works side, where connected speech permits the same audible s across words. Provider transcript preserves works side. Selected as a contextual word-boundary transcription variant; no listening approval is claimed.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/nadi_arrival_r2-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_archive_greeting": {
+      "receipt": "sera_archive_greeting-first.json",
+      "technical_review": "Sera/Sarah is a name transcription variant; provider transcript matches the source. Signal checks pass; pronunciation and performance remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/sera_archive_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_archive_q0": {
+      "receipt": "sera_archive_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_archive_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_archive_r0": {
+      "receipt": "sera_archive_r0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/sera_archive_r0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_archive_q1": {
+      "receipt": "sera_archive_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_archive_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_archive_r1": {
+      "receipt": "sera_archive_r1-retake2.json",
+      "technical_review": "Both independent recognizers now retain I have and all other words. The only difference is tenants' rendered tenant's: these possessive spellings have identical pronunciation. Provider transcript is exact; retain the canonical plural possessive in subtitles. Signal checks pass; acting remains pending listening review.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/sera_archive_r1-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_archive_q2": {
+      "receipt": "sera_archive_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_archive_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_archive_r2": {
+      "receipt": "sera_archive_r2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_archive_r2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_kitchen_greeting": {
+      "receipt": "rowan_kitchen_greeting-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_kitchen_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_kitchen_q0": {
+      "receipt": "rowan_kitchen_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_kitchen_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_kitchen_r0": {
+      "receipt": "rowan_kitchen_r0-retake2.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_kitchen_r0-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_kitchen_q1": {
+      "receipt": "rowan_kitchen_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_kitchen_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_kitchen_r1": {
+      "receipt": "rowan_kitchen_r1-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_kitchen_r1-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_kitchen_q2": {
+      "receipt": "rowan_kitchen_q2-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_kitchen_q2-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_kitchen_r2": {
+      "receipt": "rowan_kitchen_r2-first.json",
+      "technical_review": "Tomas/Thomas is a transcription spelling of the instructed name. Signal checks pass; pronunciation and performance remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/rowan_kitchen_r2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_machine_greeting": {
+      "receipt": "elian_machine_greeting-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/elian_machine_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_machine_q0": {
+      "receipt": "elian_machine_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/elian_machine_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_machine_r0": {
+      "receipt": "elian_machine_r0-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/elian_machine_r0-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_machine_q1": {
+      "receipt": "elian_machine_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/elian_machine_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_machine_r1": {
+      "receipt": "elian_machine_r1-first.json",
+      "technical_review": "authorisation/authorization is a regional spelling difference. Signal checks pass; pronunciation and performance remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/elian_machine_r1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_machine_q2": {
+      "receipt": "elian_machine_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/elian_machine_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_machine_r2": {
+      "receipt": "elian_machine_r2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/elian_machine_r2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ada_steps_greeting": {
+      "receipt": "ada_steps_greeting-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ada_steps_greeting-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "ada_steps_q0": {
+      "receipt": "ada_steps_q0-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/ada_steps_q0-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "ada_steps_r0": {
+      "receipt": "ada_steps_r0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ada_steps_r0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ada_steps_q1": {
+      "receipt": "ada_steps_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/ada_steps_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ada_steps_r1": {
+      "receipt": "ada_steps_r1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ada_steps_r1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ada_steps_q2": {
+      "receipt": "ada_steps_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/ada_steps_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "ada_steps_r2": {
+      "receipt": "ada_steps_r2-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/ada_steps_r2-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_signal_greeting": {
+      "receipt": "nadi_signal_greeting-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_signal_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_signal_q0": {
+      "receipt": "nadi_signal_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_signal_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_signal_r0": {
+      "receipt": "nadi_signal_r0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/nadi_signal_r0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_signal_q1": {
+      "receipt": "nadi_signal_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/nadi_signal_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_signal_r1": {
+      "receipt": "nadi_signal_r1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_signal_r1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_signal_q2": {
+      "receipt": "nadi_signal_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_signal_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_signal_r2": {
+      "receipt": "nadi_signal_r2-first.json",
+      "technical_review": "reeds/reads is a homophone; provider transcript matches the source. Signal checks pass; pronunciation and performance remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/nadi_signal_r2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_refuge_greeting": {
+      "receipt": "mara_refuge_greeting-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_refuge_greeting-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_refuge_q0": {
+      "receipt": "mara_refuge_q0-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_refuge_q0-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_refuge_r0": {
+      "receipt": "mara_refuge_r0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_refuge_r0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_refuge_q1": {
+      "receipt": "mara_refuge_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_refuge_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_refuge_r1": {
+      "receipt": "mara_refuge_r1-retake2.json",
+      "technical_review": "Focused retake corrects the earlier flap/flat error. Provider transcript is exact and both independent recognizers match except records is transcribed record immediately before store. The adjacent /s/ sounds at the records-store word boundary can merge in connected speech; retain this specific transcription uncertainty without changing the canonical plural. No other word differences remain. Human pronunciation/performance review is pending.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/mara_refuge_r1-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_refuge_q2": {
+      "receipt": "mara_refuge_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_refuge_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_refuge_r2": {
+      "receipt": "mara_refuge_r2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/mara_refuge_r2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_memorial_greeting": {
+      "receipt": "nadi_memorial_greeting-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/nadi_memorial_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_memorial_q0": {
+      "receipt": "nadi_memorial_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_memorial_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_memorial_r0": {
+      "receipt": "nadi_memorial_r0-retake3.json",
+      "technical_review": "The focused third take corrects in/an and retains every ordinary word, including nuisance and pot plant, with no spoken stage direction. Provider transcript is exact. Independent medium recognition renders Asha as Escher and Len as Lynn, plus the equivalent spelling apologised/apologized; small recognition retains Len. These name/accent renderings remain explicit pronunciation-review uncertainties, not proof of correct pronunciation. All underlying transcripts are preserved.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/nadi_memorial_r0-retake3.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_memorial_q1": {
+      "receipt": "nadi_memorial_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_memorial_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_memorial_r1": {
+      "receipt": "nadi_memorial_r1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/nadi_memorial_r1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_memorial_q2": {
+      "receipt": "nadi_memorial_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_memorial_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "nadi_memorial_r2": {
+      "receipt": "nadi_memorial_r2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/nadi_memorial_r2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_proof_greeting": {
+      "receipt": "sera_proof_greeting-first.json",
+      "technical_review": "Sera/Sarah is a name transcription variant; provider transcript matches the source. Signal checks pass; pronunciation and performance remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/sera_proof_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_proof_q0": {
+      "receipt": "sera_proof_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_proof_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_proof_r0": {
+      "receipt": "sera_proof_r0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_proof_r0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_proof_q1": {
+      "receipt": "sera_proof_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_proof_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_proof_r1": {
+      "receipt": "sera_proof_r1-retake2.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_proof_r1-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_proof_q2": {
+      "receipt": "sera_proof_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_proof_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "sera_proof_r2": {
+      "receipt": "sera_proof_r2-retake2.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/sera_proof_r2-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_council_greeting": {
+      "receipt": "elian_council_greeting-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/elian_council_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_council_q0": {
+      "receipt": "elian_council_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/elian_council_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_council_r0": {
+      "receipt": "elian_council_r0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/elian_council_r0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_council_q1": {
+      "receipt": "elian_council_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/elian_council_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_council_r1": {
+      "receipt": "elian_council_r1-first.json",
+      "technical_review": "neighbours/neighbors is an identical spoken word with regional spelling. Signal checks pass; pronunciation and performance remain listening-review items.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/elian_council_r1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_council_q2": {
+      "receipt": "elian_council_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/elian_council_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "elian_council_r2": {
+      "receipt": "elian_council_r2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/elian_council_r2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_before_hearing_greeting": {
+      "receipt": "rowan_before_hearing_greeting-retake2.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_before_hearing_greeting-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_before_hearing_q0": {
+      "receipt": "rowan_before_hearing_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_before_hearing_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_before_hearing_r0": {
+      "receipt": "rowan_before_hearing_r0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_before_hearing_r0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_before_hearing_q1": {
+      "receipt": "rowan_before_hearing_q1-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent medium recognition; signal checks pass. Small-model difference retained in review history.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/rowan_before_hearing_q1-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_before_hearing_r1": {
+      "receipt": "rowan_before_hearing_r1-retake2.json",
+      "technical_review": "Independent medium recognition retains the full opening And and every other script word, including Tomas. Its only difference is Elian's rendered Elianz, a phonetic spelling consistent with the supplied /ɛliənz/ possessive. Provider transcript is exact. Small-model omission/name differences remain preserved; this is technical candidate selection with human pronunciation and performance review pending.",
+      "human_listening_status": "pending",
+      "review_report": "review-medium/rowan_before_hearing_r1-retake2.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_before_hearing_q2": {
+      "receipt": "rowan_before_hearing_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_before_hearing_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "rowan_before_hearing_r2": {
+      "receipt": "rowan_before_hearing_r2-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/rowan_before_hearing_r2-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_memory_room_greeting": {
+      "receipt": "mara_memory_room_greeting-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_memory_room_greeting-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_memory_room_q0": {
+      "receipt": "mara_memory_room_q0-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_memory_room_q0-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_memory_room_r0": {
+      "receipt": "mara_memory_room_r0-retake1.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_memory_room_r0-retake1.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_memory_room_q1": {
+      "receipt": "mara_memory_room_q1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_memory_room_q1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_memory_room_r1": {
+      "receipt": "mara_memory_room_r1-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_memory_room_r1-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_memory_room_q2": {
+      "receipt": "mara_memory_room_q2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_memory_room_q2-first.json",
+      "provider_transcript_format_exception": false
+    },
+    "mara_memory_room_r2": {
+      "receipt": "mara_memory_room_r2-first.json",
+      "technical_review": "Exact source words match provider transcript and independent small recognition; signal checks pass.",
+      "human_listening_status": "pending",
+      "review_report": "review/mara_memory_room_r2-first.json",
+      "provider_transcript_format_exception": false
+    }
+  },
+  "pending": [],
+  "scope": "Technical selection; not human performance approval."
+}

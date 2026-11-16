@@ -1,0 +1,24 @@
+{
+  "godotTools.editorPath.godot4": "/home/jaco/.local/bin/godot4",
+  "godotTools.lsp.headless": true,
+  "godotTools.lsp.serverHost": "127.0.0.1",
+  "godotTools.lsp.serverPort": 6008,
+  "files.exclude": {
+    ".godot": true
+  },
+  "search.exclude": {
+    ".godot/**": true,
+    "builds/**": true
+  },
+  "chatgpt.openOnStartup": true,
+  "[gdscript]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "cSpell.words": [
+    "cmdline",
+    "Godot",
+    "GDScript",
+    "xhigh"
+  ]
+}

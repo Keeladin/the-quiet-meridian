@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "scope": "single_silent_capture_replacement",
+  "manifest_sha256": "2cb37edad079cb25fcfbbe0fd4f4317a6f1ed2a871649a39e3d8bc829f40ee3e",
+  "cap_usd": 0.25,
+  "line_id": "rowan_kitchen_r2",
+  "replaces_attempt_id": "c92288d2fcc74ae5a1a6fdeadc7d91ba",
+  "max_additional_attempts": 1,
+  "approval_text": "Approve one Rowan replacement",
+  "approved_by": "user in this conversation",
+  "recorded_utc": "2026-11-14T11:27:01.312044+00:00",
+  "remaining_95_authorized": false
+}

@@ -1,0 +1,241 @@
+{
+  "line_id": "ada_steps_q0",
+  "clip_id": "c056698045274ceaac2c010702097d68",
+  "source_text_sha256": "f3d609573f46ae14be7355823735ffdb7a9f03fda1367521d1eeb6d46f3bd862",
+  "master": "work/gateway-voice/masters/c056698045274ceaac2c010702097d68.wav",
+  "wav_sha256": "83479fdcc2a33f6adc7621a2e721815752f4c8a01c2036c568e16b4076b301f9",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 128640,
+    "sample_count": 64320,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.68,
+    "peak": 0.51953125,
+    "peak_dbfs": -5.687766486895275,
+    "rms": 0.06718089860910473,
+    "rms_dbfs": -23.455083826985778,
+    "dc_offset": 3.293782324340213e-05,
+    "silence_fraction": 0.37175062189054725,
+    "leading_silence_seconds": 0.4106666666666667,
+    "tail_silence_seconds": 0.35633333333333334,
+    "active_span_seconds": 1.913,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 8,
+    "source_words_per_active_minute": 250.9147935180345,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "keep",
+      "a",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "observed_tokens": [
+      "why",
+      "keep",
+      "a",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "keep",
+          "a",
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ],
+        "observed": [
+          "why",
+          "keep",
+          "a",
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why keep a clock you know is wrong?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.16,
+      "text": " Why keep a clock you know is wrong?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.5675785541534424
+        },
+        {
+          "word": " keep",
+          "start": 0.66,
+          "end": 0.92,
+          "probability": 0.9729678630828857
+        },
+        {
+          "word": " a",
+          "start": 0.92,
+          "end": 1.1,
+          "probability": 0.947288453578949
+        },
+        {
+          "word": " clock",
+          "start": 1.1,
+          "end": 1.36,
+          "probability": 0.9911796450614929
+        },
+        {
+          "word": " you",
+          "start": 1.36,
+          "end": 1.56,
+          "probability": 0.6868815422058105
+        },
+        {
+          "word": " know",
+          "start": 1.56,
+          "end": 1.74,
+          "probability": 0.9984185695648193
+        },
+        {
+          "word": " is",
+          "start": 1.74,
+          "end": 1.9,
+          "probability": 0.990268349647522
+        },
+        {
+          "word": " wrong?",
+          "start": 1.9,
+          "end": 2.16,
+          "probability": 0.9981714487075806
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "keep",
+      "a",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "observed_tokens": [
+      "why",
+      "keep",
+      "a",
+      "clock",
+      "you",
+      "know",
+      "is",
+      "wrong"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "keep",
+          "a",
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ],
+        "observed": [
+          "why",
+          "keep",
+          "a",
+          "clock",
+          "you",
+          "know",
+          "is",
+          "wrong"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

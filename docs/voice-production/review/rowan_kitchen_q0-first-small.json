@@ -1,0 +1,213 @@
+{
+  "line_id": "rowan_kitchen_q0",
+  "clip_id": "0804299359d14c5f8db569a0c4b533b6",
+  "source_text_sha256": "f0316895a85efa3f2e447402f6fa87532cd01810d16eeacb321afef532478f2d",
+  "master": "work/gateway-voice/masters/0804299359d14c5f8db569a0c4b533b6.wav",
+  "wav_sha256": "741c4417d648539da6943eb5e33e69eac3e7f236b39a9013307af85352979652",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 111360,
+    "sample_count": 55680,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.32,
+    "peak": 0.1796875,
+    "peak_dbfs": -14.90964267260551,
+    "rms": 0.03201433796099296,
+    "rms_dbfs": -29.893109494388284,
+    "dc_offset": 4.191124576261674e-05,
+    "silence_fraction": 0.42070761494252873,
+    "leading_silence_seconds": 0.40158333333333335,
+    "tail_silence_seconds": 0.33820833333333333,
+    "active_span_seconds": 1.5802083333333334,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 227.81806196440343,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "did",
+      "you",
+      "keep",
+      "this",
+      "room"
+    ],
+    "observed_tokens": [
+      "why",
+      "did",
+      "you",
+      "keep",
+      "this",
+      "room"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "why",
+          "did",
+          "you",
+          "keep",
+          "this",
+          "room"
+        ],
+        "observed": [
+          "why",
+          "did",
+          "you",
+          "keep",
+          "this",
+          "room"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why did you keep this room?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.76,
+      "text": " Why did you keep this room?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.9115565419197083
+        },
+        {
+          "word": " did",
+          "start": 0.58,
+          "end": 0.74,
+          "probability": 0.9918335676193237
+        },
+        {
+          "word": " you",
+          "start": 0.74,
+          "end": 0.94,
+          "probability": 0.9992475509643555
+        },
+        {
+          "word": " keep",
+          "start": 0.94,
+          "end": 1.18,
+          "probability": 0.9927800297737122
+        },
+        {
+          "word": " this",
+          "start": 1.18,
+          "end": 1.42,
+          "probability": 0.9979721903800964
+        },
+        {
+          "word": " room?",
+          "start": 1.42,
+          "end": 1.76,
+          "probability": 0.9985067248344421
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "did",
+      "you",
+      "keep",
+      "this",
+      "room"
+    ],
+    "observed_tokens": [
+      "why",
+      "did",
+      "you",
+      "keep",
+      "this",
+      "room"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "why",
+          "did",
+          "you",
+          "keep",
+          "this",
+          "room"
+        ],
+        "observed": [
+          "why",
+          "did",
+          "you",
+          "keep",
+          "this",
+          "room"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

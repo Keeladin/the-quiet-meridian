@@ -1,0 +1,229 @@
+{
+  "line_id": "elian_machine_q2",
+  "clip_id": "7cefe130508f4e7392685848890dade8",
+  "source_text_sha256": "404c647445e2034f80fb2d1d8aadd098b16fcc15456ed9d6d46c649cb25fdd6a",
+  "master": "work/gateway-voice/masters/7cefe130508f4e7392685848890dade8.wav",
+  "wav_sha256": "38b0c738733506b74a7cf863561907484ec28c0f61aba8f581b8c5b11b8e19ae",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 111360,
+    "sample_count": 55680,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.32,
+    "peak": 0.310546875,
+    "peak_dbfs": -10.157456733107587,
+    "rms": 0.05023142773115032,
+    "rms_dbfs": -25.980489553692074,
+    "dc_offset": 7.525531724951733e-05,
+    "silence_fraction": 0.3522808908045977,
+    "leading_silence_seconds": 0.39416666666666667,
+    "tail_silence_seconds": 0.015666666666666666,
+    "active_span_seconds": 1.9101666666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 219.87610156181836,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "your",
+      "initials",
+      "are",
+      "on",
+      "the",
+      "coupling",
+      "record"
+    ],
+    "observed_tokens": [
+      "your",
+      "initials",
+      "are",
+      "on",
+      "the",
+      "coupling",
+      "record"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "your",
+          "initials",
+          "are",
+          "on",
+          "the",
+          "coupling",
+          "record"
+        ],
+        "observed": [
+          "your",
+          "initials",
+          "are",
+          "on",
+          "the",
+          "coupling",
+          "record"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Your initials are on the coupling record.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.88,
+      "text": " Your initials are on the coupling record.",
+      "words": [
+        {
+          "word": " Your",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.9597398638725281
+        },
+        {
+          "word": " initials",
+          "start": 0.5,
+          "end": 0.74,
+          "probability": 0.9904652833938599
+        },
+        {
+          "word": " are",
+          "start": 0.74,
+          "end": 1.06,
+          "probability": 0.9935737252235413
+        },
+        {
+          "word": " on",
+          "start": 1.06,
+          "end": 1.2,
+          "probability": 0.9937481880187988
+        },
+        {
+          "word": " the",
+          "start": 1.2,
+          "end": 1.3,
+          "probability": 0.9958373308181763
+        },
+        {
+          "word": " coupling",
+          "start": 1.3,
+          "end": 1.52,
+          "probability": 0.8587590456008911
+        },
+        {
+          "word": " record.",
+          "start": 1.52,
+          "end": 1.88,
+          "probability": 0.9976990818977356
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "your",
+      "initials",
+      "are",
+      "on",
+      "the",
+      "coupling",
+      "record"
+    ],
+    "observed_tokens": [
+      "your",
+      "initials",
+      "are",
+      "on",
+      "the",
+      "coupling",
+      "record"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "your",
+          "initials",
+          "are",
+          "on",
+          "the",
+          "coupling",
+          "record"
+        ],
+        "observed": [
+          "your",
+          "initials",
+          "are",
+          "on",
+          "the",
+          "coupling",
+          "record"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

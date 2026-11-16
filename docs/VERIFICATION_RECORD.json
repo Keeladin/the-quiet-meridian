@@ -1,0 +1,132 @@
+{
+  "utc": "2026-11-14T10:21:17.538800+00:00",
+  "mode": "verify",
+  "source_revision": "75b75105d29635fad1b6c1ebc874492e00ea258c",
+  "source_dirty": false,
+  "automated_checks_passed": true,
+  "scope": "Development alpha automation; not release acceptance, native Windows certification, human playthrough or playtime measurement",
+  "checks": [
+    {
+      "check": "engine-version",
+      "passed": true,
+      "exit_code": 0,
+      "version": "4.7.2.stable.official.ed1daf0bf"
+    },
+    {
+      "check": "content-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "puzzle-logic",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "route-boards",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "audio-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "import",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "state-and-progression",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "ui-progression",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "source-smoke",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "export-linux",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "package-linux",
+      "passed": true,
+      "bytes": 130011782,
+      "sha256": "d3d13fffbc1b07f5570b078d0c0445f16243f3d3bc86cf199d565e011332252c"
+    },
+    {
+      "check": "export-windows",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "package-windows",
+      "passed": true,
+      "bytes": 139662765,
+      "sha256": "cb2c51fe95bfa6d0b4ffa4696f300194c60f532c4ee53d1d10d042aacd18fd50"
+    },
+    {
+      "check": "linux-extracted-package-smoke",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "windows-extracted-package-smoke-wine",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "native-windows-gameplay",
+      "status": "not_run",
+      "reason": "No native Windows test session performed"
+    },
+    {
+      "check": "blind-playthrough-duration",
+      "status": "not_run",
+      "reason": "Requires independent first-time players; automated answer traversal is not a duration test"
+    }
+  ],
+  "source_archive_note": "The source archive is refreshed after this evidence-only checkpoint. Its current SHA-256 is in builds/SHA256SUMS.txt; omitted here to avoid a self-referential archive checksum.",
+  "additional_graphical_checks": {
+    "native_linux": {
+      "passed": true,
+      "sizes": [
+        [
+          960,
+          600
+        ],
+        [
+          1280,
+          800
+        ],
+        [
+          1668,
+          1043
+        ]
+      ],
+      "final_1280_ui_assertions": 1488,
+      "all_puzzles": 60,
+      "dialogue_topics": 36,
+      "screenshots": "work/ui-review-final/"
+    },
+    "windows_wine": {
+      "passed": true,
+      "size": [
+        1280,
+        800
+      ],
+      "screenshot": "work/windows-render.png",
+      "scope": "Packaged Windows executable rendered opening scene under Wine, not native Windows",
+      "warning": "Godot could not query SDR white level under Wine; rendering and exit succeeded."
+    }
+  }
+}

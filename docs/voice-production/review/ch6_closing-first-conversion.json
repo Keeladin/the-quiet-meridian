@@ -1,0 +1,77 @@
+{
+  "clip_id": "2636c86295274139805e8ef7019b378d",
+  "source_sha256": "c4e46f8160d4e3e9a710d5d7761974df8372107b84135117aaeff2cd92914c7c",
+  "encoded_sha256": "f66bcfa2968051950b1df422dd44a753477f8b5f2860b3421b686982efbefba6",
+  "normalized_pcm_sha256": "d3ccd8a11532e37167ab3e39284d8906832a9c42bc318555353a2ced84f63a00",
+  "duration_seconds": 17.2,
+  "sample_rate": 24000,
+  "processing": "Two-pass -20 LUFS / -2 dBTP loudness normalization, no speech edits or trimming; mono Vorbis quality 5.",
+  "input_measurements": {
+    "input_i": "-24.65",
+    "input_tp": "-5.25",
+    "input_lra": "1.90",
+    "input_thresh": "-35.08",
+    "output_i": "-19.87",
+    "output_tp": "-2.00",
+    "output_lra": "2.10",
+    "output_thresh": "-30.58",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.13"
+  },
+  "output_measurements": {
+    "input_i": "-24.65",
+    "input_tp": "-5.25",
+    "input_lra": "1.90",
+    "input_thresh": "-35.08",
+    "output_i": "-20.00",
+    "output_tp": "-2.00",
+    "output_lra": "2.00",
+    "output_thresh": "-30.68",
+    "normalization_type": "dynamic",
+    "target_offset": "0.00"
+  },
+  "encoded_signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 825600,
+    "sample_count": 412800,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 17.2,
+    "peak": 0.813201904296875,
+    "peak_dbfs": -1.7960322606736745,
+    "rms": 0.09372623016417388,
+    "rms_dbfs": -20.562777014392523,
+    "dc_offset": 0.0002483563829762067,
+    "silence_fraction": 0.14634932170542636,
+    "leading_silence_seconds": 0.3859166666666667,
+    "tail_silence_seconds": 0.0,
+    "active_span_seconds": 16.814083333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": null,
+    "source_words_per_active_minute": null,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "paid_api_calls": 0,
+  "human_listening_required": true
+}

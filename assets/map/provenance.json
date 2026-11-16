@@ -1,0 +1,15 @@
+{
+  "created": "2026-11-15",
+  "description": "Original vector cartographic illustration of fictional Leth, authored for The Quiet Meridian. No geographic data, photographs, external artwork, or third-party icons used.",
+  "method": "Hand-authored SVG geometry with deterministic layout details. Reproduce with draw_city_map.py.",
+  "assets": [
+    {
+      "path": "assets/map/draw_city_map.py",
+      "sha256": "42999d3dc322963a944b1573d84bb1d3136207c109a6a23e37c3b36e468a7880"
+    },
+    {
+      "path": "assets/map/leth-city.svg",
+      "sha256": "b8141d2eebd1dd7e4c091e5c8997bf3509ec21620c601bb92d0b18c8920ef49b"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "line_id": "mara_refuge_q1",
+  "clip_id": "fd30b4851b574b8db54e4f948378755c",
+  "source_text_sha256": "a63164dd3fff95badebd55ea98056c443223f9dd083c499f44153059edc306b8",
+  "master": "work/gateway-voice/masters/fd30b4851b574b8db54e4f948378755c.wav",
+  "wav_sha256": "53660035bf563c6e51863c74d0401b1344faa52db188f9d753f8fb4de8f943c2",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 124800,
+    "sample_count": 62400,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.6,
+    "peak": 0.1845703125,
+    "peak_dbfs": -14.676763049331356,
+    "rms": 0.02923189612782487,
+    "rms_dbfs": -30.682860264084052,
+    "dc_offset": 4.0945884508964344e-05,
+    "silence_fraction": 0.3535897435897436,
+    "leading_silence_seconds": 0.4035,
+    "tail_silence_seconds": 0.301375,
+    "active_span_seconds": 1.895125,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 189.9610843611899,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "was",
+      "the",
+      "tracing",
+      "not",
+      "enough"
+    ],
+    "observed_tokens": [
+      "why",
+      "was",
+      "the",
+      "tracing",
+      "not",
+      "enough"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "why",
+          "was",
+          "the",
+          "tracing",
+          "not",
+          "enough"
+        ],
+        "observed": [
+          "why",
+          "was",
+          "the",
+          "tracing",
+          "not",
+          "enough"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why was the tracing not enough?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 1.94,
+      "text": " Why was the tracing not enough?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8815633654594421
+        },
+        {
+          "word": " was",
+          "start": 0.54,
+          "end": 0.76,
+          "probability": 0.9929983615875244
+        },
+        {
+          "word": " the",
+          "start": 0.76,
+          "end": 0.88,
+          "probability": 0.9888640642166138
+        },
+        {
+          "word": " tracing",
+          "start": 0.88,
+          "end": 1.26,
+          "probability": 0.9966894388198853
+        },
+        {
+          "word": " not",
+          "start": 1.26,
+          "end": 1.6,
+          "probability": 0.9842430353164673
+        },
+        {
+          "word": " enough?",
+          "start": 1.6,
+          "end": 1.94,
+          "probability": 0.9983637928962708
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "was",
+      "the",
+      "tracing",
+      "not",
+      "enough"
+    ],
+    "observed_tokens": [
+      "why",
+      "was",
+      "the",
+      "tracing",
+      "not",
+      "enough"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "why",
+          "was",
+          "the",
+          "tracing",
+          "not",
+          "enough"
+        ],
+        "observed": [
+          "why",
+          "was",
+          "the",
+          "tracing",
+          "not",
+          "enough"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

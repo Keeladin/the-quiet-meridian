@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "art": "res://assets/map/leth-city.svg",
+  "world_size": [
+    1600,
+    1000
+  ],
+  "districts": [
+    {
+      "id": "old_harbour",
+      "chapter": "ch1",
+      "name": "Old Harbour",
+      "description": "Quays, the archive and the bell quarter.",
+      "bounds": [
+        30,
+        395,
+        620,
+        470
+      ],
+      "pin": [
+        330,
+        630
+      ],
+      "rooms": [
+        {
+          "location": "ch1_l1",
+          "point": [
+            245,
+            748
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch1_l2",
+          "point": [
+            410,
+            730
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch1_l3",
+          "point": [
+            205,
+            510
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch1_l4",
+          "point": [
+            312,
+            539
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch1_l5",
+          "point": [
+            510,
+            486
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch1_l6",
+          "point": [
+            484,
+            608
+          ],
+          "label_side": "right"
+        }
+      ]
+    },
+    {
+      "id": "waterworks",
+      "chapter": "ch2",
+      "name": "Waterworks",
+      "description": "Reservoir channels, workshops and the spillway.",
+      "bounds": [
+        35,
+        25,
+        615,
+        370
+      ],
+      "pin": [
+        306,
+        207
+      ],
+      "rooms": [
+        {
+          "location": "ch2_l1",
+          "point": [
+            147,
+            212
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch2_l2",
+          "point": [
+            345,
+            291
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch2_l3",
+          "point": [
+            466,
+            198
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch2_l4",
+          "point": [
+            548,
+            94
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch2_l5",
+          "point": [
+            159,
+            91
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch2_l6",
+          "point": [
+            546,
+            330
+          ],
+          "label_side": "right"
+        }
+      ]
+    },
+    {
+      "id": "observatory",
+      "chapter": "ch3",
+      "name": "Observatory Hill",
+      "description": "The observatory and its signal buildings.",
+      "bounds": [
+        780,
+        24,
+        480,
+        325
+      ],
+      "pin": [
+        1046,
+        177
+      ],
+      "rooms": [
+        {
+          "location": "ch3_l1",
+          "point": [
+            858,
+            260
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch3_l2",
+          "point": [
+            995,
+            181
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch3_l3",
+          "point": [
+            1130,
+            250
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch3_l4",
+          "point": [
+            1190,
+            125
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch3_l5",
+          "point": [
+            925,
+            93
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch3_l6",
+          "point": [
+            1055,
+            86
+          ],
+          "label_side": "right"
+        }
+      ]
+    },
+    {
+      "id": "reed_island",
+      "chapter": "ch4",
+      "name": "Reed Island",
+      "description": "Paths through the marsh and the old settlement.",
+      "bounds": [
+        1285,
+        305,
+        285,
+        535
+      ],
+      "pin": [
+        1440,
+        569
+      ],
+      "rooms": [
+        {
+          "location": "ch4_l1",
+          "point": [
+            1340,
+            753
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch4_l2",
+          "point": [
+            1418,
+            646
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch4_l3",
+          "point": [
+            1494,
+            517
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch4_l4",
+          "point": [
+            1380,
+            443
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch4_l5",
+          "point": [
+            1430,
+            377
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch4_l6",
+          "point": [
+            1501,
+            714
+          ],
+          "label_side": "right"
+        }
+      ]
+    },
+    {
+      "id": "civic",
+      "chapter": "ch5",
+      "name": "Civic Quarter",
+      "description": "Public offices, the vault and the printing streets.",
+      "bounds": [
+        660,
+        320,
+        430,
+        360
+      ],
+      "pin": [
+        819,
+        449
+      ],
+      "rooms": [
+        {
+          "location": "ch5_l1",
+          "point": [
+            811,
+            448
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch5_l2",
+          "point": [
+            814,
+            365
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch5_l3",
+          "point": [
+            990,
+            423
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch5_l4",
+          "point": [
+            717,
+            550
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch5_l5",
+          "point": [
+            1039,
+            534
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch5_l6",
+          "point": [
+            943,
+            639
+          ],
+          "label_side": "right"
+        }
+      ]
+    },
+    {
+      "id": "public_waterfront",
+      "chapter": "ch6",
+      "name": "Public Waterfront",
+      "description": "The public quay, forum and record rooms.",
+      "bounds": [
+        630,
+        610,
+        590,
+        230
+      ],
+      "pin": [
+        915,
+        752
+      ],
+      "rooms": [
+        {
+          "location": "ch6_l1",
+          "point": [
+            687,
+            722
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch6_l2",
+          "point": [
+            806,
+            676
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch6_l3",
+          "point": [
+            1121,
+            666
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch6_l4",
+          "point": [
+            1147,
+            771
+          ],
+          "label_side": "right"
+        },
+        {
+          "location": "ch6_l5",
+          "point": [
+            883,
+            752
+          ],
+          "label_side": "left"
+        },
+        {
+          "location": "ch6_l6",
+          "point": [
+            1008,
+            778
+          ],
+          "label_side": "right"
+        }
+      ]
+    }
+  ]
+}

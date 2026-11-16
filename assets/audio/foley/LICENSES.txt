@@ -1,0 +1,37 @@
+THE QUIET MERIDIAN — FOLEY CREDITS
+
+Selected sound recordings: Kenney Vleugels (RPG sounds) and rubberduck (100 CC0 SFX #2).
+License: CC0 1.0 Universal public-domain dedication.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Sources:
+https://opengameart.org/content/50-rpg-sound-effects
+https://opengameart.org/content/100-cc0-sfx-2
+
+Original recordings remain retained without modification in sources/.
+Game derivatives are edited, resampled and sequenced locally; detailed recipes and source hashes are in manifest.json.
+
+Exact Kenney archive license follows:
+
+###############################################################################
+
+	RPG sounds by Kenney Vleugels (www.kenney.nl)
+
+			------------------------------
+
+			        License (CC0)
+	       http://creativecommons.org/publicdomain/zero/1.0/
+
+	You may use these graphics in personal and commercial projects.
+	Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
+
+###############################################################################
+
+Rubberduck author-page declaration record follows:
+License declaration record, checked 14 November 2026
+Creator: rubberduck
+Title: 100 CC0 SFX #2
+Author page: https://opengameart.org/content/100-cc0-sfx-2
+The author page lists License(s): CC0 and describes the pack as "another pack with 100 CC0 sfx".
+CC0 1.0 public-domain dedication: https://creativecommons.org/publicdomain/zero/1.0/
+The downloaded archive contains no separate license file. This is a project-maintained record of the author page, not an invented upstream license file.

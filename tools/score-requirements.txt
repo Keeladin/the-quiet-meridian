@@ -1,0 +1,5 @@
+# Build-time only; install into work/av-env, never the system Python.
+numpy==2.5.4
+scipy==1.18.1
+soundfile==0.14.0
+imageio-ffmpeg==0.8.1

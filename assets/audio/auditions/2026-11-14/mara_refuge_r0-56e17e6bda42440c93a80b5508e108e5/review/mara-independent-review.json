@@ -1,0 +1,25 @@
+{
+  "scope": "byte-level waveform and ASR evidence review only",
+  "source_audio_sha256": "879fd147f49f7903c1d4c6729929113f9296d4ed925dddb51d59f7505f6929ac",
+  "derivative_audio_sha256": "201c7bbb92344c084ff400ab5eb92ffcc877d37ab3e6ad33547a79c78dce4689",
+  "original_seconds": 31.62,
+  "bounded_seconds": 24.514083333333332,
+  "last_nonzero_sample_index": 564337,
+  "retained_exact_zero_tail_samples": 24000,
+  "all_original_nonzero_samples_preserved": true,
+  "original_prefix_identical": true,
+  "added_or_modified_samples": 0,
+  "removed_samples": 170542,
+  "removed_values_all_exact_zero": true,
+  "asr_extra_word": "You",
+  "asr_extra_word_interval_seconds": [
+    30.2,
+    31.6
+  ],
+  "extra_word_interval_peak_s16le": 0,
+  "original_asr_status": "asr_mismatch_hold",
+  "bounded_asr_status": "pending_listening",
+  "human_listening_performed": false,
+  "accepted_for_game": false,
+  "conclusion": "The extra ASR word lies in exact digital silence. The derivative retains every original nonzero sample and one second of zero tail. Its independent transcript matches all 59 source words; human listening and user audition acceptance remain required."
+}

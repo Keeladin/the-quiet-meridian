@@ -1,0 +1,17 @@
+Create one finished original hidden-object search painting for The Quiet Meridian, a fictional canal-city mystery. Wide landscape 1536x1024. Detailed painterly realism with fine ink and gouache texture; petrol teal shadows, warm amber lighting, ivory, tarnished brass and weathered natural materials. No readable words, labels, UI, border, watermark or people. BELL TOWER: a confined wooden bell-keeper's landing, high-angle close view across rope coils, tackle, battered toolbox, signal cards, wooden pegs, carved beams, a small practice bell, pigeon feathers and a narrow louvered glimpse of rainy harbour beyond. The edge of the great bell occupies upper left; warm lantern on the right. Asymmetric clutter, rough brown wood, tarnished brass, dark teal daylight, no people.
+Make a difficult but fair classic hidden-object scene: 60+ believable overlapping clutter details. Hide targets through matching colour, occlusion and shapes integrated in the setting. Most targets 2–6% of image width, none oversized as a display. Mix physical objects and plausible motifs. Keep enough of each target visible to identify it when zoomed. No neat rows or evenly spaced inventory display; no large empty floor or sky. The following 14 depictions must actually appear, in their broadly indicated places, disguised among unrelated clutter:
+1. a small crescent moon cut into the left wooden beam
+2. an ivory chess knight partly hidden in the lower toolbox
+3. a dull iron hook camouflaged against the middle rope coil
+4. a white feather caught along an upper-right rope
+5. a small brass padlock mostly behind a wooden wedge at lower left
+6. a wheel motif scratched on a signal board at centre right
+7. a bent nail tucked across a dark beam joint near top centre
+8. a pair of dark pliers partly under coarse cloth at bottom right
+9. a tiny fish motif carved into the side of a rope block at upper centre left
+10. a small sea shell in a dusty sill corner at far right
+11. a flattened thimble beside a sailcloth patch near bottom centre
+12. a rolled measuring tape among rope ends on the left
+13. a circular belt buckle partly veiled by hanging cloth near centre
+14. a small toy boat mostly tucked behind the practice bell near upper right
+Keep exposure readable. Every target distinct from clutter; ornate details should still look like their material. Natural asymmetrical composition, strong sense of place, professional finished game artwork.

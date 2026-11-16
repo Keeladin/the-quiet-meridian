@@ -1,0 +1,227 @@
+{
+  "line_id": "nadi_signal_q1",
+  "clip_id": "9b77f0d40dbc4097b57f43aea3fedd89",
+  "source_text_sha256": "9c96e0faf88b22991cba01ebba9a89ef7bc5dcba3cb0070ae579aefdf525e449",
+  "master": "work/gateway-voice/masters/9b77f0d40dbc4097b57f43aea3fedd89.wav",
+  "wav_sha256": "ffbaba6d021ce373ee88ffefff19d19c268327cc41b5b58b2178ce1a8f7dfe2c",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 170880,
+    "sample_count": 85440,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.56,
+    "peak": 0.265625,
+    "peak_dbfs": -11.514621052112265,
+    "rms": 0.03269842766408128,
+    "rms_dbfs": -29.70946260626269,
+    "dc_offset": 9.764624892102646e-05,
+    "silence_fraction": 0.36807116104868914,
+    "leading_silence_seconds": 0.40491666666666665,
+    "tail_silence_seconds": 0.15029166666666666,
+    "active_span_seconds": 3.0047916666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 139.77674547597587,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "clearest",
+      "route",
+      "is",
+      "not",
+      "the",
+      "shortest"
+    ],
+    "observed_tokens": [
+      "the",
+      "clearest",
+      "route",
+      "is",
+      "not",
+      "the",
+      "shortest"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "the",
+          "clearest",
+          "route",
+          "is",
+          "not",
+          "the",
+          "shortest"
+        ],
+        "observed": [
+          "the",
+          "clearest",
+          "route",
+          "is",
+          "not",
+          "the",
+          "shortest"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The clearest route is not the shortest.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.92,
+      "text": " The clearest route is not the shortest.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.751065731048584
+        },
+        {
+          "word": " clearest",
+          "start": 0.5,
+          "end": 1.16,
+          "probability": 0.9935136437416077
+        },
+        {
+          "word": " route",
+          "start": 1.16,
+          "end": 1.62,
+          "probability": 0.7070476412773132
+        },
+        {
+          "word": " is",
+          "start": 1.62,
+          "end": 2.02,
+          "probability": 0.9954003691673279
+        },
+        {
+          "word": " not",
+          "start": 2.02,
+          "end": 2.28,
+          "probability": 0.9992768168449402
+        },
+        {
+          "word": " the",
+          "start": 2.28,
+          "end": 2.54,
+          "probability": 0.9987939596176147
+        },
+        {
+          "word": " shortest.",
+          "start": 2.54,
+          "end": 2.92,
+          "probability": 0.9972872734069824
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "clearest",
+      "route",
+      "is",
+      "not",
+      "the",
+      "shortest"
+    ],
+    "observed_tokens": [
+      "the",
+      "clearest",
+      "route",
+      "is",
+      "not",
+      "the",
+      "shortest"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "the",
+          "clearest",
+          "route",
+          "is",
+          "not",
+          "the",
+          "shortest"
+        ],
+        "observed": [
+          "the",
+          "clearest",
+          "route",
+          "is",
+          "not",
+          "the",
+          "shortest"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

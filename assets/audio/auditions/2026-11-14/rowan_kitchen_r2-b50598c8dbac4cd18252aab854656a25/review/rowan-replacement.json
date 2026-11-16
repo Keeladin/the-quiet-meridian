@@ -1,0 +1,905 @@
+{
+  "created_utc": "2026-11-14T11:28:56.831653+00:00",
+  "script_id": "rowan_kitchen_r2",
+  "source_text_sha256": "e16770e007d094d9b8e5ecf2bdd33c93ab7e424b96220ea221417709443ed31b",
+  "audio": "work/voice-auditions/rowan_kitchen_r2-b50598c8dbac4cd18252aab854656a25/candidate.wav",
+  "audio_sha256": "687e709f6d6343134cdf094e6cf6804169323154a0ab4bf80c8b47cd92a9eee7",
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+    "license": "MIT",
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 1330,
+        "sha256": "c87ff776137c2ecb30ee3b324b4cf5f38abf9423464613641ee45430bf580851"
+      },
+      {
+        "name": "config.json",
+        "bytes": 2657,
+        "sha256": "666a9605530ac1f61fa8177f3702b4dacec9966749e42610839fcc32661d5fae"
+      },
+      {
+        "name": "model.bin",
+        "bytes": 483545366,
+        "sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 2128466,
+        "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df"
+      },
+      {
+        "name": "vocabulary.txt",
+        "bytes": 422309,
+        "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf"
+      },
+      {
+        "name": "LICENSE.openai-whisper",
+        "bytes": 1063,
+        "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+      },
+      {
+        "name": "LICENSE.faster-whisper",
+        "bytes": 1064,
+        "sha256": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5"
+      }
+    ]
+  },
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.9.0",
+    "av": "16.0.1",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0",
+    "onnxruntime": "1.32.0"
+  },
+  "transcription": {
+    "text": "That I shut the lower footway barrier. That I unfastened it when Thomas called while he opened the separate upper footway gate. That acting later did not make the earlier closure harmless. I have spent seventeen years rehearsing explanations that end with me having no choice. I will not give you one of those. Ask me what I saw. If I do not know, make me say so. You",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.98,
+        "text": " That I shut the lower footway barrier. That I unfastened it when Thomas called while he",
+        "avg_logprob": -0.11784905228349897,
+        "no_speech_probability": 0.0022120156791061163,
+        "compression_ratio": 1.5991189427312775,
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.04,
+            "word": " That",
+            "probability": 0.5309368968009949
+          },
+          {
+            "start": 1.04,
+            "end": 1.2,
+            "word": " I",
+            "probability": 0.9936769604682922
+          },
+          {
+            "start": 1.2,
+            "end": 1.54,
+            "word": " shut",
+            "probability": 0.8244635462760925
+          },
+          {
+            "start": 1.54,
+            "end": 1.78,
+            "word": " the",
+            "probability": 0.9943643808364868
+          },
+          {
+            "start": 1.78,
+            "end": 1.98,
+            "word": " lower",
+            "probability": 0.9751814007759094
+          },
+          {
+            "start": 1.98,
+            "end": 2.36,
+            "word": " footway",
+            "probability": 0.799364447593689
+          },
+          {
+            "start": 2.36,
+            "end": 2.74,
+            "word": " barrier.",
+            "probability": 0.993598222732544
+          },
+          {
+            "start": 3.42,
+            "end": 3.6,
+            "word": " That",
+            "probability": 0.9837244749069214
+          },
+          {
+            "start": 3.6,
+            "end": 3.74,
+            "word": " I",
+            "probability": 0.99700528383255
+          },
+          {
+            "start": 3.74,
+            "end": 4.32,
+            "word": " unfastened",
+            "probability": 0.9717646439870199
+          },
+          {
+            "start": 4.32,
+            "end": 4.46,
+            "word": " it",
+            "probability": 0.986373782157898
+          },
+          {
+            "start": 4.46,
+            "end": 4.66,
+            "word": " when",
+            "probability": 0.9637930393218994
+          },
+          {
+            "start": 4.66,
+            "end": 5.0,
+            "word": " Thomas",
+            "probability": 0.9953963160514832
+          },
+          {
+            "start": 5.0,
+            "end": 5.3,
+            "word": " called",
+            "probability": 0.9957299828529358
+          },
+          {
+            "start": 5.3,
+            "end": 5.76,
+            "word": " while",
+            "probability": 0.9215970039367676
+          },
+          {
+            "start": 5.76,
+            "end": 5.98,
+            "word": " he",
+            "probability": 0.9959567189216614
+          }
+        ]
+      },
+      {
+        "start": 5.98,
+        "end": 11.56,
+        "text": " opened the separate upper footway gate. That acting later did not make the earlier closure",
+        "avg_logprob": -0.11784905228349897,
+        "no_speech_probability": 0.0022120156791061163,
+        "compression_ratio": 1.5991189427312775,
+        "words": [
+          {
+            "start": 5.98,
+            "end": 6.38,
+            "word": " opened",
+            "probability": 0.9958940744400024
+          },
+          {
+            "start": 6.38,
+            "end": 6.62,
+            "word": " the",
+            "probability": 0.9811875224113464
+          },
+          {
+            "start": 6.62,
+            "end": 6.9,
+            "word": " separate",
+            "probability": 0.9850136637687683
+          },
+          {
+            "start": 6.9,
+            "end": 7.2,
+            "word": " upper",
+            "probability": 0.9777526259422302
+          },
+          {
+            "start": 7.2,
+            "end": 7.58,
+            "word": " footway",
+            "probability": 0.9607430398464203
+          },
+          {
+            "start": 7.58,
+            "end": 7.8,
+            "word": " gate.",
+            "probability": 0.9839587807655334
+          },
+          {
+            "start": 8.5,
+            "end": 8.8,
+            "word": " That",
+            "probability": 0.9867335557937622
+          },
+          {
+            "start": 8.8,
+            "end": 9.28,
+            "word": " acting",
+            "probability": 0.9808655977249146
+          },
+          {
+            "start": 9.28,
+            "end": 9.64,
+            "word": " later",
+            "probability": 0.9690687656402588
+          },
+          {
+            "start": 9.64,
+            "end": 10.12,
+            "word": " did",
+            "probability": 0.9931737780570984
+          },
+          {
+            "start": 10.12,
+            "end": 10.36,
+            "word": " not",
+            "probability": 0.9976862668991089
+          },
+          {
+            "start": 10.36,
+            "end": 10.64,
+            "word": " make",
+            "probability": 0.9979382157325745
+          },
+          {
+            "start": 10.64,
+            "end": 10.88,
+            "word": " the",
+            "probability": 0.9909164309501648
+          },
+          {
+            "start": 10.88,
+            "end": 11.24,
+            "word": " earlier",
+            "probability": 0.9822112917900085
+          },
+          {
+            "start": 11.24,
+            "end": 11.56,
+            "word": " closure",
+            "probability": 0.9924128651618958
+          }
+        ]
+      },
+      {
+        "start": 11.56,
+        "end": 18.42,
+        "text": " harmless. I have spent seventeen years rehearsing explanations that end with me having no choice.",
+        "avg_logprob": -0.11784905228349897,
+        "no_speech_probability": 0.0022120156791061163,
+        "compression_ratio": 1.5991189427312775,
+        "words": [
+          {
+            "start": 11.56,
+            "end": 12.04,
+            "word": " harmless.",
+            "probability": 0.99539715051651
+          },
+          {
+            "start": 12.74,
+            "end": 13.02,
+            "word": " I",
+            "probability": 0.9808284640312195
+          },
+          {
+            "start": 13.02,
+            "end": 13.12,
+            "word": " have",
+            "probability": 0.9929137229919434
+          },
+          {
+            "start": 13.12,
+            "end": 13.46,
+            "word": " spent",
+            "probability": 0.9940932393074036
+          },
+          {
+            "start": 13.46,
+            "end": 14.26,
+            "word": " seventeen",
+            "probability": 0.9035506248474121
+          },
+          {
+            "start": 14.26,
+            "end": 14.64,
+            "word": " years",
+            "probability": 0.9965597987174988
+          },
+          {
+            "start": 14.64,
+            "end": 15.3,
+            "word": " rehearsing",
+            "probability": 0.9972823560237885
+          },
+          {
+            "start": 15.3,
+            "end": 16.0,
+            "word": " explanations",
+            "probability": 0.9957298636436462
+          },
+          {
+            "start": 16.0,
+            "end": 16.68,
+            "word": " that",
+            "probability": 0.9905939102172852
+          },
+          {
+            "start": 16.68,
+            "end": 16.96,
+            "word": " end",
+            "probability": 0.9976309537887573
+          },
+          {
+            "start": 16.96,
+            "end": 17.18,
+            "word": " with",
+            "probability": 0.9935649037361145
+          },
+          {
+            "start": 17.18,
+            "end": 17.38,
+            "word": " me",
+            "probability": 0.9958908557891846
+          },
+          {
+            "start": 17.38,
+            "end": 17.66,
+            "word": " having",
+            "probability": 0.9984278678894043
+          },
+          {
+            "start": 17.66,
+            "end": 18.1,
+            "word": " no",
+            "probability": 0.9924351572990417
+          },
+          {
+            "start": 18.1,
+            "end": 18.42,
+            "word": " choice.",
+            "probability": 0.9959573149681091
+          }
+        ]
+      },
+      {
+        "start": 18.98,
+        "end": 25.2,
+        "text": " I will not give you one of those. Ask me what I saw. If I do not know, make me say so.",
+        "avg_logprob": -0.11784905228349897,
+        "no_speech_probability": 0.0022120156791061163,
+        "compression_ratio": 1.5991189427312775,
+        "words": [
+          {
+            "start": 18.98,
+            "end": 19.14,
+            "word": " I",
+            "probability": 0.9845433831214905
+          },
+          {
+            "start": 19.14,
+            "end": 19.34,
+            "word": " will",
+            "probability": 0.9949468970298767
+          },
+          {
+            "start": 19.34,
+            "end": 19.6,
+            "word": " not",
+            "probability": 0.9971151351928711
+          },
+          {
+            "start": 19.6,
+            "end": 19.88,
+            "word": " give",
+            "probability": 0.9820615649223328
+          },
+          {
+            "start": 19.88,
+            "end": 20.1,
+            "word": " you",
+            "probability": 0.9916374087333679
+          },
+          {
+            "start": 20.1,
+            "end": 20.36,
+            "word": " one",
+            "probability": 0.9932710528373718
+          },
+          {
+            "start": 20.36,
+            "end": 20.5,
+            "word": " of",
+            "probability": 0.9970093369483948
+          },
+          {
+            "start": 20.5,
+            "end": 20.78,
+            "word": " those.",
+            "probability": 0.994484007358551
+          },
+          {
+            "start": 21.4,
+            "end": 21.74,
+            "word": " Ask",
+            "probability": 0.9844636917114258
+          },
+          {
+            "start": 21.74,
+            "end": 21.92,
+            "word": " me",
+            "probability": 0.9970824122428894
+          },
+          {
+            "start": 21.92,
+            "end": 22.12,
+            "word": " what",
+            "probability": 0.9961751699447632
+          },
+          {
+            "start": 22.12,
+            "end": 22.28,
+            "word": " I",
+            "probability": 0.9978353381156921
+          },
+          {
+            "start": 22.28,
+            "end": 22.54,
+            "word": " saw.",
+            "probability": 0.9915383458137512
+          },
+          {
+            "start": 23.08,
+            "end": 23.32,
+            "word": " If",
+            "probability": 0.9934593439102173
+          },
+          {
+            "start": 23.32,
+            "end": 23.46,
+            "word": " I",
+            "probability": 0.9959866404533386
+          },
+          {
+            "start": 23.46,
+            "end": 23.68,
+            "word": " do",
+            "probability": 0.9909160733222961
+          },
+          {
+            "start": 23.68,
+            "end": 23.88,
+            "word": " not",
+            "probability": 0.9957757592201233
+          },
+          {
+            "start": 23.88,
+            "end": 24.14,
+            "word": " know,",
+            "probability": 0.9937501549720764
+          },
+          {
+            "start": 24.4,
+            "end": 24.5,
+            "word": " make",
+            "probability": 0.9982490539550781
+          },
+          {
+            "start": 24.5,
+            "end": 24.7,
+            "word": " me",
+            "probability": 0.9984104633331299
+          },
+          {
+            "start": 24.7,
+            "end": 24.86,
+            "word": " say",
+            "probability": 0.997432291507721
+          },
+          {
+            "start": 24.86,
+            "end": 25.2,
+            "word": " so.",
+            "probability": 0.9961961507797241
+          }
+        ]
+      },
+      {
+        "start": 30.42,
+        "end": 31.82,
+        "text": " You",
+        "avg_logprob": -0.6542238146066666,
+        "no_speech_probability": 0.8082283735275269,
+        "compression_ratio": 0.2727272727272727,
+        "words": [
+          {
+            "start": 30.42,
+            "end": 31.82,
+            "word": " You",
+            "probability": 0.10015658289194107
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "language_probability": 1,
+    "decoded_duration_seconds": 33.52,
+    "settings": {
+      "device": "cpu",
+      "compute_type": "int8",
+      "cpu_threads": 4,
+      "beam_size": 5,
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "initial_prompt": null,
+      "prefix": null,
+      "hotwords": null,
+      "vad_filter": false,
+      "word_timestamps": true,
+      "local_files_only": true,
+      "offline_environment": true
+    }
+  },
+  "comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "that",
+      "i",
+      "shut",
+      "the",
+      "lower",
+      "footway",
+      "barrier",
+      "that",
+      "i",
+      "unfastened",
+      "it",
+      "when",
+      "tomas",
+      "called",
+      "while",
+      "he",
+      "opened",
+      "the",
+      "separate",
+      "upper",
+      "footway",
+      "gate",
+      "that",
+      "acting",
+      "later",
+      "did",
+      "not",
+      "make",
+      "the",
+      "earlier",
+      "closure",
+      "harmless",
+      "i",
+      "have",
+      "spent",
+      "seventeen",
+      "years",
+      "rehearsing",
+      "explanations",
+      "that",
+      "end",
+      "with",
+      "me",
+      "having",
+      "no",
+      "choice",
+      "i",
+      "will",
+      "not",
+      "give",
+      "you",
+      "one",
+      "of",
+      "those",
+      "ask",
+      "me",
+      "what",
+      "i",
+      "saw",
+      "if",
+      "i",
+      "do",
+      "not",
+      "know",
+      "make",
+      "me",
+      "say",
+      "so"
+    ],
+    "observed_tokens": [
+      "that",
+      "i",
+      "shut",
+      "the",
+      "lower",
+      "footway",
+      "barrier",
+      "that",
+      "i",
+      "unfastened",
+      "it",
+      "when",
+      "thomas",
+      "called",
+      "while",
+      "he",
+      "opened",
+      "the",
+      "separate",
+      "upper",
+      "footway",
+      "gate",
+      "that",
+      "acting",
+      "later",
+      "did",
+      "not",
+      "make",
+      "the",
+      "earlier",
+      "closure",
+      "harmless",
+      "i",
+      "have",
+      "spent",
+      "seventeen",
+      "years",
+      "rehearsing",
+      "explanations",
+      "that",
+      "end",
+      "with",
+      "me",
+      "having",
+      "no",
+      "choice",
+      "i",
+      "will",
+      "not",
+      "give",
+      "you",
+      "one",
+      "of",
+      "those",
+      "ask",
+      "me",
+      "what",
+      "i",
+      "saw",
+      "if",
+      "i",
+      "do",
+      "not",
+      "know",
+      "make",
+      "me",
+      "say",
+      "so",
+      "you"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 12,
+        "observed_start": 0,
+        "observed_end": 12,
+        "expected": [
+          "that",
+          "i",
+          "shut",
+          "the",
+          "lower",
+          "footway",
+          "barrier",
+          "that",
+          "i",
+          "unfastened",
+          "it",
+          "when"
+        ],
+        "observed": [
+          "that",
+          "i",
+          "shut",
+          "the",
+          "lower",
+          "footway",
+          "barrier",
+          "that",
+          "i",
+          "unfastened",
+          "it",
+          "when"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 12,
+        "expected_end": 13,
+        "observed_start": 12,
+        "observed_end": 13,
+        "expected": [
+          "tomas"
+        ],
+        "observed": [
+          "thomas"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 13,
+        "expected_end": 68,
+        "observed_start": 13,
+        "observed_end": 68,
+        "expected": [
+          "called",
+          "while",
+          "he",
+          "opened",
+          "the",
+          "separate",
+          "upper",
+          "footway",
+          "gate",
+          "that",
+          "acting",
+          "later",
+          "did",
+          "not",
+          "make",
+          "the",
+          "earlier",
+          "closure",
+          "harmless",
+          "i",
+          "have",
+          "spent",
+          "seventeen",
+          "years",
+          "rehearsing",
+          "explanations",
+          "that",
+          "end",
+          "with",
+          "me",
+          "having",
+          "no",
+          "choice",
+          "i",
+          "will",
+          "not",
+          "give",
+          "you",
+          "one",
+          "of",
+          "those",
+          "ask",
+          "me",
+          "what",
+          "i",
+          "saw",
+          "if",
+          "i",
+          "do",
+          "not",
+          "know",
+          "make",
+          "me",
+          "say",
+          "so"
+        ],
+        "observed": [
+          "called",
+          "while",
+          "he",
+          "opened",
+          "the",
+          "separate",
+          "upper",
+          "footway",
+          "gate",
+          "that",
+          "acting",
+          "later",
+          "did",
+          "not",
+          "make",
+          "the",
+          "earlier",
+          "closure",
+          "harmless",
+          "i",
+          "have",
+          "spent",
+          "seventeen",
+          "years",
+          "rehearsing",
+          "explanations",
+          "that",
+          "end",
+          "with",
+          "me",
+          "having",
+          "no",
+          "choice",
+          "i",
+          "will",
+          "not",
+          "give",
+          "you",
+          "one",
+          "of",
+          "those",
+          "ask",
+          "me",
+          "what",
+          "i",
+          "saw",
+          "if",
+          "i",
+          "do",
+          "not",
+          "know",
+          "make",
+          "me",
+          "say",
+          "so"
+        ]
+      },
+      {
+        "operation": "insert",
+        "expected_start": 68,
+        "expected_end": 68,
+        "observed_start": 68,
+        "observed_end": 69,
+        "expected": [],
+        "observed": [
+          "you"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [
+      "you"
+    ],
+    "substitutions": [
+      {
+        "expected": [
+          "tomas"
+        ],
+        "observed": [
+          "thomas"
+        ],
+        "expected_start": 12,
+        "observed_start": 12
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 12:13.",
+      "Extra spoken words at observed tokens 68:69."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "status": "asr_mismatch_hold",
+  "accepted_for_game": false,
+  "human_listening_required": true,
+  "paid_api_calls": 0,
+  "limitations": [
+    "A separate ASR pass is evidence, not a guarantee that every spoken word is correct.",
+    "Fictional names and punctuation/numbers can be misrecognized. No names, source text or phonetic hints were supplied to ASR; no mismatch is automatically corrected.",
+    "Segment/word timestamps describe ASR recognition and are not approved subtitle timing or forced alignment of the source script.",
+    "Listen to the complete recording against the script, including its opening and fully released final word; record mismatch resolutions explicitly.",
+    "User audition approval remains required before full-batch voice production."
+  ]
+}

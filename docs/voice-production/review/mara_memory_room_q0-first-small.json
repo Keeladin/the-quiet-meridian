@@ -1,0 +1,227 @@
+{
+  "line_id": "mara_memory_room_q0",
+  "clip_id": "05eddfbd47ff487094f4f21a8e2052b0",
+  "source_text_sha256": "f313238bab30bb354469fc44905defca0254a298685fed2fb08f455d3541045c",
+  "master": "work/gateway-voice/masters/05eddfbd47ff487094f4f21a8e2052b0.wav",
+  "wav_sha256": "d729b55ee29ef88d7ab07df2dbabc70b0e07310c9c1b5727e5df3c3e622ccb69",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 135360,
+    "sample_count": 67680,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.82,
+    "peak": 0.314453125,
+    "peak_dbfs": -10.048881698879622,
+    "rms": 0.05005429738894484,
+    "rms_dbfs": -26.011172608573773,
+    "dc_offset": 6.42194815561281e-05,
+    "silence_fraction": 0.35181737588652484,
+    "leading_silence_seconds": 0.40408333333333335,
+    "tail_silence_seconds": 0.16579166666666667,
+    "active_span_seconds": 2.250125,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 186.65629687239596,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "can",
+      "an",
+      "archive",
+      "prevent",
+      "this",
+      "happening",
+      "again"
+    ],
+    "observed_tokens": [
+      "can",
+      "an",
+      "archive",
+      "prevent",
+      "this",
+      "happening",
+      "again"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "can",
+          "an",
+          "archive",
+          "prevent",
+          "this",
+          "happening",
+          "again"
+        ],
+        "observed": [
+          "can",
+          "an",
+          "archive",
+          "prevent",
+          "this",
+          "happening",
+          "again"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Can an archive prevent this happening again?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.36,
+      "text": " Can an archive prevent this happening again?",
+      "words": [
+        {
+          "word": " Can",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.8892430067062378
+        },
+        {
+          "word": " an",
+          "start": 0.5,
+          "end": 0.64,
+          "probability": 0.968247652053833
+        },
+        {
+          "word": " archive",
+          "start": 0.64,
+          "end": 1.04,
+          "probability": 0.9957805871963501
+        },
+        {
+          "word": " prevent",
+          "start": 1.04,
+          "end": 1.46,
+          "probability": 0.9980258941650391
+        },
+        {
+          "word": " this",
+          "start": 1.46,
+          "end": 1.68,
+          "probability": 0.9960126876831055
+        },
+        {
+          "word": " happening",
+          "start": 1.68,
+          "end": 2.02,
+          "probability": 0.9940650463104248
+        },
+        {
+          "word": " again?",
+          "start": 2.02,
+          "end": 2.36,
+          "probability": 0.9987162351608276
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "can",
+      "an",
+      "archive",
+      "prevent",
+      "this",
+      "happening",
+      "again"
+    ],
+    "observed_tokens": [
+      "can",
+      "an",
+      "archive",
+      "prevent",
+      "this",
+      "happening",
+      "again"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "can",
+          "an",
+          "archive",
+          "prevent",
+          "this",
+          "happening",
+          "again"
+        ],
+        "observed": [
+          "can",
+          "an",
+          "archive",
+          "prevent",
+          "this",
+          "happening",
+          "again"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

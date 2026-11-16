@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "music": {
+    "path": "res://assets/audio/score/ch1.ogg",
+    "volume_db": -30
+  },
+  "cues": {
+    "harbour_water": {
+      "path": "res://assets/audio/licensed-opening/harbour_water.ogg",
+      "kind": "loop",
+      "volume_db": -18,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "rain_on_the_office": {
+      "path": "res://assets/audio/licensed-opening/rain_on_the_office.ogg",
+      "kind": "loop",
+      "volume_db": -4,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "moored_boat_and_ropes": {
+      "path": "res://assets/audio/licensed-opening/moored_boat_and_ropes.ogg",
+      "kind": "periodic",
+      "volume_db": -24,
+      "interval_min": 13,
+      "interval_max": 23
+    },
+    "office_room_tone": {
+      "path": "res://assets/audio/licensed-opening/office_room_tone.ogg",
+      "kind": "loop",
+      "volume_db": -23,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "office_clock": {
+      "path": "res://assets/audio/licensed-opening/office_clock.ogg",
+      "kind": "periodic",
+      "volume_db": -29,
+      "interval_min": 1,
+      "interval_max": 1
+    },
+    "building_movement": {
+      "path": "res://assets/audio/licensed-opening/building_movement.ogg",
+      "kind": "periodic",
+      "volume_db": -28,
+      "interval_min": 22,
+      "interval_max": 39
+    },
+    "object_found": {
+      "path": "res://assets/audio/licensed-opening/object_found.ogg",
+      "kind": "event",
+      "volume_db": -12,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "symbol_understood": {
+      "path": "res://assets/audio/licensed-opening/symbol_understood.ogg",
+      "kind": "event",
+      "volume_db": -18,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "receipt_recovered": {
+      "path": "res://assets/audio/licensed-opening/receipt_recovered.ogg",
+      "kind": "event",
+      "volume_db": -13,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "search_completed": {
+      "path": "res://assets/audio/licensed-opening/search_completed.ogg",
+      "kind": "event",
+      "volume_db": -16,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "hint_revealed": {
+      "path": "res://assets/audio/licensed-opening/hint_revealed.ogg",
+      "kind": "event",
+      "volume_db": -19,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "menu_interaction": {
+      "path": "res://assets/audio/licensed-opening/menu_interaction.ogg",
+      "kind": "event",
+      "volume_db": -23,
+      "interval_min": 0,
+      "interval_max": 0
+    },
+    "journal_updated": {
+      "path": "res://assets/audio/licensed-opening/journal_updated.ogg",
+      "kind": "event",
+      "volume_db": -21,
+      "interval_min": 0,
+      "interval_max": 0
+    }
+  }
+}

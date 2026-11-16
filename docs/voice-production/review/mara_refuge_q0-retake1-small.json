@@ -1,0 +1,241 @@
+{
+  "line_id": "mara_refuge_q0",
+  "clip_id": "df239e6bcc6747f3a327af2413475c68",
+  "source_text_sha256": "a3dc0a505d1bd086c7da640699d04aa5807c9a095bcbfdf7d579fb89d4244856",
+  "master": "work/gateway-voice/masters/df239e6bcc6747f3a327af2413475c68.wav",
+  "wav_sha256": "19189bb6d792ccf295dacb9636a830dd3d511b3c7c3d6230a20b578b7e3a6d69",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 132480,
+    "sample_count": 66240,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.76,
+    "peak": 0.2451171875,
+    "peak_dbfs": -12.212524703175475,
+    "rms": 0.04648862171006061,
+    "rms_dbfs": -26.653066590895552,
+    "dc_offset": 1.2331884264370093e-05,
+    "silence_fraction": 0.34954710144927537,
+    "leading_silence_seconds": 0.409625,
+    "tail_silence_seconds": 0.376875,
+    "active_span_seconds": 1.9735,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 8,
+    "source_words_per_active_minute": 243.22270078540663,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "dead"
+    ],
+    "observed_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "dead"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be",
+          "dead"
+        ],
+        "observed": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be",
+          "dead"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why let me think you might be dead?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.22,
+      "text": " Why let me think you might be dead?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.836887776851654
+        },
+        {
+          "word": " let",
+          "start": 0.54,
+          "end": 0.74,
+          "probability": 0.9601146578788757
+        },
+        {
+          "word": " me",
+          "start": 0.74,
+          "end": 0.9,
+          "probability": 0.9979085922241211
+        },
+        {
+          "word": " think",
+          "start": 0.9,
+          "end": 1.2,
+          "probability": 0.9954314231872559
+        },
+        {
+          "word": " you",
+          "start": 1.2,
+          "end": 1.54,
+          "probability": 0.8504029512405396
+        },
+        {
+          "word": " might",
+          "start": 1.54,
+          "end": 1.76,
+          "probability": 0.9968671202659607
+        },
+        {
+          "word": " be",
+          "start": 1.76,
+          "end": 1.96,
+          "probability": 0.9981306195259094
+        },
+        {
+          "word": " dead?",
+          "start": 1.96,
+          "end": 2.22,
+          "probability": 0.9907702803611755
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "dead"
+    ],
+    "observed_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "dead"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be",
+          "dead"
+        ],
+        "observed": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be",
+          "dead"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,1276 @@
+{
+  "line_id": "nadi_memorial_r0",
+  "clip_id": "151eacde818d48d3a0046e9e6d4aa6ff",
+  "source_text_sha256": "c086fd01c22a4f4eaabb8aec18559240ba5c2612f9d133924f620133442e3608",
+  "master": "work/gateway-voice/masters/151eacde818d48d3a0046e9e6d4aa6ff.wav",
+  "wav_sha256": "1d7b71a2b823435ddad167e0a3fd81df1355b28c98dce35905ac806db2c5e359",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1259520,
+    "sample_count": 629760,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 26.24,
+    "peak": 0.51953125,
+    "peak_dbfs": -5.687766486895275,
+    "rms": 0.04616089141980097,
+    "rms_dbfs": -26.714516260927542,
+    "dc_offset": 8.107118490265637e-05,
+    "silence_fraction": 0.3180227388211382,
+    "leading_silence_seconds": 0.39345833333333335,
+    "tail_silence_seconds": 0.3849166666666667,
+    "active_span_seconds": 25.461625,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 64,
+    "source_words_per_active_minute": 150.81519738037144,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "asha",
+      "repaired",
+      "my",
+      "winter",
+      "coat",
+      "len",
+      "always",
+      "paid",
+      "in",
+      "exact",
+      "change",
+      "and",
+      "apologised",
+      "as",
+      "though",
+      "that",
+      "were",
+      "a",
+      "nuisance",
+      "petra",
+      "once",
+      "brought",
+      "a",
+      "pot",
+      "plant",
+      "aboard",
+      "and",
+      "bought",
+      "a",
+      "second",
+      "ticket",
+      "for",
+      "it",
+      "as",
+      "a",
+      "joke",
+      "i",
+      "could",
+      "give",
+      "you",
+      "a",
+      "dozen",
+      "stories",
+      "none",
+      "is",
+      "a",
+      "requirement",
+      "for",
+      "being",
+      "remembered",
+      "people",
+      "who",
+      "left",
+      "nobody",
+      "to",
+      "tell",
+      "a",
+      "charming",
+      "story",
+      "deserve",
+      "the",
+      "same",
+      "size",
+      "letters"
+    ],
+    "observed_tokens": [
+      "asha",
+      "repaired",
+      "my",
+      "winter",
+      "coat",
+      "len",
+      "always",
+      "paid",
+      "in",
+      "exact",
+      "change",
+      "and",
+      "apologised",
+      "as",
+      "though",
+      "that",
+      "were",
+      "a",
+      "nuisance",
+      "petra",
+      "once",
+      "brought",
+      "a",
+      "pot",
+      "plant",
+      "aboard",
+      "and",
+      "bought",
+      "a",
+      "second",
+      "ticket",
+      "for",
+      "it",
+      "as",
+      "a",
+      "joke",
+      "i",
+      "could",
+      "give",
+      "you",
+      "a",
+      "dozen",
+      "stories",
+      "none",
+      "is",
+      "a",
+      "requirement",
+      "for",
+      "being",
+      "remembered",
+      "people",
+      "who",
+      "left",
+      "nobody",
+      "to",
+      "tell",
+      "a",
+      "charming",
+      "story",
+      "deserve",
+      "the",
+      "same",
+      "size",
+      "letters"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 64,
+        "observed_start": 0,
+        "observed_end": 64,
+        "expected": [
+          "asha",
+          "repaired",
+          "my",
+          "winter",
+          "coat",
+          "len",
+          "always",
+          "paid",
+          "in",
+          "exact",
+          "change",
+          "and",
+          "apologised",
+          "as",
+          "though",
+          "that",
+          "were",
+          "a",
+          "nuisance",
+          "petra",
+          "once",
+          "brought",
+          "a",
+          "pot",
+          "plant",
+          "aboard",
+          "and",
+          "bought",
+          "a",
+          "second",
+          "ticket",
+          "for",
+          "it",
+          "as",
+          "a",
+          "joke",
+          "i",
+          "could",
+          "give",
+          "you",
+          "a",
+          "dozen",
+          "stories",
+          "none",
+          "is",
+          "a",
+          "requirement",
+          "for",
+          "being",
+          "remembered",
+          "people",
+          "who",
+          "left",
+          "nobody",
+          "to",
+          "tell",
+          "a",
+          "charming",
+          "story",
+          "deserve",
+          "the",
+          "same",
+          "size",
+          "letters"
+        ],
+        "observed": [
+          "asha",
+          "repaired",
+          "my",
+          "winter",
+          "coat",
+          "len",
+          "always",
+          "paid",
+          "in",
+          "exact",
+          "change",
+          "and",
+          "apologised",
+          "as",
+          "though",
+          "that",
+          "were",
+          "a",
+          "nuisance",
+          "petra",
+          "once",
+          "brought",
+          "a",
+          "pot",
+          "plant",
+          "aboard",
+          "and",
+          "bought",
+          "a",
+          "second",
+          "ticket",
+          "for",
+          "it",
+          "as",
+          "a",
+          "joke",
+          "i",
+          "could",
+          "give",
+          "you",
+          "a",
+          "dozen",
+          "stories",
+          "none",
+          "is",
+          "a",
+          "requirement",
+          "for",
+          "being",
+          "remembered",
+          "people",
+          "who",
+          "left",
+          "nobody",
+          "to",
+          "tell",
+          "a",
+          "charming",
+          "story",
+          "deserve",
+          "the",
+          "same",
+          "size",
+          "letters"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "I shall repair my winter coat.\" Lynn always paid an exact change and apologized as though that were a new fence. Petra once brought a pot plan aboard and bought a second ticket for it as a joke. I could give you a dozen stories. None is a requirement for being remembered. People who left nobody to tell a charming story deserve the same size letters.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.72,
+      "text": " I shall repair my winter coat.\"",
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.6586046814918518
+        },
+        {
+          "word": " shall",
+          "start": 0.52,
+          "end": 0.7,
+          "probability": 0.9845582842826843
+        },
+        {
+          "word": " repair",
+          "start": 0.7,
+          "end": 1.06,
+          "probability": 0.9144941568374634
+        },
+        {
+          "word": " my",
+          "start": 1.06,
+          "end": 1.38,
+          "probability": 0.6912835836410522
+        },
+        {
+          "word": " winter",
+          "start": 1.38,
+          "end": 1.7,
+          "probability": 0.990211009979248
+        },
+        {
+          "word": " coat.\"",
+          "start": 1.7,
+          "end": 3.72,
+          "probability": 0.70463727414608
+        }
+      ]
+    },
+    {
+      "start": 3.72,
+      "end": 8.64,
+      "text": " Lynn always paid an exact change and apologized as though that were a new fence.",
+      "words": [
+        {
+          "word": " Lynn",
+          "start": 3.72,
+          "end": 3.72,
+          "probability": 0.38706281781196594
+        },
+        {
+          "word": " always",
+          "start": 3.72,
+          "end": 4.36,
+          "probability": 0.9975910186767578
+        },
+        {
+          "word": " paid",
+          "start": 4.36,
+          "end": 4.7,
+          "probability": 0.9923142790794373
+        },
+        {
+          "word": " an",
+          "start": 4.7,
+          "end": 4.88,
+          "probability": 0.994938850402832
+        },
+        {
+          "word": " exact",
+          "start": 4.88,
+          "end": 5.24,
+          "probability": 0.9993194341659546
+        },
+        {
+          "word": " change",
+          "start": 5.24,
+          "end": 5.82,
+          "probability": 0.9982548356056213
+        },
+        {
+          "word": " and",
+          "start": 5.82,
+          "end": 6.34,
+          "probability": 0.9387977123260498
+        },
+        {
+          "word": " apologized",
+          "start": 6.34,
+          "end": 6.86,
+          "probability": 0.99642413854599
+        },
+        {
+          "word": " as",
+          "start": 6.86,
+          "end": 7.38,
+          "probability": 0.9916947484016418
+        },
+        {
+          "word": " though",
+          "start": 7.38,
+          "end": 7.56,
+          "probability": 0.9976990818977356
+        },
+        {
+          "word": " that",
+          "start": 7.56,
+          "end": 7.8,
+          "probability": 0.9923511147499084
+        },
+        {
+          "word": " were",
+          "start": 7.8,
+          "end": 8.02,
+          "probability": 0.9907251000404358
+        },
+        {
+          "word": " a",
+          "start": 8.02,
+          "end": 8.16,
+          "probability": 0.9965702295303345
+        },
+        {
+          "word": " new",
+          "start": 8.16,
+          "end": 8.3,
+          "probability": 0.9005748629570007
+        },
+        {
+          "word": " fence.",
+          "start": 8.3,
+          "end": 8.64,
+          "probability": 0.8768207430839539
+        }
+      ]
+    },
+    {
+      "start": 9.92,
+      "end": 14.38,
+      "text": " Petra once brought a pot plan aboard and bought a second ticket for it as a joke.",
+      "words": [
+        {
+          "word": " Petra",
+          "start": 9.92,
+          "end": 9.96,
+          "probability": 0.47053343057632446
+        },
+        {
+          "word": " once",
+          "start": 9.96,
+          "end": 10.36,
+          "probability": 0.9969283938407898
+        },
+        {
+          "word": " brought",
+          "start": 10.36,
+          "end": 10.66,
+          "probability": 0.9161197543144226
+        },
+        {
+          "word": " a",
+          "start": 10.66,
+          "end": 10.84,
+          "probability": 0.9981081485748291
+        },
+        {
+          "word": " pot",
+          "start": 10.84,
+          "end": 11.06,
+          "probability": 0.9862439036369324
+        },
+        {
+          "word": " plan",
+          "start": 11.06,
+          "end": 11.36,
+          "probability": 0.821941614151001
+        },
+        {
+          "word": " aboard",
+          "start": 11.36,
+          "end": 11.74,
+          "probability": 0.9610219597816467
+        },
+        {
+          "word": " and",
+          "start": 11.74,
+          "end": 12.44,
+          "probability": 0.9443261623382568
+        },
+        {
+          "word": " bought",
+          "start": 12.44,
+          "end": 12.62,
+          "probability": 0.9872974157333374
+        },
+        {
+          "word": " a",
+          "start": 12.62,
+          "end": 12.8,
+          "probability": 0.9978644251823425
+        },
+        {
+          "word": " second",
+          "start": 12.8,
+          "end": 13.08,
+          "probability": 0.9907875657081604
+        },
+        {
+          "word": " ticket",
+          "start": 13.08,
+          "end": 13.4,
+          "probability": 0.9992997646331787
+        },
+        {
+          "word": " for",
+          "start": 13.4,
+          "end": 13.72,
+          "probability": 0.9978320002555847
+        },
+        {
+          "word": " it",
+          "start": 13.72,
+          "end": 13.84,
+          "probability": 0.9990824460983276
+        },
+        {
+          "word": " as",
+          "start": 13.84,
+          "end": 13.98,
+          "probability": 0.9968660473823547
+        },
+        {
+          "word": " a",
+          "start": 13.98,
+          "end": 14.16,
+          "probability": 0.9981405735015869
+        },
+        {
+          "word": " joke.",
+          "start": 14.16,
+          "end": 14.38,
+          "probability": 0.9982514977455139
+        }
+      ]
+    },
+    {
+      "start": 15.38,
+      "end": 17.0,
+      "text": " I could give you a dozen stories.",
+      "words": [
+        {
+          "word": " I",
+          "start": 15.38,
+          "end": 15.54,
+          "probability": 0.9036592245101929
+        },
+        {
+          "word": " could",
+          "start": 15.54,
+          "end": 15.7,
+          "probability": 0.9975301623344421
+        },
+        {
+          "word": " give",
+          "start": 15.7,
+          "end": 15.86,
+          "probability": 0.9989987015724182
+        },
+        {
+          "word": " you",
+          "start": 15.86,
+          "end": 16.04,
+          "probability": 0.9977723956108093
+        },
+        {
+          "word": " a",
+          "start": 16.04,
+          "end": 16.24,
+          "probability": 0.9986091256141663
+        },
+        {
+          "word": " dozen",
+          "start": 16.24,
+          "end": 16.42,
+          "probability": 0.9984486103057861
+        },
+        {
+          "word": " stories.",
+          "start": 16.42,
+          "end": 17.0,
+          "probability": 0.9970225691795349
+        }
+      ]
+    },
+    {
+      "start": 17.82,
+      "end": 20.02,
+      "text": " None is a requirement for being remembered.",
+      "words": [
+        {
+          "word": " None",
+          "start": 17.82,
+          "end": 18.04,
+          "probability": 0.9854665994644165
+        },
+        {
+          "word": " is",
+          "start": 18.04,
+          "end": 18.28,
+          "probability": 0.9984827637672424
+        },
+        {
+          "word": " a",
+          "start": 18.28,
+          "end": 18.42,
+          "probability": 0.9953526258468628
+        },
+        {
+          "word": " requirement",
+          "start": 18.42,
+          "end": 18.84,
+          "probability": 0.9990835189819336
+        },
+        {
+          "word": " for",
+          "start": 18.84,
+          "end": 19.24,
+          "probability": 0.9967897534370422
+        },
+        {
+          "word": " being",
+          "start": 19.24,
+          "end": 19.48,
+          "probability": 0.9992677569389343
+        },
+        {
+          "word": " remembered.",
+          "start": 19.48,
+          "end": 20.02,
+          "probability": 0.9978635907173157
+        }
+      ]
+    },
+    {
+      "start": 20.02,
+      "end": 23.68,
+      "text": " People who left nobody to tell a charming story",
+      "words": [
+        {
+          "word": " People",
+          "start": 20.02,
+          "end": 21.18,
+          "probability": 0.5678533315658569
+        },
+        {
+          "word": " who",
+          "start": 21.18,
+          "end": 21.4,
+          "probability": 0.9960020184516907
+        },
+        {
+          "word": " left",
+          "start": 21.4,
+          "end": 21.62,
+          "probability": 0.9967227578163147
+        },
+        {
+          "word": " nobody",
+          "start": 21.62,
+          "end": 22.16,
+          "probability": 0.9680449366569519
+        },
+        {
+          "word": " to",
+          "start": 22.16,
+          "end": 22.46,
+          "probability": 0.9978127479553223
+        },
+        {
+          "word": " tell",
+          "start": 22.46,
+          "end": 22.66,
+          "probability": 0.9993618130683899
+        },
+        {
+          "word": " a",
+          "start": 22.66,
+          "end": 22.82,
+          "probability": 0.9968525767326355
+        },
+        {
+          "word": " charming",
+          "start": 22.82,
+          "end": 23.14,
+          "probability": 0.9935996532440186
+        },
+        {
+          "word": " story",
+          "start": 23.14,
+          "end": 23.68,
+          "probability": 0.998206615447998
+        }
+      ]
+    },
+    {
+      "start": 23.68,
+      "end": 25.66,
+      "text": " deserve the same size letters.",
+      "words": [
+        {
+          "word": " deserve",
+          "start": 23.68,
+          "end": 24.34,
+          "probability": 0.7887549996376038
+        },
+        {
+          "word": " the",
+          "start": 24.34,
+          "end": 24.62,
+          "probability": 0.9973918199539185
+        },
+        {
+          "word": " same",
+          "start": 24.62,
+          "end": 24.92,
+          "probability": 0.9993996620178223
+        },
+        {
+          "word": " size",
+          "start": 24.92,
+          "end": 25.24,
+          "probability": 0.5138136744499207
+        },
+        {
+          "word": " letters.",
+          "start": 25.24,
+          "end": 25.66,
+          "probability": 0.9979681372642517
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "asha",
+      "repaired",
+      "my",
+      "winter",
+      "coat",
+      "len",
+      "always",
+      "paid",
+      "in",
+      "exact",
+      "change",
+      "and",
+      "apologised",
+      "as",
+      "though",
+      "that",
+      "were",
+      "a",
+      "nuisance",
+      "petra",
+      "once",
+      "brought",
+      "a",
+      "pot",
+      "plant",
+      "aboard",
+      "and",
+      "bought",
+      "a",
+      "second",
+      "ticket",
+      "for",
+      "it",
+      "as",
+      "a",
+      "joke",
+      "i",
+      "could",
+      "give",
+      "you",
+      "a",
+      "dozen",
+      "stories",
+      "none",
+      "is",
+      "a",
+      "requirement",
+      "for",
+      "being",
+      "remembered",
+      "people",
+      "who",
+      "left",
+      "nobody",
+      "to",
+      "tell",
+      "a",
+      "charming",
+      "story",
+      "deserve",
+      "the",
+      "same",
+      "size",
+      "letters"
+    ],
+    "observed_tokens": [
+      "i",
+      "shall",
+      "repair",
+      "my",
+      "winter",
+      "coat",
+      "lynn",
+      "always",
+      "paid",
+      "an",
+      "exact",
+      "change",
+      "and",
+      "apologized",
+      "as",
+      "though",
+      "that",
+      "were",
+      "a",
+      "new",
+      "fence",
+      "petra",
+      "once",
+      "brought",
+      "a",
+      "pot",
+      "plan",
+      "aboard",
+      "and",
+      "bought",
+      "a",
+      "second",
+      "ticket",
+      "for",
+      "it",
+      "as",
+      "a",
+      "joke",
+      "i",
+      "could",
+      "give",
+      "you",
+      "a",
+      "dozen",
+      "stories",
+      "none",
+      "is",
+      "a",
+      "requirement",
+      "for",
+      "being",
+      "remembered",
+      "people",
+      "who",
+      "left",
+      "nobody",
+      "to",
+      "tell",
+      "a",
+      "charming",
+      "story",
+      "deserve",
+      "the",
+      "same",
+      "size",
+      "letters"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 2,
+        "observed_start": 0,
+        "observed_end": 3,
+        "expected": [
+          "asha",
+          "repaired"
+        ],
+        "observed": [
+          "i",
+          "shall",
+          "repair"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 2,
+        "expected_end": 5,
+        "observed_start": 3,
+        "observed_end": 6,
+        "expected": [
+          "my",
+          "winter",
+          "coat"
+        ],
+        "observed": [
+          "my",
+          "winter",
+          "coat"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 5,
+        "expected_end": 6,
+        "observed_start": 6,
+        "observed_end": 7,
+        "expected": [
+          "len"
+        ],
+        "observed": [
+          "lynn"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 6,
+        "expected_end": 8,
+        "observed_start": 7,
+        "observed_end": 9,
+        "expected": [
+          "always",
+          "paid"
+        ],
+        "observed": [
+          "always",
+          "paid"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 8,
+        "expected_end": 9,
+        "observed_start": 9,
+        "observed_end": 10,
+        "expected": [
+          "in"
+        ],
+        "observed": [
+          "an"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 9,
+        "expected_end": 12,
+        "observed_start": 10,
+        "observed_end": 13,
+        "expected": [
+          "exact",
+          "change",
+          "and"
+        ],
+        "observed": [
+          "exact",
+          "change",
+          "and"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 12,
+        "expected_end": 13,
+        "observed_start": 13,
+        "observed_end": 14,
+        "expected": [
+          "apologised"
+        ],
+        "observed": [
+          "apologized"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 13,
+        "expected_end": 18,
+        "observed_start": 14,
+        "observed_end": 19,
+        "expected": [
+          "as",
+          "though",
+          "that",
+          "were",
+          "a"
+        ],
+        "observed": [
+          "as",
+          "though",
+          "that",
+          "were",
+          "a"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 18,
+        "expected_end": 19,
+        "observed_start": 19,
+        "observed_end": 21,
+        "expected": [
+          "nuisance"
+        ],
+        "observed": [
+          "new",
+          "fence"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 19,
+        "expected_end": 24,
+        "observed_start": 21,
+        "observed_end": 26,
+        "expected": [
+          "petra",
+          "once",
+          "brought",
+          "a",
+          "pot"
+        ],
+        "observed": [
+          "petra",
+          "once",
+          "brought",
+          "a",
+          "pot"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 24,
+        "expected_end": 25,
+        "observed_start": 26,
+        "observed_end": 27,
+        "expected": [
+          "plant"
+        ],
+        "observed": [
+          "plan"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 25,
+        "expected_end": 64,
+        "observed_start": 27,
+        "observed_end": 66,
+        "expected": [
+          "aboard",
+          "and",
+          "bought",
+          "a",
+          "second",
+          "ticket",
+          "for",
+          "it",
+          "as",
+          "a",
+          "joke",
+          "i",
+          "could",
+          "give",
+          "you",
+          "a",
+          "dozen",
+          "stories",
+          "none",
+          "is",
+          "a",
+          "requirement",
+          "for",
+          "being",
+          "remembered",
+          "people",
+          "who",
+          "left",
+          "nobody",
+          "to",
+          "tell",
+          "a",
+          "charming",
+          "story",
+          "deserve",
+          "the",
+          "same",
+          "size",
+          "letters"
+        ],
+        "observed": [
+          "aboard",
+          "and",
+          "bought",
+          "a",
+          "second",
+          "ticket",
+          "for",
+          "it",
+          "as",
+          "a",
+          "joke",
+          "i",
+          "could",
+          "give",
+          "you",
+          "a",
+          "dozen",
+          "stories",
+          "none",
+          "is",
+          "a",
+          "requirement",
+          "for",
+          "being",
+          "remembered",
+          "people",
+          "who",
+          "left",
+          "nobody",
+          "to",
+          "tell",
+          "a",
+          "charming",
+          "story",
+          "deserve",
+          "the",
+          "same",
+          "size",
+          "letters"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "asha",
+          "repaired"
+        ],
+        "observed": [
+          "i",
+          "shall",
+          "repair"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      },
+      {
+        "expected": [
+          "len"
+        ],
+        "observed": [
+          "lynn"
+        ],
+        "expected_start": 5,
+        "observed_start": 6
+      },
+      {
+        "expected": [
+          "in"
+        ],
+        "observed": [
+          "an"
+        ],
+        "expected_start": 8,
+        "observed_start": 9
+      },
+      {
+        "expected": [
+          "apologised"
+        ],
+        "observed": [
+          "apologized"
+        ],
+        "expected_start": 12,
+        "observed_start": 13
+      },
+      {
+        "expected": [
+          "nuisance"
+        ],
+        "observed": [
+          "new",
+          "fence"
+        ],
+        "expected_start": 18,
+        "observed_start": 19
+      },
+      {
+        "expected": [
+          "plant"
+        ],
+        "observed": [
+          "plan"
+        ],
+        "expected_start": 24,
+        "observed_start": 26
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:2.",
+      "Changed source words at expected tokens 5:6.",
+      "Changed source words at expected tokens 8:9.",
+      "Changed source words at expected tokens 12:13.",
+      "Changed source words at expected tokens 18:19.",
+      "Changed source words at expected tokens 24:25."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "title": "Find Mara. Uncover the truth about the flood.",
+  "premise": "You are Iona Vale, a paper conservator returning to the canal city of Leth. Seventeen years ago, a flood killed twenty-three people. Your father, lockkeeper Tomas Vale, was blamed.\n\nYour friend Mara, the city archivist, found something wrong with that story. She sent you a letter asking for help, then vanished. The city plans to destroy its damaged records.",
+  "mission": "Find Mara, discover what she uncovered, and establish what really caused the flood before its evidence is lost.",
+  "after_mara": "Mara is safe. Now prove who ordered the flood, why they did it, and make a record the city cannot suppress.",
+  "resolved": "The corrected record is public. Review the evidence, revisit rooms, or read the conclusion again.",
+  "search_explanation": "Find the listed objects before the search clock runs out. Clearing a room reveals evidence, useful items and Insight. Open your Casebook to investigate the discovery. You have three hints per search: one free, then two costing one Insight each. A hint recharges in 45 seconds; one Insight also buys 30 seconds, up to twice per search.",
+  "chapters": {
+    "ch1": {
+      "question": "What happened to Mara, and where did she go?",
+      "mission": "Start with her ferry receipt. Search the harbour, archive and old streets; use each room’s discovery to reconstruct the route she left behind.",
+      "recap": "Mara left a deliberate trail toward the waterworks. Her missing folio raised a question about the flood that killed your father."
+    },
+    "ch2": {
+      "question": "Which waterway actually flooded the East Reach?",
+      "mission": "Follow Mara to the works. Compare the machinery, pressure records and witnesses to test the official claim that Tomas opened the residential gate.",
+      "recap": "Physical evidence identifies the council bypass, not Tomas’s residential gate, as the flood route. You now need an independent time record."
+    },
+    "ch3": {
+      "question": "Was the Reach evacuated before the bypass opened?",
+      "mission": "Use the observatory’s plates and clock corrections to reconstruct the timeline. Follow Mara’s signal when you establish where it leads.",
+      "recap": "The corrected records put the open bypass before the evacuation return. Mara’s signal points to the island clinic."
+    },
+    "ch4": {
+      "question": "Where is Mara, and who was left in the flooded houses?",
+      "mission": "Search the island for Mara and the missing register. Reconstruct the evacuation record and recover the names behind the death toll.",
+      "recap": "Mara is safe. Twenty-three people died; the evacuation claim was false. Her tracing reveals a deliberate instruction, but its author must be proved from originals."
+    },
+    "ch5": {
+      "question": "Who ordered the diversion, and why?",
+      "mission": "Find the signed originals, trace their custody and follow the acquisition money. Build a sourced case before the public sitting closes; there is no real-time countdown.",
+      "recap": "Signed originals, custody receipts and accounts identify Rusk’s instruction and private interest. Elian admits operating on an assurance he knew was not an evacuation check."
+    },
+    "ch6": {
+      "question": "Can you preserve the truth and make it public?",
+      "mission": "Distribute independent copies, prepare the witnesses and present five supported claims. Then correct the archive without erasing its original false account.",
+      "recap": "The evidence is preserved and public. Rusk’s authority is withdrawn and the case referred to an outside court. Tomas’s entry is corrected, and all twenty-three victims are named."
+    }
+  },
+  "rooms": {
+    "ch1_l1": {
+      "goal": "Find Mara’s ferry receipt. Did she leave voluntarily?",
+      "discovery": "Mara paid for her own journey and collected her parcel. The receipt gives you a way to check the missing-person notice."
+    },
+    "ch1_l2": {
+      "goal": "Compare the missing-person notice with the harbour records.",
+      "discovery": "The notice and paid receipt do not tell the same story. The tide table also preserves a time reference for the old flood."
+    },
+    "ch1_l3": {
+      "goal": "Find the archive record Mara was looking for.",
+      "discovery": "A shelf ticket has been changed. The catalogue and original label point toward a missing works folio; the restoration room may preserve what Mara found."
+    },
+    "ch1_l4": {
+      "goal": "Recover Mara’s damaged note from the missing folio.",
+      "discovery": "Mara’s note describes a borrowed bell key and a journey toward the works. She was following a discrepancy in the flood record."
+    },
+    "ch1_l5": {
+      "goal": "Trace Mara’s last movements from the boarding house.",
+      "discovery": "The landlady recorded a sequence of visits and departures. Compare it with the key records to reconstruct Mara’s route."
+    },
+    "ch1_l6": {
+      "goal": "Look for the bell-key record and a signal to the works.",
+      "discovery": "The signed key return and works signal provide another check on Mara’s movements. Bring the chapter’s evidence together to follow her trail."
+    },
+    "ch2_l1": {
+      "goal": "Look for traces of where the floodwater came from.",
+      "discovery": "Red grit and the surviving gauge record point toward the reservoir feed. Follow the machinery to test that explanation."
+    },
+    "ch2_l2": {
+      "goal": "Compare the flood damage with the two gate mechanisms.",
+      "discovery": "The coupling and wear marks distinguish the council bypass from the residential gate. The machinery can test which route carried the water."
+    },
+    "ch2_l3": {
+      "goal": "Recover the pressure record of the flood.",
+      "discovery": "The pressure roll preserves the order in which water rose. Compare it with the tide record and the training mechanism."
+    },
+    "ch2_l4": {
+      "goal": "Find witnesses’ records of the night of the flood.",
+      "discovery": "The kitchen records and Rowan’s account distinguish an assurance of evacuation from a verified evacuation. They also preserve Tomas’s rescue effort."
+    },
+    "ch2_l5": {
+      "goal": "Check Tomas’s key and the order he received.",
+      "discovery": "The two key profiles can be compared directly. The retained closure order explains what Tomas was told, but an order is not proof that people were safe."
+    },
+    "ch2_l6": {
+      "goal": "Trace the water’s route through the spillway.",
+      "discovery": "Scour marks and the route chart preserve physical evidence of the flow. An observatory record may establish when it happened."
+    },
+    "ch3_l1": {
+      "goal": "Find a reliable way to compare the city’s clocks.",
+      "discovery": "A recorded clock correction and Ada’s original plate provide independent references. The raw clock readings cannot simply be treated as equal."
+    },
+    "ch3_l2": {
+      "goal": "Gather the clock readings and exposure references.",
+      "discovery": "The transit records identify which clock supplied each time. Put them on a common reference before drawing a conclusion."
+    },
+    "ch3_l3": {
+      "goal": "Recover the photographic record of the gate.",
+      "discovery": "The plates preserve the gate’s state independently of later testimony. Compare their corrected time with the evacuation dispatch."
+    },
+    "ch3_l4": {
+      "goal": "Look for the message Mara sent from the signal loft.",
+      "discovery": "Mara left a coded signal and a bearing toward an island room. Decode the message to continue her trail."
+    },
+    "ch3_l5": {
+      "goal": "Check whether the official clock could be trusted.",
+      "discovery": "A fault record shows that the council-hall clock stopped. Its displayed time cannot by itself establish when a document arrived."
+    },
+    "ch3_l6": {
+      "goal": "Join the corrected timeline to Mara’s signal bearing.",
+      "discovery": "The roof records let you compare the gate, warning and dispatch on one timeline. The signal bearing gives you a route toward the island clinic."
+    },
+    "ch4_l1": {
+      "goal": "Find a safe crossing and traces of the island passengers.",
+      "discovery": "Nadi’s private log records families omitted from the official account. The route tags show how to reach the clinic safely."
+    },
+    "ch4_l2": {
+      "goal": "Recover the missing clinic register leaf.",
+      "discovery": "The loose leaf and binding stub belong together. The register distinguishes deaths from surviving patients and records people still present after the water rose."
+    },
+    "ch4_l3": {
+      "goal": "Search Mara’s shelter for a message and a shelf reference.",
+      "discovery": "Mara’s note says she is safe and looking for the people behind the records. Her indexing conditions and plant labels identify a storage reference."
+    },
+    "ch4_l4": {
+      "goal": "Find the safe route to the refuge and the evacuation plan.",
+      "discovery": "The plan required household checks, a ferry count and clinic confirmation. A count of empty beds did not meet those requirements."
+    },
+    "ch4_l5": {
+      "goal": "Recover the names behind the flood’s official death toll.",
+      "discovery": "The memorial preserves twenty-three individual names. The official total was correct; the account of the cause and evacuation needs correction."
+    },
+    "ch4_l6": {
+      "goal": "Find Mara and preserve the document she carried.",
+      "discovery": "Mara is alive. Her tracing records a deliberate diversion, but its missing authorisation flap means the author still needs to be proved from originals."
+    },
+    "ch5_l1": {
+      "goal": "Find how to preserve the records before the public sitting.",
+      "discovery": "Original evidence can be deposited before the sitting closes. The acknowledged occupancy petition and five-source rules give your case a clear task. There is no real-time deadline."
+    },
+    "ch5_l2": {
+      "goal": "Find who could authorise the bypass and what Elian knew.",
+      "discovery": "The signed counterfoil and Elian’s statement distinguish authority from operation. Elian admits that bed capacity was not a verified evacuation."
+    },
+    "ch5_l3": {
+      "goal": "Recover the original deeds and authenticate the seal.",
+      "discovery": "The deed chain and seal register can test the transfer and the office seal. Signature and custody evidence are still needed to identify the responsible person."
+    },
+    "ch5_l4": {
+      "goal": "Prepare a clear account backed by separate sources.",
+      "discovery": "Sera’s proof separates what happened, when, who authorised it, why and whom it harmed. Each claim needs a source, and the victims must be named."
+    },
+    "ch5_l5": {
+      "goal": "Find who benefited from the flooded records store.",
+      "discovery": "The trust ledger links the acquisition gain to Rusk. The payment establishes benefit; compare it with the signed instruction to establish intent."
+    },
+    "ch5_l6": {
+      "goal": "Trace the original instruction from draft to public vault.",
+      "discovery": "Custody receipts and the retained flap authenticate the original. The late return and signed instruction show what Rusk knew about the unverified evacuation."
+    },
+    "ch6_l1": {
+      "goal": "Prepare independent copies so the evidence cannot disappear.",
+      "discovery": "Verified bundles have separate destinations and couriers. Distributing them prevents a single seized packet from silencing the case."
+    },
+    "ch6_l2": {
+      "goal": "Prepare the witnesses without overstating their testimony.",
+      "discovery": "Each witness can establish only part of the case. Their scope and order cards help connect custody, corrected time and the operator’s admission."
+    },
+    "ch6_l3": {
+      "goal": "Recover the relay instructions for the public notice.",
+      "discovery": "The relay and packet check can verify transmission. The notice announces evidence and a deposition, not a criminal verdict."
+    },
+    "ch6_l4": {
+      "goal": "Record the secured bypass and the council’s lawful options.",
+      "discovery": "The isolation tag records the present safety state. The charter allows withdrawal of delegated authority; an outside court decides criminal responsibility."
+    },
+    "ch6_l5": {
+      "goal": "Bring the five strands of evidence to the public forum.",
+      "discovery": "The board joins act, time, authority, purpose and consequence. The council must decide whether to preserve the originals, withdraw authority and refer the case."
+    },
+    "ch6_l6": {
+      "goal": "Correct the record while preserving how it went wrong.",
+      "discovery": "The original entry must remain legible beside the sourced correction. The recovered record recognises Tomas’s rescue and restores all twenty-three names."
+    }
+  },
+  "title_intro": "Seventeen years ago, a flood swept through Leth’s East Reach, killing twenty-three people. Your father was blamed.\n\nYou are Iona Vale, a paper conservator returning home after a troubling letter from your friend Mara, the city archivist. She believes the official account is wrong. Now she has vanished, and the damaged records are marked for destruction.\n\nFind Mara. Search the city’s hidden corners, piece together the surviving evidence, and discover what really happened."
+}

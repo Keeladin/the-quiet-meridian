@@ -1,0 +1,224 @@
+{
+  "assets": [
+    {
+      "id": "ch1_l1",
+      "path": "assets/art/locations/ch1_l1.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-47952f76-53e6-4bfd-be1b-e0f6ede4ec40.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch1_l2",
+      "path": "assets/art/locations/ch1_l2.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-83d31498-be1f-4262-854f-3b4fe3f399f7.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch1_l3",
+      "path": "assets/art/locations/ch1_l3.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-1d76e3d7-d1df-42e8-8c92-4d414c1fdeee.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch1_l4",
+      "path": "assets/art/locations/ch1_l4.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-b08ef992-2333-4c28-a4ba-4caca45eb36c.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch1_l5",
+      "path": "assets/art/locations/ch1_l5.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-f834dd4a-2046-4b90-898e-2bff446af444.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch1_l6",
+      "path": "assets/art/locations/ch1_l6.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch1_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-e891786a-85bd-4668-b716-56e9a1611d05.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch2_l1",
+      "path": "assets/art/locations/ch2_l1.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-1ffd0bda-276b-4e64-8450-ef6192f6dcbd.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch2_l2",
+      "path": "assets/art/locations/ch2_l2.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-1becbcf0-2a1b-472d-ad6e-5bf0d6e952af.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch2_l3",
+      "path": "assets/art/locations/ch2_l3.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-0c6d8825-84d9-465a-98fc-352477651928.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch2_l4",
+      "path": "assets/art/locations/ch2_l4.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-166e8dda-9875-4ef9-8947-f43c6b3ad6a9.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch2_l5",
+      "path": "assets/art/locations/ch2_l5.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-effa49d2-0fc6-4253-b72a-54c65433eae9.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch2_l6",
+      "path": "assets/art/locations/ch2_l6.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch2_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-55e41867-25c0-47a9-bff1-22fe5bba3bc6.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch3_l1",
+      "path": "assets/art/locations/ch3_l1.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l1.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-73631e67-ac80-4f40-ae61-5bef90b4d48a.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch3_l2",
+      "path": "assets/art/locations/ch3_l2.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l2.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-6c7e3b00-cbcd-4403-963c-fe7f14a2a48b.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch3_l3",
+      "path": "assets/art/locations/ch3_l3.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l3.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-524278dd-a217-4609-a587-0abb8b43782e.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch3_l4",
+      "path": "assets/art/locations/ch3_l4.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l4.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-ce43789d-2958-490f-8af1-677072cf297b.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch3_l5",
+      "path": "assets/art/locations/ch3_l5.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l5.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-0d5ad10d-2b74-4535-9a53-d0cc8f39a097.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "ch3_l6",
+      "path": "assets/art/locations/ch3_l6.png",
+      "purpose": "Original location background",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/ch3_l6.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-ffaa23c0-9374-454b-b34d-59329ae4ff17.png",
+      "external_references": [],
+      "review_status": "Generated; selected for in-engine review. Environmental hotspot alignment review pending."
+    },
+    {
+      "id": "cast",
+      "path": "assets/art/portraits/cast.png",
+      "purpose": "Nine original character portraits in 3×3 atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/cast.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-76afcbed-2114-48f5-8c0b-7ef4d0f05007.png",
+      "external_references": [],
+      "review_status": "Visually inspected; atlas cells to be reviewed in engine."
+    },
+    {
+      "id": "inventory-atlas",
+      "path": "assets/art/inventory-atlas.png",
+      "purpose": "36 original inventory icons in 6×6 transparent atlas",
+      "created": "2026-11-14",
+      "generator": "OpenAI built-in image generation",
+      "prompt_document": "docs/art-prompts/inventory-atlas.txt",
+      "source_cache_path": "/home/jaco/.codex/generated_images/01a1d96c-a3fa-7b52-857d-f4613260ba19/exec-b3b165cd-75ce-4043-97c2-57be0a02ecaf.png",
+      "external_references": [],
+      "review_status": "Visually inspected; atlas cells to be reviewed in engine."
+    }
+  ]
+}

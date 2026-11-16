@@ -1,0 +1,10 @@
+{
+  "report": "work/voice-asr-reports/rowan-replacement.json",
+  "status": "asr_mismatch_hold",
+  "independent_transcript": "That I shut the lower footway barrier. That I unfastened it when Thomas called while he opened the separate upper footway gate. That acting later did not make the earlier closure harmless. I have spent seventeen years rehearsing explanations that end with me having no choice. I will not give you one of those. Ask me what I saw. If I do not know, make me say so. You",
+  "reasons": [
+    "Changed source words at expected tokens 12:13.",
+    "Extra spoken words at observed tokens 68:69."
+  ],
+  "accepted_for_game": false
+}

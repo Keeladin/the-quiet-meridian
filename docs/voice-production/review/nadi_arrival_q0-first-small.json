@@ -1,0 +1,213 @@
+{
+  "line_id": "nadi_arrival_q0",
+  "clip_id": "e781506da4cb4ae4bf7c3eb17ef3dc7b",
+  "source_text_sha256": "4953b9b328466fe753f61534486c0ffa99df78e79233b1467a539d20d6ccefaf",
+  "master": "work/gateway-voice/masters/e781506da4cb4ae4bf7c3eb17ef3dc7b.wav",
+  "wav_sha256": "c3a650efe7c9e4624a4f06d3702473693be95305bd60994ede747a6afee8a74e",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 167040,
+    "sample_count": 83520,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.48,
+    "peak": 0.361328125,
+    "peak_dbfs": -8.84196465145634,
+    "rms": 0.06480444236444054,
+    "rms_dbfs": -23.767904441774938,
+    "dc_offset": 5.555536555147719e-05,
+    "silence_fraction": 0.28186063218390806,
+    "leading_silence_seconds": 0.394625,
+    "tail_silence_seconds": 0.32275,
+    "active_span_seconds": 2.762625,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 130.31084566309218,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "observed_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ],
+        "observed": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Do people still remember my father?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.8,
+      "text": " Do people still remember my father?",
+      "words": [
+        {
+          "word": " Do",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8862164616584778
+        },
+        {
+          "word": " people",
+          "start": 0.54,
+          "end": 0.94,
+          "probability": 0.9938817024230957
+        },
+        {
+          "word": " still",
+          "start": 0.94,
+          "end": 1.34,
+          "probability": 0.9964209794998169
+        },
+        {
+          "word": " remember",
+          "start": 1.34,
+          "end": 2.0,
+          "probability": 0.9898541569709778
+        },
+        {
+          "word": " my",
+          "start": 2.0,
+          "end": 2.36,
+          "probability": 0.9957981705665588
+        },
+        {
+          "word": " father?",
+          "start": 2.36,
+          "end": 2.8,
+          "probability": 0.9899522662162781
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "observed_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ],
+        "observed": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,404 @@
+{
+  "line_id": "elian_council_greeting",
+  "clip_id": "cb72a9b7accc49f5a4aa61f4a9b7d300",
+  "source_text_sha256": "a47e997106a4d1354e8c0c7f5620c89dd1b921314452d9c635b1f906e9fdcc82",
+  "master": "work/gateway-voice/masters/cb72a9b7accc49f5a4aa61f4a9b7d300.wav",
+  "wav_sha256": "2f51eaad848d03bd72e688a0858d9b4e2a64e9249c5a86fec35529b34aefaac7",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 346560,
+    "sample_count": 173280,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 7.22,
+    "peak": 0.373046875,
+    "peak_dbfs": -8.564731874562064,
+    "rms": 0.05534994318262102,
+    "rms_dbfs": -25.13765641187024,
+    "dc_offset": 0.00015530273634751197,
+    "silence_fraction": 0.27837603878116346,
+    "leading_silence_seconds": 0.409125,
+    "tail_silence_seconds": 0.0,
+    "active_span_seconds": 6.810875,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 19,
+    "source_words_per_active_minute": 167.37937489676435,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "elian",
+      "removes",
+      "his",
+      "engineer's",
+      "badge",
+      "and",
+      "lays",
+      "it",
+      "beside",
+      "his",
+      "statement",
+      "he",
+      "does",
+      "not",
+      "ask",
+      "you",
+      "to",
+      "take",
+      "it"
+    ],
+    "observed_tokens": [
+      "elian",
+      "removes",
+      "his",
+      "engineer's",
+      "badge",
+      "and",
+      "lays",
+      "it",
+      "beside",
+      "his",
+      "statement",
+      "he",
+      "does",
+      "not",
+      "ask",
+      "you",
+      "to",
+      "take",
+      "it"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 19,
+        "observed_start": 0,
+        "observed_end": 19,
+        "expected": [
+          "elian",
+          "removes",
+          "his",
+          "engineer's",
+          "badge",
+          "and",
+          "lays",
+          "it",
+          "beside",
+          "his",
+          "statement",
+          "he",
+          "does",
+          "not",
+          "ask",
+          "you",
+          "to",
+          "take",
+          "it"
+        ],
+        "observed": [
+          "elian",
+          "removes",
+          "his",
+          "engineer's",
+          "badge",
+          "and",
+          "lays",
+          "it",
+          "beside",
+          "his",
+          "statement",
+          "he",
+          "does",
+          "not",
+          "ask",
+          "you",
+          "to",
+          "take",
+          "it"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Elian removes his engineer's badge and lays it beside his statement. He does not ask you to take it.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 4.32,
+      "text": " Elian removes his engineer's badge and lays it beside his statement.",
+      "words": [
+        {
+          "word": " Elian",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.4854894429445267
+        },
+        {
+          "word": " removes",
+          "start": 0.74,
+          "end": 1.16,
+          "probability": 0.9930424690246582
+        },
+        {
+          "word": " his",
+          "start": 1.16,
+          "end": 1.4,
+          "probability": 0.9951079487800598
+        },
+        {
+          "word": " engineer's",
+          "start": 1.4,
+          "end": 2.0,
+          "probability": 0.7619691491127014
+        },
+        {
+          "word": " badge",
+          "start": 2.0,
+          "end": 2.26,
+          "probability": 0.9990123510360718
+        },
+        {
+          "word": " and",
+          "start": 2.26,
+          "end": 2.84,
+          "probability": 0.7207702994346619
+        },
+        {
+          "word": " lays",
+          "start": 2.84,
+          "end": 3.08,
+          "probability": 0.9953723549842834
+        },
+        {
+          "word": " it",
+          "start": 3.08,
+          "end": 3.36,
+          "probability": 0.9984097480773926
+        },
+        {
+          "word": " beside",
+          "start": 3.36,
+          "end": 3.7,
+          "probability": 0.99064040184021
+        },
+        {
+          "word": " his",
+          "start": 3.7,
+          "end": 3.92,
+          "probability": 0.9976693987846375
+        },
+        {
+          "word": " statement.",
+          "start": 3.92,
+          "end": 4.32,
+          "probability": 0.9973217844963074
+        }
+      ]
+    },
+    {
+      "start": 5.14,
+      "end": 6.76,
+      "text": " He does not ask you to take it.",
+      "words": [
+        {
+          "word": " He",
+          "start": 5.14,
+          "end": 5.36,
+          "probability": 0.9287420511245728
+        },
+        {
+          "word": " does",
+          "start": 5.36,
+          "end": 5.5,
+          "probability": 0.9924512505531311
+        },
+        {
+          "word": " not",
+          "start": 5.5,
+          "end": 5.74,
+          "probability": 0.9974058270454407
+        },
+        {
+          "word": " ask",
+          "start": 5.74,
+          "end": 6.02,
+          "probability": 0.9981461763381958
+        },
+        {
+          "word": " you",
+          "start": 6.02,
+          "end": 6.2,
+          "probability": 0.9989680051803589
+        },
+        {
+          "word": " to",
+          "start": 6.2,
+          "end": 6.34,
+          "probability": 0.9984195232391357
+        },
+        {
+          "word": " take",
+          "start": 6.34,
+          "end": 6.52,
+          "probability": 0.9992101192474365
+        },
+        {
+          "word": " it.",
+          "start": 6.52,
+          "end": 6.76,
+          "probability": 0.9991751313209534
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "elian",
+      "removes",
+      "his",
+      "engineer's",
+      "badge",
+      "and",
+      "lays",
+      "it",
+      "beside",
+      "his",
+      "statement",
+      "he",
+      "does",
+      "not",
+      "ask",
+      "you",
+      "to",
+      "take",
+      "it"
+    ],
+    "observed_tokens": [
+      "elian",
+      "removes",
+      "his",
+      "engineer's",
+      "badge",
+      "and",
+      "lays",
+      "it",
+      "beside",
+      "his",
+      "statement",
+      "he",
+      "does",
+      "not",
+      "ask",
+      "you",
+      "to",
+      "take",
+      "it"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 19,
+        "observed_start": 0,
+        "observed_end": 19,
+        "expected": [
+          "elian",
+          "removes",
+          "his",
+          "engineer's",
+          "badge",
+          "and",
+          "lays",
+          "it",
+          "beside",
+          "his",
+          "statement",
+          "he",
+          "does",
+          "not",
+          "ask",
+          "you",
+          "to",
+          "take",
+          "it"
+        ],
+        "observed": [
+          "elian",
+          "removes",
+          "his",
+          "engineer's",
+          "badge",
+          "and",
+          "lays",
+          "it",
+          "beside",
+          "his",
+          "statement",
+          "he",
+          "does",
+          "not",
+          "ask",
+          "you",
+          "to",
+          "take",
+          "it"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

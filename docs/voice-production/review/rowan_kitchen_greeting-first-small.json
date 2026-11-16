@@ -1,0 +1,411 @@
+{
+  "line_id": "rowan_kitchen_greeting",
+  "clip_id": "e9c4729074234370bb3e7aefe0ea9bc2",
+  "source_text_sha256": "a039f2be37e1626c40bf1d1a0ea94197fc1060d098b30ab905d5f9bc178b1b70",
+  "master": "work/gateway-voice/masters/e9c4729074234370bb3e7aefe0ea9bc2.wav",
+  "wav_sha256": "8d5d240a4cb0527542eefe8a9f46a06f79c4525aed155ca135b19770cdcdd76e",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 390720,
+    "sample_count": 195360,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 8.14,
+    "peak": 0.62890625,
+    "peak_dbfs": -4.028281785599997,
+    "rms": 0.06709711297711624,
+    "rms_dbfs": -23.465923320936554,
+    "dc_offset": 9.554254530298231e-05,
+    "silence_fraction": 0.22466728091728091,
+    "leading_silence_seconds": 0.40458333333333335,
+    "tail_silence_seconds": 0.018041666666666668,
+    "active_span_seconds": 7.717375,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 20,
+    "source_words_per_active_minute": 155.49328625342167,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "rowan",
+      "pours",
+      "tea",
+      "into",
+      "an",
+      "uncracked",
+      "cup",
+      "for",
+      "you",
+      "his",
+      "own",
+      "cup",
+      "has",
+      "been",
+      "repaired",
+      "with",
+      "a",
+      "narrow",
+      "metal",
+      "staple"
+    ],
+    "observed_tokens": [
+      "rowan",
+      "pours",
+      "tea",
+      "into",
+      "an",
+      "uncracked",
+      "cup",
+      "for",
+      "you",
+      "his",
+      "own",
+      "cup",
+      "has",
+      "been",
+      "repaired",
+      "with",
+      "a",
+      "narrow",
+      "metal",
+      "staple"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 20,
+        "observed_start": 0,
+        "observed_end": 20,
+        "expected": [
+          "rowan",
+          "pours",
+          "tea",
+          "into",
+          "an",
+          "uncracked",
+          "cup",
+          "for",
+          "you",
+          "his",
+          "own",
+          "cup",
+          "has",
+          "been",
+          "repaired",
+          "with",
+          "a",
+          "narrow",
+          "metal",
+          "staple"
+        ],
+        "observed": [
+          "rowan",
+          "pours",
+          "tea",
+          "into",
+          "an",
+          "uncracked",
+          "cup",
+          "for",
+          "you",
+          "his",
+          "own",
+          "cup",
+          "has",
+          "been",
+          "repaired",
+          "with",
+          "a",
+          "narrow",
+          "metal",
+          "staple"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Rowan pours tea into an uncracked cup for you his own cup has been repaired with a narrow metal staple",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 7.52,
+      "text": " Rowan pours tea into an uncracked cup for you his own cup has been repaired with a narrow metal staple",
+      "words": [
+        {
+          "word": " Rowan",
+          "start": 0.0,
+          "end": 0.7,
+          "probability": 0.9504746794700623
+        },
+        {
+          "word": " pours",
+          "start": 0.7,
+          "end": 0.94,
+          "probability": 0.9397889375686646
+        },
+        {
+          "word": " tea",
+          "start": 0.94,
+          "end": 1.28,
+          "probability": 0.993094801902771
+        },
+        {
+          "word": " into",
+          "start": 1.28,
+          "end": 1.62,
+          "probability": 0.9953644275665283
+        },
+        {
+          "word": " an",
+          "start": 1.62,
+          "end": 1.82,
+          "probability": 0.9955812096595764
+        },
+        {
+          "word": " uncracked",
+          "start": 1.82,
+          "end": 2.44,
+          "probability": 0.9838632345199585
+        },
+        {
+          "word": " cup",
+          "start": 2.44,
+          "end": 2.72,
+          "probability": 0.9924668669700623
+        },
+        {
+          "word": " for",
+          "start": 2.72,
+          "end": 2.98,
+          "probability": 0.9954721927642822
+        },
+        {
+          "word": " you",
+          "start": 2.98,
+          "end": 3.46,
+          "probability": 0.9993525147438049
+        },
+        {
+          "word": " his",
+          "start": 3.46,
+          "end": 4.16,
+          "probability": 0.11447397619485855
+        },
+        {
+          "word": " own",
+          "start": 4.16,
+          "end": 4.5,
+          "probability": 0.9985682964324951
+        },
+        {
+          "word": " cup",
+          "start": 4.5,
+          "end": 4.84,
+          "probability": 0.9667150378227234
+        },
+        {
+          "word": " has",
+          "start": 4.84,
+          "end": 5.08,
+          "probability": 0.9881767630577087
+        },
+        {
+          "word": " been",
+          "start": 5.08,
+          "end": 5.28,
+          "probability": 0.9989903569221497
+        },
+        {
+          "word": " repaired",
+          "start": 5.28,
+          "end": 5.68,
+          "probability": 0.9957219362258911
+        },
+        {
+          "word": " with",
+          "start": 5.68,
+          "end": 5.98,
+          "probability": 0.9978177547454834
+        },
+        {
+          "word": " a",
+          "start": 5.98,
+          "end": 6.18,
+          "probability": 0.9676752090454102
+        },
+        {
+          "word": " narrow",
+          "start": 6.18,
+          "end": 6.64,
+          "probability": 0.9620222449302673
+        },
+        {
+          "word": " metal",
+          "start": 6.64,
+          "end": 7.12,
+          "probability": 0.9774343967437744
+        },
+        {
+          "word": " staple",
+          "start": 7.12,
+          "end": 7.52,
+          "probability": 0.9805318713188171
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "rowan",
+      "pours",
+      "tea",
+      "into",
+      "an",
+      "uncracked",
+      "cup",
+      "for",
+      "you",
+      "his",
+      "own",
+      "cup",
+      "has",
+      "been",
+      "repaired",
+      "with",
+      "a",
+      "narrow",
+      "metal",
+      "staple"
+    ],
+    "observed_tokens": [
+      "rowan",
+      "pours",
+      "tea",
+      "into",
+      "an",
+      "uncracked",
+      "cup",
+      "for",
+      "you",
+      "his",
+      "own",
+      "cup",
+      "has",
+      "been",
+      "repaired",
+      "with",
+      "a",
+      "narrow",
+      "metal",
+      "staple"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 20,
+        "observed_start": 0,
+        "observed_end": 20,
+        "expected": [
+          "rowan",
+          "pours",
+          "tea",
+          "into",
+          "an",
+          "uncracked",
+          "cup",
+          "for",
+          "you",
+          "his",
+          "own",
+          "cup",
+          "has",
+          "been",
+          "repaired",
+          "with",
+          "a",
+          "narrow",
+          "metal",
+          "staple"
+        ],
+        "observed": [
+          "rowan",
+          "pours",
+          "tea",
+          "into",
+          "an",
+          "uncracked",
+          "cup",
+          "for",
+          "you",
+          "his",
+          "own",
+          "cup",
+          "has",
+          "been",
+          "repaired",
+          "with",
+          "a",
+          "narrow",
+          "metal",
+          "staple"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "scope": "single_zero_usage_protocol_failure_replacement",
+  "manifest_sha256": "2cb37edad079cb25fcfbbe0fd4f4317a6f1ed2a871649a39e3d8bc829f40ee3e",
+  "cap_usd": 0.25,
+  "line_id": "ch1_closing",
+  "replaces_attempt_id": "e0b69fa6c269447c8488ee9d8044d41e",
+  "max_additional_attempts": 1,
+  "approval_text": "Approve one replacement Iona request",
+  "approved_by": "user in this conversation",
+  "recorded_utc": "2026-11-14T11:22:51.875909+00:00",
+  "rowan_retake_authorized": false,
+  "remaining_95_authorized": false
+}

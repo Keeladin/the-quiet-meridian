@@ -1,0 +1,241 @@
+{
+  "line_id": "nadi_memorial_q2",
+  "clip_id": "368c6842a0f04829ab741beef768dd96",
+  "source_text_sha256": "44be365532563ae8d1b70fb03b7a2245710e3b11b1b0a8a2db9741578943138f",
+  "master": "work/gateway-voice/masters/368c6842a0f04829ab741beef768dd96.wav",
+  "wav_sha256": "33c880f4f11429b921b4923a97ee9134b9b4f09328ee35aac60e8535d54ff53d",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 147840,
+    "sample_count": 73920,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.08,
+    "peak": 0.3203125,
+    "peak_dbfs": -9.888522258562658,
+    "rms": 0.05433474102831471,
+    "rms_dbfs": -25.298447970887178,
+    "dc_offset": 3.624292679163285e-05,
+    "silence_fraction": 0.3236066017316017,
+    "leading_silence_seconds": 0.39079166666666665,
+    "tail_silence_seconds": 0.3943333333333333,
+    "active_span_seconds": 2.294875,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 8,
+    "source_words_per_active_minute": 209.1617190478784,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "should",
+      "we",
+      "move",
+      "the",
+      "stones",
+      "into",
+      "the",
+      "city"
+    ],
+    "observed_tokens": [
+      "should",
+      "we",
+      "move",
+      "the",
+      "stones",
+      "into",
+      "the",
+      "city"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "should",
+          "we",
+          "move",
+          "the",
+          "stones",
+          "into",
+          "the",
+          "city"
+        ],
+        "observed": [
+          "should",
+          "we",
+          "move",
+          "the",
+          "stones",
+          "into",
+          "the",
+          "city"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Should we move the stones into the city?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.52,
+      "text": " Should we move the stones into the city?",
+      "words": [
+        {
+          "word": " Should",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8786386251449585
+        },
+        {
+          "word": " we",
+          "start": 0.54,
+          "end": 0.78,
+          "probability": 0.9939566850662231
+        },
+        {
+          "word": " move",
+          "start": 0.78,
+          "end": 1.16,
+          "probability": 0.9977949857711792
+        },
+        {
+          "word": " the",
+          "start": 1.16,
+          "end": 1.46,
+          "probability": 0.985988438129425
+        },
+        {
+          "word": " stones",
+          "start": 1.46,
+          "end": 1.82,
+          "probability": 0.9826022386550903
+        },
+        {
+          "word": " into",
+          "start": 1.82,
+          "end": 2.16,
+          "probability": 0.9950762391090393
+        },
+        {
+          "word": " the",
+          "start": 2.16,
+          "end": 2.34,
+          "probability": 0.9984245300292969
+        },
+        {
+          "word": " city?",
+          "start": 2.34,
+          "end": 2.52,
+          "probability": 0.9813569784164429
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "should",
+      "we",
+      "move",
+      "the",
+      "stones",
+      "into",
+      "the",
+      "city"
+    ],
+    "observed_tokens": [
+      "should",
+      "we",
+      "move",
+      "the",
+      "stones",
+      "into",
+      "the",
+      "city"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "should",
+          "we",
+          "move",
+          "the",
+          "stones",
+          "into",
+          "the",
+          "city"
+        ],
+        "observed": [
+          "should",
+          "we",
+          "move",
+          "the",
+          "stones",
+          "into",
+          "the",
+          "city"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

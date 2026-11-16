@@ -1,0 +1,21 @@
+{
+  "source_wav_sha256": "c30a8c54c8a5e4fab886b4c4c21d97a49da6096031df6f017f3baad7ed37aaf9",
+  "derivative_sha256": "c33beb2f86b87504c804dbfd1e0273fb6786c58e81b33a754a9401a923c3e023",
+  "source_duration_seconds": 31.9,
+  "derivative_duration_seconds": 24.934833333333334,
+  "last_nonzero_sample": 574435,
+  "last_nonzero_seconds": 23.934791666666666,
+  "retained_end_sample": 598436,
+  "removed_samples": 167164,
+  "removed_samples_all_zero": true,
+  "asr_extra_word_interval": [
+    30.0,
+    30.8
+  ],
+  "extra_word_interval_peak": 0,
+  "original_prefix_byte_identical": true,
+  "processing": "Retained every original nonzero sample plus one second of original exact-zero tail; no gain, fade or content edits. Full original master and uncorrected ASR transcript retained.",
+  "human_listening_performed": false,
+  "listening_accepted": false,
+  "accepted_for_game": false
+}

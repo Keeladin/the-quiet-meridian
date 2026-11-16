@@ -1,0 +1,888 @@
+{
+  "line_id": "ch2_closing",
+  "clip_id": "815428dd8282483098dc6981e11a02bc",
+  "source_text_sha256": "032b1d93386ce3d6e8f6f635921aa0b687d17f0c32a163e691ced918317d7b2e",
+  "master": "work/gateway-voice/masters/815428dd8282483098dc6981e11a02bc.wav",
+  "wav_sha256": "e47339c1e738102c33b13424d5cbb6bc3e8608e7131c709c4d30d707d691187b",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 866880,
+    "sample_count": 433440,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 18.06,
+    "peak": 0.64453125,
+    "peak_dbfs": -3.815120421958866,
+    "rms": 0.0596962234830621,
+    "rms_dbfs": -24.481062848884882,
+    "dc_offset": 0.00011244295443411286,
+    "silence_fraction": 0.24477205610926542,
+    "leading_silence_seconds": 0.4029583333333333,
+    "tail_silence_seconds": 0.000125,
+    "active_span_seconds": 17.656916666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 37,
+    "source_words_per_active_minute": 125.72976595573972,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "east",
+      "reach",
+      "did",
+      "not",
+      "flood",
+      "through",
+      "tomas's",
+      "sluice",
+      "a",
+      "council",
+      "bypass",
+      "opened",
+      "above",
+      "it",
+      "rowan",
+      "admits",
+      "obeying",
+      "the",
+      "closure",
+      "order",
+      "elian's",
+      "initials",
+      "appear",
+      "on",
+      "the",
+      "coupling",
+      "record",
+      "only",
+      "the",
+      "observatory",
+      "can",
+      "fix",
+      "the",
+      "opening",
+      "time",
+      "independently"
+    ],
+    "observed_tokens": [
+      "the",
+      "east",
+      "reach",
+      "did",
+      "not",
+      "flood",
+      "through",
+      "toh",
+      "muhs's",
+      "sluice",
+      "a",
+      "council",
+      "bypass",
+      "opened",
+      "above",
+      "it",
+      "roh",
+      "un",
+      "admits",
+      "obeying",
+      "the",
+      "closure",
+      "order",
+      "el",
+      "ee",
+      "un's",
+      "initials",
+      "appear",
+      "on",
+      "the",
+      "coupling",
+      "record",
+      "only",
+      "the",
+      "observatory",
+      "can",
+      "fix",
+      "the",
+      "opening",
+      "time",
+      "independently"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "the",
+          "east",
+          "reach",
+          "did",
+          "not",
+          "flood",
+          "through"
+        ],
+        "observed": [
+          "the",
+          "east",
+          "reach",
+          "did",
+          "not",
+          "flood",
+          "through"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 7,
+        "expected_end": 8,
+        "observed_start": 7,
+        "observed_end": 9,
+        "expected": [
+          "tomas's"
+        ],
+        "observed": [
+          "toh",
+          "muhs's"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 8,
+        "expected_end": 15,
+        "observed_start": 9,
+        "observed_end": 16,
+        "expected": [
+          "sluice",
+          "a",
+          "council",
+          "bypass",
+          "opened",
+          "above",
+          "it"
+        ],
+        "observed": [
+          "sluice",
+          "a",
+          "council",
+          "bypass",
+          "opened",
+          "above",
+          "it"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 15,
+        "expected_end": 16,
+        "observed_start": 16,
+        "observed_end": 18,
+        "expected": [
+          "rowan"
+        ],
+        "observed": [
+          "roh",
+          "un"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 16,
+        "expected_end": 21,
+        "observed_start": 18,
+        "observed_end": 23,
+        "expected": [
+          "admits",
+          "obeying",
+          "the",
+          "closure",
+          "order"
+        ],
+        "observed": [
+          "admits",
+          "obeying",
+          "the",
+          "closure",
+          "order"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 21,
+        "expected_end": 22,
+        "observed_start": 23,
+        "observed_end": 26,
+        "expected": [
+          "elian's"
+        ],
+        "observed": [
+          "el",
+          "ee",
+          "un's"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 22,
+        "expected_end": 37,
+        "observed_start": 26,
+        "observed_end": 41,
+        "expected": [
+          "initials",
+          "appear",
+          "on",
+          "the",
+          "coupling",
+          "record",
+          "only",
+          "the",
+          "observatory",
+          "can",
+          "fix",
+          "the",
+          "opening",
+          "time",
+          "independently"
+        ],
+        "observed": [
+          "initials",
+          "appear",
+          "on",
+          "the",
+          "coupling",
+          "record",
+          "only",
+          "the",
+          "observatory",
+          "can",
+          "fix",
+          "the",
+          "opening",
+          "time",
+          "independently"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "tomas's"
+        ],
+        "observed": [
+          "toh",
+          "muhs's"
+        ],
+        "expected_start": 7,
+        "observed_start": 7
+      },
+      {
+        "expected": [
+          "rowan"
+        ],
+        "observed": [
+          "roh",
+          "un"
+        ],
+        "expected_start": 15,
+        "observed_start": 16
+      },
+      {
+        "expected": [
+          "elian's"
+        ],
+        "observed": [
+          "el",
+          "ee",
+          "un's"
+        ],
+        "expected_start": 21,
+        "observed_start": 23
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 7:8.",
+      "Changed source words at expected tokens 15:16.",
+      "Changed source words at expected tokens 21:22."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The east reach did not flood through Toma Sluis. A council bypass opened above it. Rho-1 admits obeying the closure order. Elion's initials appear on the coupling record. Only the observatory can fix the opening time independently.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.48,
+      "text": " The east reach did not flood through Toma Sluis. A council bypass opened above it.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.9308448433876038
+        },
+        {
+          "word": " east",
+          "start": 0.52,
+          "end": 0.86,
+          "probability": 0.554284393787384
+        },
+        {
+          "word": " reach",
+          "start": 0.86,
+          "end": 1.16,
+          "probability": 0.9528606534004211
+        },
+        {
+          "word": " did",
+          "start": 1.16,
+          "end": 1.52,
+          "probability": 0.9934697151184082
+        },
+        {
+          "word": " not",
+          "start": 1.52,
+          "end": 1.84,
+          "probability": 0.9985527396202087
+        },
+        {
+          "word": " flood",
+          "start": 1.84,
+          "end": 2.2,
+          "probability": 0.9956718683242798
+        },
+        {
+          "word": " through",
+          "start": 2.2,
+          "end": 2.54,
+          "probability": 0.9940580129623413
+        },
+        {
+          "word": " Toma",
+          "start": 2.54,
+          "end": 3.14,
+          "probability": 0.4418311268091202
+        },
+        {
+          "word": " Sluis.",
+          "start": 3.14,
+          "end": 3.66,
+          "probability": 0.7458791534105936
+        },
+        {
+          "word": " A",
+          "start": 3.94,
+          "end": 4.18,
+          "probability": 0.994698166847229
+        },
+        {
+          "word": " council",
+          "start": 4.18,
+          "end": 4.56,
+          "probability": 0.7564067840576172
+        },
+        {
+          "word": " bypass",
+          "start": 4.56,
+          "end": 5.1,
+          "probability": 0.9906291365623474
+        },
+        {
+          "word": " opened",
+          "start": 5.1,
+          "end": 5.66,
+          "probability": 0.9974905252456665
+        },
+        {
+          "word": " above",
+          "start": 5.66,
+          "end": 5.9,
+          "probability": 0.9969911575317383
+        },
+        {
+          "word": " it.",
+          "start": 5.9,
+          "end": 6.48,
+          "probability": 0.9975625276565552
+        }
+      ]
+    },
+    {
+      "start": 7.38,
+      "end": 12.68,
+      "text": " Rho-1 admits obeying the closure order. Elion's initials appear on the coupling record.",
+      "words": [
+        {
+          "word": " Rho",
+          "start": 7.38,
+          "end": 7.56,
+          "probability": 0.6236308217048645
+        },
+        {
+          "word": "-1",
+          "start": 7.56,
+          "end": 7.78,
+          "probability": 0.7321249544620514
+        },
+        {
+          "word": " admits",
+          "start": 7.78,
+          "end": 8.2,
+          "probability": 0.9894089698791504
+        },
+        {
+          "word": " obeying",
+          "start": 8.2,
+          "end": 8.8,
+          "probability": 0.9833116829395294
+        },
+        {
+          "word": " the",
+          "start": 8.8,
+          "end": 9.0,
+          "probability": 0.9974023103713989
+        },
+        {
+          "word": " closure",
+          "start": 9.0,
+          "end": 9.26,
+          "probability": 0.9870251417160034
+        },
+        {
+          "word": " order.",
+          "start": 9.26,
+          "end": 9.7,
+          "probability": 0.998296320438385
+        },
+        {
+          "word": " Elion's",
+          "start": 10.28,
+          "end": 10.82,
+          "probability": 0.5298526485761007
+        },
+        {
+          "word": " initials",
+          "start": 10.82,
+          "end": 11.18,
+          "probability": 0.9900463223457336
+        },
+        {
+          "word": " appear",
+          "start": 11.18,
+          "end": 11.62,
+          "probability": 0.996150016784668
+        },
+        {
+          "word": " on",
+          "start": 11.62,
+          "end": 11.84,
+          "probability": 0.9979265928268433
+        },
+        {
+          "word": " the",
+          "start": 11.84,
+          "end": 11.98,
+          "probability": 0.9986296892166138
+        },
+        {
+          "word": " coupling",
+          "start": 11.98,
+          "end": 12.28,
+          "probability": 0.9923062920570374
+        },
+        {
+          "word": " record.",
+          "start": 12.28,
+          "end": 12.68,
+          "probability": 0.9989232420921326
+        }
+      ]
+    },
+    {
+      "start": 13.68,
+      "end": 17.44,
+      "text": " Only the observatory can fix the opening time independently.",
+      "words": [
+        {
+          "word": " Only",
+          "start": 13.68,
+          "end": 14.06,
+          "probability": 0.994242250919342
+        },
+        {
+          "word": " the",
+          "start": 14.06,
+          "end": 14.36,
+          "probability": 0.987121045589447
+        },
+        {
+          "word": " observatory",
+          "start": 14.36,
+          "end": 15.1,
+          "probability": 0.9226745963096619
+        },
+        {
+          "word": " can",
+          "start": 15.1,
+          "end": 15.4,
+          "probability": 0.9979901313781738
+        },
+        {
+          "word": " fix",
+          "start": 15.4,
+          "end": 15.74,
+          "probability": 0.9983175992965698
+        },
+        {
+          "word": " the",
+          "start": 15.74,
+          "end": 16.0,
+          "probability": 0.9977065324783325
+        },
+        {
+          "word": " opening",
+          "start": 16.0,
+          "end": 16.38,
+          "probability": 0.996380627155304
+        },
+        {
+          "word": " time",
+          "start": 16.38,
+          "end": 16.7,
+          "probability": 0.9974595904350281
+        },
+        {
+          "word": " independently.",
+          "start": 16.7,
+          "end": 17.44,
+          "probability": 0.994077205657959
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "east",
+      "reach",
+      "did",
+      "not",
+      "flood",
+      "through",
+      "tomas's",
+      "sluice",
+      "a",
+      "council",
+      "bypass",
+      "opened",
+      "above",
+      "it",
+      "rowan",
+      "admits",
+      "obeying",
+      "the",
+      "closure",
+      "order",
+      "elian's",
+      "initials",
+      "appear",
+      "on",
+      "the",
+      "coupling",
+      "record",
+      "only",
+      "the",
+      "observatory",
+      "can",
+      "fix",
+      "the",
+      "opening",
+      "time",
+      "independently"
+    ],
+    "observed_tokens": [
+      "the",
+      "east",
+      "reach",
+      "did",
+      "not",
+      "flood",
+      "through",
+      "toma",
+      "sluis",
+      "a",
+      "council",
+      "bypass",
+      "opened",
+      "above",
+      "it",
+      "rho",
+      "1",
+      "admits",
+      "obeying",
+      "the",
+      "closure",
+      "order",
+      "elion's",
+      "initials",
+      "appear",
+      "on",
+      "the",
+      "coupling",
+      "record",
+      "only",
+      "the",
+      "observatory",
+      "can",
+      "fix",
+      "the",
+      "opening",
+      "time",
+      "independently"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "the",
+          "east",
+          "reach",
+          "did",
+          "not",
+          "flood",
+          "through"
+        ],
+        "observed": [
+          "the",
+          "east",
+          "reach",
+          "did",
+          "not",
+          "flood",
+          "through"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 7,
+        "expected_end": 9,
+        "observed_start": 7,
+        "observed_end": 9,
+        "expected": [
+          "tomas's",
+          "sluice"
+        ],
+        "observed": [
+          "toma",
+          "sluis"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 9,
+        "expected_end": 15,
+        "observed_start": 9,
+        "observed_end": 15,
+        "expected": [
+          "a",
+          "council",
+          "bypass",
+          "opened",
+          "above",
+          "it"
+        ],
+        "observed": [
+          "a",
+          "council",
+          "bypass",
+          "opened",
+          "above",
+          "it"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 15,
+        "expected_end": 16,
+        "observed_start": 15,
+        "observed_end": 17,
+        "expected": [
+          "rowan"
+        ],
+        "observed": [
+          "rho",
+          "1"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 16,
+        "expected_end": 21,
+        "observed_start": 17,
+        "observed_end": 22,
+        "expected": [
+          "admits",
+          "obeying",
+          "the",
+          "closure",
+          "order"
+        ],
+        "observed": [
+          "admits",
+          "obeying",
+          "the",
+          "closure",
+          "order"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 21,
+        "expected_end": 22,
+        "observed_start": 22,
+        "observed_end": 23,
+        "expected": [
+          "elian's"
+        ],
+        "observed": [
+          "elion's"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 22,
+        "expected_end": 37,
+        "observed_start": 23,
+        "observed_end": 38,
+        "expected": [
+          "initials",
+          "appear",
+          "on",
+          "the",
+          "coupling",
+          "record",
+          "only",
+          "the",
+          "observatory",
+          "can",
+          "fix",
+          "the",
+          "opening",
+          "time",
+          "independently"
+        ],
+        "observed": [
+          "initials",
+          "appear",
+          "on",
+          "the",
+          "coupling",
+          "record",
+          "only",
+          "the",
+          "observatory",
+          "can",
+          "fix",
+          "the",
+          "opening",
+          "time",
+          "independently"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "tomas's",
+          "sluice"
+        ],
+        "observed": [
+          "toma",
+          "sluis"
+        ],
+        "expected_start": 7,
+        "observed_start": 7
+      },
+      {
+        "expected": [
+          "rowan"
+        ],
+        "observed": [
+          "rho",
+          "1"
+        ],
+        "expected_start": 15,
+        "observed_start": 15
+      },
+      {
+        "expected": [
+          "elian's"
+        ],
+        "observed": [
+          "elion's"
+        ],
+        "expected_start": 21,
+        "observed_start": 22
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 7:9.",
+      "Changed source words at expected tokens 15:16.",
+      "Changed source words at expected tokens 21:22."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

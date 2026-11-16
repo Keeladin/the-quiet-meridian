@@ -1,0 +1,215 @@
+{
+  "line_id": "sera_archive_q1",
+  "clip_id": "ba6265b8cbef4740933d67b812027d7d",
+  "source_text_sha256": "3e0607800546747c8f4b4b7da17735e4befbc95bac52057a0c044191eb7dcd99",
+  "master": "work/gateway-voice/masters/ba6265b8cbef4740933d67b812027d7d.wav",
+  "wav_sha256": "2ffa6d7fa113c963d5717e2be39750a7cbdfb21aac09dd1f018f08b4597aaa2c",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 167040,
+    "sample_count": 83520,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.48,
+    "peak": 0.33203125,
+    "peak_dbfs": -9.576420791951136,
+    "rms": 0.06892710679126954,
+    "rms_dbfs": -23.232199011853417,
+    "dc_offset": 0.0001690670904985333,
+    "silence_fraction": 0.3335488505747126,
+    "leading_silence_seconds": 0.3948333333333333,
+    "tail_silence_seconds": 0.04945833333333333,
+    "active_span_seconds": 3.0357083333333335,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 118.58846782052514,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "were",
+      "you",
+      "here",
+      "during",
+      "the",
+      "flood"
+    ],
+    "observed_tokens": [
+      "were",
+      "you",
+      "here",
+      "during",
+      "the",
+      "flood"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "were",
+          "you",
+          "here",
+          "during",
+          "the",
+          "flood"
+        ],
+        "observed": [
+          "were",
+          "you",
+          "here",
+          "during",
+          "the",
+          "flood"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Were you here during the flood?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.96,
+      "text": " Were you here during the flood?",
+      "words": [
+        {
+          "word": " Were",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.7270509004592896
+        },
+        {
+          "word": " you",
+          "start": 0.48,
+          "end": 0.88,
+          "probability": 0.9843357801437378
+        },
+        {
+          "word": " here",
+          "start": 0.88,
+          "end": 1.92,
+          "probability": 0.7389225959777832
+        },
+        {
+          "word": " during",
+          "start": 1.92,
+          "end": 2.54,
+          "probability": 0.9608597159385681
+        },
+        {
+          "word": " the",
+          "start": 2.54,
+          "end": 2.72,
+          "probability": 0.9955422282218933
+        },
+        {
+          "word": " flood?",
+          "start": 2.72,
+          "end": 2.96,
+          "probability": 0.7918668985366821
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "were",
+      "you",
+      "here",
+      "during",
+      "the",
+      "flood"
+    ],
+    "observed_tokens": [
+      "were",
+      "you",
+      "here",
+      "during",
+      "the",
+      "flood"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "were",
+          "you",
+          "here",
+          "during",
+          "the",
+          "flood"
+        ],
+        "observed": [
+          "were",
+          "you",
+          "here",
+          "during",
+          "the",
+          "flood"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

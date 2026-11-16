@@ -1,0 +1,255 @@
+{
+  "line_id": "nadi_memorial_q1",
+  "clip_id": "b2e829b8dfde4fce81de0fc13cbbca49",
+  "source_text_sha256": "44d50a8316f9e3f225f2c300b3122874606d52655ecdf6a6f78b9710131ab568",
+  "master": "work/gateway-voice/masters/b2e829b8dfde4fce81de0fc13cbbca49.wav",
+  "wav_sha256": "7484c13651d4f2e74da1902e3e3ff909a52680705a2ce627f80654a25c1291f8",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 168960,
+    "sample_count": 84480,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.52,
+    "peak": 0.2734375,
+    "peak_dbfs": -11.262838505951853,
+    "rms": 0.04466223650606965,
+    "rms_dbfs": -27.001190659808,
+    "dc_offset": 2.3272182002212062e-05,
+    "silence_fraction": 0.2825994318181818,
+    "leading_silence_seconds": 0.4015,
+    "tail_silence_seconds": 0.4121666666666667,
+    "active_span_seconds": 2.7063333333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 9,
+    "source_words_per_active_minute": 199.53196206429365,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "were",
+      "the",
+      "lodgers",
+      "missing",
+      "from",
+      "the",
+      "address",
+      "lists"
+    ],
+    "observed_tokens": [
+      "why",
+      "were",
+      "the",
+      "lodgers",
+      "missing",
+      "from",
+      "the",
+      "address",
+      "lists"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 9,
+        "observed_start": 0,
+        "observed_end": 9,
+        "expected": [
+          "why",
+          "were",
+          "the",
+          "lodgers",
+          "missing",
+          "from",
+          "the",
+          "address",
+          "lists"
+        ],
+        "observed": [
+          "why",
+          "were",
+          "the",
+          "lodgers",
+          "missing",
+          "from",
+          "the",
+          "address",
+          "lists"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why were the lodgers missing from the address lists?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.96,
+      "text": " Why were the lodgers missing from the address lists?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.861508846282959
+        },
+        {
+          "word": " were",
+          "start": 0.62,
+          "end": 0.82,
+          "probability": 0.9857164621353149
+        },
+        {
+          "word": " the",
+          "start": 0.82,
+          "end": 0.96,
+          "probability": 0.9912543892860413
+        },
+        {
+          "word": " lodgers",
+          "start": 0.96,
+          "end": 1.36,
+          "probability": 0.9625525772571564
+        },
+        {
+          "word": " missing",
+          "start": 1.36,
+          "end": 1.76,
+          "probability": 0.9993175268173218
+        },
+        {
+          "word": " from",
+          "start": 1.76,
+          "end": 2.06,
+          "probability": 0.994679868221283
+        },
+        {
+          "word": " the",
+          "start": 2.06,
+          "end": 2.24,
+          "probability": 0.9953593611717224
+        },
+        {
+          "word": " address",
+          "start": 2.24,
+          "end": 2.54,
+          "probability": 0.9691286683082581
+        },
+        {
+          "word": " lists?",
+          "start": 2.54,
+          "end": 2.96,
+          "probability": 0.8797538876533508
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "were",
+      "the",
+      "lodgers",
+      "missing",
+      "from",
+      "the",
+      "address",
+      "lists"
+    ],
+    "observed_tokens": [
+      "why",
+      "were",
+      "the",
+      "lodgers",
+      "missing",
+      "from",
+      "the",
+      "address",
+      "lists"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 9,
+        "observed_start": 0,
+        "observed_end": 9,
+        "expected": [
+          "why",
+          "were",
+          "the",
+          "lodgers",
+          "missing",
+          "from",
+          "the",
+          "address",
+          "lists"
+        ],
+        "observed": [
+          "why",
+          "were",
+          "the",
+          "lodgers",
+          "missing",
+          "from",
+          "the",
+          "address",
+          "lists"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,1193 @@
+{
+  "line_id": "rowan_before_hearing_r2",
+  "clip_id": "11cdccd40be047e28c2f25ec95bcac87",
+  "source_text_sha256": "f295f48f421bd094a26589ca915e14110196a7535ae48cee8bd33804d855d208",
+  "master": "work/gateway-voice/masters/11cdccd40be047e28c2f25ec95bcac87.wav",
+  "wav_sha256": "e420dda858f4efbbf333f7051d35e100ab16bc10db65b7d9959b65f4e70eab27",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 1056960,
+    "sample_count": 528480,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 22.02,
+    "peak": 0.40625,
+    "peak_dbfs": -7.824132520261385,
+    "rms": 0.05577237460311358,
+    "rms_dbfs": -25.071617285863795,
+    "dc_offset": 0.00021062580123656525,
+    "silence_fraction": 0.19494966696942173,
+    "leading_silence_seconds": 0.4043333333333333,
+    "tail_silence_seconds": 0.28579166666666667,
+    "active_span_seconds": 21.329875,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 64,
+    "source_words_per_active_minute": 180.02918441856784,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "whatever",
+      "work",
+      "i",
+      "am",
+      "still",
+      "permitted",
+      "to",
+      "do",
+      "if",
+      "i",
+      "teach",
+      "the",
+      "apprentices",
+      "will",
+      "hear",
+      "this",
+      "account",
+      "before",
+      "they",
+      "learn",
+      "the",
+      "shortcuts",
+      "they",
+      "should",
+      "know",
+      "a",
+      "seal",
+      "is",
+      "a",
+      "reason",
+      "to",
+      "identify",
+      "an",
+      "order",
+      "not",
+      "a",
+      "reason",
+      "to",
+      "stop",
+      "asking",
+      "what",
+      "the",
+      "order",
+      "requires",
+      "i",
+      "cannot",
+      "give",
+      "them",
+      "my",
+      "innocence",
+      "i",
+      "can",
+      "give",
+      "them",
+      "a",
+      "warning",
+      "without",
+      "making",
+      "it",
+      "sound",
+      "like",
+      "someone",
+      "else's",
+      "mistake"
+    ],
+    "observed_tokens": [
+      "whatever",
+      "work",
+      "i",
+      "am",
+      "still",
+      "permitted",
+      "to",
+      "do",
+      "if",
+      "i",
+      "teach",
+      "the",
+      "apprentices",
+      "will",
+      "hear",
+      "this",
+      "account",
+      "before",
+      "they",
+      "learn",
+      "the",
+      "shortcuts",
+      "they",
+      "should",
+      "know",
+      "a",
+      "seal",
+      "is",
+      "a",
+      "reason",
+      "to",
+      "identify",
+      "an",
+      "order",
+      "not",
+      "a",
+      "reason",
+      "to",
+      "stop",
+      "asking",
+      "what",
+      "the",
+      "order",
+      "requires",
+      "i",
+      "can't",
+      "give",
+      "them",
+      "my",
+      "innocence",
+      "i",
+      "can",
+      "give",
+      "them",
+      "a",
+      "warning",
+      "without",
+      "making",
+      "it",
+      "sound",
+      "like",
+      "it",
+      "was",
+      "someone",
+      "else's",
+      "mistake"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 45,
+        "observed_start": 0,
+        "observed_end": 45,
+        "expected": [
+          "whatever",
+          "work",
+          "i",
+          "am",
+          "still",
+          "permitted",
+          "to",
+          "do",
+          "if",
+          "i",
+          "teach",
+          "the",
+          "apprentices",
+          "will",
+          "hear",
+          "this",
+          "account",
+          "before",
+          "they",
+          "learn",
+          "the",
+          "shortcuts",
+          "they",
+          "should",
+          "know",
+          "a",
+          "seal",
+          "is",
+          "a",
+          "reason",
+          "to",
+          "identify",
+          "an",
+          "order",
+          "not",
+          "a",
+          "reason",
+          "to",
+          "stop",
+          "asking",
+          "what",
+          "the",
+          "order",
+          "requires",
+          "i"
+        ],
+        "observed": [
+          "whatever",
+          "work",
+          "i",
+          "am",
+          "still",
+          "permitted",
+          "to",
+          "do",
+          "if",
+          "i",
+          "teach",
+          "the",
+          "apprentices",
+          "will",
+          "hear",
+          "this",
+          "account",
+          "before",
+          "they",
+          "learn",
+          "the",
+          "shortcuts",
+          "they",
+          "should",
+          "know",
+          "a",
+          "seal",
+          "is",
+          "a",
+          "reason",
+          "to",
+          "identify",
+          "an",
+          "order",
+          "not",
+          "a",
+          "reason",
+          "to",
+          "stop",
+          "asking",
+          "what",
+          "the",
+          "order",
+          "requires",
+          "i"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 45,
+        "expected_end": 46,
+        "observed_start": 45,
+        "observed_end": 46,
+        "expected": [
+          "cannot"
+        ],
+        "observed": [
+          "can't"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 46,
+        "expected_end": 61,
+        "observed_start": 46,
+        "observed_end": 61,
+        "expected": [
+          "give",
+          "them",
+          "my",
+          "innocence",
+          "i",
+          "can",
+          "give",
+          "them",
+          "a",
+          "warning",
+          "without",
+          "making",
+          "it",
+          "sound",
+          "like"
+        ],
+        "observed": [
+          "give",
+          "them",
+          "my",
+          "innocence",
+          "i",
+          "can",
+          "give",
+          "them",
+          "a",
+          "warning",
+          "without",
+          "making",
+          "it",
+          "sound",
+          "like"
+        ]
+      },
+      {
+        "operation": "insert",
+        "expected_start": 61,
+        "expected_end": 61,
+        "observed_start": 61,
+        "observed_end": 63,
+        "expected": [],
+        "observed": [
+          "it",
+          "was"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 61,
+        "expected_end": 64,
+        "observed_start": 63,
+        "observed_end": 66,
+        "expected": [
+          "someone",
+          "else's",
+          "mistake"
+        ],
+        "observed": [
+          "someone",
+          "else's",
+          "mistake"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [
+      "it",
+      "was"
+    ],
+    "substitutions": [
+      {
+        "expected": [
+          "cannot"
+        ],
+        "observed": [
+          "can't"
+        ],
+        "expected_start": 45,
+        "observed_start": 45
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 45:46.",
+      "Extra spoken words at observed tokens 61:63."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Whatever work I am still permitted to do, if I teach the apprentices will hear this account before they learn the shortcuts. They should know a seal is a reason to identify an order, not a reason to stop asking what the order requires. I can't give them my innocence. I can give them a warning without making it sound like it was someone else's mistake.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 5.94,
+      "text": " Whatever work I am still permitted to do, if I teach the apprentices will hear",
+      "words": [
+        {
+          "word": " Whatever",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.5860902070999146
+        },
+        {
+          "word": " work",
+          "start": 0.64,
+          "end": 0.98,
+          "probability": 0.9867030382156372
+        },
+        {
+          "word": " I",
+          "start": 0.98,
+          "end": 1.14,
+          "probability": 0.975406289100647
+        },
+        {
+          "word": " am",
+          "start": 1.14,
+          "end": 1.28,
+          "probability": 0.9689225554466248
+        },
+        {
+          "word": " still",
+          "start": 1.28,
+          "end": 1.68,
+          "probability": 0.9957084655761719
+        },
+        {
+          "word": " permitted",
+          "start": 1.68,
+          "end": 2.12,
+          "probability": 0.9941208958625793
+        },
+        {
+          "word": " to",
+          "start": 2.12,
+          "end": 2.4,
+          "probability": 0.9957220554351807
+        },
+        {
+          "word": " do,",
+          "start": 2.4,
+          "end": 2.76,
+          "probability": 0.9971844553947449
+        },
+        {
+          "word": " if",
+          "start": 3.28,
+          "end": 3.38,
+          "probability": 0.9485674500465393
+        },
+        {
+          "word": " I",
+          "start": 3.38,
+          "end": 3.54,
+          "probability": 0.9949876070022583
+        },
+        {
+          "word": " teach",
+          "start": 3.54,
+          "end": 3.9,
+          "probability": 0.9955589771270752
+        },
+        {
+          "word": " the",
+          "start": 3.9,
+          "end": 4.66,
+          "probability": 0.19486194849014282
+        },
+        {
+          "word": " apprentices",
+          "start": 4.66,
+          "end": 5.08,
+          "probability": 0.9667732119560242
+        },
+        {
+          "word": " will",
+          "start": 5.08,
+          "end": 5.68,
+          "probability": 0.9777488708496094
+        },
+        {
+          "word": " hear",
+          "start": 5.68,
+          "end": 5.94,
+          "probability": 0.9901524186134338
+        }
+      ]
+    },
+    {
+      "start": 5.94,
+      "end": 10.68,
+      "text": " this account before they learn the shortcuts. They should know a seal is a",
+      "words": [
+        {
+          "word": " this",
+          "start": 5.94,
+          "end": 6.22,
+          "probability": 0.9854156374931335
+        },
+        {
+          "word": " account",
+          "start": 6.22,
+          "end": 6.54,
+          "probability": 0.9688543081283569
+        },
+        {
+          "word": " before",
+          "start": 6.54,
+          "end": 7.0,
+          "probability": 0.9552854299545288
+        },
+        {
+          "word": " they",
+          "start": 7.0,
+          "end": 7.22,
+          "probability": 0.9909650087356567
+        },
+        {
+          "word": " learn",
+          "start": 7.22,
+          "end": 7.34,
+          "probability": 0.9100127816200256
+        },
+        {
+          "word": " the",
+          "start": 7.34,
+          "end": 7.52,
+          "probability": 0.9923388957977295
+        },
+        {
+          "word": " shortcuts.",
+          "start": 7.52,
+          "end": 7.88,
+          "probability": 0.9196281433105469
+        },
+        {
+          "word": " They",
+          "start": 8.76,
+          "end": 8.9,
+          "probability": 0.9878743290901184
+        },
+        {
+          "word": " should",
+          "start": 8.9,
+          "end": 9.1,
+          "probability": 0.9977856874465942
+        },
+        {
+          "word": " know",
+          "start": 9.1,
+          "end": 9.46,
+          "probability": 0.9985944628715515
+        },
+        {
+          "word": " a",
+          "start": 9.46,
+          "end": 9.76,
+          "probability": 0.9632347226142883
+        },
+        {
+          "word": " seal",
+          "start": 9.76,
+          "end": 10.16,
+          "probability": 0.881901741027832
+        },
+        {
+          "word": " is",
+          "start": 10.16,
+          "end": 10.5,
+          "probability": 0.9966576099395752
+        },
+        {
+          "word": " a",
+          "start": 10.5,
+          "end": 10.68,
+          "probability": 0.9948622584342957
+        }
+      ]
+    },
+    {
+      "start": 10.68,
+      "end": 14.56,
+      "text": " reason to identify an order, not a reason to stop asking what the order",
+      "words": [
+        {
+          "word": " reason",
+          "start": 10.68,
+          "end": 10.9,
+          "probability": 0.9990082383155823
+        },
+        {
+          "word": " to",
+          "start": 10.9,
+          "end": 11.14,
+          "probability": 0.9990326166152954
+        },
+        {
+          "word": " identify",
+          "start": 11.14,
+          "end": 11.56,
+          "probability": 0.9959348440170288
+        },
+        {
+          "word": " an",
+          "start": 11.56,
+          "end": 11.78,
+          "probability": 0.9788365960121155
+        },
+        {
+          "word": " order,",
+          "start": 11.78,
+          "end": 12.06,
+          "probability": 0.9527162909507751
+        },
+        {
+          "word": " not",
+          "start": 12.18,
+          "end": 12.4,
+          "probability": 0.9934697151184082
+        },
+        {
+          "word": " a",
+          "start": 12.4,
+          "end": 12.56,
+          "probability": 0.9965876340866089
+        },
+        {
+          "word": " reason",
+          "start": 12.56,
+          "end": 12.74,
+          "probability": 0.9996824264526367
+        },
+        {
+          "word": " to",
+          "start": 12.74,
+          "end": 12.96,
+          "probability": 0.998464822769165
+        },
+        {
+          "word": " stop",
+          "start": 12.96,
+          "end": 13.36,
+          "probability": 0.9975124597549438
+        },
+        {
+          "word": " asking",
+          "start": 13.36,
+          "end": 13.82,
+          "probability": 0.9962279796600342
+        },
+        {
+          "word": " what",
+          "start": 13.82,
+          "end": 14.18,
+          "probability": 0.9910610318183899
+        },
+        {
+          "word": " the",
+          "start": 14.18,
+          "end": 14.36,
+          "probability": 0.9968940019607544
+        },
+        {
+          "word": " order",
+          "start": 14.36,
+          "end": 14.56,
+          "probability": 0.9900805354118347
+        }
+      ]
+    },
+    {
+      "start": 14.56,
+      "end": 18.74,
+      "text": " requires. I can't give them my innocence. I can give them a warning",
+      "words": [
+        {
+          "word": " requires.",
+          "start": 14.56,
+          "end": 15.18,
+          "probability": 0.9968386888504028
+        },
+        {
+          "word": " I",
+          "start": 15.62,
+          "end": 15.72,
+          "probability": 0.9976019263267517
+        },
+        {
+          "word": " can't",
+          "start": 15.72,
+          "end": 16.18,
+          "probability": 0.9954273104667664
+        },
+        {
+          "word": " give",
+          "start": 16.18,
+          "end": 16.42,
+          "probability": 0.9985296726226807
+        },
+        {
+          "word": " them",
+          "start": 16.42,
+          "end": 16.6,
+          "probability": 0.9980149269104004
+        },
+        {
+          "word": " my",
+          "start": 16.6,
+          "end": 16.82,
+          "probability": 0.9962717294692993
+        },
+        {
+          "word": " innocence.",
+          "start": 16.82,
+          "end": 17.18,
+          "probability": 0.9980898499488831
+        },
+        {
+          "word": " I",
+          "start": 17.68,
+          "end": 17.74,
+          "probability": 0.9976874589920044
+        },
+        {
+          "word": " can",
+          "start": 17.74,
+          "end": 17.9,
+          "probability": 0.9985246062278748
+        },
+        {
+          "word": " give",
+          "start": 17.9,
+          "end": 18.06,
+          "probability": 0.9982460737228394
+        },
+        {
+          "word": " them",
+          "start": 18.06,
+          "end": 18.22,
+          "probability": 0.998370349407196
+        },
+        {
+          "word": " a",
+          "start": 18.22,
+          "end": 18.42,
+          "probability": 0.998271107673645
+        },
+        {
+          "word": " warning",
+          "start": 18.42,
+          "end": 18.74,
+          "probability": 0.9993957281112671
+        }
+      ]
+    },
+    {
+      "start": 18.74,
+      "end": 21.5,
+      "text": " without making it sound like it was someone else's mistake.",
+      "words": [
+        {
+          "word": " without",
+          "start": 18.74,
+          "end": 19.14,
+          "probability": 0.9769401550292969
+        },
+        {
+          "word": " making",
+          "start": 19.14,
+          "end": 19.38,
+          "probability": 0.9960647225379944
+        },
+        {
+          "word": " it",
+          "start": 19.38,
+          "end": 19.58,
+          "probability": 0.9985260963439941
+        },
+        {
+          "word": " sound",
+          "start": 19.58,
+          "end": 19.94,
+          "probability": 0.994198203086853
+        },
+        {
+          "word": " like",
+          "start": 19.94,
+          "end": 20.2,
+          "probability": 0.9986602067947388
+        },
+        {
+          "word": " it",
+          "start": 20.2,
+          "end": 20.32,
+          "probability": 0.9978060126304626
+        },
+        {
+          "word": " was",
+          "start": 20.32,
+          "end": 20.48,
+          "probability": 0.9965163469314575
+        },
+        {
+          "word": " someone",
+          "start": 20.48,
+          "end": 20.76,
+          "probability": 0.9966168999671936
+        },
+        {
+          "word": " else's",
+          "start": 20.76,
+          "end": 21.16,
+          "probability": 0.9966839849948883
+        },
+        {
+          "word": " mistake.",
+          "start": 21.16,
+          "end": 21.5,
+          "probability": 0.994563639163971
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "whatever",
+      "work",
+      "i",
+      "am",
+      "still",
+      "permitted",
+      "to",
+      "do",
+      "if",
+      "i",
+      "teach",
+      "the",
+      "apprentices",
+      "will",
+      "hear",
+      "this",
+      "account",
+      "before",
+      "they",
+      "learn",
+      "the",
+      "shortcuts",
+      "they",
+      "should",
+      "know",
+      "a",
+      "seal",
+      "is",
+      "a",
+      "reason",
+      "to",
+      "identify",
+      "an",
+      "order",
+      "not",
+      "a",
+      "reason",
+      "to",
+      "stop",
+      "asking",
+      "what",
+      "the",
+      "order",
+      "requires",
+      "i",
+      "cannot",
+      "give",
+      "them",
+      "my",
+      "innocence",
+      "i",
+      "can",
+      "give",
+      "them",
+      "a",
+      "warning",
+      "without",
+      "making",
+      "it",
+      "sound",
+      "like",
+      "someone",
+      "else's",
+      "mistake"
+    ],
+    "observed_tokens": [
+      "whatever",
+      "work",
+      "i",
+      "am",
+      "still",
+      "permitted",
+      "to",
+      "do",
+      "if",
+      "i",
+      "teach",
+      "the",
+      "apprentices",
+      "will",
+      "hear",
+      "this",
+      "account",
+      "before",
+      "they",
+      "learn",
+      "the",
+      "shortcuts",
+      "they",
+      "should",
+      "know",
+      "a",
+      "seal",
+      "is",
+      "a",
+      "reason",
+      "to",
+      "identify",
+      "an",
+      "order",
+      "not",
+      "a",
+      "reason",
+      "to",
+      "stop",
+      "asking",
+      "what",
+      "the",
+      "order",
+      "requires",
+      "i",
+      "can't",
+      "give",
+      "them",
+      "my",
+      "innocence",
+      "i",
+      "can",
+      "give",
+      "them",
+      "a",
+      "warning",
+      "without",
+      "making",
+      "it",
+      "sound",
+      "like",
+      "it",
+      "was",
+      "someone",
+      "else's",
+      "mistake"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 45,
+        "observed_start": 0,
+        "observed_end": 45,
+        "expected": [
+          "whatever",
+          "work",
+          "i",
+          "am",
+          "still",
+          "permitted",
+          "to",
+          "do",
+          "if",
+          "i",
+          "teach",
+          "the",
+          "apprentices",
+          "will",
+          "hear",
+          "this",
+          "account",
+          "before",
+          "they",
+          "learn",
+          "the",
+          "shortcuts",
+          "they",
+          "should",
+          "know",
+          "a",
+          "seal",
+          "is",
+          "a",
+          "reason",
+          "to",
+          "identify",
+          "an",
+          "order",
+          "not",
+          "a",
+          "reason",
+          "to",
+          "stop",
+          "asking",
+          "what",
+          "the",
+          "order",
+          "requires",
+          "i"
+        ],
+        "observed": [
+          "whatever",
+          "work",
+          "i",
+          "am",
+          "still",
+          "permitted",
+          "to",
+          "do",
+          "if",
+          "i",
+          "teach",
+          "the",
+          "apprentices",
+          "will",
+          "hear",
+          "this",
+          "account",
+          "before",
+          "they",
+          "learn",
+          "the",
+          "shortcuts",
+          "they",
+          "should",
+          "know",
+          "a",
+          "seal",
+          "is",
+          "a",
+          "reason",
+          "to",
+          "identify",
+          "an",
+          "order",
+          "not",
+          "a",
+          "reason",
+          "to",
+          "stop",
+          "asking",
+          "what",
+          "the",
+          "order",
+          "requires",
+          "i"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 45,
+        "expected_end": 46,
+        "observed_start": 45,
+        "observed_end": 46,
+        "expected": [
+          "cannot"
+        ],
+        "observed": [
+          "can't"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 46,
+        "expected_end": 61,
+        "observed_start": 46,
+        "observed_end": 61,
+        "expected": [
+          "give",
+          "them",
+          "my",
+          "innocence",
+          "i",
+          "can",
+          "give",
+          "them",
+          "a",
+          "warning",
+          "without",
+          "making",
+          "it",
+          "sound",
+          "like"
+        ],
+        "observed": [
+          "give",
+          "them",
+          "my",
+          "innocence",
+          "i",
+          "can",
+          "give",
+          "them",
+          "a",
+          "warning",
+          "without",
+          "making",
+          "it",
+          "sound",
+          "like"
+        ]
+      },
+      {
+        "operation": "insert",
+        "expected_start": 61,
+        "expected_end": 61,
+        "observed_start": 61,
+        "observed_end": 63,
+        "expected": [],
+        "observed": [
+          "it",
+          "was"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 61,
+        "expected_end": 64,
+        "observed_start": 63,
+        "observed_end": 66,
+        "expected": [
+          "someone",
+          "else's",
+          "mistake"
+        ],
+        "observed": [
+          "someone",
+          "else's",
+          "mistake"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [
+      "it",
+      "was"
+    ],
+    "substitutions": [
+      {
+        "expected": [
+          "cannot"
+        ],
+        "observed": [
+          "can't"
+        ],
+        "expected_start": 45,
+        "observed_start": 45
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 45:46.",
+      "Extra spoken words at observed tokens 61:63."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

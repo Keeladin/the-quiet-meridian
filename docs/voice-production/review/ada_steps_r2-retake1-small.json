@@ -1,0 +1,903 @@
+{
+  "line_id": "ada_steps_r2",
+  "clip_id": "e7376f81bc2243f6a899c7f4f69c5dc8",
+  "source_text_sha256": "fc5807b33d9fb75e24770551b919a64dcf2b62e25d63d84e942ea44f8cb2bdd9",
+  "master": "work/gateway-voice/masters/e7376f81bc2243f6a899c7f4f69c5dc8.wav",
+  "wav_sha256": "4eb6f8ad21b6942c82e4c9f92d57fb664d6734e60c2090c9f794cbbee2430fb3",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 972480,
+    "sample_count": 486240,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 20.26,
+    "peak": 0.546875,
+    "peak_dbfs": -5.24223859267223,
+    "rms": 0.051936074375120975,
+    "rms_dbfs": -25.6906175984291,
+    "dc_offset": 7.024114168800387e-05,
+    "silence_fraction": 0.18361714379730174,
+    "leading_silence_seconds": 0.393625,
+    "tail_silence_seconds": 0.04833333333333333,
+    "active_span_seconds": 19.818041666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 50,
+    "source_words_per_active_minute": 151.37721730830285,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "faulty",
+      "plate",
+      "a",
+      "mistaken",
+      "correction",
+      "another",
+      "instrument",
+      "showing",
+      "a",
+      "different",
+      "sequence",
+      "with",
+      "a",
+      "better",
+      "calibration",
+      "i",
+      "have",
+      "written",
+      "those",
+      "possibilities",
+      "beside",
+      "my",
+      "result",
+      "a",
+      "conclusion",
+      "is",
+      "not",
+      "weakened",
+      "by",
+      "naming",
+      "what",
+      "could",
+      "overturn",
+      "it",
+      "it",
+      "is",
+      "weakened",
+      "when",
+      "its",
+      "author",
+      "decides",
+      "no",
+      "such",
+      "thing",
+      "may",
+      "be",
+      "allowed",
+      "to",
+      "exist"
+    ],
+    "observed_tokens": [
+      "a",
+      "faulty",
+      "plate",
+      "a",
+      "mistaken",
+      "correction",
+      "another",
+      "instrument",
+      "showing",
+      "a",
+      "different",
+      "sequence",
+      "with",
+      "a",
+      "better",
+      "calibration",
+      "i",
+      "have",
+      "written",
+      "those",
+      "possibilities",
+      "beside",
+      "my",
+      "result",
+      "a",
+      "conclusion",
+      "is",
+      "not",
+      "weakened",
+      "by",
+      "naming",
+      "what",
+      "could",
+      "overturn",
+      "it",
+      "it",
+      "is",
+      "weakened",
+      "when",
+      "its",
+      "author",
+      "decides",
+      "no",
+      "such",
+      "thing",
+      "may",
+      "be",
+      "allowed",
+      "to",
+      "exist"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 50,
+        "observed_start": 0,
+        "observed_end": 50,
+        "expected": [
+          "a",
+          "faulty",
+          "plate",
+          "a",
+          "mistaken",
+          "correction",
+          "another",
+          "instrument",
+          "showing",
+          "a",
+          "different",
+          "sequence",
+          "with",
+          "a",
+          "better",
+          "calibration",
+          "i",
+          "have",
+          "written",
+          "those",
+          "possibilities",
+          "beside",
+          "my",
+          "result",
+          "a",
+          "conclusion",
+          "is",
+          "not",
+          "weakened",
+          "by",
+          "naming",
+          "what",
+          "could",
+          "overturn",
+          "it",
+          "it",
+          "is",
+          "weakened",
+          "when",
+          "its",
+          "author",
+          "decides",
+          "no",
+          "such",
+          "thing",
+          "may",
+          "be",
+          "allowed",
+          "to",
+          "exist"
+        ],
+        "observed": [
+          "a",
+          "faulty",
+          "plate",
+          "a",
+          "mistaken",
+          "correction",
+          "another",
+          "instrument",
+          "showing",
+          "a",
+          "different",
+          "sequence",
+          "with",
+          "a",
+          "better",
+          "calibration",
+          "i",
+          "have",
+          "written",
+          "those",
+          "possibilities",
+          "beside",
+          "my",
+          "result",
+          "a",
+          "conclusion",
+          "is",
+          "not",
+          "weakened",
+          "by",
+          "naming",
+          "what",
+          "could",
+          "overturn",
+          "it",
+          "it",
+          "is",
+          "weakened",
+          "when",
+          "its",
+          "author",
+          "decides",
+          "no",
+          "such",
+          "thing",
+          "may",
+          "be",
+          "allowed",
+          "to",
+          "exist"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "A faulty plate, a mistake in correction, another instrument showing a different sequence with a better calibration. I have written those possibilities beside my result. A conclusion is not weakened by naming what could overturn it. It is weakened when its author decides no such thing may be allowed to exist.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.02,
+      "text": " A faulty plate, a mistake in correction, another instrument showing a different sequence with",
+      "words": [
+        {
+          "word": " A",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.5991277694702148
+        },
+        {
+          "word": " faulty",
+          "start": 0.54,
+          "end": 0.98,
+          "probability": 0.9704046845436096
+        },
+        {
+          "word": " plate,",
+          "start": 0.98,
+          "end": 1.48,
+          "probability": 0.9680215120315552
+        },
+        {
+          "word": " a",
+          "start": 1.92,
+          "end": 1.94,
+          "probability": 0.99139004945755
+        },
+        {
+          "word": " mistake",
+          "start": 1.94,
+          "end": 2.34,
+          "probability": 0.8055407404899597
+        },
+        {
+          "word": " in",
+          "start": 2.34,
+          "end": 2.58,
+          "probability": 0.9958696961402893
+        },
+        {
+          "word": " correction,",
+          "start": 2.58,
+          "end": 3.1,
+          "probability": 0.9701501727104187
+        },
+        {
+          "word": " another",
+          "start": 3.6,
+          "end": 3.86,
+          "probability": 0.969962477684021
+        },
+        {
+          "word": " instrument",
+          "start": 3.86,
+          "end": 4.34,
+          "probability": 0.996536374092102
+        },
+        {
+          "word": " showing",
+          "start": 4.34,
+          "end": 4.72,
+          "probability": 0.9980747699737549
+        },
+        {
+          "word": " a",
+          "start": 4.72,
+          "end": 4.98,
+          "probability": 0.998363196849823
+        },
+        {
+          "word": " different",
+          "start": 4.98,
+          "end": 5.34,
+          "probability": 0.9904396533966064
+        },
+        {
+          "word": " sequence",
+          "start": 5.34,
+          "end": 5.76,
+          "probability": 0.9993435740470886
+        },
+        {
+          "word": " with",
+          "start": 5.76,
+          "end": 6.02,
+          "probability": 0.9880163073539734
+        }
+      ]
+    },
+    {
+      "start": 6.02,
+      "end": 7.14,
+      "text": " a better calibration.",
+      "words": [
+        {
+          "word": " a",
+          "start": 6.02,
+          "end": 6.14,
+          "probability": 0.9919496774673462
+        },
+        {
+          "word": " better",
+          "start": 6.14,
+          "end": 6.48,
+          "probability": 0.9986826777458191
+        },
+        {
+          "word": " calibration.",
+          "start": 6.48,
+          "end": 7.14,
+          "probability": 0.9981979727745056
+        }
+      ]
+    },
+    {
+      "start": 7.82,
+      "end": 10.6,
+      "text": " I have written those possibilities beside my result.",
+      "words": [
+        {
+          "word": " I",
+          "start": 7.82,
+          "end": 8.1,
+          "probability": 0.9911355972290039
+        },
+        {
+          "word": " have",
+          "start": 8.1,
+          "end": 8.26,
+          "probability": 0.9949508905410767
+        },
+        {
+          "word": " written",
+          "start": 8.26,
+          "end": 8.46,
+          "probability": 0.9972035884857178
+        },
+        {
+          "word": " those",
+          "start": 8.46,
+          "end": 8.76,
+          "probability": 0.9929174184799194
+        },
+        {
+          "word": " possibilities",
+          "start": 8.76,
+          "end": 9.3,
+          "probability": 0.996810257434845
+        },
+        {
+          "word": " beside",
+          "start": 9.3,
+          "end": 10.0,
+          "probability": 0.9820047616958618
+        },
+        {
+          "word": " my",
+          "start": 10.0,
+          "end": 10.24,
+          "probability": 0.9986963868141174
+        },
+        {
+          "word": " result.",
+          "start": 10.24,
+          "end": 10.6,
+          "probability": 0.9683099985122681
+        }
+      ]
+    },
+    {
+      "start": 11.16,
+      "end": 14.84,
+      "text": " A conclusion is not weakened by naming what could overturn it.",
+      "words": [
+        {
+          "word": " A",
+          "start": 11.16,
+          "end": 11.34,
+          "probability": 0.9903120994567871
+        },
+        {
+          "word": " conclusion",
+          "start": 11.34,
+          "end": 11.68,
+          "probability": 0.9990476965904236
+        },
+        {
+          "word": " is",
+          "start": 11.68,
+          "end": 11.98,
+          "probability": 0.9986438155174255
+        },
+        {
+          "word": " not",
+          "start": 11.98,
+          "end": 12.3,
+          "probability": 0.9980556964874268
+        },
+        {
+          "word": " weakened",
+          "start": 12.3,
+          "end": 12.68,
+          "probability": 0.9982641339302063
+        },
+        {
+          "word": " by",
+          "start": 12.68,
+          "end": 12.96,
+          "probability": 0.9982909560203552
+        },
+        {
+          "word": " naming",
+          "start": 12.96,
+          "end": 13.28,
+          "probability": 0.9987150430679321
+        },
+        {
+          "word": " what",
+          "start": 13.28,
+          "end": 13.6,
+          "probability": 0.9980311989784241
+        },
+        {
+          "word": " could",
+          "start": 13.6,
+          "end": 13.88,
+          "probability": 0.9979209303855896
+        },
+        {
+          "word": " overturn",
+          "start": 13.88,
+          "end": 14.38,
+          "probability": 0.9937042593955994
+        },
+        {
+          "word": " it.",
+          "start": 14.38,
+          "end": 14.84,
+          "probability": 0.9975179433822632
+        }
+      ]
+    },
+    {
+      "start": 15.14,
+      "end": 19.6,
+      "text": " It is weakened when its author decides no such thing may be allowed to exist.",
+      "words": [
+        {
+          "word": " It",
+          "start": 15.14,
+          "end": 15.28,
+          "probability": 0.9948481321334839
+        },
+        {
+          "word": " is",
+          "start": 15.28,
+          "end": 15.4,
+          "probability": 0.9964582324028015
+        },
+        {
+          "word": " weakened",
+          "start": 15.4,
+          "end": 15.8,
+          "probability": 0.9970766305923462
+        },
+        {
+          "word": " when",
+          "start": 15.8,
+          "end": 16.1,
+          "probability": 0.9978567957878113
+        },
+        {
+          "word": " its",
+          "start": 16.1,
+          "end": 16.28,
+          "probability": 0.9587321281433105
+        },
+        {
+          "word": " author",
+          "start": 16.28,
+          "end": 16.64,
+          "probability": 0.9985098242759705
+        },
+        {
+          "word": " decides",
+          "start": 16.64,
+          "end": 17.12,
+          "probability": 0.998534083366394
+        },
+        {
+          "word": " no",
+          "start": 17.12,
+          "end": 17.52,
+          "probability": 0.9873523712158203
+        },
+        {
+          "word": " such",
+          "start": 17.52,
+          "end": 17.8,
+          "probability": 0.9994888305664062
+        },
+        {
+          "word": " thing",
+          "start": 17.8,
+          "end": 18.14,
+          "probability": 0.9984846711158752
+        },
+        {
+          "word": " may",
+          "start": 18.14,
+          "end": 18.4,
+          "probability": 0.9948707818984985
+        },
+        {
+          "word": " be",
+          "start": 18.4,
+          "end": 18.54,
+          "probability": 0.9992142915725708
+        },
+        {
+          "word": " allowed",
+          "start": 18.54,
+          "end": 18.88,
+          "probability": 0.9995222091674805
+        },
+        {
+          "word": " to",
+          "start": 18.88,
+          "end": 19.24,
+          "probability": 0.9979900121688843
+        },
+        {
+          "word": " exist.",
+          "start": 19.24,
+          "end": 19.6,
+          "probability": 0.9985647797584534
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "faulty",
+      "plate",
+      "a",
+      "mistaken",
+      "correction",
+      "another",
+      "instrument",
+      "showing",
+      "a",
+      "different",
+      "sequence",
+      "with",
+      "a",
+      "better",
+      "calibration",
+      "i",
+      "have",
+      "written",
+      "those",
+      "possibilities",
+      "beside",
+      "my",
+      "result",
+      "a",
+      "conclusion",
+      "is",
+      "not",
+      "weakened",
+      "by",
+      "naming",
+      "what",
+      "could",
+      "overturn",
+      "it",
+      "it",
+      "is",
+      "weakened",
+      "when",
+      "its",
+      "author",
+      "decides",
+      "no",
+      "such",
+      "thing",
+      "may",
+      "be",
+      "allowed",
+      "to",
+      "exist"
+    ],
+    "observed_tokens": [
+      "a",
+      "faulty",
+      "plate",
+      "a",
+      "mistake",
+      "in",
+      "correction",
+      "another",
+      "instrument",
+      "showing",
+      "a",
+      "different",
+      "sequence",
+      "with",
+      "a",
+      "better",
+      "calibration",
+      "i",
+      "have",
+      "written",
+      "those",
+      "possibilities",
+      "beside",
+      "my",
+      "result",
+      "a",
+      "conclusion",
+      "is",
+      "not",
+      "weakened",
+      "by",
+      "naming",
+      "what",
+      "could",
+      "overturn",
+      "it",
+      "it",
+      "is",
+      "weakened",
+      "when",
+      "its",
+      "author",
+      "decides",
+      "no",
+      "such",
+      "thing",
+      "may",
+      "be",
+      "allowed",
+      "to",
+      "exist"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 4,
+        "observed_start": 0,
+        "observed_end": 4,
+        "expected": [
+          "a",
+          "faulty",
+          "plate",
+          "a"
+        ],
+        "observed": [
+          "a",
+          "faulty",
+          "plate",
+          "a"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 4,
+        "expected_end": 5,
+        "observed_start": 4,
+        "observed_end": 6,
+        "expected": [
+          "mistaken"
+        ],
+        "observed": [
+          "mistake",
+          "in"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 5,
+        "expected_end": 50,
+        "observed_start": 6,
+        "observed_end": 51,
+        "expected": [
+          "correction",
+          "another",
+          "instrument",
+          "showing",
+          "a",
+          "different",
+          "sequence",
+          "with",
+          "a",
+          "better",
+          "calibration",
+          "i",
+          "have",
+          "written",
+          "those",
+          "possibilities",
+          "beside",
+          "my",
+          "result",
+          "a",
+          "conclusion",
+          "is",
+          "not",
+          "weakened",
+          "by",
+          "naming",
+          "what",
+          "could",
+          "overturn",
+          "it",
+          "it",
+          "is",
+          "weakened",
+          "when",
+          "its",
+          "author",
+          "decides",
+          "no",
+          "such",
+          "thing",
+          "may",
+          "be",
+          "allowed",
+          "to",
+          "exist"
+        ],
+        "observed": [
+          "correction",
+          "another",
+          "instrument",
+          "showing",
+          "a",
+          "different",
+          "sequence",
+          "with",
+          "a",
+          "better",
+          "calibration",
+          "i",
+          "have",
+          "written",
+          "those",
+          "possibilities",
+          "beside",
+          "my",
+          "result",
+          "a",
+          "conclusion",
+          "is",
+          "not",
+          "weakened",
+          "by",
+          "naming",
+          "what",
+          "could",
+          "overturn",
+          "it",
+          "it",
+          "is",
+          "weakened",
+          "when",
+          "its",
+          "author",
+          "decides",
+          "no",
+          "such",
+          "thing",
+          "may",
+          "be",
+          "allowed",
+          "to",
+          "exist"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "mistaken"
+        ],
+        "observed": [
+          "mistake",
+          "in"
+        ],
+        "expected_start": 4,
+        "observed_start": 4
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 4:5."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

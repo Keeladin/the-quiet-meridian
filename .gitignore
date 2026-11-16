@@ -1,0 +1,20 @@
+.godot/
+builds/
+work/
+.env
+.env.*
+*.pem
+*.key
+export_credentials.cfg
+*.tmp
+*~
+__pycache__/
+.venv/
+
+# Public mirror: never commit privately licensed recordings or production ledgers.
+assets/audio/licensed-opening/
+assets/audio/licensed-campaign/
+docs/voice-production/receipts/
+docs/voice-production/checkpoints/
+assets/audio/auditions/**/ledger.json
+assets/audio/auditions/**/request-plan.json

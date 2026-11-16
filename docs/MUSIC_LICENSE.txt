@@ -1,0 +1,26 @@
+THE QUIET MERIDIAN — SELECTED MUSIC ATTRIBUTION
+
+Sonder by Purrple Cat | https://purrplecat.com/
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+
+Album: City Nights 2 (2023)
+Owner-supplied download: https://www.chosic.com/download-audio/58968/
+Artist track: https://purrplecat.bandcamp.com/track/sonder
+Full licence: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+The owner supplied a screenshot of the Chosic download page confirming commercial
+use with the credit above and identifying CC BY-SA 3.0. This records the licence
+and attribution shown for the supplied download. No endorsement is implied.
+
+The recording is Purrple Cat's work, not original music by this game's developer.
+The supplied MP3 is retained byte-for-byte without trimming or re-encoding. The
+game repeats the whole track and applies playback volume, fades and dialogue
+ducking. Preserve this attribution, source and licence with the recording.
+
+Earlier source checks found a CC BY-SA 4.0 link on the artist's Bandcamp track
+and general CC BY 4.0 terms in the Free Game Music catalogue. Those observations
+remain in selected-music-provenance.json; they do not replace the Chosic credit
+shown by the owner. This record does not declare the rest of the game to be
+Creative Commons licensed or resolve adaptation obligations for a store release.

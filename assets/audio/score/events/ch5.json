@@ -1,0 +1,5035 @@
+{
+  "id": "ch5",
+  "title": "An Unbroken Chain",
+  "bpm": 78,
+  "meter": 3,
+  "bars": 64,
+  "mode": "minor",
+  "tonic_midi": 45,
+  "theme": "Record",
+  "form": [
+    "Prelude",
+    "Statement",
+    "Answer",
+    "Shadow",
+    "Countermotion",
+    "Return",
+    "Reprise",
+    "Coda"
+  ],
+  "note_events": [
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 0,
+      "duration": 4.38462,
+      "velocity": 0.03385,
+      "pan": -0.5,
+      "seed": 464905
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 0,
+      "duration": 4.38462,
+      "velocity": 0.0337,
+      "pan": 0.15,
+      "seed": 819112
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 0,
+      "duration": 4.38462,
+      "velocity": 0.03079,
+      "pan": 0.55,
+      "seed": 448042
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 0,
+      "duration": 4.15385,
+      "velocity": 0.03804,
+      "pan": -0.2,
+      "seed": 270996
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 0,
+      "duration": 0.53846,
+      "velocity": 0.04169,
+      "pan": 0.25,
+      "seed": 548466
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 1.5295,
+      "duration": 0.53846,
+      "velocity": 0.04001,
+      "pan": 0.25,
+      "seed": 212127
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 2.31302,
+      "duration": 0.53846,
+      "velocity": 0.04408,
+      "pan": 0.25,
+      "seed": 892226
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 3.84379,
+      "duration": 0.53846,
+      "velocity": 0.04095,
+      "pan": 0.25,
+      "seed": 217054
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 4.60371,
+      "duration": 4.38462,
+      "velocity": 0.03282,
+      "pan": -0.5,
+      "seed": 889441
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 4.62692,
+      "duration": 4.38462,
+      "velocity": 0.03293,
+      "pan": 0.15,
+      "seed": 810574
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 4.62687,
+      "duration": 4.38462,
+      "velocity": 0.03224,
+      "pan": 0.55,
+      "seed": 705185
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 4.61701,
+      "duration": 4.15385,
+      "velocity": 0.03884,
+      "pan": -0.2,
+      "seed": 577974
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 4.61763,
+      "duration": 0.53846,
+      "velocity": 0.04492,
+      "pan": 0.25,
+      "seed": 270337
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 6.15372,
+      "duration": 0.53846,
+      "velocity": 0.04279,
+      "pan": 0.25,
+      "seed": 619357
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 6.92034,
+      "duration": 0.53846,
+      "velocity": 0.04281,
+      "pan": 0.25,
+      "seed": 467156
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 8.46859,
+      "duration": 0.53846,
+      "velocity": 0.04011,
+      "pan": 0.25,
+      "seed": 702268
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 9.23521,
+      "duration": 4.38462,
+      "velocity": 0.03207,
+      "pan": -0.5,
+      "seed": 41983
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 9.22412,
+      "duration": 4.38462,
+      "velocity": 0.03445,
+      "pan": 0.15,
+      "seed": 543999
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 9.22235,
+      "duration": 4.38462,
+      "velocity": 0.03296,
+      "pan": 0.55,
+      "seed": 389693
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 9.23389,
+      "duration": 4.15385,
+      "velocity": 0.04094,
+      "pan": -0.2,
+      "seed": 743723
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 9.22475,
+      "duration": 0.53846,
+      "velocity": 0.04234,
+      "pan": 0.25,
+      "seed": 588962
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 10.76959,
+      "duration": 0.53846,
+      "velocity": 0.04243,
+      "pan": 0.25,
+      "seed": 797190
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 9.22246,
+      "duration": 0.40615,
+      "velocity": 0.0842,
+      "pan": 0.12,
+      "seed": 293291
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 9.68221,
+      "duration": 0.13538,
+      "velocity": 0.0715,
+      "pan": 0.12,
+      "seed": 29080
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 9.84661,
+      "duration": 0.54154,
+      "velocity": 0.08404,
+      "pan": 0.12,
+      "seed": 282793
+    },
+    {
+      "instrument": "reed",
+      "midi": 55,
+      "start": 10.45605,
+      "duration": 0.54154,
+      "velocity": 0.06443,
+      "pan": 0.12,
+      "seed": 735573
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 11.0712,
+      "duration": 0.54154,
+      "velocity": 0.06525,
+      "pan": 0.12,
+      "seed": 156588
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 11.68864,
+      "duration": 1.08308,
+      "velocity": 0.06767,
+      "pan": 0.12,
+      "seed": 905705
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 12.92126,
+      "duration": 0.54154,
+      "velocity": 0.08407,
+      "pan": 0.12,
+      "seed": 637561
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 13.53081,
+      "duration": 0.54154,
+      "velocity": 0.06907,
+      "pan": 0.12,
+      "seed": 517731
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 14.14702,
+      "duration": 0.54154,
+      "velocity": 0.06465,
+      "pan": 0.12,
+      "seed": 461774
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 14.77289,
+      "duration": 0.54154,
+      "velocity": 0.0714,
+      "pan": 0.12,
+      "seed": 315311
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 15.38952,
+      "duration": 1.08308,
+      "velocity": 0.06688,
+      "pan": 0.12,
+      "seed": 795272
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 16.62651,
+      "duration": 0.54154,
+      "velocity": 0.06902,
+      "pan": 0.12,
+      "seed": 750510
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 17.22233,
+      "duration": 1.08308,
+      "velocity": 0.06446,
+      "pan": 0.12,
+      "seed": 935145
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 11.54151,
+      "duration": 0.53846,
+      "velocity": 0.04173,
+      "pan": 0.25,
+      "seed": 78801
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 13.07158,
+      "duration": 0.53846,
+      "velocity": 0.04457,
+      "pan": 0.25,
+      "seed": 307396
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 13.84139,
+      "duration": 4.38462,
+      "velocity": 0.03464,
+      "pan": -0.5,
+      "seed": 543874
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 13.83531,
+      "duration": 4.38462,
+      "velocity": 0.03338,
+      "pan": 0.15,
+      "seed": 646194
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 13.85772,
+      "duration": 4.38462,
+      "velocity": 0.03313,
+      "pan": 0.55,
+      "seed": 663559
+    },
+    {
+      "instrument": "cello",
+      "midi": 43,
+      "start": 13.8485,
+      "duration": 4.15385,
+      "velocity": 0.03822,
+      "pan": -0.2,
+      "seed": 142610
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 13.84452,
+      "duration": 0.53846,
+      "velocity": 0.04324,
+      "pan": 0.25,
+      "seed": 894704
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 15.39077,
+      "duration": 0.53846,
+      "velocity": 0.04418,
+      "pan": 0.25,
+      "seed": 387101
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 16.14978,
+      "duration": 0.53846,
+      "velocity": 0.04344,
+      "pan": 0.25,
+      "seed": 158813
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 17.69529,
+      "duration": 0.53846,
+      "velocity": 0.04054,
+      "pan": 0.25,
+      "seed": 705307
+    },
+    {
+      "instrument": "strings",
+      "midi": 62,
+      "start": 18.45455,
+      "duration": 4.38462,
+      "velocity": 0.05248,
+      "pan": -0.5,
+      "seed": 115146
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 18.46846,
+      "duration": 4.38462,
+      "velocity": 0.05213,
+      "pan": 0.15,
+      "seed": 623313
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 18.47056,
+      "duration": 4.38462,
+      "velocity": 0.05069,
+      "pan": 0.55,
+      "seed": 342583
+    },
+    {
+      "instrument": "cello",
+      "midi": 38,
+      "start": 18.46693,
+      "duration": 4.15385,
+      "velocity": 0.06056,
+      "pan": -0.2,
+      "seed": 240515
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 18.45048,
+      "duration": 0.53846,
+      "velocity": 0.06871,
+      "pan": 0.25,
+      "seed": 745489
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 19.23262,
+      "duration": 0.53846,
+      "velocity": 0.06576,
+      "pan": 0.25,
+      "seed": 552528
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 20.00736,
+      "duration": 0.53846,
+      "velocity": 0.07084,
+      "pan": 0.25,
+      "seed": 915600
+    },
+    {
+      "instrument": "bass",
+      "midi": 38,
+      "start": 18.46071,
+      "duration": 0.61538,
+      "velocity": 0.08678,
+      "pan": -0.1,
+      "seed": 420382
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 18.45512,
+      "duration": 0.40615,
+      "velocity": 0.12731,
+      "pan": 0.12,
+      "seed": 316194
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 18.91559,
+      "duration": 0.13538,
+      "velocity": 0.11505,
+      "pan": 0.12,
+      "seed": 254265
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 19.06523,
+      "duration": 0.54154,
+      "velocity": 0.13542,
+      "pan": 0.12,
+      "seed": 74911
+    },
+    {
+      "instrument": "reed",
+      "midi": 55,
+      "start": 19.7036,
+      "duration": 0.54154,
+      "velocity": 0.1089,
+      "pan": 0.12,
+      "seed": 361893
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 20.29623,
+      "duration": 0.54154,
+      "velocity": 0.11095,
+      "pan": 0.12,
+      "seed": 875853
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 20.92452,
+      "duration": 1.08308,
+      "velocity": 0.1092,
+      "pan": 0.12,
+      "seed": 355038
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 22.14805,
+      "duration": 0.54154,
+      "velocity": 0.1381,
+      "pan": 0.12,
+      "seed": 146534
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 22.76576,
+      "duration": 0.54154,
+      "velocity": 0.11224,
+      "pan": 0.12,
+      "seed": 429185
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 23.38482,
+      "duration": 0.54154,
+      "velocity": 0.11617,
+      "pan": 0.12,
+      "seed": 988975
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 24.00672,
+      "duration": 0.54154,
+      "velocity": 0.11048,
+      "pan": 0.12,
+      "seed": 552308
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 24.62405,
+      "duration": 1.08308,
+      "velocity": 0.11197,
+      "pan": 0.12,
+      "seed": 642187
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 25.84124,
+      "duration": 0.54154,
+      "velocity": 0.11695,
+      "pan": 0.12,
+      "seed": 673019
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 26.44996,
+      "duration": 1.08308,
+      "velocity": 0.11123,
+      "pan": 0.12,
+      "seed": 581244
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 20.77893,
+      "duration": 0.53846,
+      "velocity": 0.07231,
+      "pan": 0.25,
+      "seed": 332131
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 21.53606,
+      "duration": 0.53846,
+      "velocity": 0.06931,
+      "pan": 0.25,
+      "seed": 105464
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 22.3078,
+      "duration": 0.53846,
+      "velocity": 0.06521,
+      "pan": 0.25,
+      "seed": 985316
+    },
+    {
+      "instrument": "bass",
+      "midi": 38,
+      "start": 20.75862,
+      "duration": 0.61538,
+      "velocity": 0.08299,
+      "pan": -0.1,
+      "seed": 636360
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 23.06598,
+      "duration": 4.38462,
+      "velocity": 0.05274,
+      "pan": -0.5,
+      "seed": 27702
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 23.07472,
+      "duration": 4.38462,
+      "velocity": 0.05495,
+      "pan": 0.15,
+      "seed": 704108
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 23.07458,
+      "duration": 4.38462,
+      "velocity": 0.0534,
+      "pan": 0.55,
+      "seed": 77469
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 23.07025,
+      "duration": 4.15385,
+      "velocity": 0.06586,
+      "pan": -0.2,
+      "seed": 826613
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 23.08705,
+      "duration": 0.53846,
+      "velocity": 0.06981,
+      "pan": 0.25,
+      "seed": 23203
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 23.83988,
+      "duration": 0.53846,
+      "velocity": 0.06682,
+      "pan": 0.25,
+      "seed": 812580
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 24.62018,
+      "duration": 0.53846,
+      "velocity": 0.0696,
+      "pan": 0.25,
+      "seed": 718890
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 23.0778,
+      "duration": 0.61538,
+      "velocity": 0.08541,
+      "pan": -0.1,
+      "seed": 956097
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 25.39013,
+      "duration": 0.53846,
+      "velocity": 0.07066,
+      "pan": 0.25,
+      "seed": 755610
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 26.15616,
+      "duration": 0.53846,
+      "velocity": 0.07056,
+      "pan": 0.25,
+      "seed": 785628
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 26.91919,
+      "duration": 0.53846,
+      "velocity": 0.06713,
+      "pan": 0.25,
+      "seed": 271862
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 25.38055,
+      "duration": 0.61538,
+      "velocity": 0.08542,
+      "pan": -0.1,
+      "seed": 337040
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 27.69039,
+      "duration": 4.38462,
+      "velocity": 0.0529,
+      "pan": -0.5,
+      "seed": 556313
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 27.68953,
+      "duration": 4.38462,
+      "velocity": 0.05448,
+      "pan": 0.15,
+      "seed": 54752
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 27.70091,
+      "duration": 4.38462,
+      "velocity": 0.05405,
+      "pan": 0.55,
+      "seed": 473614
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 27.6841,
+      "duration": 4.15385,
+      "velocity": 0.06327,
+      "pan": -0.2,
+      "seed": 207291
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 27.68443,
+      "duration": 0.53846,
+      "velocity": 0.07095,
+      "pan": 0.25,
+      "seed": 186245
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 28.46393,
+      "duration": 0.53846,
+      "velocity": 0.0714,
+      "pan": 0.25,
+      "seed": 466576
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 29.22801,
+      "duration": 0.53846,
+      "velocity": 0.06802,
+      "pan": 0.25,
+      "seed": 252866
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 27.68927,
+      "duration": 0.61538,
+      "velocity": 0.08543,
+      "pan": -0.1,
+      "seed": 391660
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 27.6922,
+      "duration": 0.40615,
+      "velocity": 0.14246,
+      "pan": 0.12,
+      "seed": 891535
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 28.14811,
+      "duration": 0.13538,
+      "velocity": 0.11276,
+      "pan": 0.12,
+      "seed": 803687
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 28.30575,
+      "duration": 0.54154,
+      "velocity": 0.13668,
+      "pan": 0.12,
+      "seed": 659068
+    },
+    {
+      "instrument": "reed",
+      "midi": 55,
+      "start": 28.91604,
+      "duration": 0.54154,
+      "velocity": 0.10635,
+      "pan": 0.12,
+      "seed": 501291
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 29.53856,
+      "duration": 0.54154,
+      "velocity": 0.1042,
+      "pan": 0.12,
+      "seed": 483107
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 30.15377,
+      "duration": 1.08308,
+      "velocity": 0.10696,
+      "pan": 0.12,
+      "seed": 644296
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 31.37978,
+      "duration": 0.54154,
+      "velocity": 0.13775,
+      "pan": 0.12,
+      "seed": 959181
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 31.99943,
+      "duration": 0.54154,
+      "velocity": 0.11425,
+      "pan": 0.12,
+      "seed": 596141
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 32.61827,
+      "duration": 0.54154,
+      "velocity": 0.11681,
+      "pan": 0.12,
+      "seed": 214590
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 33.23818,
+      "duration": 0.54154,
+      "velocity": 0.11699,
+      "pan": 0.12,
+      "seed": 775756
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 33.84731,
+      "duration": 1.08308,
+      "velocity": 0.11442,
+      "pan": 0.12,
+      "seed": 463792
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 35.07338,
+      "duration": 0.54154,
+      "velocity": 0.10888,
+      "pan": 0.12,
+      "seed": 821992
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 35.7043,
+      "duration": 1.08308,
+      "velocity": 0.10843,
+      "pan": 0.12,
+      "seed": 301821
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 30.00237,
+      "duration": 0.53846,
+      "velocity": 0.06857,
+      "pan": 0.25,
+      "seed": 595789
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 30.77565,
+      "duration": 0.53846,
+      "velocity": 0.06543,
+      "pan": 0.25,
+      "seed": 198336
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 31.52861,
+      "duration": 0.53846,
+      "velocity": 0.06678,
+      "pan": 0.25,
+      "seed": 704532
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 29.99438,
+      "duration": 0.61538,
+      "velocity": 0.08344,
+      "pan": -0.1,
+      "seed": 225456
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 32.31714,
+      "duration": 4.38462,
+      "velocity": 0.05634,
+      "pan": -0.5,
+      "seed": 464969
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 32.31007,
+      "duration": 4.38462,
+      "velocity": 0.05195,
+      "pan": 0.15,
+      "seed": 183829
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 32.30849,
+      "duration": 4.38462,
+      "velocity": 0.054,
+      "pan": 0.55,
+      "seed": 756383
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 32.30839,
+      "duration": 4.38462,
+      "velocity": 0.05569,
+      "pan": 0.3,
+      "seed": 999725
+    },
+    {
+      "instrument": "cello",
+      "midi": 40,
+      "start": 32.31371,
+      "duration": 4.15385,
+      "velocity": 0.06539,
+      "pan": -0.2,
+      "seed": 699379
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 32.31087,
+      "duration": 0.53846,
+      "velocity": 0.06616,
+      "pan": 0.25,
+      "seed": 265784
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 33.07983,
+      "duration": 0.53846,
+      "velocity": 0.0658,
+      "pan": 0.25,
+      "seed": 347365
+    },
+    {
+      "instrument": "piano",
+      "midi": 68,
+      "start": 33.84954,
+      "duration": 0.53846,
+      "velocity": 0.06823,
+      "pan": 0.25,
+      "seed": 808077
+    },
+    {
+      "instrument": "bass",
+      "midi": 40,
+      "start": 32.29746,
+      "duration": 0.61538,
+      "velocity": 0.0844,
+      "pan": -0.1,
+      "seed": 154827
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 34.61446,
+      "duration": 0.53846,
+      "velocity": 0.07121,
+      "pan": 0.25,
+      "seed": 373483
+    },
+    {
+      "instrument": "piano",
+      "midi": 68,
+      "start": 35.38461,
+      "duration": 0.53846,
+      "velocity": 0.06676,
+      "pan": 0.25,
+      "seed": 93650
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 36.14813,
+      "duration": 0.53846,
+      "velocity": 0.06855,
+      "pan": 0.25,
+      "seed": 414637
+    },
+    {
+      "instrument": "bass",
+      "midi": 40,
+      "start": 34.60939,
+      "duration": 0.61538,
+      "velocity": 0.08568,
+      "pan": -0.1,
+      "seed": 76506
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 36.92572,
+      "duration": 4.38462,
+      "velocity": 0.06731,
+      "pan": -0.5,
+      "seed": 142053
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 36.93094,
+      "duration": 4.38462,
+      "velocity": 0.06731,
+      "pan": 0.15,
+      "seed": 590474
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 36.92044,
+      "duration": 4.38462,
+      "velocity": 0.06656,
+      "pan": 0.55,
+      "seed": 750496
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 36.93012,
+      "duration": 4.15385,
+      "velocity": 0.07322,
+      "pan": -0.2,
+      "seed": 599356
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 36.91487,
+      "duration": 0.53846,
+      "velocity": 0.08063,
+      "pan": 0.25,
+      "seed": 923057
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 37.68871,
+      "duration": 0.53846,
+      "velocity": 0.08459,
+      "pan": 0.25,
+      "seed": 506199
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 38.45695,
+      "duration": 0.53846,
+      "velocity": 0.07838,
+      "pan": 0.25,
+      "seed": 482571
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 36.92823,
+      "duration": 0.61538,
+      "velocity": 0.10189,
+      "pan": -0.1,
+      "seed": 864353
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 36.92727,
+      "duration": 0.43385,
+      "velocity": 0.15337,
+      "pan": -0.12,
+      "seed": 504975
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 37.38438,
+      "duration": 0.14462,
+      "velocity": 0.12413,
+      "pan": -0.12,
+      "seed": 424709
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 37.53577,
+      "duration": 0.57846,
+      "velocity": 0.16026,
+      "pan": -0.12,
+      "seed": 260074
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 38.1606,
+      "duration": 0.57846,
+      "velocity": 0.13708,
+      "pan": -0.12,
+      "seed": 808379
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 38.77161,
+      "duration": 0.57846,
+      "velocity": 0.13428,
+      "pan": -0.12,
+      "seed": 683565
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 39.37848,
+      "duration": 1.15692,
+      "velocity": 0.12409,
+      "pan": -0.12,
+      "seed": 330825
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 40.60345,
+      "duration": 0.57846,
+      "velocity": 0.15866,
+      "pan": -0.12,
+      "seed": 474904
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 41.22134,
+      "duration": 0.57846,
+      "velocity": 0.1335,
+      "pan": -0.12,
+      "seed": 116016
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 41.84396,
+      "duration": 0.57846,
+      "velocity": 0.13636,
+      "pan": -0.12,
+      "seed": 342466
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 42.45815,
+      "duration": 0.57846,
+      "velocity": 0.13445,
+      "pan": -0.12,
+      "seed": 916578
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 43.08662,
+      "duration": 1.15692,
+      "velocity": 0.12802,
+      "pan": -0.12,
+      "seed": 655435
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 44.30666,
+      "duration": 0.57846,
+      "velocity": 0.13162,
+      "pan": -0.12,
+      "seed": 136309
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 44.9235,
+      "duration": 1.15692,
+      "velocity": 0.13702,
+      "pan": -0.12,
+      "seed": 384703
+    },
+    {
+      "instrument": "cello",
+      "midi": 52,
+      "start": 36.93466,
+      "duration": 1.98462,
+      "velocity": 0.05213,
+      "pan": -0.48,
+      "seed": 406979
+    },
+    {
+      "instrument": "cello",
+      "midi": 50,
+      "start": 39.21901,
+      "duration": 1.98462,
+      "velocity": 0.05723,
+      "pan": -0.48,
+      "seed": 988483
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 41.53894,
+      "duration": 1.98462,
+      "velocity": 0.05321,
+      "pan": -0.48,
+      "seed": 666961
+    },
+    {
+      "instrument": "cello",
+      "midi": 45,
+      "start": 43.84863,
+      "duration": 1.98462,
+      "velocity": 0.05607,
+      "pan": -0.48,
+      "seed": 872320
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 39.22284,
+      "duration": 0.53846,
+      "velocity": 0.08469,
+      "pan": 0.25,
+      "seed": 1901
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 40.00722,
+      "duration": 0.53846,
+      "velocity": 0.0781,
+      "pan": 0.25,
+      "seed": 133239
+    },
+    {
+      "instrument": "piano",
+      "midi": 76,
+      "start": 40.7809,
+      "duration": 0.53846,
+      "velocity": 0.08458,
+      "pan": 0.25,
+      "seed": 986841
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 39.22683,
+      "duration": 0.61538,
+      "velocity": 0.10411,
+      "pan": -0.1,
+      "seed": 909820
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 41.54335,
+      "duration": 4.38462,
+      "velocity": 0.06573,
+      "pan": -0.5,
+      "seed": 686673
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 41.54684,
+      "duration": 4.38462,
+      "velocity": 0.06134,
+      "pan": 0.15,
+      "seed": 808487
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 41.52763,
+      "duration": 4.38462,
+      "velocity": 0.06688,
+      "pan": 0.55,
+      "seed": 130818
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 41.54622,
+      "duration": 4.15385,
+      "velocity": 0.07651,
+      "pan": -0.2,
+      "seed": 929183
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 41.53833,
+      "duration": 0.53846,
+      "velocity": 0.07911,
+      "pan": 0.25,
+      "seed": 558745
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 42.31361,
+      "duration": 0.53846,
+      "velocity": 0.08431,
+      "pan": 0.25,
+      "seed": 472260
+    },
+    {
+      "instrument": "piano",
+      "midi": 81,
+      "start": 43.07517,
+      "duration": 0.53846,
+      "velocity": 0.08489,
+      "pan": 0.25,
+      "seed": 273275
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 41.53423,
+      "duration": 0.61538,
+      "velocity": 0.09832,
+      "pan": -0.1,
+      "seed": 462889
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 43.84833,
+      "duration": 0.53846,
+      "velocity": 0.08473,
+      "pan": 0.25,
+      "seed": 805286
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 44.61887,
+      "duration": 0.53846,
+      "velocity": 0.08029,
+      "pan": 0.25,
+      "seed": 67042
+    },
+    {
+      "instrument": "piano",
+      "midi": 84,
+      "start": 45.38494,
+      "duration": 0.53846,
+      "velocity": 0.07906,
+      "pan": 0.25,
+      "seed": 779648
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 43.84853,
+      "duration": 0.61538,
+      "velocity": 0.09576,
+      "pan": -0.1,
+      "seed": 150066
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 46.16022,
+      "duration": 4.38462,
+      "velocity": 0.06016,
+      "pan": -0.5,
+      "seed": 348317
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 46.15635,
+      "duration": 4.38462,
+      "velocity": 0.06705,
+      "pan": 0.15,
+      "seed": 429995
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 46.1479,
+      "duration": 4.38462,
+      "velocity": 0.06644,
+      "pan": 0.55,
+      "seed": 691192
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 46.16433,
+      "duration": 4.15385,
+      "velocity": 0.08061,
+      "pan": -0.2,
+      "seed": 399620
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 46.15813,
+      "duration": 0.53846,
+      "velocity": 0.0862,
+      "pan": 0.25,
+      "seed": 613595
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 46.92501,
+      "duration": 0.53846,
+      "velocity": 0.08597,
+      "pan": 0.25,
+      "seed": 961152
+    },
+    {
+      "instrument": "piano",
+      "midi": 76,
+      "start": 47.69966,
+      "duration": 0.53846,
+      "velocity": 0.07817,
+      "pan": 0.25,
+      "seed": 451559
+    },
+    {
+      "instrument": "bass",
+      "midi": 36,
+      "start": 46.16373,
+      "duration": 0.61538,
+      "velocity": 0.10568,
+      "pan": -0.1,
+      "seed": 433852
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 46.15836,
+      "duration": 0.43385,
+      "velocity": 0.16799,
+      "pan": -0.12,
+      "seed": 86751
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 46.60694,
+      "duration": 0.14462,
+      "velocity": 0.13879,
+      "pan": -0.12,
+      "seed": 972569
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 46.76017,
+      "duration": 0.57846,
+      "velocity": 0.1537,
+      "pan": -0.12,
+      "seed": 699711
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 47.3741,
+      "duration": 0.57846,
+      "velocity": 0.13084,
+      "pan": -0.12,
+      "seed": 288685
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 48.00401,
+      "duration": 0.57846,
+      "velocity": 0.1306,
+      "pan": -0.12,
+      "seed": 902346
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 48.60542,
+      "duration": 1.15692,
+      "velocity": 0.13786,
+      "pan": -0.12,
+      "seed": 662551
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 49.84148,
+      "duration": 0.57846,
+      "velocity": 0.15643,
+      "pan": -0.12,
+      "seed": 566904
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 50.45637,
+      "duration": 0.57846,
+      "velocity": 0.12391,
+      "pan": -0.12,
+      "seed": 764657
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 51.08175,
+      "duration": 0.57846,
+      "velocity": 0.13257,
+      "pan": -0.12,
+      "seed": 110523
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 51.68658,
+      "duration": 0.57846,
+      "velocity": 0.13139,
+      "pan": -0.12,
+      "seed": 230404
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 52.30306,
+      "duration": 1.15692,
+      "velocity": 0.13179,
+      "pan": -0.12,
+      "seed": 238294
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 53.54618,
+      "duration": 0.57846,
+      "velocity": 0.13561,
+      "pan": -0.12,
+      "seed": 579383
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 54.14438,
+      "duration": 1.15692,
+      "velocity": 0.12918,
+      "pan": -0.12,
+      "seed": 945186
+    },
+    {
+      "instrument": "cello",
+      "midi": 52,
+      "start": 46.14383,
+      "duration": 1.98462,
+      "velocity": 0.05314,
+      "pan": -0.48,
+      "seed": 654348
+    },
+    {
+      "instrument": "cello",
+      "midi": 50,
+      "start": 48.45318,
+      "duration": 1.98462,
+      "velocity": 0.05129,
+      "pan": -0.48,
+      "seed": 473888
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 50.77124,
+      "duration": 1.98462,
+      "velocity": 0.05152,
+      "pan": -0.48,
+      "seed": 814227
+    },
+    {
+      "instrument": "cello",
+      "midi": 45,
+      "start": 53.07806,
+      "duration": 1.98462,
+      "velocity": 0.05663,
+      "pan": -0.48,
+      "seed": 86581
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 48.45486,
+      "duration": 0.53846,
+      "velocity": 0.08487,
+      "pan": 0.25,
+      "seed": 409554
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 49.21911,
+      "duration": 0.53846,
+      "velocity": 0.08309,
+      "pan": 0.25,
+      "seed": 327172
+    },
+    {
+      "instrument": "piano",
+      "midi": 79,
+      "start": 50.00102,
+      "duration": 0.53846,
+      "velocity": 0.0858,
+      "pan": 0.25,
+      "seed": 185868
+    },
+    {
+      "instrument": "bass",
+      "midi": 36,
+      "start": 48.46936,
+      "duration": 0.61538,
+      "velocity": 0.09627,
+      "pan": -0.1,
+      "seed": 339206
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 50.77604,
+      "duration": 4.38462,
+      "velocity": 0.05993,
+      "pan": -0.5,
+      "seed": 292220
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 50.77041,
+      "duration": 4.38462,
+      "velocity": 0.06418,
+      "pan": 0.15,
+      "seed": 360304
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 50.76379,
+      "duration": 4.38462,
+      "velocity": 0.06213,
+      "pan": 0.55,
+      "seed": 619678
+    },
+    {
+      "instrument": "cello",
+      "midi": 43,
+      "start": 50.77718,
+      "duration": 4.15385,
+      "velocity": 0.07634,
+      "pan": -0.2,
+      "seed": 521142
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 50.76922,
+      "duration": 0.53846,
+      "velocity": 0.0844,
+      "pan": 0.25,
+      "seed": 712020
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 51.54311,
+      "duration": 0.53846,
+      "velocity": 0.0793,
+      "pan": 0.25,
+      "seed": 354964
+    },
+    {
+      "instrument": "piano",
+      "midi": 83,
+      "start": 52.29672,
+      "duration": 0.53846,
+      "velocity": 0.08283,
+      "pan": 0.25,
+      "seed": 203616
+    },
+    {
+      "instrument": "bass",
+      "midi": 43,
+      "start": 50.76296,
+      "duration": 0.61538,
+      "velocity": 0.10757,
+      "pan": -0.1,
+      "seed": 89775
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 53.0658,
+      "duration": 0.53846,
+      "velocity": 0.08431,
+      "pan": 0.25,
+      "seed": 557716
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 53.85381,
+      "duration": 0.53846,
+      "velocity": 0.08372,
+      "pan": 0.25,
+      "seed": 790562
+    },
+    {
+      "instrument": "piano",
+      "midi": 86,
+      "start": 54.60526,
+      "duration": 0.53846,
+      "velocity": 0.07945,
+      "pan": 0.25,
+      "seed": 646652
+    },
+    {
+      "instrument": "bass",
+      "midi": 43,
+      "start": 53.08474,
+      "duration": 0.61538,
+      "velocity": 0.10152,
+      "pan": -0.1,
+      "seed": 545145
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 55.39012,
+      "duration": 4.38462,
+      "velocity": 0.04814,
+      "pan": -0.5,
+      "seed": 920980
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 55.38631,
+      "duration": 4.38462,
+      "velocity": 0.05103,
+      "pan": 0.15,
+      "seed": 433998
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 55.37619,
+      "duration": 4.38462,
+      "velocity": 0.04686,
+      "pan": 0.55,
+      "seed": 2841
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 55.38898,
+      "duration": 4.15385,
+      "velocity": 0.05471,
+      "pan": -0.2,
+      "seed": 364959
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 55.37428,
+      "duration": 0.53846,
+      "velocity": 0.06388,
+      "pan": 0.25,
+      "seed": 507975
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 56.15494,
+      "duration": 0.53846,
+      "velocity": 0.06547,
+      "pan": 0.25,
+      "seed": 720710
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 56.92255,
+      "duration": 0.53846,
+      "velocity": 0.0641,
+      "pan": 0.25,
+      "seed": 32016
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 55.37517,
+      "duration": 0.61538,
+      "velocity": 0.07943,
+      "pan": -0.1,
+      "seed": 819232
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 55.38004,
+      "duration": 0.43385,
+      "velocity": 0.12509,
+      "pan": -0.12,
+      "seed": 863556
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 55.84751,
+      "duration": 0.14462,
+      "velocity": 0.10372,
+      "pan": -0.12,
+      "seed": 118708
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 55.98964,
+      "duration": 0.57846,
+      "velocity": 0.12578,
+      "pan": -0.12,
+      "seed": 830717
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 57.22651,
+      "duration": 0.57846,
+      "velocity": 0.09456,
+      "pan": -0.12,
+      "seed": 636028
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 57.84875,
+      "duration": 1.15692,
+      "velocity": 0.1045,
+      "pan": -0.12,
+      "seed": 131323
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 59.07403,
+      "duration": 0.57846,
+      "velocity": 0.12065,
+      "pan": -0.12,
+      "seed": 779144
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 60.30423,
+      "duration": 0.57846,
+      "velocity": 0.10426,
+      "pan": -0.12,
+      "seed": 540815
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 60.91162,
+      "duration": 0.57846,
+      "velocity": 0.0997,
+      "pan": -0.12,
+      "seed": 348751
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 61.53969,
+      "duration": 1.15692,
+      "velocity": 0.09374,
+      "pan": -0.12,
+      "seed": 427805
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 62.76265,
+      "duration": 0.57846,
+      "velocity": 0.09602,
+      "pan": -0.12,
+      "seed": 868134
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 63.39039,
+      "duration": 1.15692,
+      "velocity": 0.09505,
+      "pan": -0.12,
+      "seed": 819962
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 57.68055,
+      "duration": 0.53846,
+      "velocity": 0.06154,
+      "pan": 0.25,
+      "seed": 925869
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 58.47323,
+      "duration": 0.53846,
+      "velocity": 0.06318,
+      "pan": 0.25,
+      "seed": 106852
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 59.21897,
+      "duration": 0.53846,
+      "velocity": 0.05928,
+      "pan": 0.25,
+      "seed": 410849
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 57.69829,
+      "duration": 0.61538,
+      "velocity": 0.07346,
+      "pan": -0.1,
+      "seed": 307050
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 59.9973,
+      "duration": 4.38462,
+      "velocity": 0.04677,
+      "pan": -0.5,
+      "seed": 220289
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 59.99183,
+      "duration": 4.38462,
+      "velocity": 0.05045,
+      "pan": 0.15,
+      "seed": 127969
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 60.00769,
+      "duration": 4.38462,
+      "velocity": 0.04884,
+      "pan": 0.55,
+      "seed": 625279
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 59.99823,
+      "duration": 4.38462,
+      "velocity": 0.04938,
+      "pan": 0.3,
+      "seed": 328990
+    },
+    {
+      "instrument": "cello",
+      "midi": 40,
+      "start": 60.00763,
+      "duration": 4.15385,
+      "velocity": 0.05985,
+      "pan": -0.2,
+      "seed": 401058
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 60.00393,
+      "duration": 0.53846,
+      "velocity": 0.06477,
+      "pan": 0.25,
+      "seed": 94328
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 60.75886,
+      "duration": 0.53846,
+      "velocity": 0.05892,
+      "pan": 0.25,
+      "seed": 268275
+    },
+    {
+      "instrument": "piano",
+      "midi": 68,
+      "start": 61.53976,
+      "duration": 0.53846,
+      "velocity": 0.05903,
+      "pan": 0.25,
+      "seed": 70125
+    },
+    {
+      "instrument": "bass",
+      "midi": 40,
+      "start": 59.99094,
+      "duration": 0.61538,
+      "velocity": 0.07461,
+      "pan": -0.1,
+      "seed": 100423
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 62.30032,
+      "duration": 0.53846,
+      "velocity": 0.06366,
+      "pan": 0.25,
+      "seed": 272158
+    },
+    {
+      "instrument": "piano",
+      "midi": 68,
+      "start": 63.08723,
+      "duration": 0.53846,
+      "velocity": 0.06474,
+      "pan": 0.25,
+      "seed": 354422
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 63.84862,
+      "duration": 0.53846,
+      "velocity": 0.06159,
+      "pan": 0.25,
+      "seed": 529467
+    },
+    {
+      "instrument": "bass",
+      "midi": 40,
+      "start": 62.29673,
+      "duration": 0.61538,
+      "velocity": 0.0773,
+      "pan": -0.1,
+      "seed": 788452
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 64.62114,
+      "duration": 4.38462,
+      "velocity": 0.04655,
+      "pan": -0.5,
+      "seed": 153626
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 64.61693,
+      "duration": 4.38462,
+      "velocity": 0.04948,
+      "pan": 0.15,
+      "seed": 769374
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 64.6117,
+      "duration": 4.38462,
+      "velocity": 0.04957,
+      "pan": 0.55,
+      "seed": 462777
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 64.61483,
+      "duration": 4.15385,
+      "velocity": 0.06113,
+      "pan": -0.2,
+      "seed": 746842
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 64.60559,
+      "duration": 0.53846,
+      "velocity": 0.06434,
+      "pan": 0.25,
+      "seed": 100069
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 65.38586,
+      "duration": 0.53846,
+      "velocity": 0.06589,
+      "pan": 0.25,
+      "seed": 518257
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 66.1613,
+      "duration": 0.53846,
+      "velocity": 0.06517,
+      "pan": 0.25,
+      "seed": 236898
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 64.61899,
+      "duration": 0.61538,
+      "velocity": 0.07297,
+      "pan": -0.1,
+      "seed": 133357
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 64.6142,
+      "duration": 0.43385,
+      "velocity": 0.12176,
+      "pan": -0.12,
+      "seed": 904641
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 65.08102,
+      "duration": 0.14462,
+      "velocity": 0.10187,
+      "pan": -0.12,
+      "seed": 170298
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 65.23972,
+      "duration": 0.57846,
+      "velocity": 0.11604,
+      "pan": -0.12,
+      "seed": 394576
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 66.45767,
+      "duration": 0.57846,
+      "velocity": 0.10045,
+      "pan": -0.12,
+      "seed": 601912
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 67.07541,
+      "duration": 1.15692,
+      "velocity": 0.10211,
+      "pan": -0.12,
+      "seed": 216677
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 68.30406,
+      "duration": 0.57846,
+      "velocity": 0.11455,
+      "pan": -0.12,
+      "seed": 558898
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 69.53938,
+      "duration": 0.57846,
+      "velocity": 0.09724,
+      "pan": -0.12,
+      "seed": 448500
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 70.16557,
+      "duration": 0.57846,
+      "velocity": 0.10139,
+      "pan": -0.12,
+      "seed": 149003
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 70.7596,
+      "duration": 1.15692,
+      "velocity": 0.10063,
+      "pan": -0.12,
+      "seed": 349037
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 72.00544,
+      "duration": 0.57846,
+      "velocity": 0.10229,
+      "pan": -0.12,
+      "seed": 195675
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 72.62252,
+      "duration": 1.15692,
+      "velocity": 0.09977,
+      "pan": -0.12,
+      "seed": 591534
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 66.92402,
+      "duration": 0.53846,
+      "velocity": 0.06306,
+      "pan": 0.25,
+      "seed": 973413
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 67.70387,
+      "duration": 0.53846,
+      "velocity": 0.06262,
+      "pan": 0.25,
+      "seed": 92421
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 68.4668,
+      "duration": 0.53846,
+      "velocity": 0.05985,
+      "pan": 0.25,
+      "seed": 919753
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 66.92475,
+      "duration": 0.61538,
+      "velocity": 0.0757,
+      "pan": -0.1,
+      "seed": 768737
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 69.23964,
+      "duration": 4.38462,
+      "velocity": 0.04589,
+      "pan": -0.5,
+      "seed": 287733
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 69.22551,
+      "duration": 4.38462,
+      "velocity": 0.04713,
+      "pan": 0.15,
+      "seed": 269667
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 69.23074,
+      "duration": 4.38462,
+      "velocity": 0.04742,
+      "pan": 0.55,
+      "seed": 569349
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 69.22474,
+      "duration": 4.15385,
+      "velocity": 0.05506,
+      "pan": -0.2,
+      "seed": 301197
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 69.22982,
+      "duration": 0.53846,
+      "velocity": 0.066,
+      "pan": 0.25,
+      "seed": 743011
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 70.00218,
+      "duration": 0.53846,
+      "velocity": 0.06116,
+      "pan": 0.25,
+      "seed": 870824
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 70.76809,
+      "duration": 0.53846,
+      "velocity": 0.06323,
+      "pan": 0.25,
+      "seed": 658056
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 69.22048,
+      "duration": 0.61538,
+      "velocity": 0.08073,
+      "pan": -0.1,
+      "seed": 457250
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 71.53318,
+      "duration": 0.53846,
+      "velocity": 0.06492,
+      "pan": 0.25,
+      "seed": 367403
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 72.31189,
+      "duration": 0.53846,
+      "velocity": 0.06513,
+      "pan": 0.25,
+      "seed": 166414
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 73.07294,
+      "duration": 0.53846,
+      "velocity": 0.05997,
+      "pan": 0.25,
+      "seed": 958817
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 71.52878,
+      "duration": 0.61538,
+      "velocity": 0.07763,
+      "pan": -0.1,
+      "seed": 501029
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 73.83602,
+      "duration": 4.38462,
+      "velocity": 0.06821,
+      "pan": -0.5,
+      "seed": 312714
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 73.85173,
+      "duration": 4.38462,
+      "velocity": 0.06767,
+      "pan": 0.15,
+      "seed": 876295
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 73.84767,
+      "duration": 4.38462,
+      "velocity": 0.07311,
+      "pan": 0.55,
+      "seed": 600461
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 73.84002,
+      "duration": 4.15385,
+      "velocity": 0.08218,
+      "pan": -0.2,
+      "seed": 442893
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 73.85748,
+      "duration": 0.53846,
+      "velocity": 0.08786,
+      "pan": 0.25,
+      "seed": 302871
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 74.61217,
+      "duration": 0.53846,
+      "velocity": 0.09319,
+      "pan": 0.25,
+      "seed": 933860
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 75.37529,
+      "duration": 0.53846,
+      "velocity": 0.09511,
+      "pan": 0.25,
+      "seed": 747756
+    },
+    {
+      "instrument": "bass",
+      "midi": 36,
+      "start": 73.84652,
+      "duration": 0.61538,
+      "velocity": 0.1155,
+      "pan": -0.1,
+      "seed": 303127
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 73.83542,
+      "duration": 0.40615,
+      "velocity": 0.17048,
+      "pan": 0.12,
+      "seed": 274293
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 74.31523,
+      "duration": 0.13538,
+      "velocity": 0.15115,
+      "pan": 0.12,
+      "seed": 328272
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 74.46328,
+      "duration": 0.54154,
+      "velocity": 0.17067,
+      "pan": 0.12,
+      "seed": 810671
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 75.07401,
+      "duration": 0.54154,
+      "velocity": 0.14168,
+      "pan": 0.12,
+      "seed": 657700
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 75.68737,
+      "duration": 0.54154,
+      "velocity": 0.15447,
+      "pan": 0.12,
+      "seed": 365825
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 76.30051,
+      "duration": 1.08308,
+      "velocity": 0.1428,
+      "pan": 0.12,
+      "seed": 486887
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 77.54474,
+      "duration": 0.54154,
+      "velocity": 0.18657,
+      "pan": 0.12,
+      "seed": 228018
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 78.15651,
+      "duration": 0.54154,
+      "velocity": 0.14347,
+      "pan": 0.12,
+      "seed": 515202
+    },
+    {
+      "instrument": "reed",
+      "midi": 69,
+      "start": 78.77196,
+      "duration": 0.54154,
+      "velocity": 0.14756,
+      "pan": 0.12,
+      "seed": 946084
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 79.37549,
+      "duration": 0.54154,
+      "velocity": 0.14229,
+      "pan": 0.12,
+      "seed": 882299
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 79.99469,
+      "duration": 1.08308,
+      "velocity": 0.15611,
+      "pan": 0.12,
+      "seed": 599013
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 81.24277,
+      "duration": 0.54154,
+      "velocity": 0.14599,
+      "pan": 0.12,
+      "seed": 997779
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 81.85347,
+      "duration": 1.08308,
+      "velocity": 0.15187,
+      "pan": 0.12,
+      "seed": 890676
+    },
+    {
+      "instrument": "cello",
+      "midi": 52,
+      "start": 73.84739,
+      "duration": 1.98462,
+      "velocity": 0.06138,
+      "pan": -0.48,
+      "seed": 245878
+    },
+    {
+      "instrument": "cello",
+      "midi": 50,
+      "start": 76.15635,
+      "duration": 1.98462,
+      "velocity": 0.06367,
+      "pan": -0.48,
+      "seed": 603689
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 78.45373,
+      "duration": 1.98462,
+      "velocity": 0.0579,
+      "pan": -0.48,
+      "seed": 79409
+    },
+    {
+      "instrument": "cello",
+      "midi": 45,
+      "start": 80.76672,
+      "duration": 1.98462,
+      "velocity": 0.06112,
+      "pan": -0.48,
+      "seed": 210938
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 76.15137,
+      "duration": 0.53846,
+      "velocity": 0.08952,
+      "pan": 0.25,
+      "seed": 265702
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 76.92015,
+      "duration": 0.53846,
+      "velocity": 0.08834,
+      "pan": 0.25,
+      "seed": 196733
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 77.68837,
+      "duration": 0.53846,
+      "velocity": 0.09516,
+      "pan": 0.25,
+      "seed": 812511
+    },
+    {
+      "instrument": "bass",
+      "midi": 36,
+      "start": 76.16294,
+      "duration": 0.61538,
+      "velocity": 0.11282,
+      "pan": -0.1,
+      "seed": 273001
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 78.45666,
+      "duration": 4.38462,
+      "velocity": 0.06772,
+      "pan": -0.5,
+      "seed": 733460
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 78.46797,
+      "duration": 4.38462,
+      "velocity": 0.07537,
+      "pan": 0.15,
+      "seed": 722347
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 78.46741,
+      "duration": 4.38462,
+      "velocity": 0.07427,
+      "pan": 0.55,
+      "seed": 310437
+    },
+    {
+      "instrument": "cello",
+      "midi": 43,
+      "start": 78.46621,
+      "duration": 4.15385,
+      "velocity": 0.0851,
+      "pan": -0.2,
+      "seed": 649742
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 78.46391,
+      "duration": 0.53846,
+      "velocity": 0.09757,
+      "pan": 0.25,
+      "seed": 274962
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 79.23185,
+      "duration": 0.53846,
+      "velocity": 0.08918,
+      "pan": 0.25,
+      "seed": 952663
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 80.00905,
+      "duration": 0.53846,
+      "velocity": 0.08945,
+      "pan": 0.25,
+      "seed": 34014
+    },
+    {
+      "instrument": "bass",
+      "midi": 43,
+      "start": 78.45682,
+      "duration": 0.61538,
+      "velocity": 0.11735,
+      "pan": -0.1,
+      "seed": 481635
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 80.75832,
+      "duration": 0.53846,
+      "velocity": 0.08921,
+      "pan": 0.25,
+      "seed": 685012
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 81.54216,
+      "duration": 0.53846,
+      "velocity": 0.09018,
+      "pan": 0.25,
+      "seed": 857699
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 82.31547,
+      "duration": 0.53846,
+      "velocity": 0.096,
+      "pan": 0.25,
+      "seed": 812650
+    },
+    {
+      "instrument": "bass",
+      "midi": 43,
+      "start": 80.75741,
+      "duration": 0.61538,
+      "velocity": 0.11079,
+      "pan": -0.1,
+      "seed": 324579
+    },
+    {
+      "instrument": "strings",
+      "midi": 62,
+      "start": 83.0793,
+      "duration": 4.38462,
+      "velocity": 0.07014,
+      "pan": -0.5,
+      "seed": 18016
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 83.08315,
+      "duration": 4.38462,
+      "velocity": 0.07059,
+      "pan": 0.15,
+      "seed": 386785
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 83.07756,
+      "duration": 4.38462,
+      "velocity": 0.06891,
+      "pan": 0.55,
+      "seed": 896840
+    },
+    {
+      "instrument": "cello",
+      "midi": 38,
+      "start": 83.0677,
+      "duration": 4.15385,
+      "velocity": 0.08253,
+      "pan": -0.2,
+      "seed": 100542
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 83.06791,
+      "duration": 0.53846,
+      "velocity": 0.08963,
+      "pan": 0.25,
+      "seed": 128546
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 83.85336,
+      "duration": 0.53846,
+      "velocity": 0.08723,
+      "pan": 0.25,
+      "seed": 42513
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 84.61646,
+      "duration": 0.53846,
+      "velocity": 0.09367,
+      "pan": 0.25,
+      "seed": 233146
+    },
+    {
+      "instrument": "bass",
+      "midi": 38,
+      "start": 83.08744,
+      "duration": 0.61538,
+      "velocity": 0.11411,
+      "pan": -0.1,
+      "seed": 952562
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 83.08848,
+      "duration": 0.40615,
+      "velocity": 0.18436,
+      "pan": 0.12,
+      "seed": 204121
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 83.53475,
+      "duration": 0.13538,
+      "velocity": 0.14685,
+      "pan": 0.12,
+      "seed": 576087
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 83.69965,
+      "duration": 0.54154,
+      "velocity": 0.17766,
+      "pan": 0.12,
+      "seed": 605244
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 84.31517,
+      "duration": 0.54154,
+      "velocity": 0.14163,
+      "pan": 0.12,
+      "seed": 348447
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 84.92297,
+      "duration": 0.54154,
+      "velocity": 0.15051,
+      "pan": 0.12,
+      "seed": 549543
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 85.55037,
+      "duration": 1.08308,
+      "velocity": 0.152,
+      "pan": 0.12,
+      "seed": 755123
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 86.75822,
+      "duration": 0.54154,
+      "velocity": 0.18054,
+      "pan": 0.12,
+      "seed": 663830
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 87.39206,
+      "duration": 0.54154,
+      "velocity": 0.15571,
+      "pan": 0.12,
+      "seed": 178633
+    },
+    {
+      "instrument": "reed",
+      "midi": 69,
+      "start": 88.00702,
+      "duration": 0.54154,
+      "velocity": 0.1447,
+      "pan": 0.12,
+      "seed": 921952
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 88.61464,
+      "duration": 0.54154,
+      "velocity": 0.14733,
+      "pan": 0.12,
+      "seed": 533471
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 89.23723,
+      "duration": 1.08308,
+      "velocity": 0.14249,
+      "pan": 0.12,
+      "seed": 762905
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 90.46816,
+      "duration": 0.54154,
+      "velocity": 0.14557,
+      "pan": 0.12,
+      "seed": 930305
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 91.08063,
+      "duration": 1.08308,
+      "velocity": 0.14466,
+      "pan": 0.12,
+      "seed": 185678
+    },
+    {
+      "instrument": "cello",
+      "midi": 52,
+      "start": 83.08466,
+      "duration": 1.98462,
+      "velocity": 0.06228,
+      "pan": -0.48,
+      "seed": 437687
+    },
+    {
+      "instrument": "cello",
+      "midi": 50,
+      "start": 85.38196,
+      "duration": 1.98462,
+      "velocity": 0.06339,
+      "pan": -0.48,
+      "seed": 622804
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 87.68087,
+      "duration": 1.98462,
+      "velocity": 0.05747,
+      "pan": -0.48,
+      "seed": 901568
+    },
+    {
+      "instrument": "cello",
+      "midi": 45,
+      "start": 89.99404,
+      "duration": 1.98462,
+      "velocity": 0.06087,
+      "pan": -0.48,
+      "seed": 213504
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 85.37435,
+      "duration": 0.53846,
+      "velocity": 0.09299,
+      "pan": 0.25,
+      "seed": 918800
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 86.14928,
+      "duration": 0.53846,
+      "velocity": 0.08821,
+      "pan": 0.25,
+      "seed": 13116
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 86.93364,
+      "duration": 0.53846,
+      "velocity": 0.09476,
+      "pan": 0.25,
+      "seed": 125883
+    },
+    {
+      "instrument": "bass",
+      "midi": 38,
+      "start": 85.39265,
+      "duration": 0.61538,
+      "velocity": 0.11765,
+      "pan": -0.1,
+      "seed": 115256
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 87.68986,
+      "duration": 4.38462,
+      "velocity": 0.06835,
+      "pan": -0.5,
+      "seed": 465858
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 87.69614,
+      "duration": 4.38462,
+      "velocity": 0.07091,
+      "pan": 0.15,
+      "seed": 267926
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 87.68759,
+      "duration": 4.38462,
+      "velocity": 0.07277,
+      "pan": 0.55,
+      "seed": 915629
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 87.68569,
+      "duration": 4.15385,
+      "velocity": 0.0826,
+      "pan": -0.2,
+      "seed": 662181
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 87.68513,
+      "duration": 0.53846,
+      "velocity": 0.08848,
+      "pan": 0.25,
+      "seed": 425674
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 88.45199,
+      "duration": 0.53846,
+      "velocity": 0.08786,
+      "pan": 0.25,
+      "seed": 498957
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 89.21975,
+      "duration": 0.53846,
+      "velocity": 0.09497,
+      "pan": 0.25,
+      "seed": 289726
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 87.68128,
+      "duration": 0.61538,
+      "velocity": 0.10889,
+      "pan": -0.1,
+      "seed": 787786
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 90.00882,
+      "duration": 0.53846,
+      "velocity": 0.09307,
+      "pan": 0.25,
+      "seed": 676381
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 90.75747,
+      "duration": 0.53846,
+      "velocity": 0.09641,
+      "pan": 0.25,
+      "seed": 466900
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 91.54588,
+      "duration": 0.53846,
+      "velocity": 0.09759,
+      "pan": 0.25,
+      "seed": 785046
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 89.99779,
+      "duration": 0.61538,
+      "velocity": 0.11763,
+      "pan": -0.1,
+      "seed": 85441
+    },
+    {
+      "instrument": "strings",
+      "midi": 62,
+      "start": 92.31591,
+      "duration": 4.38462,
+      "velocity": 0.06454,
+      "pan": -0.5,
+      "seed": 672067
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 92.31588,
+      "duration": 4.38462,
+      "velocity": 0.05878,
+      "pan": 0.15,
+      "seed": 670530
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 92.31956,
+      "duration": 4.38462,
+      "velocity": 0.06215,
+      "pan": 0.55,
+      "seed": 693717
+    },
+    {
+      "instrument": "cello",
+      "midi": 38,
+      "start": 92.30989,
+      "duration": 4.15385,
+      "velocity": 0.0725,
+      "pan": -0.2,
+      "seed": 139314
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 92.30379,
+      "duration": 0.53846,
+      "velocity": 0.08413,
+      "pan": 0.25,
+      "seed": 45989
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 93.06867,
+      "duration": 0.53846,
+      "velocity": 0.08218,
+      "pan": 0.25,
+      "seed": 48260
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 93.83612,
+      "duration": 0.53846,
+      "velocity": 0.08485,
+      "pan": 0.25,
+      "seed": 23344
+    },
+    {
+      "instrument": "bass",
+      "midi": 38,
+      "start": 92.31615,
+      "duration": 0.61538,
+      "velocity": 0.0976,
+      "pan": -0.1,
+      "seed": 168846
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 92.31812,
+      "duration": 0.43385,
+      "velocity": 0.16336,
+      "pan": -0.12,
+      "seed": 936648
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 92.75944,
+      "duration": 0.14462,
+      "velocity": 0.12827,
+      "pan": -0.12,
+      "seed": 204726
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 92.92284,
+      "duration": 0.57846,
+      "velocity": 0.14849,
+      "pan": -0.12,
+      "seed": 452771
+    },
+    {
+      "instrument": "piano",
+      "midi": 55,
+      "start": 93.5471,
+      "duration": 0.57846,
+      "velocity": 0.1213,
+      "pan": -0.12,
+      "seed": 330754
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 94.16365,
+      "duration": 0.57846,
+      "velocity": 0.12867,
+      "pan": -0.12,
+      "seed": 973684
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 94.77114,
+      "duration": 1.15692,
+      "velocity": 0.13027,
+      "pan": -0.12,
+      "seed": 527044
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 95.99244,
+      "duration": 0.57846,
+      "velocity": 0.16375,
+      "pan": -0.12,
+      "seed": 659863
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 96.60624,
+      "duration": 0.57846,
+      "velocity": 0.12255,
+      "pan": -0.12,
+      "seed": 482096
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 97.23569,
+      "duration": 0.57846,
+      "velocity": 0.1272,
+      "pan": -0.12,
+      "seed": 325590
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 97.85695,
+      "duration": 0.57846,
+      "velocity": 0.12066,
+      "pan": -0.12,
+      "seed": 869324
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 98.46085,
+      "duration": 1.15692,
+      "velocity": 0.12325,
+      "pan": -0.12,
+      "seed": 343401
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 99.68205,
+      "duration": 0.57846,
+      "velocity": 0.12426,
+      "pan": -0.12,
+      "seed": 807326
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 100.3071,
+      "duration": 1.15692,
+      "velocity": 0.13556,
+      "pan": -0.12,
+      "seed": 899913
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 94.62317,
+      "duration": 0.53846,
+      "velocity": 0.07673,
+      "pan": 0.25,
+      "seed": 566619
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 95.37995,
+      "duration": 0.53846,
+      "velocity": 0.07819,
+      "pan": 0.25,
+      "seed": 785352
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 96.15513,
+      "duration": 0.53846,
+      "velocity": 0.07591,
+      "pan": 0.25,
+      "seed": 542317
+    },
+    {
+      "instrument": "bass",
+      "midi": 38,
+      "start": 94.60407,
+      "duration": 0.61538,
+      "velocity": 0.10001,
+      "pan": -0.1,
+      "seed": 683185
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 96.91145,
+      "duration": 4.38462,
+      "velocity": 0.06271,
+      "pan": -0.5,
+      "seed": 373969
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 96.92181,
+      "duration": 4.38462,
+      "velocity": 0.06291,
+      "pan": 0.15,
+      "seed": 824663
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 96.93065,
+      "duration": 4.38462,
+      "velocity": 0.06213,
+      "pan": 0.55,
+      "seed": 866775
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 96.92633,
+      "duration": 4.15385,
+      "velocity": 0.07325,
+      "pan": -0.2,
+      "seed": 193647
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 96.93044,
+      "duration": 0.53846,
+      "velocity": 0.08166,
+      "pan": 0.25,
+      "seed": 962589
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 97.68634,
+      "duration": 0.53846,
+      "velocity": 0.08379,
+      "pan": 0.25,
+      "seed": 357158
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 98.45106,
+      "duration": 0.53846,
+      "velocity": 0.07675,
+      "pan": 0.25,
+      "seed": 420104
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 96.91743,
+      "duration": 0.61538,
+      "velocity": 0.09613,
+      "pan": -0.1,
+      "seed": 891343
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 99.2322,
+      "duration": 0.53846,
+      "velocity": 0.07671,
+      "pan": 0.25,
+      "seed": 4972
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 99.99001,
+      "duration": 0.53846,
+      "velocity": 0.07852,
+      "pan": 0.25,
+      "seed": 527700
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 100.77755,
+      "duration": 0.53846,
+      "velocity": 0.08142,
+      "pan": 0.25,
+      "seed": 842254
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 99.22991,
+      "duration": 0.61538,
+      "velocity": 0.09396,
+      "pan": -0.1,
+      "seed": 223759
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 101.52825,
+      "duration": 4.38462,
+      "velocity": 0.06058,
+      "pan": -0.5,
+      "seed": 32
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 101.54044,
+      "duration": 4.38462,
+      "velocity": 0.06089,
+      "pan": 0.15,
+      "seed": 274405
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 101.53342,
+      "duration": 4.38462,
+      "velocity": 0.06425,
+      "pan": 0.55,
+      "seed": 9396
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 101.54286,
+      "duration": 4.15385,
+      "velocity": 0.07053,
+      "pan": -0.2,
+      "seed": 692023
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 101.53014,
+      "duration": 0.53846,
+      "velocity": 0.08216,
+      "pan": 0.25,
+      "seed": 717368
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 102.31556,
+      "duration": 0.53846,
+      "velocity": 0.07901,
+      "pan": 0.25,
+      "seed": 204830
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 103.06833,
+      "duration": 0.53846,
+      "velocity": 0.08056,
+      "pan": 0.25,
+      "seed": 958317
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 101.54314,
+      "duration": 0.61538,
+      "velocity": 0.10195,
+      "pan": -0.1,
+      "seed": 771188
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 101.53137,
+      "duration": 0.43385,
+      "velocity": 0.16509,
+      "pan": -0.12,
+      "seed": 263766
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 101.99894,
+      "duration": 0.14462,
+      "velocity": 0.12708,
+      "pan": -0.12,
+      "seed": 935375
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 102.15196,
+      "duration": 0.57846,
+      "velocity": 0.16091,
+      "pan": -0.12,
+      "seed": 824106
+    },
+    {
+      "instrument": "piano",
+      "midi": 55,
+      "start": 102.77812,
+      "duration": 0.57846,
+      "velocity": 0.12959,
+      "pan": -0.12,
+      "seed": 94426
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 103.38549,
+      "duration": 0.57846,
+      "velocity": 0.12647,
+      "pan": -0.12,
+      "seed": 695080
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 103.98882,
+      "duration": 1.15692,
+      "velocity": 0.12955,
+      "pan": -0.12,
+      "seed": 397756
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 105.23916,
+      "duration": 0.57846,
+      "velocity": 0.15499,
+      "pan": -0.12,
+      "seed": 868779
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 105.8349,
+      "duration": 0.57846,
+      "velocity": 0.12118,
+      "pan": -0.12,
+      "seed": 191355
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 106.46586,
+      "duration": 0.57846,
+      "velocity": 0.1207,
+      "pan": -0.12,
+      "seed": 183860
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 107.08737,
+      "duration": 0.57846,
+      "velocity": 0.13586,
+      "pan": -0.12,
+      "seed": 459414
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 107.69077,
+      "duration": 1.15692,
+      "velocity": 0.12602,
+      "pan": -0.12,
+      "seed": 133856
+    },
+    {
+      "instrument": "piano",
+      "midi": 59,
+      "start": 108.91466,
+      "duration": 0.57846,
+      "velocity": 0.12891,
+      "pan": -0.12,
+      "seed": 634227
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 109.54081,
+      "duration": 1.15692,
+      "velocity": 0.12676,
+      "pan": -0.12,
+      "seed": 280509
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 103.85117,
+      "duration": 0.53846,
+      "velocity": 0.07786,
+      "pan": 0.25,
+      "seed": 690626
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 104.61006,
+      "duration": 0.53846,
+      "velocity": 0.08062,
+      "pan": 0.25,
+      "seed": 306932
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 105.38363,
+      "duration": 0.53846,
+      "velocity": 0.08174,
+      "pan": 0.25,
+      "seed": 16675
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 103.84004,
+      "duration": 0.61538,
+      "velocity": 0.09767,
+      "pan": -0.1,
+      "seed": 890842
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 106.14232,
+      "duration": 4.38462,
+      "velocity": 0.06303,
+      "pan": -0.5,
+      "seed": 669563
+    },
+    {
+      "instrument": "strings",
+      "midi": 68,
+      "start": 106.14785,
+      "duration": 4.38462,
+      "velocity": 0.06396,
+      "pan": 0.15,
+      "seed": 348875
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 106.15308,
+      "duration": 4.38462,
+      "velocity": 0.06334,
+      "pan": 0.55,
+      "seed": 165434
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 106.16123,
+      "duration": 4.38462,
+      "velocity": 0.0646,
+      "pan": 0.3,
+      "seed": 839484
+    },
+    {
+      "instrument": "cello",
+      "midi": 40,
+      "start": 106.16252,
+      "duration": 4.15385,
+      "velocity": 0.07746,
+      "pan": -0.2,
+      "seed": 507960
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 106.16253,
+      "duration": 0.53846,
+      "velocity": 0.08053,
+      "pan": 0.25,
+      "seed": 741423
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 106.91605,
+      "duration": 0.53846,
+      "velocity": 0.08112,
+      "pan": 0.25,
+      "seed": 763046
+    },
+    {
+      "instrument": "piano",
+      "midi": 68,
+      "start": 107.6919,
+      "duration": 0.53846,
+      "velocity": 0.08454,
+      "pan": 0.25,
+      "seed": 648004
+    },
+    {
+      "instrument": "bass",
+      "midi": 40,
+      "start": 106.16579,
+      "duration": 0.61538,
+      "velocity": 0.09508,
+      "pan": -0.1,
+      "seed": 665682
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 108.46937,
+      "duration": 0.53846,
+      "velocity": 0.08459,
+      "pan": 0.25,
+      "seed": 738944
+    },
+    {
+      "instrument": "piano",
+      "midi": 68,
+      "start": 109.22294,
+      "duration": 0.53846,
+      "velocity": 0.08148,
+      "pan": 0.25,
+      "seed": 220111
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 109.99008,
+      "duration": 0.53846,
+      "velocity": 0.08438,
+      "pan": 0.25,
+      "seed": 300612
+    },
+    {
+      "instrument": "bass",
+      "midi": 40,
+      "start": 108.46688,
+      "duration": 0.61538,
+      "velocity": 0.09759,
+      "pan": -0.1,
+      "seed": 96427
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 110.76566,
+      "duration": 4.38462,
+      "velocity": 0.07703,
+      "pan": -0.5,
+      "seed": 281428
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 110.76249,
+      "duration": 4.38462,
+      "velocity": 0.07597,
+      "pan": 0.15,
+      "seed": 528672
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 110.76082,
+      "duration": 4.38462,
+      "velocity": 0.08012,
+      "pan": 0.55,
+      "seed": 35572
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 110.77381,
+      "duration": 4.15385,
+      "velocity": 0.0957,
+      "pan": -0.2,
+      "seed": 273116
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 110.77601,
+      "duration": 0.53846,
+      "velocity": 0.0988,
+      "pan": 0.25,
+      "seed": 82563
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 111.53629,
+      "duration": 0.53846,
+      "velocity": 0.10232,
+      "pan": 0.25,
+      "seed": 204567
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 112.30807,
+      "duration": 0.53846,
+      "velocity": 0.10026,
+      "pan": 0.25,
+      "seed": 249147
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 110.76786,
+      "duration": 0.61538,
+      "velocity": 0.12636,
+      "pan": -0.1,
+      "seed": 267897
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 110.76756,
+      "duration": 0.40615,
+      "velocity": 0.19171,
+      "pan": 0.12,
+      "seed": 818457
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 111.23915,
+      "duration": 0.13538,
+      "velocity": 0.17163,
+      "pan": 0.12,
+      "seed": 325973
+    },
+    {
+      "instrument": "reed",
+      "midi": 76,
+      "start": 111.38859,
+      "duration": 0.54154,
+      "velocity": 0.19937,
+      "pan": 0.12,
+      "seed": 921093
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 111.99145,
+      "duration": 0.54154,
+      "velocity": 0.15951,
+      "pan": 0.12,
+      "seed": 882549
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 112.62622,
+      "duration": 0.54154,
+      "velocity": 0.16522,
+      "pan": 0.12,
+      "seed": 745870
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 113.24268,
+      "duration": 1.08308,
+      "velocity": 0.15911,
+      "pan": 0.12,
+      "seed": 817017
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 114.45645,
+      "duration": 0.54154,
+      "velocity": 0.20847,
+      "pan": 0.12,
+      "seed": 412937
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 115.06985,
+      "duration": 0.54154,
+      "velocity": 0.1605,
+      "pan": 0.12,
+      "seed": 232193
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 115.70375,
+      "duration": 0.54154,
+      "velocity": 0.16266,
+      "pan": 0.12,
+      "seed": 680996
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 116.30627,
+      "duration": 0.54154,
+      "velocity": 0.15577,
+      "pan": 0.12,
+      "seed": 271151
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 116.92915,
+      "duration": 1.08308,
+      "velocity": 0.16789,
+      "pan": 0.12,
+      "seed": 548197
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 118.16535,
+      "duration": 0.54154,
+      "velocity": 0.15614,
+      "pan": 0.12,
+      "seed": 901144
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 118.7598,
+      "duration": 1.08308,
+      "velocity": 0.16121,
+      "pan": 0.12,
+      "seed": 805884
+    },
+    {
+      "instrument": "cello",
+      "midi": 52,
+      "start": 110.7749,
+      "duration": 1.98462,
+      "velocity": 0.06729,
+      "pan": -0.48,
+      "seed": 454393
+    },
+    {
+      "instrument": "cello",
+      "midi": 50,
+      "start": 113.07009,
+      "duration": 1.98462,
+      "velocity": 0.07001,
+      "pan": -0.48,
+      "seed": 408367
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 115.37335,
+      "duration": 1.98462,
+      "velocity": 0.06748,
+      "pan": -0.48,
+      "seed": 442124
+    },
+    {
+      "instrument": "cello",
+      "midi": 45,
+      "start": 117.68306,
+      "duration": 1.98462,
+      "velocity": 0.07018,
+      "pan": -0.48,
+      "seed": 469583
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 113.08606,
+      "duration": 0.53846,
+      "velocity": 0.10444,
+      "pan": 0.25,
+      "seed": 135537
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 113.84711,
+      "duration": 0.53846,
+      "velocity": 0.10125,
+      "pan": 0.25,
+      "seed": 702980
+    },
+    {
+      "instrument": "piano",
+      "midi": 76,
+      "start": 114.61782,
+      "duration": 0.53846,
+      "velocity": 0.10554,
+      "pan": 0.25,
+      "seed": 11984
+    },
+    {
+      "instrument": "bass",
+      "midi": 33,
+      "start": 113.07839,
+      "duration": 0.61538,
+      "velocity": 0.12321,
+      "pan": -0.1,
+      "seed": 314110
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 115.38493,
+      "duration": 4.38462,
+      "velocity": 0.07428,
+      "pan": -0.5,
+      "seed": 880048
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 115.39504,
+      "duration": 4.38462,
+      "velocity": 0.08227,
+      "pan": 0.15,
+      "seed": 303869
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 115.37314,
+      "duration": 4.38462,
+      "velocity": 0.07438,
+      "pan": 0.55,
+      "seed": 496245
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 115.39115,
+      "duration": 4.15385,
+      "velocity": 0.09078,
+      "pan": -0.2,
+      "seed": 568716
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 115.38877,
+      "duration": 0.53846,
+      "velocity": 0.09885,
+      "pan": 0.25,
+      "seed": 785971
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 116.1623,
+      "duration": 0.53846,
+      "velocity": 0.10346,
+      "pan": 0.25,
+      "seed": 762472
+    },
+    {
+      "instrument": "piano",
+      "midi": 81,
+      "start": 116.91348,
+      "duration": 0.53846,
+      "velocity": 0.10195,
+      "pan": 0.25,
+      "seed": 19512
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 115.38272,
+      "duration": 0.61538,
+      "velocity": 0.12761,
+      "pan": -0.1,
+      "seed": 515164
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 117.69798,
+      "duration": 0.53846,
+      "velocity": 0.09811,
+      "pan": 0.25,
+      "seed": 741205
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 118.46185,
+      "duration": 0.53846,
+      "velocity": 0.10318,
+      "pan": 0.25,
+      "seed": 484376
+    },
+    {
+      "instrument": "piano",
+      "midi": 84,
+      "start": 119.23373,
+      "duration": 0.53846,
+      "velocity": 0.099,
+      "pan": 0.25,
+      "seed": 605550
+    },
+    {
+      "instrument": "bass",
+      "midi": 41,
+      "start": 117.70203,
+      "duration": 0.61538,
+      "velocity": 0.1195,
+      "pan": -0.1,
+      "seed": 412277
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 120.00291,
+      "duration": 4.38462,
+      "velocity": 0.08067,
+      "pan": -0.5,
+      "seed": 885087
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 119.9995,
+      "duration": 4.38462,
+      "velocity": 0.08172,
+      "pan": 0.15,
+      "seed": 8913
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 120.00175,
+      "duration": 4.38462,
+      "velocity": 0.08128,
+      "pan": 0.55,
+      "seed": 93350
+    },
+    {
+      "instrument": "cello",
+      "midi": 36,
+      "start": 120.00605,
+      "duration": 4.15385,
+      "velocity": 0.08894,
+      "pan": -0.2,
+      "seed": 78699
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 119.99251,
+      "duration": 0.53846,
+      "velocity": 0.10703,
+      "pan": 0.25,
+      "seed": 110407
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 120.76104,
+      "duration": 0.53846,
+      "velocity": 0.09836,
+      "pan": 0.25,
+      "seed": 181083
+    },
+    {
+      "instrument": "piano",
+      "midi": 76,
+      "start": 121.54127,
+      "duration": 0.53846,
+      "velocity": 0.10703,
+      "pan": 0.25,
+      "seed": 721893
+    },
+    {
+      "instrument": "bass",
+      "midi": 36,
+      "start": 120.00108,
+      "duration": 0.61538,
+      "velocity": 0.12802,
+      "pan": -0.1,
+      "seed": 979706
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 119.99036,
+      "duration": 0.40615,
+      "velocity": 0.20248,
+      "pan": 0.12,
+      "seed": 949906
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 120.45004,
+      "duration": 0.13538,
+      "velocity": 0.16686,
+      "pan": 0.12,
+      "seed": 47703
+    },
+    {
+      "instrument": "reed",
+      "midi": 76,
+      "start": 120.60628,
+      "duration": 0.54154,
+      "velocity": 0.1955,
+      "pan": 0.12,
+      "seed": 19610
+    },
+    {
+      "instrument": "reed",
+      "midi": 67,
+      "start": 121.24073,
+      "duration": 0.54154,
+      "velocity": 0.15509,
+      "pan": 0.12,
+      "seed": 782103
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 121.83504,
+      "duration": 0.54154,
+      "velocity": 0.1617,
+      "pan": 0.12,
+      "seed": 229578
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 122.46609,
+      "duration": 1.08308,
+      "velocity": 0.16375,
+      "pan": 0.12,
+      "seed": 466417
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 123.69708,
+      "duration": 0.54154,
+      "velocity": 0.20333,
+      "pan": 0.12,
+      "seed": 707993
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 124.31697,
+      "duration": 0.54154,
+      "velocity": 0.16889,
+      "pan": 0.12,
+      "seed": 796433
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 124.91993,
+      "duration": 0.54154,
+      "velocity": 0.16003,
+      "pan": 0.12,
+      "seed": 288627
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 125.53444,
+      "duration": 0.54154,
+      "velocity": 0.16755,
+      "pan": 0.12,
+      "seed": 824512
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 126.14719,
+      "duration": 1.08308,
+      "velocity": 0.15982,
+      "pan": 0.12,
+      "seed": 716332
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 127.37752,
+      "duration": 0.54154,
+      "velocity": 0.17013,
+      "pan": 0.12,
+      "seed": 444568
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 127.99131,
+      "duration": 1.08308,
+      "velocity": 0.15773,
+      "pan": 0.12,
+      "seed": 564916
+    },
+    {
+      "instrument": "cello",
+      "midi": 52,
+      "start": 119.99733,
+      "duration": 1.98462,
+      "velocity": 0.06694,
+      "pan": -0.48,
+      "seed": 420866
+    },
+    {
+      "instrument": "cello",
+      "midi": 50,
+      "start": 122.31265,
+      "duration": 1.98462,
+      "velocity": 0.0691,
+      "pan": -0.48,
+      "seed": 144416
+    },
+    {
+      "instrument": "cello",
+      "midi": 48,
+      "start": 124.6244,
+      "duration": 1.98462,
+      "velocity": 0.06491,
+      "pan": -0.48,
+      "seed": 694027
+    },
+    {
+      "instrument": "cello",
+      "midi": 45,
+      "start": 126.91214,
+      "duration": 1.98462,
+      "velocity": 0.06364,
+      "pan": -0.48,
+      "seed": 392937
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 122.31331,
+      "duration": 0.53846,
+      "velocity": 0.10079,
+      "pan": 0.25,
+      "seed": 74184
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 123.08093,
+      "duration": 0.53846,
+      "velocity": 0.09853,
+      "pan": 0.25,
+      "seed": 954333
+    },
+    {
+      "instrument": "piano",
+      "midi": 79,
+      "start": 123.84159,
+      "duration": 0.53846,
+      "velocity": 0.10569,
+      "pan": 0.25,
+      "seed": 161201
+    },
+    {
+      "instrument": "bass",
+      "midi": 36,
+      "start": 122.29906,
+      "duration": 0.61538,
+      "velocity": 0.12138,
+      "pan": -0.1,
+      "seed": 733610
+    },
+    {
+      "instrument": "strings",
+      "midi": 67,
+      "start": 124.61803,
+      "duration": 4.38462,
+      "velocity": 0.07804,
+      "pan": -0.5,
+      "seed": 615094
+    },
+    {
+      "instrument": "strings",
+      "midi": 71,
+      "start": 124.61212,
+      "duration": 4.38462,
+      "velocity": 0.07472,
+      "pan": 0.15,
+      "seed": 868997
+    },
+    {
+      "instrument": "strings",
+      "midi": 74,
+      "start": 124.60775,
+      "duration": 4.38462,
+      "velocity": 0.07834,
+      "pan": 0.55,
+      "seed": 777825
+    },
+    {
+      "instrument": "cello",
+      "midi": 43,
+      "start": 124.62395,
+      "duration": 4.15385,
+      "velocity": 0.09944,
+      "pan": -0.2,
+      "seed": 195438
+    },
+    {
+      "instrument": "piano",
+      "midi": 67,
+      "start": 124.60428,
+      "duration": 0.53846,
+      "velocity": 0.10343,
+      "pan": 0.25,
+      "seed": 759138
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 125.38538,
+      "duration": 0.53846,
+      "velocity": 0.10678,
+      "pan": 0.25,
+      "seed": 458332
+    },
+    {
+      "instrument": "piano",
+      "midi": 83,
+      "start": 126.14952,
+      "duration": 0.53846,
+      "velocity": 0.10378,
+      "pan": 0.25,
+      "seed": 902560
+    },
+    {
+      "instrument": "bass",
+      "midi": 43,
+      "start": 124.62407,
+      "duration": 0.61538,
+      "velocity": 0.13139,
+      "pan": -0.1,
+      "seed": 371568
+    },
+    {
+      "instrument": "piano",
+      "midi": 74,
+      "start": 126.93101,
+      "duration": 0.53846,
+      "velocity": 0.10621,
+      "pan": 0.25,
+      "seed": 108347
+    },
+    {
+      "instrument": "piano",
+      "midi": 71,
+      "start": 127.69351,
+      "duration": 0.53846,
+      "velocity": 0.09894,
+      "pan": 0.25,
+      "seed": 923088
+    },
+    {
+      "instrument": "piano",
+      "midi": 86,
+      "start": 128.46356,
+      "duration": 0.53846,
+      "velocity": 0.10744,
+      "pan": 0.25,
+      "seed": 907688
+    },
+    {
+      "instrument": "bass",
+      "midi": 43,
+      "start": 126.92848,
+      "duration": 0.61538,
+      "velocity": 0.11772,
+      "pan": -0.1,
+      "seed": 379497
+    },
+    {
+      "instrument": "strings",
+      "midi": 62,
+      "start": 129.23884,
+      "duration": 4.38462,
+      "velocity": 0.04135,
+      "pan": -0.5,
+      "seed": 395497
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 129.22982,
+      "duration": 4.38462,
+      "velocity": 0.03834,
+      "pan": 0.15,
+      "seed": 75618
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 129.22745,
+      "duration": 4.38462,
+      "velocity": 0.04003,
+      "pan": 0.55,
+      "seed": 872751
+    },
+    {
+      "instrument": "cello",
+      "midi": 38,
+      "start": 129.23036,
+      "duration": 4.15385,
+      "velocity": 0.04916,
+      "pan": -0.2,
+      "seed": 229926
+    },
+    {
+      "instrument": "piano",
+      "midi": 62,
+      "start": 129.2334,
+      "duration": 0.53846,
+      "velocity": 0.05444,
+      "pan": 0.25,
+      "seed": 579346
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 130.00895,
+      "duration": 0.53846,
+      "velocity": 0.04944,
+      "pan": 0.25,
+      "seed": 816393
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 130.76934,
+      "duration": 0.53846,
+      "velocity": 0.0485,
+      "pan": 0.25,
+      "seed": 777201
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 129.23613,
+      "duration": 0.40615,
+      "velocity": 0.10526,
+      "pan": 0.12,
+      "seed": 524771
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 129.68151,
+      "duration": 0.13538,
+      "velocity": 0.07796,
+      "pan": 0.12,
+      "seed": 951893
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 129.85313,
+      "duration": 0.54154,
+      "velocity": 0.1053,
+      "pan": 0.12,
+      "seed": 710493
+    },
+    {
+      "instrument": "reed",
+      "midi": 55,
+      "start": 130.4647,
+      "duration": 0.54154,
+      "velocity": 0.08158,
+      "pan": 0.12,
+      "seed": 785369
+    },
+    {
+      "instrument": "reed",
+      "midi": 62,
+      "start": 131.08007,
+      "duration": 0.54154,
+      "velocity": 0.07892,
+      "pan": 0.12,
+      "seed": 735350
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 131.68839,
+      "duration": 1.08308,
+      "velocity": 0.08244,
+      "pan": 0.12,
+      "seed": 741843
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 132.91515,
+      "duration": 0.54154,
+      "velocity": 0.10336,
+      "pan": 0.12,
+      "seed": 451518
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 133.54856,
+      "duration": 0.54154,
+      "velocity": 0.0815,
+      "pan": 0.12,
+      "seed": 187337
+    },
+    {
+      "instrument": "reed",
+      "midi": 65,
+      "start": 134.15308,
+      "duration": 0.54154,
+      "velocity": 0.08539,
+      "pan": 0.12,
+      "seed": 819080
+    },
+    {
+      "instrument": "reed",
+      "midi": 64,
+      "start": 134.77502,
+      "duration": 0.54154,
+      "velocity": 0.08478,
+      "pan": 0.12,
+      "seed": 922281
+    },
+    {
+      "instrument": "reed",
+      "midi": 60,
+      "start": 135.38473,
+      "duration": 1.08308,
+      "velocity": 0.07764,
+      "pan": 0.12,
+      "seed": 837038
+    },
+    {
+      "instrument": "reed",
+      "midi": 59,
+      "start": 136.60857,
+      "duration": 0.54154,
+      "velocity": 0.07855,
+      "pan": 0.12,
+      "seed": 959993
+    },
+    {
+      "instrument": "reed",
+      "midi": 57,
+      "start": 137.23554,
+      "duration": 1.08308,
+      "velocity": 0.08193,
+      "pan": 0.12,
+      "seed": 527656
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 131.52977,
+      "duration": 0.53846,
+      "velocity": 0.05305,
+      "pan": 0.25,
+      "seed": 637047
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 132.31531,
+      "duration": 0.53846,
+      "velocity": 0.05377,
+      "pan": 0.25,
+      "seed": 199765
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "start": 133.06658,
+      "duration": 0.53846,
+      "velocity": 0.05191,
+      "pan": 0.25,
+      "seed": 653670
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 133.85541,
+      "duration": 4.38462,
+      "velocity": 0.04041,
+      "pan": -0.5,
+      "seed": 669545
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 133.84134,
+      "duration": 4.38462,
+      "velocity": 0.03818,
+      "pan": 0.15,
+      "seed": 555318
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 133.83604,
+      "duration": 4.38462,
+      "velocity": 0.04,
+      "pan": 0.55,
+      "seed": 290342
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 133.83908,
+      "duration": 4.15385,
+      "velocity": 0.04726,
+      "pan": -0.2,
+      "seed": 856802
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 133.84326,
+      "duration": 0.53846,
+      "velocity": 0.05436,
+      "pan": 0.25,
+      "seed": 811560
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 134.61232,
+      "duration": 0.53846,
+      "velocity": 0.04968,
+      "pan": 0.25,
+      "seed": 914498
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 135.37947,
+      "duration": 0.53846,
+      "velocity": 0.04835,
+      "pan": 0.25,
+      "seed": 181266
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 136.14394,
+      "duration": 0.53846,
+      "velocity": 0.05142,
+      "pan": 0.25,
+      "seed": 80835
+    },
+    {
+      "instrument": "piano",
+      "midi": 60,
+      "start": 136.91495,
+      "duration": 0.53846,
+      "velocity": 0.05037,
+      "pan": 0.25,
+      "seed": 414103
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 137.68397,
+      "duration": 0.53846,
+      "velocity": 0.04842,
+      "pan": 0.25,
+      "seed": 52478
+    },
+    {
+      "instrument": "strings",
+      "midi": 65,
+      "start": 138.46214,
+      "duration": 4.38462,
+      "velocity": 0.04073,
+      "pan": -0.5,
+      "seed": 159172
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "start": 138.46861,
+      "duration": 4.38462,
+      "velocity": 0.04047,
+      "pan": 0.15,
+      "seed": 928412
+    },
+    {
+      "instrument": "strings",
+      "midi": 72,
+      "start": 138.45137,
+      "duration": 4.38462,
+      "velocity": 0.04142,
+      "pan": 0.55,
+      "seed": 197642
+    },
+    {
+      "instrument": "cello",
+      "midi": 41,
+      "start": 138.45699,
+      "duration": 4.15385,
+      "velocity": 0.04763,
+      "pan": -0.2,
+      "seed": 828587
+    },
+    {
+      "instrument": "piano",
+      "midi": 65,
+      "start": 138.46116,
+      "duration": 0.53846,
+      "velocity": 0.05392,
+      "pan": 0.25,
+      "seed": 918344
+    },
+    {
+      "instrument": "piano",
+      "midi": 72,
+      "start": 140.75818,
+      "duration": 0.53846,
+      "velocity": 0.05324,
+      "pan": 0.25,
+      "seed": 282620
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "start": 143.08191,
+      "duration": 4.38462,
+      "velocity": 0.04189,
+      "pan": -0.5,
+      "seed": 275450
+    },
+    {
+      "instrument": "strings",
+      "midi": 60,
+      "start": 143.07359,
+      "duration": 4.38462,
+      "velocity": 0.04083,
+      "pan": 0.15,
+      "seed": 187816
+    },
+    {
+      "instrument": "strings",
+      "midi": 64,
+      "start": 143.07073,
+      "duration": 4.38462,
+      "velocity": 0.04105,
+      "pan": 0.55,
+      "seed": 215006
+    },
+    {
+      "instrument": "cello",
+      "midi": 33,
+      "start": 143.07655,
+      "duration": 4.15385,
+      "velocity": 0.04467,
+      "pan": -0.2,
+      "seed": 935839
+    },
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "start": 143.0802,
+      "duration": 0.53846,
+      "velocity": 0.05136,
+      "pan": 0.25,
+      "seed": 837279
+    },
+    {
+      "instrument": "piano",
+      "midi": 64,
+      "start": 145.37534,
+      "duration": 0.53846,
+      "velocity": 0.05421,
+      "pan": 0.25,
+      "seed": 943443
+    }
+  ]
+}

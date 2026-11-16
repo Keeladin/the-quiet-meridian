@@ -1,0 +1,416 @@
+{
+  "line_id": "nadi_memorial_greeting",
+  "clip_id": "83501ea336464d2ba89a29e2380e25fe",
+  "source_text_sha256": "46cd7a8ab45c42214b5f9b90e03286a79fe8ba7ec727b6efd7f8896055b7bc3c",
+  "master": "work/gateway-voice/masters/83501ea336464d2ba89a29e2380e25fe.wav",
+  "wav_sha256": "a85a95c3c6b629d08f48ade23a1eeb78c2f989bf6353ba93717409daf71e8e53",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 438720,
+    "sample_count": 219360,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 9.14,
+    "peak": 0.41015625,
+    "peak_dbfs": -7.74101332483823,
+    "rms": 0.052849807742676065,
+    "rms_dbfs": -25.53913176465116,
+    "dc_offset": 8.661046156824113e-05,
+    "silence_fraction": 0.21940645514223195,
+    "leading_silence_seconds": 0.4088333333333333,
+    "tail_silence_seconds": 0.3928333333333333,
+    "active_span_seconds": 8.338333333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 20,
+    "source_words_per_active_minute": 143.91365180891466,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "nadi",
+      "kneels",
+      "to",
+      "clear",
+      "grass",
+      "from",
+      "one",
+      "of",
+      "the",
+      "smaller",
+      "stones",
+      "she",
+      "pronounces",
+      "the",
+      "name",
+      "before",
+      "she",
+      "touches",
+      "the",
+      "letters"
+    ],
+    "observed_tokens": [
+      "nadi",
+      "kneels",
+      "to",
+      "clear",
+      "grass",
+      "from",
+      "one",
+      "of",
+      "the",
+      "smaller",
+      "stones",
+      "she",
+      "pronounces",
+      "the",
+      "name",
+      "before",
+      "she",
+      "touches",
+      "the",
+      "letters"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 20,
+        "observed_start": 0,
+        "observed_end": 20,
+        "expected": [
+          "nadi",
+          "kneels",
+          "to",
+          "clear",
+          "grass",
+          "from",
+          "one",
+          "of",
+          "the",
+          "smaller",
+          "stones",
+          "she",
+          "pronounces",
+          "the",
+          "name",
+          "before",
+          "she",
+          "touches",
+          "the",
+          "letters"
+        ],
+        "observed": [
+          "nadi",
+          "kneels",
+          "to",
+          "clear",
+          "grass",
+          "from",
+          "one",
+          "of",
+          "the",
+          "smaller",
+          "stones",
+          "she",
+          "pronounces",
+          "the",
+          "name",
+          "before",
+          "she",
+          "touches",
+          "the",
+          "letters"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Nadi kneels to clear grass from one of the smaller stones. She pronounces the name before she touches the letters.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 5.98,
+      "text": " Nadi kneels to clear grass from one of the smaller stones. She pronounces the",
+      "words": [
+        {
+          "word": " Nadi",
+          "start": 0.0,
+          "end": 0.82,
+          "probability": 0.6116617619991302
+        },
+        {
+          "word": " kneels",
+          "start": 0.82,
+          "end": 1.52,
+          "probability": 0.994255542755127
+        },
+        {
+          "word": " to",
+          "start": 1.52,
+          "end": 1.8,
+          "probability": 0.998065173625946
+        },
+        {
+          "word": " clear",
+          "start": 1.8,
+          "end": 2.18,
+          "probability": 0.9843757748603821
+        },
+        {
+          "word": " grass",
+          "start": 2.18,
+          "end": 2.58,
+          "probability": 0.9967648983001709
+        },
+        {
+          "word": " from",
+          "start": 2.58,
+          "end": 2.86,
+          "probability": 0.9958602786064148
+        },
+        {
+          "word": " one",
+          "start": 2.86,
+          "end": 2.98,
+          "probability": 0.9985894560813904
+        },
+        {
+          "word": " of",
+          "start": 2.98,
+          "end": 3.12,
+          "probability": 0.9990850687026978
+        },
+        {
+          "word": " the",
+          "start": 3.12,
+          "end": 3.28,
+          "probability": 0.9994314312934875
+        },
+        {
+          "word": " smaller",
+          "start": 3.28,
+          "end": 3.64,
+          "probability": 0.9989277720451355
+        },
+        {
+          "word": " stones.",
+          "start": 3.64,
+          "end": 4.22,
+          "probability": 0.9990280866622925
+        },
+        {
+          "word": " She",
+          "start": 4.98,
+          "end": 5.22,
+          "probability": 0.9923999309539795
+        },
+        {
+          "word": " pronounces",
+          "start": 5.22,
+          "end": 5.76,
+          "probability": 0.9794375896453857
+        },
+        {
+          "word": " the",
+          "start": 5.76,
+          "end": 5.98,
+          "probability": 0.9988484382629395
+        }
+      ]
+    },
+    {
+      "start": 5.98,
+      "end": 8.54,
+      "text": " name before she touches the letters.",
+      "words": [
+        {
+          "word": " name",
+          "start": 5.98,
+          "end": 6.36,
+          "probability": 0.9975715279579163
+        },
+        {
+          "word": " before",
+          "start": 6.36,
+          "end": 7.12,
+          "probability": 0.9768736958503723
+        },
+        {
+          "word": " she",
+          "start": 7.12,
+          "end": 7.44,
+          "probability": 0.9989810585975647
+        },
+        {
+          "word": " touches",
+          "start": 7.44,
+          "end": 7.82,
+          "probability": 0.9992578625679016
+        },
+        {
+          "word": " the",
+          "start": 7.82,
+          "end": 8.16,
+          "probability": 0.9989814162254333
+        },
+        {
+          "word": " letters.",
+          "start": 8.16,
+          "end": 8.54,
+          "probability": 0.9970966577529907
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "nadi",
+      "kneels",
+      "to",
+      "clear",
+      "grass",
+      "from",
+      "one",
+      "of",
+      "the",
+      "smaller",
+      "stones",
+      "she",
+      "pronounces",
+      "the",
+      "name",
+      "before",
+      "she",
+      "touches",
+      "the",
+      "letters"
+    ],
+    "observed_tokens": [
+      "nadi",
+      "kneels",
+      "to",
+      "clear",
+      "grass",
+      "from",
+      "one",
+      "of",
+      "the",
+      "smaller",
+      "stones",
+      "she",
+      "pronounces",
+      "the",
+      "name",
+      "before",
+      "she",
+      "touches",
+      "the",
+      "letters"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 20,
+        "observed_start": 0,
+        "observed_end": 20,
+        "expected": [
+          "nadi",
+          "kneels",
+          "to",
+          "clear",
+          "grass",
+          "from",
+          "one",
+          "of",
+          "the",
+          "smaller",
+          "stones",
+          "she",
+          "pronounces",
+          "the",
+          "name",
+          "before",
+          "she",
+          "touches",
+          "the",
+          "letters"
+        ],
+        "observed": [
+          "nadi",
+          "kneels",
+          "to",
+          "clear",
+          "grass",
+          "from",
+          "one",
+          "of",
+          "the",
+          "smaller",
+          "stones",
+          "she",
+          "pronounces",
+          "the",
+          "name",
+          "before",
+          "she",
+          "touches",
+          "the",
+          "letters"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

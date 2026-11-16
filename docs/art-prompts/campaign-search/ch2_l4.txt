@@ -1,0 +1,17 @@
+Create one finished original hidden-object search painting for The Quiet Meridian, a fictional late-industrial canal-city mystery. Wide landscape 1536x1024. Detailed painterly realism, fine gouache and ink texture, naturally weathered materials, restrained petrol teal and amber palette, good readable exposure. NO readable words, UI, captions, border, watermark or people. WORKERS' KITCHEN: crowded communal kitchen after a meal, view diagonally into a deep open pantry beside a small cast-iron range, crowded scrubbed table corner on the right, bread basket on a stool, dried herbs, chipped earthenware, old shift chits, baskets and tea towels. Warm cream and amber light, worn teal cupboard paint, grounded homely clutter; no people, no readable text. Different levels and recesses, no neat row of items.
+Professional classic hidden-object search: at least 60 believable clutter details and varied overlaps. Camouflage targets through matching material/colour, partial occlusion, rotation and embedding in the setting. Mostly small targets (2–6% image width), a few easier finds, many subtle. Every listed target actually visible and recognizable with zoom; no vague implied objects. Natural asymmetric composition, no evenly spaced lineup, no large empty sky or floor. Hide these 14 target depictions around the indicated areas:
+1. a garlic bulb partly tucked into flour cloth at lower left
+2. a small ladle hanging behind herbs near upper right
+3. a wire strainer blending into a wicker basket near centre left
+4. a ripe pear half hidden behind a ceramic jug near centre
+5. a tiny mushroom painted on a chipped tile near top centre
+6. a dark fork lying along a tray edge at lower right
+7. a wishbone among bread crumbs near bottom centre
+8. a small ribbon bow almost matching a folded tea towel near middle right
+9. a heart embroidered into the corner of a dark apron at far left
+10. a brass button among dried beans in a little bowl near lower middle
+11. a sardine engraved on the lid of a tin near upper left
+12. a corkscrew partly buried in a cutlery jar near middle
+13. a single chestnut under a cabbage leaf near right edge
+14. a small bird motif carved on the back of a wooden chair near upper middle left
+Use the depicted world and physical surfaces to conceal them. Do not show the targets as bright isolated inventory icons.

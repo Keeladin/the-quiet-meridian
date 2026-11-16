@@ -1,0 +1,14 @@
+{
+  "id": "search-dispatch-office-v2",
+  "path": "assets/art/searches/dispatch-office-v2.png",
+  "purpose": "More concealed search with seventeen word clues, including alternate valid symbol matches",
+  "created": "2026-11-14",
+  "generator": "OpenAI built-in image generation",
+  "prompt_document": "docs/art-prompts/hidden-object-dispatch-v2.txt",
+  "source_cache_path": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-9b5cfc3e-feb4-40b7-921f-c7707ef3e5a6.png",
+  "external_references": [],
+  "review_status": "All primary and alternative matches visually identified; independent click observations recorded. Player difficulty review remains open.",
+  "sha256": "c76242c61761b3b4ff7ad0f00007e37e9531081a91d43b5b2c333c7721f4cfd3",
+  "reference_asset": "assets/art/searches/dispatch-office.png",
+  "intermediate_generation": "/home/jaco/.codex/generated_images/01a1d959-52e2-70c3-8fe9-5011faad78c4/exec-dd53fed0-64d3-42b8-be00-a430c3f7ff3b.png"
+}

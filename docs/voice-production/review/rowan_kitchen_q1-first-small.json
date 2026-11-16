@@ -1,0 +1,241 @@
+{
+  "line_id": "rowan_kitchen_q1",
+  "clip_id": "545072851dff432dae6a737f86f31b47",
+  "source_text_sha256": "e89483aa9f311993d763423e6b08d9bd6ea739b1f83cd5141fd1c861ec220aaa",
+  "master": "work/gateway-voice/masters/545072851dff432dae6a737f86f31b47.wav",
+  "wav_sha256": "b4509c0ba3b66d02ed7bf595cb2ce778f28e2ed027bf4ac2020427be31bed440",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 152640,
+    "sample_count": 76320,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.18,
+    "peak": 0.451171875,
+    "peak_dbfs": -6.913159621673729,
+    "rms": 0.05919848181465138,
+    "rms_dbfs": -24.553788618235505,
+    "dc_offset": 3.185472148519392e-05,
+    "silence_fraction": 0.27764675052410903,
+    "leading_silence_seconds": 0.17870833333333333,
+    "tail_silence_seconds": 0.36025,
+    "active_span_seconds": 2.6410416666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 8,
+    "source_words_per_active_minute": 181.74646998501223,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "did",
+      "the",
+      "closure",
+      "order",
+      "mean",
+      "to",
+      "you"
+    ],
+    "observed_tokens": [
+      "what",
+      "did",
+      "the",
+      "closure",
+      "order",
+      "mean",
+      "to",
+      "you"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "what",
+          "did",
+          "the",
+          "closure",
+          "order",
+          "mean",
+          "to",
+          "you"
+        ],
+        "observed": [
+          "what",
+          "did",
+          "the",
+          "closure",
+          "order",
+          "mean",
+          "to",
+          "you"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "What did the closure order mean to you?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.74,
+      "text": " What did the closure order mean to you?",
+      "words": [
+        {
+          "word": " What",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.8601292967796326
+        },
+        {
+          "word": " did",
+          "start": 0.56,
+          "end": 0.72,
+          "probability": 0.970219612121582
+        },
+        {
+          "word": " the",
+          "start": 0.72,
+          "end": 0.92,
+          "probability": 0.9760580658912659
+        },
+        {
+          "word": " closure",
+          "start": 0.92,
+          "end": 1.2,
+          "probability": 0.9665222764015198
+        },
+        {
+          "word": " order",
+          "start": 1.2,
+          "end": 1.7,
+          "probability": 0.9958578944206238
+        },
+        {
+          "word": " mean",
+          "start": 1.7,
+          "end": 2.08,
+          "probability": 0.9978070855140686
+        },
+        {
+          "word": " to",
+          "start": 2.08,
+          "end": 2.38,
+          "probability": 0.9984418749809265
+        },
+        {
+          "word": " you?",
+          "start": 2.38,
+          "end": 2.74,
+          "probability": 0.9962323307991028
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "did",
+      "the",
+      "closure",
+      "order",
+      "mean",
+      "to",
+      "you"
+    ],
+    "observed_tokens": [
+      "what",
+      "did",
+      "the",
+      "closure",
+      "order",
+      "mean",
+      "to",
+      "you"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "what",
+          "did",
+          "the",
+          "closure",
+          "order",
+          "mean",
+          "to",
+          "you"
+        ],
+        "observed": [
+          "what",
+          "did",
+          "the",
+          "closure",
+          "order",
+          "mean",
+          "to",
+          "you"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

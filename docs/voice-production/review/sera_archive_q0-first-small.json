@@ -1,0 +1,227 @@
+{
+  "line_id": "sera_archive_q0",
+  "clip_id": "6e46007b43b54b51b8cda15500c603a3",
+  "source_text_sha256": "11e2c7267ee1fe32a4ab0b3669ef6658a316d0d8e73730b3f73ddd33624621a7",
+  "master": "work/gateway-voice/masters/6e46007b43b54b51b8cda15500c603a3.wav",
+  "wav_sha256": "0e0fb6911741eb595a3f8708e673f147073cae3fd6ccd012d1c5efd76ba9da5a",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 139200,
+    "sample_count": 69600,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.9,
+    "peak": 0.365234375,
+    "peak_dbfs": -8.748567088786636,
+    "rms": 0.057637387761380145,
+    "rms_dbfs": -24.785914209668277,
+    "dc_offset": 3.067981237652658e-05,
+    "silence_fraction": 0.3226580459770115,
+    "leading_silence_seconds": 0.40425,
+    "tail_silence_seconds": 0.349125,
+    "active_span_seconds": 2.146625,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 195.6559715832994,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "did",
+      "mara",
+      "ask",
+      "you",
+      "to",
+      "print",
+      "anything"
+    ],
+    "observed_tokens": [
+      "did",
+      "mara",
+      "ask",
+      "you",
+      "to",
+      "print",
+      "anything"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "did",
+          "mara",
+          "ask",
+          "you",
+          "to",
+          "print",
+          "anything"
+        ],
+        "observed": [
+          "did",
+          "mara",
+          "ask",
+          "you",
+          "to",
+          "print",
+          "anything"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Did Mara ask you to print anything?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.3,
+      "text": " Did Mara ask you to print anything?",
+      "words": [
+        {
+          "word": " Did",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.7993735074996948
+        },
+        {
+          "word": " Mara",
+          "start": 0.5,
+          "end": 0.74,
+          "probability": 0.16468919813632965
+        },
+        {
+          "word": " ask",
+          "start": 0.74,
+          "end": 1.14,
+          "probability": 0.9494030475616455
+        },
+        {
+          "word": " you",
+          "start": 1.14,
+          "end": 1.42,
+          "probability": 0.9930346012115479
+        },
+        {
+          "word": " to",
+          "start": 1.42,
+          "end": 1.62,
+          "probability": 0.9942441582679749
+        },
+        {
+          "word": " print",
+          "start": 1.62,
+          "end": 1.94,
+          "probability": 0.9879384636878967
+        },
+        {
+          "word": " anything?",
+          "start": 1.94,
+          "end": 2.3,
+          "probability": 0.9980117082595825
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "did",
+      "mara",
+      "ask",
+      "you",
+      "to",
+      "print",
+      "anything"
+    ],
+    "observed_tokens": [
+      "did",
+      "mara",
+      "ask",
+      "you",
+      "to",
+      "print",
+      "anything"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "did",
+          "mara",
+          "ask",
+          "you",
+          "to",
+          "print",
+          "anything"
+        ],
+        "observed": [
+          "did",
+          "mara",
+          "ask",
+          "you",
+          "to",
+          "print",
+          "anything"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

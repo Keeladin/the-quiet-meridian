@@ -1,0 +1,262 @@
+{
+  "line_id": "elian_machine_q1",
+  "clip_id": "6c8e31a94a6741e8b3c3f62d665bbda0",
+  "source_text_sha256": "41b0c18d65ba54bfbde91bfeb5d84db8ca5a373cc36e1ec6ffa7b9fe5d599cd3",
+  "master": "work/gateway-voice/masters/6c8e31a94a6741e8b3c3f62d665bbda0.wav",
+  "wav_sha256": "a5c3bf2299552503fb8fe540bda992f306631b5fb758dd58948183078f6bd2c0",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 128640,
+    "sample_count": 64320,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.68,
+    "peak": 0.373046875,
+    "peak_dbfs": -8.564731874562064,
+    "rms": 0.05847162517527871,
+    "rms_dbfs": -24.661096702065024,
+    "dc_offset": 3.238791850075793e-05,
+    "silence_fraction": 0.3190143034825871,
+    "leading_silence_seconds": 0.39879166666666666,
+    "tail_silence_seconds": 0.308125,
+    "active_span_seconds": 1.9730833333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 212.8648055074545,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "build",
+      "a",
+      "council",
+      "bypass",
+      "at",
+      "all"
+    ],
+    "observed_tokens": [
+      "why",
+      "build",
+      "a",
+      "council",
+      "bypass",
+      "at",
+      "all"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "why",
+          "build",
+          "a",
+          "council",
+          "bypass",
+          "at",
+          "all"
+        ],
+        "observed": [
+          "why",
+          "build",
+          "a",
+          "council",
+          "bypass",
+          "at",
+          "all"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why build a console bypass at all?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.24,
+      "text": " Why build a console bypass at all?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.9159162640571594
+        },
+        {
+          "word": " build",
+          "start": 0.56,
+          "end": 0.78,
+          "probability": 0.9820241332054138
+        },
+        {
+          "word": " a",
+          "start": 0.78,
+          "end": 1.04,
+          "probability": 0.99043208360672
+        },
+        {
+          "word": " console",
+          "start": 1.04,
+          "end": 1.24,
+          "probability": 0.7639973759651184
+        },
+        {
+          "word": " bypass",
+          "start": 1.24,
+          "end": 1.74,
+          "probability": 0.9660872220993042
+        },
+        {
+          "word": " at",
+          "start": 1.74,
+          "end": 1.98,
+          "probability": 0.9808796048164368
+        },
+        {
+          "word": " all?",
+          "start": 1.98,
+          "end": 2.24,
+          "probability": 0.9949295520782471
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "build",
+      "a",
+      "council",
+      "bypass",
+      "at",
+      "all"
+    ],
+    "observed_tokens": [
+      "why",
+      "build",
+      "a",
+      "console",
+      "bypass",
+      "at",
+      "all"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 3,
+        "observed_start": 0,
+        "observed_end": 3,
+        "expected": [
+          "why",
+          "build",
+          "a"
+        ],
+        "observed": [
+          "why",
+          "build",
+          "a"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 3,
+        "expected_end": 4,
+        "observed_start": 3,
+        "observed_end": 4,
+        "expected": [
+          "council"
+        ],
+        "observed": [
+          "console"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 4,
+        "expected_end": 7,
+        "observed_start": 4,
+        "observed_end": 7,
+        "expected": [
+          "bypass",
+          "at",
+          "all"
+        ],
+        "observed": [
+          "bypass",
+          "at",
+          "all"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "council"
+        ],
+        "observed": [
+          "console"
+        ],
+        "expected_start": 3,
+        "observed_start": 3
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 3:4."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,227 @@
+{
+  "line_id": "rowan_before_hearing_q1",
+  "clip_id": "1f1bf027ba8e47ca93f9f10c10ada895",
+  "source_text_sha256": "ba11114c59d523c0ea9bada62f72cc3253fa587610437a07880f9ba7c0e7cca4",
+  "master": "work/gateway-voice/masters/1f1bf027ba8e47ca93f9f10c10ada895.wav",
+  "wav_sha256": "10d6efc7fb9a8e5080509ab4eed01af54f73399dbe4746fd8051a173aae38059",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 195840,
+    "sample_count": 97920,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 4.08,
+    "peak": 0.34765625,
+    "peak_dbfs": -9.176999173338736,
+    "rms": 0.06574826446051668,
+    "rms_dbfs": -23.64231413286104,
+    "dc_offset": 6.804996066623264e-05,
+    "silence_fraction": 0.2335375816993464,
+    "leading_silence_seconds": 0.398125,
+    "tail_silence_seconds": 0.20625,
+    "active_span_seconds": 3.475625,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 120.84157525624887,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "new",
+      "isolation",
+      "tag",
+      "bears",
+      "your",
+      "name"
+    ],
+    "observed_tokens": [
+      "the",
+      "new",
+      "isolation",
+      "tag",
+      "bears",
+      "your",
+      "name"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "the",
+          "new",
+          "isolation",
+          "tag",
+          "bears",
+          "your",
+          "name"
+        ],
+        "observed": [
+          "the",
+          "new",
+          "isolation",
+          "tag",
+          "bears",
+          "your",
+          "name"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The new isolation tag bears your name.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.54,
+      "text": " The new isolation tag bears your name.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.8814117312431335
+        },
+        {
+          "word": " new",
+          "start": 0.52,
+          "end": 0.88,
+          "probability": 0.9754772782325745
+        },
+        {
+          "word": " isolation",
+          "start": 0.88,
+          "end": 1.6,
+          "probability": 0.9008492231369019
+        },
+        {
+          "word": " tag",
+          "start": 1.6,
+          "end": 2.14,
+          "probability": 0.9927303194999695
+        },
+        {
+          "word": " bears",
+          "start": 2.14,
+          "end": 2.74,
+          "probability": 0.7869210243225098
+        },
+        {
+          "word": " your",
+          "start": 2.74,
+          "end": 3.1,
+          "probability": 0.9977579712867737
+        },
+        {
+          "word": " name.",
+          "start": 3.1,
+          "end": 3.54,
+          "probability": 0.9997944235801697
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "new",
+      "isolation",
+      "tag",
+      "bears",
+      "your",
+      "name"
+    ],
+    "observed_tokens": [
+      "the",
+      "new",
+      "isolation",
+      "tag",
+      "bears",
+      "your",
+      "name"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "the",
+          "new",
+          "isolation",
+          "tag",
+          "bears",
+          "your",
+          "name"
+        ],
+        "observed": [
+          "the",
+          "new",
+          "isolation",
+          "tag",
+          "bears",
+          "your",
+          "name"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

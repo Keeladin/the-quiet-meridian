@@ -1,0 +1,2454 @@
+{
+  "collection": "Gamemaster Audio Pro Sound Collection v1.3, 24-bit / 96 kHz",
+  "selected_by": "Codex, with owner-delegated creative direction",
+  "license_record": "docs/GAMEMASTER_AUDIO_REVIEW.md",
+  "distribution": "Only embedded in the game. Reusable licensed audio excluded from source archives. Original masters unchanged. No external upload or AI training.",
+  "review": "Source descriptions and objective signal checks; subjective listening acceptance remains separate.",
+  "sources": {
+    "harbour_water": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/beach_waves_ocean_calm_loop_02.wav",
+      "source_sha256": "7203f15366d8ac38cce7bcd532c70a2ad31ac9042085429105dbd346ebdfbdfd",
+      "prepared_input": "assets/audio/licensed-opening/harbour_water.ogg",
+      "prepared_sha256": "d1f6646d38fbe547308211b131a26865883a5d1e243332bd1b78e57e3956f931",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: harbour water",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "rain_on_the_office": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/rain_light_hard_surface_loop_01.wav",
+      "source_sha256": "5941f4836651f9a9e445b490477f979eb8ca5385a4147c17c2c0bc5f34ad6d49",
+      "prepared_input": "assets/audio/licensed-opening/rain_on_the_office.ogg",
+      "prepared_sha256": "c1398eeeb474af378c5bd3d3587a751b0200b67545ce0a8b7928530e66592777",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: rain on the office",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "office_room_tone": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Backgrounds/background_quiet_urban_park_loop_02.wav",
+      "source_sha256": "4b9d089e93a6c6334fc5753954322fc5befced209a0d607c90635c410dee4dd6",
+      "prepared_input": "assets/audio/licensed-opening/office_room_tone.ogg",
+      "prepared_sha256": "b8f9e159d25846868e8e11f0e21bd34d7bde7244788422a606d69fb39b45d5bc",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: office room tone",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "office_clock": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Clock/clock_tick_03.wav",
+      "source_sha256": "1dfd41d848312ad1f43d4f9650bb6e642df7c7ea5f62fc29e2f1e6af1a91e133",
+      "prepared_input": "assets/audio/licensed-opening/office_clock.ogg",
+      "prepared_sha256": "519b761fbd8af453da8e959b3bf99e0e62da5a83ed4f7841bed5199053bd3fe2",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: office clock",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "moored_boat_and_ropes": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_01.wav",
+      "source_sha256": "117ca440448e90af9496706d927e69163ef2674a4e3065258600f8303c5f6500",
+      "prepared_input": "assets/audio/licensed-opening/moored_boat_and_ropes.ogg",
+      "prepared_sha256": "1de89b8c74870c343449781aa72e7fe18e7afef6eaceb32848b0eaeba74fade2",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: moored boat and ropes",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "building_movement": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_05.wav",
+      "source_sha256": "6614d9f82e0fb80757606dd5cac8c49c00ee20e12c078436a73d92f7b4030ecc",
+      "prepared_input": "assets/audio/licensed-opening/building_movement.ogg",
+      "prepared_sha256": "27f63b7490a5f7dcc5ada91285cb3ef03f018875edfa7923f978eefa2e8a289d",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: building movement",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "fire": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Explosion_Fire_Gas/fire_burning_flames_crackle_loop_02.wav",
+      "source_sha256": "a31a22ef20a5963bd6faf96fac0fed208e9bc0c4898dcf97364384731066d1d6",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 8.1555625,
+      "used_seconds": 8.1555625,
+      "selected_by": "Codex",
+      "role": "Small hearth in occupied rooms",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "wind_high": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/wind_general_gusty_low_loop_02.wav",
+      "source_sha256": "11fabd4ab277cb39ba0bbfec31913871899eb8ca0afbaceb69d746e463b58ab9",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 24.129916666666666,
+      "used_seconds": 24.129916666666666,
+      "selected_by": "Codex",
+      "role": "Exposed tower and roof wind, restrained in the mix",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "metal_creak": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Metal/metal_low_creaking_ship_structure_03.wav",
+      "source_sha256": "26b9a9dc546b367e57a897a1a6d0066bd5337eedab63be4faa8a71251d754b69",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 3.4,
+      "used_seconds": 3.4,
+      "selected_by": "Codex",
+      "role": "Intermittent structural metal movement",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "river": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/river_stream_flowing_water_loop_03_long_version.wav",
+      "source_sha256": "39da0cfb22f28d57dc76d4b64ed0cecac96fe35927fc5adbb62e992dd406c8f6",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 18.541166666666665,
+      "used_seconds": 18.541166666666665,
+      "selected_by": "Codex",
+      "role": "Canal flow and sluice water",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "boiler": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Backgrounds/background_steam_boiler_room_machine_loop_01.wav",
+      "source_sha256": "f2e954124d00b970a7386ed8df6c82acee6b8ab3bfd08c7c0edaf8eec5f7c35c",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 6.318104166666667,
+      "used_seconds": 6.318104166666667,
+      "selected_by": "Codex",
+      "role": "Distant steam machinery in the waterworks",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "wind_soft": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/wind_general_soft_low_loop_03.wav",
+      "source_sha256": "69960b7a8774d5dbce980187974531959b74341cea50fbe114866e68128af57f",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 32.68063541666667,
+      "used_seconds": 32.68064583333334,
+      "selected_by": "Codex",
+      "role": "Soft air across open stone and roof spaces",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "drips": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Water/water_dripping_running_01_loop.wav",
+      "source_sha256": "27619eb8cc670594a6023f1c7b815ea0e494eb7404df31e065b00505431fd24f",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 12.267854166666666,
+      "used_seconds": 12.267854166666666,
+      "selected_by": "Codex",
+      "role": "Damp gallery trickles and pipes",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "gear_a": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Switches_Buttons_Gears_Levers/metal_small_gear_lever_winding_02.wav",
+      "source_sha256": "cb7e0ce57b4c92d7e180d2ebb09a856b4ac15bad48452dd90537e29041472d41",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.5673958333333333,
+      "used_seconds": 0.5673958333333333,
+      "selected_by": "Codex",
+      "role": "Clockwork and small mechanism movement",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "gear_b": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Switches_Buttons_Gears_Levers/metal_small_gear_lever_winding_03.wav",
+      "source_sha256": "d09d8848d03f0a1c992f068405338630574248346c6fff886e1b490618711f52",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 1.38721875,
+      "used_seconds": 1.3872291666666667,
+      "selected_by": "Codex",
+      "role": "A second small mechanical turn",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "marsh": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/ducks_birds_lake_ambience_low_wind_loop_01.wav",
+      "source_sha256": "8d1cc01e1e01d6d577e39f2be872d88dfb44afefcde7b3ee63e6dc6de761a6c9",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 20.288,
+      "used_seconds": 20.288,
+      "selected_by": "Codex",
+      "role": "Distant wetland birds and reeds",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "birds": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/birds_small_calling_chirping_loop_02.wav",
+      "source_sha256": "1fdb37dcbde1ce0b38bcbcf30ce2901302dff11349779a0953e5a1e8767ee30a",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 5.888,
+      "used_seconds": 5.888,
+      "selected_by": "Codex",
+      "role": "Small garden birds after the rain",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "factory": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Backgrounds/background_construction_factory_warehouse_machine_loop_01.wav",
+      "source_sha256": "ab1ee3d7bf50ca39cbfe1bfa2e216a6e33bb12bcbecfdb42ad0529391d1f1428",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 12.409635416666667,
+      "used_seconds": 12.409645833333334,
+      "selected_by": "Codex",
+      "role": "Low distant industrial background in the print shop and relay house",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "object_found": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Film Camera Movie Projector Small/movie_camera_vintage_lever_05.wav",
+      "source_sha256": "e858ca176eac5e556a3535be0fc775181db36a3b5c0a11d7e4591a17c1231537",
+      "prepared_input": "assets/audio/licensed-opening/object_found.ogg",
+      "prepared_sha256": "5e08b1fe7808acb8e0049379afa5d00ece25c91cc179bad2b252921b491bf21e",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: object found",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "symbol_understood": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_slow_deep_02.wav",
+      "source_sha256": "560f10967b047e5762f51e910ed4ad2e5f4f3ee822226c9a607a406d68ab1d2a",
+      "prepared_input": "assets/audio/licensed-opening/symbol_understood.ogg",
+      "prepared_sha256": "00aaad13c58e28f43145cb3b0a12a6a188616d6f719dadd8a92fd34f77f873ca",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: symbol understood",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "hint_revealed": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_weapon_spin_02.wav",
+      "source_sha256": "0d0aedd2a3a3cca974cc78ccc5df0cda78265518272f1edc47f6e46c80ceee19",
+      "prepared_input": "assets/audio/licensed-opening/hint_revealed.ogg",
+      "prepared_sha256": "0631617d90e6d5c0bf8d042a88e593f4d358d01fc86952f3b2ebe45733f05667",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: hint revealed",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "search_completed": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Collectibles_Items_Powerup/collect_item_05.wav",
+      "source_sha256": "58a5991ef0f8009159733477993cd95d0e6317f4a9e70f935ddeaa924ef4fcfc",
+      "prepared_input": "assets/audio/licensed-opening/search_completed.ogg",
+      "prepared_sha256": "af1b391f6478a0223a7c3ab4e27b5bb9fad67cc2b6d493f711ac1be0d40b2b5c",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: search completed",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "receipt_recovered": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Wood/wood_tree_branch_move_13.wav",
+      "source_sha256": "902ff17980aea9e3d7489f63e91cfb0525bea9594ab4f31dae36470f66419309",
+      "prepared_input": "assets/audio/licensed-opening/receipt_recovered.ogg",
+      "prepared_sha256": "10b4b0cc672b65cbd3c51252805e5786536770cb8589d4b4c7c1ca5d7e5985aa",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: receipt recovered",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "journal_updated": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Pencil/pencil_sketch_draw_write_squibble_03_long_07.wav",
+      "source_sha256": "aad801c55d4b0f200c188fe7db4d208a9f38c68443e6c41bffd0ed90308d0644",
+      "prepared_input": "assets/audio/licensed-opening/journal_updated.ogg",
+      "prepared_sha256": "ad02d0d44a4d1624ee61b73dfea5e45fd7d5937367448082fc6ce54913ad9766",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: journal updated",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "menu_interaction": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/User_Interface_Menu/ui_button_simple_click_05.wav",
+      "source_sha256": "b573db9c71c035bad22bd68900aed9c9d018da9a3e089356bd06b4e9b98fd014",
+      "prepared_input": "assets/audio/licensed-opening/menu_interaction.ogg",
+      "prepared_sha256": "a5c8af599dbc2bcec0e03ecfad7729877988762fe5eadedca42a3ea14e283f50",
+      "selected_by": "Jaco",
+      "role": "Preserve owner-selected opening recording: menu interaction",
+      "processing": "Reuse approved opening preparation without changing it."
+    },
+    "lever": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Switches_Buttons_Gears_Levers/lever_turn_push_crank_handle_small_03.wav",
+      "source_sha256": "c6229755e031b4facc3b1276d45241882a249f2620a294863b17e350c99e16b7",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.64565625,
+      "used_seconds": 0.6456666666666667,
+      "selected_by": "Codex",
+      "role": "Manual control moving",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "lock_open": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_lock_open_01.wav",
+      "source_sha256": "31a5a450dc0605b77b8369e3dafaa073214afdc0a30d2cec8c1ff6008ee65d39",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.5232395833333333,
+      "used_seconds": 0.52325,
+      "selected_by": "Codex",
+      "role": "An entry latch releasing",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "step_stone_a": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Footsteps/footstep_concrete_walk_12.wav",
+      "source_sha256": "98f35f1afeb905e0403b037c8e9eccf7b3b4edec23658f7921a08d4796f147e1",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.244875,
+      "used_seconds": 0.244875,
+      "selected_by": "Codex",
+      "role": "Step on civic or observatory stone",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "step_stone_b": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Footsteps/footstep_concrete_walk_16.wav",
+      "source_sha256": "211c90d98481bfd050f1f5b4031b62c3a05e5397c07e354018c0b1c785241e8c",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.2536041666666667,
+      "used_seconds": 0.2536041666666667,
+      "selected_by": "Codex",
+      "role": "Alternative stone step",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "step_wood_a": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Footsteps/footstep_wood_walk_01.wav",
+      "source_sha256": "3e4580bc5462eab88e97b8a0fa5cc980b3b99fb7ee5fd571bd511d8fde9aa53d",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.23358333333333334,
+      "used_seconds": 0.23358333333333334,
+      "selected_by": "Codex",
+      "role": "Step on wooden boards",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "step_wood_b": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Footsteps/footstep_wood_walk_02.wav",
+      "source_sha256": "9fc3f9b901974bfc978e8e245fe97baa4d59a93c4bbebcf4322945a24498f7d4",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.2779479166666667,
+      "used_seconds": 0.2779583333333333,
+      "selected_by": "Codex",
+      "role": "Alternative wooden step",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "step_wet_a": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Footsteps/footstep_water_walk_01.wav",
+      "source_sha256": "2a1d57cf8f60624c4f7a371c6517ddc4c7e2f0929ab954fa64d174c6cbdf808d",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.69196875,
+      "used_seconds": 0.6919791666666667,
+      "selected_by": "Codex",
+      "role": "Wet quay arrival",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    },
+    "step_wet_b": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Footsteps/footstep_water_walk_02.wav",
+      "source_sha256": "ef93498d681de6b9b51ebc2729e420a7dcfa39efe28e223c5e93785e0b1f892d",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.7734375,
+      "used_seconds": 0.7734375,
+      "selected_by": "Codex",
+      "role": "Alternative wet arrival",
+      "processing": "First 120 seconds maximum, polyphase resampling to 48 kHz, 45 Hz high-pass; ambience low-pass 6.5 kHz; mono duplicated to stereo."
+    }
+  },
+  "assets": {
+    "room_ch1_l1": {
+      "path": "assets/audio/licensed-campaign/room_ch1_l1.ogg",
+      "sha256": "00d35e703b60529f5ec8223a1d6fe3f804919f1ffc5e2016fd46c746cc99c133",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "harbour_water",
+        "moored_boat_and_ropes",
+        "office_clock",
+        "office_room_tone",
+        "rain_on_the_office"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Dispatch office: audible rain, quieter harbour, clock and gentle timber movement",
+          "beds": [
+            {
+              "source": "harbour_water",
+              "gain_db": -5.603999999999999
+            },
+            {
+              "source": "rain_on_the_office",
+              "gain_db": 8.396
+            },
+            {
+              "source": "office_room_tone",
+              "gain_db": -10.604
+            }
+          ],
+          "events": [
+            {
+              "source": "office_clock",
+              "peak_dbfs": -19.6,
+              "interval": [
+                1,
+                1
+              ],
+              "start": 1
+            },
+            {
+              "source": "moored_boat_and_ropes",
+              "peak_dbfs": -14.6,
+              "interval": [
+                13,
+                23
+              ]
+            },
+            {
+              "source": "building_movement",
+              "peak_dbfs": -18.6,
+              "interval": [
+                22,
+                39
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -10.049251859871832,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.393,
+      "rms_dbfs": -32.98,
+      "seam_delta": 0.008137676864862442
+    },
+    "room_ch1_l2": {
+      "path": "assets/audio/licensed-campaign/room_ch1_l2.ogg",
+      "sha256": "4c69aee9f379cf58bede884a6670671005d61870e7a42d1b041a94949d7e18ad",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "harbour_water",
+        "office_clock",
+        "office_room_tone",
+        "rain_on_the_office"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Tide Office: rain on the window, clock, sheltered canal",
+          "beds": [
+            {
+              "source": "rain_on_the_office",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "harbour_water",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "office_clock",
+              "peak_dbfs": -25.0,
+              "interval": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "source": "building_movement",
+              "peak_dbfs": -29.0,
+              "interval": [
+                27.0,
+                42.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -9.202781370891993,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.248,
+      "rms_dbfs": -36.297,
+      "seam_delta": 0.001769176684319973
+    },
+    "room_ch1_l3": {
+      "path": "assets/audio/licensed-campaign/room_ch1_l3.ogg",
+      "sha256": "576c8773f1cd7b72e929cfc5aa03a1df431ae1adfb6bd384f180dbb3229d5fda",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "office_room_tone",
+        "rain_on_the_office"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Archive Vestibule: sheltered air and occasional old timber",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -34.0
+            },
+            {
+              "source": "rain_on_the_office",
+              "rms_dbfs": -38.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -30.0,
+              "interval": [
+                22.0,
+                38.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -5.079,
+      "rms_dbfs": -32.767,
+      "seam_delta": 0.008399328216910362
+    },
+    "room_ch1_l4": {
+      "path": "assets/audio/licensed-campaign/room_ch1_l4.ogg",
+      "sha256": "ecd1624d36a36785c8c109437e7948bf3bcfd984f419752c9cfa70bab2cfc3fd",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "office_room_tone",
+        "rain_on_the_office"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Restoration Room: close quiet workspace, distant rainfall",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "rain_on_the_office",
+              "rms_dbfs": -34.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -33.0,
+              "interval": [
+                31.0,
+                47.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -3.203604031266903,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.039,
+      "rms_dbfs": -35.348,
+      "seam_delta": 0.0009123291820287704
+    },
+    "room_ch1_l5": {
+      "path": "assets/audio/licensed-campaign/room_ch1_l5.ogg",
+      "sha256": "070f4105bfc0f77138909d5b84934eb08e83caf226e6900384c0b99b983a1e5c",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "fire",
+        "office_room_tone",
+        "rain_on_the_office"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Boarding House: small hearth, rain and inhabited timber",
+          "beds": [
+            {
+              "source": "fire",
+              "rms_dbfs": -30.0
+            },
+            {
+              "source": "rain_on_the_office",
+              "rms_dbfs": -31.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -38.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -29.0,
+              "interval": [
+                25.0,
+                40.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -6.359245150682909,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.602,
+      "rms_dbfs": -33.723,
+      "seam_delta": 0.004096953198313713
+    },
+    "room_ch1_l6": {
+      "path": "assets/audio/licensed-campaign/room_ch1_l6.ogg",
+      "sha256": "a0f04ec20c76886895340eade7c1e6aa97cae6fffab96501133fd9348dec74e3",
+      "kind": "ambience",
+      "source_ids": [
+        "harbour_water",
+        "metal_creak",
+        "office_clock",
+        "wind_high"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Bell Tower: open high wind, faint harbour and clockwork",
+          "beds": [
+            {
+              "source": "wind_high",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "harbour_water",
+              "rms_dbfs": -37.0
+            }
+          ],
+          "events": [
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -29.0,
+              "interval": [
+                20.0,
+                34.0
+              ]
+            },
+            {
+              "source": "office_clock",
+              "peak_dbfs": -27.0,
+              "interval": [
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -10.599,
+      "rms_dbfs": -27.61,
+      "seam_delta": 0.0027275346219539642
+    },
+    "room_ch2_l1": {
+      "path": "assets/audio/licensed-campaign/room_ch2_l1.ogg",
+      "sha256": "c7f8cc078f193f357b60e9ba2ab58592350ef2ee7ed64e8738d0ffbb55009ee6",
+      "kind": "ambience",
+      "source_ids": [
+        "boiler",
+        "metal_creak",
+        "river",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Pump Court: running water with distant steam machinery",
+          "beds": [
+            {
+              "source": "river",
+              "rms_dbfs": -27.0
+            },
+            {
+              "source": "boiler",
+              "rms_dbfs": -32.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -35.0
+            }
+          ],
+          "events": [
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -29.0,
+              "interval": [
+                22.0,
+                36.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -5.218,
+      "rms_dbfs": -25.633,
+      "seam_delta": 0.01647547446191311
+    },
+    "room_ch2_l2": {
+      "path": "assets/audio/licensed-campaign/room_ch2_l2.ogg",
+      "sha256": "277319fd0d718ef9502370ad83563ad852809a76fdae8046720e9fa3614a5240",
+      "kind": "ambience",
+      "source_ids": [
+        "boiler",
+        "drips",
+        "metal_creak",
+        "river"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Sluice Gallery: close trickles beneath distant moving water",
+          "beds": [
+            {
+              "source": "drips",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "river",
+              "rms_dbfs": -32.0
+            },
+            {
+              "source": "boiler",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -31.0,
+              "interval": [
+                25.0,
+                43.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -4.32960312888402,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.155,
+      "rms_dbfs": -30.711,
+      "seam_delta": 0.003910895437002182
+    },
+    "room_ch2_l3": {
+      "path": "assets/audio/licensed-campaign/room_ch2_l3.ogg",
+      "sha256": "8be33ed584e7eb3ffb6ac0a7956b0110889d18edace03a61a8f724cb561a5a77",
+      "kind": "ambience",
+      "source_ids": [
+        "boiler",
+        "drips",
+        "gear_a",
+        "metal_creak"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Machine Room: restrained steam bed and sparse gear turns",
+          "beds": [
+            {
+              "source": "boiler",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "drips",
+              "rms_dbfs": -35.0
+            }
+          ],
+          "events": [
+            {
+              "source": "gear_a",
+              "peak_dbfs": -24.0,
+              "interval": [
+                18.0,
+                28.0
+              ]
+            },
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -28.0,
+              "interval": [
+                23.0,
+                38.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -5.93,
+      "rms_dbfs": -27.45,
+      "seam_delta": 0.0047735609114170074
+    },
+    "room_ch2_l4": {
+      "path": "assets/audio/licensed-campaign/room_ch2_l4.ogg",
+      "sha256": "086e951969459b47f4ab5c5d9a9af15b554d3fdda2f81d5571363d44f1418500",
+      "kind": "ambience",
+      "source_ids": [
+        "boiler",
+        "building_movement",
+        "fire",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Workers’ Kitchen: hearth and muffled waterworks outside",
+          "beds": [
+            {
+              "source": "fire",
+              "rms_dbfs": -29.0
+            },
+            {
+              "source": "boiler",
+              "rms_dbfs": -38.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -30.0,
+              "interval": [
+                28.0,
+                44.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -5.055,
+      "rms_dbfs": -28.022,
+      "seam_delta": 0.001017918810248375
+    },
+    "room_ch2_l5": {
+      "path": "assets/audio/licensed-campaign/room_ch2_l5.ogg",
+      "sha256": "ece7307751f24288dc514d17f8ccf148edfbedd6a7ea7948bbe2c8d0ed87d086",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "office_clock",
+        "office_room_tone",
+        "river"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Lockkeeper’s Cabin: sheltered water, quiet clock and timber",
+          "beds": [
+            {
+              "source": "river",
+              "rms_dbfs": -33.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -35.0
+            }
+          ],
+          "events": [
+            {
+              "source": "office_clock",
+              "peak_dbfs": -28.0,
+              "interval": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "source": "building_movement",
+              "peak_dbfs": -30.0,
+              "interval": [
+                24.0,
+                41.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -10.567,
+      "rms_dbfs": -31.14,
+      "seam_delta": 0.010272848419845104
+    },
+    "room_ch2_l6": {
+      "path": "assets/audio/licensed-campaign/room_ch2_l6.ogg",
+      "sha256": "ea44521bfdcb6a610afade1534ab9d4eff6e5741cb1eaca7a51e8d9daf5158ff",
+      "kind": "ambience",
+      "source_ids": [
+        "metal_creak",
+        "river",
+        "wind_high"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Spillway Overlook: broad moving water and exposed wind",
+          "beds": [
+            {
+              "source": "river",
+              "rms_dbfs": -25.0
+            },
+            {
+              "source": "wind_high",
+              "rms_dbfs": -31.0
+            }
+          ],
+          "events": [
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -31.0,
+              "interval": [
+                27.0,
+                44.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -1.014731681952789,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.16,
+      "rms_dbfs": -25.348,
+      "seam_delta": 0.012650576420128345
+    },
+    "room_ch3_l1": {
+      "path": "assets/audio/licensed-campaign/room_ch3_l1.ogg",
+      "sha256": "1d81cac804e6ccdecc0d824b913ff1e95f16e4f3f1ca972c9d12a64d5fde3f76",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "office_room_tone",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Observatory Steps: open hill wind with a distant city",
+          "beds": [
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -37.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -35.0,
+              "interval": [
+                33.0,
+                48.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -12.186,
+      "rms_dbfs": -27.671,
+      "seam_delta": 0.004141665063798428
+    },
+    "room_ch3_l2": {
+      "path": "assets/audio/licensed-campaign/room_ch3_l2.ogg",
+      "sha256": "bb033faa898026f360e49c20262c9a5879b297df98063a8cb627d7d7a99f60d8",
+      "kind": "ambience",
+      "source_ids": [
+        "metal_creak",
+        "office_clock",
+        "office_room_tone",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Transit Hall: sheltered high wind and a delicate clock",
+          "beds": [
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -35.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "office_clock",
+              "peak_dbfs": -29.0,
+              "interval": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -33.0,
+              "interval": [
+                31.0,
+                45.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -17.045,
+      "rms_dbfs": -32.596,
+      "seam_delta": 0.002640095539391041
+    },
+    "room_ch3_l3": {
+      "path": "assets/audio/licensed-campaign/room_ch3_l3.ogg",
+      "sha256": "7ba9713db122ca9281538e5df2e295d6cb042dfebc4ac662e25735232d986db7",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "drips",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Plate Darkroom: damp hush, faint drips and old timber",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -38.0
+            },
+            {
+              "source": "drips",
+              "rms_dbfs": -34.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -33.0,
+              "interval": [
+                29.0,
+                46.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -6.24,
+      "rms_dbfs": -32.775,
+      "seam_delta": 0.0005178321152925491
+    },
+    "room_ch3_l4": {
+      "path": "assets/audio/licensed-campaign/room_ch3_l4.ogg",
+      "sha256": "ab96b8e8562eb21da73349717c67a421d7c5c06cabd8d13309f745f9b6ddffbe",
+      "kind": "ambience",
+      "source_ids": [
+        "gear_b",
+        "metal_creak",
+        "office_room_tone",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Signal Loft: air through slats, intermittent mechanism",
+          "beds": [
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -31.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -39.0
+            }
+          ],
+          "events": [
+            {
+              "source": "gear_b",
+              "peak_dbfs": -28.0,
+              "interval": [
+                24.0,
+                38.0
+              ]
+            },
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -30.0,
+              "interval": [
+                29.0,
+                43.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -14.117,
+      "rms_dbfs": -30.485,
+      "seam_delta": 0.00010908767580986023
+    },
+    "room_ch3_l5": {
+      "path": "assets/audio/licensed-campaign/room_ch3_l5.ogg",
+      "sha256": "cab19136a8b468a57a05918795c859b54583d5effae45ea9b60445c0ab582486",
+      "kind": "ambience",
+      "source_ids": [
+        "gear_a",
+        "office_clock",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Clock Workshop: close restrained ticks and occasional gear work",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -37.0
+            }
+          ],
+          "events": [
+            {
+              "source": "office_clock",
+              "peak_dbfs": -23.0,
+              "interval": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "source": "gear_a",
+              "peak_dbfs": -28.0,
+              "interval": [
+                21.0,
+                33.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -19.806,
+      "rms_dbfs": -37.117,
+      "seam_delta": 0.004284809809178114
+    },
+    "room_ch3_l6": {
+      "path": "assets/audio/licensed-campaign/room_ch3_l6.ogg",
+      "sha256": "f03ea974b77e369212f2004416be02d5667aea4fadf3f63324b23b34f84477cd",
+      "kind": "ambience",
+      "source_ids": [
+        "harbour_water",
+        "metal_creak",
+        "wind_high"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Meridian Roof: exposed gusts with distant water below",
+          "beds": [
+            {
+              "source": "wind_high",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "harbour_water",
+              "rms_dbfs": -38.0
+            }
+          ],
+          "events": [
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -30.0,
+              "interval": [
+                26.0,
+                40.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -11.198,
+      "rms_dbfs": -27.713,
+      "seam_delta": 0.004267863929271698
+    },
+    "room_ch4_l1": {
+      "path": "assets/audio/licensed-campaign/room_ch4_l1.ogg",
+      "sha256": "a7ed49a4ef3cc2501b49187bdf00cc128dd7aaae393defdad98a18248f559fc2",
+      "kind": "ambience",
+      "source_ids": [
+        "harbour_water",
+        "marsh",
+        "moored_boat_and_ropes",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Reed Jetty: wetland birds, gentle water and landing timber",
+          "beds": [
+            {
+              "source": "marsh",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "harbour_water",
+              "rms_dbfs": -34.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -38.0
+            }
+          ],
+          "events": [
+            {
+              "source": "moored_boat_and_ropes",
+              "peak_dbfs": -27.0,
+              "interval": [
+                17.0,
+                29.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -6.955994060126105,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.44,
+      "rms_dbfs": -33.854,
+      "seam_delta": 0.008145056664943695
+    },
+    "room_ch4_l2": {
+      "path": "assets/audio/licensed-campaign/room_ch4_l2.ogg",
+      "sha256": "d4ec81c4dc4b2064e24a91ad4f8f599520c320418823b9712c1064d7d23c6912",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "office_room_tone",
+        "rain_on_the_office",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Abandoned Clinic: sparse wind through shelter, fading rain",
+          "beds": [
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -35.0
+            },
+            {
+              "source": "rain_on_the_office",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -40.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -31.0,
+              "interval": [
+                30.0,
+                47.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -1.2533009448036432,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.076,
+      "rms_dbfs": -33.214,
+      "seam_delta": 0.004211712628602982
+    },
+    "room_ch4_l3": {
+      "path": "assets/audio/licensed-campaign/room_ch4_l3.ogg",
+      "sha256": "42f0d6587bb4c7df26dc6b3abcefe058b9d6612ae730d7c49dd21401009f2d1e",
+      "kind": "ambience",
+      "source_ids": [
+        "birds",
+        "building_movement",
+        "drips",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Glasshouse: birds outside the panes, drips among leaves",
+          "beds": [
+            {
+              "source": "birds",
+              "rms_dbfs": -33.0
+            },
+            {
+              "source": "drips",
+              "rms_dbfs": -31.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -37.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -33.0,
+              "interval": [
+                29.0,
+                46.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -1.223911759925183,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.098,
+      "rms_dbfs": -29.76,
+      "seam_delta": 0.009067673236131668
+    },
+    "room_ch4_l4": {
+      "path": "assets/audio/licensed-campaign/room_ch4_l4.ogg",
+      "sha256": "01898b2fb334a8c09a5d43c6d469f325584476f8ba8f39733e3910795a6054ff",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "marsh",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Survey Hut: marsh outside and a sheltered wooden frame",
+          "beds": [
+            {
+              "source": "marsh",
+              "rms_dbfs": -34.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -29.0,
+              "interval": [
+                22.0,
+                39.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -0.958940659726454,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.226,
+      "rms_dbfs": -32.961,
+      "seam_delta": 0.003054865635931492
+    },
+    "room_ch4_l5": {
+      "path": "assets/audio/licensed-campaign/room_ch4_l5.ogg",
+      "sha256": "b8dd061f6b5f8aee091bbc3d8ca708da913816686bbcb4154acd8aa1140c4e2f",
+      "kind": "ambience",
+      "source_ids": [
+        "birds",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Memorial Garden: soft air and unhurried garden birds",
+          "beds": [
+            {
+              "source": "birds",
+              "rms_dbfs": -30.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -33.0
+            }
+          ],
+          "events": []
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -8.377,
+      "rms_dbfs": -28.44,
+      "seam_delta": 0.003682752139866352
+    },
+    "room_ch4_l6": {
+      "path": "assets/audio/licensed-campaign/room_ch4_l6.ogg",
+      "sha256": "368d5d1479f7aaa5c587106efda90bb44bd8a5990bece73532a373d9041d5b0d",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "fire",
+        "marsh",
+        "rain_on_the_office"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Island Refuge: warm hearth, quiet rain and distant reeds",
+          "beds": [
+            {
+              "source": "fire",
+              "rms_dbfs": -30.0
+            },
+            {
+              "source": "rain_on_the_office",
+              "rms_dbfs": -34.0
+            },
+            {
+              "source": "marsh",
+              "rms_dbfs": -40.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -30.0,
+              "interval": [
+                29.0,
+                44.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": -3.773991384603763,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -4.243,
+      "rms_dbfs": -32.294,
+      "seam_delta": 0.0037414913531392813
+    },
+    "room_ch5_l1": {
+      "path": "assets/audio/licensed-campaign/room_ch5_l1.ogg",
+      "sha256": "c55ca8c1132e316430aabd51261e1d5be4d8f9c679638ed27d6124d2f97390f1",
+      "kind": "ambience",
+      "source_ids": [
+        "birds",
+        "harbour_water",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Civic Square: open civic air, birds and distant canal",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -30.0
+            },
+            {
+              "source": "birds",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "harbour_water",
+              "rms_dbfs": -38.0
+            }
+          ],
+          "events": []
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -12.323,
+      "rms_dbfs": -28.707,
+      "seam_delta": 0.010720543563365936
+    },
+    "room_ch5_l2": {
+      "path": "assets/audio/licensed-campaign/room_ch5_l2.ogg",
+      "sha256": "7f981739e973fa9f92ce887c09f267794bb6b64085630054a50cf9c6cbf12dee",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "office_clock",
+        "office_room_tone",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Council Chamber: hushed hall, faint clock and timber",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -39.0
+            }
+          ],
+          "events": [
+            {
+              "source": "office_clock",
+              "peak_dbfs": -31.0,
+              "interval": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "source": "building_movement",
+              "peak_dbfs": -33.0,
+              "interval": [
+                31.0,
+                49.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -18.649,
+      "rms_dbfs": -34.351,
+      "seam_delta": 0.0026351609267294407
+    },
+    "room_ch5_l3": {
+      "path": "assets/audio/licensed-campaign/room_ch5_l3.ogg",
+      "sha256": "88dd0d7dc675425c30bb3516391928f0f70605df8f2ce14df59c7e33bcac1aad",
+      "kind": "ambience",
+      "source_ids": [
+        "metal_creak",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Deed Vault: still sheltered air, occasional structural creak",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -39.0
+            }
+          ],
+          "events": [
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -32.0,
+              "interval": [
+                31.0,
+                48.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -23.781,
+      "rms_dbfs": -39.209,
+      "seam_delta": 0.0013310005888342857
+    },
+    "room_ch5_l4": {
+      "path": "assets/audio/licensed-campaign/room_ch5_l4.ogg",
+      "sha256": "ca85682ecd0b4b9fcc5d14d611503cc6ed806405e946c9db806d1a66a22cc467",
+      "kind": "ambience",
+      "source_ids": [
+        "building_movement",
+        "factory",
+        "gear_a",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Print Shop: low workshop activity with intermittent gears",
+          "beds": [
+            {
+              "source": "factory",
+              "rms_dbfs": -35.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "gear_a",
+              "peak_dbfs": -27.0,
+              "interval": [
+                24.0,
+                39.0
+              ]
+            },
+            {
+              "source": "building_movement",
+              "peak_dbfs": -31.0,
+              "interval": [
+                27.0,
+                43.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -16.417,
+      "rms_dbfs": -32.601,
+      "seam_delta": 0.011545716784894466
+    },
+    "room_ch5_l5": {
+      "path": "assets/audio/licensed-campaign/room_ch5_l5.ogg",
+      "sha256": "0bfca01bb01751717e75ab8374965e15da36af47466a5cf94a56ddcd6995ab1a",
+      "kind": "ambience",
+      "source_ids": [
+        "office_clock",
+        "office_room_tone",
+        "rain_on_the_office"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Counting Room: controlled hush, measured clock, distant rain",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -37.0
+            },
+            {
+              "source": "rain_on_the_office",
+              "rms_dbfs": -39.0
+            }
+          ],
+          "events": [
+            {
+              "source": "office_clock",
+              "peak_dbfs": -27.0,
+              "interval": [
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -6.026,
+      "rms_dbfs": -35.088,
+      "seam_delta": 0.003082957584410906
+    },
+    "room_ch5_l6": {
+      "path": "assets/audio/licensed-campaign/room_ch5_l6.ogg",
+      "sha256": "557c0a0071fc8cbb44eaa26dfb5fc3d8220073f2ac4e5e12deb696dfa079167a",
+      "kind": "ambience",
+      "source_ids": [
+        "factory",
+        "gear_b",
+        "harbour_water",
+        "metal_creak",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Dispatch Station: low machinery, sheltered canal, pipe movement",
+          "beds": [
+            {
+              "source": "factory",
+              "rms_dbfs": -37.0
+            },
+            {
+              "source": "harbour_water",
+              "rms_dbfs": -37.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "gear_b",
+              "peak_dbfs": -29.0,
+              "interval": [
+                22.0,
+                35.0
+              ]
+            },
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -32.0,
+              "interval": [
+                31.0,
+                44.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -16.425,
+      "rms_dbfs": -32.082,
+      "seam_delta": 0.0019219852983951569
+    },
+    "room_ch6_l1": {
+      "path": "assets/audio/licensed-campaign/room_ch6_l1.ogg",
+      "sha256": "ee19ebc79162857f1e91ff9b2d0e0e5a3342b4b2d57057cdc8b202a2449c1a8f",
+      "kind": "ambience",
+      "source_ids": [
+        "birds",
+        "harbour_water",
+        "moored_boat_and_ropes",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Dawn Quay: calm harbour and birds; the rain has stopped",
+          "beds": [
+            {
+              "source": "harbour_water",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "birds",
+              "rms_dbfs": -34.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -36.0
+            }
+          ],
+          "events": [
+            {
+              "source": "moored_boat_and_ropes",
+              "peak_dbfs": -30.0,
+              "interval": [
+                24.0,
+                39.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -9.2,
+      "rms_dbfs": -26.822,
+      "seam_delta": 0.004941325634717941
+    },
+    "room_ch6_l2": {
+      "path": "assets/audio/licensed-campaign/room_ch6_l2.ogg",
+      "sha256": "43ddd4e59445b5826dfd895d6123142c58e814545cb2e538d023cb9345987bd8",
+      "kind": "ambience",
+      "source_ids": [
+        "birds",
+        "building_movement",
+        "office_room_tone"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Witness Room: quiet room and morning birds through glass",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "birds",
+              "rms_dbfs": -38.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -33.0,
+              "interval": [
+                29.0,
+                47.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -15.348,
+      "rms_dbfs": -34.098,
+      "seam_delta": 0.0011291420087218285
+    },
+    "room_ch6_l3": {
+      "path": "assets/audio/licensed-campaign/room_ch6_l3.ogg",
+      "sha256": "493e483edd4e8b3b90ff5aca48d690a0543bf7d86c2d56a59107d6b3064d0646",
+      "kind": "ambience",
+      "source_ids": [
+        "factory",
+        "gear_b",
+        "office_room_tone",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Relay House: quiet working mechanism, clear morning air",
+          "beds": [
+            {
+              "source": "factory",
+              "rms_dbfs": -39.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -38.0
+            }
+          ],
+          "events": [
+            {
+              "source": "gear_b",
+              "peak_dbfs": -29.0,
+              "interval": [
+                27.0,
+                40.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -17.007,
+      "rms_dbfs": -32.881,
+      "seam_delta": 0.005125969648361206
+    },
+    "room_ch6_l4": {
+      "path": "assets/audio/licensed-campaign/room_ch6_l4.ogg",
+      "sha256": "8c052814de151ca39c73897d19e6fd1b258c40fac2178276ad0e906833aec97d",
+      "kind": "ambience",
+      "source_ids": [
+        "metal_creak",
+        "river",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Gate Crown: high air, water below, resting metal structure",
+          "beds": [
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -28.0
+            },
+            {
+              "source": "river",
+              "rms_dbfs": -32.0
+            }
+          ],
+          "events": [
+            {
+              "source": "metal_creak",
+              "peak_dbfs": -28.0,
+              "interval": [
+                22.0,
+                37.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -9.496,
+      "rms_dbfs": -26.753,
+      "seam_delta": 0.00745747983455658
+    },
+    "room_ch6_l5": {
+      "path": "assets/audio/licensed-campaign/room_ch6_l5.ogg",
+      "sha256": "753a79de018609b76bd4bef2469b19006e52d338551652196ed8834a0adc151c",
+      "kind": "ambience",
+      "source_ids": [
+        "birds",
+        "office_room_tone",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Public Forum: morning civic air and distant birds",
+          "beds": [
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -32.0
+            },
+            {
+              "source": "birds",
+              "rms_dbfs": -37.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -39.0
+            }
+          ],
+          "events": []
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -13.273,
+      "rms_dbfs": -30.393,
+      "seam_delta": 0.01194722205400467
+    },
+    "room_ch6_l6": {
+      "path": "assets/audio/licensed-campaign/room_ch6_l6.ogg",
+      "sha256": "74266b7c13f9e46f8ac1c9e80c5a9ca18f9bdb004d7cc20a79fe062c765f93ee",
+      "kind": "ambience",
+      "source_ids": [
+        "birds",
+        "building_movement",
+        "office_room_tone",
+        "wind_soft"
+      ],
+      "recipe": {
+        "profile": {
+          "description": "Memory Room: open-window birds and a calm archive",
+          "beds": [
+            {
+              "source": "birds",
+              "rms_dbfs": -34.0
+            },
+            {
+              "source": "office_room_tone",
+              "rms_dbfs": -36.0
+            },
+            {
+              "source": "wind_soft",
+              "rms_dbfs": -40.0
+            }
+          ],
+          "events": [
+            {
+              "source": "building_movement",
+              "peak_dbfs": -34.0,
+              "interval": [
+                33.0,
+                49.0
+              ]
+            }
+          ]
+        },
+        "final_seam_crossfade_ms": 120,
+        "runtime_default_bus_gain_db": -12.39577516576788
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 89.88,
+      "peak_dbfs": -13.072,
+      "rms_dbfs": -31.491,
+      "seam_delta": 0.0035437974147498608
+    },
+    "campaign_mechanism_1": {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_1.ogg",
+      "sha256": "132090a04b91b97be394f71142cef5e9d300636bf9c638f0a40480514ff12b8a",
+      "kind": "sfx",
+      "source_ids": [
+        "gear_a"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.5673958333333333,
+      "peak_dbfs": -5.725,
+      "rms_dbfs": -28.21,
+      "seam_delta": 0.001055754953995347
+    },
+    "campaign_mechanism_2": {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_2.ogg",
+      "sha256": "348e4fd09601833a131cc5cca2dd634c5b07852df1c76061c5176c5c635ad621",
+      "kind": "sfx",
+      "source_ids": [
+        "gear_b"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 1.3872291666666667,
+      "peak_dbfs": -6.7,
+      "rms_dbfs": -25.308,
+      "seam_delta": 0.0008503212011419237
+    },
+    "campaign_mechanism_3": {
+      "path": "assets/audio/licensed-campaign/campaign_mechanism_3.ogg",
+      "sha256": "e2a0f72a37df0137e4e8c64c79b5120f6357a57ec1ac3536b5e68ddd5584f187",
+      "kind": "sfx",
+      "source_ids": [
+        "lever"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.6456666666666667,
+      "peak_dbfs": -6.07,
+      "rms_dbfs": -26.364,
+      "seam_delta": 1.5084677215781994e-05
+    },
+    "campaign_door_1": {
+      "path": "assets/audio/licensed-campaign/campaign_door_1.ogg",
+      "sha256": "f499b88f0cd2f8e8ec5ced61b2a0c18ac4987d8c3fee7896b92a68fd760c1896",
+      "kind": "sfx",
+      "source_ids": [
+        "lock_open"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.52325,
+      "peak_dbfs": -6.621,
+      "rms_dbfs": -30.567,
+      "seam_delta": 0.0019285852322354913
+    },
+    "campaign_steps_stone_1": {
+      "path": "assets/audio/licensed-campaign/campaign_steps_stone_1.ogg",
+      "sha256": "10785486b69ce825e479665d4d77488a0b8a0d9cfbc2b2204fa28ad39b07214a",
+      "kind": "sfx",
+      "source_ids": [
+        "step_stone_a"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.244875,
+      "peak_dbfs": -6.025,
+      "rms_dbfs": -32.175,
+      "seam_delta": 0.0035253046080470085
+    },
+    "campaign_steps_stone_2": {
+      "path": "assets/audio/licensed-campaign/campaign_steps_stone_2.ogg",
+      "sha256": "4a1ea33859e0cf3a694ecd9786b03ba8f67037e37bc2cd5b682972ac7bb95030",
+      "kind": "sfx",
+      "source_ids": [
+        "step_stone_b"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.2536041666666667,
+      "peak_dbfs": -9.368,
+      "rms_dbfs": -32.944,
+      "seam_delta": 0.002169250277802348
+    },
+    "campaign_steps_wood_1": {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wood_1.ogg",
+      "sha256": "637985cc51749304ed81ad3cc600bb9a29b1ab4c0084166ee17feed8e10e0f84",
+      "kind": "sfx",
+      "source_ids": [
+        "step_wood_a"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.23358333333333334,
+      "peak_dbfs": -6.071,
+      "rms_dbfs": -24.488,
+      "seam_delta": 0.0020069910679012537
+    },
+    "campaign_steps_wood_2": {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wood_2.ogg",
+      "sha256": "79e5feddfb87fa3baa40d6e96ce3a0c45769fc7cb67b1c886ee1d90c2822da25",
+      "kind": "sfx",
+      "source_ids": [
+        "step_wood_b"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.2779583333333333,
+      "peak_dbfs": -10.342,
+      "rms_dbfs": -27.228,
+      "seam_delta": 0.0056398408487439156
+    },
+    "campaign_steps_wet_1": {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wet_1.ogg",
+      "sha256": "2dcbd2b1f5e8b112f5434a8fd5385c5c1c9db016c9219ed41a9585df2e721eb0",
+      "kind": "sfx",
+      "source_ids": [
+        "step_wet_a"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.6919791666666667,
+      "peak_dbfs": -6.976,
+      "rms_dbfs": -34.19,
+      "seam_delta": 4.845230432692915e-05
+    },
+    "campaign_steps_wet_2": {
+      "path": "assets/audio/licensed-campaign/campaign_steps_wet_2.ogg",
+      "sha256": "04516472c4f5ed7b05f2c75c7efbd65a918918a785f3737b5202f50f6d3ca73a",
+      "kind": "sfx",
+      "source_ids": [
+        "step_wet_b"
+      ],
+      "recipe": {
+        "edge_fades_ms": 3,
+        "peak_target_dbfs": -6
+      },
+      "limiting_gain_db": 0.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 0.7734375,
+      "peak_dbfs": -6.593,
+      "rms_dbfs": -35.09,
+      "seam_delta": 0.000553050369489938
+    }
+  },
+  "cues": {
+    "search_found": {
+      "path": "res://assets/audio/licensed-opening/object_found.ogg",
+      "gain_db": -6.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected object found"
+    },
+    "search_symbol": {
+      "path": "res://assets/audio/licensed-opening/symbol_understood.ogg",
+      "gain_db": -12.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected symbol understood"
+    },
+    "search_hint": {
+      "path": "res://assets/audio/licensed-opening/hint_revealed.ogg",
+      "gain_db": -13.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected hint revealed"
+    },
+    "search_complete": {
+      "path": "res://assets/audio/licensed-opening/search_completed.ogg",
+      "gain_db": -10.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected search completed"
+    },
+    "search_receipt": {
+      "path": "res://assets/audio/licensed-opening/receipt_recovered.ogg",
+      "gain_db": -7.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected receipt recovered"
+    },
+    "search_journal": {
+      "path": "res://assets/audio/licensed-opening/journal_updated.ogg",
+      "gain_db": -15.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected journal updated"
+    },
+    "search_menu": {
+      "path": "res://assets/audio/licensed-opening/menu_interaction.ogg",
+      "gain_db": -17.963760540124007,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.1,
+      "description": "Owner-selected menu interaction"
+    },
+    "campaign_mechanism": {
+      "path": "res://assets/audio/licensed-campaign/campaign_mechanism_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_mechanism_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_mechanism_2.ogg",
+        "res://assets/audio/licensed-campaign/campaign_mechanism_3.ogg"
+      ],
+      "gain_db": -15,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Physical mechanism engagement"
+    },
+    "campaign_door": {
+      "path": "res://assets/audio/licensed-campaign/campaign_door_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_door_1.ogg"
+      ],
+      "gain_db": -18,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Entry latch opening"
+    },
+    "campaign_steps_stone": {
+      "path": "res://assets/audio/licensed-campaign/campaign_steps_stone_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_steps_stone_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_steps_stone_2.ogg"
+      ],
+      "gain_db": -18,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Arrival on stone"
+    },
+    "campaign_steps_wood": {
+      "path": "res://assets/audio/licensed-campaign/campaign_steps_wood_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_steps_wood_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_steps_wood_2.ogg"
+      ],
+      "gain_db": -18,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Arrival on boards"
+    },
+    "campaign_steps_wet": {
+      "path": "res://assets/audio/licensed-campaign/campaign_steps_wet_1.ogg",
+      "variants": [
+        "res://assets/audio/licensed-campaign/campaign_steps_wet_1.ogg",
+        "res://assets/audio/licensed-campaign/campaign_steps_wet_2.ogg"
+      ],
+      "gain_db": -20,
+      "pitch_range": [
+        1,
+        1
+      ],
+      "cooldown_seconds": 0.18,
+      "description": "Arrival on wet quay"
+    }
+  },
+  "rooms": {
+    "ch1_l1": "room_ch1_l1",
+    "ch1_l2": "room_ch1_l2",
+    "ch1_l3": "room_ch1_l3",
+    "ch1_l4": "room_ch1_l4",
+    "ch1_l5": "room_ch1_l5",
+    "ch1_l6": "room_ch1_l6",
+    "ch2_l1": "room_ch2_l1",
+    "ch2_l2": "room_ch2_l2",
+    "ch2_l3": "room_ch2_l3",
+    "ch2_l4": "room_ch2_l4",
+    "ch2_l5": "room_ch2_l5",
+    "ch2_l6": "room_ch2_l6",
+    "ch3_l1": "room_ch3_l1",
+    "ch3_l2": "room_ch3_l2",
+    "ch3_l3": "room_ch3_l3",
+    "ch3_l4": "room_ch3_l4",
+    "ch3_l5": "room_ch3_l5",
+    "ch3_l6": "room_ch3_l6",
+    "ch4_l1": "room_ch4_l1",
+    "ch4_l2": "room_ch4_l2",
+    "ch4_l3": "room_ch4_l3",
+    "ch4_l4": "room_ch4_l4",
+    "ch4_l5": "room_ch4_l5",
+    "ch4_l6": "room_ch4_l6",
+    "ch5_l1": "room_ch5_l1",
+    "ch5_l2": "room_ch5_l2",
+    "ch5_l3": "room_ch5_l3",
+    "ch5_l4": "room_ch5_l4",
+    "ch5_l5": "room_ch5_l5",
+    "ch5_l6": "room_ch5_l6",
+    "ch6_l1": "room_ch6_l1",
+    "ch6_l2": "room_ch6_l2",
+    "ch6_l3": "room_ch6_l3",
+    "ch6_l4": "room_ch6_l4",
+    "ch6_l5": "room_ch6_l5",
+    "ch6_l6": "room_ch6_l6"
+  },
+  "generator": "tools/prepare_campaign_audio.py",
+  "generator_sha256": "a9f20503d03a365dd4da6c715e4f7b66abbca8d73f617543deb7048784811505",
+  "plan_sha256": "982e2791ca6afae087db3d03b941e547820bc570dfc2ac49931cb36f18e47f53"
+}

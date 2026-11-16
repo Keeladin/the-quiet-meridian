@@ -1,0 +1,28 @@
+{
+  "scope": "byte-level waveform and ASR evidence review only",
+  "source_wav_sha256": "687e709f6d6343134cdf094e6cf6804169323154a0ab4bf80c8b47cd92a9eee7",
+  "duration_seconds": 33.52,
+  "last_nonzero_sample_index": 605759,
+  "last_nonzero_seconds": 25.239958333333334,
+  "exact_zero_tail_seconds": 8.28,
+  "asr_extra_word": "You",
+  "asr_extra_word_interval_seconds": [
+    30.42,
+    31.82
+  ],
+  "extra_word_interval_peak_s16le": 0,
+  "unresolved_name": {
+    "source": "Tomas",
+    "asr": "Thomas",
+    "interval_seconds": [
+      4.66,
+      5.0
+    ],
+    "reported_asr_probability": 0.9953963160514832
+  },
+  "original_asr_status": "asr_mismatch_hold",
+  "audio_edited": false,
+  "human_listening_performed": false,
+  "accepted_for_game": false,
+  "conclusion": "The final extra ASR word lies in exact digital silence. The Tomas/Thomas mismatch remains unresolved and requires listening. The raw transcript has not been corrected."
+}

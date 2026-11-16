@@ -1,0 +1,18 @@
+OPENING DISPATCH OFFICE — YOUR SOUND CHOICES
+
+Enter one or more library filenames after each name. Variations and separate
+layers are welcome. Codex will handle editing, looping, levels and integration.
+
+Harbour water — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/beach_waves_ocean_calm_loop_02.wav
+Rain on the office — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/rain_light_hard_surface_loop_01.wav
+Moored boat and ropes — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_01.wav
+Office room tone — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Backgrounds/background_quiet_urban_park_loop_02.wav
+Office clock — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Clock/clock_tick_03.wav
+Building movement — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_05.wav
+Object found — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Film Camera Movie Projector Small/movie_camera_vintage_lever_05.wav
+Symbol understood — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_slow_deep_02.wav
+Receipt recovered — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Wood/wood_tree_branch_move_13.wav
+Search completed — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Collectibles_Items_Powerup/collect_item_05.wav
+Hint revealed — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_weapon_spin_02.wav
+Menu interaction — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/User_Interface_Menu/ui_button_simple_click_05.wav
+Journal updated — /home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Pencil/pencil_sketch_draw_write_squibble_03_long_07.wav

@@ -1,0 +1,227 @@
+{
+  "line_id": "rowan_before_hearing_q2",
+  "clip_id": "a6a3bf7fc58241a3abd9f471b171f6f0",
+  "source_text_sha256": "e6a0b59f5c0a950f4c7cb64a0e0018aac66b9706cb8f692d1320598e8434ee40",
+  "master": "work/gateway-voice/masters/a6a3bf7fc58241a3abd9f471b171f6f0.wav",
+  "wav_sha256": "cb7a0433f07a55793a1da1ad46e216fbe2c5c2f14443f90370daede43e2ab95e",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 141120,
+    "sample_count": 70560,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.94,
+    "peak": 0.4921875,
+    "peak_dbfs": -6.157388403885733,
+    "rms": 0.07443538578338806,
+    "rms_dbfs": -22.56441112859084,
+    "dc_offset": 4.782947012626665e-05,
+    "silence_fraction": 0.3280045351473923,
+    "leading_silence_seconds": 0.40258333333333335,
+    "tail_silence_seconds": 0.3579583333333333,
+    "active_span_seconds": 2.1794583333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 192.70843290572964,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "will",
+      "you",
+      "do",
+      "after",
+      "the",
+      "inquiry"
+    ],
+    "observed_tokens": [
+      "what",
+      "will",
+      "you",
+      "do",
+      "after",
+      "the",
+      "inquiry"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "what",
+          "will",
+          "you",
+          "do",
+          "after",
+          "the",
+          "inquiry"
+        ],
+        "observed": [
+          "what",
+          "will",
+          "you",
+          "do",
+          "after",
+          "the",
+          "inquiry"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "What will you do after the inquiry?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.2,
+      "text": " What will you do after the inquiry?",
+      "words": [
+        {
+          "word": " What",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.7307521104812622
+        },
+        {
+          "word": " will",
+          "start": 0.56,
+          "end": 0.68,
+          "probability": 0.9856919646263123
+        },
+        {
+          "word": " you",
+          "start": 0.68,
+          "end": 0.86,
+          "probability": 0.9976884126663208
+        },
+        {
+          "word": " do",
+          "start": 0.86,
+          "end": 1.2,
+          "probability": 0.9869019985198975
+        },
+        {
+          "word": " after",
+          "start": 1.2,
+          "end": 1.68,
+          "probability": 0.9847390651702881
+        },
+        {
+          "word": " the",
+          "start": 1.68,
+          "end": 1.9,
+          "probability": 0.9921846985816956
+        },
+        {
+          "word": " inquiry?",
+          "start": 1.9,
+          "end": 2.2,
+          "probability": 0.9291204810142517
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "what",
+      "will",
+      "you",
+      "do",
+      "after",
+      "the",
+      "inquiry"
+    ],
+    "observed_tokens": [
+      "what",
+      "will",
+      "you",
+      "do",
+      "after",
+      "the",
+      "inquiry"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "what",
+          "will",
+          "you",
+          "do",
+          "after",
+          "the",
+          "inquiry"
+        ],
+        "observed": [
+          "what",
+          "will",
+          "you",
+          "do",
+          "after",
+          "the",
+          "inquiry"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

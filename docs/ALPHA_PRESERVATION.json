@@ -1,0 +1,27 @@
+{
+  "revision": "9f7c146ec2f7daff27ab99c879aa4548f12b6f87",
+  "tag": "alpha-before-av-polish",
+  "location": "builds/preserved-alpha-9f7c146",
+  "files": [
+    {
+      "file": "quiet-meridian-linux-x86_64.zip",
+      "sha256": "d3d13fffbc1b07f5570b078d0c0445f16243f3d3bc86cf199d565e011332252c"
+    },
+    {
+      "file": "quiet-meridian-windows-x86_64.zip",
+      "sha256": "cb2c51fe95bfa6d0b4ffa4696f300194c60f532c4ee53d1d10d042aacd18fd50"
+    },
+    {
+      "file": "quiet-meridian-source.zip",
+      "sha256": "d069babeccafa2b04b1f38c0bd0c6e1adb8bb786f0654398b7623d6f06632ce5"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "sha256": "6a772a8d4b8b4315633973604842c237ed0842b2c71e01a34ebbae547593bedc"
+    },
+    {
+      "file": "verification.json",
+      "sha256": "b10ebac7275cb26a9af567994e99105d9116a7cde11b91d4315b4c2b502f3326"
+    }
+  ]
+}

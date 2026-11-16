@@ -1,0 +1,856 @@
+{
+  "line_id": "ch6_intro",
+  "clip_id": "58e53b101bc740e1b719150baa7d8c6e",
+  "source_text_sha256": "50c55fd05cb2141ae28224e8554bab1601dd8616e2dd1bf5d544518aa29dc102",
+  "master": "work/gateway-voice/masters/58e53b101bc740e1b719150baa7d8c6e.wav",
+  "wav_sha256": "246afa4e445e072bc287fa95e421c41947df6ba9b4275a75c2544ad7fae7f9c3",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 886080,
+    "sample_count": 443040,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 18.46,
+    "peak": 0.765625,
+    "peak_dbfs": -2.31967787910747,
+    "rms": 0.07119441161873673,
+    "rms_dbfs": -22.951081896475323,
+    "dc_offset": 0.0001261750727881159,
+    "silence_fraction": 0.19028981581798482,
+    "leading_silence_seconds": 0.40491666666666665,
+    "tail_silence_seconds": 0.022875,
+    "active_span_seconds": 18.032208333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 42,
+    "source_words_per_active_minute": 139.7499381893048,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "dawn",
+      "turns",
+      "the",
+      "harbour",
+      "windows",
+      "gold",
+      "nadi",
+      "has",
+      "two",
+      "boats",
+      "ready",
+      "sera",
+      "has",
+      "three",
+      "sets",
+      "of",
+      "proofs",
+      "rusk",
+      "still",
+      "controls",
+      "the",
+      "council",
+      "seal",
+      "but",
+      "he",
+      "no",
+      "longer",
+      "controls",
+      "every",
+      "copy",
+      "the",
+      "public",
+      "sitting",
+      "will",
+      "begin",
+      "when",
+      "the",
+      "witnesses",
+      "and",
+      "evidence",
+      "are",
+      "ready"
+    ],
+    "observed_tokens": [
+      "dawn",
+      "turns",
+      "the",
+      "harbour",
+      "windows",
+      "gold",
+      "nadi",
+      "has",
+      "two",
+      "boats",
+      "ready",
+      "sera",
+      "has",
+      "three",
+      "sets",
+      "of",
+      "proofs",
+      "rusk",
+      "still",
+      "controls",
+      "the",
+      "council",
+      "seal",
+      "but",
+      "he",
+      "no",
+      "longer",
+      "controls",
+      "every",
+      "copy",
+      "the",
+      "public",
+      "sitting",
+      "will",
+      "begin",
+      "when",
+      "the",
+      "witnesses",
+      "and",
+      "evidence",
+      "are",
+      "ready"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 42,
+        "observed_start": 0,
+        "observed_end": 42,
+        "expected": [
+          "dawn",
+          "turns",
+          "the",
+          "harbour",
+          "windows",
+          "gold",
+          "nadi",
+          "has",
+          "two",
+          "boats",
+          "ready",
+          "sera",
+          "has",
+          "three",
+          "sets",
+          "of",
+          "proofs",
+          "rusk",
+          "still",
+          "controls",
+          "the",
+          "council",
+          "seal",
+          "but",
+          "he",
+          "no",
+          "longer",
+          "controls",
+          "every",
+          "copy",
+          "the",
+          "public",
+          "sitting",
+          "will",
+          "begin",
+          "when",
+          "the",
+          "witnesses",
+          "and",
+          "evidence",
+          "are",
+          "ready"
+        ],
+        "observed": [
+          "dawn",
+          "turns",
+          "the",
+          "harbour",
+          "windows",
+          "gold",
+          "nadi",
+          "has",
+          "two",
+          "boats",
+          "ready",
+          "sera",
+          "has",
+          "three",
+          "sets",
+          "of",
+          "proofs",
+          "rusk",
+          "still",
+          "controls",
+          "the",
+          "council",
+          "seal",
+          "but",
+          "he",
+          "no",
+          "longer",
+          "controls",
+          "every",
+          "copy",
+          "the",
+          "public",
+          "sitting",
+          "will",
+          "begin",
+          "when",
+          "the",
+          "witnesses",
+          "and",
+          "evidence",
+          "are",
+          "ready"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Don turns the harbor windows gold. Noddy has two boats ready. Sarah has three sets of proofs. Rusk still controls the council seal, but he no longer controls every copy. The public sitting will begin when the witnesses and evidence are ready.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 7.96,
+      "text": " Don turns the harbor windows gold. Noddy has two boats ready. Sarah has three sets of proofs.",
+      "words": [
+        {
+          "word": " Don",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.7143968343734741
+        },
+        {
+          "word": " turns",
+          "start": 0.72,
+          "end": 1.18,
+          "probability": 0.9662356972694397
+        },
+        {
+          "word": " the",
+          "start": 1.18,
+          "end": 1.46,
+          "probability": 0.991868257522583
+        },
+        {
+          "word": " harbor",
+          "start": 1.46,
+          "end": 1.78,
+          "probability": 0.5975980162620544
+        },
+        {
+          "word": " windows",
+          "start": 1.78,
+          "end": 2.32,
+          "probability": 0.8329612612724304
+        },
+        {
+          "word": " gold.",
+          "start": 2.32,
+          "end": 3.14,
+          "probability": 0.9835144281387329
+        },
+        {
+          "word": " Noddy",
+          "start": 3.76,
+          "end": 4.0,
+          "probability": 0.5042432099580765
+        },
+        {
+          "word": " has",
+          "start": 4.0,
+          "end": 4.34,
+          "probability": 0.9985449314117432
+        },
+        {
+          "word": " two",
+          "start": 4.34,
+          "end": 4.68,
+          "probability": 0.976031482219696
+        },
+        {
+          "word": " boats",
+          "start": 4.68,
+          "end": 5.02,
+          "probability": 0.9969071745872498
+        },
+        {
+          "word": " ready.",
+          "start": 5.02,
+          "end": 5.38,
+          "probability": 0.9962084293365479
+        },
+        {
+          "word": " Sarah",
+          "start": 5.98,
+          "end": 6.22,
+          "probability": 0.6704542636871338
+        },
+        {
+          "word": " has",
+          "start": 6.22,
+          "end": 6.66,
+          "probability": 0.9982084035873413
+        },
+        {
+          "word": " three",
+          "start": 6.66,
+          "end": 7.02,
+          "probability": 0.9867573976516724
+        },
+        {
+          "word": " sets",
+          "start": 7.02,
+          "end": 7.4,
+          "probability": 0.9947748184204102
+        },
+        {
+          "word": " of",
+          "start": 7.4,
+          "end": 7.66,
+          "probability": 0.9986357092857361
+        },
+        {
+          "word": " proofs.",
+          "start": 7.66,
+          "end": 7.96,
+          "probability": 0.990257978439331
+        }
+      ]
+    },
+    {
+      "start": 8.66,
+      "end": 13.96,
+      "text": " Rusk still controls the council seal, but he no longer controls every copy.",
+      "words": [
+        {
+          "word": " Rusk",
+          "start": 8.66,
+          "end": 9.08,
+          "probability": 0.9523109495639801
+        },
+        {
+          "word": " still",
+          "start": 9.08,
+          "end": 9.54,
+          "probability": 0.9878284931182861
+        },
+        {
+          "word": " controls",
+          "start": 9.54,
+          "end": 10.2,
+          "probability": 0.9965800642967224
+        },
+        {
+          "word": " the",
+          "start": 10.2,
+          "end": 10.44,
+          "probability": 0.9981295466423035
+        },
+        {
+          "word": " council",
+          "start": 10.44,
+          "end": 10.86,
+          "probability": 0.5308458805084229
+        },
+        {
+          "word": " seal,",
+          "start": 10.86,
+          "end": 11.3,
+          "probability": 0.9931666254997253
+        },
+        {
+          "word": " but",
+          "start": 11.64,
+          "end": 11.88,
+          "probability": 0.993599534034729
+        },
+        {
+          "word": " he",
+          "start": 11.88,
+          "end": 12.04,
+          "probability": 0.9971375465393066
+        },
+        {
+          "word": " no",
+          "start": 12.04,
+          "end": 12.22,
+          "probability": 0.9975087642669678
+        },
+        {
+          "word": " longer",
+          "start": 12.22,
+          "end": 12.62,
+          "probability": 0.9992881417274475
+        },
+        {
+          "word": " controls",
+          "start": 12.62,
+          "end": 13.24,
+          "probability": 0.9977803826332092
+        },
+        {
+          "word": " every",
+          "start": 13.24,
+          "end": 13.54,
+          "probability": 0.9984583854675293
+        },
+        {
+          "word": " copy.",
+          "start": 13.54,
+          "end": 13.96,
+          "probability": 0.998548686504364
+        }
+      ]
+    },
+    {
+      "start": 14.64,
+      "end": 17.98,
+      "text": " The public sitting will begin when the witnesses and evidence are ready.",
+      "words": [
+        {
+          "word": " The",
+          "start": 14.64,
+          "end": 14.76,
+          "probability": 0.9944491386413574
+        },
+        {
+          "word": " public",
+          "start": 14.76,
+          "end": 15.0,
+          "probability": 0.9953696131706238
+        },
+        {
+          "word": " sitting",
+          "start": 15.0,
+          "end": 15.26,
+          "probability": 0.9771459102630615
+        },
+        {
+          "word": " will",
+          "start": 15.26,
+          "end": 15.52,
+          "probability": 0.9987643957138062
+        },
+        {
+          "word": " begin",
+          "start": 15.52,
+          "end": 15.8,
+          "probability": 0.9990094900131226
+        },
+        {
+          "word": " when",
+          "start": 15.8,
+          "end": 16.04,
+          "probability": 0.9975091218948364
+        },
+        {
+          "word": " the",
+          "start": 16.04,
+          "end": 16.2,
+          "probability": 0.9739229679107666
+        },
+        {
+          "word": " witnesses",
+          "start": 16.2,
+          "end": 16.56,
+          "probability": 0.9885468482971191
+        },
+        {
+          "word": " and",
+          "start": 16.56,
+          "end": 16.92,
+          "probability": 0.9970736503601074
+        },
+        {
+          "word": " evidence",
+          "start": 16.92,
+          "end": 17.28,
+          "probability": 0.9936521053314209
+        },
+        {
+          "word": " are",
+          "start": 17.28,
+          "end": 17.64,
+          "probability": 0.9971018433570862
+        },
+        {
+          "word": " ready.",
+          "start": 17.64,
+          "end": 17.98,
+          "probability": 0.9989222288131714
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "dawn",
+      "turns",
+      "the",
+      "harbour",
+      "windows",
+      "gold",
+      "nadi",
+      "has",
+      "two",
+      "boats",
+      "ready",
+      "sera",
+      "has",
+      "three",
+      "sets",
+      "of",
+      "proofs",
+      "rusk",
+      "still",
+      "controls",
+      "the",
+      "council",
+      "seal",
+      "but",
+      "he",
+      "no",
+      "longer",
+      "controls",
+      "every",
+      "copy",
+      "the",
+      "public",
+      "sitting",
+      "will",
+      "begin",
+      "when",
+      "the",
+      "witnesses",
+      "and",
+      "evidence",
+      "are",
+      "ready"
+    ],
+    "observed_tokens": [
+      "don",
+      "turns",
+      "the",
+      "harbor",
+      "windows",
+      "gold",
+      "noddy",
+      "has",
+      "two",
+      "boats",
+      "ready",
+      "sarah",
+      "has",
+      "three",
+      "sets",
+      "of",
+      "proofs",
+      "rusk",
+      "still",
+      "controls",
+      "the",
+      "council",
+      "seal",
+      "but",
+      "he",
+      "no",
+      "longer",
+      "controls",
+      "every",
+      "copy",
+      "the",
+      "public",
+      "sitting",
+      "will",
+      "begin",
+      "when",
+      "the",
+      "witnesses",
+      "and",
+      "evidence",
+      "are",
+      "ready"
+    ],
+    "opcodes": [
+      {
+        "operation": "replace",
+        "expected_start": 0,
+        "expected_end": 1,
+        "observed_start": 0,
+        "observed_end": 1,
+        "expected": [
+          "dawn"
+        ],
+        "observed": [
+          "don"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 1,
+        "expected_end": 3,
+        "observed_start": 1,
+        "observed_end": 3,
+        "expected": [
+          "turns",
+          "the"
+        ],
+        "observed": [
+          "turns",
+          "the"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 3,
+        "expected_end": 4,
+        "observed_start": 3,
+        "observed_end": 4,
+        "expected": [
+          "harbour"
+        ],
+        "observed": [
+          "harbor"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 4,
+        "expected_end": 6,
+        "observed_start": 4,
+        "observed_end": 6,
+        "expected": [
+          "windows",
+          "gold"
+        ],
+        "observed": [
+          "windows",
+          "gold"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 6,
+        "expected_end": 7,
+        "observed_start": 6,
+        "observed_end": 7,
+        "expected": [
+          "nadi"
+        ],
+        "observed": [
+          "noddy"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 7,
+        "expected_end": 11,
+        "observed_start": 7,
+        "observed_end": 11,
+        "expected": [
+          "has",
+          "two",
+          "boats",
+          "ready"
+        ],
+        "observed": [
+          "has",
+          "two",
+          "boats",
+          "ready"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 11,
+        "expected_end": 12,
+        "observed_start": 11,
+        "observed_end": 12,
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 12,
+        "expected_end": 42,
+        "observed_start": 12,
+        "observed_end": 42,
+        "expected": [
+          "has",
+          "three",
+          "sets",
+          "of",
+          "proofs",
+          "rusk",
+          "still",
+          "controls",
+          "the",
+          "council",
+          "seal",
+          "but",
+          "he",
+          "no",
+          "longer",
+          "controls",
+          "every",
+          "copy",
+          "the",
+          "public",
+          "sitting",
+          "will",
+          "begin",
+          "when",
+          "the",
+          "witnesses",
+          "and",
+          "evidence",
+          "are",
+          "ready"
+        ],
+        "observed": [
+          "has",
+          "three",
+          "sets",
+          "of",
+          "proofs",
+          "rusk",
+          "still",
+          "controls",
+          "the",
+          "council",
+          "seal",
+          "but",
+          "he",
+          "no",
+          "longer",
+          "controls",
+          "every",
+          "copy",
+          "the",
+          "public",
+          "sitting",
+          "will",
+          "begin",
+          "when",
+          "the",
+          "witnesses",
+          "and",
+          "evidence",
+          "are",
+          "ready"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "dawn"
+        ],
+        "observed": [
+          "don"
+        ],
+        "expected_start": 0,
+        "observed_start": 0
+      },
+      {
+        "expected": [
+          "harbour"
+        ],
+        "observed": [
+          "harbor"
+        ],
+        "expected_start": 3,
+        "observed_start": 3
+      },
+      {
+        "expected": [
+          "nadi"
+        ],
+        "observed": [
+          "noddy"
+        ],
+        "expected_start": 6,
+        "observed_start": 6
+      },
+      {
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ],
+        "expected_start": 11,
+        "observed_start": 11
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 0:1.",
+      "Changed source words at expected tokens 3:4.",
+      "Changed source words at expected tokens 6:7.",
+      "Changed source words at expected tokens 11:12."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

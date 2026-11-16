@@ -1,0 +1,130 @@
+{
+  "utc": "2026-11-14T09:29:27.503378+00:00",
+  "scope": "Setup scaffold only; native Windows playtesting not performed.",
+  "checks": [
+    {
+      "check": "import",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "source-smoke",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "export-linux",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "package-linux",
+      "passed": true,
+      "bytes": 29120131
+    },
+    {
+      "check": "export-windows",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "package-windows",
+      "passed": true,
+      "bytes": 38771084
+    },
+    {
+      "check": "linux-extracted-package-smoke",
+      "passed": true,
+      "exit_code": 0
+    }
+  ],
+  "windows_wine": {
+    "exit_code": 0,
+    "smoke_passed": true,
+    "environment": "Wine 10.0; isolated prefix; extracted ZIP outside source root; not native Windows"
+  },
+  "linux_graphical": {
+    "passed": true,
+    "renderer": "OpenGL 3.3, NVIDIA RTX 5070, driver 595.99.02",
+    "screenshot": "builds/linux-scene.png"
+  },
+  "codex": {
+    "astra_listed": true,
+    "astra_models": [
+      {
+        "id": "gpt-6-astra",
+        "model": "gpt-6-astra",
+        "displayName": "GPT-6-Astra",
+        "isDefault": false
+      }
+    ],
+    "imagegen_skills": [
+      {
+        "name": "imagegen",
+        "path": "/home/jaco/.codex/skills/.system/imagegen/SKILL.md",
+        "enabled": true
+      }
+    ],
+    "config": {
+      "model": "gpt-6-astra",
+      "model_reasoning_effort": "xhigh",
+      "sandbox_mode": "workspace-write",
+      "approval_policy": "on-request"
+    }
+  },
+  "godot_install": {
+    "version": "4.7.2",
+    "release_url": "https://api.github.com/repos/godotengine/godot-builds/releases/tags/4.7.2-stable",
+    "files": [
+      {
+        "name": "Godot_v4.7.2-stable_linux.x86_64.zip",
+        "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip",
+        "sha256": "cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4"
+      },
+      {
+        "name": "Godot_v4.7.2-stable_export_templates.tpz",
+        "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz",
+        "sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011"
+      }
+    ],
+    "binary": "/home/jaco/.local/opt/godot/4.7.2/godot",
+    "templates": "/home/jaco/.local/share/godot/export_templates/4.7.2.stable"
+  },
+  "vscode_godot_lsp": {
+    "passed": true,
+    "evidence": "2026-11-14 11:33:53.416 connected to LSP at 127.0.0.1:44159; 11:33:53.612 LSP Client started after reopening corrected Mystery Game.code-workspace",
+    "headless": true
+  },
+  "artwork": {
+    "passed": true,
+    "path": "assets/art/setup-key.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "generation_surface": "Codex desktop built-in image tool"
+  },
+  "artifacts": [
+    {
+      "path": "builds/mystery-game-setup-linux-x86_64.zip",
+      "bytes": 29120131,
+      "sha256": "911d22ce24e9632bd5c4b7484c3e5f9410ec3e0ae080fc424518e8e95099face"
+    },
+    {
+      "path": "builds/mystery-game-setup-windows-x86_64.zip",
+      "bytes": 38771084,
+      "sha256": "f1da058e20e694cc66046a751c020c0ced49c780314bdf5cc5c0ee120237fc4b"
+    }
+  ],
+  "vscode_user_settings": {
+    "directly_edited_by_setup": false,
+    "initial_sha256": "169d1c5dc5c71e35b8ac3a2b96adc4cec5ee11362e504ca1468a7b4d9b84c92b",
+    "final_sha256": "73b10029322db7ee85f1fd517375cbf4bba0d43de3937400b30e37b1c0959190",
+    "note": "Changed while VS Code was running; cause not established; existing user settings preserved."
+  }
+}

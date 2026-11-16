@@ -1,0 +1,269 @@
+{
+  "line_id": "sera_proof_q1",
+  "clip_id": "64fff4400cb14cc7a0083f6da71a1915",
+  "source_text_sha256": "5c86b249a47e934638d1b96365b810647a5f307f8a4b6be13d839522f58bc267",
+  "master": "work/gateway-voice/masters/64fff4400cb14cc7a0083f6da71a1915.wav",
+  "wav_sha256": "944ae4a65ef81523a53c34f092776bf8c15bd2eae6e02f1b14c0780bd7d32a5c",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 160320,
+    "sample_count": 80160,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.34,
+    "peak": 0.400390625,
+    "peak_dbfs": -7.950321998401529,
+    "rms": 0.05564788922723981,
+    "rms_dbfs": -25.09102608367356,
+    "dc_offset": 1.4226308125935629e-05,
+    "silence_fraction": 0.3090319361277445,
+    "leading_silence_seconds": 0.409,
+    "tail_silence_seconds": 0.303625,
+    "active_span_seconds": 2.627375,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 10,
+    "source_words_per_active_minute": 228.36481278842953,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "will",
+      "you",
+      "print",
+      "a",
+      "correction",
+      "if",
+      "we",
+      "discover",
+      "a",
+      "mistake"
+    ],
+    "observed_tokens": [
+      "will",
+      "you",
+      "print",
+      "a",
+      "correction",
+      "if",
+      "we",
+      "discover",
+      "a",
+      "mistake"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 10,
+        "observed_start": 0,
+        "observed_end": 10,
+        "expected": [
+          "will",
+          "you",
+          "print",
+          "a",
+          "correction",
+          "if",
+          "we",
+          "discover",
+          "a",
+          "mistake"
+        ],
+        "observed": [
+          "will",
+          "you",
+          "print",
+          "a",
+          "correction",
+          "if",
+          "we",
+          "discover",
+          "a",
+          "mistake"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Will you print a correction if we discover a mistake?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.74,
+      "text": " Will you print a correction if we discover a mistake?",
+      "words": [
+        {
+          "word": " Will",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.8761411309242249
+        },
+        {
+          "word": " you",
+          "start": 0.56,
+          "end": 0.78,
+          "probability": 0.9976227879524231
+        },
+        {
+          "word": " print",
+          "start": 0.78,
+          "end": 0.96,
+          "probability": 0.9945681095123291
+        },
+        {
+          "word": " a",
+          "start": 0.96,
+          "end": 1.12,
+          "probability": 0.9880548119544983
+        },
+        {
+          "word": " correction",
+          "start": 1.12,
+          "end": 1.52,
+          "probability": 0.9962299466133118
+        },
+        {
+          "word": " if",
+          "start": 1.52,
+          "end": 1.84,
+          "probability": 0.9150823354721069
+        },
+        {
+          "word": " we",
+          "start": 1.84,
+          "end": 1.94,
+          "probability": 0.9942708015441895
+        },
+        {
+          "word": " discover",
+          "start": 1.94,
+          "end": 2.24,
+          "probability": 0.9957413673400879
+        },
+        {
+          "word": " a",
+          "start": 2.24,
+          "end": 2.46,
+          "probability": 0.9982618689537048
+        },
+        {
+          "word": " mistake?",
+          "start": 2.46,
+          "end": 2.74,
+          "probability": 0.9978781938552856
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "will",
+      "you",
+      "print",
+      "a",
+      "correction",
+      "if",
+      "we",
+      "discover",
+      "a",
+      "mistake"
+    ],
+    "observed_tokens": [
+      "will",
+      "you",
+      "print",
+      "a",
+      "correction",
+      "if",
+      "we",
+      "discover",
+      "a",
+      "mistake"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 10,
+        "observed_start": 0,
+        "observed_end": 10,
+        "expected": [
+          "will",
+          "you",
+          "print",
+          "a",
+          "correction",
+          "if",
+          "we",
+          "discover",
+          "a",
+          "mistake"
+        ],
+        "observed": [
+          "will",
+          "you",
+          "print",
+          "a",
+          "correction",
+          "if",
+          "we",
+          "discover",
+          "a",
+          "mistake"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

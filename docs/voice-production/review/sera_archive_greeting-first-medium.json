@@ -1,0 +1,493 @@
+{
+  "line_id": "sera_archive_greeting",
+  "clip_id": "04f6e8203de04f9a85632f7a42baaacb",
+  "source_text_sha256": "d59bb96c0fff6025b1140d31957a7b3f5878916e4b165b075a6f8a9ccc0eca58",
+  "master": "work/gateway-voice/masters/04f6e8203de04f9a85632f7a42baaacb.wav",
+  "wav_sha256": "9d9d2f624fa6cc362e6a92093e2a0b7837eec5ab5c2219fc494e51fd1a1f7e3b",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 487680,
+    "sample_count": 243840,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 10.16,
+    "peak": 0.369140625,
+    "peak_dbfs": -8.656163136051733,
+    "rms": 0.05144485260109961,
+    "rms_dbfs": -25.773161455454684,
+    "dc_offset": 6.683942839855284e-05,
+    "silence_fraction": 0.2171136811023622,
+    "leading_silence_seconds": 0.395375,
+    "tail_silence_seconds": 0.3405,
+    "active_span_seconds": 9.424125,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 23,
+    "source_words_per_active_minute": 146.43269269030282,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "woman",
+      "with",
+      "printer's",
+      "ink",
+      "on",
+      "her",
+      "cuffs",
+      "brings",
+      "a",
+      "stack",
+      "of",
+      "public",
+      "notices",
+      "into",
+      "the",
+      "vestibule",
+      "she",
+      "introduces",
+      "herself",
+      "as",
+      "sera",
+      "quill"
+    ],
+    "observed_tokens": [
+      "a",
+      "woman",
+      "with",
+      "printer's",
+      "ink",
+      "on",
+      "her",
+      "cuffs",
+      "brings",
+      "a",
+      "stack",
+      "of",
+      "public",
+      "notices",
+      "into",
+      "the",
+      "vestibule",
+      "she",
+      "introduces",
+      "herself",
+      "as",
+      "sera",
+      "quill"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 23,
+        "observed_start": 0,
+        "observed_end": 23,
+        "expected": [
+          "a",
+          "woman",
+          "with",
+          "printer's",
+          "ink",
+          "on",
+          "her",
+          "cuffs",
+          "brings",
+          "a",
+          "stack",
+          "of",
+          "public",
+          "notices",
+          "into",
+          "the",
+          "vestibule",
+          "she",
+          "introduces",
+          "herself",
+          "as",
+          "sera",
+          "quill"
+        ],
+        "observed": [
+          "a",
+          "woman",
+          "with",
+          "printer's",
+          "ink",
+          "on",
+          "her",
+          "cuffs",
+          "brings",
+          "a",
+          "stack",
+          "of",
+          "public",
+          "notices",
+          "into",
+          "the",
+          "vestibule",
+          "she",
+          "introduces",
+          "herself",
+          "as",
+          "sera",
+          "quill"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "A woman with printer's ink on her cuffs brings a stack of public notices into the vestibule. She introduces herself as Sarah Quill.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.74,
+      "text": " A woman with printer's ink on her cuffs brings a stack of public notices into the vestibule.",
+      "words": [
+        {
+          "word": " A",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.7926577925682068
+        },
+        {
+          "word": " woman",
+          "start": 0.58,
+          "end": 0.9,
+          "probability": 0.9907089471817017
+        },
+        {
+          "word": " with",
+          "start": 0.9,
+          "end": 1.2,
+          "probability": 0.9910262227058411
+        },
+        {
+          "word": " printer's",
+          "start": 1.2,
+          "end": 1.98,
+          "probability": 0.9156018197536469
+        },
+        {
+          "word": " ink",
+          "start": 1.98,
+          "end": 2.22,
+          "probability": 0.9993075132369995
+        },
+        {
+          "word": " on",
+          "start": 2.22,
+          "end": 2.46,
+          "probability": 0.9966764450073242
+        },
+        {
+          "word": " her",
+          "start": 2.46,
+          "end": 2.62,
+          "probability": 0.9978442192077637
+        },
+        {
+          "word": " cuffs",
+          "start": 2.62,
+          "end": 3.08,
+          "probability": 0.9988793432712555
+        },
+        {
+          "word": " brings",
+          "start": 3.08,
+          "end": 3.6,
+          "probability": 0.9722744822502136
+        },
+        {
+          "word": " a",
+          "start": 3.6,
+          "end": 3.76,
+          "probability": 0.9968612194061279
+        },
+        {
+          "word": " stack",
+          "start": 3.76,
+          "end": 4.24,
+          "probability": 0.9986854195594788
+        },
+        {
+          "word": " of",
+          "start": 4.24,
+          "end": 4.56,
+          "probability": 0.9989407658576965
+        },
+        {
+          "word": " public",
+          "start": 4.56,
+          "end": 4.86,
+          "probability": 0.9983792304992676
+        },
+        {
+          "word": " notices",
+          "start": 4.86,
+          "end": 5.4,
+          "probability": 0.9985846281051636
+        },
+        {
+          "word": " into",
+          "start": 5.4,
+          "end": 5.84,
+          "probability": 0.9870397448539734
+        },
+        {
+          "word": " the",
+          "start": 5.84,
+          "end": 6.1,
+          "probability": 0.9966456294059753
+        },
+        {
+          "word": " vestibule.",
+          "start": 6.1,
+          "end": 6.74,
+          "probability": 0.9914858937263489
+        }
+      ]
+    },
+    {
+      "start": 7.22,
+      "end": 9.74,
+      "text": " She introduces herself as Sarah Quill.",
+      "words": [
+        {
+          "word": " She",
+          "start": 7.22,
+          "end": 7.44,
+          "probability": 0.9951517581939697
+        },
+        {
+          "word": " introduces",
+          "start": 7.44,
+          "end": 8.06,
+          "probability": 0.9978305697441101
+        },
+        {
+          "word": " herself",
+          "start": 8.06,
+          "end": 8.62,
+          "probability": 0.9990917444229126
+        },
+        {
+          "word": " as",
+          "start": 8.62,
+          "end": 9.1,
+          "probability": 0.9848301410675049
+        },
+        {
+          "word": " Sarah",
+          "start": 9.1,
+          "end": 9.34,
+          "probability": 0.8456119894981384
+        },
+        {
+          "word": " Quill.",
+          "start": 9.34,
+          "end": 9.74,
+          "probability": 0.8886944353580475
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "a",
+      "woman",
+      "with",
+      "printer's",
+      "ink",
+      "on",
+      "her",
+      "cuffs",
+      "brings",
+      "a",
+      "stack",
+      "of",
+      "public",
+      "notices",
+      "into",
+      "the",
+      "vestibule",
+      "she",
+      "introduces",
+      "herself",
+      "as",
+      "sera",
+      "quill"
+    ],
+    "observed_tokens": [
+      "a",
+      "woman",
+      "with",
+      "printer's",
+      "ink",
+      "on",
+      "her",
+      "cuffs",
+      "brings",
+      "a",
+      "stack",
+      "of",
+      "public",
+      "notices",
+      "into",
+      "the",
+      "vestibule",
+      "she",
+      "introduces",
+      "herself",
+      "as",
+      "sarah",
+      "quill"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 21,
+        "observed_start": 0,
+        "observed_end": 21,
+        "expected": [
+          "a",
+          "woman",
+          "with",
+          "printer's",
+          "ink",
+          "on",
+          "her",
+          "cuffs",
+          "brings",
+          "a",
+          "stack",
+          "of",
+          "public",
+          "notices",
+          "into",
+          "the",
+          "vestibule",
+          "she",
+          "introduces",
+          "herself",
+          "as"
+        ],
+        "observed": [
+          "a",
+          "woman",
+          "with",
+          "printer's",
+          "ink",
+          "on",
+          "her",
+          "cuffs",
+          "brings",
+          "a",
+          "stack",
+          "of",
+          "public",
+          "notices",
+          "into",
+          "the",
+          "vestibule",
+          "she",
+          "introduces",
+          "herself",
+          "as"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 21,
+        "expected_end": 22,
+        "observed_start": 21,
+        "observed_end": 22,
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 22,
+        "expected_end": 23,
+        "observed_start": 22,
+        "observed_end": 23,
+        "expected": [
+          "quill"
+        ],
+        "observed": [
+          "quill"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "sera"
+        ],
+        "observed": [
+          "sarah"
+        ],
+        "expected_start": 21,
+        "observed_start": 21
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 21:22."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

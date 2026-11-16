@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "model": "gpt-live-1",
+  "provider": "OpenAI API",
+  "approved_cap_usd": "0.25",
+  "attempts": 5,
+  "billed_seconds_reported": 117.0,
+  "computed_cost_usd": "0.0975",
+  "conservatively_rounded_ledger_usd": "0.097501",
+  "cost_basis": "Final session usage receipts times published $0.05/minute rate; not an invoice or tax calculation. Per-attempt ledger rounds upward to six decimal places.",
+  "runtime_recordings": 0,
+  "full_batch_authorized": false,
+  "samples": [
+    {
+      "line_id": "ch1_closing",
+      "speaker": "Iona",
+      "voice": "Willow",
+      "path": "assets/audio/auditions/2026-11-14/ch1_closing-09ffe6a4812c46f8a6ff2e555054e82c/candidate.wav",
+      "sha256": "b5b80f218855a07a02aea7c0fe8e75502eba7271a681e51169c6b98405379fce",
+      "duration_seconds": 23.84,
+      "provider_transcript_exact": true,
+      "signal_passed": true,
+      "review_status": "pending_listening",
+      "review_note": "Listen closely to the first name: source Mara; independent ASR heard Mary. Pronunciation is on hold.",
+      "accepted_for_game": false,
+      "performance_status": "revision_requested"
+    },
+    {
+      "line_id": "rowan_kitchen_r2",
+      "speaker": "Rowan",
+      "voice": "Stone",
+      "path": "assets/audio/auditions/2026-11-14/rowan_kitchen_r2-b50598c8dbac4cd18252aab854656a25/candidate.wav",
+      "sha256": "687e709f6d6343134cdf094e6cf6804169323154a0ab4bf80c8b47cd92a9eee7",
+      "duration_seconds": 33.52,
+      "provider_transcript_exact": true,
+      "signal_passed": true,
+      "review_status": "pending_listening",
+      "review_note": "Listen to Tomas at 4.66–5.00 seconds: ASR spelled it Thomas. Pronunciation is on hold.",
+      "accepted_for_game": false,
+      "performance_status": "revision_requested"
+    },
+    {
+      "line_id": "mara_refuge_r0",
+      "speaker": "Mara",
+      "voice": "Quartz",
+      "path": "assets/audio/auditions/2026-11-14/mara_refuge_r0-56e17e6bda42440c93a80b5508e108e5/candidate.wav",
+      "sha256": "879fd147f49f7903c1d4c6729929113f9296d4ed925dddb51d59f7505f6929ac",
+      "duration_seconds": 31.62,
+      "provider_transcript_exact": true,
+      "signal_passed": true,
+      "review_status": "pending_listening",
+      "review_note": "All 59 source words matched independent ASR after removing only exact-zero tail samples from an analysis copy. Acting and pronunciation still need listening.",
+      "accepted_for_game": false,
+      "performance_status": "revision_requested"
+    }
+  ],
+  "failures_retained": [
+    {
+      "line_id": "ch1_closing",
+      "reason": "Missing required delegation_id parameter; zero usage, zero charge, no speech.",
+      "path": "assets/audio/auditions/2026-11-14/ch1_closing-e0b69fa6c269447c8488ee9d8044d41e"
+    },
+    {
+      "line_id": "rowan_kitchen_r2",
+      "reason": "Instructions were acknowledged but did not trigger speech; 30 seconds of silence, $0.025.",
+      "path": "assets/audio/auditions/2026-11-14/rowan_kitchen_r2-c92288d2fcc74ae5a1a6fdeadc7d91ba"
+    }
+  ],
+  "replacements": "One Iona replacement and one Rowan replacement explicitly approved separately; both have been used. All initial-round requests exhausted. One later natural Mara retake is authorized separately and must carry this spend forward.",
+  "credentials": "Existing Atlas key read-only, only in process memory; no key stored or exposed. Atlas/GCC unchanged.",
+  "user_feedback": "User listened and requested realistic, natural speaking; the first performances sounded like book narration.",
+  "performance_status": "revision_requested",
+  "round": "initial_five_requests",
+  "natural_revision": "content/voice-audition-natural.json",
+  "natural_revision_approval": "docs/VOICE_NATURAL_APPROVAL.json"
+}

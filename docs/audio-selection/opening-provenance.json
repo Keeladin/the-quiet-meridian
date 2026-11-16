@@ -1,0 +1,272 @@
+{
+  "collection": "Gamemaster Audio Pro Sound Collection v1.3, 24-bit / 96 kHz",
+  "selected_by": "Jaco",
+  "selected_date": "2026-11-14",
+  "license_url": "https://gamemasteraudio.com/wp-content/uploads/2020/01/Gamemaster-Audio-End-User-License-Agreement.pdf",
+  "distribution": "Licensed recordings embedded in the game; excluded from shareable source archives. No AI training or external upload.",
+  "assets": {
+    "harbour_water": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/beach_waves_ocean_calm_loop_02.wav",
+      "source_sha256": "7203f15366d8ac38cce7bcd532c70a2ad31ac9042085429105dbd346ebdfbdfd",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 14.0,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "6 kHz gentle low-pass for distance",
+        "40 ms wrap crossfade at loop seam",
+        "Peak gain 12.412 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/harbour_water.ogg",
+      "runtime_sha256": "d1f6646d38fbe547308211b131a26865883a5d1e243332bd1b78e57e3956f931",
+      "runtime_rate": 48000,
+      "runtime_seconds": 13.96,
+      "runtime_peak_dbfs": -3.3,
+      "runtime_rms_dbfs": -20.837,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "rain_on_the_office": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Animals_Nature_Ambiences/rain_light_hard_surface_loop_01.wav",
+      "source_sha256": "5941f4836651f9a9e445b490477f979eb8ca5385a4147c17c2c0bc5f34ad6d49",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 9.225458333333334,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "6 kHz gentle low-pass for distance",
+        "40 ms wrap crossfade at loop seam",
+        "Peak gain 0.503 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/rain_on_the_office.ogg",
+      "runtime_sha256": "c1398eeeb474af378c5bd3d3587a751b0200b67545ce0a8b7928530e66592777",
+      "runtime_rate": 48000,
+      "runtime_seconds": 9.185458333333333,
+      "runtime_peak_dbfs": -2.972,
+      "runtime_rms_dbfs": -35.931,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "moored_boat_and_ropes": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_01.wav",
+      "source_sha256": "117ca440448e90af9496706d927e69163ef2674a4e3065258600f8303c5f6500",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 1.4390104166666666,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -2.508 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/moored_boat_and_ropes.ogg",
+      "runtime_sha256": "1de89b8c74870c343449781aa72e7fe18e7afef6eaceb32848b0eaeba74fade2",
+      "runtime_rate": 48000,
+      "runtime_seconds": 1.4390208333333334,
+      "runtime_peak_dbfs": -2.954,
+      "runtime_rms_dbfs": -28.724,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "office_room_tone": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Backgrounds/background_quiet_urban_park_loop_02.wav",
+      "source_sha256": "4b9d089e93a6c6334fc5753954322fc5befced209a0d607c90635c410dee4dd6",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 16.813489583333332,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "6 kHz gentle low-pass for distance",
+        "40 ms wrap crossfade at loop seam",
+        "Peak gain 22.675 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/office_room_tone.ogg",
+      "runtime_sha256": "b8f9e159d25846868e8e11f0e21bd34d7bde7244788422a606d69fb39b45d5bc",
+      "runtime_rate": 48000,
+      "runtime_seconds": 16.7735,
+      "runtime_peak_dbfs": -3.133,
+      "runtime_rms_dbfs": -18.022,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "office_clock": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Clock/clock_tick_03.wav",
+      "source_sha256": "1dfd41d848312ad1f43d4f9650bb6e642df7c7ea5f62fc29e2f1e6af1a91e133",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.5000625,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -0.261 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/office_clock.ogg",
+      "runtime_sha256": "519b761fbd8af453da8e959b3bf99e0e62da5a83ed4f7841bed5199053bd3fe2",
+      "runtime_rate": 48000,
+      "runtime_seconds": 0.5000625,
+      "runtime_peak_dbfs": -3.004,
+      "runtime_rms_dbfs": -32.806,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "building_movement": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Doors/door_creak_short_05.wav",
+      "source_sha256": "6614d9f82e0fb80757606dd5cac8c49c00ee20e12c078436a73d92f7b4030ecc",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.4,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -2.508 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/building_movement.ogg",
+      "runtime_sha256": "27f63b7490a5f7dcc5ada91285cb3ef03f018875edfa7923f978eefa2e8a289d",
+      "runtime_rate": 48000,
+      "runtime_seconds": 0.4,
+      "runtime_peak_dbfs": -3.022,
+      "runtime_rms_dbfs": -28.875,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "object_found": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Film Camera Movie Projector Small/movie_camera_vintage_lever_05.wav",
+      "source_sha256": "e858ca176eac5e556a3535be0fc775181db36a3b5c0a11d7e4591a17c1231537",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.17527083333333332,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -1.921 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/object_found.ogg",
+      "runtime_sha256": "5e08b1fe7808acb8e0049379afa5d00ece25c91cc179bad2b252921b491bf21e",
+      "runtime_rate": 48000,
+      "runtime_seconds": 0.17527083333333332,
+      "runtime_peak_dbfs": -3.069,
+      "runtime_rms_dbfs": -31.126,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "symbol_understood": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_slow_deep_02.wav",
+      "source_sha256": "560f10967b047e5762f51e910ed4ad2e5f4f3ee822226c9a607a406d68ab1d2a",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.9338020833333334,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -2.901 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/symbol_understood.ogg",
+      "runtime_sha256": "00aaad13c58e28f43145cb3b0a12a6a188616d6f719dadd8a92fd34f77f873ca",
+      "runtime_rate": 48000,
+      "runtime_seconds": 0.9338125,
+      "runtime_peak_dbfs": -3.092,
+      "runtime_rms_dbfs": -19.318,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "receipt_recovered": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Wood/wood_tree_branch_move_13.wav",
+      "source_sha256": "902ff17980aea9e3d7489f63e91cfb0525bea9594ab4f31dae36470f66419309",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.44847916666666665,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -1.511 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/receipt_recovered.ogg",
+      "runtime_sha256": "10b4b0cc672b65cbd3c51252805e5786536770cb8589d4b4c7c1ca5d7e5985aa",
+      "runtime_rate": 48000,
+      "runtime_seconds": 0.44847916666666665,
+      "runtime_peak_dbfs": -2.997,
+      "runtime_rms_dbfs": -28.856,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "search_completed": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Collectibles_Items_Powerup/collect_item_05.wav",
+      "source_sha256": "58a5991ef0f8009159733477993cd95d0e6317f4a9e70f935ddeaa924ef4fcfc",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 1.4241354166666667,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -1.221 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/search_completed.ogg",
+      "runtime_sha256": "af1b391f6478a0223a7c3ab4e27b5bb9fad67cc2b6d493f711ac1be0d40b2b5c",
+      "runtime_rate": 48000,
+      "runtime_seconds": 1.4241458333333334,
+      "runtime_peak_dbfs": -3.141,
+      "runtime_rms_dbfs": -22.78,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "hint_revealed": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Whooshes/whoosh_weapon_spin_02.wav",
+      "source_sha256": "0d0aedd2a3a3cca974cc78ccc5df0cda78265518272f1edc47f6e46c80ceee19",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.7439166666666667,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -2.504 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/hint_revealed.ogg",
+      "runtime_sha256": "0631617d90e6d5c0bf8d042a88e593f4d358d01fc86952f3b2ebe45733f05667",
+      "runtime_rate": 48000,
+      "runtime_seconds": 0.7439166666666667,
+      "runtime_peak_dbfs": -3.138,
+      "runtime_rms_dbfs": -21.752,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "menu_interaction": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/User_Interface_Menu/ui_button_simple_click_05.wav",
+      "source_sha256": "b573db9c71c035bad22bd68900aed9c9d018da9a3e089356bd06b4e9b98fd014",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 0.08530208333333333,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -2.569 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/menu_interaction.ogg",
+      "runtime_sha256": "a5c8af599dbc2bcec0e03ecfad7729877988762fe5eadedca42a3ea14e283f50",
+      "runtime_rate": 48000,
+      "runtime_seconds": 0.0853125,
+      "runtime_peak_dbfs": -3.11,
+      "runtime_rms_dbfs": -22.861,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    },
+    "journal_updated": {
+      "source_file": "/home/jaco/Downloads/Gamemaster_Audio_Pro_Sound_Collection_v1.3_24bit_96k/Gamemaster Audio - Pro Sound Collection v1.3 - 24bit 96k/Miscellaneous/Pencil/pencil_sketch_draw_write_squibble_03_long_07.wav",
+      "source_sha256": "aad801c55d4b0f200c188fe7db4d208a9f38c68443e6c41bffd0ed90308d0644",
+      "source_rate": 96000,
+      "source_subtype": "PCM_24",
+      "source_seconds": 3.2117604166666665,
+      "processing": [
+        "Resample with polyphase anti-alias filter to 48 kHz; retain stereo",
+        "2 ms edge fades; retain original timing and tail",
+        "Peak gain -0.154 dB, target -3 dBFS",
+        "Ogg Vorbis quality 6, 48 kHz stereo"
+      ],
+      "runtime_file": "assets/audio/licensed-opening/journal_updated.ogg",
+      "runtime_sha256": "ad02d0d44a4d1624ee61b73dfea5e45fd7d5937367448082fc6ce54913ad9766",
+      "runtime_rate": 48000,
+      "runtime_seconds": 3.2117708333333335,
+      "runtime_peak_dbfs": -3.18,
+      "runtime_rms_dbfs": -23.619,
+      "listening_status": "Owner selected source; prepared game mix awaits owner listening review"
+    }
+  }
+}

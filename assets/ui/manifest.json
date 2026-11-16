@@ -1,0 +1,44 @@
+{
+  "creator": "Original vector geometry authored by Codex for The Quiet Meridian",
+  "date": "2026-11-14",
+  "external_sources": [],
+  "license_note": "Original project assets; no third-party icon set.",
+  "assets": [
+    {
+      "path": "assets/ui/bag.svg",
+      "sha256": "6e17f089326a3f386f90413439257b931ee6beed109dc1830d7891274aff7b82"
+    },
+    {
+      "path": "assets/ui/compass.svg",
+      "sha256": "96617d0934551af62e95a8e9428395e1de1d821d02c3b4ab86800b2f09cefcc8"
+    },
+    {
+      "path": "assets/ui/fit.svg",
+      "sha256": "cd4ad84cb196de02b46ec3972a9b3e77527ec7ff1394b1a3d34e882878b6e637"
+    },
+    {
+      "path": "assets/ui/hint.svg",
+      "sha256": "6297001c0f2f7e180181d8aacd6ecb3c82678a714c16c79d125b6f39eb45a09e"
+    },
+    {
+      "path": "assets/ui/map.svg",
+      "sha256": "c1ece6e38cf60e49dcda3f4d4031a5ece621bb6398bcb35635a1e1f089a3a414"
+    },
+    {
+      "path": "assets/ui/menu.svg",
+      "sha256": "845d6391284231ffb721021983e8cb9d45d99bf324bc0a31003c07741af762ff"
+    },
+    {
+      "path": "assets/ui/notebook.svg",
+      "sha256": "c5197151f11c6562df08c491b5a983995ec6ff10e4fce16e0d134619910a673a"
+    },
+    {
+      "path": "assets/ui/zoom_in.svg",
+      "sha256": "a7a8719011bdabb17e61e3a717709a409b37e95c13d5f29ecd10c00e7c6b9e14"
+    },
+    {
+      "path": "assets/ui/zoom_out.svg",
+      "sha256": "d2a7f6c863788d0354450b459d49055fee584ed29c99730cb11fdb8804305d88"
+    }
+  ]
+}

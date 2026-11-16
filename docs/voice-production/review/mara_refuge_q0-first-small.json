@@ -1,0 +1,265 @@
+{
+  "line_id": "mara_refuge_q0",
+  "clip_id": "85d0afe99299469aa6225343fe0ee2f8",
+  "source_text_sha256": "a3dc0a505d1bd086c7da640699d04aa5807c9a095bcbfdf7d579fb89d4244856",
+  "master": "work/gateway-voice/masters/85d0afe99299469aa6225343fe0ee2f8.wav",
+  "wav_sha256": "cb8871ad08414ca79bf16bd2da696461603165d0a92e8a8f54a07da7ca82ce6b",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 120960,
+    "sample_count": 60480,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 2.52,
+    "peak": 0.341796875,
+    "peak_dbfs": -9.324638245790727,
+    "rms": 0.05321683956286128,
+    "rms_dbfs": -25.479018417250543,
+    "dc_offset": 3.2793781744739996e-05,
+    "silence_fraction": 0.36554232804232806,
+    "leading_silence_seconds": 0.39575,
+    "tail_silence_seconds": 0.397125,
+    "active_span_seconds": 1.727125,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 8,
+    "source_words_per_active_minute": 277.91850618802926,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "dead"
+    ],
+    "observed_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "dead"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 8,
+        "observed_start": 0,
+        "observed_end": 8,
+        "expected": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be",
+          "dead"
+        ],
+        "observed": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be",
+          "dead"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why let me think you might be done?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.08,
+      "text": " Why let me think you might be done?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.7420390844345093
+        },
+        {
+          "word": " let",
+          "start": 0.64,
+          "end": 0.9,
+          "probability": 0.90797358751297
+        },
+        {
+          "word": " me",
+          "start": 0.9,
+          "end": 1.02,
+          "probability": 0.9974585175514221
+        },
+        {
+          "word": " think",
+          "start": 1.02,
+          "end": 1.3,
+          "probability": 0.9969744682312012
+        },
+        {
+          "word": " you",
+          "start": 1.3,
+          "end": 1.5,
+          "probability": 0.9812082052230835
+        },
+        {
+          "word": " might",
+          "start": 1.5,
+          "end": 1.68,
+          "probability": 0.9976176619529724
+        },
+        {
+          "word": " be",
+          "start": 1.68,
+          "end": 1.86,
+          "probability": 0.9986177682876587
+        },
+        {
+          "word": " done?",
+          "start": 1.86,
+          "end": 2.08,
+          "probability": 0.4185900390148163
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "dead"
+    ],
+    "observed_tokens": [
+      "why",
+      "let",
+      "me",
+      "think",
+      "you",
+      "might",
+      "be",
+      "done"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be"
+        ],
+        "observed": [
+          "why",
+          "let",
+          "me",
+          "think",
+          "you",
+          "might",
+          "be"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 7,
+        "expected_end": 8,
+        "observed_start": 7,
+        "observed_end": 8,
+        "expected": [
+          "dead"
+        ],
+        "observed": [
+          "done"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "dead"
+        ],
+        "observed": [
+          "done"
+        ],
+        "expected_start": 7,
+        "observed_start": 7
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 7:8."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

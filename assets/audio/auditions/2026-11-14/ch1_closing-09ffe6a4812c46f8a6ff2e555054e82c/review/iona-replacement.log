@@ -1,0 +1,9 @@
+{
+  "report": "work/voice-asr-reports/iona-replacement.json",
+  "status": "asr_mismatch_hold",
+  "independent_transcript": "Mary was not taken from Leth. She borrowed the bell key, recovered a removed folio, and followed a record of the old flood toward the pumping works. The tide and the official story disagree by more than a smudged digit.",
+  "reasons": [
+    "Changed source words at expected tokens 0:1."
+  ],
+  "accepted_for_game": false
+}

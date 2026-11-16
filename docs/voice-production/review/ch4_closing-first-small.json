@@ -1,0 +1,822 @@
+{
+  "line_id": "ch4_closing",
+  "clip_id": "cb1ef8e206544c84b32a1fb7c636abc9",
+  "source_text_sha256": "f1c8e97cfb5ef31ffdbbfcd0a1f99791fe46fe71e7162be1d931ee9633c12af5",
+  "master": "work/gateway-voice/masters/cb1ef8e206544c84b32a1fb7c636abc9.wav",
+  "wav_sha256": "bb5fb69dc73749c4fa287a4c14d46badd892aa598a4593c5401d53efc87aee7b",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 995520,
+    "sample_count": 497760,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 20.74,
+    "peak": 0.55078125,
+    "peak_dbfs": -5.180417053129393,
+    "rms": 0.05514935330456543,
+    "rms_dbfs": -25.169191516844045,
+    "dc_offset": 0.00010769978017141795,
+    "silence_fraction": 0.2292892156862745,
+    "leading_silence_seconds": 0.406,
+    "tail_silence_seconds": 0.34141666666666665,
+    "active_span_seconds": 19.992583333333332,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 46,
+    "source_words_per_active_minute": 138.0511939844359,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "is",
+      "alive",
+      "the",
+      "clinic",
+      "register",
+      "proves",
+      "twenty",
+      "three",
+      "residents",
+      "were",
+      "still",
+      "in",
+      "the",
+      "reach",
+      "the",
+      "council's",
+      "evacuation",
+      "return",
+      "counted",
+      "empty",
+      "beds",
+      "elsewhere",
+      "the",
+      "original",
+      "tracing",
+      "and",
+      "living",
+      "witnesses",
+      "now",
+      "survive",
+      "in",
+      "separate",
+      "hands",
+      "you",
+      "return",
+      "to",
+      "establish",
+      "who",
+      "profited",
+      "and",
+      "who",
+      "ordered",
+      "the",
+      "false",
+      "record"
+    ],
+    "observed_tokens": [
+      "mara",
+      "is",
+      "alive",
+      "the",
+      "clinic",
+      "register",
+      "proves",
+      "twenty",
+      "three",
+      "residents",
+      "were",
+      "still",
+      "in",
+      "the",
+      "reach",
+      "the",
+      "council's",
+      "evacuation",
+      "return",
+      "counted",
+      "empty",
+      "beds",
+      "elsewhere",
+      "the",
+      "original",
+      "tracing",
+      "and",
+      "living",
+      "witnesses",
+      "now",
+      "survive",
+      "in",
+      "separate",
+      "hands",
+      "you",
+      "return",
+      "to",
+      "establish",
+      "who",
+      "profited",
+      "and",
+      "who",
+      "ordered",
+      "the",
+      "false",
+      "record"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 46,
+        "observed_start": 0,
+        "observed_end": 46,
+        "expected": [
+          "mara",
+          "is",
+          "alive",
+          "the",
+          "clinic",
+          "register",
+          "proves",
+          "twenty",
+          "three",
+          "residents",
+          "were",
+          "still",
+          "in",
+          "the",
+          "reach",
+          "the",
+          "council's",
+          "evacuation",
+          "return",
+          "counted",
+          "empty",
+          "beds",
+          "elsewhere",
+          "the",
+          "original",
+          "tracing",
+          "and",
+          "living",
+          "witnesses",
+          "now",
+          "survive",
+          "in",
+          "separate",
+          "hands",
+          "you",
+          "return",
+          "to",
+          "establish",
+          "who",
+          "profited",
+          "and",
+          "who",
+          "ordered",
+          "the",
+          "false",
+          "record"
+        ],
+        "observed": [
+          "mara",
+          "is",
+          "alive",
+          "the",
+          "clinic",
+          "register",
+          "proves",
+          "twenty",
+          "three",
+          "residents",
+          "were",
+          "still",
+          "in",
+          "the",
+          "reach",
+          "the",
+          "council's",
+          "evacuation",
+          "return",
+          "counted",
+          "empty",
+          "beds",
+          "elsewhere",
+          "the",
+          "original",
+          "tracing",
+          "and",
+          "living",
+          "witnesses",
+          "now",
+          "survive",
+          "in",
+          "separate",
+          "hands",
+          "you",
+          "return",
+          "to",
+          "establish",
+          "who",
+          "profited",
+          "and",
+          "who",
+          "ordered",
+          "the",
+          "false",
+          "record"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Mara is alive. The clinic register proves 23 residents were still in the reach. The council's evacuation return counted empty beds elsewhere. The original tracing and living witnesses now survive in separate hands. You return to establish who profited and who ordered the false record.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 5.68,
+      "text": " Mara is alive. The clinic register proves 23 residents were still in the reach.",
+      "words": [
+        {
+          "word": " Mara",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.31102100014686584
+        },
+        {
+          "word": " is",
+          "start": 0.72,
+          "end": 0.98,
+          "probability": 0.990239143371582
+        },
+        {
+          "word": " alive.",
+          "start": 0.98,
+          "end": 1.46,
+          "probability": 0.9695233702659607
+        },
+        {
+          "word": " The",
+          "start": 2.28,
+          "end": 2.3,
+          "probability": 0.9839641451835632
+        },
+        {
+          "word": " clinic",
+          "start": 2.3,
+          "end": 2.58,
+          "probability": 0.8332224488258362
+        },
+        {
+          "word": " register",
+          "start": 2.58,
+          "end": 3.0,
+          "probability": 0.9720571041107178
+        },
+        {
+          "word": " proves",
+          "start": 3.0,
+          "end": 3.46,
+          "probability": 0.9694650173187256
+        },
+        {
+          "word": " 23",
+          "start": 3.46,
+          "end": 4.1,
+          "probability": 0.9220825433731079
+        },
+        {
+          "word": " residents",
+          "start": 4.1,
+          "end": 4.62,
+          "probability": 0.9983363747596741
+        },
+        {
+          "word": " were",
+          "start": 4.62,
+          "end": 4.84,
+          "probability": 0.9889479875564575
+        },
+        {
+          "word": " still",
+          "start": 4.84,
+          "end": 5.12,
+          "probability": 0.9982064962387085
+        },
+        {
+          "word": " in",
+          "start": 5.12,
+          "end": 5.28,
+          "probability": 0.9952563643455505
+        },
+        {
+          "word": " the",
+          "start": 5.28,
+          "end": 5.4,
+          "probability": 0.9937976002693176
+        },
+        {
+          "word": " reach.",
+          "start": 5.4,
+          "end": 5.68,
+          "probability": 0.9750514030456543
+        }
+      ]
+    },
+    {
+      "start": 6.44,
+      "end": 10.14,
+      "text": " The council's evacuation return counted empty beds elsewhere.",
+      "words": [
+        {
+          "word": " The",
+          "start": 6.44,
+          "end": 6.58,
+          "probability": 0.989654004573822
+        },
+        {
+          "word": " council's",
+          "start": 6.58,
+          "end": 7.0,
+          "probability": 0.9081035256385803
+        },
+        {
+          "word": " evacuation",
+          "start": 7.0,
+          "end": 7.52,
+          "probability": 0.9966126084327698
+        },
+        {
+          "word": " return",
+          "start": 7.52,
+          "end": 8.18,
+          "probability": 0.9696709513664246
+        },
+        {
+          "word": " counted",
+          "start": 8.18,
+          "end": 8.94,
+          "probability": 0.9027323722839355
+        },
+        {
+          "word": " empty",
+          "start": 8.94,
+          "end": 9.38,
+          "probability": 0.9854564070701599
+        },
+        {
+          "word": " beds",
+          "start": 9.38,
+          "end": 9.62,
+          "probability": 0.9970102310180664
+        },
+        {
+          "word": " elsewhere.",
+          "start": 9.62,
+          "end": 10.14,
+          "probability": 0.998207688331604
+        }
+      ]
+    },
+    {
+      "start": 11.14,
+      "end": 15.14,
+      "text": " The original tracing and living witnesses now survive in separate hands.",
+      "words": [
+        {
+          "word": " The",
+          "start": 11.14,
+          "end": 11.24,
+          "probability": 0.9960768818855286
+        },
+        {
+          "word": " original",
+          "start": 11.24,
+          "end": 11.58,
+          "probability": 0.996551513671875
+        },
+        {
+          "word": " tracing",
+          "start": 11.58,
+          "end": 12.1,
+          "probability": 0.9886544942855835
+        },
+        {
+          "word": " and",
+          "start": 12.1,
+          "end": 12.5,
+          "probability": 0.9835471510887146
+        },
+        {
+          "word": " living",
+          "start": 12.5,
+          "end": 12.82,
+          "probability": 0.9981082677841187
+        },
+        {
+          "word": " witnesses",
+          "start": 12.82,
+          "end": 13.3,
+          "probability": 0.995390772819519
+        },
+        {
+          "word": " now",
+          "start": 13.3,
+          "end": 13.66,
+          "probability": 0.9917920827865601
+        },
+        {
+          "word": " survive",
+          "start": 13.66,
+          "end": 14.04,
+          "probability": 0.7631980776786804
+        },
+        {
+          "word": " in",
+          "start": 14.04,
+          "end": 14.3,
+          "probability": 0.9987837672233582
+        },
+        {
+          "word": " separate",
+          "start": 14.3,
+          "end": 14.62,
+          "probability": 0.9970908164978027
+        },
+        {
+          "word": " hands.",
+          "start": 14.62,
+          "end": 15.14,
+          "probability": 0.9975070357322693
+        }
+      ]
+    },
+    {
+      "start": 16.04,
+      "end": 20.2,
+      "text": " You return to establish who profited and who ordered the false record.",
+      "words": [
+        {
+          "word": " You",
+          "start": 16.04,
+          "end": 16.22,
+          "probability": 0.9949818253517151
+        },
+        {
+          "word": " return",
+          "start": 16.22,
+          "end": 16.58,
+          "probability": 0.7521007657051086
+        },
+        {
+          "word": " to",
+          "start": 16.58,
+          "end": 16.82,
+          "probability": 0.9993202686309814
+        },
+        {
+          "word": " establish",
+          "start": 16.82,
+          "end": 17.28,
+          "probability": 0.997977077960968
+        },
+        {
+          "word": " who",
+          "start": 17.28,
+          "end": 17.6,
+          "probability": 0.9962849617004395
+        },
+        {
+          "word": " profited",
+          "start": 17.6,
+          "end": 18.08,
+          "probability": 0.9945107698440552
+        },
+        {
+          "word": " and",
+          "start": 18.08,
+          "end": 18.64,
+          "probability": 0.9463852047920227
+        },
+        {
+          "word": " who",
+          "start": 18.64,
+          "end": 18.9,
+          "probability": 0.9972763657569885
+        },
+        {
+          "word": " ordered",
+          "start": 18.9,
+          "end": 19.28,
+          "probability": 0.9942300319671631
+        },
+        {
+          "word": " the",
+          "start": 19.28,
+          "end": 19.52,
+          "probability": 0.9922203421592712
+        },
+        {
+          "word": " false",
+          "start": 19.52,
+          "end": 19.78,
+          "probability": 0.970999002456665
+        },
+        {
+          "word": " record.",
+          "start": 19.78,
+          "end": 20.2,
+          "probability": 0.9975354671478271
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "mara",
+      "is",
+      "alive",
+      "the",
+      "clinic",
+      "register",
+      "proves",
+      "twenty",
+      "three",
+      "residents",
+      "were",
+      "still",
+      "in",
+      "the",
+      "reach",
+      "the",
+      "council's",
+      "evacuation",
+      "return",
+      "counted",
+      "empty",
+      "beds",
+      "elsewhere",
+      "the",
+      "original",
+      "tracing",
+      "and",
+      "living",
+      "witnesses",
+      "now",
+      "survive",
+      "in",
+      "separate",
+      "hands",
+      "you",
+      "return",
+      "to",
+      "establish",
+      "who",
+      "profited",
+      "and",
+      "who",
+      "ordered",
+      "the",
+      "false",
+      "record"
+    ],
+    "observed_tokens": [
+      "mara",
+      "is",
+      "alive",
+      "the",
+      "clinic",
+      "register",
+      "proves",
+      "23",
+      "residents",
+      "were",
+      "still",
+      "in",
+      "the",
+      "reach",
+      "the",
+      "council's",
+      "evacuation",
+      "return",
+      "counted",
+      "empty",
+      "beds",
+      "elsewhere",
+      "the",
+      "original",
+      "tracing",
+      "and",
+      "living",
+      "witnesses",
+      "now",
+      "survive",
+      "in",
+      "separate",
+      "hands",
+      "you",
+      "return",
+      "to",
+      "establish",
+      "who",
+      "profited",
+      "and",
+      "who",
+      "ordered",
+      "the",
+      "false",
+      "record"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "mara",
+          "is",
+          "alive",
+          "the",
+          "clinic",
+          "register",
+          "proves"
+        ],
+        "observed": [
+          "mara",
+          "is",
+          "alive",
+          "the",
+          "clinic",
+          "register",
+          "proves"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 7,
+        "expected_end": 9,
+        "observed_start": 7,
+        "observed_end": 8,
+        "expected": [
+          "twenty",
+          "three"
+        ],
+        "observed": [
+          "23"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 9,
+        "expected_end": 46,
+        "observed_start": 8,
+        "observed_end": 45,
+        "expected": [
+          "residents",
+          "were",
+          "still",
+          "in",
+          "the",
+          "reach",
+          "the",
+          "council's",
+          "evacuation",
+          "return",
+          "counted",
+          "empty",
+          "beds",
+          "elsewhere",
+          "the",
+          "original",
+          "tracing",
+          "and",
+          "living",
+          "witnesses",
+          "now",
+          "survive",
+          "in",
+          "separate",
+          "hands",
+          "you",
+          "return",
+          "to",
+          "establish",
+          "who",
+          "profited",
+          "and",
+          "who",
+          "ordered",
+          "the",
+          "false",
+          "record"
+        ],
+        "observed": [
+          "residents",
+          "were",
+          "still",
+          "in",
+          "the",
+          "reach",
+          "the",
+          "council's",
+          "evacuation",
+          "return",
+          "counted",
+          "empty",
+          "beds",
+          "elsewhere",
+          "the",
+          "original",
+          "tracing",
+          "and",
+          "living",
+          "witnesses",
+          "now",
+          "survive",
+          "in",
+          "separate",
+          "hands",
+          "you",
+          "return",
+          "to",
+          "establish",
+          "who",
+          "profited",
+          "and",
+          "who",
+          "ordered",
+          "the",
+          "false",
+          "record"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "twenty",
+          "three"
+        ],
+        "observed": [
+          "23"
+        ],
+        "expected_start": 7,
+        "observed_start": 7
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 7:9."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

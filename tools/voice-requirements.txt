@@ -1,0 +1,2 @@
+# Development-only; use work/voice-env. Not needed or bundled by the game.
+websockets==15.0.1

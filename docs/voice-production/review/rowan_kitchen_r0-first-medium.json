@@ -1,0 +1,1104 @@
+{
+  "line_id": "rowan_kitchen_r0",
+  "clip_id": "349c30e128144f75a4cee2c93638b3b5",
+  "source_text_sha256": "5a3c7ba6b1828a0331fd8893d7bab6663690cc26aeca2ceaf53b341bc5aedad5",
+  "master": "work/gateway-voice/masters/349c30e128144f75a4cee2c93638b3b5.wav",
+  "wav_sha256": "8c75e239c90b55070420423b92ae14422379e110f34543a4a9c3084ee10a82e8",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [
+      "Less than 80 ms below the signal threshold follows the final activity; listen for a cut-off final word."
+    ],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 878400,
+    "sample_count": 439200,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 18.3,
+    "peak": 0.546875,
+    "peak_dbfs": -5.24223859267223,
+    "rms": 0.06245965536198588,
+    "rms_dbfs": -24.088008328725664,
+    "dc_offset": 0.00023662490705757627,
+    "silence_fraction": 0.25481102003642986,
+    "leading_silence_seconds": 0.06583333333333333,
+    "tail_silence_seconds": 0.0025833333333333333,
+    "active_span_seconds": 18.231583333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 64,
+    "source_words_per_active_minute": 210.62350591235906,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "new",
+      "works",
+      "office",
+      "wanted",
+      "to",
+      "turn",
+      "it",
+      "into",
+      "a",
+      "store",
+      "i",
+      "said",
+      "the",
+      "night",
+      "shift",
+      "needed",
+      "somewhere",
+      "warm",
+      "that",
+      "was",
+      "true",
+      "it",
+      "was",
+      "not",
+      "all",
+      "of",
+      "the",
+      "truth",
+      "if",
+      "the",
+      "table",
+      "went",
+      "i",
+      "thought",
+      "the",
+      "voices",
+      "might",
+      "go",
+      "with",
+      "it",
+      "i",
+      "have",
+      "been",
+      "very",
+      "good",
+      "at",
+      "keeping",
+      "objects",
+      "it",
+      "took",
+      "me",
+      "much",
+      "longer",
+      "to",
+      "understand",
+      "that",
+      "an",
+      "object",
+      "cannot",
+      "speak",
+      "on",
+      "my",
+      "behalf"
+    ],
+    "observed_tokens": [
+      "the",
+      "new",
+      "works",
+      "office",
+      "wanted",
+      "to",
+      "turn",
+      "it",
+      "into",
+      "a",
+      "store",
+      "i",
+      "said",
+      "the",
+      "night",
+      "shift",
+      "needed",
+      "somewhere",
+      "warm",
+      "that",
+      "was",
+      "true",
+      "it",
+      "was",
+      "not",
+      "all",
+      "of",
+      "the",
+      "truth",
+      "if",
+      "the",
+      "table",
+      "went",
+      "i",
+      "thought",
+      "the",
+      "voices",
+      "might",
+      "go",
+      "with",
+      "it",
+      "i",
+      "have",
+      "been",
+      "very",
+      "good",
+      "at",
+      "keeping",
+      "objects",
+      "it",
+      "took",
+      "me",
+      "much",
+      "longer",
+      "to",
+      "understand",
+      "that",
+      "an",
+      "object",
+      "cannot",
+      "speak",
+      "on",
+      "my",
+      "behalf"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 64,
+        "observed_start": 0,
+        "observed_end": 64,
+        "expected": [
+          "the",
+          "new",
+          "works",
+          "office",
+          "wanted",
+          "to",
+          "turn",
+          "it",
+          "into",
+          "a",
+          "store",
+          "i",
+          "said",
+          "the",
+          "night",
+          "shift",
+          "needed",
+          "somewhere",
+          "warm",
+          "that",
+          "was",
+          "true",
+          "it",
+          "was",
+          "not",
+          "all",
+          "of",
+          "the",
+          "truth",
+          "if",
+          "the",
+          "table",
+          "went",
+          "i",
+          "thought",
+          "the",
+          "voices",
+          "might",
+          "go",
+          "with",
+          "it",
+          "i",
+          "have",
+          "been",
+          "very",
+          "good",
+          "at",
+          "keeping",
+          "objects",
+          "it",
+          "took",
+          "me",
+          "much",
+          "longer",
+          "to",
+          "understand",
+          "that",
+          "an",
+          "object",
+          "cannot",
+          "speak",
+          "on",
+          "my",
+          "behalf"
+        ],
+        "observed": [
+          "the",
+          "new",
+          "works",
+          "office",
+          "wanted",
+          "to",
+          "turn",
+          "it",
+          "into",
+          "a",
+          "store",
+          "i",
+          "said",
+          "the",
+          "night",
+          "shift",
+          "needed",
+          "somewhere",
+          "warm",
+          "that",
+          "was",
+          "true",
+          "it",
+          "was",
+          "not",
+          "all",
+          "of",
+          "the",
+          "truth",
+          "if",
+          "the",
+          "table",
+          "went",
+          "i",
+          "thought",
+          "the",
+          "voices",
+          "might",
+          "go",
+          "with",
+          "it",
+          "i",
+          "have",
+          "been",
+          "very",
+          "good",
+          "at",
+          "keeping",
+          "objects",
+          "it",
+          "took",
+          "me",
+          "much",
+          "longer",
+          "to",
+          "understand",
+          "that",
+          "an",
+          "object",
+          "cannot",
+          "speak",
+          "on",
+          "my",
+          "behalf"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "The new works office wanted to turn it into a store. I said the night shift needed somewhere warm. That was true. It was not all of the truth. If the table went, I thought the voices might go with it. I had been very good at keeping objects. It took me much longer to understand that an object cannot speak on my behalf.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.56,
+      "text": " The new works office wanted to turn it into a store.",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.8747959136962891
+        },
+        {
+          "word": " new",
+          "start": 0.48,
+          "end": 0.68,
+          "probability": 0.9442185163497925
+        },
+        {
+          "word": " works",
+          "start": 0.68,
+          "end": 0.88,
+          "probability": 0.6902540922164917
+        },
+        {
+          "word": " office",
+          "start": 0.88,
+          "end": 1.16,
+          "probability": 0.9687955379486084
+        },
+        {
+          "word": " wanted",
+          "start": 1.16,
+          "end": 1.5,
+          "probability": 0.9936349391937256
+        },
+        {
+          "word": " to",
+          "start": 1.5,
+          "end": 1.7,
+          "probability": 0.9974215030670166
+        },
+        {
+          "word": " turn",
+          "start": 1.7,
+          "end": 1.86,
+          "probability": 0.9974672794342041
+        },
+        {
+          "word": " it",
+          "start": 1.86,
+          "end": 1.96,
+          "probability": 0.9910379648208618
+        },
+        {
+          "word": " into",
+          "start": 1.96,
+          "end": 2.16,
+          "probability": 0.9865347743034363
+        },
+        {
+          "word": " a",
+          "start": 2.16,
+          "end": 2.28,
+          "probability": 0.9967979788780212
+        },
+        {
+          "word": " store.",
+          "start": 2.28,
+          "end": 2.56,
+          "probability": 0.9919230341911316
+        }
+      ]
+    },
+    {
+      "start": 3.3,
+      "end": 5.16,
+      "text": " I said the night shift needed somewhere warm.",
+      "words": [
+        {
+          "word": " I",
+          "start": 3.3,
+          "end": 3.38,
+          "probability": 0.9953818917274475
+        },
+        {
+          "word": " said",
+          "start": 3.38,
+          "end": 3.52,
+          "probability": 0.9979378581047058
+        },
+        {
+          "word": " the",
+          "start": 3.52,
+          "end": 3.68,
+          "probability": 0.9796024560928345
+        },
+        {
+          "word": " night",
+          "start": 3.68,
+          "end": 3.82,
+          "probability": 0.9937465190887451
+        },
+        {
+          "word": " shift",
+          "start": 3.82,
+          "end": 4.04,
+          "probability": 0.9220091700553894
+        },
+        {
+          "word": " needed",
+          "start": 4.04,
+          "end": 4.38,
+          "probability": 0.993598461151123
+        },
+        {
+          "word": " somewhere",
+          "start": 4.38,
+          "end": 4.8,
+          "probability": 0.4109598398208618
+        },
+        {
+          "word": " warm.",
+          "start": 4.8,
+          "end": 5.16,
+          "probability": 0.9964271187782288
+        }
+      ]
+    },
+    {
+      "start": 5.82,
+      "end": 6.28,
+      "text": " That was true.",
+      "words": [
+        {
+          "word": " That",
+          "start": 5.82,
+          "end": 5.92,
+          "probability": 0.9834701418876648
+        },
+        {
+          "word": " was",
+          "start": 5.92,
+          "end": 6.06,
+          "probability": 0.996616542339325
+        },
+        {
+          "word": " true.",
+          "start": 6.06,
+          "end": 6.28,
+          "probability": 0.9984176158905029
+        }
+      ]
+    },
+    {
+      "start": 7.0,
+      "end": 8.22,
+      "text": " It was not all of the truth.",
+      "words": [
+        {
+          "word": " It",
+          "start": 7.0,
+          "end": 7.12,
+          "probability": 0.9802522659301758
+        },
+        {
+          "word": " was",
+          "start": 7.12,
+          "end": 7.26,
+          "probability": 0.9963571429252625
+        },
+        {
+          "word": " not",
+          "start": 7.26,
+          "end": 7.46,
+          "probability": 0.997619092464447
+        },
+        {
+          "word": " all",
+          "start": 7.46,
+          "end": 7.74,
+          "probability": 0.9878661632537842
+        },
+        {
+          "word": " of",
+          "start": 7.74,
+          "end": 7.88,
+          "probability": 0.9604293704032898
+        },
+        {
+          "word": " the",
+          "start": 7.88,
+          "end": 8.0,
+          "probability": 0.9943239688873291
+        },
+        {
+          "word": " truth.",
+          "start": 8.0,
+          "end": 8.22,
+          "probability": 0.9969356060028076
+        }
+      ]
+    },
+    {
+      "start": 8.44,
+      "end": 11.38,
+      "text": " If the table went, I thought the voices might go with it.",
+      "words": [
+        {
+          "word": " If",
+          "start": 8.44,
+          "end": 8.58,
+          "probability": 0.9881488680839539
+        },
+        {
+          "word": " the",
+          "start": 8.58,
+          "end": 8.78,
+          "probability": 0.9952065348625183
+        },
+        {
+          "word": " table",
+          "start": 8.78,
+          "end": 8.98,
+          "probability": 0.9960612654685974
+        },
+        {
+          "word": " went,",
+          "start": 8.98,
+          "end": 9.28,
+          "probability": 0.9969634413719177
+        },
+        {
+          "word": " I",
+          "start": 9.8,
+          "end": 9.88,
+          "probability": 0.9912006258964539
+        },
+        {
+          "word": " thought",
+          "start": 9.88,
+          "end": 10.08,
+          "probability": 0.9871517419815063
+        },
+        {
+          "word": " the",
+          "start": 10.08,
+          "end": 10.3,
+          "probability": 0.9532901048660278
+        },
+        {
+          "word": " voices",
+          "start": 10.3,
+          "end": 10.58,
+          "probability": 0.9950050711631775
+        },
+        {
+          "word": " might",
+          "start": 10.58,
+          "end": 10.84,
+          "probability": 0.9941731095314026
+        },
+        {
+          "word": " go",
+          "start": 10.84,
+          "end": 11.02,
+          "probability": 0.9984151124954224
+        },
+        {
+          "word": " with",
+          "start": 11.02,
+          "end": 11.18,
+          "probability": 0.9990867376327515
+        },
+        {
+          "word": " it.",
+          "start": 11.18,
+          "end": 11.38,
+          "probability": 0.9987506866455078
+        }
+      ]
+    },
+    {
+      "start": 11.82,
+      "end": 13.44,
+      "text": " I had been very good at keeping objects.",
+      "words": [
+        {
+          "word": " I",
+          "start": 11.82,
+          "end": 11.9,
+          "probability": 0.9964290261268616
+        },
+        {
+          "word": " had",
+          "start": 11.9,
+          "end": 12.0,
+          "probability": 0.33171871304512024
+        },
+        {
+          "word": " been",
+          "start": 12.0,
+          "end": 12.14,
+          "probability": 0.998651921749115
+        },
+        {
+          "word": " very",
+          "start": 12.14,
+          "end": 12.34,
+          "probability": 0.9911020994186401
+        },
+        {
+          "word": " good",
+          "start": 12.34,
+          "end": 12.52,
+          "probability": 0.9993295669555664
+        },
+        {
+          "word": " at",
+          "start": 12.52,
+          "end": 12.7,
+          "probability": 0.9964430928230286
+        },
+        {
+          "word": " keeping",
+          "start": 12.7,
+          "end": 12.94,
+          "probability": 0.9971880316734314
+        },
+        {
+          "word": " objects.",
+          "start": 12.94,
+          "end": 13.44,
+          "probability": 0.9962419271469116
+        }
+      ]
+    },
+    {
+      "start": 14.14,
+      "end": 17.78,
+      "text": " It took me much longer to understand that an object cannot speak on my behalf.",
+      "words": [
+        {
+          "word": " It",
+          "start": 14.14,
+          "end": 14.16,
+          "probability": 0.981756329536438
+        },
+        {
+          "word": " took",
+          "start": 14.16,
+          "end": 14.26,
+          "probability": 0.9985091090202332
+        },
+        {
+          "word": " me",
+          "start": 14.26,
+          "end": 14.44,
+          "probability": 0.992088258266449
+        },
+        {
+          "word": " much",
+          "start": 14.44,
+          "end": 14.6,
+          "probability": 0.9914154410362244
+        },
+        {
+          "word": " longer",
+          "start": 14.6,
+          "end": 14.88,
+          "probability": 0.998714804649353
+        },
+        {
+          "word": " to",
+          "start": 14.88,
+          "end": 15.14,
+          "probability": 0.9970473647117615
+        },
+        {
+          "word": " understand",
+          "start": 15.14,
+          "end": 15.52,
+          "probability": 0.997406542301178
+        },
+        {
+          "word": " that",
+          "start": 15.52,
+          "end": 15.92,
+          "probability": 0.9796000123023987
+        },
+        {
+          "word": " an",
+          "start": 15.92,
+          "end": 16.22,
+          "probability": 0.9692826271057129
+        },
+        {
+          "word": " object",
+          "start": 16.22,
+          "end": 16.5,
+          "probability": 0.9967432618141174
+        },
+        {
+          "word": " cannot",
+          "start": 16.5,
+          "end": 16.8,
+          "probability": 0.9858357906341553
+        },
+        {
+          "word": " speak",
+          "start": 16.8,
+          "end": 17.12,
+          "probability": 0.9985904097557068
+        },
+        {
+          "word": " on",
+          "start": 17.12,
+          "end": 17.34,
+          "probability": 0.9952817559242249
+        },
+        {
+          "word": " my",
+          "start": 17.34,
+          "end": 17.5,
+          "probability": 0.9994624257087708
+        },
+        {
+          "word": " behalf.",
+          "start": 17.5,
+          "end": 17.78,
+          "probability": 0.9992759823799133
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "the",
+      "new",
+      "works",
+      "office",
+      "wanted",
+      "to",
+      "turn",
+      "it",
+      "into",
+      "a",
+      "store",
+      "i",
+      "said",
+      "the",
+      "night",
+      "shift",
+      "needed",
+      "somewhere",
+      "warm",
+      "that",
+      "was",
+      "true",
+      "it",
+      "was",
+      "not",
+      "all",
+      "of",
+      "the",
+      "truth",
+      "if",
+      "the",
+      "table",
+      "went",
+      "i",
+      "thought",
+      "the",
+      "voices",
+      "might",
+      "go",
+      "with",
+      "it",
+      "i",
+      "have",
+      "been",
+      "very",
+      "good",
+      "at",
+      "keeping",
+      "objects",
+      "it",
+      "took",
+      "me",
+      "much",
+      "longer",
+      "to",
+      "understand",
+      "that",
+      "an",
+      "object",
+      "cannot",
+      "speak",
+      "on",
+      "my",
+      "behalf"
+    ],
+    "observed_tokens": [
+      "the",
+      "new",
+      "works",
+      "office",
+      "wanted",
+      "to",
+      "turn",
+      "it",
+      "into",
+      "a",
+      "store",
+      "i",
+      "said",
+      "the",
+      "night",
+      "shift",
+      "needed",
+      "somewhere",
+      "warm",
+      "that",
+      "was",
+      "true",
+      "it",
+      "was",
+      "not",
+      "all",
+      "of",
+      "the",
+      "truth",
+      "if",
+      "the",
+      "table",
+      "went",
+      "i",
+      "thought",
+      "the",
+      "voices",
+      "might",
+      "go",
+      "with",
+      "it",
+      "i",
+      "had",
+      "been",
+      "very",
+      "good",
+      "at",
+      "keeping",
+      "objects",
+      "it",
+      "took",
+      "me",
+      "much",
+      "longer",
+      "to",
+      "understand",
+      "that",
+      "an",
+      "object",
+      "cannot",
+      "speak",
+      "on",
+      "my",
+      "behalf"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 42,
+        "observed_start": 0,
+        "observed_end": 42,
+        "expected": [
+          "the",
+          "new",
+          "works",
+          "office",
+          "wanted",
+          "to",
+          "turn",
+          "it",
+          "into",
+          "a",
+          "store",
+          "i",
+          "said",
+          "the",
+          "night",
+          "shift",
+          "needed",
+          "somewhere",
+          "warm",
+          "that",
+          "was",
+          "true",
+          "it",
+          "was",
+          "not",
+          "all",
+          "of",
+          "the",
+          "truth",
+          "if",
+          "the",
+          "table",
+          "went",
+          "i",
+          "thought",
+          "the",
+          "voices",
+          "might",
+          "go",
+          "with",
+          "it",
+          "i"
+        ],
+        "observed": [
+          "the",
+          "new",
+          "works",
+          "office",
+          "wanted",
+          "to",
+          "turn",
+          "it",
+          "into",
+          "a",
+          "store",
+          "i",
+          "said",
+          "the",
+          "night",
+          "shift",
+          "needed",
+          "somewhere",
+          "warm",
+          "that",
+          "was",
+          "true",
+          "it",
+          "was",
+          "not",
+          "all",
+          "of",
+          "the",
+          "truth",
+          "if",
+          "the",
+          "table",
+          "went",
+          "i",
+          "thought",
+          "the",
+          "voices",
+          "might",
+          "go",
+          "with",
+          "it",
+          "i"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 42,
+        "expected_end": 43,
+        "observed_start": 42,
+        "observed_end": 43,
+        "expected": [
+          "have"
+        ],
+        "observed": [
+          "had"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 43,
+        "expected_end": 64,
+        "observed_start": 43,
+        "observed_end": 64,
+        "expected": [
+          "been",
+          "very",
+          "good",
+          "at",
+          "keeping",
+          "objects",
+          "it",
+          "took",
+          "me",
+          "much",
+          "longer",
+          "to",
+          "understand",
+          "that",
+          "an",
+          "object",
+          "cannot",
+          "speak",
+          "on",
+          "my",
+          "behalf"
+        ],
+        "observed": [
+          "been",
+          "very",
+          "good",
+          "at",
+          "keeping",
+          "objects",
+          "it",
+          "took",
+          "me",
+          "much",
+          "longer",
+          "to",
+          "understand",
+          "that",
+          "an",
+          "object",
+          "cannot",
+          "speak",
+          "on",
+          "my",
+          "behalf"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "have"
+        ],
+        "observed": [
+          "had"
+        ],
+        "expected_start": 42,
+        "observed_start": 42
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 42:43."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

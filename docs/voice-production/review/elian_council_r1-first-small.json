@@ -1,0 +1,955 @@
+{
+  "line_id": "elian_council_r1",
+  "clip_id": "f7a9aa574b9f46dfa3f1331a0ef51abd",
+  "source_text_sha256": "8163891c8c7b414088ce08715b7986d261794dd186188a3e153026d0b2b5cf5b",
+  "master": "work/gateway-voice/masters/f7a9aa574b9f46dfa3f1331a0ef51abd.wav",
+  "wav_sha256": "47462b605c9fd4c640a61e53298599bda80f9dcfe962dc869b0dc09020de064d",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 807360,
+    "sample_count": 403680,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 16.82,
+    "peak": 0.6171875,
+    "peak_dbfs": -4.191657567148538,
+    "rms": 0.048037123687957164,
+    "rms_dbfs": -26.36846009359486,
+    "dc_offset": 0.00010524270461751883,
+    "silence_fraction": 0.21546521997621879,
+    "leading_silence_seconds": 0.40608333333333335,
+    "tail_silence_seconds": 0.32245833333333335,
+    "active_span_seconds": 16.091458333333332,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 55,
+    "source_words_per_active_minute": 205.07774569841663,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "because",
+      "every",
+      "year",
+      "of",
+      "silence",
+      "made",
+      "speaking",
+      "more",
+      "expensive",
+      "at",
+      "first",
+      "i",
+      "would",
+      "have",
+      "lost",
+      "my",
+      "post",
+      "later",
+      "i",
+      "would",
+      "also",
+      "have",
+      "to",
+      "explain",
+      "the",
+      "years",
+      "i",
+      "had",
+      "kept",
+      "it",
+      "i",
+      "called",
+      "that",
+      "protecting",
+      "the",
+      "works",
+      "and",
+      "the",
+      "people",
+      "employed",
+      "there",
+      "they",
+      "were",
+      "not",
+      "asked",
+      "whether",
+      "they",
+      "wanted",
+      "my",
+      "protection",
+      "purchased",
+      "with",
+      "their",
+      "neighbours",
+      "history"
+    ],
+    "observed_tokens": [
+      "because",
+      "every",
+      "year",
+      "of",
+      "silence",
+      "made",
+      "speaking",
+      "more",
+      "expensive",
+      "at",
+      "first",
+      "i",
+      "would",
+      "have",
+      "lost",
+      "my",
+      "post",
+      "later",
+      "i",
+      "would",
+      "also",
+      "have",
+      "to",
+      "explain",
+      "the",
+      "years",
+      "i",
+      "had",
+      "kept",
+      "it",
+      "i",
+      "called",
+      "that",
+      "protecting",
+      "the",
+      "works",
+      "and",
+      "the",
+      "people",
+      "employed",
+      "there",
+      "they",
+      "were",
+      "not",
+      "asked",
+      "whether",
+      "they",
+      "wanted",
+      "my",
+      "protection",
+      "purchased",
+      "with",
+      "their",
+      "neighbours",
+      "history"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 55,
+        "observed_start": 0,
+        "observed_end": 55,
+        "expected": [
+          "because",
+          "every",
+          "year",
+          "of",
+          "silence",
+          "made",
+          "speaking",
+          "more",
+          "expensive",
+          "at",
+          "first",
+          "i",
+          "would",
+          "have",
+          "lost",
+          "my",
+          "post",
+          "later",
+          "i",
+          "would",
+          "also",
+          "have",
+          "to",
+          "explain",
+          "the",
+          "years",
+          "i",
+          "had",
+          "kept",
+          "it",
+          "i",
+          "called",
+          "that",
+          "protecting",
+          "the",
+          "works",
+          "and",
+          "the",
+          "people",
+          "employed",
+          "there",
+          "they",
+          "were",
+          "not",
+          "asked",
+          "whether",
+          "they",
+          "wanted",
+          "my",
+          "protection",
+          "purchased",
+          "with",
+          "their",
+          "neighbours",
+          "history"
+        ],
+        "observed": [
+          "because",
+          "every",
+          "year",
+          "of",
+          "silence",
+          "made",
+          "speaking",
+          "more",
+          "expensive",
+          "at",
+          "first",
+          "i",
+          "would",
+          "have",
+          "lost",
+          "my",
+          "post",
+          "later",
+          "i",
+          "would",
+          "also",
+          "have",
+          "to",
+          "explain",
+          "the",
+          "years",
+          "i",
+          "had",
+          "kept",
+          "it",
+          "i",
+          "called",
+          "that",
+          "protecting",
+          "the",
+          "works",
+          "and",
+          "the",
+          "people",
+          "employed",
+          "there",
+          "they",
+          "were",
+          "not",
+          "asked",
+          "whether",
+          "they",
+          "wanted",
+          "my",
+          "protection",
+          "purchased",
+          "with",
+          "their",
+          "neighbours",
+          "history"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Because every year of silence made speaking more expensive at first. I would have lost my post later I would also have to explain the years. I had kept it I called that protecting the works and the people employed there They were not asked whether they wanted my protection purchased with their neighbors history",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 6.12,
+      "text": " Because every year of silence made speaking more expensive at first. I would have lost my post later",
+      "words": [
+        {
+          "word": " Because",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.5240513682365417
+        },
+        {
+          "word": " every",
+          "start": 0.54,
+          "end": 0.86,
+          "probability": 0.9868394732475281
+        },
+        {
+          "word": " year",
+          "start": 0.86,
+          "end": 1.04,
+          "probability": 0.9948310256004333
+        },
+        {
+          "word": " of",
+          "start": 1.04,
+          "end": 1.18,
+          "probability": 0.9957181811332703
+        },
+        {
+          "word": " silence",
+          "start": 1.18,
+          "end": 1.5,
+          "probability": 0.9970001578330994
+        },
+        {
+          "word": " made",
+          "start": 1.5,
+          "end": 1.8,
+          "probability": 0.9948898553848267
+        },
+        {
+          "word": " speaking",
+          "start": 1.8,
+          "end": 2.14,
+          "probability": 0.997506320476532
+        },
+        {
+          "word": " more",
+          "start": 2.14,
+          "end": 2.4,
+          "probability": 0.9979504942893982
+        },
+        {
+          "word": " expensive",
+          "start": 2.4,
+          "end": 2.9,
+          "probability": 0.9752327799797058
+        },
+        {
+          "word": " at",
+          "start": 2.9,
+          "end": 3.84,
+          "probability": 0.07162152230739594
+        },
+        {
+          "word": " first.",
+          "start": 3.84,
+          "end": 4.16,
+          "probability": 0.9713906645774841
+        },
+        {
+          "word": " I",
+          "start": 4.18,
+          "end": 4.38,
+          "probability": 0.9990066885948181
+        },
+        {
+          "word": " would",
+          "start": 4.38,
+          "end": 4.5,
+          "probability": 0.9994072914123535
+        },
+        {
+          "word": " have",
+          "start": 4.5,
+          "end": 4.6,
+          "probability": 0.9956050515174866
+        },
+        {
+          "word": " lost",
+          "start": 4.6,
+          "end": 4.78,
+          "probability": 0.9991177916526794
+        },
+        {
+          "word": " my",
+          "start": 4.78,
+          "end": 4.98,
+          "probability": 0.9985535740852356
+        },
+        {
+          "word": " post",
+          "start": 4.98,
+          "end": 5.38,
+          "probability": 0.9942777752876282
+        },
+        {
+          "word": " later",
+          "start": 5.38,
+          "end": 6.12,
+          "probability": 0.42182236909866333
+        }
+      ]
+    },
+    {
+      "start": 6.12,
+      "end": 8.66,
+      "text": " I would also have to explain the years. I had kept it",
+      "words": [
+        {
+          "word": " I",
+          "start": 6.12,
+          "end": 6.4,
+          "probability": 0.9229784607887268
+        },
+        {
+          "word": " would",
+          "start": 6.4,
+          "end": 6.5,
+          "probability": 0.9985893368721008
+        },
+        {
+          "word": " also",
+          "start": 6.5,
+          "end": 6.78,
+          "probability": 0.9976377487182617
+        },
+        {
+          "word": " have",
+          "start": 6.78,
+          "end": 6.94,
+          "probability": 0.999247670173645
+        },
+        {
+          "word": " to",
+          "start": 6.94,
+          "end": 7.08,
+          "probability": 0.9996697902679443
+        },
+        {
+          "word": " explain",
+          "start": 7.08,
+          "end": 7.42,
+          "probability": 0.9987534284591675
+        },
+        {
+          "word": " the",
+          "start": 7.42,
+          "end": 7.6,
+          "probability": 0.9957536458969116
+        },
+        {
+          "word": " years.",
+          "start": 7.6,
+          "end": 7.84,
+          "probability": 0.9942785501480103
+        },
+        {
+          "word": " I",
+          "start": 7.84,
+          "end": 8.02,
+          "probability": 0.9987701773643494
+        },
+        {
+          "word": " had",
+          "start": 8.02,
+          "end": 8.12,
+          "probability": 0.9843428134918213
+        },
+        {
+          "word": " kept",
+          "start": 8.12,
+          "end": 8.34,
+          "probability": 0.7926134467124939
+        },
+        {
+          "word": " it",
+          "start": 8.34,
+          "end": 8.66,
+          "probability": 0.9518203735351562
+        }
+      ]
+    },
+    {
+      "start": 8.66,
+      "end": 11.9,
+      "text": " I called that protecting the works and the people employed there",
+      "words": [
+        {
+          "word": " I",
+          "start": 8.66,
+          "end": 9.26,
+          "probability": 0.7359693646430969
+        },
+        {
+          "word": " called",
+          "start": 9.26,
+          "end": 9.42,
+          "probability": 0.9256865978240967
+        },
+        {
+          "word": " that",
+          "start": 9.42,
+          "end": 9.66,
+          "probability": 0.9965542554855347
+        },
+        {
+          "word": " protecting",
+          "start": 9.66,
+          "end": 10.1,
+          "probability": 0.9848155975341797
+        },
+        {
+          "word": " the",
+          "start": 10.1,
+          "end": 10.32,
+          "probability": 0.9985138773918152
+        },
+        {
+          "word": " works",
+          "start": 10.32,
+          "end": 10.6,
+          "probability": 0.9869205951690674
+        },
+        {
+          "word": " and",
+          "start": 10.6,
+          "end": 10.8,
+          "probability": 0.9823614954948425
+        },
+        {
+          "word": " the",
+          "start": 10.8,
+          "end": 10.9,
+          "probability": 0.9986246824264526
+        },
+        {
+          "word": " people",
+          "start": 10.9,
+          "end": 11.16,
+          "probability": 0.9990326166152954
+        },
+        {
+          "word": " employed",
+          "start": 11.16,
+          "end": 11.5,
+          "probability": 0.9905024766921997
+        },
+        {
+          "word": " there",
+          "start": 11.5,
+          "end": 11.9,
+          "probability": 0.7899197936058044
+        }
+      ]
+    },
+    {
+      "start": 11.9,
+      "end": 16.34,
+      "text": " They were not asked whether they wanted my protection purchased with their neighbors history",
+      "words": [
+        {
+          "word": " They",
+          "start": 11.9,
+          "end": 12.58,
+          "probability": 0.7660455107688904
+        },
+        {
+          "word": " were",
+          "start": 12.58,
+          "end": 12.72,
+          "probability": 0.668755829334259
+        },
+        {
+          "word": " not",
+          "start": 12.72,
+          "end": 12.82,
+          "probability": 0.7179444432258606
+        },
+        {
+          "word": " asked",
+          "start": 12.82,
+          "end": 13.12,
+          "probability": 0.9988721013069153
+        },
+        {
+          "word": " whether",
+          "start": 13.12,
+          "end": 13.32,
+          "probability": 0.9898543953895569
+        },
+        {
+          "word": " they",
+          "start": 13.32,
+          "end": 13.56,
+          "probability": 0.9996727705001831
+        },
+        {
+          "word": " wanted",
+          "start": 13.56,
+          "end": 13.8,
+          "probability": 0.9993359446525574
+        },
+        {
+          "word": " my",
+          "start": 13.8,
+          "end": 14.06,
+          "probability": 0.9983119964599609
+        },
+        {
+          "word": " protection",
+          "start": 14.06,
+          "end": 14.62,
+          "probability": 0.9985028505325317
+        },
+        {
+          "word": " purchased",
+          "start": 14.62,
+          "end": 15.12,
+          "probability": 0.9955779314041138
+        },
+        {
+          "word": " with",
+          "start": 15.12,
+          "end": 15.42,
+          "probability": 0.9992247819900513
+        },
+        {
+          "word": " their",
+          "start": 15.42,
+          "end": 15.6,
+          "probability": 0.9949588179588318
+        },
+        {
+          "word": " neighbors",
+          "start": 15.6,
+          "end": 15.88,
+          "probability": 0.5374324917793274
+        },
+        {
+          "word": " history",
+          "start": 15.88,
+          "end": 16.34,
+          "probability": 0.9959023594856262
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "because",
+      "every",
+      "year",
+      "of",
+      "silence",
+      "made",
+      "speaking",
+      "more",
+      "expensive",
+      "at",
+      "first",
+      "i",
+      "would",
+      "have",
+      "lost",
+      "my",
+      "post",
+      "later",
+      "i",
+      "would",
+      "also",
+      "have",
+      "to",
+      "explain",
+      "the",
+      "years",
+      "i",
+      "had",
+      "kept",
+      "it",
+      "i",
+      "called",
+      "that",
+      "protecting",
+      "the",
+      "works",
+      "and",
+      "the",
+      "people",
+      "employed",
+      "there",
+      "they",
+      "were",
+      "not",
+      "asked",
+      "whether",
+      "they",
+      "wanted",
+      "my",
+      "protection",
+      "purchased",
+      "with",
+      "their",
+      "neighbours",
+      "history"
+    ],
+    "observed_tokens": [
+      "because",
+      "every",
+      "year",
+      "of",
+      "silence",
+      "made",
+      "speaking",
+      "more",
+      "expensive",
+      "at",
+      "first",
+      "i",
+      "would",
+      "have",
+      "lost",
+      "my",
+      "post",
+      "later",
+      "i",
+      "would",
+      "also",
+      "have",
+      "to",
+      "explain",
+      "the",
+      "years",
+      "i",
+      "had",
+      "kept",
+      "it",
+      "i",
+      "called",
+      "that",
+      "protecting",
+      "the",
+      "works",
+      "and",
+      "the",
+      "people",
+      "employed",
+      "there",
+      "they",
+      "were",
+      "not",
+      "asked",
+      "whether",
+      "they",
+      "wanted",
+      "my",
+      "protection",
+      "purchased",
+      "with",
+      "their",
+      "neighbors",
+      "history"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 53,
+        "observed_start": 0,
+        "observed_end": 53,
+        "expected": [
+          "because",
+          "every",
+          "year",
+          "of",
+          "silence",
+          "made",
+          "speaking",
+          "more",
+          "expensive",
+          "at",
+          "first",
+          "i",
+          "would",
+          "have",
+          "lost",
+          "my",
+          "post",
+          "later",
+          "i",
+          "would",
+          "also",
+          "have",
+          "to",
+          "explain",
+          "the",
+          "years",
+          "i",
+          "had",
+          "kept",
+          "it",
+          "i",
+          "called",
+          "that",
+          "protecting",
+          "the",
+          "works",
+          "and",
+          "the",
+          "people",
+          "employed",
+          "there",
+          "they",
+          "were",
+          "not",
+          "asked",
+          "whether",
+          "they",
+          "wanted",
+          "my",
+          "protection",
+          "purchased",
+          "with",
+          "their"
+        ],
+        "observed": [
+          "because",
+          "every",
+          "year",
+          "of",
+          "silence",
+          "made",
+          "speaking",
+          "more",
+          "expensive",
+          "at",
+          "first",
+          "i",
+          "would",
+          "have",
+          "lost",
+          "my",
+          "post",
+          "later",
+          "i",
+          "would",
+          "also",
+          "have",
+          "to",
+          "explain",
+          "the",
+          "years",
+          "i",
+          "had",
+          "kept",
+          "it",
+          "i",
+          "called",
+          "that",
+          "protecting",
+          "the",
+          "works",
+          "and",
+          "the",
+          "people",
+          "employed",
+          "there",
+          "they",
+          "were",
+          "not",
+          "asked",
+          "whether",
+          "they",
+          "wanted",
+          "my",
+          "protection",
+          "purchased",
+          "with",
+          "their"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 53,
+        "expected_end": 54,
+        "observed_start": 53,
+        "observed_end": 54,
+        "expected": [
+          "neighbours"
+        ],
+        "observed": [
+          "neighbors"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 54,
+        "expected_end": 55,
+        "observed_start": 54,
+        "observed_end": 55,
+        "expected": [
+          "history"
+        ],
+        "observed": [
+          "history"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "neighbours"
+        ],
+        "observed": [
+          "neighbors"
+        ],
+        "expected_start": 53,
+        "observed_start": 53
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 53:54."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,202 @@
+{
+  "record": "Audiovisual implementation checkpoint, prior to final documentation-only packaging refresh",
+  "implementation_revision": "73af86661e809f87b159d08e4cc6b9c4d09caa00",
+  "automated_verification": {
+    "utc": "2026-11-14T10:49:42.400414+00:00",
+    "mode": "verify",
+    "source_revision": "73af86661e809f87b159d08e4cc6b9c4d09caa00",
+    "source_dirty": false,
+    "automated_checks_passed": true,
+    "scope": "Development alpha automation; not release acceptance, native Windows certification, human playthrough or playtime measurement",
+    "checks": [
+      {
+        "check": "engine-version",
+        "passed": true,
+        "exit_code": 0,
+        "version": "4.7.2.stable.official.ed1daf0bf"
+      },
+      {
+        "check": "content-audit",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "art-provenance-audit",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "art-provenance",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "puzzle-logic",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "route-boards",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "audio-audit",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "score-audit",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "voice-production-audit",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "import",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "state-and-progression",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "ui-progression",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "environment-animation",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "audio-director",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "character-performance",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "av-ui-integration",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "source-smoke",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "export-linux",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "package-linux",
+        "passed": true,
+        "bytes": 167819050,
+        "sha256": "12c2bad287ce19b1ad14859c3d482418cc74b00306e6f6f9f251ecd9ac561ad7"
+      },
+      {
+        "check": "export-windows",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "package-windows",
+        "passed": true,
+        "bytes": 177470049,
+        "sha256": "dedbc75d78ff836a66859012e5c1d15718bd125e17eccaccb4f5df88066e8cb5"
+      },
+      {
+        "check": "package-source",
+        "passed": true,
+        "bytes": 394070423,
+        "sha256": "ed4a49d9ff8118b2dd2f3bfceaf2b850840bb52fb915f6b3b75c8165461eee00"
+      },
+      {
+        "check": "linux-extracted-package-smoke",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "windows-extracted-package-smoke-wine",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "check": "native-windows-gameplay",
+        "status": "not_run",
+        "reason": "No native Windows test session performed"
+      },
+      {
+        "check": "blind-playthrough-duration",
+        "status": "not_run",
+        "reason": "Requires independent first-time players; automated answer traversal is not a duration test"
+      }
+    ]
+  },
+  "extracted_graphical_checks": [
+    {
+      "platform": "linux",
+      "execution": "native Linux Compatibility",
+      "passed": true,
+      "exit_code": 0,
+      "archive_sha256": "12c2bad287ce19b1ad14859c3d482418cc74b00306e6f6f9f251ecd9ac561ad7",
+      "screenshot": "builds/previews/linux-export-opening.png",
+      "scope": "Opening scene rendering and graceful exit from extracted archive; not a human playthrough or native Windows test"
+    },
+    {
+      "platform": "windows",
+      "execution": "Wine graphical compatibility",
+      "passed": true,
+      "exit_code": 0,
+      "archive_sha256": "dedbc75d78ff836a66859012e5c1d15718bd125e17eccaccb4f5df88066e8cb5",
+      "screenshot": "builds/previews/windows-export-opening.png",
+      "scope": "Opening scene rendering and graceful exit from extracted archive; not a human playthrough or native Windows test"
+    }
+  ],
+  "preview": {
+    "path": "builds/previews/quiet-meridian-av-preview.mp4",
+    "sha256": "b8c85bdc223c0f79e4e4a2912bd421158d6b50e64b54d4c7e36560a3b6c0e232",
+    "measurement": {
+      "mean_dbfs": -34.9,
+      "peak_dbfs": -12.3,
+      "duration_seconds": 40.25,
+      "audio_sample_rate": 48000,
+      "quality_claim": "Non-silence/headroom and format checks only; not human listening approval or LUFS measurement"
+    },
+    "scope": "Locations staged in memory. No gameplay completion or manual playthrough claimed. Isolated XDG directories supplied by render_av_preview.py.",
+    "voice": "No voice recordings produced. Voice controls visibly unavailable; no fake speech or speaking animation."
+  },
+  "native_full_ui": {
+    "resolutions": [
+      [
+        1280,
+        800
+      ],
+      [
+        960,
+        600
+      ]
+    ],
+    "assertions_each": 1488,
+    "scope": "Scripted known-answer traversal; not manual playtesting"
+  },
+  "native_environment_assertions": 1189,
+  "preserved_alpha_hashes_rechecked": true,
+  "production_voice_recordings": 0,
+  "pending_voice_recordings": 98,
+  "credits_spent": 0,
+  "release_acceptance": false,
+  "latest_package_record": "builds/verification.json identifies the latest final packaging revision and hashes; this committed record preserves evidence from the implementation checkpoint."
+}

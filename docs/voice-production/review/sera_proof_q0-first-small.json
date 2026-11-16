@@ -1,0 +1,227 @@
+{
+  "line_id": "sera_proof_q0",
+  "clip_id": "34590ad9cf934628829d6ade56ae857e",
+  "source_text_sha256": "9083123b766c5ad52a6635d56219dc78d71fafdb95cdd31439eccb64f3ada3c4",
+  "master": "work/gateway-voice/masters/34590ad9cf934628829d6ade56ae857e.wav",
+  "wav_sha256": "9d618292b75ab02a19a6c9d798f12f9ed0de17b8aad66a539c276ebe57099f27",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 183360,
+    "sample_count": 91680,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.82,
+    "peak": 0.3359375,
+    "peak_dbfs": -9.474830281365637,
+    "rms": 0.0494796251870413,
+    "rms_dbfs": -26.111471977065392,
+    "dc_offset": 6.0702285633453314e-05,
+    "silence_fraction": 0.3496291448516579,
+    "leading_silence_seconds": 0.4025416666666667,
+    "tail_silence_seconds": 0.358625,
+    "active_span_seconds": 3.0588333333333333,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 7,
+    "source_words_per_active_minute": 137.30725222034545,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "change",
+      "proved",
+      "guilty",
+      "to",
+      "evidence",
+      "shows"
+    ],
+    "observed_tokens": [
+      "why",
+      "change",
+      "proved",
+      "guilty",
+      "to",
+      "evidence",
+      "shows"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "why",
+          "change",
+          "proved",
+          "guilty",
+          "to",
+          "evidence",
+          "shows"
+        ],
+        "observed": [
+          "why",
+          "change",
+          "proved",
+          "guilty",
+          "to",
+          "evidence",
+          "shows"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Why change proved guilty to evidence shows?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.2,
+      "text": " Why change proved guilty to evidence shows?",
+      "words": [
+        {
+          "word": " Why",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.7398223280906677
+        },
+        {
+          "word": " change",
+          "start": 0.5,
+          "end": 0.84,
+          "probability": 0.9268704652786255
+        },
+        {
+          "word": " proved",
+          "start": 0.84,
+          "end": 1.34,
+          "probability": 0.7761654257774353
+        },
+        {
+          "word": " guilty",
+          "start": 1.34,
+          "end": 1.82,
+          "probability": 0.982300877571106
+        },
+        {
+          "word": " to",
+          "start": 1.82,
+          "end": 2.24,
+          "probability": 0.9881369471549988
+        },
+        {
+          "word": " evidence",
+          "start": 2.24,
+          "end": 2.76,
+          "probability": 0.7068489193916321
+        },
+        {
+          "word": " shows?",
+          "start": 2.76,
+          "end": 3.2,
+          "probability": 0.9704878926277161
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "why",
+      "change",
+      "proved",
+      "guilty",
+      "to",
+      "evidence",
+      "shows"
+    ],
+    "observed_tokens": [
+      "why",
+      "change",
+      "proved",
+      "guilty",
+      "to",
+      "evidence",
+      "shows"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 7,
+        "observed_start": 0,
+        "observed_end": 7,
+        "expected": [
+          "why",
+          "change",
+          "proved",
+          "guilty",
+          "to",
+          "evidence",
+          "shows"
+        ],
+        "observed": [
+          "why",
+          "change",
+          "proved",
+          "guilty",
+          "to",
+          "evidence",
+          "shows"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

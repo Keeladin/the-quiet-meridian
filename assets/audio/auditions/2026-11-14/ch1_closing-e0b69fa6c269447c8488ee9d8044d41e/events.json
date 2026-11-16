@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "type": "session.started",
+      "received_seconds": 2.1274591860001237
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.226999180999883,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.3349785810005415,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "error",
+      "received_seconds": 2.4055733969998983,
+      "error_code": "missing_required_parameter"
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.4425453949997973,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.540958454000247,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.6407454600002893,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.output_audio.delta",
+      "received_seconds": 2.733298105000358,
+      "pcm_bytes": 4800
+    },
+    {
+      "type": "session.closed",
+      "received_seconds": 3.1193882719999237,
+      "usage_seconds": 0.0
+    }
+  ]
+}

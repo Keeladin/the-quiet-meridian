@@ -1,0 +1,906 @@
+{
+  "line_id": "ada_steps_r0",
+  "clip_id": "20762438421544d68656a35c0b31447c",
+  "source_text_sha256": "4885d294fb433c947ac818f3ef347f5a7fc0989c873cfb17584f842df6e2ff08",
+  "master": "work/gateway-voice/masters/20762438421544d68656a35c0b31447c.wav",
+  "wav_sha256": "08e51088be4e70ab53ad5f1de303a5bb486962058f91941996d9ab3f817f9ef5",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 868800,
+    "sample_count": 434400,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 18.1,
+    "peak": 0.5078125,
+    "peak_dbfs": -5.885932260100256,
+    "rms": 0.05089211229646241,
+    "rms_dbfs": -25.86699046390182,
+    "dc_offset": 8.184443521236187e-05,
+    "silence_fraction": 0.23111878453038673,
+    "leading_silence_seconds": 0.403,
+    "tail_silence_seconds": 0.384875,
+    "active_span_seconds": 17.312125,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 51,
+    "source_words_per_active_minute": 176.75473114941116,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "because",
+      "a",
+      "measured",
+      "error",
+      "can",
+      "be",
+      "corrected",
+      "a",
+      "clock",
+      "that",
+      "is",
+      "four",
+      "minutes",
+      "fast",
+      "and",
+      "says",
+      "so",
+      "is",
+      "more",
+      "useful",
+      "than",
+      "a",
+      "clock",
+      "advertised",
+      "as",
+      "perfect",
+      "whose",
+      "drift",
+      "nobody",
+      "checks",
+      "people",
+      "find",
+      "that",
+      "disappointing",
+      "they",
+      "want",
+      "an",
+      "instrument",
+      "to",
+      "relieve",
+      "them",
+      "of",
+      "judgment",
+      "instruments",
+      "are",
+      "excellent",
+      "servants",
+      "and",
+      "very",
+      "poor",
+      "excuses"
+    ],
+    "observed_tokens": [
+      "because",
+      "a",
+      "measured",
+      "error",
+      "can",
+      "be",
+      "corrected",
+      "a",
+      "clock",
+      "that",
+      "is",
+      "four",
+      "minutes",
+      "fast",
+      "and",
+      "says",
+      "so",
+      "is",
+      "more",
+      "useful",
+      "than",
+      "a",
+      "clock",
+      "advertised",
+      "as",
+      "perfect",
+      "whose",
+      "drift",
+      "nobody",
+      "checks",
+      "people",
+      "find",
+      "that",
+      "disappointing",
+      "they",
+      "want",
+      "an",
+      "instrument",
+      "to",
+      "relieve",
+      "them",
+      "of",
+      "judgment",
+      "instruments",
+      "are",
+      "excellent",
+      "servants",
+      "and",
+      "very",
+      "poor",
+      "excuses"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 51,
+        "observed_start": 0,
+        "observed_end": 51,
+        "expected": [
+          "because",
+          "a",
+          "measured",
+          "error",
+          "can",
+          "be",
+          "corrected",
+          "a",
+          "clock",
+          "that",
+          "is",
+          "four",
+          "minutes",
+          "fast",
+          "and",
+          "says",
+          "so",
+          "is",
+          "more",
+          "useful",
+          "than",
+          "a",
+          "clock",
+          "advertised",
+          "as",
+          "perfect",
+          "whose",
+          "drift",
+          "nobody",
+          "checks",
+          "people",
+          "find",
+          "that",
+          "disappointing",
+          "they",
+          "want",
+          "an",
+          "instrument",
+          "to",
+          "relieve",
+          "them",
+          "of",
+          "judgment",
+          "instruments",
+          "are",
+          "excellent",
+          "servants",
+          "and",
+          "very",
+          "poor",
+          "excuses"
+        ],
+        "observed": [
+          "because",
+          "a",
+          "measured",
+          "error",
+          "can",
+          "be",
+          "corrected",
+          "a",
+          "clock",
+          "that",
+          "is",
+          "four",
+          "minutes",
+          "fast",
+          "and",
+          "says",
+          "so",
+          "is",
+          "more",
+          "useful",
+          "than",
+          "a",
+          "clock",
+          "advertised",
+          "as",
+          "perfect",
+          "whose",
+          "drift",
+          "nobody",
+          "checks",
+          "people",
+          "find",
+          "that",
+          "disappointing",
+          "they",
+          "want",
+          "an",
+          "instrument",
+          "to",
+          "relieve",
+          "them",
+          "of",
+          "judgment",
+          "instruments",
+          "are",
+          "excellent",
+          "servants",
+          "and",
+          "very",
+          "poor",
+          "excuses"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Because a measured error can be corrected, a clock that is 4 minutes fast and says so is more useful than a clock advertised as perfect whose drift nobody checks. People find that disappointing. They want an instrument to relieve them of judgment. Instruments are excellent servants, and very poor excuses.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 5.12,
+      "text": " Because a measured error can be corrected, a clock that is 4 minutes fast and says so",
+      "words": [
+        {
+          "word": " Because",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.7867388725280762
+        },
+        {
+          "word": " a",
+          "start": 0.62,
+          "end": 1.06,
+          "probability": 0.8705748915672302
+        },
+        {
+          "word": " measured",
+          "start": 1.06,
+          "end": 1.34,
+          "probability": 0.9893984794616699
+        },
+        {
+          "word": " error",
+          "start": 1.34,
+          "end": 1.62,
+          "probability": 0.9994012117385864
+        },
+        {
+          "word": " can",
+          "start": 1.62,
+          "end": 1.86,
+          "probability": 0.9960494637489319
+        },
+        {
+          "word": " be",
+          "start": 1.86,
+          "end": 2.02,
+          "probability": 0.9974020719528198
+        },
+        {
+          "word": " corrected,",
+          "start": 2.02,
+          "end": 2.38,
+          "probability": 0.9988850951194763
+        },
+        {
+          "word": " a",
+          "start": 2.88,
+          "end": 2.92,
+          "probability": 0.9599747657775879
+        },
+        {
+          "word": " clock",
+          "start": 2.92,
+          "end": 3.12,
+          "probability": 0.9991719722747803
+        },
+        {
+          "word": " that",
+          "start": 3.12,
+          "end": 3.32,
+          "probability": 0.9943453073501587
+        },
+        {
+          "word": " is",
+          "start": 3.32,
+          "end": 3.48,
+          "probability": 0.9889764189720154
+        },
+        {
+          "word": " 4",
+          "start": 3.48,
+          "end": 3.68,
+          "probability": 0.2572883069515228
+        },
+        {
+          "word": " minutes",
+          "start": 3.68,
+          "end": 3.86,
+          "probability": 0.9722755551338196
+        },
+        {
+          "word": " fast",
+          "start": 3.86,
+          "end": 4.26,
+          "probability": 0.9895173907279968
+        },
+        {
+          "word": " and",
+          "start": 4.26,
+          "end": 4.58,
+          "probability": 0.8588144183158875
+        },
+        {
+          "word": " says",
+          "start": 4.58,
+          "end": 4.78,
+          "probability": 0.9948768019676208
+        },
+        {
+          "word": " so",
+          "start": 4.78,
+          "end": 5.12,
+          "probability": 0.9930693507194519
+        }
+      ]
+    },
+    {
+      "start": 5.12,
+      "end": 9.06,
+      "text": " is more useful than a clock advertised as perfect whose drift nobody checks.",
+      "words": [
+        {
+          "word": " is",
+          "start": 5.12,
+          "end": 5.38,
+          "probability": 0.8165158033370972
+        },
+        {
+          "word": " more",
+          "start": 5.38,
+          "end": 5.58,
+          "probability": 0.9972667694091797
+        },
+        {
+          "word": " useful",
+          "start": 5.58,
+          "end": 5.86,
+          "probability": 0.9967717528343201
+        },
+        {
+          "word": " than",
+          "start": 5.86,
+          "end": 6.12,
+          "probability": 0.9826860427856445
+        },
+        {
+          "word": " a",
+          "start": 6.12,
+          "end": 6.2,
+          "probability": 0.985480010509491
+        },
+        {
+          "word": " clock",
+          "start": 6.2,
+          "end": 6.48,
+          "probability": 0.9993823766708374
+        },
+        {
+          "word": " advertised",
+          "start": 6.48,
+          "end": 7.06,
+          "probability": 0.9702352285385132
+        },
+        {
+          "word": " as",
+          "start": 7.06,
+          "end": 7.3,
+          "probability": 0.993057131767273
+        },
+        {
+          "word": " perfect",
+          "start": 7.3,
+          "end": 7.66,
+          "probability": 0.8642302751541138
+        },
+        {
+          "word": " whose",
+          "start": 7.66,
+          "end": 7.98,
+          "probability": 0.7543200254440308
+        },
+        {
+          "word": " drift",
+          "start": 7.98,
+          "end": 8.34,
+          "probability": 0.9869968891143799
+        },
+        {
+          "word": " nobody",
+          "start": 8.34,
+          "end": 8.66,
+          "probability": 0.9778761863708496
+        },
+        {
+          "word": " checks.",
+          "start": 8.66,
+          "end": 9.06,
+          "probability": 0.9992753863334656
+        }
+      ]
+    },
+    {
+      "start": 9.72,
+      "end": 10.78,
+      "text": " People find that disappointing.",
+      "words": [
+        {
+          "word": " People",
+          "start": 9.72,
+          "end": 9.9,
+          "probability": 0.9896406531333923
+        },
+        {
+          "word": " find",
+          "start": 9.9,
+          "end": 10.16,
+          "probability": 0.9974372386932373
+        },
+        {
+          "word": " that",
+          "start": 10.16,
+          "end": 10.34,
+          "probability": 0.9975044131278992
+        },
+        {
+          "word": " disappointing.",
+          "start": 10.34,
+          "end": 10.78,
+          "probability": 0.9980283379554749
+        }
+      ]
+    },
+    {
+      "start": 11.46,
+      "end": 13.52,
+      "text": " They want an instrument to relieve them of judgment.",
+      "words": [
+        {
+          "word": " They",
+          "start": 11.46,
+          "end": 11.54,
+          "probability": 0.9941188097000122
+        },
+        {
+          "word": " want",
+          "start": 11.54,
+          "end": 11.7,
+          "probability": 0.9992480874061584
+        },
+        {
+          "word": " an",
+          "start": 11.7,
+          "end": 11.86,
+          "probability": 0.9979444146156311
+        },
+        {
+          "word": " instrument",
+          "start": 11.86,
+          "end": 12.18,
+          "probability": 0.986380398273468
+        },
+        {
+          "word": " to",
+          "start": 12.18,
+          "end": 12.48,
+          "probability": 0.9969981908798218
+        },
+        {
+          "word": " relieve",
+          "start": 12.48,
+          "end": 12.82,
+          "probability": 0.9982402324676514
+        },
+        {
+          "word": " them",
+          "start": 12.82,
+          "end": 13.08,
+          "probability": 0.9961406588554382
+        },
+        {
+          "word": " of",
+          "start": 13.08,
+          "end": 13.24,
+          "probability": 0.996118426322937
+        },
+        {
+          "word": " judgment.",
+          "start": 13.24,
+          "end": 13.52,
+          "probability": 0.6971918344497681
+        }
+      ]
+    },
+    {
+      "start": 14.54,
+      "end": 17.44,
+      "text": " Instruments are excellent servants, and very poor excuses.",
+      "words": [
+        {
+          "word": " Instruments",
+          "start": 14.54,
+          "end": 14.54,
+          "probability": 0.95161372423172
+        },
+        {
+          "word": " are",
+          "start": 14.54,
+          "end": 14.82,
+          "probability": 0.9986588954925537
+        },
+        {
+          "word": " excellent",
+          "start": 14.82,
+          "end": 15.22,
+          "probability": 0.9988100528717041
+        },
+        {
+          "word": " servants,",
+          "start": 15.22,
+          "end": 15.62,
+          "probability": 0.9979654550552368
+        },
+        {
+          "word": " and",
+          "start": 16.08,
+          "end": 16.28,
+          "probability": 0.9939612150192261
+        },
+        {
+          "word": " very",
+          "start": 16.28,
+          "end": 16.58,
+          "probability": 0.9961918592453003
+        },
+        {
+          "word": " poor",
+          "start": 16.58,
+          "end": 16.98,
+          "probability": 0.9992209672927856
+        },
+        {
+          "word": " excuses.",
+          "start": 16.98,
+          "end": 17.44,
+          "probability": 0.9961663484573364
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "because",
+      "a",
+      "measured",
+      "error",
+      "can",
+      "be",
+      "corrected",
+      "a",
+      "clock",
+      "that",
+      "is",
+      "four",
+      "minutes",
+      "fast",
+      "and",
+      "says",
+      "so",
+      "is",
+      "more",
+      "useful",
+      "than",
+      "a",
+      "clock",
+      "advertised",
+      "as",
+      "perfect",
+      "whose",
+      "drift",
+      "nobody",
+      "checks",
+      "people",
+      "find",
+      "that",
+      "disappointing",
+      "they",
+      "want",
+      "an",
+      "instrument",
+      "to",
+      "relieve",
+      "them",
+      "of",
+      "judgment",
+      "instruments",
+      "are",
+      "excellent",
+      "servants",
+      "and",
+      "very",
+      "poor",
+      "excuses"
+    ],
+    "observed_tokens": [
+      "because",
+      "a",
+      "measured",
+      "error",
+      "can",
+      "be",
+      "corrected",
+      "a",
+      "clock",
+      "that",
+      "is",
+      "4",
+      "minutes",
+      "fast",
+      "and",
+      "says",
+      "so",
+      "is",
+      "more",
+      "useful",
+      "than",
+      "a",
+      "clock",
+      "advertised",
+      "as",
+      "perfect",
+      "whose",
+      "drift",
+      "nobody",
+      "checks",
+      "people",
+      "find",
+      "that",
+      "disappointing",
+      "they",
+      "want",
+      "an",
+      "instrument",
+      "to",
+      "relieve",
+      "them",
+      "of",
+      "judgment",
+      "instruments",
+      "are",
+      "excellent",
+      "servants",
+      "and",
+      "very",
+      "poor",
+      "excuses"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 11,
+        "observed_start": 0,
+        "observed_end": 11,
+        "expected": [
+          "because",
+          "a",
+          "measured",
+          "error",
+          "can",
+          "be",
+          "corrected",
+          "a",
+          "clock",
+          "that",
+          "is"
+        ],
+        "observed": [
+          "because",
+          "a",
+          "measured",
+          "error",
+          "can",
+          "be",
+          "corrected",
+          "a",
+          "clock",
+          "that",
+          "is"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 11,
+        "expected_end": 12,
+        "observed_start": 11,
+        "observed_end": 12,
+        "expected": [
+          "four"
+        ],
+        "observed": [
+          "4"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 12,
+        "expected_end": 51,
+        "observed_start": 12,
+        "observed_end": 51,
+        "expected": [
+          "minutes",
+          "fast",
+          "and",
+          "says",
+          "so",
+          "is",
+          "more",
+          "useful",
+          "than",
+          "a",
+          "clock",
+          "advertised",
+          "as",
+          "perfect",
+          "whose",
+          "drift",
+          "nobody",
+          "checks",
+          "people",
+          "find",
+          "that",
+          "disappointing",
+          "they",
+          "want",
+          "an",
+          "instrument",
+          "to",
+          "relieve",
+          "them",
+          "of",
+          "judgment",
+          "instruments",
+          "are",
+          "excellent",
+          "servants",
+          "and",
+          "very",
+          "poor",
+          "excuses"
+        ],
+        "observed": [
+          "minutes",
+          "fast",
+          "and",
+          "says",
+          "so",
+          "is",
+          "more",
+          "useful",
+          "than",
+          "a",
+          "clock",
+          "advertised",
+          "as",
+          "perfect",
+          "whose",
+          "drift",
+          "nobody",
+          "checks",
+          "people",
+          "find",
+          "that",
+          "disappointing",
+          "they",
+          "want",
+          "an",
+          "instrument",
+          "to",
+          "relieve",
+          "them",
+          "of",
+          "judgment",
+          "instruments",
+          "are",
+          "excellent",
+          "servants",
+          "and",
+          "very",
+          "poor",
+          "excuses"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "four"
+        ],
+        "observed": [
+          "4"
+        ],
+        "expected_start": 11,
+        "observed_start": 11
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 11:12."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,1053 @@
+{
+  "line_id": "nadi_signal_r0",
+  "clip_id": "c63f4e9009b34f2aa5dbc63fa385a687",
+  "source_text_sha256": "534236575bbaefbeee0683486d9743cbe65858f9f8d7dcb924514d051921c1f0",
+  "master": "work/gateway-voice/masters/c63f4e9009b34f2aa5dbc63fa385a687.wav",
+  "wav_sha256": "49b27a8675b5f4dc4a9261d55d7ca7dd4bcaf8677f7c4923ce6550970c09c6fd",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 946560,
+    "sample_count": 473280,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 19.72,
+    "peak": 0.65234375,
+    "peak_dbfs": -3.7104698832853256,
+    "rms": 0.04905294902125882,
+    "rms_dbfs": -26.186697561741674,
+    "dc_offset": 5.2799575630275685e-05,
+    "silence_fraction": 0.252677062204192,
+    "leading_silence_seconds": 0.386875,
+    "tail_silence_seconds": 0.33495833333333336,
+    "active_span_seconds": 18.998166666666666,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 61,
+    "source_words_per_active_minute": 192.65016799866655,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "i",
+      "know",
+      "the",
+      "old",
+      "clinic",
+      "has",
+      "been",
+      "used",
+      "since",
+      "the",
+      "city",
+      "called",
+      "it",
+      "abandoned",
+      "i",
+      "do",
+      "not",
+      "know",
+      "who",
+      "was",
+      "at",
+      "its",
+      "lamp",
+      "that",
+      "night",
+      "mara",
+      "asked",
+      "me",
+      "to",
+      "carry",
+      "supplies",
+      "and",
+      "i",
+      "did",
+      "i",
+      "have",
+      "been",
+      "learning",
+      "the",
+      "difference",
+      "between",
+      "keeping",
+      "someone's",
+      "confidence",
+      "and",
+      "allowing",
+      "a",
+      "public",
+      "lie",
+      "to",
+      "grow",
+      "around",
+      "it",
+      "it",
+      "is",
+      "an",
+      "uncomfortable",
+      "lesson",
+      "to",
+      "learn",
+      "twice"
+    ],
+    "observed_tokens": [
+      "i",
+      "know",
+      "the",
+      "old",
+      "clinic",
+      "has",
+      "been",
+      "used",
+      "since",
+      "the",
+      "city",
+      "called",
+      "it",
+      "abandoned",
+      "i",
+      "do",
+      "not",
+      "know",
+      "who",
+      "was",
+      "at",
+      "its",
+      "lamp",
+      "that",
+      "night",
+      "mara",
+      "asked",
+      "me",
+      "to",
+      "carry",
+      "supplies",
+      "and",
+      "i",
+      "did",
+      "i",
+      "have",
+      "been",
+      "learning",
+      "the",
+      "difference",
+      "between",
+      "keeping",
+      "someone's",
+      "confidence",
+      "and",
+      "allowing",
+      "a",
+      "public",
+      "lie",
+      "to",
+      "grow",
+      "around",
+      "it",
+      "it",
+      "is",
+      "an",
+      "uncomfortable",
+      "lesson",
+      "to",
+      "learn",
+      "twice"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 61,
+        "observed_start": 0,
+        "observed_end": 61,
+        "expected": [
+          "i",
+          "know",
+          "the",
+          "old",
+          "clinic",
+          "has",
+          "been",
+          "used",
+          "since",
+          "the",
+          "city",
+          "called",
+          "it",
+          "abandoned",
+          "i",
+          "do",
+          "not",
+          "know",
+          "who",
+          "was",
+          "at",
+          "its",
+          "lamp",
+          "that",
+          "night",
+          "mara",
+          "asked",
+          "me",
+          "to",
+          "carry",
+          "supplies",
+          "and",
+          "i",
+          "did",
+          "i",
+          "have",
+          "been",
+          "learning",
+          "the",
+          "difference",
+          "between",
+          "keeping",
+          "someone's",
+          "confidence",
+          "and",
+          "allowing",
+          "a",
+          "public",
+          "lie",
+          "to",
+          "grow",
+          "around",
+          "it",
+          "it",
+          "is",
+          "an",
+          "uncomfortable",
+          "lesson",
+          "to",
+          "learn",
+          "twice"
+        ],
+        "observed": [
+          "i",
+          "know",
+          "the",
+          "old",
+          "clinic",
+          "has",
+          "been",
+          "used",
+          "since",
+          "the",
+          "city",
+          "called",
+          "it",
+          "abandoned",
+          "i",
+          "do",
+          "not",
+          "know",
+          "who",
+          "was",
+          "at",
+          "its",
+          "lamp",
+          "that",
+          "night",
+          "mara",
+          "asked",
+          "me",
+          "to",
+          "carry",
+          "supplies",
+          "and",
+          "i",
+          "did",
+          "i",
+          "have",
+          "been",
+          "learning",
+          "the",
+          "difference",
+          "between",
+          "keeping",
+          "someone's",
+          "confidence",
+          "and",
+          "allowing",
+          "a",
+          "public",
+          "lie",
+          "to",
+          "grow",
+          "around",
+          "it",
+          "it",
+          "is",
+          "an",
+          "uncomfortable",
+          "lesson",
+          "to",
+          "learn",
+          "twice"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "I know the old clinic has been used since the city called it abandoned. I do not know who was at its lamp that night. Mara asked me to carry supplies and I did. I have been learning the difference between keeping someone's confidence and allowing the public lie to grow around it. It is an uncomfortable lesson to learn twice.",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 3.58,
+      "text": " I know the old clinic has been used since the city called it abandoned.",
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.8368597626686096
+        },
+        {
+          "word": " know",
+          "start": 0.5,
+          "end": 0.66,
+          "probability": 0.9929485321044922
+        },
+        {
+          "word": " the",
+          "start": 0.66,
+          "end": 0.84,
+          "probability": 0.9792846441268921
+        },
+        {
+          "word": " old",
+          "start": 0.84,
+          "end": 1.08,
+          "probability": 0.9748528599739075
+        },
+        {
+          "word": " clinic",
+          "start": 1.08,
+          "end": 1.38,
+          "probability": 0.9859517812728882
+        },
+        {
+          "word": " has",
+          "start": 1.38,
+          "end": 1.64,
+          "probability": 0.9915322661399841
+        },
+        {
+          "word": " been",
+          "start": 1.64,
+          "end": 1.82,
+          "probability": 0.9986886382102966
+        },
+        {
+          "word": " used",
+          "start": 1.82,
+          "end": 2.1,
+          "probability": 0.9972352385520935
+        },
+        {
+          "word": " since",
+          "start": 2.1,
+          "end": 2.32,
+          "probability": 0.9946839213371277
+        },
+        {
+          "word": " the",
+          "start": 2.32,
+          "end": 2.48,
+          "probability": 0.9915140867233276
+        },
+        {
+          "word": " city",
+          "start": 2.48,
+          "end": 2.68,
+          "probability": 0.9740229249000549
+        },
+        {
+          "word": " called",
+          "start": 2.68,
+          "end": 3.02,
+          "probability": 0.9961737990379333
+        },
+        {
+          "word": " it",
+          "start": 3.02,
+          "end": 3.18,
+          "probability": 0.9987597465515137
+        },
+        {
+          "word": " abandoned.",
+          "start": 3.18,
+          "end": 3.58,
+          "probability": 0.6852707862854004
+        }
+      ]
+    },
+    {
+      "start": 4.52,
+      "end": 6.92,
+      "text": " I do not know who was at its lamp that night.",
+      "words": [
+        {
+          "word": " I",
+          "start": 4.52,
+          "end": 4.66,
+          "probability": 0.993860125541687
+        },
+        {
+          "word": " do",
+          "start": 4.66,
+          "end": 4.9,
+          "probability": 0.9708652496337891
+        },
+        {
+          "word": " not",
+          "start": 4.9,
+          "end": 5.12,
+          "probability": 0.9880849719047546
+        },
+        {
+          "word": " know",
+          "start": 5.12,
+          "end": 5.34,
+          "probability": 0.998762845993042
+        },
+        {
+          "word": " who",
+          "start": 5.34,
+          "end": 5.52,
+          "probability": 0.9977200627326965
+        },
+        {
+          "word": " was",
+          "start": 5.52,
+          "end": 5.7,
+          "probability": 0.9984170198440552
+        },
+        {
+          "word": " at",
+          "start": 5.7,
+          "end": 5.86,
+          "probability": 0.997581958770752
+        },
+        {
+          "word": " its",
+          "start": 5.86,
+          "end": 6.02,
+          "probability": 0.8963046073913574
+        },
+        {
+          "word": " lamp",
+          "start": 6.02,
+          "end": 6.26,
+          "probability": 0.9306469559669495
+        },
+        {
+          "word": " that",
+          "start": 6.26,
+          "end": 6.52,
+          "probability": 0.9960086345672607
+        },
+        {
+          "word": " night.",
+          "start": 6.52,
+          "end": 6.92,
+          "probability": 0.9995424747467041
+        }
+      ]
+    },
+    {
+      "start": 7.92,
+      "end": 10.16,
+      "text": " Mara asked me to carry supplies and I did.",
+      "words": [
+        {
+          "word": " Mara",
+          "start": 7.92,
+          "end": 8.02,
+          "probability": 0.7187460660934448
+        },
+        {
+          "word": " asked",
+          "start": 8.02,
+          "end": 8.38,
+          "probability": 0.9907581806182861
+        },
+        {
+          "word": " me",
+          "start": 8.38,
+          "end": 8.56,
+          "probability": 0.99817955493927
+        },
+        {
+          "word": " to",
+          "start": 8.56,
+          "end": 8.7,
+          "probability": 0.998956561088562
+        },
+        {
+          "word": " carry",
+          "start": 8.7,
+          "end": 8.88,
+          "probability": 0.9965781569480896
+        },
+        {
+          "word": " supplies",
+          "start": 8.88,
+          "end": 9.4,
+          "probability": 0.9983866214752197
+        },
+        {
+          "word": " and",
+          "start": 9.4,
+          "end": 9.74,
+          "probability": 0.9301815629005432
+        },
+        {
+          "word": " I",
+          "start": 9.74,
+          "end": 9.92,
+          "probability": 0.9851554036140442
+        },
+        {
+          "word": " did.",
+          "start": 9.92,
+          "end": 10.16,
+          "probability": 0.9917058944702148
+        }
+      ]
+    },
+    {
+      "start": 10.92,
+      "end": 14.68,
+      "text": " I have been learning the difference between keeping someone's confidence and allowing",
+      "words": [
+        {
+          "word": " I",
+          "start": 10.92,
+          "end": 11.1,
+          "probability": 0.9968343377113342
+        },
+        {
+          "word": " have",
+          "start": 11.1,
+          "end": 11.22,
+          "probability": 0.9910390973091125
+        },
+        {
+          "word": " been",
+          "start": 11.22,
+          "end": 11.42,
+          "probability": 0.995430588722229
+        },
+        {
+          "word": " learning",
+          "start": 11.42,
+          "end": 11.64,
+          "probability": 0.994814395904541
+        },
+        {
+          "word": " the",
+          "start": 11.64,
+          "end": 11.9,
+          "probability": 0.9986120462417603
+        },
+        {
+          "word": " difference",
+          "start": 11.9,
+          "end": 12.22,
+          "probability": 0.9972730278968811
+        },
+        {
+          "word": " between",
+          "start": 12.22,
+          "end": 12.64,
+          "probability": 0.9989339709281921
+        },
+        {
+          "word": " keeping",
+          "start": 12.64,
+          "end": 12.92,
+          "probability": 0.9977203011512756
+        },
+        {
+          "word": " someone's",
+          "start": 12.92,
+          "end": 13.52,
+          "probability": 0.9937455952167511
+        },
+        {
+          "word": " confidence",
+          "start": 13.52,
+          "end": 13.88,
+          "probability": 0.9866807460784912
+        },
+        {
+          "word": " and",
+          "start": 13.88,
+          "end": 14.32,
+          "probability": 0.986568808555603
+        },
+        {
+          "word": " allowing",
+          "start": 14.32,
+          "end": 14.68,
+          "probability": 0.9942182302474976
+        }
+      ]
+    },
+    {
+      "start": 14.68,
+      "end": 16.54,
+      "text": " the public lie to grow around it.",
+      "words": [
+        {
+          "word": " the",
+          "start": 14.68,
+          "end": 14.94,
+          "probability": 0.8338461518287659
+        },
+        {
+          "word": " public",
+          "start": 14.94,
+          "end": 15.24,
+          "probability": 0.9958743453025818
+        },
+        {
+          "word": " lie",
+          "start": 15.24,
+          "end": 15.52,
+          "probability": 0.5406270027160645
+        },
+        {
+          "word": " to",
+          "start": 15.52,
+          "end": 15.7,
+          "probability": 0.9978538155555725
+        },
+        {
+          "word": " grow",
+          "start": 15.7,
+          "end": 15.92,
+          "probability": 0.9953466057777405
+        },
+        {
+          "word": " around",
+          "start": 15.92,
+          "end": 16.26,
+          "probability": 0.9989649057388306
+        },
+        {
+          "word": " it.",
+          "start": 16.26,
+          "end": 16.54,
+          "probability": 0.9972186088562012
+        }
+      ]
+    },
+    {
+      "start": 16.54,
+      "end": 19.12,
+      "text": " It is an uncomfortable lesson to learn twice.",
+      "words": [
+        {
+          "word": " It",
+          "start": 16.54,
+          "end": 17.04,
+          "probability": 0.6854294538497925
+        },
+        {
+          "word": " is",
+          "start": 17.04,
+          "end": 17.18,
+          "probability": 0.914789617061615
+        },
+        {
+          "word": " an",
+          "start": 17.18,
+          "end": 17.34,
+          "probability": 0.9985610842704773
+        },
+        {
+          "word": " uncomfortable",
+          "start": 17.34,
+          "end": 17.84,
+          "probability": 0.9912238121032715
+        },
+        {
+          "word": " lesson",
+          "start": 17.84,
+          "end": 18.34,
+          "probability": 0.9985215067863464
+        },
+        {
+          "word": " to",
+          "start": 18.34,
+          "end": 18.58,
+          "probability": 0.9997223019599915
+        },
+        {
+          "word": " learn",
+          "start": 18.58,
+          "end": 18.8,
+          "probability": 0.9991822838783264
+        },
+        {
+          "word": " twice.",
+          "start": 18.8,
+          "end": 19.12,
+          "probability": 0.9981246590614319
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": false,
+    "status": "rejected_transcript",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "i",
+      "know",
+      "the",
+      "old",
+      "clinic",
+      "has",
+      "been",
+      "used",
+      "since",
+      "the",
+      "city",
+      "called",
+      "it",
+      "abandoned",
+      "i",
+      "do",
+      "not",
+      "know",
+      "who",
+      "was",
+      "at",
+      "its",
+      "lamp",
+      "that",
+      "night",
+      "mara",
+      "asked",
+      "me",
+      "to",
+      "carry",
+      "supplies",
+      "and",
+      "i",
+      "did",
+      "i",
+      "have",
+      "been",
+      "learning",
+      "the",
+      "difference",
+      "between",
+      "keeping",
+      "someone's",
+      "confidence",
+      "and",
+      "allowing",
+      "a",
+      "public",
+      "lie",
+      "to",
+      "grow",
+      "around",
+      "it",
+      "it",
+      "is",
+      "an",
+      "uncomfortable",
+      "lesson",
+      "to",
+      "learn",
+      "twice"
+    ],
+    "observed_tokens": [
+      "i",
+      "know",
+      "the",
+      "old",
+      "clinic",
+      "has",
+      "been",
+      "used",
+      "since",
+      "the",
+      "city",
+      "called",
+      "it",
+      "abandoned",
+      "i",
+      "do",
+      "not",
+      "know",
+      "who",
+      "was",
+      "at",
+      "its",
+      "lamp",
+      "that",
+      "night",
+      "mara",
+      "asked",
+      "me",
+      "to",
+      "carry",
+      "supplies",
+      "and",
+      "i",
+      "did",
+      "i",
+      "have",
+      "been",
+      "learning",
+      "the",
+      "difference",
+      "between",
+      "keeping",
+      "someone's",
+      "confidence",
+      "and",
+      "allowing",
+      "the",
+      "public",
+      "lie",
+      "to",
+      "grow",
+      "around",
+      "it",
+      "it",
+      "is",
+      "an",
+      "uncomfortable",
+      "lesson",
+      "to",
+      "learn",
+      "twice"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 46,
+        "observed_start": 0,
+        "observed_end": 46,
+        "expected": [
+          "i",
+          "know",
+          "the",
+          "old",
+          "clinic",
+          "has",
+          "been",
+          "used",
+          "since",
+          "the",
+          "city",
+          "called",
+          "it",
+          "abandoned",
+          "i",
+          "do",
+          "not",
+          "know",
+          "who",
+          "was",
+          "at",
+          "its",
+          "lamp",
+          "that",
+          "night",
+          "mara",
+          "asked",
+          "me",
+          "to",
+          "carry",
+          "supplies",
+          "and",
+          "i",
+          "did",
+          "i",
+          "have",
+          "been",
+          "learning",
+          "the",
+          "difference",
+          "between",
+          "keeping",
+          "someone's",
+          "confidence",
+          "and",
+          "allowing"
+        ],
+        "observed": [
+          "i",
+          "know",
+          "the",
+          "old",
+          "clinic",
+          "has",
+          "been",
+          "used",
+          "since",
+          "the",
+          "city",
+          "called",
+          "it",
+          "abandoned",
+          "i",
+          "do",
+          "not",
+          "know",
+          "who",
+          "was",
+          "at",
+          "its",
+          "lamp",
+          "that",
+          "night",
+          "mara",
+          "asked",
+          "me",
+          "to",
+          "carry",
+          "supplies",
+          "and",
+          "i",
+          "did",
+          "i",
+          "have",
+          "been",
+          "learning",
+          "the",
+          "difference",
+          "between",
+          "keeping",
+          "someone's",
+          "confidence",
+          "and",
+          "allowing"
+        ]
+      },
+      {
+        "operation": "replace",
+        "expected_start": 46,
+        "expected_end": 47,
+        "observed_start": 46,
+        "observed_end": 47,
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ]
+      },
+      {
+        "operation": "equal",
+        "expected_start": 47,
+        "expected_end": 61,
+        "observed_start": 47,
+        "observed_end": 61,
+        "expected": [
+          "public",
+          "lie",
+          "to",
+          "grow",
+          "around",
+          "it",
+          "it",
+          "is",
+          "an",
+          "uncomfortable",
+          "lesson",
+          "to",
+          "learn",
+          "twice"
+        ],
+        "observed": [
+          "public",
+          "lie",
+          "to",
+          "grow",
+          "around",
+          "it",
+          "it",
+          "is",
+          "an",
+          "uncomfortable",
+          "lesson",
+          "to",
+          "learn",
+          "twice"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [
+      {
+        "expected": [
+          "a"
+        ],
+        "observed": [
+          "the"
+        ],
+        "expected_start": 46,
+        "observed_start": 46
+      }
+    ],
+    "reasons": [
+      "Changed source words at expected tokens 46:47."
+    ],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-small.en",
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": false,
+  "status": "review_hold",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0
+}

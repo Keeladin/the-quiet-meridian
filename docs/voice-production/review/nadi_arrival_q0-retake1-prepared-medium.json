@@ -1,0 +1,222 @@
+{
+  "line_id": "nadi_arrival_q0",
+  "clip_id": "f497db9aa5394514af0fa1d4c4ee3ac6",
+  "source_text_sha256": "4953b9b328466fe753f61534486c0ffa99df78e79233b1467a539d20d6ccefaf",
+  "master": "work/gateway-voice/masters/f497db9aa5394514af0fa1d4c4ee3ac6.wav",
+  "wav_sha256": "50eb020ae2e65d5107928c7e118f018fbf21a8ffdf049552f184a2494fa5c875",
+  "signal": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "pcm_signal_integrity_only",
+    "audio_fidelity_verified": false,
+    "reasons": [],
+    "warnings": [],
+    "sample_rate": 24000,
+    "assumed_format": "s16le_mono",
+    "channels": 1,
+    "byte_count": 164160,
+    "sample_count": 82080,
+    "incomplete_sample_bytes": 0,
+    "duration_seconds": 3.42,
+    "peak": 0.38671875,
+    "peak_dbfs": -8.252095414285993,
+    "rms": 0.07207302943467297,
+    "rms_dbfs": -22.844544458461282,
+    "dc_offset": -1.312352528116624e-05,
+    "silence_fraction": 0.2770589668615984,
+    "leading_silence_seconds": 0.40708333333333335,
+    "tail_silence_seconds": 0.348625,
+    "active_span_seconds": 2.6642916666666667,
+    "clipped_fraction": 0.0,
+    "longest_clipped_run_samples": 0,
+    "expected_word_count": 6,
+    "source_words_per_active_minute": 135.1203415541967,
+    "criteria": {
+      "silence_threshold_integer": 32,
+      "clipping_threshold_integer": 32760,
+      "reject_clipped_fraction_at_least": 0.001,
+      "reject_clipped_run_samples_at_least": 6,
+      "short_tail_warning_seconds": 0.08,
+      "duration_warning_wpm_outside": [
+        60,
+        350
+      ],
+      "limits": "Signal activity is not speech recognition. Provider completion, exact transcript and independent acoustic/listening review remain separate requirements."
+    }
+  },
+  "provider_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "observed_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ],
+        "observed": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "independent_transcript": "Do people still remember my father?",
+  "independent_segments": [
+    {
+      "start": 0.0,
+      "end": 2.68,
+      "text": " Do people still remember my father?",
+      "avg_logprob": -0.35113036930561065,
+      "no_speech_probability": 0.004297926090657711,
+      "compression_ratio": 0.813953488372093,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.56,
+          "word": " Do",
+          "probability": 0.9086846709251404
+        },
+        {
+          "start": 0.56,
+          "end": 1.04,
+          "word": " people",
+          "probability": 0.9754694700241089
+        },
+        {
+          "start": 1.04,
+          "end": 1.54,
+          "word": " still",
+          "probability": 0.9781121611595154
+        },
+        {
+          "start": 1.54,
+          "end": 1.98,
+          "word": " remember",
+          "probability": 0.9971556663513184
+        },
+        {
+          "start": 1.98,
+          "end": 2.26,
+          "word": " my",
+          "probability": 0.9943888783454895
+        },
+        {
+          "start": 2.26,
+          "end": 2.68,
+          "word": " father?",
+          "probability": 0.9849348068237305
+        }
+      ]
+    }
+  ],
+  "independent_comparison": {
+    "passed": true,
+    "status": "pending_listening",
+    "scope": "transcript_comparison_only",
+    "audio_fidelity_verified": false,
+    "expected_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "observed_tokens": [
+      "do",
+      "people",
+      "still",
+      "remember",
+      "my",
+      "father"
+    ],
+    "opcodes": [
+      {
+        "operation": "equal",
+        "expected_start": 0,
+        "expected_end": 6,
+        "observed_start": 0,
+        "observed_end": 6,
+        "expected": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ],
+        "observed": [
+          "do",
+          "people",
+          "still",
+          "remember",
+          "my",
+          "father"
+        ]
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "substitutions": [],
+    "reasons": [],
+    "normalization": "Unicode NFKC, case folding, typographic apostrophes and punctuation boundaries only; no lexical, numeric or contraction rewrites"
+  },
+  "model": {
+    "repository": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3"
+  },
+  "asr_settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "initial_prompt": null,
+    "hotwords": null,
+    "offline": true
+  },
+  "checks_passed": true,
+  "status": "candidate_checks_passed_pending_listening",
+  "human_listening_required": true,
+  "acting_approved": false,
+  "paid_api_calls": 0,
+  "asr_input": {
+    "path": "work/gateway-voice/candidates/f497db9aa5394514af0fa1d4c4ee3ac6.ogg",
+    "sha256": "d12a003bd31fd21313fd098593a78f4e468a86b81e647879b10e8fee424cdd85",
+    "preparation": "Owner-requested pitch-preserving FFmpeg atempo=1.08; Two-pass -20 LUFS / -2 dBTP loudness normalization, no word edits or trimming; mono Vorbis quality 5.",
+    "source_wav_sha256": "50eb020ae2e65d5107928c7e118f018fbf21a8ffdf049552f184a2494fa5c875"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "utc": "2026-11-15T14:00:20.390531+00:00",
+  "mode": "verify",
+  "source_revision": "dc0111fb50225af6f619a37816da20a3982b1255",
+  "source_dirty": false,
+  "automated_checks_passed": true,
+  "scope": "Development alpha automation; not release acceptance, native Windows certification, human playthrough or playtime measurement",
+  "checks": [
+    {
+      "check": "engine-version",
+      "passed": true,
+      "exit_code": 0,
+      "version": "4.7.2.stable.official.ed1daf0bf"
+    },
+    {
+      "check": "content-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "art-provenance-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "puzzle-logic",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "route-boards",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "audio-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "score-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "foley-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "opening-audio-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "campaign-audio-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "voice-production-audit",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "voice-audition-preview",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "voice-recorder-offline",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "voice-fidelity-offline",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "voice-review-exceptions",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "import",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "state-and-progression",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "ui-progression",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "detective-state",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "detective-ui",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "city-map",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "campaign-search-art",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "case-guide",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "search-layout",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "campaign-search-state",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "hidden-object-search",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "hidden-object-audio",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "environment-animation",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "audio-director",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "hotspot-presentation",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "interaction-audio",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "character-performance",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "av-ui-integration",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "source-smoke",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "export-linux",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "package-linux",
+      "passed": true,
+      "bytes": 339477217,
+      "sha256": "9fe26c83aa89ced8c51f230f0a20f278b02967ba0ff74f8fa1315ae076820be9"
+    },
+    {
+      "check": "export-windows",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "package-windows",
+      "passed": true,
+      "bytes": 349128275,
+      "sha256": "2976bd9cf9af3549b3a8fc0e3a15e2096b68a2b099bde41b24f964f7a3967aac"
+    },
+    {
+      "check": "package-source",
+      "passed": true,
+      "bytes": 635695802,
+      "sha256": "37e3a0ecce57f2d244f0d233dfca68d69fabbc404aaf4ec8ef8e44788bf23be4"
+    },
+    {
+      "check": "linux-extracted-package-smoke",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "windows-extracted-package-smoke-wine",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "native-windows-gameplay",
+      "status": "not_run",
+      "reason": "No native Windows test session performed"
+    },
+    {
+      "check": "blind-playthrough-duration",
+      "status": "not_run",
+      "reason": "Requires independent first-time players; automated answer traversal is not a duration test"
+    }
+  ]
+}
